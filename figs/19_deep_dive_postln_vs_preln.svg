@@ -1,0 +1,955 @@
+<svg data-src="19_deep_dive_postln_vs_preln.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="4430" viewBox="0 0 1880 4430">
+<style>.txfig .g38s0{font-weight:600;fill:var(--ink)}.txfig .g38s1{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g38s2{font-weight:600}.txfig .g38s3{fill:var(--code)}.txfig .g38s4{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g38s5{fill:var(--op)}.txfig .g38s6{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g38s7{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g38s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g38s9{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g38s10{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g38s11{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g38s12{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px}.txfig .g38s13{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g38s14{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g38s15{stroke:var(--gridline);stroke-width:0.8;stroke-linecap:round}.txfig .g38s16{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g38s17{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g38s18{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.4px;font-weight:600;fill:var(--ink)}.txfig .g38s19{fill:var(--kw)}.txfig .g38s20{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g38s21{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g38s22{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px}.txfig .g38s23{fill:var(--fn)}.txfig .g38s24{stroke:var(--ink3);stroke-width:1.6;stroke-linecap:round}.txfig .g38s25{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g38s26{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g38s27{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g38s28{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g38s29{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g38s30{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g38s31{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:middle}.txfig .g38s32{fill:var(--keepbg);stroke:none;stroke-width:1}.txfig .g38s33{stroke:var(--panelbd);stroke-width:1.2;stroke-linecap:round}.txfig .g38s34{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px}.txfig .g38s35{fill:var(--warnbg);stroke:none;stroke-width:1}.txfig .g38s36{fill:var(--drop);stroke:none;stroke-width:1;opacity:0.85}.txfig .g38s37{fill:var(--accent);stroke:none;stroke-width:1;opacity:0.85}.txfig .g38s38{fill:var(--accent);stroke:none;stroke-width:1}.txfig .g38s39{fill:var(--accent);stroke:none}.txfig .g38s40{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g38s41{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g38s42{stroke:var(--drop);stroke-width:4.0;stroke-linecap:round}.txfig .g38s43{fill:var(--ink3)}.txfig .g38s44{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g38s45{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g38s46{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g38s47{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g38s48{fill:var(--keep);stroke:none}.txfig .g38s49{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g38s50{fill:var(--maskbg);stroke:var(--mask);stroke-width:1.4}.txfig .g38s51{fill:var(--drop);stroke:none;stroke-width:1}.txfig .g38s52{stroke:var(--accent);stroke-width:4.0;stroke-linecap:round}.txfig .g38s53{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1}.txfig .g38s54{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600}.txfig .g38s55{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g38s56{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1.4}.txfig .g38s57{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g38s58{fill:var(--infobg);stroke:var(--infobd);stroke-width:1.4}.txfig .g38s59{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g38s60{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g38s61{fill:none;stroke:var(--accent);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}.txfig .g38s62{stroke:var(--accent);stroke-width:3;stroke-linecap:round}.txfig .g38s63{fill:none;stroke:var(--drop);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}.txfig .g38s64{stroke:var(--drop);stroke-width:3;stroke-linecap:round}.txfig .g38s65{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600}.txfig .g38s66{fill:var(--cmt)}.txfig .g38s67{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink)}.txfig .g38s68{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g38s69{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g38s70{fill:var(--codebg);stroke:var(--codebd);stroke-width:1}.txfig .g38s71{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g38s72{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g38s73{fill:var(--soft);stroke:var(--panelbd);stroke-width:1}.txfig .g38s74{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.2px;font-weight:600}.txfig .g38s75{fill:var(--cellbg);stroke:var(--drop);stroke-width:1.8}.txfig .g38s76{fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:15px;font-weight:600;text-anchor:middle}.txfig .g38s77{fill:var(--cellbg);stroke:var(--accent);stroke-width:1.8}.txfig .g38s78{fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:15px;font-weight:600;text-anchor:middle}.txfig .g38s79{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:end}.txfig .g38s80{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g38s81{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.177}.txfig .g38s82{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.239}.txfig .g38s83{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.213}.txfig .g38s84{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.13}.txfig .g38s85{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.156}.txfig .g38s86{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.217}.txfig .g38s87{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.157}.txfig .g38s88{fill:none;stroke:var(--grid);stroke-width:1.2}.txfig .g38s89{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.075}.txfig .g38s90{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.214}.txfig .g38s91{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.3}</style>
+<defs><pattern id="hatch38" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash38" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="4430" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" class="g38s38"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">DEEP DIVE</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="150.0" class="g38s2" textLength="379.8" lengthAdjust="spacing">Post-LN against Pre-LN — where one </tspan><tspan x="529.8" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)" textLength="107.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="636.8" class="g38s2" textLength="249.9" lengthAdjust="spacing"> sits, and what it changes</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g38s30" textLength="14.7" lengthAdjust="spacing">v1</tspan><tspan x="48.7">: </tspan><tspan x="55.9" class="g38s30" textLength="132.4" lengthAdjust="spacing">x = norm(x + F(x))</tspan><tspan x="188.4"> · </tspan><tspan x="199.2" class="g38s30" textLength="29.4" lengthAdjust="spacing">v1.5</tspan><tspan x="228.6">: </tspan><tspan x="235.9" class="g38s30" textLength="132.4" lengthAdjust="spacing">x = x + F(norm(x))</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="300.9" lengthAdjust="spacing">Measured on this model’s own encoder weights, and on a </tspan><tspan x="334.9" class="g38s0" textLength="46.1" lengthAdjust="spacing">48-block</tspan><tspan x="381.0" textLength="135.5" lengthAdjust="spacing"> stack — not just asserted.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="107.0" rx="8" class="g38s47"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V219.00 A7.50 7.50 0 0 0 39.50 226.07 Z" class="g38s48"/>
+<text y="147.0" xml:space="preserve" class="g38s65"><tspan x="54.0" class="g38s2" textLength="248.3" lengthAdjust="spacing">Why a whole page for one moved line</tspan></text>
+<text y="169.0" xml:space="preserve" class="g38s49"><tspan x="54.0" textLength="50.6" lengthAdjust="spacing">Between</tspan><tspan x="104.6"> </tspan><tspan x="108.5" class="g38s30" textLength="14.7" lengthAdjust="spacing">v1</tspan><tspan x="123.2"> </tspan><tspan x="127.1" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="148.8"> </tspan><tspan x="152.7" class="g38s30" textLength="29.4" lengthAdjust="spacing">v1.5</tspan><tspan x="182.1"> </tspan><tspan x="186.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="204.1"> </tspan><tspan x="208.0" class="g38s30" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="274.2"> </tspan><tspan x="278.1" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="288.2"> </tspan><tspan x="292.1" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="323.9"> </tspan><tspan x="327.8" textLength="28.2" lengthAdjust="spacing">layer</tspan><tspan x="355.9"> </tspan><tspan x="359.8" textLength="39.0" lengthAdjust="spacing">moved</tspan><tspan x="398.9"> </tspan><tspan x="402.8" textLength="26.0" lengthAdjust="spacing">from</tspan><tspan x="428.8"> </tspan><tspan x="432.7" textLength="42.6" lengthAdjust="spacing">AFTER</tspan><tspan x="475.3"> </tspan><tspan x="479.2" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="497.2"> </tspan><tspan x="501.1" textLength="45.5" lengthAdjust="spacing">addition</tspan><tspan x="546.7"> </tspan><tspan x="550.6" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="561.4"> </tspan><tspan x="565.3" textLength="53.5" lengthAdjust="spacing">BEFORE</tspan><tspan x="618.8"> </tspan><tspan x="622.7" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="640.7"> </tspan><tspan x="644.6" textLength="53.5" lengthAdjust="spacing">sub-layer</tspan><tspan x="698.1">.</tspan><tspan x="701.7"> </tspan><tspan x="705.6" textLength="10.8" lengthAdjust="spacing">In</tspan><tspan x="716.4"> </tspan><tspan x="720.3" textLength="28.2" lengthAdjust="spacing">code</tspan><tspan x="748.5"> </tspan><tspan x="752.4" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="774.1"> </tspan><tspan x="778.0" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="787.4"> </tspan><tspan x="791.3">a</tspan><tspan x="798.5"> </tspan><tspan x="802.4" textLength="46.2" lengthAdjust="spacing">one-line</tspan><tspan x="848.7"> </tspan><tspan x="852.6" textLength="46.3" lengthAdjust="spacing">change,</tspan><tspan x="898.8"> </tspan><tspan x="902.7" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="924.4"> </tspan><tspan x="928.3" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="934.8"> </tspan><tspan x="938.7" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="948.1"> </tspan><tspan x="952.0" textLength="28.9" lengthAdjust="spacing">often</tspan><tspan x="980.9"> </tspan><tspan x="984.8" textLength="49.8" lengthAdjust="spacing">summed</tspan><tspan x="1034.6"> </tspan><tspan x="1038.5" textLength="14.5" lengthAdjust="spacing">up</tspan><tspan x="1053.0"> </tspan><tspan x="1056.9" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="1067.0"> </tspan><tspan x="1070.9" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1092.6"> </tspan><tspan x="1096.5" textLength="56.4" lengthAdjust="spacing">sentence:</tspan><tspan x="1152.8"> </tspan><tspan x="1156.7">&quot;</tspan><tspan x="1161.4" textLength="41.2" lengthAdjust="spacing">Pre-LN</tspan><tspan x="1202.5"> </tspan><tspan x="1206.4" textLength="34.7" lengthAdjust="spacing">keeps</tspan><tspan x="1241.1"> </tspan><tspan x="1245.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1263.1"> </tspan><tspan x="1267.0" textLength="45.5" lengthAdjust="spacing">residual</tspan><tspan x="1312.5"> </tspan><tspan x="1316.4" textLength="25.3" lengthAdjust="spacing">path</tspan><tspan x="1341.7"> </tspan><tspan x="1345.6" textLength="34.7" lengthAdjust="spacing">clean,</tspan><tspan x="1380.3"> </tspan><tspan x="1384.2" textLength="13.7" lengthAdjust="spacing">so</tspan><tspan x="1397.9"> </tspan><tspan x="1401.8" textLength="28.9" lengthAdjust="spacing">deep</tspan><tspan x="1430.7"> </tspan><tspan x="1434.6" textLength="41.9" lengthAdjust="spacing">models</tspan><tspan x="1476.5"> </tspan><tspan x="1480.4" textLength="25.3" lengthAdjust="spacing">train</tspan><tspan x="1505.7"> </tspan><tspan x="1509.6" textLength="29.6" lengthAdjust="spacing">more</tspan><tspan x="1539.2"> </tspan><tspan x="1543.1" textLength="41.5" lengthAdjust="spacing">easily.&quot;</tspan><tspan x="1584.6"> </tspan><tspan x="1588.5" textLength="26.0" lengthAdjust="spacing">That</tspan><tspan x="1614.5"> </tspan><tspan x="1618.4" textLength="52.8" lengthAdjust="spacing">sentence</tspan><tspan x="1671.1"> </tspan><tspan x="1675.0" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1684.4"> </tspan><tspan x="1688.3" textLength="37.6" lengthAdjust="spacing">mostly</tspan><tspan x="1725.9"> </tspan><tspan x="1729.8" textLength="28.9" lengthAdjust="spacing">right,</tspan><tspan x="1758.7"> </tspan><tspan x="1762.6" textLength="18.1" lengthAdjust="spacing">but</tspan><tspan x="1780.6"> </tspan><tspan x="1784.5" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="1791.0"> </tspan><tspan x="1794.9" textLength="31.1" lengthAdjust="spacing">hides</tspan></text>
+<text y="188.0" xml:space="preserve" class="g38s49"><tspan x="54.0" textLength="27.5" lengthAdjust="spacing">what</tspan><tspan x="81.5"> </tspan><tspan x="85.3" textLength="44.1" lengthAdjust="spacing">actually</tspan><tspan x="129.3"> </tspan><tspan x="133.2" textLength="49.9" lengthAdjust="spacing">happens</tspan><tspan x="183.0"> </tspan><tspan x="186.8" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="197.7"> </tspan><tspan x="201.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="219.6"> </tspan><tspan x="223.4" textLength="54.2" lengthAdjust="spacing">numbers,</tspan><tspan x="277.6"> </tspan><tspan x="281.4" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="303.1"> </tspan><tspan x="306.9" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="313.4"> </tspan><tspan x="317.2" textLength="31.1" lengthAdjust="spacing">hides</tspan><tspan x="348.3"> </tspan><tspan x="352.1" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="370.1"> </tspan><tspan x="374.0" textLength="34.0" lengthAdjust="spacing">costs.</tspan><tspan x="407.9"> </tspan><tspan x="411.7" textLength="24.6" lengthAdjust="spacing">This</tspan><tspan x="436.3"> </tspan><tspan x="440.1" textLength="28.9" lengthAdjust="spacing">page</tspan><tspan x="469.0"> </tspan><tspan x="472.8" textLength="25.3" lengthAdjust="spacing">runs</tspan><tspan x="498.1"> </tspan><tspan x="501.9" textLength="36.1" lengthAdjust="spacing">BOTH</tspan><tspan x="538.0"> </tspan><tspan x="541.9" textLength="80.2" lengthAdjust="spacing">arrangements</tspan><tspan x="622.1"> </tspan><tspan x="625.9" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="640.3"> </tspan><tspan x="644.1" textLength="40.5" lengthAdjust="spacing">exactly</tspan><tspan x="684.6"> </tspan><tspan x="688.4" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="706.5"> </tspan><tspan x="710.3" textLength="31.8" lengthAdjust="spacing">same</tspan><tspan x="742.1"> </tspan><tspan x="745.9" textLength="44.1" lengthAdjust="spacing">weights</tspan><tspan x="790.0"> </tspan><tspan x="793.8" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="815.5"> </tspan><tspan x="819.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="837.3"> </tspan><tspan x="841.2" textLength="31.8" lengthAdjust="spacing">same</tspan><tspan x="872.9"> </tspan><tspan x="876.8" textLength="31.8" lengthAdjust="spacing">input,</tspan><tspan x="908.6"> </tspan><tspan x="912.4" textLength="13.7" lengthAdjust="spacing">so</tspan><tspan x="926.1"> </tspan><tspan x="929.9" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="948.0"> </tspan><tspan x="951.8" textLength="23.8" lengthAdjust="spacing">only</tspan><tspan x="975.6"> </tspan><tspan x="979.5" textLength="57.1" lengthAdjust="spacing">difference</tspan><tspan x="1036.5"> </tspan><tspan x="1040.4" textLength="49.1" lengthAdjust="spacing">between</tspan><tspan x="1089.5"> </tspan><tspan x="1093.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1111.4"> </tspan><tspan x="1115.2" textLength="20.2" lengthAdjust="spacing">two</tspan><tspan x="1135.4"> </tspan><tspan x="1139.2" textLength="25.3" lengthAdjust="spacing">runs</tspan><tspan x="1164.5"> </tspan><tspan x="1168.3" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1177.7"> </tspan><tspan x="1181.5" textLength="35.4" lengthAdjust="spacing">where</tspan><tspan x="1216.9"> </tspan><tspan x="1220.8" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1238.8"> </tspan><tspan x="1242.6" class="g38s30" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1308.8"> </tspan><tspan x="1312.7" textLength="23.1" lengthAdjust="spacing">sits,</tspan><tspan x="1335.8"> </tspan><tspan x="1339.6" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1361.3"> </tspan><tspan x="1365.1" textLength="25.3" lengthAdjust="spacing">then</tspan><tspan x="1390.4"> </tspan><tspan x="1394.2" textLength="34.0" lengthAdjust="spacing">builds</tspan><tspan x="1428.2"> </tspan><tspan x="1432.0">a</tspan><tspan x="1439.2"> </tspan><tspan x="1443.0" textLength="31.8" lengthAdjust="spacing">much</tspan><tspan x="1474.8"> </tspan><tspan x="1478.6" textLength="40.5" lengthAdjust="spacing">deeper</tspan><tspan x="1519.1"> </tspan><tspan x="1522.9" textLength="17.3" lengthAdjust="spacing">toy</tspan><tspan x="1540.2"> </tspan><tspan x="1544.1" textLength="30.3" lengthAdjust="spacing">stack</tspan><tspan x="1574.4"> </tspan><tspan x="1578.2" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1589.0"> </tspan><tspan x="1592.9" textLength="21.0" lengthAdjust="spacing">see</tspan><tspan x="1613.8"> </tspan><tspan x="1617.6" textLength="27.5" lengthAdjust="spacing">what</tspan><tspan x="1645.1"> </tspan><tspan x="1648.9" textLength="32.5" lengthAdjust="spacing">depth</tspan><tspan x="1681.4"> </tspan><tspan x="1685.2" textLength="31.8" lengthAdjust="spacing">does.</tspan><tspan x="1717.0"> </tspan><tspan x="1720.9" textLength="33.2" lengthAdjust="spacing">Every</tspan><tspan x="1754.1"> </tspan><tspan x="1757.9" textLength="30.3" lengthAdjust="spacing">claim</tspan><tspan x="1788.2"> </tspan><tspan x="1792.0" textLength="34.0" lengthAdjust="spacing">below</tspan></text>
+<text y="207.0" xml:space="preserve" class="g38s49"><tspan x="54.0" textLength="474.7" lengthAdjust="spacing">is either measured on this page or marked as coming from the published research.</tspan></text>
+<rect x="34.0" y="247.0" width="894.0" height="162.0" rx="6" class="g38s70"/>
+<text y="265.0" xml:space="preserve" class="g38s71"><tspan x="44.0" class="g38s72" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="55.9" class="g38s2" textLength="49.5" lengthAdjust="spacing"> · Post-LN</tspan></text>
+<text x="44.0" y="287.0" xml:space="preserve" class="g38s22"><tspan class="g38s19">def</tspan><tspan class="g38s3"> </tspan><tspan class="g38s23">forward</tspan><tspan class="g38s5">(</tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">x</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">mask</tspan><tspan class="g38s5">=</tspan><tspan class="g38s19">None</tspan><tspan class="g38s5">)</tspan><tspan class="g38s5">:</tspan><tspan class="g38s3">          </tspan><tspan class="g38s66"># EncoderLayer, v1</tspan></text>
+<text x="44.0" y="305.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s3">attn_out</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">_</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">=</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">self_attn</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">x</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">x</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">x</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">mask</tspan><tspan class="g38s5">)</tspan></text>
+<text x="44.0" y="323.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s3">x</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">=</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">norm1</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">x</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">+</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">dropout</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">attn_out</tspan><tspan class="g38s5">)</tspan><tspan class="g38s5">)</tspan></text>
+<text x="44.0" y="341.0" xml:space="preserve" class="g38s22"></text>
+<text x="44.0" y="359.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s3">ffn_out</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">=</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">ffn</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">x</tspan><tspan class="g38s5">)</tspan></text>
+<text x="44.0" y="377.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s3">x</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">=</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">norm2</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">x</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">+</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">dropout</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">ffn_out</tspan><tspan class="g38s5">)</tspan><tspan class="g38s5">)</tspan></text>
+<text x="44.0" y="395.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s19">return</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">x</tspan></text>
+<rect x="952.0" y="247.0" width="894.0" height="162.0" rx="6" class="g38s70"/>
+<text y="265.0" xml:space="preserve" class="g38s71"><tspan x="962.0" class="g38s72" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="985.8" class="g38s2" textLength="44.5" lengthAdjust="spacing"> · Pre-LN</tspan></text>
+<text x="962.0" y="287.0" xml:space="preserve" class="g38s22"><tspan class="g38s19">def</tspan><tspan class="g38s3"> </tspan><tspan class="g38s23">forward</tspan><tspan class="g38s5">(</tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">x</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">mask</tspan><tspan class="g38s5">=</tspan><tspan class="g38s19">None</tspan><tspan class="g38s5">)</tspan><tspan class="g38s5">:</tspan><tspan class="g38s3">          </tspan><tspan class="g38s66"># EncoderLayer, v1.5</tspan></text>
+<text x="962.0" y="305.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s3">h</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">=</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">norm1</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">x</tspan><tspan class="g38s5">)</tspan></text>
+<text x="962.0" y="323.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s3">attn_out</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">_</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">=</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">self_attn</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">h</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">h</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">h</tspan><tspan class="g38s5">,</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">mask</tspan><tspan class="g38s5">)</tspan></text>
+<text x="962.0" y="341.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s3">x</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">=</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">x</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">+</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">dropout</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">attn_out</tspan><tspan class="g38s5">)</tspan></text>
+<text x="962.0" y="359.0" xml:space="preserve" class="g38s22"></text>
+<text x="962.0" y="377.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s3">x</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">=</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">x</tspan><tspan class="g38s3"> </tspan><tspan class="g38s5">+</tspan><tspan class="g38s3"> </tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">dropout</tspan><tspan class="g38s5">(</tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">ffn</tspan><tspan class="g38s5">(</tspan><tspan class="g38s19">self</tspan><tspan class="g38s5">.</tspan><tspan class="g38s23">norm2</tspan><tspan class="g38s5">(</tspan><tspan class="g38s3">x</tspan><tspan class="g38s5">)</tspan><tspan class="g38s5">)</tspan><tspan class="g38s5">)</tspan></text>
+<text x="962.0" y="395.0" xml:space="preserve" class="g38s22"><tspan class="g38s3">    </tspan><tspan class="g38s19">return</tspan><tspan class="g38s3"> </tspan><tspan class="g38s3">x</tspan><tspan class="g38s3">                                 </tspan><tspan class="g38s66"># ...and encode() ends with enc_norm(x)</tspan></text>
+<text y="440.0" xml:space="preserve" class="g38s49"><tspan x="34.0" textLength="944.2" lengthAdjust="spacing">How to read this page. Section A draws the two wirings, so you can see which path x travels. Section B follows one token, &quot;dog_&quot;, through both arrangements using </tspan><tspan x="978.2" class="g38s30" textLength="29.4" lengthAdjust="spacing">v1.5</tspan><tspan x="1007.7" textLength="791.7" lengthAdjust="spacing">’s real encoder weights, with every number shown. Section C measures how much each sub-layer changes x. Section D builds a stack of</tspan></text>
+<text y="458.9" xml:space="preserve" class="g38s49"><tspan x="34.0" class="g38s0" textLength="58.2" lengthAdjust="spacing">48 blocks</tspan><tspan x="92.2" textLength="1311.6" lengthAdjust="spacing">, far deeper than this notebook, to see what depth does to the size of x, to how much each block contributes, and to the gradients. Section E puts the pros and cons side by side, and Section F checks the usual claims one by one.</tspan></text>
+<rect x="34.0" y="486.7" width="1812.0" height="30.0" rx="6" class="g38s28"/>
+<path d="M38.50 487.41 A5.50 5.50 0 0 0 34.50 492.70 V510.70 A5.50 5.50 0 0 0 38.50 515.99 Z" class="g38s39"/>
+<text y="506.7" xml:space="preserve" class="g38s40"><tspan x="50.0" class="g38s2" textLength="161.6" lengthAdjust="spacing">A · The two wirings, drawn</tspan></text>
+<text y="506.7" xml:space="preserve" class="g38s41"><tspan x="229.6" textLength="392.5" lengthAdjust="spacing">follow the thick line — the path x takes from the bottom of the stack to the top</tspan></text>
+<text y="534.7" xml:space="preserve" class="g38s27"><tspan x="38.0" class="g38s2" textLength="323.8" lengthAdjust="spacing">The whole difference is which boxes sit ON the main path</tspan></text>
+<text y="552.7" xml:space="preserve" class="g38s8"><tspan x="38.0" textLength="532.2" lengthAdjust="spacing">Both arrangements have the same sub-layers, the same residual additions and the same number of </tspan><tspan x="570.2" class="g38s21" textLength="67.9" lengthAdjust="spacing">LayerNorms</tspan><tspan x="638.2" textLength="222.8" lengthAdjust="spacing"> per layer. The only question is where the </tspan><tspan x="860.9" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="922.0" textLength="912.4" lengthAdjust="spacing"> is. In Post-LN it sits on the main path, so x itself is rescaled after every addition. In Pre-LN it sits on the side branch, so only the copy that a sub-layer reads is rescaled, and</tspan></text>
+<text y="570.1" xml:space="preserve" class="g38s8"><tspan x="38.0" textLength="73.4" lengthAdjust="spacing">x is left alone.</tspan></text>
+<rect x="34.0" y="591.5" width="894.0" height="470.0" rx="8" class="g38s73"/>
+<text y="619.5" xml:space="preserve" class="g38s65"><tspan x="52.0" class="g38s74" textLength="15.8" lengthAdjust="spacing">v1</tspan><tspan x="67.8" class="g38s2" textLength="66.0" lengthAdjust="spacing"> · Post-LN</tspan></text>
+<text x="52.0" y="641.5" style="fill:var(--drop);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.5px;font-weight:600;text-anchor:start">x = norm(x + F(x))</text>
+<rect x="79.0" y="657.5" width="150.0" height="34.0" rx="6" class="g38s56"/>
+<text x="154.0" y="678.5" class="g38s57">x from below</text>
+<line x1="154.0" y1="691.5" x2="154.0" y2="755.5" class="g38s42"/>
+<line x1="154.0" y1="711.5" x2="284.0" y2="711.5" class="g38s24"/>
+<rect x="284.0" y="694.5" width="180.0" height="34.0" rx="6" class="g38s58"/>
+<text x="374.0" y="715.6" class="g38s31">self-attention</text>
+<line x1="374.0" y1="728.5" x2="374.0" y2="766.5" class="g38s24"/>
+<line x1="374.0" y1="766.5" x2="173.0" y2="766.5" class="g38s24"/>
+<path d="M167.0 766.5 L175.2 762.8 L175.2 770.2 Z" class="g38s43"/>
+<rect x="143.0" y="755.5" width="22.0" height="22.0" rx="11" class="g38s75"/>
+<text x="154.0" y="771.5" class="g38s76">+</text>
+<line x1="154.0" y1="777.5" x2="154.0" y2="796.5" class="g38s42"/>
+<rect x="74.0" y="796.5" width="160.0" height="32.0" rx="6" class="g38s50"/>
+<text x="154.0" y="816.6" class="g38s31">norm1 · LayerNorm</text>
+<line x1="154.0" y1="828.5" x2="154.0" y2="900.5" class="g38s42"/>
+<line x1="154.0" y1="856.5" x2="284.0" y2="856.5" class="g38s24"/>
+<rect x="284.0" y="839.5" width="180.0" height="34.0" rx="6" class="g38s58"/>
+<text x="374.0" y="860.6" class="g38s31">feed-forward</text>
+<line x1="374.0" y1="873.5" x2="374.0" y2="911.5" class="g38s24"/>
+<line x1="374.0" y1="911.5" x2="173.0" y2="911.5" class="g38s24"/>
+<path d="M167.0 911.5 L175.2 907.8 L175.2 915.2 Z" class="g38s43"/>
+<rect x="143.0" y="900.5" width="22.0" height="22.0" rx="11" class="g38s75"/>
+<text x="154.0" y="916.5" class="g38s76">+</text>
+<line x1="154.0" y1="922.5" x2="154.0" y2="941.5" class="g38s42"/>
+<rect x="74.0" y="941.5" width="160.0" height="32.0" rx="6" class="g38s50"/>
+<text x="154.0" y="961.6" class="g38s31">norm2 · LayerNorm</text>
+<line x1="154.0" y1="973.5" x2="154.0" y2="995.5" class="g38s42"/>
+<line x1="154.0" y1="995.5" x2="154.0" y2="1002.5" class="g38s42"/>
+<path d="M154.0 1009.5 L149.7 999.9 L158.3 999.9 Z" style="fill:var(--drop)"/>
+<rect x="54.0" y="1013.5" width="200.0" height="34.0" rx="6" class="g38s56"/>
+<text x="154.0" y="1034.5" class="g38s57">next layer  (× 2), then out</text>
+<rect x="540.0" y="672.5" width="6.0" height="6.0" rx="3" class="g38s51"/>
+<text y="679.5" xml:space="preserve" class="g38s8"><tspan x="554.0" textLength="352.8" lengthAdjust="spacing">The thick line is the path x takes up the stack. It runs THROUGH a</tspan></text>
+<text y="696.9" xml:space="preserve" class="g38s8"><tspan x="554.0" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="615.1" textLength="196.1" lengthAdjust="spacing"> after every addition — two per layer.</tspan></text>
+<rect x="540.0" y="719.3" width="6.0" height="6.0" rx="3" class="g38s51"/>
+<text y="726.3" xml:space="preserve" class="g38s8"><tspan x="554.0" textLength="196.7" lengthAdjust="spacing">So x is rescaled twice in every layer: </tspan><tspan x="750.7" class="g38s0" textLength="41.0" lengthAdjust="spacing">4 times</tspan><tspan x="791.7" textLength="38.0" lengthAdjust="spacing"> in this </tspan><tspan x="829.7" class="g38s0" textLength="38.9" lengthAdjust="spacing">2-layer</tspan></text>
+<text y="743.7" xml:space="preserve" class="g38s8"><tspan x="554.0" textLength="50.0" lengthAdjust="spacing">encoder, </tspan><tspan x="604.0" class="g38s0" textLength="48.1" lengthAdjust="spacing">96 times</tspan><tspan x="652.1" textLength="26.0" lengthAdjust="spacing"> in a </tspan><tspan x="678.1" class="g38s0" textLength="45.9" lengthAdjust="spacing">48-layer</tspan><tspan x="724.1" textLength="26.7" lengthAdjust="spacing"> one.</tspan></text>
+<rect x="540.0" y="766.1" width="6.0" height="6.0" rx="3" class="g38s51"/>
+<text y="773.1" xml:space="preserve" class="g38s8"><tspan x="554.0" textLength="243.9" lengthAdjust="spacing">Every step leaves x at the same size: length √</tspan><tspan x="797.9" class="g38s0" textLength="21.2" lengthAdjust="spacing">512</tspan><tspan x="819.1"> ≈ </tspan><tspan x="833.0" class="g38s0" textLength="24.8" lengthAdjust="spacing">22.6</tspan><tspan x="857.7" textLength="27.3" lengthAdjust="spacing"> after</tspan></text>
+<text y="790.5" xml:space="preserve" class="g38s8"><tspan x="554.0" textLength="29.4" lengthAdjust="spacing">each </tspan><tspan x="583.4" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="644.5" textLength="197.4" lengthAdjust="spacing">, however much the sub-layer added.</tspan></text>
+<rect x="540.0" y="812.9" width="6.0" height="6.0" rx="3" class="g38s51"/>
+<text y="819.9" xml:space="preserve" class="g38s8"><tspan x="554.0" textLength="348.8" lengthAdjust="spacing">Each sub-layer reads x itself, at whatever size the last norm left it.</tspan></text>
+<rect x="540.0" y="842.3" width="6.0" height="6.0" rx="3" class="g38s51"/>
+<text y="849.3" xml:space="preserve" class="g38s8"><tspan x="554.0" textLength="48.7" lengthAdjust="spacing">No extra </tspan><tspan x="602.7" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="663.8" textLength="238.2" lengthAdjust="spacing"> is needed at the end: the last thing the stack</tspan></text>
+<text y="866.7" xml:space="preserve" class="g38s8"><tspan x="554.0" textLength="99.4" lengthAdjust="spacing">did was normalise.</tspan></text>
+<rect x="952.0" y="591.5" width="894.0" height="470.0" rx="8" class="g38s73"/>
+<text y="619.5" xml:space="preserve" class="g38s65"><tspan x="970.0" class="g38s74" textLength="31.7" lengthAdjust="spacing">v1.5</tspan><tspan x="1001.7" class="g38s2" textLength="59.4" lengthAdjust="spacing"> · Pre-LN</tspan></text>
+<text x="970.0" y="641.5" style="fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.5px;font-weight:600;text-anchor:start">x = x + F(norm(x))</text>
+<rect x="997.0" y="657.5" width="150.0" height="34.0" rx="6" class="g38s56"/>
+<text x="1072.0" y="678.5" class="g38s57">x from below</text>
+<line x1="1072.0" y1="691.5" x2="1072.0" y2="755.5" class="g38s52"/>
+<line x1="1072.0" y1="711.5" x2="1157.0" y2="711.5" class="g38s24"/>
+<rect x="1157.0" y="695.5" width="110.0" height="32.0" rx="6" class="g38s50"/>
+<text x="1212.0" y="715.6" class="g38s31">norm1</text>
+<line x1="1267.0" y1="711.5" x2="1286.0" y2="711.5" class="g38s24"/>
+<path d="M1292.0 711.5 L1283.8 715.2 L1283.8 707.8 Z" class="g38s43"/>
+<rect x="1292.0" y="694.5" width="160.0" height="34.0" rx="6" class="g38s58"/>
+<text x="1372.0" y="715.6" class="g38s31">self-attention</text>
+<line x1="1372.0" y1="728.5" x2="1372.0" y2="766.5" class="g38s24"/>
+<line x1="1372.0" y1="766.5" x2="1091.0" y2="766.5" class="g38s24"/>
+<path d="M1085.0 766.5 L1093.2 762.8 L1093.2 770.2 Z" class="g38s43"/>
+<rect x="1061.0" y="755.5" width="22.0" height="22.0" rx="11" class="g38s77"/>
+<text x="1072.0" y="771.5" class="g38s78">+</text>
+<line x1="1072.0" y1="777.5" x2="1072.0" y2="850.5" class="g38s52"/>
+<line x1="1072.0" y1="806.5" x2="1157.0" y2="806.5" class="g38s24"/>
+<rect x="1157.0" y="790.5" width="110.0" height="32.0" rx="6" class="g38s50"/>
+<text x="1212.0" y="810.6" class="g38s31">norm2</text>
+<line x1="1267.0" y1="806.5" x2="1286.0" y2="806.5" class="g38s24"/>
+<path d="M1292.0 806.5 L1283.8 810.2 L1283.8 802.8 Z" class="g38s43"/>
+<rect x="1292.0" y="789.5" width="160.0" height="34.0" rx="6" class="g38s58"/>
+<text x="1372.0" y="810.6" class="g38s31">feed-forward</text>
+<line x1="1372.0" y1="823.5" x2="1372.0" y2="861.5" class="g38s24"/>
+<line x1="1372.0" y1="861.5" x2="1091.0" y2="861.5" class="g38s24"/>
+<path d="M1085.0 861.5 L1093.2 857.8 L1093.2 865.2 Z" class="g38s43"/>
+<rect x="1061.0" y="850.5" width="22.0" height="22.0" rx="11" class="g38s77"/>
+<text x="1072.0" y="866.5" class="g38s78">+</text>
+<line x1="1072.0" y1="872.5" x2="1072.0" y2="941.5" class="g38s52"/>
+<text x="1090.0" y="909.5" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start">× 2 layers — additions only</text>
+<rect x="992.0" y="941.5" width="160.0" height="32.0" rx="6" class="g38s50"/>
+<text x="1072.0" y="961.6" class="g38s31">enc_norm · once</text>
+<line x1="1072.0" y1="973.5" x2="1072.0" y2="995.5" class="g38s52"/>
+<line x1="1072.0" y1="995.5" x2="1072.0" y2="1002.5" class="g38s52"/>
+<path d="M1072.0 1009.5 L1067.7 999.9 L1076.3 999.9 Z" style="fill:var(--accent)"/>
+<rect x="972.0" y="1013.5" width="200.0" height="34.0" rx="6" class="g38s56"/>
+<text x="1072.0" y="1034.5" class="g38s57">enc_out</text>
+<rect x="1458.0" y="672.5" width="6.0" height="6.0" rx="3" class="g38s38"/>
+<text y="679.5" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="202.8" lengthAdjust="spacing">The thick line never passes through a </tspan><tspan x="1674.8" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1735.9" textLength="77.4" lengthAdjust="spacing"> inside a layer:</tspan></text>
+<text y="696.9" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="279.0" lengthAdjust="spacing">the only thing that happens to x on the way up is &quot;+&quot;.</tspan></text>
+<rect x="1458.0" y="719.3" width="6.0" height="6.0" rx="3" class="g38s38"/>
+<text y="726.3" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="226.1" lengthAdjust="spacing">Each sub-layer reads a normalised COPY </tspan><tspan x="1698.1" class="g38s21" textLength="95.1" lengthAdjust="spacing">(norm1, norm2)</tspan><tspan x="1793.1" textLength="19.3" lengthAdjust="spacing">, so</tspan></text>
+<text y="743.7" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="180.6" lengthAdjust="spacing">what it reads always has length ≈ </tspan><tspan x="1652.6" class="g38s0" textLength="24.8" lengthAdjust="spacing">22.6</tspan><tspan x="1677.4"> …</tspan></text>
+<rect x="1458.0" y="766.1" width="6.0" height="6.0" rx="3" class="g38s38"/>
+<text y="773.1" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="328.1" lengthAdjust="spacing">… but x itself is never rescaled, so it keeps getting longer with</tspan></text>
+<text y="790.5" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="78.0" lengthAdjust="spacing">every addition.</tspan></text>
+<rect x="1458.0" y="812.9" width="6.0" height="6.0" rx="3" class="g38s38"/>
+<text y="819.9" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="215.4" lengthAdjust="spacing">That is why the stack needs exactly one </tspan><tspan x="1687.4" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1748.6" textLength="59.4" lengthAdjust="spacing"> at the very</tspan></text>
+<text y="837.3" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="27.3" lengthAdjust="spacing">end (</tspan><tspan x="1499.3" class="g38s21" textLength="54.3" lengthAdjust="spacing">enc_norm</tspan><tspan x="1553.7" textLength="127.4" lengthAdjust="spacing">), and none on the path.</tspan></text>
+<rect x="1458.0" y="859.7" width="6.0" height="6.0" rx="3" class="g38s38"/>
+<text y="866.7" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="333.7" lengthAdjust="spacing">A gradient can travel from the top to the bottom through the &quot;+&quot;</tspan></text>
+<text y="884.1" xml:space="preserve" class="g38s8"><tspan x="1472.0" textLength="184.1" lengthAdjust="spacing">nodes alone, completely unscaled.</tspan></text>
+<rect x="34.0" y="1089.5" width="1812.0" height="30.0" rx="6" class="g38s28"/>
+<path d="M38.50 1090.21 A5.50 5.50 0 0 0 34.50 1095.50 V1113.50 A5.50 5.50 0 0 0 38.50 1118.79 Z" class="g38s39"/>
+<text y="1109.5" xml:space="preserve" class="g38s40"><tspan x="50.0" class="g38s2" textLength="370.7" lengthAdjust="spacing">B · Same weights, same input — the numbers at every stage</tspan></text>
+<text y="1109.5" xml:space="preserve" class="g38s41"><tspan x="438.7" class="g38s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="464.7" textLength="273.3" lengthAdjust="spacing">’s encoder weights · sequence A · the token &quot;dog_&quot; · </tspan><tspan x="738.1" class="g38s7" textLength="45.6" lengthAdjust="spacing">dropout</tspan><tspan x="783.6" textLength="16.0" lengthAdjust="spacing"> off</tspan></text>
+<text y="1137.5" xml:space="preserve" class="g38s27"><tspan x="38.0" class="g38s2" textLength="284.9" lengthAdjust="spacing">What the two arrangements do to the actual matrix</tspan></text>
+<text y="1155.5" xml:space="preserve" class="g38s8"><tspan x="38.0" textLength="300.1" lengthAdjust="spacing">Each row below is one moment in the encoder, showing </tspan><tspan x="338.1" class="g38s0">4</tspan><tspan x="345.2" textLength="82.6" lengthAdjust="spacing"> of the token’s </tspan><tspan x="427.8" class="g38s0" textLength="74.2" lengthAdjust="spacing">512 numbers</tspan><tspan x="502.0" textLength="150.8" lengthAdjust="spacing"> and the length of the whole </tspan><tspan x="652.8" class="g38s0" textLength="68.6" lengthAdjust="spacing">512-number</tspan><tspan x="721.4" textLength="230.2" lengthAdjust="spacing"> vector (‖row‖). Green lengths are exactly √</tspan><tspan x="951.5" class="g38s0" textLength="21.2" lengthAdjust="spacing">512</tspan><tspan x="972.7"> ≈ </tspan><tspan x="986.6" class="g38s0" textLength="31.8" lengthAdjust="spacing">22.63</tspan><tspan x="1018.4" textLength="28.7" lengthAdjust="spacing"> — a </tspan><tspan x="1047.1" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1108.2" textLength="699.0" lengthAdjust="spacing"> just ran. The weights are identical in both tables; the outputs still differ, because each sub-layer is handed a different input: Post-LN</tspan></text>
+<text y="1172.9" xml:space="preserve" class="g38s8"><tspan x="38.0" textLength="144.7" lengthAdjust="spacing">hands it x, Pre-LN hands it </tspan><tspan x="182.7" class="g38s21" textLength="47.5" lengthAdjust="spacing">norm(x)</tspan><tspan x="230.3">.</tspan></text>
+<text y="1205.3" xml:space="preserve" class="g38s11"><tspan x="34.0" class="g38s7" textLength="13.0" lengthAdjust="spacing">v1</tspan><tspan x="47.0" class="g38s2" textLength="188.9" lengthAdjust="spacing"> · Post-LN — &quot;dog_&quot; at every stage</tspan></text>
+<text x="762.0" y="1205.3" class="g38s79">cols 0, 1, 2 … 511  +  length</text>
+<text y="1228.3" xml:space="preserve" class="g38s34"><tspan x="363.4" class="g38s0" textLength="21.3" lengthAdjust="spacing">col 0</tspan></text>
+<text y="1228.3" xml:space="preserve" class="g38s34"><tspan x="443.4" class="g38s0" textLength="21.3" lengthAdjust="spacing">col 1</tspan></text>
+<text y="1228.3" xml:space="preserve" class="g38s34"><tspan x="523.4" class="g38s0" textLength="21.3" lengthAdjust="spacing">col 2</tspan></text>
+<text y="1228.3" xml:space="preserve" class="g38s34"><tspan x="702.8" class="g38s0" textLength="32.5" lengthAdjust="spacing">col 511</tspan></text>
+<rect x="334.0" y="1234.3" width="428.0" height="312.0" rx="3" class="g38s80"/>
+<text y="1250.6" xml:space="preserve" class="g38s12"><tspan x="279.1" textLength="48.9" lengthAdjust="spacing">x, the input</tspan></text>
+<rect x="334.6" y="1234.9" width="78.8" height="22.8" rx="0" class="g38s81"/>
+<text x="374.0" y="1250.6" class="g38s1">0.816</text>
+<rect x="414.6" y="1234.9" width="78.8" height="22.8" rx="0" class="g38s82"/>
+<text x="454.0" y="1250.6" class="g38s1">-1.208</text>
+<rect x="494.6" y="1234.9" width="78.8" height="22.8" rx="0" class="g38s83"/>
+<text x="534.0" y="1250.6" class="g38s1">1.044</text>
+<text x="585.0" y="1250.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1234.9" width="78.8" height="22.8" rx="0" class="g38s84"/>
+<text x="636.0" y="1250.6" class="g38s1">-0.509</text>
+<text x="719.0" y="1250.6" class="g38s14">35.12</text>
+<text y="1274.6" xml:space="preserve" class="g38s12"><tspan x="248.2" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="280.0"> · </tspan><tspan x="288.4" class="g38s18" textLength="39.6" lengthAdjust="spacing">attn(x)</tspan></text>
+<rect x="334.6" y="1258.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.071"/>
+<text x="374.0" y="1274.6" class="g38s1">-0.136</text>
+<rect x="414.6" y="1258.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.132"/>
+<text x="454.0" y="1274.6" class="g38s1">-0.522</text>
+<rect x="494.6" y="1258.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.1"/>
+<text x="534.0" y="1274.6" class="g38s1">0.322</text>
+<text x="585.0" y="1274.6" class="g38s13">⋯</text>
+<text x="636.0" y="1274.6" class="g38s1">0.076</text>
+<text x="719.0" y="1274.6" class="g38s14">25.63</text>
+<text y="1298.6" xml:space="preserve" class="g38s12"><tspan x="254.8" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="286.6" textLength="41.4" lengthAdjust="spacing"> · x + attn</tspan></text>
+<rect x="334.6" y="1282.9" width="78.8" height="22.8" rx="0" class="g38s85"/>
+<text x="374.0" y="1298.6" class="g38s1">0.680</text>
+<rect x="414.6" y="1282.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.3"/>
+<text x="454.0" y="1298.6" class="g38s1">-1.730</text>
+<rect x="494.6" y="1282.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.263"/>
+<text x="534.0" y="1298.6" class="g38s1">1.366</text>
+<text x="585.0" y="1298.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1282.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.118"/>
+<text x="636.0" y="1298.6" class="g38s1">-0.434</text>
+<rect x="676.6" y="1282.9" width="84.8" height="22.8" rx="0" class="g38s35"/>
+<text x="719.0" y="1298.6" class="g38s14">42.04</text>
+<text y="1322.6" xml:space="preserve" class="g38s12"><tspan x="208.6" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="240.4"> · </tspan><tspan x="248.8" class="g38s18" textLength="79.2" lengthAdjust="spacing">norm(x + attn)</tspan></text>
+<text x="374.0" y="1322.6" class="g38s1">0.018</text>
+<rect x="414.6" y="1306.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.263"/>
+<text x="454.0" y="1322.6" class="g38s1">-1.366</text>
+<rect x="494.6" y="1306.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.114"/>
+<text x="534.0" y="1322.6" class="g38s1">0.412</text>
+<text x="585.0" y="1322.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1306.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.147"/>
+<text x="636.0" y="1322.6" class="g38s1">-0.621</text>
+<rect x="676.6" y="1306.9" width="84.8" height="22.8" rx="0" class="g38s32"/>
+<text x="719.0" y="1322.6" class="g38s14">22.63</text>
+<text y="1346.6" xml:space="preserve" class="g38s12"><tspan x="253.9" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="285.7"> · </tspan><tspan x="294.0" class="g38s18" textLength="34.0" lengthAdjust="spacing">ffn(x)</tspan></text>
+<rect x="334.6" y="1330.9" width="78.8" height="22.8" rx="0" class="g38s85"/>
+<text x="374.0" y="1346.6" class="g38s1">0.679</text>
+<text x="454.0" y="1346.6" class="g38s1">0.015</text>
+<rect x="494.6" y="1330.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.134"/>
+<text x="534.0" y="1346.6" class="g38s1">0.540</text>
+<text x="585.0" y="1346.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1330.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.116"/>
+<text x="636.0" y="1346.6" class="g38s1">-0.423</text>
+<text x="719.0" y="1346.6" class="g38s14">12.07</text>
+<text y="1370.6" xml:space="preserve" class="g38s12"><tspan x="254.5" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="286.3" textLength="24.7" lengthAdjust="spacing"> · x + </tspan><tspan x="311.0" class="g38s18" textLength="17.0" lengthAdjust="spacing">ffn</tspan></text>
+<rect x="334.6" y="1354.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.159"/>
+<text x="374.0" y="1370.6" class="g38s1">0.698</text>
+<rect x="414.6" y="1354.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.261"/>
+<text x="454.0" y="1370.6" class="g38s1">-1.350</text>
+<rect x="494.6" y="1354.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.199"/>
+<text x="534.0" y="1370.6" class="g38s1">0.952</text>
+<text x="585.0" y="1370.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1354.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.213"/>
+<text x="636.0" y="1370.6" class="g38s1">-1.044</text>
+<rect x="676.6" y="1354.9" width="84.8" height="22.8" rx="0" class="g38s35"/>
+<text x="719.0" y="1370.6" class="g38s14">26.75</text>
+<text y="1394.6" xml:space="preserve" class="g38s12"><tspan x="214.3" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="246.1"> · </tspan><tspan x="254.4" class="g38s18" textLength="73.6" lengthAdjust="spacing">norm(x + ffn)</tspan></text>
+<rect x="334.6" y="1378.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.141"/>
+<text x="374.0" y="1394.6" class="g38s1">0.579</text>
+<rect x="414.6" y="1378.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.23"/>
+<text x="454.0" y="1394.6" class="g38s1">-1.153</text>
+<rect x="494.6" y="1378.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.174"/>
+<text x="534.0" y="1394.6" class="g38s1">0.794</text>
+<text x="585.0" y="1394.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1378.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.19"/>
+<text x="636.0" y="1394.6" class="g38s1">-0.894</text>
+<rect x="676.6" y="1378.9" width="84.8" height="22.8" rx="0" class="g38s32"/>
+<text x="719.0" y="1394.6" class="g38s14">22.63</text>
+<text y="1418.6" xml:space="preserve" class="g38s12"><tspan x="248.2" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="280.0"> · </tspan><tspan x="288.4" class="g38s18" textLength="39.6" lengthAdjust="spacing">attn(x)</tspan></text>
+<rect x="334.6" y="1402.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.093"/>
+<text x="374.0" y="1418.6" class="g38s1">-0.273</text>
+<rect x="414.6" y="1402.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.113"/>
+<text x="454.0" y="1418.6" class="g38s1">0.406</text>
+<rect x="494.6" y="1402.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.123"/>
+<text x="534.0" y="1418.6" class="g38s1">-0.469</text>
+<text x="585.0" y="1418.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1402.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.077"/>
+<text x="636.0" y="1418.6" class="g38s1">-0.173</text>
+<text x="719.0" y="1418.6" class="g38s14">15.54</text>
+<text y="1442.6" xml:space="preserve" class="g38s12"><tspan x="254.8" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="286.6" textLength="41.4" lengthAdjust="spacing"> · x + attn</tspan></text>
+<rect x="334.6" y="1426.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.098"/>
+<text x="374.0" y="1442.6" class="g38s1">0.307</text>
+<rect x="414.6" y="1426.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.167"/>
+<text x="454.0" y="1442.6" class="g38s1">-0.747</text>
+<rect x="494.6" y="1426.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.101"/>
+<text x="534.0" y="1442.6" class="g38s1">0.325</text>
+<text x="585.0" y="1442.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1426.9" width="78.8" height="22.8" rx="0" class="g38s86"/>
+<text x="636.0" y="1442.6" class="g38s1">-1.067</text>
+<rect x="676.6" y="1426.9" width="84.8" height="22.8" rx="0" class="g38s35"/>
+<text x="719.0" y="1442.6" class="g38s14">27.53</text>
+<text y="1466.6" xml:space="preserve" class="g38s12"><tspan x="208.6" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="240.4"> · </tspan><tspan x="248.8" class="g38s18" textLength="79.2" lengthAdjust="spacing">norm(x + attn)</tspan></text>
+<rect x="334.6" y="1450.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.092"/>
+<text x="374.0" y="1466.6" class="g38s1">0.271</text>
+<rect x="414.6" y="1450.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.143"/>
+<text x="454.0" y="1466.6" class="g38s1">-0.595</text>
+<rect x="494.6" y="1450.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.095"/>
+<text x="534.0" y="1466.6" class="g38s1">0.286</text>
+<text x="585.0" y="1466.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1450.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.184"/>
+<text x="636.0" y="1466.6" class="g38s1">-0.859</text>
+<rect x="676.6" y="1450.9" width="84.8" height="22.8" rx="0" class="g38s32"/>
+<text x="719.0" y="1466.6" class="g38s14">22.63</text>
+<text y="1490.6" xml:space="preserve" class="g38s12"><tspan x="253.9" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="285.7"> · </tspan><tspan x="294.0" class="g38s18" textLength="34.0" lengthAdjust="spacing">ffn(x)</tspan></text>
+<rect x="334.6" y="1474.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.2"/>
+<text x="374.0" y="1490.6" class="g38s1">-0.957</text>
+<text x="454.0" y="1490.6" class="g38s1">0.040</text>
+<rect x="494.6" y="1474.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.068"/>
+<text x="534.0" y="1490.6" class="g38s1">-0.117</text>
+<text x="585.0" y="1490.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1474.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.088"/>
+<text x="636.0" y="1490.6" class="g38s1">-0.244</text>
+<text x="719.0" y="1490.6" class="g38s14">10.89</text>
+<text y="1514.6" xml:space="preserve" class="g38s12"><tspan x="254.5" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="286.3" textLength="24.7" lengthAdjust="spacing"> · x + </tspan><tspan x="311.0" class="g38s18" textLength="17.0" lengthAdjust="spacing">ffn</tspan></text>
+<rect x="334.6" y="1498.9" width="78.8" height="22.8" rx="0" class="g38s87"/>
+<text x="374.0" y="1514.6" class="g38s1">-0.686</text>
+<rect x="414.6" y="1498.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.137"/>
+<text x="454.0" y="1514.6" class="g38s1">-0.556</text>
+<rect x="494.6" y="1498.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.076"/>
+<text x="534.0" y="1514.6" class="g38s1">0.169</text>
+<text x="585.0" y="1514.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1498.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.222"/>
+<text x="636.0" y="1514.6" class="g38s1">-1.103</text>
+<rect x="676.6" y="1498.9" width="84.8" height="22.8" rx="0" class="g38s35"/>
+<text x="719.0" y="1514.6" class="g38s14">25.06</text>
+<text y="1538.6" xml:space="preserve" class="g38s12"><tspan x="214.3" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="246.1"> · </tspan><tspan x="254.4" class="g38s18" textLength="73.6" lengthAdjust="spacing">norm(x + ffn)</tspan></text>
+<rect x="334.6" y="1522.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.144"/>
+<text x="374.0" y="1538.6" class="g38s1">-0.603</text>
+<rect x="414.6" y="1522.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.126"/>
+<text x="454.0" y="1538.6" class="g38s1">-0.485</text>
+<rect x="494.6" y="1522.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.077"/>
+<text x="534.0" y="1538.6" class="g38s1">0.170</text>
+<text x="585.0" y="1538.6" class="g38s13">⋯</text>
+<rect x="596.6" y="1522.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.203"/>
+<text x="636.0" y="1538.6" class="g38s1">-0.979</text>
+<rect x="676.6" y="1522.9" width="84.8" height="22.8" rx="0" class="g38s32"/>
+<text x="719.0" y="1538.6" class="g38s14">22.63</text>
+<line x1="414.0" y1="1234.3" x2="414.0" y2="1546.3" class="g38s4"/>
+<line x1="494.0" y1="1234.3" x2="494.0" y2="1546.3" class="g38s4"/>
+<line x1="574.0" y1="1234.3" x2="574.0" y2="1546.3" class="g38s4"/>
+<line x1="596.0" y1="1234.3" x2="596.0" y2="1546.3" class="g38s4"/>
+<line x1="676.0" y1="1234.3" x2="676.0" y2="1546.3" class="g38s4"/>
+<line x1="334.0" y1="1258.3" x2="762.0" y2="1258.3" class="g38s4"/>
+<line x1="334.0" y1="1282.3" x2="762.0" y2="1282.3" class="g38s4"/>
+<line x1="334.0" y1="1306.3" x2="762.0" y2="1306.3" class="g38s4"/>
+<line x1="334.0" y1="1330.3" x2="762.0" y2="1330.3" class="g38s4"/>
+<line x1="334.0" y1="1354.3" x2="762.0" y2="1354.3" class="g38s4"/>
+<line x1="334.0" y1="1378.3" x2="762.0" y2="1378.3" class="g38s4"/>
+<line x1="334.0" y1="1402.3" x2="762.0" y2="1402.3" class="g38s4"/>
+<line x1="334.0" y1="1426.3" x2="762.0" y2="1426.3" class="g38s4"/>
+<line x1="334.0" y1="1450.3" x2="762.0" y2="1450.3" class="g38s4"/>
+<line x1="334.0" y1="1474.3" x2="762.0" y2="1474.3" class="g38s4"/>
+<line x1="334.0" y1="1498.3" x2="762.0" y2="1498.3" class="g38s4"/>
+<line x1="334.0" y1="1522.3" x2="762.0" y2="1522.3" class="g38s4"/>
+<rect x="334.0" y="1234.3" width="428.0" height="312.0" rx="3" class="g38s88"/>
+<text y="1205.3" xml:space="preserve" class="g38s11"><tspan x="952.0" class="g38s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="978.0" class="g38s2" textLength="183.5" lengthAdjust="spacing"> · Pre-LN — &quot;dog_&quot; at every stage</tspan></text>
+<text x="1680.0" y="1205.3" class="g38s79">cols 0, 1, 2 … 511  +  length</text>
+<text y="1228.3" xml:space="preserve" class="g38s34"><tspan x="1281.4" class="g38s0" textLength="21.3" lengthAdjust="spacing">col 0</tspan></text>
+<text y="1228.3" xml:space="preserve" class="g38s34"><tspan x="1361.4" class="g38s0" textLength="21.3" lengthAdjust="spacing">col 1</tspan></text>
+<text y="1228.3" xml:space="preserve" class="g38s34"><tspan x="1441.4" class="g38s0" textLength="21.3" lengthAdjust="spacing">col 2</tspan></text>
+<text y="1228.3" xml:space="preserve" class="g38s34"><tspan x="1620.8" class="g38s0" textLength="32.5" lengthAdjust="spacing">col 511</tspan></text>
+<rect x="1252.0" y="1234.3" width="428.0" height="336.0" rx="3" class="g38s80"/>
+<text y="1250.6" xml:space="preserve" class="g38s12"><tspan x="1197.1" textLength="48.9" lengthAdjust="spacing">x, the input</tspan></text>
+<rect x="1252.6" y="1234.9" width="78.8" height="22.8" rx="0" class="g38s81"/>
+<text x="1292.0" y="1250.6" class="g38s1">0.816</text>
+<rect x="1332.6" y="1234.9" width="78.8" height="22.8" rx="0" class="g38s82"/>
+<text x="1372.0" y="1250.6" class="g38s1">-1.208</text>
+<rect x="1412.6" y="1234.9" width="78.8" height="22.8" rx="0" class="g38s83"/>
+<text x="1452.0" y="1250.6" class="g38s1">1.044</text>
+<text x="1503.0" y="1250.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1234.9" width="78.8" height="22.8" rx="0" class="g38s84"/>
+<text x="1554.0" y="1250.6" class="g38s1">-0.509</text>
+<text x="1637.0" y="1250.6" class="g38s14">35.12</text>
+<text y="1274.6" xml:space="preserve" class="g38s12"><tspan x="1143.6" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="1175.4"> · </tspan><tspan x="1183.8" class="g38s18" textLength="62.2" lengthAdjust="spacing">h = norm(x)</tspan></text>
+<text x="1292.0" y="1274.6" class="g38s1">0.085</text>
+<rect x="1332.6" y="1258.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.265"/>
+<text x="1372.0" y="1274.6" class="g38s1">-1.374</text>
+<rect x="1412.6" y="1258.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.089"/>
+<text x="1452.0" y="1274.6" class="g38s1">0.250</text>
+<text x="1503.0" y="1274.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1258.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.186"/>
+<text x="1554.0" y="1274.6" class="g38s1">-0.870</text>
+<rect x="1594.6" y="1258.9" width="84.8" height="22.8" rx="0" class="g38s32"/>
+<text x="1637.0" y="1274.6" class="g38s14">22.63</text>
+<text y="1298.6" xml:space="preserve" class="g38s12"><tspan x="1166.2" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="1198.0"> · </tspan><tspan x="1206.4" class="g38s18" textLength="39.6" lengthAdjust="spacing">attn(h)</tspan></text>
+<rect x="1252.6" y="1282.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.065"/>
+<text x="1292.0" y="1298.6" class="g38s1">0.099</text>
+<rect x="1332.6" y="1282.9" width="78.8" height="22.8" rx="0" class="g38s89"/>
+<text x="1372.0" y="1298.6" class="g38s1">0.160</text>
+<rect x="1412.6" y="1282.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.1"/>
+<text x="1452.0" y="1298.6" class="g38s1">-0.320</text>
+<text x="1503.0" y="1298.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1282.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.104"/>
+<text x="1554.0" y="1298.6" class="g38s1">0.347</text>
+<text x="1637.0" y="1298.6" class="g38s14">11.59</text>
+<text y="1322.6" xml:space="preserve" class="g38s12"><tspan x="1172.8" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="1204.6" textLength="41.4" lengthAdjust="spacing"> · x + attn</tspan></text>
+<rect x="1252.6" y="1306.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.193"/>
+<text x="1292.0" y="1322.6" class="g38s1">0.914</text>
+<rect x="1332.6" y="1306.9" width="78.8" height="22.8" rx="0" class="g38s90"/>
+<text x="1372.0" y="1322.6" class="g38s1">-1.048</text>
+<rect x="1412.6" y="1306.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.163"/>
+<text x="1452.0" y="1322.6" class="g38s1">0.724</text>
+<text x="1503.0" y="1322.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1306.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.075"/>
+<text x="1554.0" y="1322.6" class="g38s1">-0.162</text>
+<rect x="1594.6" y="1306.9" width="84.8" height="22.8" rx="0" class="g38s35"/>
+<text x="1637.0" y="1322.6" class="g38s14">36.24</text>
+<text y="1346.6" xml:space="preserve" class="g38s12"><tspan x="1112.9" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="1144.7"> · </tspan><tspan x="1153.0" class="g38s18" textLength="39.6" lengthAdjust="spacing">norm(x)</tspan><tspan x="1192.6" textLength="53.4" lengthAdjust="spacing"> for the FFN</tspan></text>
+<rect x="1252.6" y="1330.9" width="78.8" height="22.8" rx="0" class="g38s89"/>
+<text x="1292.0" y="1346.6" class="g38s1">0.162</text>
+<rect x="1332.6" y="1330.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.236"/>
+<text x="1372.0" y="1346.6" class="g38s1">-1.191</text>
+<text x="1452.0" y="1346.6" class="g38s1">0.031</text>
+<text x="1503.0" y="1346.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1330.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.141"/>
+<text x="1554.0" y="1346.6" class="g38s1">-0.580</text>
+<rect x="1594.6" y="1330.9" width="84.8" height="22.8" rx="0" class="g38s32"/>
+<text x="1637.0" y="1346.6" class="g38s14">22.63</text>
+<text y="1370.6" xml:space="preserve" class="g38s12"><tspan x="1171.9" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="1203.7"> · </tspan><tspan x="1212.0" class="g38s18" textLength="34.0" lengthAdjust="spacing">ffn(h)</tspan></text>
+<rect x="1252.6" y="1354.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.176"/>
+<text x="1292.0" y="1370.6" class="g38s1">0.806</text>
+<text x="1372.0" y="1370.6" class="g38s1">0.015</text>
+<rect x="1412.6" y="1354.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.115"/>
+<text x="1452.0" y="1370.6" class="g38s1">0.415</text>
+<text x="1503.0" y="1370.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1354.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.129"/>
+<text x="1554.0" y="1370.6" class="g38s1">-0.503</text>
+<text x="1637.0" y="1370.6" class="g38s14">12.23</text>
+<text y="1394.6" xml:space="preserve" class="g38s12"><tspan x="1172.5" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 0</tspan><tspan x="1204.3" textLength="24.7" lengthAdjust="spacing"> · x + </tspan><tspan x="1229.0" class="g38s18" textLength="17.0" lengthAdjust="spacing">ffn</tspan></text>
+<rect x="1252.6" y="1378.9" width="78.8" height="22.8" rx="0" class="g38s91"/>
+<text x="1292.0" y="1394.6" class="g38s1">1.720</text>
+<rect x="1332.6" y="1378.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.211"/>
+<text x="1372.0" y="1394.6" class="g38s1">-1.033</text>
+<rect x="1412.6" y="1378.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.228"/>
+<text x="1452.0" y="1394.6" class="g38s1">1.140</text>
+<text x="1503.0" y="1394.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1378.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.154"/>
+<text x="1554.0" y="1394.6" class="g38s1">-0.664</text>
+<rect x="1594.6" y="1378.9" width="84.8" height="22.8" rx="0" class="g38s35"/>
+<text x="1637.0" y="1394.6" class="g38s14">39.46</text>
+<text y="1418.6" xml:space="preserve" class="g38s12"><tspan x="1143.6" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="1175.4"> · </tspan><tspan x="1183.8" class="g38s18" textLength="62.2" lengthAdjust="spacing">h = norm(x)</tspan></text>
+<rect x="1252.6" y="1402.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.151"/>
+<text x="1292.0" y="1418.6" class="g38s1">0.646</text>
+<rect x="1332.6" y="1402.9" width="78.8" height="22.8" rx="0" class="g38s86"/>
+<text x="1372.0" y="1418.6" class="g38s1">-1.070</text>
+<rect x="1412.6" y="1402.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.094"/>
+<text x="1452.0" y="1418.6" class="g38s1">0.284</text>
+<text x="1503.0" y="1418.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1402.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.181"/>
+<text x="1554.0" y="1418.6" class="g38s1">-0.840</text>
+<rect x="1594.6" y="1402.9" width="84.8" height="22.8" rx="0" class="g38s32"/>
+<text x="1637.0" y="1418.6" class="g38s14">22.63</text>
+<text y="1442.6" xml:space="preserve" class="g38s12"><tspan x="1166.2" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="1198.0"> · </tspan><tspan x="1206.4" class="g38s18" textLength="39.6" lengthAdjust="spacing">attn(h)</tspan></text>
+<text x="1292.0" y="1442.6" class="g38s1">0.001</text>
+<text x="1372.0" y="1442.6" class="g38s1">-0.016</text>
+<rect x="1412.6" y="1426.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.114"/>
+<text x="1452.0" y="1442.6" class="g38s1">-0.407</text>
+<text x="1503.0" y="1442.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1426.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.083"/>
+<text x="1554.0" y="1442.6" class="g38s1">0.211</text>
+<text x="1637.0" y="1442.6" class="g38s14">14.05</text>
+<text y="1466.6" xml:space="preserve" class="g38s12"><tspan x="1172.8" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="1204.6" textLength="41.4" lengthAdjust="spacing"> · x + attn</tspan></text>
+<rect x="1252.6" y="1450.9" width="78.8" height="22.8" rx="0" class="g38s91"/>
+<text x="1292.0" y="1466.6" class="g38s1">1.721</text>
+<rect x="1332.6" y="1450.9" width="78.8" height="22.8" rx="0" class="g38s90"/>
+<text x="1372.0" y="1466.6" class="g38s1">-1.049</text>
+<rect x="1412.6" y="1450.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.164"/>
+<text x="1452.0" y="1466.6" class="g38s1">0.733</text>
+<text x="1503.0" y="1466.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1450.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.121"/>
+<text x="1554.0" y="1466.6" class="g38s1">-0.453</text>
+<rect x="1594.6" y="1450.9" width="84.8" height="22.8" rx="0" class="g38s35"/>
+<text x="1637.0" y="1466.6" class="g38s14">42.11</text>
+<text y="1490.6" xml:space="preserve" class="g38s12"><tspan x="1112.9" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="1144.7"> · </tspan><tspan x="1153.0" class="g38s18" textLength="39.6" lengthAdjust="spacing">norm(x)</tspan><tspan x="1192.6" textLength="53.4" lengthAdjust="spacing"> for the FFN</tspan></text>
+<rect x="1252.6" y="1474.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.145"/>
+<text x="1292.0" y="1490.6" class="g38s1">0.607</text>
+<rect x="1332.6" y="1474.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.204"/>
+<text x="1372.0" y="1490.6" class="g38s1">-0.987</text>
+<text x="1452.0" y="1490.6" class="g38s1">0.038</text>
+<text x="1503.0" y="1490.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1474.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.151"/>
+<text x="1554.0" y="1490.6" class="g38s1">-0.644</text>
+<rect x="1594.6" y="1474.9" width="84.8" height="22.8" rx="0" class="g38s32"/>
+<text x="1637.0" y="1490.6" class="g38s14">22.63</text>
+<text y="1514.6" xml:space="preserve" class="g38s12"><tspan x="1171.9" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="1203.7"> · </tspan><tspan x="1212.0" class="g38s18" textLength="34.0" lengthAdjust="spacing">ffn(h)</tspan></text>
+<rect x="1252.6" y="1498.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.163"/>
+<text x="1292.0" y="1514.6" class="g38s1">-0.725</text>
+<text x="1372.0" y="1514.6" class="g38s1">0.052</text>
+<rect x="1412.6" y="1498.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.066"/>
+<text x="1452.0" y="1514.6" class="g38s1">-0.104</text>
+<text x="1503.0" y="1514.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1498.9" width="78.8" height="22.8" rx="0" class="g38s87"/>
+<text x="1554.0" y="1514.6" class="g38s1">-0.684</text>
+<text x="1637.0" y="1514.6" class="g38s14">10.77</text>
+<text y="1538.6" xml:space="preserve" class="g38s12"><tspan x="1172.5" class="g38s0" textLength="31.8" lengthAdjust="spacing">layer 1</tspan><tspan x="1204.3" textLength="24.7" lengthAdjust="spacing"> · x + </tspan><tspan x="1229.0" class="g38s18" textLength="17.0" lengthAdjust="spacing">ffn</tspan></text>
+<rect x="1252.6" y="1522.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.206"/>
+<text x="1292.0" y="1538.6" class="g38s1">0.996</text>
+<rect x="1332.6" y="1522.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.206"/>
+<text x="1372.0" y="1538.6" class="g38s1">-0.997</text>
+<rect x="1412.6" y="1522.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.148"/>
+<text x="1452.0" y="1538.6" class="g38s1">0.629</text>
+<text x="1503.0" y="1538.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1522.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.228"/>
+<text x="1554.0" y="1538.6" class="g38s1">-1.137</text>
+<rect x="1594.6" y="1522.9" width="84.8" height="22.8" rx="0" class="g38s35"/>
+<text x="1637.0" y="1538.6" class="g38s14">43.58</text>
+<text y="1562.6" xml:space="preserve" class="g38s12"><tspan x="1079.5" class="g38s18" textLength="62.2" lengthAdjust="spacing">enc_norm(x)</tspan><tspan x="1141.7" textLength="53.4" lengthAdjust="spacing"> — the final </tspan><tspan x="1195.1" class="g38s18" textLength="50.9" lengthAdjust="spacing">LayerNorm</tspan></text>
+<rect x="1252.6" y="1546.9" width="78.8" height="22.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.079"/>
+<text x="1292.0" y="1562.6" class="g38s1">0.186</text>
+<rect x="1332.6" y="1546.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.193"/>
+<text x="1372.0" y="1562.6" class="g38s1">-0.915</text>
+<text x="1452.0" y="1562.6" class="g38s1">-0.017</text>
+<text x="1503.0" y="1562.6" class="g38s13">⋯</text>
+<rect x="1514.6" y="1546.9" width="78.8" height="22.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.205"/>
+<text x="1554.0" y="1562.6" class="g38s1">-0.993</text>
+<rect x="1594.6" y="1546.9" width="84.8" height="22.8" rx="0" class="g38s32"/>
+<text x="1637.0" y="1562.6" class="g38s14">22.63</text>
+<line x1="1332.0" y1="1234.3" x2="1332.0" y2="1570.3" class="g38s4"/>
+<line x1="1412.0" y1="1234.3" x2="1412.0" y2="1570.3" class="g38s4"/>
+<line x1="1492.0" y1="1234.3" x2="1492.0" y2="1570.3" class="g38s4"/>
+<line x1="1514.0" y1="1234.3" x2="1514.0" y2="1570.3" class="g38s4"/>
+<line x1="1594.0" y1="1234.3" x2="1594.0" y2="1570.3" class="g38s4"/>
+<line x1="1252.0" y1="1258.3" x2="1680.0" y2="1258.3" class="g38s4"/>
+<line x1="1252.0" y1="1282.3" x2="1680.0" y2="1282.3" class="g38s4"/>
+<line x1="1252.0" y1="1306.3" x2="1680.0" y2="1306.3" class="g38s4"/>
+<line x1="1252.0" y1="1330.3" x2="1680.0" y2="1330.3" class="g38s4"/>
+<line x1="1252.0" y1="1354.3" x2="1680.0" y2="1354.3" class="g38s4"/>
+<line x1="1252.0" y1="1378.3" x2="1680.0" y2="1378.3" class="g38s4"/>
+<line x1="1252.0" y1="1402.3" x2="1680.0" y2="1402.3" class="g38s4"/>
+<line x1="1252.0" y1="1426.3" x2="1680.0" y2="1426.3" class="g38s4"/>
+<line x1="1252.0" y1="1450.3" x2="1680.0" y2="1450.3" class="g38s4"/>
+<line x1="1252.0" y1="1474.3" x2="1680.0" y2="1474.3" class="g38s4"/>
+<line x1="1252.0" y1="1498.3" x2="1680.0" y2="1498.3" class="g38s4"/>
+<line x1="1252.0" y1="1522.3" x2="1680.0" y2="1522.3" class="g38s4"/>
+<line x1="1252.0" y1="1546.3" x2="1680.0" y2="1546.3" class="g38s4"/>
+<rect x="1252.0" y="1234.3" width="428.0" height="336.0" rx="3" class="g38s88"/>
+<rect x="34.0" y="1592.3" width="1812.0" height="290.0" rx="8" class="g38s53"/>
+<text y="1616.3" xml:space="preserve" class="g38s54"><tspan x="50.0" class="g38s2" textLength="284.1" lengthAdjust="spacing">The length of x at each checkpoint, token &quot;dog_&quot;</tspan></text>
+<text y="1634.3" xml:space="preserve" class="g38s55"><tspan x="50.0" textLength="116.7" lengthAdjust="spacing">Post-LN snaps x back to </tspan><tspan x="166.7" class="g38s0" textLength="21.7" lengthAdjust="spacing">22.6</tspan><tspan x="188.4" textLength="259.7" lengthAdjust="spacing"> after every sub-layer; Pre-LN lets it grow, and one final </tspan><tspan x="448.1" class="g38s67" textLength="53.5" lengthAdjust="spacing">LayerNorm</tspan><tspan x="501.5"> (</tspan><tspan x="508.0" class="g38s67" textLength="47.5" lengthAdjust="spacing">enc_norm</tspan><tspan x="555.5" textLength="117.9" lengthAdjust="spacing">) brings it back at the end</tspan></text>
+<line x1="96.0" y1="1836.3" x2="1824.0" y2="1836.3" class="g38s15"/>
+<text x="88.0" y="1840.3" class="g38s16">0</text>
+<line x1="96.0" y1="1800.7" x2="1824.0" y2="1800.7" class="g38s15"/>
+<text x="88.0" y="1804.7" class="g38s16">10</text>
+<line x1="96.0" y1="1765.1" x2="1824.0" y2="1765.1" class="g38s15"/>
+<text x="88.0" y="1769.1" class="g38s16">20</text>
+<line x1="96.0" y1="1729.5" x2="1824.0" y2="1729.5" class="g38s15"/>
+<text x="88.0" y="1733.5" class="g38s16">30</text>
+<line x1="96.0" y1="1693.9" x2="1824.0" y2="1693.9" class="g38s15"/>
+<text x="88.0" y="1697.9" class="g38s16">40</text>
+<line x1="96.0" y1="1658.3" x2="1824.0" y2="1658.3" class="g38s15"/>
+<text x="88.0" y="1662.3" class="g38s16">50</text>
+<rect x="196.0" y="1711.3" width="42.0" height="125.0" rx="3" class="g38s36"/>
+<text x="217.0" y="1705.3" class="g38s26">35.1</text>
+<rect x="242.0" y="1711.3" width="42.0" height="125.0" rx="3" class="g38s37"/>
+<text x="263.0" y="1705.3" class="g38s26">35.1</text>
+<text x="240.0" y="1854.3" class="g38s44">input x</text>
+<rect x="484.0" y="1755.7" width="42.0" height="80.6" rx="3" class="g38s36"/>
+<text x="505.0" y="1749.7" class="g38s26">22.6</text>
+<rect x="530.0" y="1707.3" width="42.0" height="129.0" rx="3" class="g38s37"/>
+<text x="551.0" y="1701.3" class="g38s26">36.2</text>
+<text x="528.0" y="1854.3" class="g38s44">after layer 0 attention</text>
+<rect x="772.0" y="1755.7" width="42.0" height="80.6" rx="3" class="g38s36"/>
+<text x="793.0" y="1749.7" class="g38s26">22.6</text>
+<rect x="818.0" y="1695.8" width="42.0" height="140.5" rx="3" class="g38s37"/>
+<text x="839.0" y="1689.8" class="g38s26">39.5</text>
+<text x="816.0" y="1854.3" class="g38s44">after layer 0 FFN</text>
+<rect x="1060.0" y="1755.7" width="42.0" height="80.6" rx="3" class="g38s36"/>
+<text x="1081.0" y="1749.7" class="g38s26">22.6</text>
+<rect x="1106.0" y="1686.4" width="42.0" height="149.9" rx="3" class="g38s37"/>
+<text x="1127.0" y="1680.4" class="g38s26">42.1</text>
+<text x="1104.0" y="1854.3" class="g38s44">after layer 1 attention</text>
+<rect x="1348.0" y="1755.7" width="42.0" height="80.6" rx="3" class="g38s36"/>
+<text x="1369.0" y="1749.7" class="g38s26">22.6</text>
+<rect x="1394.0" y="1681.1" width="42.0" height="155.2" rx="3" class="g38s37"/>
+<text x="1415.0" y="1675.1" class="g38s26">43.6</text>
+<text x="1392.0" y="1854.3" class="g38s44">after layer 1 FFN</text>
+<rect x="1636.0" y="1755.7" width="42.0" height="80.6" rx="3" class="g38s36"/>
+<text x="1657.0" y="1749.7" class="g38s26">22.6</text>
+<rect x="1682.0" y="1755.7" width="42.0" height="80.6" rx="3" class="g38s37"/>
+<text x="1703.0" y="1749.7" class="g38s26">22.6</text>
+<text x="1680.0" y="1854.3" class="g38s44">what the encoder returns</text>
+<line x1="96.0" y1="1836.3" x2="1824.0" y2="1836.3" class="g38s33"/>
+<rect x="1709.4" y="1608.3" width="16.0" height="12.0" rx="2" class="g38s37"/>
+<text x="1731.4" y="1618.3" class="g38s29">v1.5 · Pre-LN</text>
+<rect x="1601.0" y="1608.3" width="16.0" height="12.0" rx="2" class="g38s36"/>
+<text x="1623.0" y="1618.3" class="g38s29">v1 · Post-LN</text>
+<rect x="34.0" y="1898.3" width="1812.0" height="72.6" rx="6" class="g38s47"/>
+<path d="M38.50 1899.01 A5.50 5.50 0 0 0 34.50 1904.30 V1964.86 A5.50 5.50 0 0 0 38.50 1970.15 Z" class="g38s48"/>
+<text y="1924.3" xml:space="preserve" class="g38s27"><tspan x="50.0" class="g38s2" textLength="156.2" lengthAdjust="spacing">What to take from section B</tspan></text>
+<text y="1941.8" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="111.4" lengthAdjust="spacing">Post-LN: the input is </tspan><tspan x="161.4" class="g38s0" textLength="24.8" lengthAdjust="spacing">35.1</tspan><tspan x="186.1" textLength="173.4" lengthAdjust="spacing"> long; after the first attention it is </tspan><tspan x="359.6" class="g38s0" textLength="24.8" lengthAdjust="spacing">22.6</tspan><tspan x="384.3" textLength="442.8" lengthAdjust="spacing">, and it stays there — every addition is immediately rescaled. Pre-LN: x grows from </tspan><tspan x="827.1" class="g38s0" textLength="24.8" lengthAdjust="spacing">35.1</tspan><tspan x="851.9" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="868.6" class="g38s0" textLength="24.8" lengthAdjust="spacing">43.6</tspan><tspan x="893.3" textLength="362.8" lengthAdjust="spacing"> over the two layers, because the sub-layers only ever add to it, and </tspan><tspan x="1256.2" class="g38s21" textLength="54.3" lengthAdjust="spacing">enc_norm</tspan><tspan x="1310.5" textLength="62.0" lengthAdjust="spacing"> brings it to </tspan><tspan x="1372.5" class="g38s0" textLength="24.8" lengthAdjust="spacing">22.6</tspan><tspan x="1397.3" textLength="404.2" lengthAdjust="spacing"> at the end. The two encoders return vectors of the same length but different</tspan></text>
+<text y="1959.3" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="436.9" lengthAdjust="spacing">contents: the same weights, used in a different order, compute a different function.</tspan></text>
+<rect x="34.0" y="1998.9" width="1812.0" height="30.0" rx="6" class="g38s28"/>
+<path d="M38.50 1999.57 A5.50 5.50 0 0 0 34.50 2004.86 V2022.86 A5.50 5.50 0 0 0 38.50 2028.15 Z" class="g38s39"/>
+<text y="2018.9" xml:space="preserve" class="g38s40"><tspan x="50.0" class="g38s2" textLength="200.7" lengthAdjust="spacing">C · What one sub-layer does to x</tspan></text>
+<text y="2018.9" xml:space="preserve" class="g38s41"><tspan x="268.7" textLength="95.9" lengthAdjust="spacing">averaged over the </tspan><tspan x="364.6" class="g38s0" textLength="52.9" lengthAdjust="spacing">11 tokens</tspan><tspan x="417.4" textLength="163.0" lengthAdjust="spacing"> of sequence A · same weights, </tspan><tspan x="580.4" class="g38s7" textLength="45.6" lengthAdjust="spacing">dropout</tspan><tspan x="626.0" textLength="16.0" lengthAdjust="spacing"> off</tspan></text>
+<text y="2046.9" xml:space="preserve" class="g38s27"><tspan x="38.0" class="g38s2" textLength="359.0" lengthAdjust="spacing">Two ways of measuring &quot;how much did this sub-layer change x&quot;</tspan></text>
+<text y="2064.9" xml:space="preserve" class="g38s8"><tspan x="38.0" textLength="896.6" lengthAdjust="spacing">&quot;It adds&quot; is the length of what the sub-layer adds, and &quot;added ÷ x&quot; compares it with the x it is added to. &quot;Direction kept&quot; is the cosine between x before and after the step: </tspan><tspan x="934.6" class="g38s0" textLength="31.8" lengthAdjust="spacing">1.000</tspan><tspan x="966.4" textLength="734.3" lengthAdjust="spacing"> means x still points the same way, lower means the sub-layer turned it. Post-LN sub-layers turn x much more; Pre-LN sub-layers nudge it.</tspan></text>
+<text y="2097.3" xml:space="preserve" class="g38s11"><tspan x="34.0" class="g38s2" textLength="391.0" lengthAdjust="spacing">The length of what each sub-layer reads and adds, and how far it turns x</tspan></text>
+<rect x="34.0" y="2106.3" width="1812.0" height="24.0" rx="4" class="g38s28"/>
+<text y="2122.3" xml:space="preserve" class="g38s17"><tspan x="43.0" class="g38s2" textLength="45.8" lengthAdjust="spacing">sub-layer</tspan></text>
+<text y="2122.3" xml:space="preserve" class="g38s17"><tspan x="293.0" class="g38s2" textLength="86.0" lengthAdjust="spacing">Post-LN · it reads</tspan></text>
+<text y="2122.3" xml:space="preserve" class="g38s17"><tspan x="488.0" class="g38s2" textLength="82.3" lengthAdjust="spacing">Post-LN · it adds</tspan></text>
+<text y="2122.3" xml:space="preserve" class="g38s17"><tspan x="683.0" class="g38s2" textLength="49.4" lengthAdjust="spacing">added ÷ x</tspan></text>
+<text y="2122.3" xml:space="preserve" class="g38s17"><tspan x="878.0" class="g38s2" textLength="66.2" lengthAdjust="spacing">direction kept</tspan></text>
+<text y="2122.3" xml:space="preserve" class="g38s17"><tspan x="1073.0" class="g38s2" textLength="81.0" lengthAdjust="spacing">Pre-LN · it reads</tspan></text>
+<text y="2122.3" xml:space="preserve" class="g38s17"><tspan x="1268.0" class="g38s2" textLength="77.3" lengthAdjust="spacing">Pre-LN · it adds</tspan></text>
+<text y="2122.3" xml:space="preserve" class="g38s17"><tspan x="1463.0" class="g38s2" textLength="49.4" lengthAdjust="spacing">added ÷ x</tspan></text>
+<text y="2122.3" xml:space="preserve" class="g38s17"><tspan x="1658.0" class="g38s2" textLength="66.2" lengthAdjust="spacing">direction kept</tspan></text>
+<text y="2147.2" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s0" textLength="36.6" lengthAdjust="spacing">layer 0</tspan><tspan x="79.6" class="g38s2" textLength="56.9" lengthAdjust="spacing"> · attention</tspan></text>
+<text x="293.0" y="2147.2" class="g38s10">34.77</text>
+<text x="488.0" y="2147.2" class="g38s10">25.39</text>
+<text x="683.0" y="2147.2" class="g38s10">0.73</text>
+<text x="878.0" y="2147.2" class="g38s10">0.751</text>
+<text x="1073.0" y="2147.2" class="g38s10">22.63</text>
+<text x="1268.0" y="2147.2" class="g38s10">12.03</text>
+<text x="1463.0" y="2147.2" class="g38s10">0.35</text>
+<text x="1658.0" y="2147.2" class="g38s10">0.944</text>
+<line x1="34.0" y1="2156.3" x2="1846.0" y2="2156.3" class="g38s4"/>
+<rect x="34.0" y="2156.3" width="1812.0" height="26.0" rx="0" class="g38s25"/>
+<text y="2173.2" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s0" textLength="36.6" lengthAdjust="spacing">layer 0</tspan><tspan x="79.6" class="g38s2" textLength="78.6" lengthAdjust="spacing"> · feed-forward</tspan></text>
+<text x="293.0" y="2173.2" class="g38s10">22.63</text>
+<text x="488.0" y="2173.2" class="g38s10">11.57</text>
+<text x="683.0" y="2173.2" class="g38s10">0.51</text>
+<text x="878.0" y="2173.2" class="g38s10">0.894</text>
+<text x="1073.0" y="2173.2" class="g38s10">22.63</text>
+<text x="1268.0" y="2173.2" class="g38s10">11.31</text>
+<text x="1463.0" y="2173.2" class="g38s10">0.31</text>
+<text x="1658.0" y="2173.2" class="g38s10">0.956</text>
+<line x1="34.0" y1="2182.3" x2="1846.0" y2="2182.3" class="g38s4"/>
+<text y="2199.2" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s0" textLength="36.6" lengthAdjust="spacing">layer 1</tspan><tspan x="79.6" class="g38s2" textLength="56.9" lengthAdjust="spacing"> · attention</tspan></text>
+<text x="293.0" y="2199.2" class="g38s10">22.63</text>
+<text x="488.0" y="2199.2" class="g38s10">15.24</text>
+<text x="683.0" y="2199.2" class="g38s10">0.67</text>
+<text x="878.0" y="2199.2" class="g38s10">0.822</text>
+<text x="1073.0" y="2199.2" class="g38s10">22.63</text>
+<text x="1268.0" y="2199.2" class="g38s10">13.43</text>
+<text x="1463.0" y="2199.2" class="g38s10">0.35</text>
+<text x="1658.0" y="2199.2" class="g38s10">0.944</text>
+<line x1="34.0" y1="2208.3" x2="1846.0" y2="2208.3" class="g38s4"/>
+<rect x="34.0" y="2208.3" width="1812.0" height="26.0" rx="0" class="g38s25"/>
+<text y="2225.2" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s0" textLength="36.6" lengthAdjust="spacing">layer 1</tspan><tspan x="79.6" class="g38s2" textLength="78.6" lengthAdjust="spacing"> · feed-forward</tspan></text>
+<text x="293.0" y="2225.2" class="g38s10">22.63</text>
+<text x="488.0" y="2225.2" class="g38s10">10.86</text>
+<text x="683.0" y="2225.2" class="g38s10">0.48</text>
+<text x="878.0" y="2225.2" class="g38s10">0.899</text>
+<text x="1073.0" y="2225.2" class="g38s10">22.63</text>
+<text x="1268.0" y="2225.2" class="g38s10">10.83</text>
+<text x="1463.0" y="2225.2" class="g38s10">0.27</text>
+<text x="1658.0" y="2225.2" class="g38s10">0.966</text>
+<line x1="34.0" y1="2234.3" x2="1846.0" y2="2234.3" class="g38s4"/>
+<rect x="34.0" y="2130.3" width="1812.0" height="104.0" rx="0" class="g38s59"/>
+<line x1="284.0" y1="2130.3" x2="284.0" y2="2234.3" class="g38s4"/>
+<line x1="479.0" y1="2130.3" x2="479.0" y2="2234.3" class="g38s4"/>
+<line x1="674.0" y1="2130.3" x2="674.0" y2="2234.3" class="g38s4"/>
+<line x1="869.0" y1="2130.3" x2="869.0" y2="2234.3" class="g38s4"/>
+<line x1="1064.0" y1="2130.3" x2="1064.0" y2="2234.3" class="g38s4"/>
+<line x1="1259.0" y1="2130.3" x2="1259.0" y2="2234.3" class="g38s4"/>
+<line x1="1454.0" y1="2130.3" x2="1454.0" y2="2234.3" class="g38s4"/>
+<line x1="1649.0" y1="2130.3" x2="1649.0" y2="2234.3" class="g38s4"/>
+<rect x="34.0" y="2250.3" width="1812.0" height="72.6" rx="6" class="g38s47"/>
+<path d="M38.50 2250.97 A5.50 5.50 0 0 0 34.50 2256.26 V2316.82 A5.50 5.50 0 0 0 38.50 2322.11 Z" class="g38s48"/>
+<text y="2276.3" xml:space="preserve" class="g38s27"><tspan x="50.0" class="g38s2" textLength="156.9" lengthAdjust="spacing">What to take from section C</tspan></text>
+<text y="2293.8" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="739.7" lengthAdjust="spacing">In Post-LN every sub-layer reads x at full strength and its output is added to an x of the same size, so each step turns x a lot (direction kept </tspan><tspan x="789.7" class="g38s0" textLength="24.8" lengthAdjust="spacing">0.84</tspan><tspan x="814.4" textLength="388.8" lengthAdjust="spacing"> on average). In Pre-LN each sub-layer reads a normalised copy (always </tspan><tspan x="1203.3" class="g38s0" textLength="31.8" lengthAdjust="spacing">22.63</tspan><tspan x="1235.1" textLength="382.9" lengthAdjust="spacing"> long) and adds to an x that is already longer, so each step turns x less (</tspan><tspan x="1617.9" class="g38s0" textLength="24.8" lengthAdjust="spacing">0.95</tspan><tspan x="1642.7" textLength="168.6" lengthAdjust="spacing">). Neither is &quot;right&quot;: Post-LN lets</tspan></text>
+<text y="2311.3" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="970.3" lengthAdjust="spacing">each layer rewrite more; Pre-LN makes each layer a gentler correction, which is more stable — and, in very deep stacks, can leave later layers with less and less influence (section D).</tspan></text>
+<rect x="34.0" y="2350.8" width="1812.0" height="30.0" rx="6" class="g38s28"/>
+<path d="M38.50 2351.53 A5.50 5.50 0 0 0 34.50 2356.82 V2374.82 A5.50 5.50 0 0 0 38.50 2380.11 Z" class="g38s39"/>
+<text y="2370.8" xml:space="preserve" class="g38s40"><tspan x="50.0" class="g38s2" textLength="209.9" lengthAdjust="spacing">D · What depth does — a stack of </tspan><tspan x="259.9" class="g38s0" textLength="58.2" lengthAdjust="spacing">48 blocks</tspan></text>
+<text y="2370.8" xml:space="preserve" class="g38s41"><tspan x="336.1" textLength="86.3" lengthAdjust="spacing">toy model: width </tspan><tspan x="422.4" class="g38s0" textLength="13.6" lengthAdjust="spacing">64</tspan><tspan x="435.9" textLength="44.1" lengthAdjust="spacing">, hidden </tspan><tspan x="480.0" class="g38s0" textLength="20.3" lengthAdjust="spacing">256</tspan><tspan x="500.4">, </tspan><tspan x="506.8" class="g38s7" textLength="26.0" lengthAdjust="spacing">GELU</tspan><tspan x="532.8" textLength="66.5" lengthAdjust="spacing">, Xavier init · </tspan><tspan x="599.3" class="g38s0">6</tspan><tspan x="606.0" textLength="91.3" lengthAdjust="spacing"> random stacks × </tspan><tspan x="697.3" class="g38s0">3</tspan><tspan x="704.1" textLength="248.0" lengthAdjust="spacing"> inputs averaged · exact gradients at initialisation</tspan></text>
+<text y="2398.8" xml:space="preserve" class="g38s27"><tspan x="38.0" class="g38s2" textLength="248.9" lengthAdjust="spacing">Why a toy, and what it can and cannot show</tspan></text>
+<text y="2416.8" xml:space="preserve" class="g38s8"><tspan x="38.0" textLength="126.7" lengthAdjust="spacing">This notebook has only </tspan><tspan x="164.7" class="g38s0" textLength="44.5" lengthAdjust="spacing">2 layers</tspan><tspan x="209.3" textLength="43.4" lengthAdjust="spacing">, and at </tspan><tspan x="252.6" class="g38s0" textLength="44.5" lengthAdjust="spacing">2 layers</tspan><tspan x="297.2" textLength="793.1" lengthAdjust="spacing"> the two arrangements behave almost the same. The differences people talk about appear with depth. So the same two wirings are built as a stack of </tspan><tspan x="1090.2" class="g38s0" textLength="128.7" lengthAdjust="spacing">48 feed-forward blocks</tspan><tspan x="1218.9" textLength="108.7" lengthAdjust="spacing"> (no attention — the </tspan><tspan x="1327.6" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1388.7" textLength="434.2" lengthAdjust="spacing"> placement is what is being tested) and differentiated by hand, so every number is</tspan></text>
+<text y="2434.2" xml:space="preserve" class="g38s8"><tspan x="38.0" textLength="1183.9" lengthAdjust="spacing">exact for that stack. It shows what the wiring does at the START of training. It does not train the model, so anything about how training later goes is taken from the published research and marked as such in sections E and F.</tspan></text>
+<rect x="34.0" y="2455.6" width="894.0" height="300.0" rx="8" class="g38s53"/>
+<text y="2479.6" xml:space="preserve" class="g38s54"><tspan x="50.0" class="g38s2">1</tspan><tspan x="57.4" class="g38s2" textLength="195.9" lengthAdjust="spacing"> · The length of x after each block</tspan></text>
+<text y="2497.6" xml:space="preserve" class="g38s55"><tspan x="50.0" textLength="79.9" lengthAdjust="spacing">Post-LN stays at </tspan><tspan x="129.9" class="g38s67" textLength="41.6" lengthAdjust="spacing">√64 = 8</tspan><tspan x="171.5" textLength="161.6" lengthAdjust="spacing"> forever; Pre-LN keeps growing — </tspan><tspan x="333.2" class="g38s0" textLength="21.7" lengthAdjust="spacing">27.6</tspan><tspan x="354.8" textLength="26.8" lengthAdjust="spacing"> after </tspan><tspan x="381.7" class="g38s0" textLength="47.0" lengthAdjust="spacing">48 blocks</tspan></text>
+<line x1="96.0" y1="2713.6" x2="906.0" y2="2713.6" class="g38s15"/>
+<text x="88.0" y="2717.6" class="g38s16">0</text>
+<line x1="96.0" y1="2649.6" x2="906.0" y2="2649.6" class="g38s15"/>
+<text x="88.0" y="2653.6" class="g38s16">10</text>
+<line x1="96.0" y1="2585.6" x2="906.0" y2="2585.6" class="g38s15"/>
+<text x="88.0" y="2589.6" class="g38s16">20</text>
+<line x1="96.0" y1="2521.6" x2="906.0" y2="2521.6" class="g38s15"/>
+<text x="88.0" y="2525.6" class="g38s16">30</text>
+<text x="96.0" y="2730.6" class="g38s20">0</text>
+<text x="298.5" y="2730.6" class="g38s20">12</text>
+<text x="501.0" y="2730.6" class="g38s20">24</text>
+<text x="703.5" y="2730.6" class="g38s20">36</text>
+<text x="906.0" y="2730.6" class="g38s20">48</text>
+<line x1="96.0" y1="2713.6" x2="906.0" y2="2713.6" class="g38s33"/>
+<line x1="96.0" y1="2521.6" x2="96.0" y2="2713.6" class="g38s33"/>
+<text x="501.0" y="2745.6" class="g38s60">block</text>
+<path d="M96.0 2663.2 L112.9 2656.5 L129.8 2651.3 L146.6 2644.6 L163.5 2640.2 L180.4 2637.2 L197.2 2633.7 L214.1 2628.0 L231.0 2624.1 L247.9 2620.6 L264.8 2617.2 L281.6 2614.2 L298.5 2610.9 L315.4 2608.6 L332.2 2606.6 L349.1 2604.7 L366.0 2601.7 L382.9 2598.4 L399.8 2596.4 L416.6 2594.1 L433.5 2590.6 L450.4 2589.7 L467.2 2587.5 L484.1 2585.7 L501.0 2583.1 L517.9 2579.9 L534.8 2577.3 L551.6 2575.1 L568.5 2573.7 L585.4 2571.1 L602.2 2568.5 L619.1 2566.9 L636.0 2564.9 L652.9 2562.2 L669.8 2560.6 L686.6 2558.5 L703.5 2557.7 L720.4 2555.8 L737.2 2555.1 L754.1 2553.1 L771.0 2552.9 L787.9 2551.5 L804.8 2550.1 L821.6 2549.2 L838.5 2547.4 L855.4 2543.7 L872.2 2540.6 L889.1 2538.6 L906.0 2536.9" class="g38s61"/>
+<line x1="791.4" y1="2477.6" x2="811.4" y2="2477.6" class="g38s62"/>
+<text x="817.4" y="2481.6" class="g38s29">v1.5 · Pre-LN</text>
+<path d="M96.0 2663.2 L112.9 2662.4 L129.8 2662.4 L146.6 2662.4 L163.5 2662.4 L180.4 2662.4 L197.2 2662.4 L214.1 2662.4 L231.0 2662.4 L247.9 2662.4 L264.8 2662.4 L281.6 2662.4 L298.5 2662.4 L315.4 2662.4 L332.2 2662.4 L349.1 2662.4 L366.0 2662.4 L382.9 2662.4 L399.8 2662.4 L416.6 2662.4 L433.5 2662.4 L450.4 2662.4 L467.2 2662.4 L484.1 2662.4 L501.0 2662.4 L517.9 2662.4 L534.8 2662.4 L551.6 2662.4 L568.5 2662.4 L585.4 2662.4 L602.2 2662.4 L619.1 2662.4 L636.0 2662.4 L652.9 2662.4 L669.8 2662.4 L686.6 2662.4 L703.5 2662.4 L720.4 2662.4 L737.2 2662.4 L754.1 2662.4 L771.0 2662.4 L787.9 2662.4 L804.8 2662.4 L821.6 2662.4 L838.5 2662.4 L855.4 2662.4 L872.2 2662.4 L889.1 2662.4 L906.0 2662.4" class="g38s63"/>
+<line x1="683.0" y1="2477.6" x2="703.0" y2="2477.6" class="g38s64"/>
+<text x="709.0" y="2481.6" class="g38s29">v1 · Post-LN</text>
+<rect x="952.0" y="2455.6" width="894.0" height="300.0" rx="8" class="g38s53"/>
+<text y="2479.6" xml:space="preserve" class="g38s54"><tspan x="968.0" class="g38s2">2</tspan><tspan x="975.4" class="g38s2" textLength="255.4" lengthAdjust="spacing"> · How big each block’s update is, next to x</tspan></text>
+<text y="2497.6" xml:space="preserve" class="g38s55"><tspan x="968.0" textLength="73.0" lengthAdjust="spacing">Post-LN: about </tspan><tspan x="1041.0" class="g38s0" textLength="21.7" lengthAdjust="spacing">0.49</tspan><tspan x="1062.6" textLength="141.2" lengthAdjust="spacing"> at every depth · Pre-LN: from </tspan><tspan x="1203.8" class="g38s0" textLength="21.7" lengthAdjust="spacing">0.50</tspan><tspan x="1225.5" textLength="42.0" lengthAdjust="spacing"> at block </tspan><tspan x="1267.5" class="g38s0">0</tspan><tspan x="1273.7" textLength="42.6" lengthAdjust="spacing"> down to </tspan><tspan x="1316.3" class="g38s0" textLength="21.7" lengthAdjust="spacing">0.15</tspan><tspan x="1338.0" textLength="42.0" lengthAdjust="spacing"> at block </tspan><tspan x="1380.0" class="g38s0" textLength="12.4" lengthAdjust="spacing">47</tspan></text>
+<line x1="1014.0" y1="2713.6" x2="1824.0" y2="2713.6" class="g38s15"/>
+<text x="1006.0" y="2717.6" class="g38s16">0.0</text>
+<line x1="1014.0" y1="2649.6" x2="1824.0" y2="2649.6" class="g38s15"/>
+<text x="1006.0" y="2653.6" class="g38s16">0.2</text>
+<line x1="1014.0" y1="2585.6" x2="1824.0" y2="2585.6" class="g38s15"/>
+<text x="1006.0" y="2589.6" class="g38s16">0.4</text>
+<line x1="1014.0" y1="2521.6" x2="1824.0" y2="2521.6" class="g38s15"/>
+<text x="1006.0" y="2525.6" class="g38s16">0.6</text>
+<text x="1014.0" y="2730.6" class="g38s20">0</text>
+<text x="1216.5" y="2730.6" class="g38s20">12</text>
+<text x="1419.0" y="2730.6" class="g38s20">24</text>
+<text x="1621.5" y="2730.6" class="g38s20">36</text>
+<text x="1824.0" y="2730.6" class="g38s20">48</text>
+<line x1="1014.0" y1="2713.6" x2="1824.0" y2="2713.6" class="g38s33"/>
+<line x1="1014.0" y1="2521.6" x2="1014.0" y2="2713.6" class="g38s33"/>
+<text x="1419.0" y="2745.6" class="g38s60">block</text>
+<path d="M1014.0 2552.7 L1030.9 2570.6 L1047.8 2582.1 L1064.6 2602.6 L1081.5 2609.7 L1098.4 2605.9 L1115.2 2611.2 L1132.1 2617.6 L1149.0 2625.7 L1165.9 2628.9 L1182.8 2624.6 L1199.6 2633.0 L1216.5 2633.7 L1233.4 2640.8 L1250.2 2637.4 L1267.1 2637.5 L1284.0 2641.2 L1300.9 2642.9 L1317.8 2645.1 L1334.6 2643.4 L1351.5 2649.5 L1368.4 2652.0 L1385.2 2649.4 L1402.1 2650.7 L1419.0 2654.3 L1435.9 2653.2 L1452.8 2655.2 L1469.6 2659.0 L1486.5 2657.2 L1503.4 2658.2 L1520.2 2658.3 L1537.1 2657.4 L1554.0 2659.1 L1570.9 2662.6 L1587.8 2663.9 L1604.6 2662.9 L1621.5 2663.8 L1638.4 2662.5 L1655.2 2663.8 L1672.1 2664.6 L1689.0 2664.7 L1705.9 2664.7 L1722.8 2663.6 L1739.6 2665.6 L1756.5 2664.5 L1773.4 2665.3 L1790.2 2666.5 L1807.1 2665.5" class="g38s61"/>
+<line x1="1709.4" y1="2477.6" x2="1729.4" y2="2477.6" class="g38s62"/>
+<text x="1735.4" y="2481.6" class="g38s29">v1.5 · Pre-LN</text>
+<path d="M1014.0 2556.1 L1030.9 2555.2 L1047.8 2553.9 L1064.6 2565.3 L1081.5 2565.3 L1098.4 2552.7 L1115.2 2554.6 L1132.1 2553.5 L1149.0 2561.4 L1165.9 2559.7 L1182.8 2545.5 L1199.6 2554.3 L1216.5 2560.3 L1233.4 2556.8 L1250.2 2565.2 L1267.1 2557.3 L1284.0 2559.2 L1300.9 2564.0 L1317.8 2553.6 L1334.6 2554.9 L1351.5 2560.2 L1368.4 2568.6 L1385.2 2556.6 L1402.1 2553.3 L1419.0 2561.6 L1435.9 2560.8 L1452.8 2556.6 L1469.6 2563.4 L1486.5 2560.7 L1503.4 2566.4 L1520.2 2557.3 L1537.1 2553.6 L1554.0 2546.3 L1570.9 2560.2 L1587.8 2558.1 L1604.6 2562.0 L1621.5 2555.8 L1638.4 2553.3 L1655.2 2554.2 L1672.1 2562.9 L1689.0 2553.8 L1705.9 2558.6 L1722.8 2559.9 L1739.6 2562.3 L1756.5 2559.2 L1773.4 2558.6 L1790.2 2564.0 L1807.1 2552.7" class="g38s63"/>
+<line x1="1601.0" y1="2477.6" x2="1621.0" y2="2477.6" class="g38s64"/>
+<text x="1627.0" y="2481.6" class="g38s29">v1 · Post-LN</text>
+<rect x="34.0" y="2775.6" width="894.0" height="300.0" rx="8" class="g38s53"/>
+<text y="2799.6" xml:space="preserve" class="g38s54"><tspan x="50.0" class="g38s2">3</tspan><tspan x="57.4" class="g38s2" textLength="318.9" lengthAdjust="spacing"> · What survives the skip connections alone (log scale)</tspan></text>
+<text y="2817.6" xml:space="preserve" class="g38s55"><tspan x="50.0" textLength="266.3" lengthAdjust="spacing">the gain of the pure &quot;+&quot; route back to the input · Post-LN: </tspan><tspan x="316.3" class="g38s0" textLength="27.8" lengthAdjust="spacing">0.008</tspan><tspan x="344.2" textLength="26.8" lengthAdjust="spacing"> after </tspan><tspan x="371.0" class="g38s0" textLength="47.0" lengthAdjust="spacing">48 blocks</tspan><tspan x="418.0" textLength="83.4" lengthAdjust="spacing"> · Pre-LN: exactly </tspan><tspan x="501.5" class="g38s0">1</tspan></text>
+<line x1="96.0" y1="3033.6" x2="906.0" y2="3033.6" class="g38s15"/>
+<text x="88.0" y="3037.6" class="g38s16">0.001</text>
+<line x1="96.0" y1="2975.5" x2="906.0" y2="2975.5" class="g38s15"/>
+<text x="88.0" y="2979.5" class="g38s16">0.01</text>
+<line x1="96.0" y1="2917.3" x2="906.0" y2="2917.3" class="g38s15"/>
+<text x="88.0" y="2921.3" class="g38s16">0.1</text>
+<line x1="96.0" y1="2859.1" x2="906.0" y2="2859.1" class="g38s15"/>
+<text x="88.0" y="2863.1" class="g38s16">1</text>
+<text x="96.0" y="3050.6" class="g38s20">0</text>
+<text x="298.5" y="3050.6" class="g38s20">12</text>
+<text x="501.0" y="3050.6" class="g38s20">24</text>
+<text x="703.5" y="3050.6" class="g38s20">36</text>
+<text x="906.0" y="3050.6" class="g38s20">48</text>
+<line x1="96.0" y1="3033.6" x2="906.0" y2="3033.6" class="g38s33"/>
+<line x1="96.0" y1="2841.6" x2="96.0" y2="3033.6" class="g38s33"/>
+<text x="501.0" y="3065.6" class="g38s60">block</text>
+<path d="M96.0 2859.1 L112.9 2859.1 L129.8 2859.1 L146.6 2859.1 L163.5 2859.1 L180.4 2859.1 L197.2 2859.1 L214.1 2859.1 L231.0 2859.1 L247.9 2859.1 L264.8 2859.1 L281.6 2859.1 L298.5 2859.1 L315.4 2859.1 L332.2 2859.1 L349.1 2859.1 L366.0 2859.1 L382.9 2859.1 L399.8 2859.1 L416.6 2859.1 L433.5 2859.1 L450.4 2859.1 L467.2 2859.1 L484.1 2859.1 L501.0 2859.1 L517.9 2859.1 L534.8 2859.1 L551.6 2859.1 L568.5 2859.1 L585.4 2859.1 L602.2 2859.1 L619.1 2859.1 L636.0 2859.1 L652.9 2859.1 L669.8 2859.1 L686.6 2859.1 L703.5 2859.1 L720.4 2859.1 L737.2 2859.1 L754.1 2859.1 L771.0 2859.1 L787.9 2859.1 L804.8 2859.1 L821.6 2859.1 L838.5 2859.1 L855.4 2859.1 L872.2 2859.1 L889.1 2859.1 L906.0 2859.1" class="g38s61"/>
+<line x1="791.4" y1="2797.6" x2="811.4" y2="2797.6" class="g38s62"/>
+<text x="817.4" y="2801.6" class="g38s29">v1.5 · Pre-LN</text>
+<path d="M96.0 2859.1 L112.9 2861.6 L129.8 2864.2 L146.6 2867.6 L163.5 2870.1 L180.4 2872.1 L197.2 2874.6 L214.1 2877.9 L231.0 2880.7 L247.9 2883.2 L264.8 2885.6 L281.6 2888.4 L298.5 2891.1 L315.4 2893.1 L332.2 2895.8 L349.1 2898.2 L366.0 2901.0 L382.9 2903.5 L399.8 2906.1 L416.6 2909.1 L433.5 2912.3 L450.4 2914.0 L467.2 2916.4 L484.1 2918.6 L501.0 2921.1 L517.9 2924.1 L534.8 2926.2 L551.6 2928.7 L568.5 2931.0 L585.4 2933.6 L602.2 2935.7 L619.1 2937.6 L636.0 2940.5 L652.9 2943.2 L669.8 2945.9 L686.6 2948.8 L703.5 2950.4 L720.4 2953.2 L737.2 2954.8 L754.1 2957.6 L771.0 2960.1 L787.9 2963.3 L804.8 2965.9 L821.6 2967.5 L838.5 2969.5 L855.4 2972.5 L872.2 2975.5 L889.1 2978.4 L906.0 2980.8" class="g38s63"/>
+<line x1="683.0" y1="2797.6" x2="703.0" y2="2797.6" class="g38s64"/>
+<text x="709.0" y="2801.6" class="g38s29">v1 · Post-LN</text>
+<rect x="952.0" y="2775.6" width="894.0" height="300.0" rx="8" class="g38s53"/>
+<text y="2799.6" xml:space="preserve" class="g38s54"><tspan x="968.0" class="g38s2">4</tspan><tspan x="975.4" class="g38s2" textLength="292.2" lengthAdjust="spacing"> · The gradient that reaches each block’s weights</tspan></text>
+<text y="2817.6" xml:space="preserve" class="g38s55"><tspan x="968.0" textLength="340.8" lengthAdjust="spacing">at initialisation · Post-LN: roughly even · Pre-LN: shrinks towards the top (</tspan><tspan x="1308.8" class="g38s0" textLength="15.5" lengthAdjust="spacing">1.8</tspan><tspan x="1324.3" textLength="118.5" lengthAdjust="spacing"> at the last block, against </tspan><tspan x="1442.8" class="g38s0" textLength="15.5" lengthAdjust="spacing">5.6</tspan><tspan x="1458.2">)</tspan></text>
+<line x1="1014.0" y1="3033.6" x2="1824.0" y2="3033.6" class="g38s15"/>
+<text x="1006.0" y="3037.6" class="g38s16">0</text>
+<line x1="1014.0" y1="2985.6" x2="1824.0" y2="2985.6" class="g38s15"/>
+<text x="1006.0" y="2989.6" class="g38s16">2</text>
+<line x1="1014.0" y1="2937.6" x2="1824.0" y2="2937.6" class="g38s15"/>
+<text x="1006.0" y="2941.6" class="g38s16">4</text>
+<line x1="1014.0" y1="2889.6" x2="1824.0" y2="2889.6" class="g38s15"/>
+<text x="1006.0" y="2893.6" class="g38s16">6</text>
+<line x1="1014.0" y1="2841.6" x2="1824.0" y2="2841.6" class="g38s15"/>
+<text x="1006.0" y="2845.6" class="g38s16">8</text>
+<text x="1014.0" y="3050.6" class="g38s20">0</text>
+<text x="1216.5" y="3050.6" class="g38s20">12</text>
+<text x="1419.0" y="3050.6" class="g38s20">24</text>
+<text x="1621.5" y="3050.6" class="g38s20">36</text>
+<text x="1824.0" y="3050.6" class="g38s20">48</text>
+<line x1="1014.0" y1="3033.6" x2="1824.0" y2="3033.6" class="g38s33"/>
+<line x1="1014.0" y1="2841.6" x2="1014.0" y2="3033.6" class="g38s33"/>
+<text x="1419.0" y="3065.6" class="g38s60">block</text>
+<path d="M1014.0 2894.0 L1030.9 2901.5 L1047.8 2910.2 L1064.6 2923.3 L1081.5 2932.0 L1098.4 2931.9 L1115.2 2938.7 L1132.1 2940.3 L1149.0 2946.9 L1165.9 2952.7 L1182.8 2949.2 L1199.6 2952.2 L1216.5 2955.7 L1233.4 2959.2 L1250.2 2957.8 L1267.1 2960.3 L1284.0 2963.2 L1300.9 2963.3 L1317.8 2967.5 L1334.6 2967.5 L1351.5 2971.4 L1368.4 2972.4 L1385.2 2973.5 L1402.1 2973.1 L1419.0 2976.1 L1435.9 2975.0 L1452.8 2978.7 L1469.6 2981.2 L1486.5 2978.9 L1503.4 2980.4 L1520.2 2980.9 L1537.1 2980.5 L1554.0 2980.7 L1570.9 2982.4 L1587.8 2982.5 L1604.6 2983.7 L1621.5 2984.4 L1638.4 2983.4 L1655.2 2986.7 L1672.1 2986.0 L1689.0 2985.9 L1705.9 2987.3 L1722.8 2988.1 L1739.6 2989.9 L1756.5 2989.3 L1773.4 2988.7 L1790.2 2989.8 L1807.1 2990.5" class="g38s61"/>
+<line x1="1709.4" y1="2797.6" x2="1729.4" y2="2797.6" class="g38s62"/>
+<text x="1735.4" y="2801.6" class="g38s29">v1.5 · Pre-LN</text>
+<path d="M1014.0 2851.9 L1030.9 2847.2 L1047.8 2848.6 L1064.6 2850.1 L1081.5 2860.7 L1098.4 2853.7 L1115.2 2860.7 L1132.1 2851.8 L1149.0 2856.7 L1165.9 2865.0 L1182.8 2852.1 L1199.6 2849.1 L1216.5 2853.3 L1233.4 2862.7 L1250.2 2857.2 L1267.1 2859.1 L1284.0 2857.5 L1300.9 2848.8 L1317.8 2851.7 L1334.6 2844.4 L1351.5 2844.0 L1368.4 2850.6 L1385.2 2851.6 L1402.1 2848.0 L1419.0 2862.4 L1435.9 2852.8 L1452.8 2862.4 L1469.6 2864.8 L1486.5 2872.0 L1503.4 2869.4 L1520.2 2871.9 L1537.1 2872.5 L1554.0 2872.5 L1570.9 2881.9 L1587.8 2879.1 L1604.6 2879.4 L1621.5 2884.2 L1638.4 2882.8 L1655.2 2894.9 L1672.1 2896.0 L1689.0 2892.4 L1705.9 2893.4 L1722.8 2892.8 L1739.6 2899.9 L1756.5 2902.9 L1773.4 2900.9 L1790.2 2904.0 L1807.1 2899.3" class="g38s63"/>
+<line x1="1601.0" y1="2797.6" x2="1621.0" y2="2797.6" class="g38s64"/>
+<text x="1627.0" y="2801.6" class="g38s29">v1 · Post-LN</text>
+<text y="3106.6" xml:space="preserve" class="g38s11"><tspan x="34.0" class="g38s2" textLength="250.0" lengthAdjust="spacing">The same measurements at every depth from </tspan><tspan x="284.0" class="g38s2">2</tspan><tspan x="290.8" class="g38s2" textLength="16.9" lengthAdjust="spacing"> to </tspan><tspan x="307.7" class="g38s2" textLength="51.5" lengthAdjust="spacing">48 blocks</tspan></text>
+<rect x="34.0" y="3115.6" width="1812.0" height="24.0" rx="4" class="g38s28"/>
+<text y="3131.6" xml:space="preserve" class="g38s17"><tspan x="43.0" class="g38s2" textLength="27.8" lengthAdjust="spacing">depth</tspan></text>
+<text y="3131.6" xml:space="preserve" class="g38s17"><tspan x="213.0" class="g38s2" textLength="83.2" lengthAdjust="spacing">Post-LN · ‖x‖ out</tspan></text>
+<text y="3131.6" xml:space="preserve" class="g38s17"><tspan x="418.0" class="g38s2" textLength="97.7" lengthAdjust="spacing">Post-LN · skip route</tspan></text>
+<text y="3131.6" xml:space="preserve" class="g38s17"><tspan x="623.0" class="g38s2" textLength="124.3" lengthAdjust="spacing">Post-LN · grad, last block</tspan></text>
+<text y="3131.6" xml:space="preserve" class="g38s17"><tspan x="828.0" class="g38s2" textLength="111.4" lengthAdjust="spacing">Post-LN · grad at input</tspan></text>
+<text y="3131.6" xml:space="preserve" class="g38s17"><tspan x="1033.0" class="g38s2" textLength="97.4" lengthAdjust="spacing">Pre-LN · ‖x‖ before </tspan><tspan x="1130.4" class="g38s68" textLength="47.5" lengthAdjust="spacing">enc_norm</tspan></text>
+<text y="3131.6" xml:space="preserve" class="g38s17"><tspan x="1238.0" class="g38s2" textLength="117.4" lengthAdjust="spacing">Pre-LN · last update ÷ x</tspan></text>
+<text y="3131.6" xml:space="preserve" class="g38s17"><tspan x="1443.0" class="g38s2" textLength="119.4" lengthAdjust="spacing">Pre-LN · grad, last block</tspan></text>
+<text y="3131.6" xml:space="preserve" class="g38s17"><tspan x="1648.0" class="g38s2" textLength="106.4" lengthAdjust="spacing">Pre-LN · grad at input</tspan></text>
+<text y="3155.4" xml:space="preserve" class="g38s45"><tspan x="43.0" class="g38s0" textLength="42.8" lengthAdjust="spacing">2 blocks</tspan></text>
+<text x="213.0" y="3155.4" class="g38s6">8.0</text>
+<text x="418.0" y="3155.4" class="g38s6">0.852</text>
+<text x="623.0" y="3155.4" class="g38s6">5.53</text>
+<text x="828.0" y="3155.4" class="g38s6">1.05</text>
+<text x="1033.0" y="3155.4" class="g38s6">9.4</text>
+<text x="1238.0" y="3155.4" class="g38s6">0.45</text>
+<text x="1443.0" y="3155.4" class="g38s6">5.18</text>
+<text x="1648.0" y="3155.4" class="g38s6">1.05</text>
+<line x1="34.0" y1="3163.6" x2="1846.0" y2="3163.6" class="g38s4"/>
+<rect x="34.0" y="3163.6" width="1812.0" height="24.0" rx="0" class="g38s25"/>
+<text y="3179.4" xml:space="preserve" class="g38s45"><tspan x="43.0" class="g38s0" textLength="42.8" lengthAdjust="spacing">4 blocks</tspan></text>
+<text x="213.0" y="3179.4" class="g38s6">8.0</text>
+<text x="418.0" y="3179.4" class="g38s6">0.715</text>
+<text x="623.0" y="3179.4" class="g38s6">5.46</text>
+<text x="828.0" y="3179.4" class="g38s6">1.10</text>
+<text x="1033.0" y="3179.4" class="g38s6">10.6</text>
+<text x="1238.0" y="3179.4" class="g38s6">0.39</text>
+<text x="1443.0" y="3179.4" class="g38s6">4.52</text>
+<text x="1648.0" y="3179.4" class="g38s6">1.10</text>
+<line x1="34.0" y1="3187.6" x2="1846.0" y2="3187.6" class="g38s4"/>
+<text y="3203.4" xml:space="preserve" class="g38s45"><tspan x="43.0" class="g38s0" textLength="42.8" lengthAdjust="spacing">8 blocks</tspan></text>
+<text x="213.0" y="3203.4" class="g38s6">8.0</text>
+<text x="418.0" y="3203.4" class="g38s6">0.456</text>
+<text x="623.0" y="3203.4" class="g38s6">5.42</text>
+<text x="828.0" y="3203.4" class="g38s6">1.05</text>
+<text x="1033.0" y="3203.4" class="g38s6">13.5</text>
+<text x="1238.0" y="3203.4" class="g38s6">0.31</text>
+<text x="1443.0" y="3203.4" class="g38s6">3.70</text>
+<text x="1648.0" y="3203.4" class="g38s6">1.06</text>
+<line x1="34.0" y1="3211.6" x2="1846.0" y2="3211.6" class="g38s4"/>
+<rect x="34.0" y="3211.6" width="1812.0" height="24.0" rx="0" class="g38s25"/>
+<text y="3227.4" xml:space="preserve" class="g38s45"><tspan x="43.0" class="g38s0" textLength="49.3" lengthAdjust="spacing">16 blocks</tspan></text>
+<text x="213.0" y="3227.4" class="g38s6">8.0</text>
+<text x="418.0" y="3227.4" class="g38s6">0.222</text>
+<text x="623.0" y="3227.4" class="g38s6">5.39</text>
+<text x="828.0" y="3227.4" class="g38s6">1.18</text>
+<text x="1033.0" y="3227.4" class="g38s6">17.0</text>
+<text x="1238.0" y="3227.4" class="g38s6">0.23</text>
+<text x="1443.0" y="3227.4" class="g38s6">2.88</text>
+<text x="1648.0" y="3227.4" class="g38s6">1.17</text>
+<line x1="34.0" y1="3235.6" x2="1846.0" y2="3235.6" class="g38s4"/>
+<text y="3251.4" xml:space="preserve" class="g38s45"><tspan x="43.0" class="g38s0" textLength="49.3" lengthAdjust="spacing">32 blocks</tspan></text>
+<text x="213.0" y="3251.4" class="g38s6">8.0</text>
+<text x="418.0" y="3251.4" class="g38s6">0.0418</text>
+<text x="623.0" y="3251.4" class="g38s6">5.58</text>
+<text x="828.0" y="3251.4" class="g38s6">1.31</text>
+<text x="1033.0" y="3251.4" class="g38s6">22.7</text>
+<text x="1238.0" y="3251.4" class="g38s6">0.17</text>
+<text x="1443.0" y="3251.4" class="g38s6">2.18</text>
+<text x="1648.0" y="3251.4" class="g38s6">1.15</text>
+<line x1="34.0" y1="3259.6" x2="1846.0" y2="3259.6" class="g38s4"/>
+<rect x="34.0" y="3259.6" width="1812.0" height="24.0" rx="0" class="g38s25"/>
+<text y="3275.4" xml:space="preserve" class="g38s45"><tspan x="43.0" class="g38s0" textLength="49.3" lengthAdjust="spacing">48 blocks</tspan></text>
+<text x="213.0" y="3275.4" class="g38s6">8.0</text>
+<text x="418.0" y="3275.4" class="g38s6">0.0081</text>
+<text x="623.0" y="3275.4" class="g38s6">5.59</text>
+<text x="828.0" y="3275.4" class="g38s6">1.46</text>
+<text x="1033.0" y="3275.4" class="g38s6">27.6</text>
+<text x="1238.0" y="3275.4" class="g38s6">0.15</text>
+<text x="1443.0" y="3275.4" class="g38s6">1.80</text>
+<text x="1648.0" y="3275.4" class="g38s6">1.08</text>
+<line x1="34.0" y1="3283.6" x2="1846.0" y2="3283.6" class="g38s4"/>
+<rect x="34.0" y="3139.6" width="1812.0" height="144.0" rx="0" class="g38s59"/>
+<line x1="204.0" y1="3139.6" x2="204.0" y2="3283.6" class="g38s4"/>
+<line x1="409.0" y1="3139.6" x2="409.0" y2="3283.6" class="g38s4"/>
+<line x1="614.0" y1="3139.6" x2="614.0" y2="3283.6" class="g38s4"/>
+<line x1="819.0" y1="3139.6" x2="819.0" y2="3283.6" class="g38s4"/>
+<line x1="1024.0" y1="3139.6" x2="1024.0" y2="3283.6" class="g38s4"/>
+<line x1="1229.0" y1="3139.6" x2="1229.0" y2="3283.6" class="g38s4"/>
+<line x1="1434.0" y1="3139.6" x2="1434.0" y2="3283.6" class="g38s4"/>
+<line x1="1639.0" y1="3139.6" x2="1639.0" y2="3283.6" class="g38s4"/>
+<rect x="34.0" y="3299.6" width="894.0" height="107.6" rx="6" class="g38s47"/>
+<path d="M38.50 3300.33 A5.50 5.50 0 0 0 34.50 3305.62 V3401.22 A5.50 5.50 0 0 0 38.50 3406.51 Z" class="g38s48"/>
+<text y="3325.6" xml:space="preserve" class="g38s27"><tspan x="50.0" class="g38s2" textLength="337.3" lengthAdjust="spacing">Clean path: true — vanishing gradients at the start: not here</tspan></text>
+<text y="3343.1" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="32.7" lengthAdjust="spacing">Chart </tspan><tspan x="82.7" class="g38s0">3</tspan><tspan x="89.7" textLength="793.8" lengthAdjust="spacing"> is the precise meaning of &quot;a clean residual path&quot;. In Pre-LN a gradient can go from the top of the stack to the bottom through the &quot;+&quot; nodes alone and</tspan></text>
+<text y="3360.7" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="120.0" lengthAdjust="spacing">arrive at full size (gain </tspan><tspan x="170.0" class="g38s0">1</tspan><tspan x="177.1" textLength="103.4" lengthAdjust="spacing">). In Post-LN every </tspan><tspan x="280.5" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="341.6" textLength="283.5" lengthAdjust="spacing"> on the path divides it, so that route alone keeps only </tspan><tspan x="625.1" class="g38s0" textLength="31.8" lengthAdjust="spacing">0.008</tspan><tspan x="656.9" textLength="53.4" lengthAdjust="spacing"> of it after </tspan><tspan x="710.3" class="g38s0" textLength="53.7" lengthAdjust="spacing">48 blocks</tspan><tspan x="764.0" textLength="93.4" lengthAdjust="spacing">. But notice chart </tspan><tspan x="857.4" class="g38s0">4</tspan><tspan x="864.5" textLength="43.4" lengthAdjust="spacing"> and the</tspan></text>
+<text y="3378.2" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="582.8" lengthAdjust="spacing">table: at initialisation Post-LN’s TOTAL gradient does not vanish — it still reaches every block (and the input: </tspan><tspan x="632.8" class="g38s0" textLength="24.8" lengthAdjust="spacing">1.46</tspan><tspan x="657.5" textLength="99.9" lengthAdjust="spacing"> against Pre-LN’s </tspan><tspan x="757.4" class="g38s0" textLength="24.8" lengthAdjust="spacing">1.08</tspan><tspan x="782.2" textLength="122.7" lengthAdjust="spacing">), travelling through the</tspan></text>
+<text y="3395.7" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="663.0" lengthAdjust="spacing">sub-layers instead of around them. What Post-LN loses is a route that does not depend on what the sub-layers have learned.</tspan></text>
+<rect x="952.0" y="3299.6" width="894.0" height="107.6" rx="6" style="fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1"/>
+<path d="M956.50 3300.33 A5.50 5.50 0 0 0 952.50 3305.62 V3401.22 A5.50 5.50 0 0 0 956.50 3406.51 Z" style="fill:var(--drop);stroke:none"/>
+<text y="3325.6" xml:space="preserve" class="g38s27"><tspan x="968.0" class="g38s2" textLength="241.8" lengthAdjust="spacing">The cost of Pre-LN: later layers matter less</tspan></text>
+<text y="3343.1" xml:space="preserve" class="g38s8"><tspan x="968.0" textLength="378.1" lengthAdjust="spacing">Pre-LN pays for its stability with growth. x gets longer with every block (</tspan><tspan x="1346.1" class="g38s0" textLength="24.8" lengthAdjust="spacing">27.6</tspan><tspan x="1370.9" textLength="30.7" lengthAdjust="spacing"> after </tspan><tspan x="1401.6" class="g38s0" textLength="14.1" lengthAdjust="spacing">48</tspan><tspan x="1415.7" textLength="48.7" lengthAdjust="spacing">, against </tspan><tspan x="1464.4" class="g38s0">8</tspan><tspan x="1471.5" textLength="336.2" lengthAdjust="spacing"> for Post-LN), while each block still adds an update of about the</tspan></text>
+<text y="3360.7" xml:space="preserve" class="g38s8"><tspan x="968.0" textLength="414.8" lengthAdjust="spacing">same size, so each later block moves x relatively less: its update shrinks from </tspan><tspan x="1382.8" class="g38s0" textLength="24.8" lengthAdjust="spacing">0.50</tspan><tspan x="1407.6" textLength="70.7" lengthAdjust="spacing"> of x at block </tspan><tspan x="1478.3" class="g38s0">0</tspan><tspan x="1485.3" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="1502.0" class="g38s0" textLength="24.8" lengthAdjust="spacing">0.15</tspan><tspan x="1526.8" textLength="48.0" lengthAdjust="spacing"> at block </tspan><tspan x="1574.8" class="g38s0" textLength="14.1" lengthAdjust="spacing">47</tspan><tspan x="1588.9" textLength="56.0" lengthAdjust="spacing">. The final </tspan><tspan x="1645.0" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1706.1" textLength="106.7" lengthAdjust="spacing"> then divides by that</tspan></text>
+<text y="3378.2" xml:space="preserve" class="g38s8"><tspan x="968.0" textLength="378.8" lengthAdjust="spacing">large length, which is why the gradient reaching the top blocks shrinks (</tspan><tspan x="1346.8" class="g38s0" textLength="17.7" lengthAdjust="spacing">1.8</tspan><tspan x="1364.5" textLength="45.4" lengthAdjust="spacing"> against </tspan><tspan x="1409.9" class="g38s0" textLength="17.7" lengthAdjust="spacing">5.6</tspan><tspan x="1427.5" textLength="378.1" lengthAdjust="spacing">). Smaller early updates are part of why Pre-LN trains without warm-up;</tspan></text>
+<text y="3395.7" xml:space="preserve" class="g38s8"><tspan x="968.0" textLength="705.6" lengthAdjust="spacing">relatively weak later layers are the price, and research on large pre-norm models reports deep layers that contribute surprisingly little.</tspan></text>
+<rect x="34.0" y="3435.2" width="1812.0" height="30.0" rx="6" class="g38s28"/>
+<path d="M38.50 3435.93 A5.50 5.50 0 0 0 34.50 3441.22 V3459.22 A5.50 5.50 0 0 0 38.50 3464.51 Z" class="g38s39"/>
+<text y="3455.2" xml:space="preserve" class="g38s40"><tspan x="50.0" class="g38s2" textLength="189.2" lengthAdjust="spacing">E · Pros and cons, side by side</tspan></text>
+<text y="3455.2" xml:space="preserve" class="g38s41"><tspan x="257.2" textLength="397.6" lengthAdjust="spacing">measured on this page where marked · otherwise from the published research</tspan></text>
+<text y="3483.2" xml:space="preserve" class="g38s27"><tspan x="38.0" class="g38s2" textLength="205.0" lengthAdjust="spacing">Neither arrangement is simply better</tspan></text>
+<text y="3501.2" xml:space="preserve" class="g38s8"><tspan x="38.0" textLength="743.7" lengthAdjust="spacing">Pre-LN is the safer default and most large models today use it, but Post-LN has real advantages that the one-sentence summary leaves out.</tspan></text>
+<text y="3533.6" xml:space="preserve" class="g38s11"><tspan x="34.0" class="g38s2" textLength="201.2" lengthAdjust="spacing">The two arrangements, point by point</tspan></text>
+<rect x="34.0" y="3542.6" width="1812.0" height="24.0" rx="4" class="g38s28"/>
+<text y="3558.6" xml:space="preserve" class="g38s17"><tspan x="403.0" class="g38s68" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="414.9" class="g38s2" textLength="49.5" lengthAdjust="spacing"> · Post-LN</tspan></text>
+<text y="3558.6" xml:space="preserve" class="g38s17"><tspan x="1129.0" class="g38s68" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="1152.8" class="g38s2" textLength="44.5" lengthAdjust="spacing"> · Pre-LN</tspan></text>
+<text y="3584.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="59.6" lengthAdjust="spacing">Where the </tspan><tspan x="102.6" class="g38s7" textLength="58.6" lengthAdjust="spacing">LayerNorm</tspan><tspan x="161.2" class="g38s2" textLength="21.7" lengthAdjust="spacing"> sits</tspan></text>
+<text y="3584.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="92.1" lengthAdjust="spacing">after the addition: </tspan><tspan x="495.1" class="g38s7" textLength="91.1" lengthAdjust="spacing">norm(x + F(x))</tspan><tspan x="586.2" textLength="103.6" lengthAdjust="spacing"> — on the main path</tspan></text>
+<text y="3584.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" textLength="108.7" lengthAdjust="spacing">before the sub-layer: </tspan><tspan x="1237.7" class="g38s7" textLength="91.1" lengthAdjust="spacing">x + F(norm(x))</tspan><tspan x="1328.8" textLength="112.5" lengthAdjust="spacing"> — on the side branch</tspan></text>
+<line x1="34.0" y1="3594.6" x2="1846.0" y2="3594.6" class="g38s4"/>
+<rect x="34.0" y="3594.6" width="1812.0" height="28.0" rx="0" class="g38s25"/>
+<text y="3612.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="171.4" lengthAdjust="spacing">Size of x · measured in B and D</tspan></text>
+<text y="3612.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="220.9" lengthAdjust="spacing">fixed: √d after every sub-layer, at any depth</tspan></text>
+<text y="3612.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" textLength="216.7" lengthAdjust="spacing">grows with every addition; needs one final </tspan><tspan x="1345.7" class="g38s7" textLength="58.6" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1404.3"> (</tspan><tspan x="1411.3" class="g38s7" textLength="52.1" lengthAdjust="spacing">enc_norm</tspan><tspan x="1463.3">, </tspan><tspan x="1469.7" class="g38s7" textLength="52.1" lengthAdjust="spacing">dec_norm</tspan><tspan x="1521.8">)</tspan></text>
+<line x1="34.0" y1="3622.6" x2="1846.0" y2="3622.6" class="g38s4"/>
+<text y="3640.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="157.9" lengthAdjust="spacing">The skip route · measured in </tspan><tspan x="200.9" class="g38s7" textLength="13.0" lengthAdjust="spacing">D3</tspan></text>
+<text y="3640.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="86.3" lengthAdjust="spacing">divided by every </tspan><tspan x="489.3" class="g38s7" textLength="58.6" lengthAdjust="spacing">LayerNorm</tspan><tspan x="547.9" textLength="65.2" lengthAdjust="spacing"> on the way: </tspan><tspan x="613.1" class="g38s0" textLength="30.5" lengthAdjust="spacing">0.008</tspan><tspan x="643.6" textLength="29.4" lengthAdjust="spacing"> after </tspan><tspan x="673.0" class="g38s0" textLength="51.5" lengthAdjust="spacing">48 blocks</tspan></text>
+<text y="3640.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" textLength="124.0" lengthAdjust="spacing">untouched: gain exactly </tspan><tspan x="1253.0" class="g38s0">1</tspan><tspan x="1259.8" textLength="66.5" lengthAdjust="spacing"> at any depth</tspan></text>
+<line x1="34.0" y1="3650.6" x2="1846.0" y2="3650.6" class="g38s4"/>
+<rect x="34.0" y="3650.6" width="1812.0" height="28.0" rx="0" class="g38s25"/>
+<text y="3668.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="292.7" lengthAdjust="spacing">How much each layer changes x · measured in C and </tspan><tspan x="335.7" class="g38s7" textLength="13.0" lengthAdjust="spacing">D2</tspan></text>
+<text y="3668.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="400.1" lengthAdjust="spacing">a lot, and the same at every depth — each layer can rewrite the representation</tspan></text>
+<text y="3668.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" textLength="357.3" lengthAdjust="spacing">less, and less again for later layers — each layer is a gentle correction</tspan></text>
+<line x1="34.0" y1="3678.6" x2="1846.0" y2="3678.6" class="g38s4"/>
+<text y="3696.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="213.4" lengthAdjust="spacing">Gradients at initialisation · measured in </tspan><tspan x="256.4" class="g38s7" textLength="13.0" lengthAdjust="spacing">D4</tspan></text>
+<text y="3696.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="348.3" lengthAdjust="spacing">reach every block at a similar size; the top blocks get large gradients</tspan></text>
+<text y="3696.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" textLength="288.3" lengthAdjust="spacing">the top blocks get smaller gradients the deeper the stack</tspan></text>
+<line x1="34.0" y1="3706.6" x2="1846.0" y2="3706.6" class="g38s4"/>
+<rect x="34.0" y="3706.6" width="1812.0" height="28.0" rx="0" class="g38s25"/>
+<text y="3724.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="180.9" lengthAdjust="spacing">Learning-rate warm-up · research</tspan></text>
+<text y="3724.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="476.2" lengthAdjust="spacing">needed: without it, early updates at full learning rate often make training diverge (Xiong et al., </tspan><tspan x="879.2" class="g38s0" textLength="27.1" lengthAdjust="spacing">2020</tspan><tspan x="906.3">)</tspan></text>
+<text y="3724.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" textLength="112.5" lengthAdjust="spacing">can often be skipped; </tspan><tspan x="1241.5" class="g38s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="1267.5" textLength="46.7" lengthAdjust="spacing"> keeps a </tspan><tspan x="1314.2" class="g38s0" textLength="40.7" lengthAdjust="spacing">20-step</tspan><tspan x="1354.9" textLength="90.1" lengthAdjust="spacing"> warm-up anyway</tspan></text>
+<line x1="34.0" y1="3734.6" x2="1846.0" y2="3734.6" class="g38s4"/>
+<text y="3752.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="196.5" lengthAdjust="spacing">Training very deep stacks · research</tspan></text>
+<text y="3752.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="533.0" lengthAdjust="spacing">hard: sensitive to learning rate and depth; needs warm-up or special tricks such as rescaled residuals — </tspan><tspan x="936.0" class="g38s7" textLength="45.6" lengthAdjust="spacing">DeepNet</tspan><tspan x="981.6">, </tspan><tspan x="988.0" class="g38s0" textLength="27.1" lengthAdjust="spacing">2022</tspan></text>
+<text y="3752.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" textLength="345.1" lengthAdjust="spacing">much easier: deep encoders train where Post-LN fails (Wang et al., </tspan><tspan x="1474.1" class="g38s0" textLength="27.1" lengthAdjust="spacing">2019</tspan><tspan x="1501.2">)</tspan></text>
+<line x1="34.0" y1="3762.6" x2="1846.0" y2="3762.6" class="g38s4"/>
+<rect x="34.0" y="3762.6" width="1812.0" height="28.0" rx="0" class="g38s25"/>
+<text y="3780.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="209.4" lengthAdjust="spacing">Final quality when both train · research</tspan></text>
+<text y="3780.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="374.6" lengthAdjust="spacing">often as good or slightly better: every layer keeps full influence (Liu et al., </tspan><tspan x="777.6" class="g38s0" textLength="27.1" lengthAdjust="spacing">2020</tspan><tspan x="804.7">)</tspan></text>
+<text y="3780.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" textLength="374.5" lengthAdjust="spacing">sometimes slightly worse; the deepest layers can end up contributing little</tspan></text>
+<line x1="34.0" y1="3790.6" x2="1846.0" y2="3790.6" class="g38s4"/>
+<text y="3808.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="58.9" lengthAdjust="spacing">Extra parts</tspan></text>
+<text y="3808.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="25.6" lengthAdjust="spacing">none</tspan></text>
+<text y="3808.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" textLength="46.7" lengthAdjust="spacing">one final </tspan><tspan x="1175.7" class="g38s7" textLength="58.6" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1234.2" textLength="56.9" lengthAdjust="spacing"> per stack (</tspan><tspan x="1291.1" class="g38s0" textLength="95.5" lengthAdjust="spacing">1,024 parameters</tspan><tspan x="1386.6" textLength="58.2" lengthAdjust="spacing"> each here)</tspan></text>
+<line x1="34.0" y1="3818.6" x2="1846.0" y2="3818.6" class="g38s4"/>
+<rect x="34.0" y="3818.6" width="1812.0" height="28.0" rx="0" class="g38s25"/>
+<text y="3836.5" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="63.7" lengthAdjust="spacing">Who uses it</tspan></text>
+<text y="3836.5" xml:space="preserve" class="g38s9"><tspan x="403.0" textLength="129.1" lengthAdjust="spacing">the original Transformer (</tspan><tspan x="532.1" class="g38s0" textLength="27.1" lengthAdjust="spacing">2017</tspan><tspan x="559.2" textLength="131.5" lengthAdjust="spacing">), BERT, this notebook’s </tspan><tspan x="690.7" class="g38s7" textLength="13.0" lengthAdjust="spacing">v1</tspan></text>
+<text y="3836.5" xml:space="preserve" class="g38s9"><tspan x="1129.0" class="g38s0" textLength="35.9" lengthAdjust="spacing">GPT-2</tspan><tspan x="1164.9" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="1190.5" class="g38s0" textLength="35.9" lengthAdjust="spacing">GPT-3</tspan><tspan x="1226.4">, </tspan><tspan x="1232.8" class="g38s7" textLength="19.5" lengthAdjust="spacing">ViT</tspan><tspan x="1252.3">, </tspan><tspan x="1258.7" class="g38s7" textLength="32.5" lengthAdjust="spacing">LLaMA</tspan><tspan x="1291.2" textLength="30.7" lengthAdjust="spacing"> (with </tspan><tspan x="1321.9" class="g38s7" textLength="45.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="1367.4" textLength="94.5" lengthAdjust="spacing">), this notebook’s </tspan><tspan x="1461.9" class="g38s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan></text>
+<line x1="34.0" y1="3846.6" x2="1846.0" y2="3846.6" class="g38s4"/>
+<rect x="34.0" y="3566.6" width="1812.0" height="280.0" rx="0" class="g38s59"/>
+<line x1="394.0" y1="3566.6" x2="394.0" y2="3846.6" class="g38s4"/>
+<line x1="1120.0" y1="3566.6" x2="1120.0" y2="3846.6" class="g38s4"/>
+<rect x="34.0" y="3874.6" width="1812.0" height="30.0" rx="6" class="g38s28"/>
+<path d="M38.50 3875.33 A5.50 5.50 0 0 0 34.50 3880.62 V3898.62 A5.50 5.50 0 0 0 38.50 3903.91 Z" class="g38s39"/>
+<text y="3894.6" xml:space="preserve" class="g38s40"><tspan x="50.0" class="g38s2" textLength="202.2" lengthAdjust="spacing">F · The common claims, checked</tspan></text>
+<text y="3894.6" xml:space="preserve" class="g38s41"><tspan x="270.2" textLength="373.9" lengthAdjust="spacing">the usual one-paragraph summary of Pre-LN against Post-LN, line by line</tspan></text>
+<text y="3922.6" xml:space="preserve" class="g38s27"><tspan x="38.0" class="g38s2" textLength="314.6" lengthAdjust="spacing">Mostly true — with two mix-ups and two overstatements</tspan></text>
+<text y="3940.6" xml:space="preserve" class="g38s8"><tspan x="38.0" textLength="757.6" lengthAdjust="spacing">A typical summary gets the direction right. These are the places where it is imprecise, measured against section D and the research it rests on.</tspan></text>
+<text y="3973.0" xml:space="preserve" class="g38s11"><tspan x="34.0" class="g38s2" textLength="152.4" lengthAdjust="spacing">Seven claims, one row each</tspan></text>
+<rect x="34.0" y="3982.0" width="1812.0" height="24.0" rx="4" class="g38s28"/>
+<text y="3998.0" xml:space="preserve" class="g38s17"><tspan x="43.0" class="g38s2" textLength="44.5" lengthAdjust="spacing">the claim</tspan></text>
+<text y="3998.0" xml:space="preserve" class="g38s17"><tspan x="563.0" class="g38s2" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="3998.0" xml:space="preserve" class="g38s17"><tspan x="733.0" class="g38s2" textLength="195.5" lengthAdjust="spacing">what the numbers and the research say</tspan></text>
+<text y="4024.9" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="299.3" lengthAdjust="spacing">&quot;The first version is Pre-LN and the second is Post-LN.&quot;</tspan></text>
+<text y="4024.9" xml:space="preserve" class="g38s9"><tspan x="563.0" textLength="75.4" lengthAdjust="spacing">Reversed here</tspan></text>
+<text y="4024.9" xml:space="preserve" class="g38s9"><tspan x="733.0" textLength="212.9" lengthAdjust="spacing">In this notebook it is the other way round: </tspan><tspan x="945.9" class="g38s7" textLength="13.0" lengthAdjust="spacing">v1</tspan><tspan x="958.9" textLength="63.3" lengthAdjust="spacing"> is Post-LN (</tspan><tspan x="1022.1" class="g38s7" textLength="182.2" lengthAdjust="spacing">norm1(x + dropout(attn_out))</tspan><tspan x="1204.4" textLength="29.4" lengthAdjust="spacing">) and </tspan><tspan x="1233.8" class="g38s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="1259.8" textLength="58.1" lengthAdjust="spacing"> is Pre-LN (</tspan><tspan x="1317.9" class="g38s7" textLength="78.1" lengthAdjust="spacing">h = norm1(x)</tspan><tspan x="1396.0" textLength="32.0" lengthAdjust="spacing">, then </tspan><tspan x="1428.0" class="g38s7" textLength="136.7" lengthAdjust="spacing">x + dropout(attn_out)</tspan><tspan x="1564.7" textLength="7.0" lengthAdjust="spacing">).</tspan></text>
+<line x1="34.0" y1="4036.0" x2="1846.0" y2="4036.0" class="g38s4"/>
+<rect x="34.0" y="4036.0" width="1812.0" height="30.0" rx="0" class="g38s25"/>
+<text y="4054.9" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="383.3" lengthAdjust="spacing">&quot;Pre-LN keeps the residual path clean, so gradients flow straight back.&quot;</tspan></text>
+<text y="4054.9" xml:space="preserve" class="g38s9"><tspan x="563.0" class="g38s7" textLength="26.0" lengthAdjust="spacing">True</tspan></text>
+<text y="4054.9" xml:space="preserve" class="g38s9"><tspan x="733.0" textLength="66.5" lengthAdjust="spacing">Measured in </tspan><tspan x="799.5" class="g38s7" textLength="13.0" lengthAdjust="spacing">D3</tspan><tspan x="812.5" textLength="279.3" lengthAdjust="spacing">: the skip route keeps its full size in Pre-LN and falls to </tspan><tspan x="1091.8" class="g38s0" textLength="30.5" lengthAdjust="spacing">0.008</tspan><tspan x="1122.3" textLength="29.4" lengthAdjust="spacing"> after </tspan><tspan x="1151.7" class="g38s0" textLength="13.6" lengthAdjust="spacing">48</tspan><tspan x="1165.3" textLength="83.7" lengthAdjust="spacing"> Post-LN blocks.</tspan></text>
+<line x1="34.0" y1="4066.0" x2="1846.0" y2="4066.0" class="g38s4"/>
+<text y="4084.9" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="277.0" lengthAdjust="spacing">&quot;Pre-LN avoids vanishing and exploding gradients.&quot;</tspan></text>
+<text y="4084.9" xml:space="preserve" class="g38s9"><tspan x="563.0" textLength="56.2" lengthAdjust="spacing">Overstated</tspan></text>
+<text y="4084.9" xml:space="preserve" class="g38s9"><tspan x="733.0" textLength="278.7" lengthAdjust="spacing">At initialisation neither toy stack vanishes or explodes (</tspan><tspan x="1011.7" class="g38s7" textLength="13.0" lengthAdjust="spacing">D4</tspan><tspan x="1024.7" textLength="806.0" lengthAdjust="spacing"> and the table). What changes is how gradient size depends on depth and position, which is what makes Post-LN sensitive to the learning rate early in training.</tspan></text>
+<line x1="34.0" y1="4096.0" x2="1846.0" y2="4096.0" class="g38s4"/>
+<rect x="34.0" y="4096.0" width="1812.0" height="30.0" rx="0" class="g38s25"/>
+<text y="4114.9" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="288.5" lengthAdjust="spacing">&quot;Pre-LN reduces the need for learning-rate warm-up.&quot;</tspan></text>
+<text y="4114.9" xml:space="preserve" class="g38s9"><tspan x="563.0" class="g38s7" textLength="26.0" lengthAdjust="spacing">True</tspan></text>
+<text y="4114.9" xml:space="preserve" class="g38s9"><tspan x="733.0" textLength="64.6" lengthAdjust="spacing">Xiong et al. (</tspan><tspan x="797.6" class="g38s0" textLength="27.1" lengthAdjust="spacing">2020</tspan><tspan x="824.7" textLength="342.6" lengthAdjust="spacing">) trained Pre-LN Transformers without warm-up; Post-LN needed it.</tspan></text>
+<line x1="34.0" y1="4126.0" x2="1846.0" y2="4126.0" class="g38s4"/>
+<text y="4150.0" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="335.2" lengthAdjust="spacing">&quot;As depth grows, Post-LN becomes unstable early in training.&quot;</tspan></text>
+<text y="4150.0" xml:space="preserve" class="g38s9"><tspan x="563.0" textLength="60.7" lengthAdjust="spacing">Largely true</tspan></text>
+<text y="4142.0" xml:space="preserve" class="g38s9"><tspan x="733.0" textLength="209.7" lengthAdjust="spacing">That is the standard finding (Xiong et al., </tspan><tspan x="942.7" class="g38s0" textLength="27.1" lengthAdjust="spacing">2020</tspan><tspan x="969.8" textLength="56.3" lengthAdjust="spacing">; Liu et al., </tspan><tspan x="1026.0" class="g38s0" textLength="27.1" lengthAdjust="spacing">2020</tspan><tspan x="1053.1" textLength="658.4" lengthAdjust="spacing">, who trace it to how strongly each layer depends on its residual branch). It is not unavoidable: rescaled Post-LN variants such as </tspan><tspan x="1711.5" class="g38s7" textLength="45.6" lengthAdjust="spacing">DeepNet</tspan><tspan x="1757.1" textLength="66.5" lengthAdjust="spacing"> have trained</tspan></text>
+<text y="4158.1" xml:space="preserve" class="g38s9"><tspan x="733.0" class="g38s0" textLength="61.0" lengthAdjust="spacing">1,000-layer</tspan><tspan x="794.0" textLength="43.5" lengthAdjust="spacing"> models.</tspan></text>
+<line x1="34.0" y1="4166.2" x2="1846.0" y2="4166.2" class="g38s4"/>
+<rect x="34.0" y="4166.2" width="1812.0" height="30.0" rx="0" class="g38s25"/>
+<text y="4185.1" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="135.3" lengthAdjust="spacing">&quot;Pre-LN is simply better.&quot;</tspan></text>
+<text y="4185.1" xml:space="preserve" class="g38s9"><tspan x="563.0" textLength="56.2" lengthAdjust="spacing">Incomplete</tspan></text>
+<text y="4185.1" xml:space="preserve" class="g38s9"><tspan x="733.0" textLength="276.8" lengthAdjust="spacing">It is more stable, but x grows with depth, needs a final </tspan><tspan x="1009.8" class="g38s7" textLength="58.6" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1068.3" textLength="200.1" lengthAdjust="spacing">, and later layers change x less (charts </tspan><tspan x="1268.4" class="g38s7" textLength="13.0" lengthAdjust="spacing">D1</tspan><tspan x="1281.4" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="1307.0" class="g38s7" textLength="13.0" lengthAdjust="spacing">D2</tspan><tspan x="1320.0" textLength="313.8" lengthAdjust="spacing">). When Post-LN does train, it often matches or beats Pre-LN.</tspan></text>
+<line x1="34.0" y1="4196.2" x2="1846.0" y2="4196.2" class="g38s4"/>
+<text y="4215.1" xml:space="preserve" class="g38s11"><tspan x="43.0" class="g38s2" textLength="137.1" lengthAdjust="spacing">&quot;Modern models such as </tspan><tspan x="180.1" class="g38s7" textLength="32.5" lengthAdjust="spacing">LLaMA</tspan><tspan x="212.7" class="g38s2">, </tspan><tspan x="219.4" class="g38s0" textLength="35.9" lengthAdjust="spacing">GPT-3</tspan><tspan x="255.3" class="g38s2">, </tspan><tspan x="262.1" class="g38s0" textLength="35.9" lengthAdjust="spacing">GPT-4</tspan><tspan x="298.0" class="g38s2" textLength="27.1" lengthAdjust="spacing"> and </tspan><tspan x="325.1" class="g38s7" textLength="19.5" lengthAdjust="spacing">ViT</tspan><tspan x="344.6" class="g38s2" textLength="72.7" lengthAdjust="spacing"> use Pre-LN.&quot;</tspan></text>
+<text y="4215.1" xml:space="preserve" class="g38s9"><tspan x="563.0" textLength="84.4" lengthAdjust="spacing">Partly checkable</tspan></text>
+<text y="4215.1" xml:space="preserve" class="g38s9"><tspan x="733.0" class="g38s0" textLength="35.9" lengthAdjust="spacing">GPT-3</tspan><tspan x="768.9" textLength="27.5" lengthAdjust="spacing"> (like </tspan><tspan x="796.4" class="g38s0" textLength="35.9" lengthAdjust="spacing">GPT-2</tspan><tspan x="832.3" textLength="29.4" lengthAdjust="spacing">) and </tspan><tspan x="861.7" class="g38s7" textLength="19.5" lengthAdjust="spacing">ViT</tspan><tspan x="881.2" textLength="153.4" lengthAdjust="spacing"> normalise before each block. </tspan><tspan x="1034.6" class="g38s7" textLength="32.5" lengthAdjust="spacing">LLaMA</tspan><tspan x="1067.1" textLength="96.5" lengthAdjust="spacing"> does too, but with </tspan><tspan x="1163.7" class="g38s7" textLength="45.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="1209.2" textLength="56.3" lengthAdjust="spacing"> instead of </tspan><tspan x="1265.5" class="g38s7" textLength="58.6" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1324.0">. </tspan><tspan x="1330.4" class="g38s0" textLength="35.9" lengthAdjust="spacing">GPT-4</tspan><tspan x="1366.3" textLength="359.1" lengthAdjust="spacing">’s architecture has not been published, so that part cannot be verified.</tspan></text>
+<line x1="34.0" y1="4226.2" x2="1846.0" y2="4226.2" class="g38s4"/>
+<rect x="34.0" y="4006.0" width="1812.0" height="220.2" rx="0" class="g38s59"/>
+<line x1="554.0" y1="4006.0" x2="554.0" y2="4226.2" class="g38s4"/>
+<line x1="724.0" y1="4006.0" x2="724.0" y2="4226.2" class="g38s4"/>
+<rect x="34.0" y="4244.2" width="1812.0" height="72.6" rx="6" class="g38s47"/>
+<path d="M38.50 4244.93 A5.50 5.50 0 0 0 34.50 4250.22 V4310.78 A5.50 5.50 0 0 0 38.50 4316.07 Z" class="g38s48"/>
+<text y="4270.2" xml:space="preserve" class="g38s27"><tspan x="50.0" class="g38s2" textLength="87.7" lengthAdjust="spacing">The bottom line</tspan></text>
+<text y="4287.7" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="1780.0" lengthAdjust="spacing">Post-LN normalises x itself after every addition: x stays the same size, every layer keeps full influence, but the skip route is divided at every step and training deep stacks needs care (warm-up, lower learning rates). Pre-LN normalises only the copy each sub-layer reads: the skip route stays intact and training is much more forgiving, but</tspan></text>
+<text y="4305.3" xml:space="preserve" class="g38s8"><tspan x="50.0" textLength="141.4" lengthAdjust="spacing">x grows with depth, a final </tspan><tspan x="191.4" class="g38s21" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="252.5" textLength="248.1" lengthAdjust="spacing"> is required, and later layers matter less. For a </tspan><tspan x="500.6" class="g38s0" textLength="38.9" lengthAdjust="spacing">2-layer</tspan><tspan x="539.5" textLength="214.8" lengthAdjust="spacing"> model like this notebook both train fine; </tspan><tspan x="754.2" class="g38s21" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="781.4" textLength="468.9" lengthAdjust="spacing"> switched because Pre-LN is the arrangement that keeps working as models get deeper.</tspan></text>
+<line x1="28.0" y1="4342.8" x2="1852.0" y2="4342.8" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="4359.8" xml:space="preserve" class="g38s69"><tspan x="28.0" textLength="85.6" lengthAdjust="spacing">Section B and C: </tspan><tspan x="113.6" class="g38s46" textLength="24.9" lengthAdjust="spacing">v1.5</tspan><tspan x="138.5" textLength="583.6" lengthAdjust="spacing">’s own encoder weights (seeded draws from the notebook’s initialisers) run in both arrangements on sequence A, with </tspan><tspan x="722.1" class="g38s46" textLength="43.6" lengthAdjust="spacing">dropout</tspan><tspan x="765.7" textLength="51.4" lengthAdjust="spacing"> off so the </tspan><tspan x="817.1" class="g38s46" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="873.1" textLength="569.8" lengthAdjust="spacing"> position is the only difference; computed exactly in pure Python. Section D: a toy stack of feed-forward blocks (width </tspan><tspan x="1442.9" class="g38s0" textLength="13.0" lengthAdjust="spacing">64</tspan><tspan x="1455.9" textLength="42.2" lengthAdjust="spacing">, hidden </tspan><tspan x="1498.1" class="g38s0" textLength="19.4" lengthAdjust="spacing">256</tspan><tspan x="1517.5">, </tspan><tspan x="1523.6" class="g38s46" textLength="24.9" lengthAdjust="spacing">GELU</tspan><tspan x="1548.5" textLength="202.4" lengthAdjust="spacing">, Xavier weights, PyTorch-default biases, </tspan><tspan x="1750.9" class="g38s46" textLength="49.8" lengthAdjust="spacing">loss = a</tspan><tspan x="1800.7" textLength="26.3" lengthAdjust="spacing"> fixed</tspan></text>
+<text y="4374.8" xml:space="preserve" class="g38s69"><tspan x="28.0" textLength="361.3" lengthAdjust="spacing">random direction · output), forward and backward by hand, averaged over </tspan><tspan x="389.3" class="g38s0">6</tspan><tspan x="395.8" textLength="46.9" lengthAdjust="spacing"> stacks × </tspan><tspan x="442.8" class="g38s0">3</tspan><tspan x="449.3" textLength="390.5" lengthAdjust="spacing"> inputs per depth. Rows marked &quot;research&quot; report published results: Xiong et al. </tspan><tspan x="839.8" class="g38s0" textLength="25.9" lengthAdjust="spacing">2020</tspan><tspan x="865.7" textLength="331.3" lengthAdjust="spacing"> (On Layer Normalization in the Transformer Architecture), Liu et al. </tspan><tspan x="1197.0" class="g38s0" textLength="25.9" lengthAdjust="spacing">2020</tspan><tspan x="1223.0" textLength="333.2" lengthAdjust="spacing"> (Understanding the Difficulty of Training Transformers), Wang et al. </tspan><tspan x="1556.1" class="g38s0" textLength="25.9" lengthAdjust="spacing">2019</tspan><tspan x="1582.1" textLength="240.9" lengthAdjust="spacing"> (Learning Deep Transformer Models for Machine</tspan></text>
+<text y="4389.8" xml:space="preserve" class="g38s69"><tspan x="28.0" textLength="122.9" lengthAdjust="spacing">Translation), Wang et al. </tspan><tspan x="150.9" class="g38s0" textLength="25.9" lengthAdjust="spacing">2022</tspan><tspan x="176.8"> (</tspan><tspan x="183.5" class="g38s46" textLength="43.6" lengthAdjust="spacing">DeepNet</tspan><tspan x="227.1" textLength="6.7" lengthAdjust="spacing">).</tspan></text>
+</svg>

@@ -1,0 +1,479 @@
+<svg data-src="v25_c06_dataset_dataloader.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="2550" viewBox="0 0 1880 2550">
+<style>.txfig .g58s0{fill:var(--op)}.txfig .g58s1{fill:var(--code)}.txfig .g58s2{font-weight:600;fill:var(--ink)}.txfig .g58s3{fill:var(--kw)}.txfig .g58s4{fill:var(--fn)}.txfig .g58s5{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g58s6{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:middle}.txfig .g58s7{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:middle}.txfig .g58s8{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g58s9{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:middle}.txfig .g58s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px}.txfig .g58s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g58s12{fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1.1}.txfig .g58s13{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px}.txfig .g58s14{fill:var(--seqBbg);stroke:none;stroke-width:1}.txfig .g58s15{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g58s16{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g58s17{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g58s18{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px}.txfig .g58s19{font-weight:600}.txfig .g58s20{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g58s21{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g58s22{fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1.1}.txfig .g58s23{fill:var(--seqAbg);stroke:none;stroke-width:1}.txfig .g58s24{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g58s25{stroke:var(--panelbd);stroke-width:1;stroke-dasharray:3 4;stroke-linecap:round}.txfig .g58s26{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g58s27{fill:var(--attr)}.txfig .g58s28{fill:var(--panel);stroke:var(--panelbd);stroke-width:1.1}.txfig .g58s29{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.9px;font-weight:600;fill:var(--ink)}.txfig .g58s30{fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8}.txfig .g58s31{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--accent)}.txfig .g58s32{fill:url(#hatch58);stroke:none;stroke-width:1}.txfig .g58s33{fill:var(--pad);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g58s34{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g58s35{fill:var(--cmt)}.txfig .g58s36{fill:var(--s1);stroke:none}.txfig .g58s37{fill:var(--s1);stroke:none;stroke-width:1;opacity:0.22}.txfig .g58s38{stroke:var(--ink3);stroke-width:1.3;stroke-linecap:round}.txfig .g58s39{fill:var(--ink3)}.txfig .g58s40{fill:var(--s3);stroke:none}.txfig .g58s41{fill:var(--s3);stroke:none;stroke-width:1;opacity:0.22}.txfig .g58s42{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g58s43{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9px}.txfig .g58s44{fill:var(--accent);stroke:none}.txfig .g58s45{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g58s46{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g58s47{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11}.txfig .g58s48{fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g58s49{fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11}.txfig .g58s50{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g58s51{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g58s52{fill:var(--keep);stroke:none}.txfig .g58s53{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g58s54{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g58s55{fill:var(--padbg);stroke:var(--pad);stroke-width:0.8}.txfig .g58s56{fill:var(--num)}.txfig .g58s57{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g58s58{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g58s59{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g58s60{fill:var(--s2);stroke:none}.txfig .g58s61{fill:var(--s2);stroke:none;stroke-width:1;opacity:0.22}.txfig .g58s62{fill:var(--s4);stroke:none}.txfig .g58s63{fill:var(--s4);stroke:none;stroke-width:1;opacity:0.22}.txfig .g58s64{fill:var(--s5);stroke:none}.txfig .g58s65{fill:var(--s5);stroke:none;stroke-width:1;opacity:0.22}.txfig .g58s66{fill:var(--soft);stroke:var(--hair);stroke-width:1}.txfig .g58s67{fill:var(--codebg);stroke:none;stroke-width:1}.txfig .g58s68{fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1}.txfig .g58s69{fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1}.txfig .g58s70{fill:var(--seqAbg);stroke:var(--seqA);stroke-width:0.9}.txfig .g58s71{fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g58s72{fill:var(--seqBbg);stroke:var(--seqB);stroke-width:0.9}.txfig .g58s73{fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g58s74{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.0px;font-weight:600;text-anchor:middle}.txfig .g58s75{fill:var(--thead);stroke:var(--panelbd);stroke-width:0.9}.txfig .g58s76{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g58s77{fill:none;stroke:var(--grid);stroke-width:1.2}</style>
+<defs><pattern id="hatch58" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash58" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="2550" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v2.5 · CELL 6 / 10</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="157.9" class="g58s19" textLength="126.2" lengthAdjust="spacing">Dataset and </tspan><tspan x="284.1" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)" textLength="118.8" lengthAdjust="spacing">DataLoader</tspan><tspan x="402.9" class="g58s19" textLength="444.2" lengthAdjust="spacing"> — each batch padded to its own longest row</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g58s24" textLength="103.0" lengthAdjust="spacing">Seq2SeqDataset</tspan><tspan x="137.0" textLength="122.1" lengthAdjust="spacing"> · encode · truncate · </tspan><tspan x="259.1" class="g58s24" textLength="73.6" lengthAdjust="spacing">DataLoader</tspan><tspan x="332.7" textLength="59.3" lengthAdjust="spacing"> · collate · </tspan><tspan x="391.9" class="g58s24" textLength="88.3" lengthAdjust="spacing">pad_sequence</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="313.2" lengthAdjust="spacing">Defined and built here. The batches themselves are drawn in </tspan><tspan x="347.2" class="g58s2" textLength="28.5" lengthAdjust="spacing">cell 8</tspan><tspan x="375.7" textLength="48.6" lengthAdjust="spacing">, one per </tspan><tspan x="424.2" class="g58s17" textLength="32.5" lengthAdjust="spacing">epoch</tspan><tspan x="456.8">.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g58s51"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g58s52"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g58s19" textLength="291.1" lengthAdjust="spacing">From pairs of strings to two rectangles of ids</tspan></text>
+<text y="169.0" xml:space="preserve" class="g58s53"><tspan x="54.0" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="76.4"> </tspan><tspan x="80.4" textLength="42.6" lengthAdjust="spacing">dataset</tspan><tspan x="123.1"> </tspan><tspan x="127.1" textLength="49.1" lengthAdjust="spacing">encodes</tspan><tspan x="176.3"> </tspan><tspan x="180.3" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="208.5"> </tspan><tspan x="212.5" textLength="21.7" lengthAdjust="spacing">pair</tspan><tspan x="234.2"> </tspan><tspan x="238.3" textLength="31.8" lengthAdjust="spacing">once,</tspan><tspan x="270.1"> </tspan><tspan x="274.1" textLength="14.5" lengthAdjust="spacing">up</tspan><tspan x="288.6"> </tspan><tspan x="292.6" textLength="29.6" lengthAdjust="spacing">front,</tspan><tspan x="322.2"> </tspan><tspan x="326.3" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="348.0"> </tspan><tspan x="352.0" textLength="23.8" lengthAdjust="spacing">cuts</tspan><tspan x="375.8"> </tspan><tspan x="379.9" textLength="49.1" lengthAdjust="spacing">anything</tspan><tspan x="429.0"> </tspan><tspan x="433.1" textLength="36.1" lengthAdjust="spacing">longer</tspan><tspan x="469.2"> </tspan><tspan x="473.2" textLength="25.3" lengthAdjust="spacing">than</tspan><tspan x="498.5"> </tspan><tspan x="502.6" class="g58s24" textLength="80.9" lengthAdjust="spacing">MAX_SEQ_LEN</tspan><tspan x="583.5">.</tspan><tspan x="587.1"> </tspan><tspan x="591.2" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="613.6"> </tspan><tspan x="617.6" class="g58s24" textLength="73.6" lengthAdjust="spacing">DataLoader</tspan><tspan x="691.2"> </tspan><tspan x="695.2" textLength="39.7" lengthAdjust="spacing">groups</tspan><tspan x="735.0"> </tspan><tspan x="739.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="757.1"> </tspan><tspan x="761.1" textLength="28.2" lengthAdjust="spacing">pairs</tspan><tspan x="789.3"> </tspan><tspan x="793.3" textLength="21.0" lengthAdjust="spacing">into</tspan><tspan x="814.3"> </tspan><tspan x="818.3" textLength="45.5" lengthAdjust="spacing">batches</tspan><tspan x="863.9"> </tspan><tspan x="867.9" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="889.6"> </tspan><tspan x="893.6" textLength="26.0" lengthAdjust="spacing">calls</tspan><tspan x="919.6"> </tspan><tspan x="923.7" class="g58s24" textLength="66.2" lengthAdjust="spacing">collate()</tspan><tspan x="989.9"> </tspan><tspan x="993.9" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="1008.4"> </tspan><tspan x="1012.4" textLength="31.8" lengthAdjust="spacing">each,</tspan><tspan x="1044.2"> </tspan><tspan x="1048.3" textLength="33.2" lengthAdjust="spacing">which</tspan><tspan x="1081.5"> </tspan><tspan x="1085.6" textLength="28.2" lengthAdjust="spacing">pads</tspan><tspan x="1113.7"> </tspan><tspan x="1117.8" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="1149.6"> </tspan><tspan x="1153.6" textLength="20.9" lengthAdjust="spacing">row</tspan><tspan x="1174.6"> </tspan><tspan x="1178.6" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1189.4"> </tspan><tspan x="1193.5" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="1215.2"> </tspan><tspan x="1219.2" textLength="46.1" lengthAdjust="spacing">batch’s</tspan><tspan x="1265.3"> </tspan><tspan x="1269.4" textLength="23.8" lengthAdjust="spacing">own</tspan><tspan x="1293.2"> </tspan><tspan x="1297.3" textLength="41.9" lengthAdjust="spacing">longest</tspan><tspan x="1339.2"> </tspan><tspan x="1343.2">—</tspan><tspan x="1356.2"> </tspan><tspan x="1360.3" textLength="18.1" lengthAdjust="spacing">not</tspan><tspan x="1378.3"> </tspan><tspan x="1382.4" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1393.2"> </tspan><tspan x="1397.3">a</tspan><tspan x="1404.5"> </tspan><tspan x="1408.5" textLength="35.4" lengthAdjust="spacing">length</tspan><tspan x="1443.9"> </tspan><tspan x="1448.0" textLength="27.5" lengthAdjust="spacing">fixed</tspan><tspan x="1475.4"> </tspan><tspan x="1479.5" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="1489.6"> </tspan><tspan x="1493.6" textLength="52.8" lengthAdjust="spacing">advance.</tspan><tspan x="1546.4"> </tspan><tspan x="1550.4" textLength="26.0" lengthAdjust="spacing">With</tspan><tspan x="1576.4"> </tspan><tspan x="1580.5" textLength="20.2" lengthAdjust="spacing">two</tspan><tspan x="1600.7"> </tspan><tspan x="1604.8" textLength="28.2" lengthAdjust="spacing">pairs</tspan><tspan x="1632.9"> </tspan><tspan x="1637.0" textLength="29.6" lengthAdjust="spacing">there</tspan><tspan x="1666.6"> </tspan><tspan x="1670.7" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1680.0"> </tspan><tspan x="1684.1" textLength="40.5" lengthAdjust="spacing">exactly</tspan><tspan x="1724.5"> </tspan><tspan x="1728.6" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1750.3"> </tspan><tspan x="1754.3" textLength="35.4" lengthAdjust="spacing">batch,</tspan><tspan x="1789.7"> </tspan><tspan x="1793.8" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1815.5"> </tspan><tspan x="1819.5" textLength="6.5" lengthAdjust="spacing">it</tspan></text>
+<text y="188.0" xml:space="preserve" class="g58s53"><tspan x="54.0" textLength="102.6" lengthAdjust="spacing">comes out as the </tspan><tspan x="156.6" class="g58s24" textLength="44.1" lengthAdjust="spacing">(2, 8)</tspan><tspan x="200.7" textLength="71.5" lengthAdjust="spacing"> source and </tspan><tspan x="272.3" class="g58s24" textLength="44.1" lengthAdjust="spacing">(2, 8)</tspan><tspan x="316.4" textLength="205.2" lengthAdjust="spacing"> target that every later page carries.</tspan></text>
+<text y="241.2" xml:space="preserve" class="g58s54"><tspan x="34.0" textLength="22.7" lengthAdjust="spacing">The</tspan><tspan x="56.7"> </tspan><tspan x="61.6" textLength="40.3" lengthAdjust="spacing">frames</tspan><tspan x="101.9"> </tspan><tspan x="106.8" textLength="19.1" lengthAdjust="spacing">run</tspan><tspan x="125.8"> </tspan><tspan x="130.7" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="149.0"> </tspan><tspan x="153.8" textLength="65.3" lengthAdjust="spacing">constructor</tspan><tspan x="219.1"> </tspan><tspan x="224.0" textLength="24.9" lengthAdjust="spacing">first,</tspan><tspan x="248.9"> </tspan><tspan x="253.7" textLength="25.7" lengthAdjust="spacing">then</tspan><tspan x="279.4"> </tspan><tspan x="284.3" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="302.6"> </tspan><tspan x="307.4" textLength="38.1" lengthAdjust="spacing">collate</tspan><tspan x="345.6"> </tspan><tspan x="350.4" textLength="19.8" lengthAdjust="spacing">call</tspan><tspan x="370.2"> </tspan><tspan x="375.1" textLength="22.0" lengthAdjust="spacing">that</tspan><tspan x="397.1"> </tspan><tspan x="401.9" class="g58s2" textLength="32.7" lengthAdjust="spacing">cell 8</tspan><tspan x="434.6" textLength="14.5" lengthAdjust="spacing">’s</tspan><tspan x="449.1"> </tspan><tspan x="453.9" textLength="24.9" lengthAdjust="spacing">loop</tspan><tspan x="478.9"> </tspan><tspan x="483.7" textLength="44.0" lengthAdjust="spacing">triggers</tspan><tspan x="527.7"> </tspan><tspan x="532.6" textLength="28.6" lengthAdjust="spacing">each</tspan><tspan x="561.2"> </tspan><tspan x="566.0" textLength="24.9" lengthAdjust="spacing">time</tspan><tspan x="590.9"> </tspan><tspan x="595.8" textLength="6.6" lengthAdjust="spacing">it</tspan><tspan x="602.4"> </tspan><tspan x="607.2" textLength="27.1" lengthAdjust="spacing">asks</tspan><tspan x="634.4"> </tspan><tspan x="639.2" textLength="15.4" lengthAdjust="spacing">for</tspan><tspan x="654.6"> </tspan><tspan x="659.4">a</tspan><tspan x="666.8"> </tspan><tspan x="671.6" textLength="36.0" lengthAdjust="spacing">batch.</tspan><tspan x="707.6"> </tspan><tspan x="712.4" textLength="22.7" lengthAdjust="spacing">The</tspan><tspan x="735.1"> </tspan><tspan x="740.0" textLength="16.9" lengthAdjust="spacing">ids</tspan><tspan x="756.9"> </tspan><tspan x="761.7" textLength="19.1" lengthAdjust="spacing">are</tspan><tspan x="780.8"> </tspan><tspan x="785.6" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="803.9"> </tspan><tspan x="808.8" textLength="22.0" lengthAdjust="spacing">real</tspan><tspan x="830.8"> </tspan><tspan x="835.6" textLength="28.6" lengthAdjust="spacing">ones</tspan><tspan x="864.2"> </tspan><tspan x="869.1" textLength="26.4" lengthAdjust="spacing">from</tspan><tspan x="895.5"> </tspan><tspan x="900.3" class="g58s2" textLength="32.7" lengthAdjust="spacing">cell 5</tspan><tspan x="933.0" textLength="14.5" lengthAdjust="spacing">’s</tspan><tspan x="947.5"> </tspan><tspan x="952.3" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)" textLength="67.2" lengthAdjust="spacing">tokenizer</tspan><tspan x="1019.5">.</tspan><tspan x="1023.2"> </tspan><tspan x="1028.1" textLength="59.4" lengthAdjust="spacing">Sequence</tspan><tspan x="1087.5"> </tspan><tspan x="1092.3">A</tspan><tspan x="1101.1"> </tspan><tspan x="1106.0" textLength="9.5" lengthAdjust="spacing">is</tspan></text>
+<rect x="369.8" y="249.1" width="42.3" height="16.1" rx="3" class="g58s55"/>
+<text y="261.0" xml:space="preserve" class="g58s54"><tspan x="34.0" textLength="324.3" lengthAdjust="spacing">shorter on both sides, so it is the row that gets padded: </tspan><tspan x="358.3" class="g58s2">2</tspan><tspan x="366.1"> </tspan><tspan x="372.3" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--pad)" textLength="37.3" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="412.1" textLength="91.0" lengthAdjust="spacing"> on the source, </tspan><tspan x="503.1" class="g58s2">4</tspan><tspan x="510.9" textLength="81.5" lengthAdjust="spacing"> on the target.</tspan></text>
+<rect x="1141.5" y="228.0" width="704.5" height="601.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="1151.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1175.3" class="g58s19"> · </tspan><tspan x="1184.5" style="font-weight:600;fill:var(--ink3)" textLength="26.0" lengthAdjust="spacing">cell 6</tspan></text>
+<text x="1151.5" y="269.0" xml:space="preserve" class="g58s5"><tspan class="g58s35"># [v2] Dataset + DataLoader with dynamic padding (each batch is padded only to its</tspan></text>
+<text x="1151.5" y="288.5" xml:space="preserve" class="g58s5"><tspan class="g58s35"># own longest sentence) and truncation to MAX_SEQ_LEN.</tspan></text>
+<text x="1151.5" y="308.0" xml:space="preserve" class="g58s5"><tspan class="g58s3">class</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">Seq2SeqDataset</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">Dataset</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">:</tspan></text>
+<text x="1151.5" y="327.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">    </tspan><tspan class="g58s3">def</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">__init__</tspan><tspan class="g58s0">(</tspan><tspan class="g58s3">self</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">pairs</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">max_len</tspan><tspan class="g58s0">=</tspan><tspan class="g58s1">MAX_SEQ_LEN</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">:</tspan></text>
+<text x="1151.5" y="347.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">        </tspan><tspan class="g58s3">self</tspan><tspan class="g58s0">.</tspan><tspan class="g58s27">items</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">[</tspan><tspan class="g58s0">]</tspan></text>
+<text x="1151.5" y="366.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">        </tspan><tspan class="g58s3">for</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">s</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">t</tspan><tspan class="g58s1"> </tspan><tspan class="g58s3">in</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">pairs</tspan><tspan class="g58s0">:</tspan></text>
+<text x="1151.5" y="386.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">            </tspan><tspan class="g58s1">src_ids</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">encode</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">s</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">add_special_tokens</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">False</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">[</tspan><tspan class="g58s0">:</tspan><tspan class="g58s1">max_len</tspan><tspan class="g58s0">]</tspan></text>
+<text x="1151.5" y="405.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">            </tspan><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">encode</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">t</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">add_special_tokens</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">True</tspan><tspan class="g58s0">)</tspan></text>
+<text x="1151.5" y="425.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">            </tspan><tspan class="g58s3">if</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">len</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s0">)</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">&gt;</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">max_len</tspan><tspan class="g58s0">:</tspan><tspan class="g58s1">                       </tspan><tspan class="g58s35"># keep &lt;EOS&gt; at the end</tspan></text>
+<text x="1151.5" y="444.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">                </tspan><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s0">[</tspan><tspan class="g58s0">:</tspan><tspan class="g58s1">max_len</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">-</tspan><tspan class="g58s1"> </tspan><tspan class="g58s56">1</tspan><tspan class="g58s0">]</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">+</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">[</tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">.</tspan><tspan class="g58s27">eos_id</tspan><tspan class="g58s0">]</tspan></text>
+<text x="1151.5" y="464.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">            </tspan><tspan class="g58s3">self</tspan><tspan class="g58s0">.</tspan><tspan class="g58s27">items</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">append</tspan><tspan class="g58s0">(</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">torch</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">tensor</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">src_ids</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">torch</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">tensor</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">)</tspan></text>
+<text x="1151.5" y="483.5" xml:space="preserve" class="g58s5"></text>
+<text x="1151.5" y="503.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">    </tspan><tspan class="g58s3">def</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">__len__</tspan><tspan class="g58s0">(</tspan><tspan class="g58s3">self</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">:</tspan></text>
+<text x="1151.5" y="522.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">        </tspan><tspan class="g58s3">return</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">len</tspan><tspan class="g58s0">(</tspan><tspan class="g58s3">self</tspan><tspan class="g58s0">.</tspan><tspan class="g58s27">items</tspan><tspan class="g58s0">)</tspan></text>
+<text x="1151.5" y="542.0" xml:space="preserve" class="g58s5"></text>
+<text x="1151.5" y="561.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">    </tspan><tspan class="g58s3">def</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">__getitem__</tspan><tspan class="g58s0">(</tspan><tspan class="g58s3">self</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">i</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">:</tspan></text>
+<text x="1151.5" y="581.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">        </tspan><tspan class="g58s3">return</tspan><tspan class="g58s1"> </tspan><tspan class="g58s3">self</tspan><tspan class="g58s0">.</tspan><tspan class="g58s27">items</tspan><tspan class="g58s0">[</tspan><tspan class="g58s1">i</tspan><tspan class="g58s0">]</tspan></text>
+<text x="1151.5" y="600.5" xml:space="preserve" class="g58s5"></text>
+<text x="1151.5" y="620.0" xml:space="preserve" class="g58s5"><tspan class="g58s3">def</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">collate</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">batch</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">:</tspan></text>
+<text x="1151.5" y="639.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">    </tspan><tspan class="g58s1">srcs</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tgts</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">zip</tspan><tspan class="g58s0">(</tspan><tspan class="g58s0">*</tspan><tspan class="g58s1">batch</tspan><tspan class="g58s0">)</tspan></text>
+<text x="1151.5" y="659.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">    </tspan><tspan class="g58s3">return</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">(</tspan><tspan class="g58s4">pad_sequence</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">srcs</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">batch_first</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">True</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">padding_value</tspan><tspan class="g58s0">=</tspan><tspan class="g58s1">PAD</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan></text>
+<text x="1151.5" y="678.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">            </tspan><tspan class="g58s4">pad_sequence</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">tgts</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">batch_first</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">True</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">padding_value</tspan><tspan class="g58s0">=</tspan><tspan class="g58s1">PAD</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">)</tspan></text>
+<text x="1151.5" y="698.0" xml:space="preserve" class="g58s5"></text>
+<text x="1151.5" y="717.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">train_loader</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">DataLoader</tspan><tspan class="g58s0">(</tspan><tspan class="g58s4">Seq2SeqDataset</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">train_pairs</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan></text>
+<text x="1151.5" y="737.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">                          </tspan><tspan class="g58s1">batch_size</tspan><tspan class="g58s0">=</tspan><tspan class="g58s4">min</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">BATCH_SIZE</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">len</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">train_pairs</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan></text>
+<text x="1151.5" y="756.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">                          </tspan><tspan class="g58s1">shuffle</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">True</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">collate_fn</tspan><tspan class="g58s0">=</tspan><tspan class="g58s1">collate</tspan><tspan class="g58s0">)</tspan></text>
+<text x="1151.5" y="776.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">val_loader</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">DataLoader</tspan><tspan class="g58s0">(</tspan><tspan class="g58s4">Seq2SeqDataset</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">val_pairs</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan></text>
+<text x="1151.5" y="795.5" xml:space="preserve" class="g58s5"><tspan class="g58s1">                        </tspan><tspan class="g58s1">batch_size</tspan><tspan class="g58s0">=</tspan><tspan class="g58s4">min</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">BATCH_SIZE</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">len</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">val_pairs</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan></text>
+<text x="1151.5" y="815.0" xml:space="preserve" class="g58s5"><tspan class="g58s1">                        </tspan><tspan class="g58s1">shuffle</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">False</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">collate_fn</tspan><tspan class="g58s0">=</tspan><tspan class="g58s1">collate</tspan><tspan class="g58s0">)</tspan></text>
+<rect x="34.0" y="851.5" width="1812.0" height="30.0" rx="6" class="g58s57"/>
+<path d="M38.50 852.21 A5.50 5.50 0 0 0 34.50 857.50 V875.50 A5.50 5.50 0 0 0 38.50 880.79 Z" class="g58s44"/>
+<text y="871.5" xml:space="preserve" class="g58s58"><tspan x="50.0" class="g58s19" textLength="297.9" lengthAdjust="spacing">A · The call stack — build once, collate per batch</tspan></text>
+<text y="871.5" xml:space="preserve" class="g58s59"><tspan x="365.9" class="g58s2" textLength="28.5" lengthAdjust="spacing">cell 6</tspan><tspan x="394.4"> → </tspan><tspan x="412.3" class="g58s2" textLength="28.5" lengthAdjust="spacing">cell 3</tspan><tspan x="440.7" textLength="66.5" lengthAdjust="spacing"> (encode) → </tspan><tspan x="507.2" class="g58s2" textLength="28.5" lengthAdjust="spacing">cell 6</tspan><tspan x="535.7" textLength="32.0" lengthAdjust="spacing">; then </tspan><tspan x="567.6" class="g58s2" textLength="28.5" lengthAdjust="spacing">cell 8</tspan><tspan x="596.1"> → </tspan><tspan x="614.0" class="g58s17" textLength="65.1" lengthAdjust="spacing">DataLoader</tspan><tspan x="679.0"> → </tspan><tspan x="696.9" class="g58s2" textLength="28.5" lengthAdjust="spacing">cell 6</tspan></text>
+<text y="908.5" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600"><tspan x="34.0" class="g58s19" textLength="535.2" lengthAdjust="spacing">Order of execution — where the stack goes, cell by cell · each colour continues in the frames below</tspan></text>
+<rect x="34.0" y="917.5" width="344.8" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s1);stroke-width:1.4"/>
+<path d="M35.13 922.20 A6.30 6.30 0 0 1 41.00 918.20 H371.80 A6.30 6.30 0 0 1 377.67 922.20 Z" class="g58s36"/>
+<rect x="43.0" y="929.5" width="19.0" height="16.0" rx="4" class="g58s37"/>
+<text x="52.5" y="941.5" style="fill:var(--s1);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">1</text>
+<text x="68.0" y="941.5" class="g58s34">cell 6</text>
+<text y="957.5" xml:space="preserve" class="g58s18"><tspan x="45.0" class="g58s29" textLength="43.0" lengthAdjust="spacing">&lt;module&gt;</tspan><tspan x="88.0"> → </tspan><tspan x="102.8" class="g58s29" textLength="43.0" lengthAdjust="spacing">__init__</tspan></text>
+<text x="45.0" y="971.5" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frames 1–3</text>
+<line x1="381.8" y1="948.5" x2="392.8" y2="948.5" class="g58s38"/>
+<path d="M397.8 948.5 L391.0 951.6 L391.0 945.4 Z" class="g58s39"/>
+<rect x="400.8" y="917.5" width="344.8" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s2);stroke-width:1.4"/>
+<path d="M401.93 922.20 A6.30 6.30 0 0 1 407.80 918.20 H738.60 A6.30 6.30 0 0 1 744.47 922.20 Z" class="g58s60"/>
+<rect x="409.8" y="929.5" width="19.0" height="16.0" rx="4" class="g58s61"/>
+<text x="419.3" y="941.5" style="fill:var(--s2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">2</text>
+<text x="434.8" y="941.5" class="g58s34">cell 3</text>
+<text y="957.5" xml:space="preserve" class="g58s18"><tspan x="411.8" textLength="31.2" lengthAdjust="spacing">encode</tspan></text>
+<text x="411.8" y="971.5" style="fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 4</text>
+<line x1="748.6" y1="948.5" x2="759.6" y2="948.5" class="g58s38"/>
+<path d="M764.6 948.5 L757.8 951.6 L757.8 945.4 Z" class="g58s39"/>
+<rect x="767.6" y="917.5" width="344.8" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s3);stroke-width:1.4"/>
+<path d="M768.73 922.20 A6.30 6.30 0 0 1 774.60 918.20 H1105.40 A6.30 6.30 0 0 1 1111.27 922.20 Z" class="g58s40"/>
+<rect x="776.6" y="929.5" width="19.0" height="16.0" rx="4" class="g58s41"/>
+<text x="786.1" y="941.5" style="fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">3</text>
+<text x="801.6" y="941.5" class="g58s34">cell 6</text>
+<text y="957.5" xml:space="preserve" class="g58s18"><tspan x="778.6" class="g58s29" textLength="43.0" lengthAdjust="spacing">__init__</tspan><tspan x="821.6"> → </tspan><tspan x="836.4" class="g58s29" textLength="43.0" lengthAdjust="spacing">&lt;module&gt;</tspan></text>
+<text x="778.6" y="971.5" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frames 5–7</text>
+<line x1="1115.4" y1="948.5" x2="1126.4" y2="948.5" class="g58s38"/>
+<path d="M1131.4 948.5 L1124.6 951.6 L1124.6 945.4 Z" class="g58s39"/>
+<rect x="1134.4" y="917.5" width="344.8" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s4);stroke-width:1.4"/>
+<path d="M1135.53 922.20 A6.30 6.30 0 0 1 1141.40 918.20 H1472.20 A6.30 6.30 0 0 1 1478.07 922.20 Z" class="g58s62"/>
+<rect x="1143.4" y="929.5" width="19.0" height="16.0" rx="4" class="g58s63"/>
+<text x="1152.9" y="941.5" style="fill:var(--s4);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">4</text>
+<text x="1168.4" y="941.5" class="g58s34">cell 8</text>
+<text y="957.5" xml:space="preserve" class="g58s18"><tspan x="1145.4" class="g58s29" textLength="48.4" lengthAdjust="spacing">run_epoch</tspan></text>
+<text x="1145.4" y="971.5" style="fill:var(--s4);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 8</text>
+<line x1="1482.2" y1="948.5" x2="1493.2" y2="948.5" class="g58s38"/>
+<path d="M1498.2 948.5 L1491.4 951.6 L1491.4 945.4 Z" class="g58s39"/>
+<rect x="1501.2" y="917.5" width="344.8" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s5);stroke-width:1.4"/>
+<path d="M1502.33 922.20 A6.30 6.30 0 0 1 1508.20 918.20 H1839.00 A6.30 6.30 0 0 1 1844.87 922.20 Z" class="g58s64"/>
+<rect x="1510.2" y="929.5" width="19.0" height="16.0" rx="4" class="g58s65"/>
+<text x="1519.7" y="941.5" style="fill:var(--s5);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">5</text>
+<text x="1535.2" y="941.5" class="g58s34">cell 6</text>
+<text y="957.5" xml:space="preserve" class="g58s18"><tspan x="1512.2" textLength="27.5" lengthAdjust="spacing">collate</tspan></text>
+<text x="1512.2" y="971.5" style="fill:var(--s5);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 9</text>
+<rect x="34.0" y="1001.5" width="1812.0" height="118.0" rx="8" class="g58s66"/>
+<path d="M38.50 1002.87 A7.50 7.50 0 0 0 34.50 1009.50 V1111.50 A7.50 7.50 0 0 0 38.50 1118.13 Z" class="g58s44"/>
+<text x="52.0" y="1021.5" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">How to read a frame</text>
+<text y="1021.5" xml:space="preserve" class="g58s45"><tspan x="187.8" textLength="184.6" lengthAdjust="spacing">every frame below has these six parts</tspan></text>
+<rect x="52.0" y="1031.0" width="22.0" height="17.0" rx="4" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.22"/>
+<text x="63.0" y="1043.5" class="g58s20">7</text>
+<text x="52.0" y="1077.0" class="g58s21">the order this line ran, counting from the top of the page</text>
+<text x="350.7" y="1043.5" style="fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:start">cell 2 · EncoderLayer.forward</text>
+<text x="350.7" y="1077.0" class="g58s21">the cell the line lives in and the function it sits inside — a stack</text>
+<text x="350.7" y="1089.5" class="g58s21">moves from cell to cell. &lt;module&gt; means no function at all</text>
+<text x="649.3" y="1043.5" xml:space="preserve" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px"><tspan class="g58s1">x</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s3">self</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">norm1</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">x</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">+</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">)</tspan></text>
+<text x="649.3" y="1077.0" class="g58s21">the line of Python that actually ran, in the order it ran</text>
+<text x="948.0" y="1043.5" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start">the similarity table</text>
+<text x="948.0" y="1077.0" class="g58s21">the note on the right edge — a plain-language name for what</text>
+<text x="948.0" y="1089.5" class="g58s21">this line achieves. Only the frames that matter most carry one</text>
+<rect x="1246.7" y="1030.5" width="89.0" height="18.0" rx="4" class="g58s42"/>
+<text x="1291.2" y="1043.3" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">(2, 4, 7, 7)</text>
+<rect x="1341.7" y="1030.5" width="95.2" height="18.0" rx="4" class="g58s67"/>
+<text x="1389.3" y="1043.3" style="fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">torch.float32</text>
+<text x="1246.7" y="1077.0" class="g58s21">the size of the tensor that line produced, and the kind of number</text>
+<text x="1246.7" y="1089.5" class="g58s21">it holds</text>
+<rect x="1545.3" y="1030.5" width="44.0" height="18.0" rx="4" class="g58s68"/>
+<text x="1567.3" y="1043.5" style="fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ A</text>
+<rect x="1595.3" y="1030.5" width="44.0" height="18.0" rx="4" class="g58s69"/>
+<text x="1617.3" y="1043.5" style="fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ B</text>
+<text x="1545.3" y="1077.0" class="g58s21">right of the dashed line: that tensor&#x27;s real values, both sentences</text>
+<text x="1545.3" y="1089.5" class="g58s21">at once</text>
+<rect x="34.0" y="1133.5" width="1812.0" height="98.0" rx="8" class="g58s28"/>
+<path d="M39.55 1134.46 A7.45 7.45 0 0 0 34.55 1141.50 V1223.50 A7.45 7.45 0 0 0 39.55 1230.54 Z" class="g58s36"/>
+<rect x="44.0" y="1143.0" width="22.0" height="17.0" rx="4" class="g58s37"/>
+<text x="55.0" y="1155.5" class="g58s20">1</text>
+<text x="72.0" y="1155.5" class="g58s46">cell 6 · &lt;module&gt;</text>
+<text x="720.0" y="1200.5" class="g58s47">01</text>
+<text x="72.0" y="1173.5" xml:space="preserve" class="g58s10"><tspan class="g58s3">class</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">Seq2SeqDataset</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">Dataset</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">:</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan></text>
+<text x="72.0" y="1190.5" xml:space="preserve" class="g58s10"><tspan class="g58s3">def</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">collate</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">batch</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">:</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan></text>
+<text y="1212.5" xml:space="preserve" class="g58s11"><tspan x="72.0" textLength="322.8" lengthAdjust="spacing">Two definitions; nothing runs until the next line builds a dataset.</tspan></text>
+<line x1="736.0" y1="1143.5" x2="736.0" y2="1221.5" class="g58s25"/>
+<rect x="34.0" y="1241.5" width="1812.0" height="131.0" rx="8" class="g58s28"/>
+<path d="M39.55 1242.46 A7.45 7.45 0 0 0 34.55 1249.50 V1364.50 A7.45 7.45 0 0 0 39.55 1371.54 Z" class="g58s36"/>
+<rect x="44.0" y="1251.0" width="22.0" height="17.0" rx="4" class="g58s37"/>
+<text x="55.0" y="1263.5" class="g58s20">2</text>
+<text x="72.0" y="1263.5" class="g58s46">cell 6 · &lt;module&gt;</text>
+<text x="720.0" y="1325.0" class="g58s47">02</text>
+<text x="72.0" y="1281.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">train_loader</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">DataLoader</tspan><tspan class="g58s0">(</tspan><tspan class="g58s4">Seq2SeqDataset</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">train_pairs</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan></text>
+<text x="72.0" y="1298.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">    </tspan><tspan class="g58s1">batch_size</tspan><tspan class="g58s0">=</tspan><tspan class="g58s4">min</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">BATCH_SIZE</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">len</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">train_pairs</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">shuffle</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">True</tspan><tspan class="g58s0">,</tspan></text>
+<text x="72.0" y="1315.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">    </tspan><tspan class="g58s1">collate_fn</tspan><tspan class="g58s0">=</tspan><tspan class="g58s1">collate</tspan><tspan class="g58s0">)</tspan></text>
+<text y="1337.5" xml:space="preserve" class="g58s11"><tspan x="72.0" class="g58s17" textLength="91.1" lengthAdjust="spacing">min(32, 2) = 2</tspan><tspan x="163.1" textLength="179.0" lengthAdjust="spacing">: one batch holds both pairs, so an </tspan><tspan x="342.1" class="g58s17" textLength="32.5" lengthAdjust="spacing">epoch</tspan><tspan x="374.6" textLength="147.0" lengthAdjust="spacing"> is a single step. That is why </tspan><tspan x="521.6" class="g58s2" textLength="28.5" lengthAdjust="spacing">cell 7</tspan><tspan x="550.1" textLength="53.0" lengthAdjust="spacing"> computes</tspan></text>
+<text y="1353.5" xml:space="preserve" class="g58s11"><tspan x="72.0" class="g58s17" textLength="136.7" lengthAdjust="spacing">total_steps = 200 × 1</tspan><tspan x="208.7">.</tspan></text>
+<line x1="736.0" y1="1251.5" x2="736.0" y2="1362.5" class="g58s25"/>
+<rect x="60.0" y="1382.5" width="1786.0" height="104.0" rx="8" class="g58s28"/>
+<path d="M65.55 1383.46 A7.45 7.45 0 0 0 60.55 1390.50 V1478.50 A7.45 7.45 0 0 0 65.55 1485.54 Z" class="g58s36"/>
+<rect x="70.0" y="1392.0" width="22.0" height="17.0" rx="4" class="g58s37"/>
+<text x="81.0" y="1404.5" class="g58s20">3</text>
+<text x="98.0" y="1404.5" class="g58s46">cell 6 · Seq2SeqDataset.__init__</text>
+<text x="720.0" y="1452.5" class="g58s47">03</text>
+<text x="98.0" y="1422.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">src_ids</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">encode</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">s</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">add_special_tokens</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">False</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">[</tspan><tspan class="g58s0">:</tspan><tspan class="g58s1">max_len</tspan><tspan class="g58s0">]</tspan></text>
+<rect x="215.6" y="1434.2" width="37.5" height="14.0" rx="3" class="g58s30"/>
+<rect x="269.8" y="1434.2" width="37.5" height="14.0" rx="3" class="g58s30"/>
+<text y="1444.5" xml:space="preserve" class="g58s11"><tspan x="98.0" textLength="117.6" lengthAdjust="spacing">The source never gets </tspan><tspan x="218.1" class="g58s31" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="253.1" textLength="16.6" lengthAdjust="spacing"> or </tspan><tspan x="272.3" class="g58s31" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="307.3" textLength="154.1" lengthAdjust="spacing">: the encoder reads it whole. [:</tspan><tspan x="461.4" class="g58s2" textLength="13.6" lengthAdjust="spacing">64</tspan><tspan x="474.9" textLength="155.3" lengthAdjust="spacing">] is the cut — neither sentence</tspan></text>
+<text y="1460.5" xml:space="preserve" class="g58s11"><tspan x="98.0" textLength="72.2" lengthAdjust="spacing">comes near it.</tspan></text>
+<line x1="736.0" y1="1392.5" x2="736.0" y2="1476.5" class="g58s25"/>
+<rect x="750.0" y="1396.5" width="531.0" height="17.0" rx="4" class="g58s70"/>
+<text x="757.0" y="1409.0" class="g58s71">SEQ A</text>
+<text y="1409.0" xml:space="preserve" class="g58s18"><tspan x="798.0" class="g58s2" textLength="21.3" lengthAdjust="spacing">6 ids</tspan></text>
+<rect x="750.0" y="1426.5" width="83.5" height="30.0" rx="5" class="g58s22"/>
+<text x="791.8" y="1446.5" class="g58s9">the_</text>
+<text x="791.8" y="1471.5" class="g58s6">112</text>
+<text x="791.8" y="1421.5" class="g58s7">0</text>
+<rect x="839.5" y="1426.5" width="83.5" height="30.0" rx="5" class="g58s22"/>
+<text x="881.2" y="1446.5" class="g58s9">dog_</text>
+<text x="881.2" y="1471.5" class="g58s6">5204</text>
+<text x="881.2" y="1421.5" class="g58s7">1</text>
+<rect x="929.0" y="1426.5" width="83.5" height="30.0" rx="5" class="g58s22"/>
+<text x="970.8" y="1446.5" class="g58s9">sat_</text>
+<text x="970.8" y="1471.5" class="g58s6">4238</text>
+<text x="970.8" y="1421.5" class="g58s7">2</text>
+<rect x="1018.5" y="1426.5" width="83.5" height="30.0" rx="5" class="g58s22"/>
+<text x="1060.2" y="1446.5" class="g58s9">on_</text>
+<text x="1060.2" y="1471.5" class="g58s6">124</text>
+<text x="1060.2" y="1421.5" class="g58s7">3</text>
+<rect x="1108.0" y="1426.5" width="83.5" height="30.0" rx="5" class="g58s22"/>
+<text x="1149.8" y="1446.5" class="g58s9">the_</text>
+<text x="1149.8" y="1471.5" class="g58s6">112</text>
+<text x="1149.8" y="1421.5" class="g58s7">4</text>
+<rect x="1197.5" y="1426.5" width="83.5" height="30.0" rx="5" class="g58s22"/>
+<text x="1239.2" y="1446.5" class="g58s9">floor_</text>
+<text x="1239.2" y="1471.5" class="g58s6">4034</text>
+<text x="1239.2" y="1421.5" class="g58s7">5</text>
+<rect x="1301.0" y="1396.5" width="531.0" height="17.0" rx="4" class="g58s72"/>
+<text x="1308.0" y="1409.0" class="g58s73">SEQ B</text>
+<text y="1409.0" xml:space="preserve" class="g58s18"><tspan x="1349.0" class="g58s2" textLength="21.3" lengthAdjust="spacing">8 ids</tspan></text>
+<rect x="1301.0" y="1426.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1331.6" y="1446.5" class="g58s9">the_</text>
+<text x="1331.6" y="1471.5" class="g58s6">112</text>
+<text x="1331.6" y="1421.5" class="g58s7">0</text>
+<rect x="1368.1" y="1426.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1398.7" y="1446.5" class="g58s9">cat_</text>
+<text x="1398.7" y="1471.5" class="g58s6">6702</text>
+<text x="1398.7" y="1421.5" class="g58s7">1</text>
+<rect x="1435.2" y="1426.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1465.8" y="1446.5" class="g58s9">is_</text>
+<text x="1465.8" y="1471.5" class="g58s6">134</text>
+<text x="1465.8" y="1421.5" class="g58s7">2</text>
+<rect x="1502.4" y="1426.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1532.9" y="1446.5" class="g58s74">sleeping_</text>
+<text x="1532.9" y="1471.5" class="g58s6">10184</text>
+<text x="1532.9" y="1421.5" class="g58s7">3</text>
+<rect x="1569.5" y="1426.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1600.1" y="1446.5" class="g58s9">on_</text>
+<text x="1600.1" y="1471.5" class="g58s6">124</text>
+<text x="1600.1" y="1421.5" class="g58s7">4</text>
+<rect x="1636.6" y="1426.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1667.2" y="1446.5" class="g58s9">the_</text>
+<text x="1667.2" y="1471.5" class="g58s6">112</text>
+<text x="1667.2" y="1421.5" class="g58s7">5</text>
+<rect x="1703.8" y="1426.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1734.3" y="1446.5" class="g58s9">sof</text>
+<text x="1734.3" y="1471.5" class="g58s6">3075</text>
+<text x="1734.3" y="1421.5" class="g58s7">6</text>
+<rect x="1770.9" y="1426.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1801.4" y="1446.5" class="g58s9">a_</text>
+<text x="1801.4" y="1471.5" class="g58s6">33</text>
+<text x="1801.4" y="1421.5" class="g58s7">7</text>
+<rect x="86.0" y="1496.5" width="1760.0" height="97.0" rx="8" class="g58s28"/>
+<path d="M91.55 1497.46 A7.45 7.45 0 0 0 86.55 1504.50 V1585.50 A7.45 7.45 0 0 0 91.55 1592.54 Z" class="g58s60"/>
+<rect x="96.0" y="1506.0" width="22.0" height="17.0" rx="4" class="g58s61"/>
+<text x="107.0" y="1518.5" class="g58s20">4</text>
+<text x="124.0" y="1518.5" style="fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">cell 3 · BPETokenizer.encode</text>
+<text x="720.0" y="1563.0" style="fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">04</text>
+<text x="124.0" y="1536.5" xml:space="preserve" class="g58s10"><tspan class="g58s3">return</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">[</tspan><tspan class="g58s3">self</tspan><tspan class="g58s0">.</tspan><tspan class="g58s27">token_to_id</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">get</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">t</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">unk</tspan><tspan class="g58s0">)</tspan><tspan class="g58s1"> </tspan><tspan class="g58s3">for</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">t</tspan><tspan class="g58s1"> </tspan><tspan class="g58s3">in</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokens</tspan><tspan class="g58s0">]</tspan></text>
+<rect x="354.6" y="1548.2" width="37.5" height="14.0" rx="3" class="g58s30"/>
+<text y="1558.5" xml:space="preserve" class="g58s11"><tspan x="124.0" class="g58s17" textLength="65.1" lengthAdjust="spacing">tokenize()</tspan><tspan x="189.1" textLength="165.6" lengthAdjust="spacing"> then a lookup. No token here is </tspan><tspan x="357.1" class="g58s31" textLength="32.5" lengthAdjust="spacing">&lt;UNK&gt;</tspan><tspan x="392.2" textLength="111.2" lengthAdjust="spacing">: every piece is in the </tspan><tspan x="503.4" class="g58s17" textLength="65.1" lengthAdjust="spacing">vocabulary</tspan><tspan x="568.5" textLength="15.3" lengthAdjust="spacing"> by</tspan></text>
+<text y="1574.5" xml:space="preserve" class="g58s11"><tspan x="124.0" textLength="65.2" lengthAdjust="spacing">construction.</tspan></text>
+<line x1="736.0" y1="1506.5" x2="736.0" y2="1583.5" class="g58s25"/>
+<rect x="60.0" y="1603.5" width="1786.0" height="131.0" rx="8" class="g58s28"/>
+<path d="M65.55 1604.46 A7.45 7.45 0 0 0 60.55 1611.50 V1726.50 A7.45 7.45 0 0 0 65.55 1733.54 Z" class="g58s40"/>
+<rect x="70.0" y="1613.0" width="22.0" height="17.0" rx="4" class="g58s41"/>
+<text x="81.0" y="1625.5" class="g58s20">5</text>
+<text x="98.0" y="1625.5" class="g58s48">cell 6 · Seq2SeqDataset.__init__</text>
+<text x="720.0" y="1687.0" class="g58s49">05</text>
+<text x="98.0" y="1643.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">encode</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">t</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">add_special_tokens</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">True</tspan><tspan class="g58s0">)</tspan></text>
+<text x="98.0" y="1660.5" xml:space="preserve" class="g58s10"><tspan class="g58s3">if</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">len</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s0">)</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">&gt;</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">max_len</tspan><tspan class="g58s0">:</tspan><tspan class="g58s1">                     </tspan><tspan class="g58s35"># keep &lt;EOS&gt; at the end</tspan></text>
+<text x="98.0" y="1677.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">    </tspan><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s0">[</tspan><tspan class="g58s0">:</tspan><tspan class="g58s1">max_len</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">-</tspan><tspan class="g58s1"> </tspan><tspan class="g58s56">1</tspan><tspan class="g58s0">]</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">+</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">[</tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">.</tspan><tspan class="g58s27">eos_id</tspan><tspan class="g58s0">]</tspan></text>
+<rect x="219.4" y="1689.2" width="37.5" height="14.0" rx="3" class="g58s30"/>
+<rect x="300.2" y="1689.2" width="37.5" height="14.0" rx="3" class="g58s30"/>
+<rect x="472.3" y="1689.2" width="37.5" height="14.0" rx="3" class="g58s30"/>
+<text y="1699.5" xml:space="preserve" class="g58s11"><tspan x="98.0" textLength="121.4" lengthAdjust="spacing">The target is framed by </tspan><tspan x="221.9" class="g58s31" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="257.0"> (</tspan><tspan x="264.0" class="g58s2">1</tspan><tspan x="270.8" textLength="29.4" lengthAdjust="spacing">) and </tspan><tspan x="302.7" class="g58s31" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="337.7"> (</tspan><tspan x="344.8" class="g58s2">2</tspan><tspan x="351.5" textLength="120.8" lengthAdjust="spacing">). A cut target keeps its </tspan><tspan x="474.8" class="g58s31" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="509.9" textLength="123.3" lengthAdjust="spacing"> so the model still learns</tspan></text>
+<text y="1715.5" xml:space="preserve" class="g58s11"><tspan x="98.0" textLength="88.2" lengthAdjust="spacing">where to stop; at </tspan><tspan x="186.2" class="g58s2">4</tspan><tspan x="193.0" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="218.6" class="g58s2" textLength="25.7" lengthAdjust="spacing">8 ids</tspan><tspan x="244.3" textLength="74.2" lengthAdjust="spacing"> nothing is cut.</tspan></text>
+<line x1="736.0" y1="1613.5" x2="736.0" y2="1724.5" class="g58s25"/>
+<rect x="750.0" y="1617.5" width="531.0" height="17.0" rx="4" class="g58s70"/>
+<text x="757.0" y="1630.0" class="g58s71">SEQ A</text>
+<text y="1630.0" xml:space="preserve" class="g58s18"><tspan x="798.0" class="g58s2" textLength="21.3" lengthAdjust="spacing">4 ids</tspan></text>
+<rect x="750.0" y="1647.5" width="96.0" height="30.0" rx="5" class="g58s22"/>
+<text x="798.0" y="1667.5" class="g58s9">&lt;SOS&gt;</text>
+<text x="798.0" y="1692.5" class="g58s6">1</text>
+<text x="798.0" y="1642.5" class="g58s7">0</text>
+<rect x="852.0" y="1647.5" width="96.0" height="30.0" rx="5" class="g58s22"/>
+<text x="900.0" y="1667.5" class="g58s9">dog_</text>
+<text x="900.0" y="1692.5" class="g58s6">5204</text>
+<text x="900.0" y="1642.5" class="g58s7">1</text>
+<rect x="954.0" y="1647.5" width="96.0" height="30.0" rx="5" class="g58s22"/>
+<text x="1002.0" y="1667.5" class="g58s9">resting_</text>
+<text x="1002.0" y="1692.5" class="g58s6">12412</text>
+<text x="1002.0" y="1642.5" class="g58s7">2</text>
+<rect x="1056.0" y="1647.5" width="96.0" height="30.0" rx="5" class="g58s22"/>
+<text x="1104.0" y="1667.5" class="g58s9">&lt;EOS&gt;</text>
+<text x="1104.0" y="1692.5" class="g58s6">2</text>
+<text x="1104.0" y="1642.5" class="g58s7">3</text>
+<rect x="1301.0" y="1617.5" width="531.0" height="17.0" rx="4" class="g58s72"/>
+<text x="1308.0" y="1630.0" class="g58s73">SEQ B</text>
+<text y="1630.0" xml:space="preserve" class="g58s18"><tspan x="1349.0" class="g58s2" textLength="21.3" lengthAdjust="spacing">8 ids</tspan></text>
+<rect x="1301.0" y="1647.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1331.6" y="1667.5" class="g58s9">&lt;SOS&gt;</text>
+<text x="1331.6" y="1692.5" class="g58s6">1</text>
+<text x="1331.6" y="1642.5" class="g58s7">0</text>
+<rect x="1368.1" y="1647.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1398.7" y="1667.5" class="g58s9">the_</text>
+<text x="1398.7" y="1692.5" class="g58s6">112</text>
+<text x="1398.7" y="1642.5" class="g58s7">1</text>
+<rect x="1435.2" y="1647.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1465.8" y="1667.5" class="g58s9">cat_</text>
+<text x="1465.8" y="1692.5" class="g58s6">6702</text>
+<text x="1465.8" y="1642.5" class="g58s7">2</text>
+<rect x="1502.4" y="1647.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1532.9" y="1667.5" class="g58s9">is_</text>
+<text x="1532.9" y="1692.5" class="g58s6">134</text>
+<text x="1532.9" y="1642.5" class="g58s7">3</text>
+<rect x="1569.5" y="1647.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1600.1" y="1667.5" class="g58s74">sleeping_</text>
+<text x="1600.1" y="1692.5" class="g58s6">10184</text>
+<text x="1600.1" y="1642.5" class="g58s7">4</text>
+<rect x="1636.6" y="1647.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1667.2" y="1667.5" class="g58s9">peac</text>
+<text x="1667.2" y="1692.5" class="g58s6">5210</text>
+<text x="1667.2" y="1642.5" class="g58s7">5</text>
+<rect x="1703.8" y="1647.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1734.3" y="1667.5" class="g58s9">efully_</text>
+<text x="1734.3" y="1692.5" class="g58s6">6521</text>
+<text x="1734.3" y="1642.5" class="g58s7">6</text>
+<rect x="1770.9" y="1647.5" width="61.1" height="30.0" rx="5" class="g58s12"/>
+<text x="1801.4" y="1667.5" class="g58s9">&lt;EOS&gt;</text>
+<text x="1801.4" y="1692.5" class="g58s6">2</text>
+<text x="1801.4" y="1642.5" class="g58s7">7</text>
+<rect x="60.0" y="1744.5" width="1786.0" height="81.0" rx="8" class="g58s28"/>
+<path d="M65.55 1745.46 A7.45 7.45 0 0 0 60.55 1752.50 V1817.50 A7.45 7.45 0 0 0 65.55 1824.54 Z" class="g58s40"/>
+<rect x="70.0" y="1754.0" width="22.0" height="17.0" rx="4" class="g58s41"/>
+<text x="81.0" y="1766.5" class="g58s20">6</text>
+<text x="98.0" y="1766.5" class="g58s48">cell 6 · Seq2SeqDataset.__init__</text>
+<text x="720.0" y="1803.0" class="g58s49">06</text>
+<text x="98.0" y="1784.5" xml:space="preserve" class="g58s10"><tspan class="g58s3">self</tspan><tspan class="g58s0">.</tspan><tspan class="g58s27">items</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">append</tspan><tspan class="g58s0">(</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">torch</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">tensor</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">src_ids</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">torch</tspan><tspan class="g58s0">.</tspan><tspan class="g58s4">tensor</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">tgt_ids</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">)</tspan></text>
+<text y="1806.5" xml:space="preserve" class="g58s11"><tspan x="98.0" textLength="26.8" lengthAdjust="spacing">Four </tspan><tspan x="124.8" class="g58s2" textLength="19.6" lengthAdjust="spacing">1-D</tspan><tspan x="144.5" textLength="156.6" lengthAdjust="spacing"> tensors of different lengths — </tspan><tspan x="301.1" class="g58s2">6</tspan><tspan x="307.9" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="333.4" class="g58s2">4</tspan><tspan x="340.2">, </tspan><tspan x="346.6" class="g58s2">8</tspan><tspan x="353.4" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="379.0" class="g58s2">8</tspan><tspan x="385.7" textLength="120.8" lengthAdjust="spacing">. Nothing is padded yet.</tspan></text>
+<line x1="736.0" y1="1754.5" x2="736.0" y2="1815.5" class="g58s25"/>
+<rect x="34.0" y="1835.5" width="1812.0" height="114.0" rx="8" class="g58s28"/>
+<path d="M39.55 1836.46 A7.45 7.45 0 0 0 34.55 1843.50 V1941.50 A7.45 7.45 0 0 0 39.55 1948.54 Z" class="g58s40"/>
+<rect x="44.0" y="1845.0" width="22.0" height="17.0" rx="4" class="g58s41"/>
+<text x="55.0" y="1857.5" class="g58s20">7</text>
+<text x="72.0" y="1857.5" class="g58s48">cell 6 · &lt;module&gt;</text>
+<text x="720.0" y="1910.5" class="g58s49">07</text>
+<text x="72.0" y="1875.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">val_loader</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">DataLoader</tspan><tspan class="g58s0">(</tspan><tspan class="g58s4">Seq2SeqDataset</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">val_pairs</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tokenizer</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">,</tspan></text>
+<text x="72.0" y="1892.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">    </tspan><tspan class="g58s1">shuffle</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">False</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">.</tspan><tspan class="g58s0">)</tspan></text>
+<text y="1914.5" xml:space="preserve" class="g58s11"><tspan x="72.0" textLength="138.7" lengthAdjust="spacing">The same two pairs again (</tspan><tspan x="210.7" class="g58s2" textLength="28.5" lengthAdjust="spacing">cell 4</tspan><tspan x="239.1" textLength="391.8" lengthAdjust="spacing"> could not split them), never shuffled, so the validation batch is always A then</tspan></text>
+<text y="1930.5" xml:space="preserve" class="g58s11"><tspan x="72.0" textLength="10.9" lengthAdjust="spacing">B.</tspan></text>
+<line x1="736.0" y1="1845.5" x2="736.0" y2="1939.5" class="g58s25"/>
+<rect x="34.0" y="1959.5" width="1812.0" height="113.0" rx="8" class="g58s28"/>
+<path d="M39.55 1960.46 A7.45 7.45 0 0 0 34.55 1967.50 V2064.50 A7.45 7.45 0 0 0 39.55 2071.54 Z" class="g58s62"/>
+<rect x="44.0" y="1969.0" width="22.0" height="17.0" rx="4" class="g58s63"/>
+<text x="55.0" y="1981.5" class="g58s20">8</text>
+<text x="72.0" y="1981.5" style="fill:var(--s4);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">cell 8 · run_epoch</text>
+<text x="720.0" y="2034.0" style="fill:var(--s4);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">08</text>
+<text x="72.0" y="1999.5" xml:space="preserve" class="g58s10"><tspan class="g58s3">for</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">src</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tgt</tspan><tspan class="g58s1"> </tspan><tspan class="g58s3">in</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">loader</tspan><tspan class="g58s0">:</tspan></text>
+<text y="2021.5" xml:space="preserve" class="g58s11"><tspan x="72.0" textLength="44.7" lengthAdjust="spacing">Later, in </tspan><tspan x="116.7" class="g58s2" textLength="28.5" lengthAdjust="spacing">cell 8</tspan><tspan x="145.2" textLength="184.1" lengthAdjust="spacing">: asking the loader for a batch. With </tspan><tspan x="329.3" class="g58s17" textLength="78.1" lengthAdjust="spacing">shuffle=True</tspan><tspan x="407.4" textLength="218.6" lengthAdjust="spacing"> it draws a fresh order of the two pairs from</tspan></text>
+<text y="2037.5" xml:space="preserve" class="g58s11"><tspan x="72.0" textLength="142.4" lengthAdjust="spacing">PyTorch’s generator every </tspan><tspan x="214.4" class="g58s17" textLength="32.5" lengthAdjust="spacing">epoch</tspan><tspan x="246.9" textLength="377.8" lengthAdjust="spacing"> — a draw that cannot be reproduced without PyTorch, so the pages show</tspan></text>
+<text y="2053.5" xml:space="preserve" class="g58s11"><tspan x="72.0" textLength="162.4" lengthAdjust="spacing">them in dataset order, A then B.</tspan></text>
+<line x1="736.0" y1="1969.5" x2="736.0" y2="2062.5" class="g58s25"/>
+<rect x="60.0" y="2082.5" width="1786.0" height="198.0" rx="8" style="fill:var(--infobg);stroke:var(--s5);stroke-width:1.5"/>
+<path d="M65.75 2083.61 A7.25 7.25 0 0 0 60.75 2090.50 V2272.50 A7.25 7.25 0 0 0 65.75 2279.39 Z" class="g58s64"/>
+<rect x="70.0" y="2092.0" width="22.0" height="17.0" rx="4" class="g58s65"/>
+<text x="81.0" y="2104.5" class="g58s20">9</text>
+<text x="98.0" y="2104.5" style="fill:var(--s5);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">cell 6 · collate</text>
+<text y="2104.5" xml:space="preserve" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600"><tspan x="564.4" class="g58s19" textLength="155.6" lengthAdjust="spacing">padding happens here, per batch</tspan></text>
+<text x="720.0" y="2199.5" style="fill:var(--s5);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18">09</text>
+<text x="98.0" y="2122.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">srcs</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">tgts</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">=</tspan><tspan class="g58s1"> </tspan><tspan class="g58s4">zip</tspan><tspan class="g58s0">(</tspan><tspan class="g58s0">*</tspan><tspan class="g58s1">batch</tspan><tspan class="g58s0">)</tspan></text>
+<text x="98.0" y="2139.5" xml:space="preserve" class="g58s10"><tspan class="g58s3">return</tspan><tspan class="g58s1"> </tspan><tspan class="g58s0">(</tspan><tspan class="g58s4">pad_sequence</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">srcs</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">batch_first</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">True</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">padding_value</tspan><tspan class="g58s0">=</tspan><tspan class="g58s1">PAD</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">,</tspan></text>
+<text x="98.0" y="2156.5" xml:space="preserve" class="g58s10"><tspan class="g58s1">        </tspan><tspan class="g58s4">pad_sequence</tspan><tspan class="g58s0">(</tspan><tspan class="g58s1">tgts</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">batch_first</tspan><tspan class="g58s0">=</tspan><tspan class="g58s3">True</tspan><tspan class="g58s0">,</tspan><tspan class="g58s1"> </tspan><tspan class="g58s1">padding_value</tspan><tspan class="g58s0">=</tspan><tspan class="g58s1">PAD</tspan><tspan class="g58s0">)</tspan><tspan class="g58s0">)</tspan></text>
+<text y="2178.5" xml:space="preserve" class="g58s11"><tspan x="98.0" class="g58s17" textLength="78.1" lengthAdjust="spacing">pad_sequence</tspan><tspan x="176.1" textLength="230.7" lengthAdjust="spacing"> stacks the rows and fills each short one with </tspan><tspan x="406.8" class="g58s2">0</tspan><tspan x="413.6" textLength="189.2" lengthAdjust="spacing"> up to the longest row in THIS batch: </tspan><tspan x="602.8" class="g58s2">8</tspan><tspan x="609.6" textLength="16.0" lengthAdjust="spacing"> on</tspan></text>
+<text y="2194.5" xml:space="preserve" class="g58s11"><tspan x="98.0" textLength="84.4" lengthAdjust="spacing">the source side, </tspan><tspan x="182.4" class="g58s2">8</tspan><tspan x="189.2" textLength="173.9" lengthAdjust="spacing"> on the target side. Padding costs </tspan><tspan x="363.0" class="g58s2">2</tspan><tspan x="369.8" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="385.8" class="g58s2" textLength="81.3" lengthAdjust="spacing">16 source cells</tspan><tspan x="467.1" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="492.7" class="g58s2">4</tspan><tspan x="499.4" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="515.4" class="g58s2" textLength="75.9" lengthAdjust="spacing">16 target cells</tspan><tspan x="591.3">.</tspan></text>
+<rect x="98.0" y="2202.5" width="125.6" height="18.0" rx="4" class="g58s42"/>
+<text x="160.8" y="2215.3" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle">(2, 8)  ·  (2, 8)</text>
+<rect x="230.6" y="2202.5" width="86.2" height="18.0" rx="4" class="g58s67"/>
+<text x="273.7" y="2215.3" style="fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle">torch.int64</text>
+<line x1="736.0" y1="2092.5" x2="736.0" y2="2270.5" class="g58s25"/>
+<rect x="750.0" y="2096.5" width="1082.0" height="17.0" rx="4" class="g58s75"/>
+<text x="757.0" y="2109.0" class="g58s76">(2, 8)</text>
+<text y="2109.0" xml:space="preserve" class="g58s18"><tspan x="795.4" class="g58s29" textLength="16.1" lengthAdjust="spacing">src</tspan><tspan x="811.6" textLength="59.1" lengthAdjust="spacing">, padded with </tspan><tspan x="870.7" class="g58s2">0</tspan></text>
+<text y="2126.5" xml:space="preserve" class="g58s13"><tspan x="864.5" class="g58s2">0</tspan></text>
+<text y="2126.5" xml:space="preserve" class="g58s13"><tspan x="926.5" class="g58s2">1</tspan></text>
+<text y="2126.5" xml:space="preserve" class="g58s13"><tspan x="988.5" class="g58s2">2</tspan></text>
+<text y="2126.5" xml:space="preserve" class="g58s13"><tspan x="1050.5" class="g58s2">3</tspan></text>
+<text y="2126.5" xml:space="preserve" class="g58s13"><tspan x="1112.5" class="g58s2">4</tspan></text>
+<text y="2126.5" xml:space="preserve" class="g58s13"><tspan x="1174.5" class="g58s2">5</tspan></text>
+<text y="2126.5" xml:space="preserve" class="g58s13"><tspan x="1236.5" class="g58s2">6</tspan></text>
+<text y="2126.5" xml:space="preserve" class="g58s13"><tspan x="1298.5" class="g58s2">7</tspan></text>
+<rect x="836.0" y="2132.5" width="496.0" height="44.0" rx="3" class="g58s42"/>
+<text y="2147.5" xml:space="preserve" class="g58s43"><tspan x="793.2" class="g58s2" textLength="23.3" lengthAdjust="spacing">row 0</tspan><tspan x="816.5" textLength="13.5" lengthAdjust="spacing"> · A</tspan></text>
+<rect x="836.6" y="2133.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="867.0" y="2147.5" class="g58s8">112</text>
+<rect x="898.6" y="2133.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="929.0" y="2147.5" class="g58s8">5204</text>
+<rect x="960.6" y="2133.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="991.0" y="2147.5" class="g58s8">4238</text>
+<rect x="1022.6" y="2133.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="1053.0" y="2147.5" class="g58s8">124</text>
+<rect x="1084.6" y="2133.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="1115.0" y="2147.5" class="g58s8">112</text>
+<rect x="1146.6" y="2133.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="1177.0" y="2147.5" class="g58s8">4034</text>
+<rect x="1208.6" y="2133.1" width="60.8" height="20.8" rx="0" class="g58s32"/>
+<text x="1239.0" y="2147.5" class="g58s33">0</text>
+<rect x="1270.6" y="2133.1" width="60.8" height="20.8" rx="0" class="g58s32"/>
+<text x="1301.0" y="2147.5" class="g58s33">0</text>
+<text y="2169.5" xml:space="preserve" class="g58s43"><tspan x="793.2" class="g58s2" textLength="23.3" lengthAdjust="spacing">row 1</tspan><tspan x="816.5" textLength="13.5" lengthAdjust="spacing"> · B</tspan></text>
+<rect x="836.6" y="2155.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="867.0" y="2169.5" class="g58s8">112</text>
+<rect x="898.6" y="2155.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="929.0" y="2169.5" class="g58s8">6702</text>
+<rect x="960.6" y="2155.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="991.0" y="2169.5" class="g58s8">134</text>
+<rect x="1022.6" y="2155.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1053.0" y="2169.5" class="g58s8">10184</text>
+<rect x="1084.6" y="2155.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1115.0" y="2169.5" class="g58s8">124</text>
+<rect x="1146.6" y="2155.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1177.0" y="2169.5" class="g58s8">112</text>
+<rect x="1208.6" y="2155.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1239.0" y="2169.5" class="g58s8">3075</text>
+<rect x="1270.6" y="2155.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1301.0" y="2169.5" class="g58s8">33</text>
+<line x1="898.0" y1="2132.5" x2="898.0" y2="2176.5" class="g58s15"/>
+<line x1="960.0" y1="2132.5" x2="960.0" y2="2176.5" class="g58s15"/>
+<line x1="1022.0" y1="2132.5" x2="1022.0" y2="2176.5" class="g58s15"/>
+<line x1="1084.0" y1="2132.5" x2="1084.0" y2="2176.5" class="g58s15"/>
+<line x1="1146.0" y1="2132.5" x2="1146.0" y2="2176.5" class="g58s15"/>
+<line x1="1208.0" y1="2132.5" x2="1208.0" y2="2176.5" class="g58s15"/>
+<line x1="1270.0" y1="2132.5" x2="1270.0" y2="2176.5" class="g58s15"/>
+<line x1="836.0" y1="2154.5" x2="1332.0" y2="2154.5" class="g58s15"/>
+<rect x="836.0" y="2132.5" width="496.0" height="44.0" rx="3" class="g58s77"/>
+<rect x="750.0" y="2188.5" width="1082.0" height="17.0" rx="4" class="g58s75"/>
+<text x="757.0" y="2201.0" class="g58s76">(2, 8)</text>
+<text y="2201.0" xml:space="preserve" class="g58s18"><tspan x="795.4" class="g58s29" textLength="16.1" lengthAdjust="spacing">tgt</tspan><tspan x="811.6" textLength="59.1" lengthAdjust="spacing">, padded with </tspan><tspan x="870.7" class="g58s2">0</tspan></text>
+<text y="2218.5" xml:space="preserve" class="g58s13"><tspan x="864.5" class="g58s2">0</tspan></text>
+<text y="2218.5" xml:space="preserve" class="g58s13"><tspan x="926.5" class="g58s2">1</tspan></text>
+<text y="2218.5" xml:space="preserve" class="g58s13"><tspan x="988.5" class="g58s2">2</tspan></text>
+<text y="2218.5" xml:space="preserve" class="g58s13"><tspan x="1050.5" class="g58s2">3</tspan></text>
+<text y="2218.5" xml:space="preserve" class="g58s13"><tspan x="1112.5" class="g58s2">4</tspan></text>
+<text y="2218.5" xml:space="preserve" class="g58s13"><tspan x="1174.5" class="g58s2">5</tspan></text>
+<text y="2218.5" xml:space="preserve" class="g58s13"><tspan x="1236.5" class="g58s2">6</tspan></text>
+<text y="2218.5" xml:space="preserve" class="g58s13"><tspan x="1298.5" class="g58s2">7</tspan></text>
+<rect x="836.0" y="2224.5" width="496.0" height="44.0" rx="3" class="g58s42"/>
+<text y="2239.5" xml:space="preserve" class="g58s43"><tspan x="793.2" class="g58s2" textLength="23.3" lengthAdjust="spacing">row 0</tspan><tspan x="816.5" textLength="13.5" lengthAdjust="spacing"> · A</tspan></text>
+<rect x="836.6" y="2225.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="867.0" y="2239.5" class="g58s8">1</text>
+<rect x="898.6" y="2225.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="929.0" y="2239.5" class="g58s8">5204</text>
+<rect x="960.6" y="2225.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="991.0" y="2239.5" class="g58s8">12412</text>
+<rect x="1022.6" y="2225.1" width="60.8" height="20.8" rx="0" class="g58s23"/>
+<text x="1053.0" y="2239.5" class="g58s8">2</text>
+<rect x="1084.6" y="2225.1" width="60.8" height="20.8" rx="0" class="g58s32"/>
+<text x="1115.0" y="2239.5" class="g58s33">0</text>
+<rect x="1146.6" y="2225.1" width="60.8" height="20.8" rx="0" class="g58s32"/>
+<text x="1177.0" y="2239.5" class="g58s33">0</text>
+<rect x="1208.6" y="2225.1" width="60.8" height="20.8" rx="0" class="g58s32"/>
+<text x="1239.0" y="2239.5" class="g58s33">0</text>
+<rect x="1270.6" y="2225.1" width="60.8" height="20.8" rx="0" class="g58s32"/>
+<text x="1301.0" y="2239.5" class="g58s33">0</text>
+<text y="2261.5" xml:space="preserve" class="g58s43"><tspan x="793.2" class="g58s2" textLength="23.3" lengthAdjust="spacing">row 1</tspan><tspan x="816.5" textLength="13.5" lengthAdjust="spacing"> · B</tspan></text>
+<rect x="836.6" y="2247.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="867.0" y="2261.5" class="g58s8">1</text>
+<rect x="898.6" y="2247.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="929.0" y="2261.5" class="g58s8">112</text>
+<rect x="960.6" y="2247.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="991.0" y="2261.5" class="g58s8">6702</text>
+<rect x="1022.6" y="2247.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1053.0" y="2261.5" class="g58s8">134</text>
+<rect x="1084.6" y="2247.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1115.0" y="2261.5" class="g58s8">10184</text>
+<rect x="1146.6" y="2247.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1177.0" y="2261.5" class="g58s8">5210</text>
+<rect x="1208.6" y="2247.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1239.0" y="2261.5" class="g58s8">6521</text>
+<rect x="1270.6" y="2247.1" width="60.8" height="20.8" rx="0" class="g58s14"/>
+<text x="1301.0" y="2261.5" class="g58s8">2</text>
+<line x1="898.0" y1="2224.5" x2="898.0" y2="2268.5" class="g58s15"/>
+<line x1="960.0" y1="2224.5" x2="960.0" y2="2268.5" class="g58s15"/>
+<line x1="1022.0" y1="2224.5" x2="1022.0" y2="2268.5" class="g58s15"/>
+<line x1="1084.0" y1="2224.5" x2="1084.0" y2="2268.5" class="g58s15"/>
+<line x1="1146.0" y1="2224.5" x2="1146.0" y2="2268.5" class="g58s15"/>
+<line x1="1208.0" y1="2224.5" x2="1208.0" y2="2268.5" class="g58s15"/>
+<line x1="1270.0" y1="2224.5" x2="1270.0" y2="2268.5" class="g58s15"/>
+<line x1="836.0" y1="2246.5" x2="1332.0" y2="2246.5" class="g58s15"/>
+<rect x="836.0" y="2224.5" width="496.0" height="44.0" rx="3" class="g58s77"/>
+<rect x="34.0" y="2294.5" width="1812.0" height="30.0" rx="6" class="g58s57"/>
+<path d="M38.50 2295.21 A5.50 5.50 0 0 0 34.50 2300.50 V2318.50 A5.50 5.50 0 0 0 38.50 2323.79 Z" class="g58s44"/>
+<text y="2314.5" xml:space="preserve" class="g58s58"><tspan x="50.0" class="g58s19" textLength="144.8" lengthAdjust="spacing">B · What changed from </tspan><tspan x="194.8" class="g58s24" textLength="14.7" lengthAdjust="spacing">v2</tspan></text>
+<text y="2314.5" xml:space="preserve" class="g58s59"><tspan x="227.5" textLength="55.6" lengthAdjust="spacing">nothing — </tspan><tspan x="283.1" class="g58s17" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="309.1" textLength="125.9" lengthAdjust="spacing"> runs this cell line for line</tspan></text>
+<rect x="34.0" y="2340.5" width="1812.0" height="55.0" rx="6" class="g58s51"/>
+<path d="M38.50 2341.21 A5.50 5.50 0 0 0 34.50 2346.50 V2389.54 A5.50 5.50 0 0 0 38.50 2394.83 Z" class="g58s52"/>
+<text y="2366.5" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600"><tspan x="50.0" class="g58s19" textLength="106.0" lengthAdjust="spacing">One version back: </tspan><tspan x="156.0" class="g58s16" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="169.6" class="g58s19"> → </tspan><tspan x="189.4" class="g58s16" textLength="27.2" lengthAdjust="spacing">v2.5</tspan></text>
+<text y="2384.0" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px"><tspan x="50.0" textLength="101.9" lengthAdjust="spacing">This cell’s code is </tspan><tspan x="151.9" class="g58s16" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="165.5" textLength="95.3" lengthAdjust="spacing">’s, unchanged in </tspan><tspan x="260.7" class="g58s16" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="287.9" textLength="142.7" lengthAdjust="spacing"> — only the comment tags </tspan><tspan x="430.6" class="g58s16" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="444.2" textLength="127.4" lengthAdjust="spacing"> wrote are renamed, to [</tspan><tspan x="571.6" class="g58s16" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="585.2" textLength="33.4" lengthAdjust="spacing">] and [</tspan><tspan x="618.5" class="g58s16" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="632.1" textLength="102.7" lengthAdjust="spacing"> fix]. So there is no </tspan><tspan x="734.8" class="g58s16" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="748.4"> → </tspan><tspan x="767.1" class="g58s16" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="794.3" textLength="290.8" lengthAdjust="spacing"> block on this page: every frame above is exactly what </tspan><tspan x="1085.0" class="g58s16" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="1112.2" textLength="64.7" lengthAdjust="spacing"> runs. What </tspan><tspan x="1176.9" class="g58s16" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="1190.5" textLength="108.0" lengthAdjust="spacing"> itself changed from </tspan><tspan x="1298.5" class="g58s16" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="1325.7" textLength="116.7" lengthAdjust="spacing"> is on this page in the </tspan><tspan x="1442.4" class="g58s16" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="1456.0"> </tspan><tspan x="1459.3" class="g58s16" textLength="27.2" lengthAdjust="spacing">view</tspan><tspan x="1486.5">.</tspan></text>
+<rect x="34.0" y="2417.5" width="1812.0" height="34.0" rx="6" class="g58s66"/>
+<rect x="48.0" y="2426.5" width="15.0" height="15.0" rx="3" class="g58s68"/>
+<text y="2437.5" xml:space="preserve" class="g58s50"><tspan x="70.0" textLength="256.7" lengthAdjust="spacing">sequence A — &quot;the dog sat on the floor&quot; (padded by </tspan><tspan x="326.7" class="g58s2">2</tspan><tspan x="333.2">)</tspan></text>
+<rect x="373.1" y="2426.5" width="15.0" height="15.0" rx="3" class="g58s69"/>
+<text y="2437.5" xml:space="preserve" class="g58s50"><tspan x="395.1" textLength="386.3" lengthAdjust="spacing">sequence B — &quot;the cat is sleeping on the sofa&quot; (no padding — it sets the width)</tspan></text>
+<rect x="822.9" y="2426.5" width="15.0" height="15.0" rx="3" style="fill:url(#hatch58);stroke:var(--pad);stroke-width:1"/>
+<rect x="844.9" y="2427.6" width="36.1" height="13.4" rx="3" class="g58s55"/>
+<text y="2437.5" xml:space="preserve" class="g58s50"><tspan x="847.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--pad)" textLength="31.1" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="881.0" textLength="63.6" lengthAdjust="spacing"> token or row</tspan></text>
+<line x1="28.0" y1="2477.5" x2="1852.0" y2="2477.5" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="2494.5" xml:space="preserve" class="g58s45"><tspan x="28.0" textLength="250.0" lengthAdjust="spacing">Every token id is the real one: the notebook’s own </tspan><tspan x="278.0" class="g58s26" textLength="74.7" lengthAdjust="spacing">BPETokenizer</tspan><tspan x="352.6"> (</tspan><tspan x="359.4" class="g58s2" textLength="27.2" lengthAdjust="spacing">cell 3</tspan><tspan x="386.6" textLength="86.8" lengthAdjust="spacing">), trained here on </tspan><tspan x="473.4" class="g58s2" textLength="27.2" lengthAdjust="spacing">cell 0</tspan><tspan x="500.6" textLength="81.2" lengthAdjust="spacing">’s word list with </tspan><tspan x="581.8" class="g58s2" textLength="27.2" lengthAdjust="spacing">cell 5</tspan><tspan x="609.0" textLength="707.9" lengthAdjust="spacing">’s counts. The notebook has never been run, so every weight is a seeded draw from its own initialisers — these are the numbers of an untrained </tspan><tspan x="1316.9" class="g58s26" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1329.3" textLength="205.4" lengthAdjust="spacing"> model, computed exactly in pure Python (</tspan><tspan x="1534.8" class="g58s26" textLength="68.5" lengthAdjust="spacing">d_model=512</tspan><tspan x="1603.2">, </tspan><tspan x="1609.3" class="g58s26" textLength="43.6" lengthAdjust="spacing">heads=4</tspan><tspan x="1652.9">, </tspan><tspan x="1659.0" class="g58s26" textLength="49.8" lengthAdjust="spacing">layers=2</tspan><tspan x="1708.8">, </tspan><tspan x="1714.9" class="g58s26" textLength="56.0" lengthAdjust="spacing">d_ff=2048</tspan><tspan x="1771.0">,</tspan></text>
+<text y="2509.5" xml:space="preserve" class="g58s45"><tspan x="28.0" class="g58s26" textLength="68.5" lengthAdjust="spacing">dropout=0.1</tspan><tspan x="96.5">, </tspan><tspan x="102.6" class="g58s26" textLength="62.2" lengthAdjust="spacing">vocabulary</tspan><tspan x="164.8"> </tspan><tspan x="167.9" class="g58s2" textLength="35.7" lengthAdjust="spacing">16,111</tspan><tspan x="203.5" textLength="147.3" lengthAdjust="spacing">). These cells are the same in </tspan><tspan x="350.9" class="g58s26" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="375.8" textLength="137.0" lengthAdjust="spacing">, and so are these numbers.</tspan></text>
+</svg>

@@ -1,0 +1,931 @@
+<svg data-src="17_call_stack_output_head_and_loss.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="3405" viewBox="0 0 1880 3405">
+<style>.txfig .g35s0{font-weight:600;fill:var(--ink)}.txfig .g35s1{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g35s2{fill:var(--op)}.txfig .g35s3{fill:var(--code)}.txfig .g35s4{font-weight:600}.txfig .g35s5{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px}.txfig .g35s6{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.24074074074074px;text-anchor:middle}.txfig .g35s7{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g35s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g35s9{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9px;text-anchor:middle}.txfig .g35s10{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g35s11{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:start}.txfig .g35s12{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9px}.txfig .g35s13{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g35s14{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px}.txfig .g35s15{fill:var(--keepbg);stroke:none;stroke-width:1}.txfig .g35s16{fill:var(--infobg);stroke:none;stroke-width:1}.txfig .g35s17{fill:var(--fn)}.txfig .g35s18{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g35s19{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink)}.txfig .g35s20{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g35s21{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g35s22{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g35s23{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g35s24{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px}.txfig .g35s25{fill:url(#hatch35);stroke:none;stroke-width:1}.txfig .g35s26{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g35s27{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g35s28{fill:none;stroke:var(--grid);stroke-width:1.2}.txfig .g35s29{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g35s30{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g35s31{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g35s32{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px}.txfig .g35s33{stroke:var(--panelbd);stroke-width:1;stroke-dasharray:3 4;stroke-linecap:round}.txfig .g35s34{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g35s35{fill:var(--pad);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g35s36{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:middle}.txfig .g35s37{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:middle}.txfig .g35s38{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g35s39{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g35s40{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g35s41{stroke:var(--ink3);stroke-width:1.3;stroke-linecap:round}.txfig .g35s42{fill:var(--ink3)}.txfig .g35s43{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g35s44{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g35s45{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.24074074074074px}.txfig .g35s46{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600}.txfig .g35s47{fill:var(--cmt)}.txfig .g35s48{fill:var(--accent);stroke:none}.txfig .g35s49{fill:var(--panel);stroke:var(--panelbd);stroke-width:1.1}.txfig .g35s50{fill:var(--seqBbg);stroke:none;stroke-width:1}.txfig .g35s51{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.0px;font-weight:600;fill:var(--pad)}.txfig .g35s52{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)}.txfig .g35s53{fill:var(--kw)}.txfig .g35s54{fill:var(--num)}.txfig .g35s55{fill:var(--codebg);stroke:none;stroke-width:1}.txfig .g35s56{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9px;font-weight:600;text-anchor:middle}.txfig .g35s57{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g35s58{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g35s59{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g35s60{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g35s61{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g35s62{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g35s63{fill:var(--seqAbg);stroke:var(--seqA);stroke-width:0.9}.txfig .g35s64{fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g35s65{fill:var(--seqBbg);stroke:var(--seqB);stroke-width:0.9}.txfig .g35s66{fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g35s67{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.24074074074074px;font-weight:600;text-anchor:middle}.txfig .g35s68{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.4px;font-weight:600;fill:var(--ink)}.txfig .g35s69{fill:var(--padbg);stroke:var(--pad);stroke-width:0.8}.txfig .g35s70{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.0px;font-weight:600;fill:var(--accent)}.txfig .g35s71{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g35s72{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g35s73{fill:var(--keep);stroke:none}.txfig .g35s74{fill:var(--s2);stroke:none}.txfig .g35s75{fill:var(--s2);stroke:none;stroke-width:1;opacity:0.22}.txfig .g35s76{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.9px;font-weight:600;fill:var(--ink)}.txfig .g35s77{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g35s78{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.075}.txfig .g35s79{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.068}.txfig .g35s80{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.5px;font-weight:600;fill:var(--pad)}.txfig .g35s81{fill:var(--thead);stroke:var(--panelbd);stroke-width:0.9}.txfig .g35s82{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g35s83{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--pad)}.txfig .g35s84{fill:var(--seqAbg);stroke:none;stroke-width:1}.txfig .g35s85{fill:var(--pad);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9px;text-anchor:middle}.txfig .g35s86{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g35s87{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--pad)}.txfig .g35s88{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g35s89{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g35s90{fill:var(--s1);stroke:none}.txfig .g35s91{fill:var(--s1);stroke:none;stroke-width:1;opacity:0.22}.txfig .g35s92{fill:var(--s3);stroke:none}.txfig .g35s93{fill:var(--s3);stroke:none;stroke-width:1;opacity:0.22}.txfig .g35s94{fill:var(--s4);stroke:none}.txfig .g35s95{fill:var(--s4);stroke:none;stroke-width:1;opacity:0.22}.txfig .g35s96{fill:var(--s5);stroke:none}.txfig .g35s97{fill:var(--s5);stroke:none;stroke-width:1;opacity:0.22}.txfig .g35s98{fill:var(--s6);stroke:none}.txfig .g35s99{fill:var(--s6);stroke:none;stroke-width:1;opacity:0.22}.txfig .g35s100{fill:var(--s7);stroke:none}.txfig .g35s101{fill:var(--s7);stroke:none;stroke-width:1;opacity:0.22}.txfig .g35s102{fill:var(--s8);stroke:none}.txfig .g35s103{fill:var(--s8);stroke:none;stroke-width:1;opacity:0.22}.txfig .g35s104{fill:var(--soft);stroke:var(--hair);stroke-width:1}.txfig .g35s105{fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1}.txfig .g35s106{fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1}.txfig .g35s107{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.067}.txfig .g35s108{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.073}.txfig .g35s109{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.5px;font-weight:600;fill:var(--accent)}.txfig .g35s110{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.083}.txfig .g35s111{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.078}.txfig .g35s112{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.069}.txfig .g35s113{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.071}.txfig .g35s114{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.066}.txfig .g35s115{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.07}.txfig .g35s116{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g35s117{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11}.txfig .g35s118{fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600}.txfig .g35s119{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.5px;font-weight:600;fill:var(--ink)}.txfig .g35s120{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:middle}.txfig .g35s121{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--accent)}</style>
+<defs><pattern id="hatch35" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash35" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="3405" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">STEP 17 / 18</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="150.0" class="g35s4" textLength="373.7" lengthAdjust="spacing">The output head and the loss — from </tspan><tspan x="523.7" style="font-weight:600;fill:var(--hdfg)" textLength="129.9" lengthAdjust="spacing">512 numbers</tspan><tspan x="653.6" class="g35s4" textLength="238.8" lengthAdjust="spacing"> to one score to improve</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="52.0" lengthAdjust="spacing">linear → </tspan><tspan x="86.0" class="g35s57" textLength="51.5" lengthAdjust="spacing">reshape</tspan><tspan x="137.5"> → </tspan><tspan x="157.7" class="g35s57" textLength="250.1" lengthAdjust="spacing">CrossEntropyLoss(ignore_index=PAD)</tspan><tspan x="407.9" textLength="96.1" lengthAdjust="spacing"> → backward → </tspan><tspan x="503.9" class="g35s57" textLength="29.4" lengthAdjust="spacing">Adam</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="297.9" lengthAdjust="spacing">The end of the forward pass and the start of learning: how </tspan><tspan x="331.9" class="g35s0" textLength="13.6" lengthAdjust="spacing">12</tspan><tspan x="345.4" textLength="393.7" lengthAdjust="spacing"> decoder outputs become a single number the model can try to make smaller.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g35s72"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g35s73"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g35s4" textLength="220.2" lengthAdjust="spacing">Where the model is finally graded</tspan></text>
+<text y="169.0" xml:space="preserve" class="g35s89"><tspan x="54.0" textLength="61.4" lengthAdjust="spacing">Everything</tspan><tspan x="115.4"> </tspan><tspan x="119.2" textLength="36.9" lengthAdjust="spacing">before</tspan><tspan x="156.0"> </tspan><tspan x="159.8" textLength="20.2" lengthAdjust="spacing">this</tspan><tspan x="180.0"> </tspan><tspan x="183.8" textLength="24.6" lengthAdjust="spacing">step</tspan><tspan x="208.3"> </tspan><tspan x="212.1" textLength="54.2" lengthAdjust="spacing">produced</tspan><tspan x="266.3"> </tspan><tspan x="270.0" textLength="45.5" lengthAdjust="spacing">vectors;</tspan><tspan x="315.5"> </tspan><tspan x="319.3" textLength="42.6" lengthAdjust="spacing">nothing</tspan><tspan x="361.9"> </tspan><tspan x="365.7" textLength="21.0" lengthAdjust="spacing">has</tspan><tspan x="386.6"> </tspan><tspan x="390.4" textLength="41.9" lengthAdjust="spacing">chosen</tspan><tspan x="432.3"> </tspan><tspan x="436.1">a</tspan><tspan x="443.3"> </tspan><tspan x="447.1" textLength="28.2" lengthAdjust="spacing">word</tspan><tspan x="475.2"> </tspan><tspan x="479.0" textLength="21.0" lengthAdjust="spacing">yet.</tspan><tspan x="499.9"> </tspan><tspan x="503.7" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="526.1"> </tspan><tspan x="529.8" textLength="36.1" lengthAdjust="spacing">output</tspan><tspan x="566.0"> </tspan><tspan x="569.7" textLength="28.9" lengthAdjust="spacing">head</tspan><tspan x="598.6"> </tspan><tspan x="602.4" textLength="28.9" lengthAdjust="spacing">turns</tspan><tspan x="631.3"> </tspan><tspan x="635.1" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="663.2"> </tspan><tspan x="667.0" class="g35s0" textLength="74.3" lengthAdjust="spacing">512-number</tspan><tspan x="741.3"> </tspan><tspan x="745.0" textLength="47.0" lengthAdjust="spacing">decoder</tspan><tspan x="792.0"> </tspan><tspan x="795.8" textLength="36.1" lengthAdjust="spacing">output</tspan><tspan x="831.9"> </tspan><tspan x="835.7" textLength="21.0" lengthAdjust="spacing">into</tspan><tspan x="856.6"> </tspan><tspan x="860.4" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="882.0"> </tspan><tspan x="885.8" textLength="31.8" lengthAdjust="spacing">score</tspan><tspan x="917.6"> </tspan><tspan x="921.3" textLength="15.2" lengthAdjust="spacing">for</tspan><tspan x="936.5"> </tspan><tspan x="940.3" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="972.0"> </tspan><tspan x="975.8" textLength="28.9" lengthAdjust="spacing">entry</tspan><tspan x="1004.7"> </tspan><tspan x="1008.5" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="1018.6"> </tspan><tspan x="1022.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1040.4"> </tspan><tspan x="1044.1" class="g35s57" textLength="73.6" lengthAdjust="spacing">vocabulary</tspan><tspan x="1117.7"> </tspan><tspan x="1121.5">—</tspan><tspan x="1134.5"> </tspan><tspan x="1138.2" class="g35s0" textLength="86.6" lengthAdjust="spacing">12,917 scores</tspan><tspan x="1224.8"> </tspan><tspan x="1228.5" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="1247.3"> </tspan><tspan x="1251.1" textLength="48.4" lengthAdjust="spacing">position.</tspan><tspan x="1299.5"> </tspan><tspan x="1303.2" textLength="29.6" lengthAdjust="spacing">Then</tspan><tspan x="1332.9"> </tspan><tspan x="1336.6" textLength="78.7" lengthAdjust="spacing">cross-entropy</tspan><tspan x="1415.4"> </tspan><tspan x="1419.1" textLength="26.7" lengthAdjust="spacing">asks</tspan><tspan x="1445.8"> </tspan><tspan x="1449.6" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="1481.4"> </tspan><tspan x="1485.1" textLength="44.8" lengthAdjust="spacing">position</tspan><tspan x="1529.9"> </tspan><tspan x="1533.7" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1555.4"> </tspan><tspan x="1559.1" textLength="52.8" lengthAdjust="spacing">question:</tspan><tspan x="1611.9"> </tspan><tspan x="1615.6" textLength="23.8" lengthAdjust="spacing">how</tspan><tspan x="1639.5"> </tspan><tspan x="1643.2" textLength="31.8" lengthAdjust="spacing">much</tspan><tspan x="1675.0"> </tspan><tspan x="1678.8" textLength="59.2" lengthAdjust="spacing">probability</tspan><tspan x="1738.0"> </tspan><tspan x="1741.8" textLength="17.3" lengthAdjust="spacing">did</tspan><tspan x="1759.1"> </tspan><tspan x="1762.9" textLength="21.0" lengthAdjust="spacing">you</tspan><tspan x="1783.8"> </tspan><tspan x="1787.6" textLength="23.8" lengthAdjust="spacing">give</tspan><tspan x="1811.4"> </tspan><tspan x="1815.2" textLength="10.8" lengthAdjust="spacing">to</tspan></text>
+<text y="188.0" xml:space="preserve" class="g35s89"><tspan x="54.0" textLength="1587.5" lengthAdjust="spacing">the token that really comes next? The answers are averaged into one number, the loss, and that number is the only thing training ever sees. Every earlier design decision — the masks, the shift, the padding handling — exists so that this one number measures what it claims to.</tspan></text>
+<text y="241.2" xml:space="preserve" class="g35s58"><tspan x="34.0" textLength="26.4" lengthAdjust="spacing">How</tspan><tspan x="60.4"> </tspan><tspan x="64.3" textLength="11.0" lengthAdjust="spacing">to</tspan><tspan x="75.3"> </tspan><tspan x="79.2" textLength="26.4" lengthAdjust="spacing">read</tspan><tspan x="105.6"> </tspan><tspan x="109.5" textLength="20.5" lengthAdjust="spacing">this</tspan><tspan x="130.0"> </tspan><tspan x="133.9" textLength="33.0" lengthAdjust="spacing">page.</tspan><tspan x="166.9"> </tspan><tspan x="170.8" textLength="24.9" lengthAdjust="spacing">Two</tspan><tspan x="195.7"> </tspan><tspan x="199.6" textLength="38.1" lengthAdjust="spacing">details</tspan><tspan x="237.7"> </tspan><tspan x="241.6" textLength="14.7" lengthAdjust="spacing">do</tspan><tspan x="256.3"> </tspan><tspan x="260.2" textLength="28.6" lengthAdjust="spacing">most</tspan><tspan x="288.8"> </tspan><tspan x="292.6" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="303.6"> </tspan><tspan x="307.5" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="325.9"> </tspan><tspan x="329.7" textLength="31.5" lengthAdjust="spacing">work.</tspan><tspan x="361.3"> </tspan><tspan x="365.2" textLength="29.3" lengthAdjust="spacing">First,</tspan><tspan x="394.5"> </tspan><tspan x="398.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="416.7"> </tspan><tspan x="420.6" class="g35s52" textLength="52.3" lengthAdjust="spacing">reshape</tspan><tspan x="472.9"> </tspan><tspan x="476.8" textLength="42.6" lengthAdjust="spacing">flattens</tspan><tspan x="519.3"> </tspan><tspan x="523.2" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="541.5"> </tspan><tspan x="545.4" textLength="32.3" lengthAdjust="spacing">batch</tspan><tspan x="577.7"> </tspan><tspan x="581.6" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="603.6"> </tspan><tspan x="607.5" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="625.8"> </tspan><tspan x="629.7" textLength="52.1" lengthAdjust="spacing">positions</tspan><tspan x="681.8"> </tspan><tspan x="685.7" textLength="52.1" lengthAdjust="spacing">together,</tspan><tspan x="737.8"> </tspan><tspan x="741.6" textLength="13.9" lengthAdjust="spacing">so</tspan><tspan x="755.6"> </tspan><tspan x="759.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="777.8"> </tspan><tspan x="781.7" textLength="23.5" lengthAdjust="spacing">loss</tspan><tspan x="805.1"> </tspan><tspan x="809.0" textLength="27.9" lengthAdjust="spacing">sees</tspan><tspan x="836.9"> </tspan><tspan x="840.8" class="g35s0" textLength="15.6" lengthAdjust="spacing">12</tspan><tspan x="856.3"> </tspan><tspan x="860.2" textLength="51.4" lengthAdjust="spacing">separate</tspan><tspan x="911.6"> </tspan><tspan x="915.4" textLength="28.2" lengthAdjust="spacing">&quot;pick</tspan><tspan x="943.6"> </tspan><tspan x="947.5" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="965.8"> </tspan><tspan x="969.7" textLength="25.7" lengthAdjust="spacing">right</tspan><tspan x="995.4"> </tspan><tspan x="999.3" textLength="32.3" lengthAdjust="spacing">token</tspan><tspan x="1031.5"> </tspan><tspan x="1035.4" textLength="18.3" lengthAdjust="spacing">out</tspan><tspan x="1053.8"> </tspan><tspan x="1057.6" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="1068.7"> </tspan><tspan x="1072.5" class="g35s0" textLength="42.8" lengthAdjust="spacing">12,917</tspan><tspan x="1115.3">&quot;</tspan></text>
+<text y="261.0" xml:space="preserve" class="g35s58"><tspan x="34.0" textLength="54.3" lengthAdjust="spacing">problems</tspan><tspan x="88.3"> </tspan><tspan x="93.4" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="115.4"> </tspan><tspan x="120.6" textLength="37.4" lengthAdjust="spacing">knows</tspan><tspan x="158.0"> </tspan><tspan x="163.1" textLength="43.3" lengthAdjust="spacing">nothing</tspan><tspan x="206.4"> </tspan><tspan x="211.6" textLength="33.0" lengthAdjust="spacing">about</tspan><tspan x="244.6"> </tspan><tspan x="249.7" textLength="60.2" lengthAdjust="spacing">sentences</tspan><tspan x="309.9"> </tspan><tspan x="315.0">—</tspan><tspan x="328.2"> </tspan><tspan x="333.4" textLength="33.7" lengthAdjust="spacing">which</tspan><tspan x="367.1"> </tspan><tspan x="372.3" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="381.8"> </tspan><tspan x="386.9" textLength="23.5" lengthAdjust="spacing">why</tspan><tspan x="410.4"> </tspan><tspan x="415.5" textLength="47.0" lengthAdjust="spacing">padding</tspan><tspan x="462.5"> </tspan><tspan x="467.6" textLength="28.6" lengthAdjust="spacing">must</tspan><tspan x="496.3"> </tspan><tspan x="501.4" textLength="14.7" lengthAdjust="spacing">be</tspan><tspan x="516.1"> </tspan><tspan x="521.2" textLength="47.0" lengthAdjust="spacing">handled</tspan><tspan x="568.2"> </tspan><tspan x="573.3" textLength="13.9" lengthAdjust="spacing">by</tspan><tspan x="587.3"> </tspan><tspan x="592.4" class="g35s52" textLength="89.6" lengthAdjust="spacing">ignore_index</tspan><tspan x="682.0">.</tspan><tspan x="685.7"> </tspan><tspan x="690.8" textLength="48.4" lengthAdjust="spacing">Second,</tspan><tspan x="739.3"> </tspan><tspan x="744.4" class="g35s52" textLength="119.5" lengthAdjust="spacing">CrossEntropyLoss</tspan><tspan x="863.9"> </tspan><tspan x="869.1" textLength="30.8" lengthAdjust="spacing">looks</tspan><tspan x="899.9"> </tspan><tspan x="905.0" textLength="19.8" lengthAdjust="spacing">like</tspan><tspan x="924.8"> </tspan><tspan x="930.0" textLength="22.0" lengthAdjust="spacing">one</tspan><tspan x="952.0"> </tspan><tspan x="957.1" textLength="19.8" lengthAdjust="spacing">call</tspan><tspan x="976.9"> </tspan><tspan x="982.1" textLength="18.3" lengthAdjust="spacing">but</tspan><tspan x="1000.4"> </tspan><tspan x="1005.6" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="1015.1"> </tspan><tspan x="1020.2" textLength="31.5" lengthAdjust="spacing">really</tspan><tspan x="1051.8"> </tspan><tspan x="1056.9" textLength="22.7" lengthAdjust="spacing">four</tspan><tspan x="1079.6"> </tspan><tspan x="1084.8" textLength="35.2" lengthAdjust="spacing">steps:</tspan></text>
+<text y="280.8" xml:space="preserve" class="g35s58"><tspan x="34.0" textLength="22.0" lengthAdjust="spacing">log-</tspan><tspan x="56.0" class="g35s52" textLength="52.3" lengthAdjust="spacing">softmax</tspan><tspan x="108.3">,</tspan><tspan x="112.0"> </tspan><tspan x="116.0" textLength="26.4" lengthAdjust="spacing">read</tspan><tspan x="142.4"> </tspan><tspan x="146.5" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="164.9"> </tspan><tspan x="168.9" textLength="22.0" lengthAdjust="spacing">one</tspan><tspan x="191.0"> </tspan><tspan x="195.0" textLength="31.5" lengthAdjust="spacing">value</tspan><tspan x="226.6"> </tspan><tspan x="230.7" textLength="11.0" lengthAdjust="spacing">at</tspan><tspan x="241.7"> </tspan><tspan x="245.7" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="264.1"> </tspan><tspan x="268.2" textLength="40.3" lengthAdjust="spacing">correct</tspan><tspan x="308.5"> </tspan><tspan x="312.6" textLength="36.0" lengthAdjust="spacing">token,</tspan><tspan x="348.5"> </tspan><tspan x="352.6" textLength="26.4" lengthAdjust="spacing">drop</tspan><tspan x="379.0"> </tspan><tspan x="383.1" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="401.4"> </tspan><tspan x="405.5" textLength="44.0" lengthAdjust="spacing">ignored</tspan><tspan x="449.5"> </tspan><tspan x="453.6" textLength="31.5" lengthAdjust="spacing">rows,</tspan><tspan x="485.2"> </tspan><tspan x="489.2" textLength="24.9" lengthAdjust="spacing">take</tspan><tspan x="514.2"> </tspan><tspan x="518.3" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="536.6"> </tspan><tspan x="540.7" textLength="36.7" lengthAdjust="spacing">mean.</tspan><tspan x="577.4"> </tspan><tspan x="581.4" class="g35s0" textLength="86.3" lengthAdjust="spacing">Frames 4 to 7</tspan><tspan x="667.7"> </tspan><tspan x="671.8" textLength="27.9" lengthAdjust="spacing">write</tspan><tspan x="699.7"> </tspan><tspan x="703.8" textLength="32.3" lengthAdjust="spacing">those</tspan><tspan x="736.0"> </tspan><tspan x="740.1" textLength="31.5" lengthAdjust="spacing">steps</tspan><tspan x="771.7"> </tspan><tspan x="775.7" textLength="18.3" lengthAdjust="spacing">out</tspan><tspan x="794.1"> </tspan><tspan x="798.2" textLength="22.0" lengthAdjust="spacing">one</tspan><tspan x="820.2"> </tspan><tspan x="824.3" textLength="11.0" lengthAdjust="spacing">at</tspan><tspan x="835.3"> </tspan><tspan x="839.3">a</tspan><tspan x="846.7"> </tspan><tspan x="850.8" textLength="28.6" lengthAdjust="spacing">time.</tspan><tspan x="879.4"> </tspan><tspan x="883.4" textLength="44.0" lengthAdjust="spacing">Section</tspan><tspan x="927.5"> </tspan><tspan x="931.5">B</tspan><tspan x="940.3"> </tspan><tspan x="944.4" class="g35s52" textLength="44.8" lengthAdjust="spacing">scores</tspan><tspan x="989.2"> </tspan><tspan x="993.3" textLength="22.0" lengthAdjust="spacing">one</tspan><tspan x="1015.3"> </tspan><tspan x="1019.4" textLength="45.5" lengthAdjust="spacing">position</tspan><tspan x="1064.9"> </tspan><tspan x="1069.0" textLength="13.9" lengthAdjust="spacing">by</tspan><tspan x="1082.9"> </tspan><tspan x="1087.0" textLength="33.0" lengthAdjust="spacing">hand,</tspan></text>
+<text y="300.6" xml:space="preserve" class="g35s58"><tspan x="34.0" textLength="104.2" lengthAdjust="spacing">Section C lists all </tspan><tspan x="138.2" class="g35s0" textLength="49.0" lengthAdjust="spacing">12 rows</tspan><tspan x="187.1" textLength="295.7" lengthAdjust="spacing">, and Section D looks at the training loop around it.</tspan></text>
+<rect x="1146.0" y="228.0" width="700.0" height="211.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="1156.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="1167.9" class="g35s4" textLength="134.3" lengthAdjust="spacing"> · output head, loss, update</tspan></text>
+<text x="1156.0" y="269.0" xml:space="preserve" class="g35s31"><tspan class="g35s53">self</tspan><tspan class="g35s2">.</tspan><tspan style="fill:var(--attr)">linear</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">nn</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">Linear</tspan><tspan class="g35s2">(</tspan><tspan class="g35s3">d_model</tspan><tspan class="g35s2">,</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">tgt_vocab_size</tspan><tspan class="g35s2">)</tspan><tspan class="g35s3">   </tspan><tspan class="g35s47"># 512 -&gt; 12,917</tspan></text>
+<text x="1156.0" y="288.5" xml:space="preserve" class="g35s31"><tspan class="g35s3">logits</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s53">self</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">linear</tspan><tspan class="g35s2">(</tspan><tspan class="g35s3">x</tspan><tspan class="g35s2">)</tspan><tspan class="g35s3">                            </tspan><tspan class="g35s47"># (2, 6, 12,917)</tspan></text>
+<text x="1156.0" y="308.0" xml:space="preserve" class="g35s31"></text>
+<text x="1156.0" y="327.5" xml:space="preserve" class="g35s31"><tspan class="g35s3">criterion</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">nn</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">CrossEntropyLoss</tspan><tspan class="g35s2">(</tspan><tspan class="g35s3">ignore_index</tspan><tspan class="g35s2">=</tspan><tspan class="g35s3">PAD</tspan><tspan class="g35s2">)</tspan></text>
+<text x="1156.0" y="347.0" xml:space="preserve" class="g35s31"><tspan class="g35s3">loss</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s17">criterion</tspan><tspan class="g35s2">(</tspan><tspan class="g35s3">logits</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">reshape</tspan><tspan class="g35s2">(</tspan><tspan class="g35s2">-</tspan><tspan class="g35s54">1</tspan><tspan class="g35s2">,</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">VOCAB_SIZE</tspan><tspan class="g35s2">)</tspan><tspan class="g35s2">,</tspan><tspan class="g35s3">   </tspan><tspan class="g35s47"># (12, 12,917)</tspan></text>
+<text x="1156.0" y="366.5" xml:space="preserve" class="g35s31"><tspan class="g35s3">                 </tspan><tspan class="g35s3">expected</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">reshape</tspan><tspan class="g35s2">(</tspan><tspan class="g35s2">-</tspan><tspan class="g35s54">1</tspan><tspan class="g35s2">)</tspan><tspan class="g35s2">)</tspan><tspan class="g35s3">             </tspan><tspan class="g35s47"># (12,)</tspan></text>
+<text x="1156.0" y="386.0" xml:space="preserve" class="g35s31"></text>
+<text x="1156.0" y="405.5" xml:space="preserve" class="g35s31"><tspan class="g35s3">loss</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">backward</tspan><tspan class="g35s2">(</tspan><tspan class="g35s2">)</tspan></text>
+<text x="1156.0" y="425.0" xml:space="preserve" class="g35s31"><tspan class="g35s3">optimizer</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">step</tspan><tspan class="g35s2">(</tspan><tspan class="g35s2">)</tspan><tspan class="g35s3">      </tspan><tspan class="g35s47"># Adam, lr = 1e-3</tspan></text>
+<text y="472.5" xml:space="preserve" class="g35s39"><tspan x="34.0" class="g35s4" textLength="533.9" lengthAdjust="spacing">Order of execution — from the training call to the result · each colour continues in the frames below</tspan></text>
+<rect x="34.0" y="481.5" width="207.2" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s1);stroke-width:1.4"/>
+<path d="M35.13 486.20 A6.30 6.30 0 0 1 41.00 482.20 H234.25 A6.30 6.30 0 0 1 240.12 486.20 Z" class="g35s90"/>
+<rect x="43.0" y="493.5" width="19.0" height="16.0" rx="4" class="g35s91"/>
+<text x="52.5" y="505.5" style="fill:var(--s1);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">1</text>
+<text x="68.0" y="505.5" class="g35s40">linear</text>
+<text y="521.5" xml:space="preserve" class="g35s14"><tspan x="45.0" class="g35s0" textLength="16.8" lengthAdjust="spacing">512</tspan><tspan x="61.8"> → </tspan><tspan x="76.6" class="g35s0" textLength="30.8" lengthAdjust="spacing">12,917</tspan></text>
+<text x="45.0" y="535.5" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 1</text>
+<line x1="244.2" y1="512.5" x2="255.2" y2="512.5" class="g35s41"/>
+<path d="M260.2 512.5 L253.4 515.6 L253.4 509.4 Z" class="g35s42"/>
+<rect x="263.2" y="481.5" width="207.2" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s2);stroke-width:1.4"/>
+<path d="M264.38 486.20 A6.30 6.30 0 0 1 270.25 482.20 H463.50 A6.30 6.30 0 0 1 469.37 486.20 Z" class="g35s74"/>
+<rect x="272.2" y="493.5" width="19.0" height="16.0" rx="4" class="g35s75"/>
+<text x="281.8" y="505.5" style="fill:var(--s2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">2</text>
+<text x="297.2" y="505.5" class="g35s40">reshape</text>
+<text y="521.5" xml:space="preserve" class="g35s14"><tspan x="274.2" textLength="101.4" lengthAdjust="spacing">batch and time flattened</tspan></text>
+<text x="274.2" y="535.5" style="fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frames 2–3</text>
+<line x1="473.5" y1="512.5" x2="484.5" y2="512.5" class="g35s41"/>
+<path d="M489.5 512.5 L482.7 515.6 L482.7 509.4 Z" class="g35s42"/>
+<rect x="492.5" y="481.5" width="207.2" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s3);stroke-width:1.4"/>
+<path d="M493.63 486.20 A6.30 6.30 0 0 1 499.50 482.20 H692.75 A6.30 6.30 0 0 1 698.62 486.20 Z" class="g35s92"/>
+<rect x="501.5" y="493.5" width="19.0" height="16.0" rx="4" class="g35s93"/>
+<text x="511.0" y="505.5" style="fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">3</text>
+<text x="526.5" y="505.5" class="g35s40">log_softmax</text>
+<text y="521.5" xml:space="preserve" class="g35s14"><tspan x="503.5" class="g35s76" textLength="32.3" lengthAdjust="spacing">scores</tspan><tspan x="535.8" textLength="81.3" lengthAdjust="spacing"> → log-probabilities</tspan></text>
+<text x="503.5" y="535.5" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 4</text>
+<line x1="702.8" y1="512.5" x2="713.8" y2="512.5" class="g35s41"/>
+<path d="M718.8 512.5 L711.9 515.6 L711.9 509.4 Z" class="g35s42"/>
+<rect x="721.8" y="481.5" width="207.2" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s4);stroke-width:1.4"/>
+<path d="M722.88 486.20 A6.30 6.30 0 0 1 728.75 482.20 H922.00 A6.30 6.30 0 0 1 927.87 486.20 Z" class="g35s94"/>
+<rect x="730.8" y="493.5" width="19.0" height="16.0" rx="4" class="g35s95"/>
+<text x="740.2" y="505.5" style="fill:var(--s4);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">4</text>
+<text x="755.8" y="505.5" class="g35s40">pick the target</text>
+<text y="521.5" xml:space="preserve" class="g35s14"><tspan x="732.8" textLength="102.4" lengthAdjust="spacing">one number per position</tspan></text>
+<text x="732.8" y="535.5" style="fill:var(--s4);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 5</text>
+<line x1="932.0" y1="512.5" x2="943.0" y2="512.5" class="g35s41"/>
+<path d="M948.0 512.5 L941.2 515.6 L941.2 509.4 Z" class="g35s42"/>
+<rect x="951.0" y="481.5" width="207.2" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s5);stroke-width:1.4"/>
+<path d="M952.13 486.20 A6.30 6.30 0 0 1 958.00 482.20 H1151.25 A6.30 6.30 0 0 1 1157.12 486.20 Z" class="g35s96"/>
+<rect x="960.0" y="493.5" width="19.0" height="16.0" rx="4" class="g35s97"/>
+<text x="969.5" y="505.5" style="fill:var(--s5);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">5</text>
+<text x="985.0" y="505.5" class="g35s40">ignore_index</text>
+<text y="521.5" xml:space="preserve" class="g35s14"><tspan x="962.0" textLength="97.2" lengthAdjust="spacing">padded targets deleted</tspan></text>
+<text x="962.0" y="535.5" style="fill:var(--s5);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 6</text>
+<line x1="1161.2" y1="512.5" x2="1172.2" y2="512.5" class="g35s41"/>
+<path d="M1177.2 512.5 L1170.4 515.6 L1170.4 509.4 Z" class="g35s42"/>
+<rect x="1180.2" y="481.5" width="207.2" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s6);stroke-width:1.4"/>
+<path d="M1181.38 486.20 A6.30 6.30 0 0 1 1187.25 482.20 H1380.50 A6.30 6.30 0 0 1 1386.37 486.20 Z" class="g35s98"/>
+<rect x="1189.2" y="493.5" width="19.0" height="16.0" rx="4" class="g35s99"/>
+<text x="1198.8" y="505.5" style="fill:var(--s6);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">6</text>
+<text x="1214.2" y="505.5" class="g35s40">mean</text>
+<text y="521.5" xml:space="preserve" class="g35s14"><tspan x="1191.2" textLength="43.8" lengthAdjust="spacing">one scalar</tspan></text>
+<text x="1191.2" y="535.5" style="fill:var(--s6);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 7</text>
+<line x1="1390.5" y1="512.5" x2="1401.5" y2="512.5" class="g35s41"/>
+<path d="M1406.5 512.5 L1399.7 515.6 L1399.7 509.4 Z" class="g35s42"/>
+<rect x="1409.5" y="481.5" width="207.2" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s7);stroke-width:1.4"/>
+<path d="M1410.63 486.20 A6.30 6.30 0 0 1 1416.50 482.20 H1609.75 A6.30 6.30 0 0 1 1615.62 486.20 Z" class="g35s100"/>
+<rect x="1418.5" y="493.5" width="19.0" height="16.0" rx="4" class="g35s101"/>
+<text x="1428.0" y="505.5" style="fill:var(--s7);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">7</text>
+<text x="1443.5" y="505.5" class="g35s40">backward</text>
+<text y="521.5" xml:space="preserve" class="g35s14"><tspan x="1420.5" textLength="90.8" lengthAdjust="spacing">gradients everywhere</tspan></text>
+<text x="1420.5" y="535.5" style="fill:var(--s7);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 8</text>
+<line x1="1619.8" y1="512.5" x2="1630.8" y2="512.5" class="g35s41"/>
+<path d="M1635.8 512.5 L1628.9 515.6 L1628.9 509.4 Z" class="g35s42"/>
+<rect x="1638.8" y="481.5" width="207.2" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s8);stroke-width:1.4"/>
+<path d="M1639.88 486.20 A6.30 6.30 0 0 1 1645.75 482.20 H1839.00 A6.30 6.30 0 0 1 1844.87 486.20 Z" class="g35s102"/>
+<rect x="1647.8" y="493.5" width="19.0" height="16.0" rx="4" class="g35s103"/>
+<text x="1657.2" y="505.5" style="fill:var(--s8);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">8</text>
+<text x="1672.8" y="505.5" class="g35s40">Adam</text>
+<text y="521.5" xml:space="preserve" class="g35s14"><tspan x="1649.8" textLength="116.7" lengthAdjust="spacing">the weights actually change</tspan></text>
+<text x="1649.8" y="535.5" style="fill:var(--s8);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 9</text>
+<rect x="34.0" y="565.5" width="1812.0" height="30.0" rx="6" class="g35s43"/>
+<path d="M38.50 566.21 A5.50 5.50 0 0 0 34.50 571.50 V589.50 A5.50 5.50 0 0 0 38.50 594.79 Z" class="g35s48"/>
+<text y="585.5" xml:space="preserve" class="g35s59"><tspan x="50.0" class="g35s4" textLength="291.8" lengthAdjust="spacing">A · The call stack, with the tensors at every step</tspan></text>
+<text y="585.5" xml:space="preserve" class="g35s60"><tspan x="359.8" textLength="102.3" lengthAdjust="spacing">both sequences, all </tspan><tspan x="462.1" class="g35s0" textLength="65.0" lengthAdjust="spacing">12 positions</tspan><tspan x="527.1" textLength="95.9" lengthAdjust="spacing"> the loss is handed</tspan></text>
+<text y="613.5" xml:space="preserve" class="g35s44"><tspan x="38.0" class="g35s4" textLength="33.2" lengthAdjust="spacing">From </tspan><tspan x="71.2" class="g35s0" textLength="74.2" lengthAdjust="spacing">512 numbers</tspan><tspan x="145.4" class="g35s4" textLength="143.5" lengthAdjust="spacing"> to one scalar, line by line</tspan></text>
+<text y="631.5" xml:space="preserve" class="g35s22"><tspan x="38.0" class="g35s23" textLength="108.6" lengthAdjust="spacing">CrossEntropyLoss</tspan><tspan x="146.6" textLength="310.8" lengthAdjust="spacing"> looks like one call. It is four steps, and one of them — the </tspan><tspan x="457.5" class="g35s23" textLength="81.5" lengthAdjust="spacing">ignore_index</tspan><tspan x="539.0" textLength="422.2" lengthAdjust="spacing"> filter — is the reason sequence A contributes fewer positions than sequence B.</tspan></text>
+<rect x="34.0" y="652.9" width="1812.0" height="92.0" rx="8" class="g35s104"/>
+<path d="M38.50 654.27 A7.50 7.50 0 0 0 34.50 660.90 V736.90 A7.50 7.50 0 0 0 38.50 743.53 Z" class="g35s48"/>
+<text x="52.0" y="672.9" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">How to read a frame</text>
+<text y="672.9" xml:space="preserve" class="g35s77"><tspan x="187.8" textLength="184.6" lengthAdjust="spacing">every frame below has these six parts</tspan></text>
+<rect x="52.0" y="682.4" width="22.0" height="17.0" rx="4" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.22"/>
+<text x="63.0" y="694.9" class="g35s27">7</text>
+<text x="52.0" y="728.4" class="g35s30">the order this line ran, counting from the top of the page</text>
+<text x="350.7" y="694.9" style="fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:start">EncoderLayer.forward</text>
+<text x="350.7" y="728.4" class="g35s30">the function the line sits inside, as a traceback names it.</text>
+<text x="350.7" y="740.9" class="g35s30">&lt;module&gt; means no function at all</text>
+<text x="649.3" y="694.9" xml:space="preserve" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px"><tspan class="g35s3">x</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s53">self</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">norm1</tspan><tspan class="g35s2">(</tspan><tspan class="g35s3">x</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">+</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">.</tspan><tspan class="g35s2">.</tspan><tspan class="g35s2">.</tspan><tspan class="g35s2">)</tspan></text>
+<text x="649.3" y="728.4" class="g35s30">the line of Python that actually ran, in the order it ran</text>
+<text x="948.0" y="694.9" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start">the similarity table</text>
+<text x="948.0" y="728.4" class="g35s30">the note on the right edge — a plain-language name for what</text>
+<text x="948.0" y="740.9" class="g35s30">this line achieves. Only the frames that matter most carry one</text>
+<rect x="1246.7" y="681.9" width="89.0" height="18.0" rx="4" class="g35s18"/>
+<text x="1291.2" y="694.7" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">(2, 4, 7, 7)</text>
+<rect x="1341.7" y="681.9" width="95.2" height="18.0" rx="4" class="g35s55"/>
+<text x="1389.3" y="694.7" style="fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">torch.float32</text>
+<text x="1246.7" y="728.4" class="g35s30">the size of the tensor that line produced, and the kind of number</text>
+<text x="1246.7" y="740.9" class="g35s30">it holds</text>
+<rect x="1545.3" y="681.9" width="44.0" height="18.0" rx="4" class="g35s105"/>
+<text x="1567.3" y="694.9" style="fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ A</text>
+<rect x="1595.3" y="681.9" width="44.0" height="18.0" rx="4" class="g35s106"/>
+<text x="1617.3" y="694.9" style="fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ B</text>
+<text x="1545.3" y="728.4" class="g35s30">right of the dashed line: that tensor&#x27;s real values, both sentences</text>
+<text x="1545.3" y="740.9" class="g35s30">at once</text>
+<rect x="34.0" y="758.9" width="1812.0" height="182.0" rx="8" style="fill:var(--infobg);stroke:var(--s1);stroke-width:1.5"/>
+<path d="M39.75 760.01 A7.25 7.25 0 0 0 34.75 766.90 V932.90 A7.25 7.25 0 0 0 39.75 939.79 Z" class="g35s90"/>
+<rect x="44.0" y="768.4" width="22.0" height="17.0" rx="4" class="g35s91"/>
+<text x="55.0" y="780.9" class="g35s27">1</text>
+<text x="72.0" y="780.9" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">Transformer.decode</text>
+<text x="720.0" y="867.9" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18">01</text>
+<text x="72.0" y="798.9" xml:space="preserve" class="g35s32"><tspan class="g35s3">logits</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s53">self</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">linear</tspan><tspan class="g35s2">(</tspan><tspan class="g35s3">x</tspan><tspan class="g35s2">)</tspan></text>
+<text y="820.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="346.4" lengthAdjust="spacing">The first line in the whole model that commits to actual words. Each </tspan><tspan x="418.4" class="g35s0" textLength="65.7" lengthAdjust="spacing">512-number</tspan><tspan x="484.1" textLength="168.1" lengthAdjust="spacing"> decoder output is multiplied by a</tspan></text>
+<text y="836.9" xml:space="preserve" class="g35s7"><tspan x="72.0" class="g35s0" textLength="108.3" lengthAdjust="spacing">12,917 × 512 matrix</tspan><tspan x="180.3" textLength="184.6" lengthAdjust="spacing">, giving one raw score (a &quot;logit&quot;) per </tspan><tspan x="364.8" class="g35s13" textLength="65.1" lengthAdjust="spacing">vocabulary</tspan><tspan x="429.9" textLength="117.6" lengthAdjust="spacing"> entry. That matrix has </tspan><tspan x="547.5" class="g35s0" textLength="119.3" lengthAdjust="spacing">6,626,421 parameters</tspan><tspan x="666.8" textLength="33.9" lengthAdjust="spacing"> — the</tspan></text>
+<text y="852.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="423.8" lengthAdjust="spacing">largest single matrix in the model, bigger than all the attention blocks together. The </tspan><tspan x="495.8" class="g35s13" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="534.8" textLength="174.5" lengthAdjust="spacing"> are left unnormalised on purpose:</tspan></text>
+<text y="868.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="125.9" lengthAdjust="spacing">the loss function applies </tspan><tspan x="197.9" class="g35s13" textLength="45.6" lengthAdjust="spacing">softmax</tspan><tspan x="243.5" textLength="168.7" lengthAdjust="spacing"> itself, in a numerically safer way.</tspan></text>
+<rect x="72.0" y="876.9" width="105.9" height="18.0" rx="4" class="g35s18"/>
+<text x="124.9" y="889.7" class="g35s61">(2, 6, 12,917)</text>
+<rect x="184.9" y="876.9" width="99.3" height="18.0" rx="4" class="g35s55"/>
+<text x="234.5" y="889.7" class="g35s62">torch.float32</text>
+<line x1="736.0" y1="768.9" x2="736.0" y2="930.9" class="g35s33"/>
+<rect x="750.0" y="772.9" width="531.0" height="17.0" rx="4" class="g35s63"/>
+<text x="757.0" y="785.4" class="g35s64">SEQ A</text>
+<text y="785.4" xml:space="preserve" class="g35s14"><tspan x="798.0" class="g35s76" textLength="32.3" lengthAdjust="spacing">logits</tspan><tspan x="830.3" textLength="66.5" lengthAdjust="spacing"> — a few of the </tspan><tspan x="896.8" class="g35s0" textLength="71.1" lengthAdjust="spacing">12,917 columns</tspan><tspan x="967.9" textLength="172.4" lengthAdjust="spacing">; the highlighted cell is this row&#x27;s target id</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s5"><tspan x="855.7" class="g35s0" textLength="14.5" lengthAdjust="spacing">id 0</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s5"><tspan x="909.7" class="g35s0" textLength="14.5" lengthAdjust="spacing">id 1</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s5"><tspan x="978.2" class="g35s0" textLength="29.6" lengthAdjust="spacing">id 3380</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s5"><tspan x="1032.2" class="g35s0" textLength="29.6" lengthAdjust="spacing">id 9953</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s5"><tspan x="1105.7" class="g35s0" textLength="34.6" lengthAdjust="spacing">id 12916</tspan></text>
+<rect x="836.0" y="808.9" width="314.0" height="120.0" rx="3" class="g35s18"/>
+<text y="822.5" xml:space="preserve" class="g35s12"><tspan x="795.7" class="g35s0">0</tspan><tspan x="801.0" textLength="29.0" lengthAdjust="spacing"> → dog</tspan></text>
+<rect x="836.6" y="809.5" width="52.8" height="18.8" rx="0" class="g35s107"/>
+<text x="863.0" y="822.5" class="g35s9">-0.205</text>
+<rect x="890.6" y="809.5" width="52.8" height="18.8" rx="0" class="g35s107"/>
+<text x="917.0" y="822.5" class="g35s9">-0.203</text>
+<text x="955.0" y="822.5" class="g35s10">⋯</text>
+<rect x="966.6" y="809.5" width="52.8" height="18.8" rx="0" class="g35s15"/>
+<text x="993.0" y="822.5" class="g35s56">-0.164</text>
+<rect x="1020.6" y="809.5" width="52.8" height="18.8" rx="0" class="g35s108"/>
+<text x="1047.0" y="822.5" class="g35s9">-0.274</text>
+<text x="1085.0" y="822.5" class="g35s10">⋯</text>
+<rect x="1096.6" y="809.5" width="52.8" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.067"/>
+<text x="1123.0" y="822.5" class="g35s9">0.201</text>
+<text y="842.5" xml:space="preserve" class="g35s12"><tspan x="783.7" class="g35s0">1</tspan><tspan x="789.0" textLength="41.0" lengthAdjust="spacing"> → resting</tspan></text>
+<rect x="836.6" y="829.5" width="52.8" height="18.8" rx="0" class="g35s78"/>
+<text x="863.0" y="842.5" class="g35s9">-0.295</text>
+<text x="917.0" y="842.5" class="g35s9">-0.083</text>
+<text x="955.0" y="842.5" class="g35s10">⋯</text>
+<text x="993.0" y="842.5" class="g35s9">-0.090</text>
+<rect x="1020.6" y="829.5" width="52.8" height="18.8" rx="0" class="g35s15"/>
+<text x="1047.0" y="842.5" class="g35s56">-0.346</text>
+<text x="1085.0" y="842.5" class="g35s10">⋯</text>
+<text x="1123.0" y="842.5" class="g35s9">0.125</text>
+<text y="862.5" xml:space="preserve" class="g35s12"><tspan x="780.2" class="g35s0">2</tspan><tspan x="785.5"> → </tspan><tspan x="802.0" class="g35s109" textLength="25.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<text x="863.0" y="862.5" class="g35s9">-0.002</text>
+<rect x="890.6" y="849.5" width="52.8" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.087"/>
+<text x="917.0" y="862.5" class="g35s9">0.449</text>
+<text x="955.0" y="862.5" class="g35s10">⋯</text>
+<text x="993.0" y="862.5" class="g35s9">-0.116</text>
+<rect x="1020.6" y="849.5" width="52.8" height="18.8" rx="0" class="g35s79"/>
+<text x="1047.0" y="862.5" class="g35s9">-0.216</text>
+<text x="1085.0" y="862.5" class="g35s10">⋯</text>
+<rect x="1096.6" y="849.5" width="52.8" height="18.8" rx="0" class="g35s110"/>
+<text x="1123.0" y="862.5" class="g35s9">0.391</text>
+<text y="882.5" xml:space="preserve" class="g35s12"><tspan x="780.2" class="g35s0">3</tspan><tspan x="785.5"> → </tspan><tspan x="802.0" class="g35s80" textLength="25.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<rect x="836.6" y="869.5" width="52.8" height="18.8" rx="0" class="g35s15"/>
+<text x="863.0" y="882.5" class="g35s56">-0.059</text>
+<rect x="890.6" y="869.5" width="52.8" height="18.8" rx="0" class="g35s111"/>
+<text x="917.0" y="882.5" class="g35s9">0.338</text>
+<text x="955.0" y="882.5" class="g35s10">⋯</text>
+<rect x="966.6" y="869.5" width="52.8" height="18.8" rx="0" class="g35s112"/>
+<text x="993.0" y="882.5" class="g35s9">-0.233</text>
+<rect x="1020.6" y="869.5" width="52.8" height="18.8" rx="0" class="g35s78"/>
+<text x="1047.0" y="882.5" class="g35s9">-0.303</text>
+<text x="1085.0" y="882.5" class="g35s10">⋯</text>
+<text x="1123.0" y="882.5" class="g35s9">0.008</text>
+<text y="902.5" xml:space="preserve" class="g35s12"><tspan x="780.2" class="g35s0">4</tspan><tspan x="785.5"> → </tspan><tspan x="802.0" class="g35s80" textLength="25.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<rect x="836.6" y="889.5" width="52.8" height="18.8" rx="0" class="g35s15"/>
+<text x="863.0" y="902.5" class="g35s56">-0.159</text>
+<text x="917.0" y="902.5" class="g35s9">0.062</text>
+<text x="955.0" y="902.5" class="g35s10">⋯</text>
+<text x="993.0" y="902.5" class="g35s9">0.112</text>
+<rect x="1020.6" y="889.5" width="52.8" height="18.8" rx="0" class="g35s112"/>
+<text x="1047.0" y="902.5" class="g35s9">-0.230</text>
+<text x="1085.0" y="902.5" class="g35s10">⋯</text>
+<rect x="1096.6" y="889.5" width="52.8" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.066"/>
+<text x="1123.0" y="902.5" class="g35s9">0.198</text>
+<text y="922.5" xml:space="preserve" class="g35s12"><tspan x="780.2" class="g35s0">5</tspan><tspan x="785.5"> → </tspan><tspan x="802.0" class="g35s80" textLength="25.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<rect x="836.6" y="909.5" width="52.8" height="18.8" rx="0" class="g35s15"/>
+<text x="863.0" y="922.5" class="g35s56">-0.197</text>
+<text x="917.0" y="922.5" class="g35s9">0.038</text>
+<text x="955.0" y="922.5" class="g35s10">⋯</text>
+<rect x="966.6" y="909.5" width="52.8" height="18.8" rx="0" class="g35s113"/>
+<text x="993.0" y="922.5" class="g35s9">-0.254</text>
+<rect x="1020.6" y="909.5" width="52.8" height="18.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.078"/>
+<text x="1047.0" y="922.5" class="g35s9">-0.341</text>
+<text x="1085.0" y="922.5" class="g35s10">⋯</text>
+<rect x="1096.6" y="909.5" width="52.8" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.08"/>
+<text x="1123.0" y="922.5" class="g35s9">0.359</text>
+<line x1="890.0" y1="808.9" x2="890.0" y2="928.9" class="g35s1"/>
+<line x1="944.0" y1="808.9" x2="944.0" y2="928.9" class="g35s1"/>
+<line x1="966.0" y1="808.9" x2="966.0" y2="928.9" class="g35s1"/>
+<line x1="1020.0" y1="808.9" x2="1020.0" y2="928.9" class="g35s1"/>
+<line x1="1074.0" y1="808.9" x2="1074.0" y2="928.9" class="g35s1"/>
+<line x1="1096.0" y1="808.9" x2="1096.0" y2="928.9" class="g35s1"/>
+<line x1="836.0" y1="828.9" x2="1150.0" y2="828.9" class="g35s1"/>
+<line x1="836.0" y1="848.9" x2="1150.0" y2="848.9" class="g35s1"/>
+<line x1="836.0" y1="868.9" x2="1150.0" y2="868.9" class="g35s1"/>
+<line x1="836.0" y1="888.9" x2="1150.0" y2="888.9" class="g35s1"/>
+<line x1="836.0" y1="908.9" x2="1150.0" y2="908.9" class="g35s1"/>
+<rect x="836.0" y="808.9" width="314.0" height="120.0" rx="3" class="g35s28"/>
+<rect x="1301.0" y="772.9" width="531.0" height="17.0" rx="4" class="g35s65"/>
+<text x="1308.0" y="785.4" class="g35s66">SEQ B</text>
+<text y="785.4" xml:space="preserve" class="g35s14"><tspan x="1349.0" class="g35s76" textLength="32.3" lengthAdjust="spacing">logits</tspan><tspan x="1381.3" textLength="66.5" lengthAdjust="spacing"> — a few of the </tspan><tspan x="1447.8" class="g35s0" textLength="71.1" lengthAdjust="spacing">12,917 columns</tspan><tspan x="1518.9" textLength="172.4" lengthAdjust="spacing">; the highlighted cell is this row&#x27;s target id</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s45"><tspan x="1404.7" class="g35s0" textLength="14.1" lengthAdjust="spacing">id 0</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s45"><tspan x="1454.1" class="g35s0" textLength="14.1" lengthAdjust="spacing">id 1</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s45"><tspan x="1518.3" class="g35s0" textLength="28.7" lengthAdjust="spacing">id 1928</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s45"><tspan x="1567.7" class="g35s0" textLength="28.7" lengthAdjust="spacing">id 6274</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s45"><tspan x="1617.2" class="g35s0" textLength="28.7" lengthAdjust="spacing">id 8722</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s45"><tspan x="1664.2" class="g35s0" textLength="33.5" lengthAdjust="spacing">id 10697</tspan></text>
+<text y="802.9" xml:space="preserve" class="g35s45"><tspan x="1735.6" class="g35s0" textLength="33.5" lengthAdjust="spacing">id 12916</tspan></text>
+<rect x="1387.0" y="808.9" width="390.1" height="120.0" rx="3" class="g35s18"/>
+<text y="822.5" xml:space="preserve" class="g35s12"><tspan x="1349.2" class="g35s0">0</tspan><tspan x="1354.5" textLength="26.5" lengthAdjust="spacing"> → the</tspan></text>
+<rect x="1387.6" y="809.5" width="48.2" height="18.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.087"/>
+<text x="1411.7" y="822.5" class="g35s6">-0.448</text>
+<rect x="1437.0" y="809.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.072"/>
+<text x="1461.2" y="822.5" class="g35s6">0.260</text>
+<text x="1496.9" y="822.5" class="g35s10">⋯</text>
+<text x="1532.6" y="822.5" class="g35s6">0.100</text>
+<rect x="1557.9" y="809.5" width="48.2" height="18.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.083"/>
+<text x="1582.1" y="822.5" class="g35s6">-0.392</text>
+<text x="1631.5" y="822.5" class="g35s6">-0.022</text>
+<rect x="1656.8" y="809.5" width="48.2" height="18.8" rx="0" class="g35s78"/>
+<text x="1680.9" y="822.5" class="g35s6">-0.297</text>
+<text x="1716.7" y="822.5" class="g35s10">⋯</text>
+<rect x="1728.3" y="809.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.086"/>
+<text x="1752.4" y="822.5" class="g35s6">0.430</text>
+<text y="842.5" xml:space="preserve" class="g35s12"><tspan x="1349.7" class="g35s0">1</tspan><tspan x="1355.0" textLength="26.0" lengthAdjust="spacing"> → cat</tspan></text>
+<rect x="1387.6" y="829.5" width="48.2" height="18.8" rx="0" class="g35s79"/>
+<text x="1411.7" y="842.5" class="g35s6">-0.218</text>
+<rect x="1437.0" y="829.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.075"/>
+<text x="1461.2" y="842.5" class="g35s6">0.304</text>
+<text x="1496.9" y="842.5" class="g35s10">⋯</text>
+<rect x="1508.5" y="829.5" width="48.2" height="18.8" rx="0" class="g35s15"/>
+<text x="1532.6" y="842.5" class="g35s67">0.165</text>
+<rect x="1557.9" y="829.5" width="48.2" height="18.8" rx="0" class="g35s79"/>
+<text x="1582.1" y="842.5" class="g35s6">-0.219</text>
+<rect x="1607.4" y="829.5" width="48.2" height="18.8" rx="0" class="g35s114"/>
+<text x="1631.5" y="842.5" class="g35s6">-0.197</text>
+<rect x="1656.8" y="829.5" width="48.2" height="18.8" rx="0" class="g35s114"/>
+<text x="1680.9" y="842.5" class="g35s6">-0.194</text>
+<text x="1716.7" y="842.5" class="g35s10">⋯</text>
+<rect x="1728.3" y="829.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.077"/>
+<text x="1752.4" y="842.5" class="g35s6">0.319</text>
+<text y="862.5" xml:space="preserve" class="g35s12"><tspan x="1355.2" class="g35s0">2</tspan><tspan x="1360.5" textLength="20.5" lengthAdjust="spacing"> → is</tspan></text>
+<text x="1411.7" y="862.5" class="g35s6">0.017</text>
+<rect x="1437.0" y="849.5" width="48.2" height="18.8" rx="0" class="g35s111"/>
+<text x="1461.2" y="862.5" class="g35s6">0.331</text>
+<text x="1496.9" y="862.5" class="g35s10">⋯</text>
+<text x="1532.6" y="862.5" class="g35s6">0.031</text>
+<rect x="1557.9" y="849.5" width="48.2" height="18.8" rx="0" class="g35s15"/>
+<text x="1582.1" y="862.5" class="g35s67">-0.320</text>
+<text x="1631.5" y="862.5" class="g35s6">0.128</text>
+<text x="1680.9" y="862.5" class="g35s6">-0.126</text>
+<text x="1716.7" y="862.5" class="g35s10">⋯</text>
+<text x="1752.4" y="862.5" class="g35s6">0.160</text>
+<text y="882.5" xml:space="preserve" class="g35s12"><tspan x="1328.2" class="g35s0">3</tspan><tspan x="1333.5" textLength="47.5" lengthAdjust="spacing"> → sleeping</tspan></text>
+<rect x="1387.6" y="869.5" width="48.2" height="18.8" rx="0" class="g35s113"/>
+<text x="1411.7" y="882.5" class="g35s6">-0.254</text>
+<rect x="1437.0" y="869.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.07"/>
+<text x="1461.2" y="882.5" class="g35s6">0.243</text>
+<text x="1496.9" y="882.5" class="g35s10">⋯</text>
+<rect x="1508.5" y="869.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.076"/>
+<text x="1532.6" y="882.5" class="g35s6">0.307</text>
+<text x="1582.1" y="882.5" class="g35s6">-0.059</text>
+<text x="1631.5" y="882.5" class="g35s6">0.091</text>
+<rect x="1656.8" y="869.5" width="48.2" height="18.8" rx="0" class="g35s15"/>
+<text x="1680.9" y="882.5" class="g35s67">-0.044</text>
+<text x="1716.7" y="882.5" class="g35s10">⋯</text>
+<rect x="1728.3" y="869.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.082"/>
+<text x="1752.4" y="882.5" class="g35s6">0.382</text>
+<text y="902.5" xml:space="preserve" class="g35s12"><tspan x="1321.2" class="g35s0">4</tspan><tspan x="1326.5" textLength="54.5" lengthAdjust="spacing"> → peacefully</tspan></text>
+<text x="1411.7" y="902.5" class="g35s6">0.040</text>
+<rect x="1437.0" y="889.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.081"/>
+<text x="1461.2" y="902.5" class="g35s6">0.376</text>
+<text x="1496.9" y="902.5" class="g35s10">⋯</text>
+<rect x="1508.5" y="889.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.069"/>
+<text x="1532.6" y="902.5" class="g35s6">0.224</text>
+<rect x="1557.9" y="889.5" width="48.2" height="18.8" rx="0" class="g35s108"/>
+<text x="1582.1" y="902.5" class="g35s6">-0.272</text>
+<rect x="1607.4" y="889.5" width="48.2" height="18.8" rx="0" class="g35s15"/>
+<text x="1631.5" y="902.5" class="g35s67">0.019</text>
+<text x="1680.9" y="902.5" class="g35s6">0.060</text>
+<text x="1716.7" y="902.5" class="g35s10">⋯</text>
+<text x="1752.4" y="902.5" class="g35s6">0.069</text>
+<text y="922.5" xml:space="preserve" class="g35s12"><tspan x="1331.2" class="g35s0">5</tspan><tspan x="1336.5"> → </tspan><tspan x="1353.0" class="g35s109" textLength="25.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<rect x="1387.6" y="909.5" width="48.2" height="18.8" rx="0" class="g35s115"/>
+<text x="1411.7" y="922.5" class="g35s6">-0.236</text>
+<rect x="1437.0" y="909.5" width="48.2" height="18.8" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.071"/>
+<text x="1461.2" y="922.5" class="g35s6">0.251</text>
+<text x="1496.9" y="922.5" class="g35s10">⋯</text>
+<text x="1532.6" y="922.5" class="g35s6">0.092</text>
+<rect x="1557.9" y="909.5" width="48.2" height="18.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.085"/>
+<text x="1582.1" y="922.5" class="g35s6">-0.418</text>
+<rect x="1607.4" y="909.5" width="48.2" height="18.8" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.081"/>
+<text x="1631.5" y="922.5" class="g35s6">-0.373</text>
+<rect x="1656.8" y="909.5" width="48.2" height="18.8" rx="0" class="g35s115"/>
+<text x="1680.9" y="922.5" class="g35s6">-0.239</text>
+<text x="1716.7" y="922.5" class="g35s10">⋯</text>
+<rect x="1728.3" y="909.5" width="48.2" height="18.8" rx="0" class="g35s110"/>
+<text x="1752.4" y="922.5" class="g35s6">0.392</text>
+<line x1="1436.4" y1="808.9" x2="1436.4" y2="928.9" class="g35s1"/>
+<line x1="1485.9" y1="808.9" x2="1485.9" y2="928.9" class="g35s1"/>
+<line x1="1507.9" y1="808.9" x2="1507.9" y2="928.9" class="g35s1"/>
+<line x1="1557.3" y1="808.9" x2="1557.3" y2="928.9" class="g35s1"/>
+<line x1="1606.8" y1="808.9" x2="1606.8" y2="928.9" class="g35s1"/>
+<line x1="1656.2" y1="808.9" x2="1656.2" y2="928.9" class="g35s1"/>
+<line x1="1705.7" y1="808.9" x2="1705.7" y2="928.9" class="g35s1"/>
+<line x1="1727.7" y1="808.9" x2="1727.7" y2="928.9" class="g35s1"/>
+<line x1="1387.0" y1="828.9" x2="1777.1" y2="828.9" class="g35s1"/>
+<line x1="1387.0" y1="848.9" x2="1777.1" y2="848.9" class="g35s1"/>
+<line x1="1387.0" y1="868.9" x2="1777.1" y2="868.9" class="g35s1"/>
+<line x1="1387.0" y1="888.9" x2="1777.1" y2="888.9" class="g35s1"/>
+<line x1="1387.0" y1="908.9" x2="1777.1" y2="908.9" class="g35s1"/>
+<rect x="1387.0" y="808.9" width="390.1" height="120.0" rx="3" class="g35s28"/>
+<rect x="34.0" y="950.9" width="1812.0" height="146.0" rx="8" class="g35s49"/>
+<path d="M39.55 951.86 A7.45 7.45 0 0 0 34.55 958.90 V1088.90 A7.45 7.45 0 0 0 39.55 1095.94 Z" class="g35s74"/>
+<rect x="44.0" y="960.4" width="22.0" height="17.0" rx="4" class="g35s75"/>
+<text x="55.0" y="972.9" class="g35s27">2</text>
+<text x="72.0" y="972.9" class="g35s116">training loop</text>
+<text x="720.0" y="1041.9" class="g35s117">02</text>
+<text x="72.0" y="990.9" xml:space="preserve" class="g35s32"><tspan class="g35s3">logits</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">reshape</tspan><tspan class="g35s2">(</tspan><tspan class="g35s2">-</tspan><tspan class="g35s54">1</tspan><tspan class="g35s2">,</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">VOCAB_SIZE</tspan><tspan class="g35s2">)</tspan></text>
+<text y="1012.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="295.3" lengthAdjust="spacing">The batch axis and the position axis are merged into one. </tspan><tspan x="367.3" class="g35s0" textLength="34.5" lengthAdjust="spacing">Row 0</tspan><tspan x="401.9" textLength="78.6" lengthAdjust="spacing"> is sequence A </tspan><tspan x="480.5" class="g35s0" textLength="52.2" lengthAdjust="spacing">position 0</tspan><tspan x="532.7">, </tspan><tspan x="539.1" class="g35s0" textLength="29.8" lengthAdjust="spacing">row 5</tspan><tspan x="568.9" textLength="78.6" lengthAdjust="spacing"> is sequence A </tspan><tspan x="647.5" class="g35s0" textLength="52.2" lengthAdjust="spacing">position 5</tspan><tspan x="699.7">,</tspan></text>
+<text y="1028.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="22.4" lengthAdjust="spacing">and </tspan><tspan x="94.4" class="g35s0" textLength="29.8" lengthAdjust="spacing">row 6</tspan><tspan x="124.2" textLength="78.6" lengthAdjust="spacing"> is sequence B </tspan><tspan x="202.8" class="g35s0" textLength="52.2" lengthAdjust="spacing">position 0</tspan><tspan x="255.0" textLength="457.6" lengthAdjust="spacing">. From here on nothing knows which sentence a row came from, or that sentences exist at</tspan></text>
+<text y="1044.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="251.2" lengthAdjust="spacing">all — which is why padding has to be handled by </tspan><tspan x="323.2" class="g35s13" textLength="78.1" lengthAdjust="spacing">ignore_index</tspan><tspan x="401.3" textLength="203.3" lengthAdjust="spacing"> rather than by any sentence-level logic.</tspan></text>
+<rect x="72.0" y="1052.9" width="92.8" height="18.0" rx="4" class="g35s18"/>
+<text x="118.4" y="1065.7" class="g35s61">(12, 12,917)</text>
+<rect x="171.8" y="1052.9" width="99.3" height="18.0" rx="4" class="g35s55"/>
+<text x="221.4" y="1065.7" class="g35s62">torch.float32</text>
+<line x1="736.0" y1="960.9" x2="736.0" y2="1086.9" class="g35s33"/>
+<rect x="750.0" y="964.9" width="1082.0" height="17.0" rx="4" class="g35s81"/>
+<text x="757.0" y="977.4" class="g35s82">BOTH SEQUENCES</text>
+<text y="977.4" xml:space="preserve" class="g35s14"><tspan x="868.8" class="g35s0" textLength="11.2" lengthAdjust="spacing">12</tspan><tspan x="880.0" textLength="153.1" lengthAdjust="spacing"> independent classification problems</tspan></text>
+<text y="994.9" xml:space="preserve" class="g35s5"><tspan x="922.3" textLength="27.4" lengthAdjust="spacing">flat row</tspan></text>
+<text y="994.9" xml:space="preserve" class="g35s5"><tspan x="1115.9" textLength="40.1" lengthAdjust="spacing">came from</tspan></text>
+<text y="994.9" xml:space="preserve" class="g35s5"><tspan x="1330.3" textLength="11.3" lengthAdjust="spacing">job</tspan></text>
+<rect x="836.0" y="1000.9" width="600.0" height="84.0" rx="3" class="g35s18"/>
+<rect x="836.6" y="1001.5" width="198.8" height="19.8" rx="0" class="g35s16"/>
+<text y="1015.2" xml:space="preserve" class="g35s46"><tspan x="923.0" class="g35s4" textLength="25.9" lengthAdjust="spacing">row 0</tspan></text>
+<text y="1015.2" xml:space="preserve" class="g35s24"><tspan x="1097.3" class="g35s68" textLength="17.0" lengthAdjust="spacing">seq</tspan><tspan x="1114.3" textLength="15.0" lengthAdjust="spacing"> A, </tspan><tspan x="1129.3" class="g35s0" textLength="45.4" lengthAdjust="spacing">position 0</tspan></text>
+<text y="1015.2" xml:space="preserve" class="g35s24"><tspan x="1305.2" textLength="61.6" lengthAdjust="spacing">predicts &quot;dog&quot;</tspan></text>
+<rect x="836.6" y="1022.5" width="198.8" height="19.8" rx="0" class="g35s16"/>
+<text y="1036.2" xml:space="preserve" class="g35s46"><tspan x="923.0" class="g35s4" textLength="25.9" lengthAdjust="spacing">row 5</tspan></text>
+<text y="1036.2" xml:space="preserve" class="g35s24"><tspan x="1097.3" class="g35s68" textLength="17.0" lengthAdjust="spacing">seq</tspan><tspan x="1114.3" textLength="15.0" lengthAdjust="spacing"> A, </tspan><tspan x="1129.3" class="g35s0" textLength="45.4" lengthAdjust="spacing">position 5</tspan></text>
+<text y="1036.2" xml:space="preserve" class="g35s24"><tspan x="1296.9" textLength="41.3" lengthAdjust="spacing">predicts &quot;</tspan><tspan x="1340.7" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.4px;font-weight:600;fill:var(--pad)" textLength="28.3" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="1371.5">&quot;</tspan></text>
+<rect x="836.6" y="1043.5" width="198.8" height="19.8" rx="0" class="g35s16"/>
+<text y="1057.2" xml:space="preserve" class="g35s46"><tspan x="923.0" class="g35s4" textLength="25.9" lengthAdjust="spacing">row 6</tspan></text>
+<text y="1057.2" xml:space="preserve" class="g35s24"><tspan x="1097.3" class="g35s68" textLength="17.0" lengthAdjust="spacing">seq</tspan><tspan x="1114.3" textLength="15.0" lengthAdjust="spacing"> B, </tspan><tspan x="1129.3" class="g35s0" textLength="45.4" lengthAdjust="spacing">position 0</tspan></text>
+<text y="1057.2" xml:space="preserve" class="g35s24"><tspan x="1306.6" textLength="58.8" lengthAdjust="spacing">predicts &quot;the&quot;</tspan></text>
+<rect x="836.6" y="1064.5" width="198.8" height="19.8" rx="0" class="g35s16"/>
+<text y="1078.2" xml:space="preserve" class="g35s46"><tspan x="920.1" class="g35s4" textLength="31.8" lengthAdjust="spacing">row 11</tspan></text>
+<text y="1078.2" xml:space="preserve" class="g35s24"><tspan x="1097.3" class="g35s68" textLength="17.0" lengthAdjust="spacing">seq</tspan><tspan x="1114.3" textLength="15.0" lengthAdjust="spacing"> B, </tspan><tspan x="1129.3" class="g35s0" textLength="45.4" lengthAdjust="spacing">position 5</tspan></text>
+<text y="1078.2" xml:space="preserve" class="g35s24"><tspan x="1296.9" textLength="41.3" lengthAdjust="spacing">predicts &quot;</tspan><tspan x="1340.7" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.4px;font-weight:600;fill:var(--accent)" textLength="28.3" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="1371.5">&quot;</tspan></text>
+<line x1="1036.0" y1="1000.9" x2="1036.0" y2="1084.9" class="g35s1"/>
+<line x1="1236.0" y1="1000.9" x2="1236.0" y2="1084.9" class="g35s1"/>
+<line x1="836.0" y1="1021.9" x2="1436.0" y2="1021.9" class="g35s1"/>
+<line x1="836.0" y1="1042.9" x2="1436.0" y2="1042.9" class="g35s1"/>
+<line x1="836.0" y1="1063.9" x2="1436.0" y2="1063.9" class="g35s1"/>
+<rect x="836.0" y="1000.9" width="600.0" height="84.0" rx="3" class="g35s28"/>
+<rect x="34.0" y="1106.9" width="1812.0" height="121.0" rx="8" class="g35s49"/>
+<path d="M39.55 1107.86 A7.45 7.45 0 0 0 34.55 1114.90 V1219.90 A7.45 7.45 0 0 0 39.55 1226.94 Z" class="g35s74"/>
+<rect x="44.0" y="1116.4" width="22.0" height="17.0" rx="4" class="g35s75"/>
+<text x="55.0" y="1128.9" class="g35s27">3</text>
+<text x="72.0" y="1128.9" class="g35s116">training loop</text>
+<text x="720.0" y="1185.4" class="g35s117">03</text>
+<text x="72.0" y="1146.9" xml:space="preserve" class="g35s32"><tspan class="g35s3">expected</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">reshape</tspan><tspan class="g35s2">(</tspan><tspan class="g35s2">-</tspan><tspan class="g35s54">1</tspan><tspan class="g35s2">)</tspan></text>
+<text y="1168.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="443.6" lengthAdjust="spacing">The correct answers, flattened the same way — one token id per row, lined up with the </tspan><tspan x="515.6" class="g35s13" textLength="39.0" lengthAdjust="spacing">logits</tspan><tspan x="554.6" textLength="163.0" lengthAdjust="spacing"> above. Sequence A contributes</tspan></text>
+<rect x="182.7" y="1174.6" width="37.5" height="14.0" rx="3" class="g35s69"/>
+<text y="1184.9" xml:space="preserve" class="g35s7"><tspan x="72.0" class="g35s0">3</tspan><tspan x="78.8" textLength="94.0" lengthAdjust="spacing"> real answers and </tspan><tspan x="172.7" class="g35s0">3</tspan><tspan x="179.5"> </tspan><tspan x="185.2" class="g35s83" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="220.2" textLength="283.2" lengthAdjust="spacing">s, because its target is shorter; sequence B contributes </tspan><tspan x="503.4" class="g35s0">6</tspan><tspan x="510.2" textLength="53.7" lengthAdjust="spacing"> real ones.</tspan></text>
+<rect x="72.0" y="1192.9" width="46.8" height="18.0" rx="4" class="g35s18"/>
+<text x="95.4" y="1205.7" class="g35s61">(12,)</text>
+<rect x="125.8" y="1192.9" width="86.2" height="18.0" rx="4" class="g35s55"/>
+<text x="168.9" y="1205.7" class="g35s62">torch.int64</text>
+<line x1="736.0" y1="1116.9" x2="736.0" y2="1217.9" class="g35s33"/>
+<rect x="750.0" y="1120.9" width="531.0" height="17.0" rx="4" class="g35s63"/>
+<text x="757.0" y="1133.4" class="g35s64">SEQ A</text>
+<text y="1133.4" xml:space="preserve" class="g35s14"><tspan x="798.0" textLength="138.9" lengthAdjust="spacing">what each position must produce</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="859.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="875.5" class="g35s0">0</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="927.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="943.5" class="g35s0">1</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="995.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1011.5" class="g35s0">2</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="1063.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1079.5" class="g35s0">3</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="1131.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1147.5" class="g35s0">4</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="1199.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1215.5" class="g35s0">5</tspan></text>
+<rect x="836.0" y="1156.9" width="408.0" height="20.0" rx="3" class="g35s18"/>
+<text y="1170.5" xml:space="preserve" class="g35s12"><tspan x="802.5" textLength="27.5" lengthAdjust="spacing">targets</tspan></text>
+<rect x="836.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s84"/>
+<text x="870.0" y="1170.5" class="g35s9">dog</text>
+<rect x="904.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s84"/>
+<text x="938.0" y="1170.5" class="g35s9">resting</text>
+<rect x="972.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s84"/>
+<text x="1006.0" y="1170.5" class="g35s9">&lt;EOS&gt;</text>
+<rect x="1040.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s25"/>
+<text x="1074.0" y="1170.5" class="g35s85">&lt;PAD&gt;</text>
+<rect x="1108.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s25"/>
+<text x="1142.0" y="1170.5" class="g35s85">&lt;PAD&gt;</text>
+<rect x="1176.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s25"/>
+<text x="1210.0" y="1170.5" class="g35s85">&lt;PAD&gt;</text>
+<line x1="904.0" y1="1156.9" x2="904.0" y2="1176.9" class="g35s1"/>
+<line x1="972.0" y1="1156.9" x2="972.0" y2="1176.9" class="g35s1"/>
+<line x1="1040.0" y1="1156.9" x2="1040.0" y2="1176.9" class="g35s1"/>
+<line x1="1108.0" y1="1156.9" x2="1108.0" y2="1176.9" class="g35s1"/>
+<line x1="1176.0" y1="1156.9" x2="1176.0" y2="1176.9" class="g35s1"/>
+<rect x="836.0" y="1156.9" width="408.0" height="20.0" rx="3" class="g35s28"/>
+<rect x="1301.0" y="1120.9" width="531.0" height="17.0" rx="4" class="g35s65"/>
+<text x="1308.0" y="1133.4" class="g35s66">SEQ B</text>
+<text y="1133.4" xml:space="preserve" class="g35s14"><tspan x="1349.0" textLength="138.9" lengthAdjust="spacing">what each position must produce</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="1410.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1426.5" class="g35s0">0</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="1478.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1494.5" class="g35s0">1</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="1546.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1562.5" class="g35s0">2</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="1614.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1630.5" class="g35s0">3</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="1682.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1698.5" class="g35s0">4</tspan></text>
+<text y="1150.9" xml:space="preserve" class="g35s5"><tspan x="1750.5" textLength="16.1" lengthAdjust="spacing">pos </tspan><tspan x="1766.5" class="g35s0">5</tspan></text>
+<rect x="1387.0" y="1156.9" width="408.0" height="20.0" rx="3" class="g35s18"/>
+<text y="1170.5" xml:space="preserve" class="g35s12"><tspan x="1353.5" textLength="27.5" lengthAdjust="spacing">targets</tspan></text>
+<rect x="1387.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s50"/>
+<text x="1421.0" y="1170.5" class="g35s9">the</text>
+<rect x="1455.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s50"/>
+<text x="1489.0" y="1170.5" class="g35s9">cat</text>
+<rect x="1523.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s50"/>
+<text x="1557.0" y="1170.5" class="g35s9">is</text>
+<rect x="1591.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s50"/>
+<text x="1625.0" y="1170.5" class="g35s9">sleeping</text>
+<rect x="1659.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s50"/>
+<text x="1693.0" y="1170.5" class="g35s9">peacefully</text>
+<rect x="1727.6" y="1157.5" width="66.8" height="18.8" rx="0" class="g35s50"/>
+<text x="1761.0" y="1170.5" class="g35s9">&lt;EOS&gt;</text>
+<line x1="1455.0" y1="1156.9" x2="1455.0" y2="1176.9" class="g35s1"/>
+<line x1="1523.0" y1="1156.9" x2="1523.0" y2="1176.9" class="g35s1"/>
+<line x1="1591.0" y1="1156.9" x2="1591.0" y2="1176.9" class="g35s1"/>
+<line x1="1659.0" y1="1156.9" x2="1659.0" y2="1176.9" class="g35s1"/>
+<line x1="1727.0" y1="1156.9" x2="1727.0" y2="1176.9" class="g35s1"/>
+<rect x="1387.0" y="1156.9" width="408.0" height="20.0" rx="3" class="g35s28"/>
+<rect x="60.0" y="1237.9" width="1786.0" height="137.0" rx="8" class="g35s49"/>
+<path d="M65.55 1238.86 A7.45 7.45 0 0 0 60.55 1245.90 V1366.90 A7.45 7.45 0 0 0 65.55 1373.94 Z" class="g35s92"/>
+<rect x="70.0" y="1247.4" width="22.0" height="17.0" rx="4" class="g35s93"/>
+<text x="81.0" y="1259.9" class="g35s27">4</text>
+<text x="98.0" y="1259.9" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">CrossEntropyLoss</text>
+<text x="720.0" y="1324.4" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">04</text>
+<text x="98.0" y="1277.9" xml:space="preserve" class="g35s32"><tspan class="g35s3">log_probs</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">F</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">log_softmax</tspan><tspan class="g35s2">(</tspan><tspan class="g35s3">logits</tspan><tspan class="g35s2">,</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">dim</tspan><tspan class="g35s2">=</tspan><tspan class="g35s2">-</tspan><tspan class="g35s54">1</tspan><tspan class="g35s2">)</tspan></text>
+<text y="1299.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="72.9" lengthAdjust="spacing">The first thing </tspan><tspan x="170.9" class="g35s13" textLength="104.1" lengthAdjust="spacing">CrossEntropyLoss</tspan><tspan x="275.0" textLength="67.8" lengthAdjust="spacing"> does inside: </tspan><tspan x="342.7" class="g35s13" textLength="45.6" lengthAdjust="spacing">softmax</tspan><tspan x="388.3" textLength="47.9" lengthAdjust="spacing"> over the </tspan><tspan x="436.2" class="g35s0" textLength="76.6" lengthAdjust="spacing">12,917 scores</tspan><tspan x="512.8" textLength="202.0" lengthAdjust="spacing"> (turning them into probabilities that add</tspan></text>
+<text y="1315.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="28.8" lengthAdjust="spacing">up to </tspan><tspan x="126.8" class="g35s0">1</tspan><tspan x="133.6" textLength="292.8" lengthAdjust="spacing">), then the logarithm, fused into one step. That is why the </tspan><tspan x="426.3" class="g35s13" textLength="39.0" lengthAdjust="spacing">logits</tspan><tspan x="465.4" textLength="166.2" lengthAdjust="spacing"> were handed over raw — doing </tspan><tspan x="631.5" class="g35s13" textLength="45.6" lengthAdjust="spacing">softmax</tspan><tspan x="677.1" textLength="40.9" lengthAdjust="spacing"> and log</tspan></text>
+<text y="1331.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="260.8" lengthAdjust="spacing">separately can overflow or lose precision when the </tspan><tspan x="358.8" class="g35s13" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="397.8" textLength="51.8" lengthAdjust="spacing"> are large.</tspan></text>
+<rect x="98.0" y="1339.9" width="92.8" height="18.0" rx="4" class="g35s18"/>
+<text x="144.4" y="1352.7" class="g35s61">(12, 12,917)</text>
+<rect x="197.8" y="1339.9" width="99.3" height="18.0" rx="4" class="g35s55"/>
+<text x="247.4" y="1352.7" class="g35s62">torch.float32</text>
+<line x1="736.0" y1="1247.9" x2="736.0" y2="1364.9" class="g35s33"/>
+<rect x="60.0" y="1384.9" width="1786.0" height="129.0" rx="8" style="fill:var(--infobg);stroke:var(--s4);stroke-width:1.5"/>
+<path d="M65.75 1386.01 A7.25 7.25 0 0 0 60.75 1392.90 V1505.90 A7.25 7.25 0 0 0 65.75 1512.79 Z" class="g35s94"/>
+<rect x="70.0" y="1394.4" width="22.0" height="17.0" rx="4" class="g35s95"/>
+<text x="81.0" y="1406.9" class="g35s27">5</text>
+<text x="98.0" y="1406.9" style="fill:var(--s4);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">CrossEntropyLoss</text>
+<text y="1406.9" xml:space="preserve" class="g35s118"><tspan x="605.7" class="g35s4" textLength="114.3" lengthAdjust="spacing">one number per position</tspan></text>
+<text x="720.0" y="1467.4" style="fill:var(--s4);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18">05</text>
+<text x="98.0" y="1424.9" xml:space="preserve" class="g35s32"><tspan class="g35s3">nll</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">-</tspan><tspan class="g35s3">log_probs</tspan><tspan class="g35s2">[</tspan><tspan class="g35s3">row</tspan><tspan class="g35s2">,</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">target</tspan><tspan class="g35s2">[</tspan><tspan class="g35s3">row</tspan><tspan class="g35s2">]</tspan><tspan class="g35s2">]</tspan></text>
+<text y="1446.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="86.9" lengthAdjust="spacing">Only ONE of the </tspan><tspan x="184.9" class="g35s0" textLength="88.1" lengthAdjust="spacing">12,917 numbers</tspan><tspan x="273.0" textLength="342.5" lengthAdjust="spacing"> in each row is actually read: the one at the correct token’s id. The </tspan><tspan x="615.5" class="g35s13" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="654.5" textLength="65.2" lengthAdjust="spacing"> for the other</tspan></text>
+<text y="1462.9" xml:space="preserve" class="g35s7"><tspan x="98.0" class="g35s0" textLength="76.6" lengthAdjust="spacing">12,916 tokens</tspan><tspan x="174.6" textLength="147.6" lengthAdjust="spacing"> still matter, but only through </tspan><tspan x="322.2" class="g35s13" textLength="45.6" lengthAdjust="spacing">softmax</tspan><tspan x="367.8" textLength="330.3" lengthAdjust="spacing"> — a high score for a wrong token makes the right token’s share</tspan></text>
+<text y="1478.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="567.9" lengthAdjust="spacing">smaller. The minus sign and the logarithm turn &quot;the probability I gave the right token&quot; into &quot;how surprised I was&quot;:</tspan></text>
+<text y="1494.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="55.6" lengthAdjust="spacing">probability </tspan><tspan x="153.6" class="g35s0">1</tspan><tspan x="160.4" textLength="33.2" lengthAdjust="spacing"> costs </tspan><tspan x="193.6" class="g35s0">0</tspan><tspan x="200.4" textLength="62.0" lengthAdjust="spacing">, probability </tspan><tspan x="262.4" class="g35s0" textLength="16.9" lengthAdjust="spacing">0.5</tspan><tspan x="279.3" textLength="33.2" lengthAdjust="spacing"> costs </tspan><tspan x="312.6" class="g35s0" textLength="23.7" lengthAdjust="spacing">0.69</tspan><tspan x="336.3" textLength="84.4" lengthAdjust="spacing">, and probability </tspan><tspan x="420.7" class="g35s0" textLength="37.3" lengthAdjust="spacing">0.0001</tspan><tspan x="457.9" textLength="33.2" lengthAdjust="spacing"> costs </tspan><tspan x="491.2" class="g35s0" textLength="16.9" lengthAdjust="spacing">9.2</tspan><tspan x="508.1">.</tspan></text>
+<line x1="736.0" y1="1394.9" x2="736.0" y2="1503.9" class="g35s33"/>
+<rect x="750.0" y="1398.9" width="531.0" height="17.0" rx="4" class="g35s63"/>
+<text x="757.0" y="1411.4" class="g35s64">SEQ A</text>
+<text y="1411.4" xml:space="preserve" class="g35s14"><tspan x="798.0" textLength="252.4" lengthAdjust="spacing">the probability given to the right answer, and its negative log</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="862.9" textLength="14.2" lengthAdjust="spacing">dog</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="925.2" textLength="25.5" lengthAdjust="spacing">resting</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="994.0" class="g35s70" textLength="24.0" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="1062.0" class="g35s51" textLength="24.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="1130.0" class="g35s51" textLength="24.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="1198.0" class="g35s51" textLength="24.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<rect x="836.0" y="1434.9" width="408.0" height="42.0" rx="3" class="g35s18"/>
+<text y="1449.2" xml:space="preserve" class="g35s12"><tspan x="784.2" class="g35s119" textLength="45.8" lengthAdjust="spacing">p(target)</tspan></text>
+<text x="870.0" y="1449.2" class="g35s34">0.0001</text>
+<text x="938.0" y="1449.2" class="g35s34">0.0001</text>
+<text x="1006.0" y="1449.2" class="g35s34">0.0001</text>
+<rect x="1040.6" y="1435.5" width="66.8" height="19.8" rx="0" class="g35s25"/>
+<text x="1074.0" y="1449.2" class="g35s35">0.0001</text>
+<rect x="1108.6" y="1435.5" width="66.8" height="19.8" rx="0" class="g35s25"/>
+<text x="1142.0" y="1449.2" class="g35s35">0.0001</text>
+<rect x="1176.6" y="1435.5" width="66.8" height="19.8" rx="0" class="g35s25"/>
+<text x="1210.0" y="1449.2" class="g35s35">0.0001</text>
+<text y="1470.2" xml:space="preserve" class="g35s12"><tspan x="805.1" textLength="24.9" lengthAdjust="spacing">−log p</tspan></text>
+<rect x="836.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s16"/>
+<text x="870.0" y="1470.2" class="g35s36">9.6684</text>
+<rect x="904.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s16"/>
+<text x="938.0" y="1470.2" class="g35s36">9.8504</text>
+<rect x="972.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s16"/>
+<text x="1006.0" y="1470.2" class="g35s36">9.3544</text>
+<rect x="1040.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s25"/>
+<text x="1074.0" y="1470.2" class="g35s35">9.5643</text>
+<rect x="1108.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s25"/>
+<text x="1142.0" y="1470.2" class="g35s35">9.6646</text>
+<rect x="1176.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s25"/>
+<text x="1210.0" y="1470.2" class="g35s35">9.7056</text>
+<line x1="904.0" y1="1434.9" x2="904.0" y2="1476.9" class="g35s1"/>
+<line x1="972.0" y1="1434.9" x2="972.0" y2="1476.9" class="g35s1"/>
+<line x1="1040.0" y1="1434.9" x2="1040.0" y2="1476.9" class="g35s1"/>
+<line x1="1108.0" y1="1434.9" x2="1108.0" y2="1476.9" class="g35s1"/>
+<line x1="1176.0" y1="1434.9" x2="1176.0" y2="1476.9" class="g35s1"/>
+<line x1="836.0" y1="1455.9" x2="1244.0" y2="1455.9" class="g35s1"/>
+<rect x="836.0" y="1434.9" width="408.0" height="42.0" rx="3" class="g35s28"/>
+<rect x="1301.0" y="1398.9" width="531.0" height="17.0" rx="4" class="g35s65"/>
+<text x="1308.0" y="1411.4" class="g35s66">SEQ B</text>
+<text y="1411.4" xml:space="preserve" class="g35s14"><tspan x="1349.0" textLength="252.4" lengthAdjust="spacing">the probability given to the right answer, and its negative log</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="1415.1" textLength="11.8" lengthAdjust="spacing">the</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="1483.3" textLength="11.3" lengthAdjust="spacing">cat</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="1553.9" textLength="6.1" lengthAdjust="spacing">is</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="1609.2" textLength="31.7" lengthAdjust="spacing">sleeping</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="1673.9" textLength="38.3" lengthAdjust="spacing">peacefully</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g35s5"><tspan x="1749.0" class="g35s70" textLength="24.0" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<rect x="1387.0" y="1434.9" width="408.0" height="42.0" rx="3" class="g35s18"/>
+<text y="1449.2" xml:space="preserve" class="g35s12"><tspan x="1335.2" class="g35s119" textLength="45.8" lengthAdjust="spacing">p(target)</tspan></text>
+<text x="1421.0" y="1449.2" class="g35s34">0.0001</text>
+<text x="1489.0" y="1449.2" class="g35s34">0.0001</text>
+<text x="1557.0" y="1449.2" class="g35s34">0.0001</text>
+<text x="1625.0" y="1449.2" class="g35s34">0.0001</text>
+<text x="1693.0" y="1449.2" class="g35s34">0.0001</text>
+<text x="1761.0" y="1449.2" class="g35s34">0.0001</text>
+<text y="1470.2" xml:space="preserve" class="g35s12"><tspan x="1356.1" textLength="24.9" lengthAdjust="spacing">−log p</tspan></text>
+<rect x="1387.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s16"/>
+<text x="1421.0" y="1470.2" class="g35s36">9.3475</text>
+<rect x="1455.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s16"/>
+<text x="1489.0" y="1470.2" class="g35s36">9.3414</text>
+<rect x="1523.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s16"/>
+<text x="1557.0" y="1470.2" class="g35s36">9.8280</text>
+<rect x="1591.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s16"/>
+<text x="1625.0" y="1470.2" class="g35s36">9.5501</text>
+<rect x="1659.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s16"/>
+<text x="1693.0" y="1470.2" class="g35s36">9.4877</text>
+<rect x="1727.6" y="1456.5" width="66.8" height="19.8" rx="0" class="g35s16"/>
+<text x="1761.0" y="1470.2" class="g35s36">9.7351</text>
+<line x1="1455.0" y1="1434.9" x2="1455.0" y2="1476.9" class="g35s1"/>
+<line x1="1523.0" y1="1434.9" x2="1523.0" y2="1476.9" class="g35s1"/>
+<line x1="1591.0" y1="1434.9" x2="1591.0" y2="1476.9" class="g35s1"/>
+<line x1="1659.0" y1="1434.9" x2="1659.0" y2="1476.9" class="g35s1"/>
+<line x1="1727.0" y1="1434.9" x2="1727.0" y2="1476.9" class="g35s1"/>
+<line x1="1387.0" y1="1455.9" x2="1795.0" y2="1455.9" class="g35s1"/>
+<rect x="1387.0" y="1434.9" width="408.0" height="42.0" rx="3" class="g35s28"/>
+<rect x="60.0" y="1523.9" width="1786.0" height="113.0" rx="8" style="fill:var(--infobg);stroke:var(--s5);stroke-width:1.5"/>
+<path d="M65.75 1525.01 A7.25 7.25 0 0 0 60.75 1531.90 V1628.90 A7.25 7.25 0 0 0 65.75 1635.79 Z" class="g35s96"/>
+<rect x="70.0" y="1533.4" width="22.0" height="17.0" rx="4" class="g35s97"/>
+<text x="81.0" y="1545.9" class="g35s27">6</text>
+<text x="98.0" y="1545.9" style="fill:var(--s5);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">CrossEntropyLoss</text>
+<text y="1545.9" xml:space="preserve" class="g35s118"><tspan x="563.3" class="g35s4" textLength="156.7" lengthAdjust="spacing">padding, handled for the last time</tspan></text>
+<text x="720.0" y="1598.4" style="fill:var(--s5);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18">06</text>
+<text x="98.0" y="1563.9" xml:space="preserve" class="g35s32"><tspan class="g35s3">nll</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">nll</tspan><tspan class="g35s2">[</tspan><tspan class="g35s3">expected</tspan><tspan class="g35s3"> </tspan><tspan class="g35s2">!</tspan><tspan class="g35s2">=</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">ignore_index</tspan><tspan class="g35s2">]</tspan><tspan class="g35s3" opacity="0.42">   # ignore_index = PAD</tspan></text>
+<rect x="250.1" y="1575.6" width="37.5" height="14.0" rx="3" class="g35s69"/>
+<text y="1585.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="152.1" lengthAdjust="spacing">Every row whose TARGET is </tspan><tspan x="252.6" class="g35s83" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="287.6"> (</tspan><tspan x="294.7" class="g35s0" textLength="19.7" lengthAdjust="spacing">id 0</tspan><tspan x="314.3" textLength="384.2" lengthAdjust="spacing">) is dropped — not down-weighted, dropped completely. Sequence A loses </tspan><tspan x="698.5" class="g35s0">3</tspan><tspan x="705.2" textLength="12.8" lengthAdjust="spacing"> of</tspan></text>
+<text y="1601.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="14.7" lengthAdjust="spacing">its </tspan><tspan x="112.7" class="g35s0" textLength="35.9" lengthAdjust="spacing">6 rows</tspan><tspan x="148.6" textLength="100.4" lengthAdjust="spacing">; sequence B loses </tspan><tspan x="249.0" class="g35s0">0</tspan><tspan x="255.7" textLength="431.5" lengthAdjust="spacing">. This is the last place padding is dealt with in the model, after the two masks and the</tspan></text>
+<text y="1617.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="586.8" lengthAdjust="spacing">padding row of the embedding, and it is the one that stops the model being rewarded for confidently predicting filler.</tspan></text>
+<line x1="736.0" y1="1533.9" x2="736.0" y2="1626.9" class="g35s33"/>
+<rect x="750.0" y="1537.9" width="531.0" height="17.0" rx="4" class="g35s63"/>
+<text x="757.0" y="1550.4" class="g35s64">SEQ A</text>
+<text y="1550.4" xml:space="preserve" class="g35s14"><tspan x="798.0" textLength="130.9" lengthAdjust="spacing">which positions earn a gradient</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="862.9" textLength="14.2" lengthAdjust="spacing">dog</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="925.2" textLength="25.5" lengthAdjust="spacing">resting</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="994.0" class="g35s70" textLength="24.0" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="1062.0" class="g35s51" textLength="24.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="1130.0" class="g35s51" textLength="24.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="1198.0" class="g35s51" textLength="24.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<rect x="836.0" y="1573.9" width="408.0" height="21.0" rx="3" class="g35s18"/>
+<text y="1588.2" xml:space="preserve" class="g35s12"><tspan x="784.5" textLength="45.5" lengthAdjust="spacing">in the loss?</tspan></text>
+<rect x="836.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s15"/>
+<text x="870.0" y="1588.2" class="g35s37">counted</text>
+<rect x="904.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s15"/>
+<text x="938.0" y="1588.2" class="g35s37">counted</text>
+<rect x="972.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s15"/>
+<text x="1006.0" y="1588.2" class="g35s37">counted</text>
+<rect x="1040.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s25"/>
+<text x="1074.0" y="1588.2" class="g35s35">dropped</text>
+<rect x="1108.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s25"/>
+<text x="1142.0" y="1588.2" class="g35s35">dropped</text>
+<rect x="1176.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s25"/>
+<text x="1210.0" y="1588.2" class="g35s35">dropped</text>
+<line x1="904.0" y1="1573.9" x2="904.0" y2="1594.9" class="g35s1"/>
+<line x1="972.0" y1="1573.9" x2="972.0" y2="1594.9" class="g35s1"/>
+<line x1="1040.0" y1="1573.9" x2="1040.0" y2="1594.9" class="g35s1"/>
+<line x1="1108.0" y1="1573.9" x2="1108.0" y2="1594.9" class="g35s1"/>
+<line x1="1176.0" y1="1573.9" x2="1176.0" y2="1594.9" class="g35s1"/>
+<rect x="836.0" y="1573.9" width="408.0" height="21.0" rx="3" class="g35s28"/>
+<rect x="1301.0" y="1537.9" width="531.0" height="17.0" rx="4" class="g35s65"/>
+<text x="1308.0" y="1550.4" class="g35s66">SEQ B</text>
+<text y="1550.4" xml:space="preserve" class="g35s14"><tspan x="1349.0" textLength="130.9" lengthAdjust="spacing">which positions earn a gradient</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="1415.1" textLength="11.8" lengthAdjust="spacing">the</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="1483.3" textLength="11.3" lengthAdjust="spacing">cat</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="1553.9" textLength="6.1" lengthAdjust="spacing">is</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="1609.2" textLength="31.7" lengthAdjust="spacing">sleeping</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="1673.9" textLength="38.3" lengthAdjust="spacing">peacefully</tspan></text>
+<text y="1567.9" xml:space="preserve" class="g35s5"><tspan x="1749.0" class="g35s70" textLength="24.0" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<rect x="1387.0" y="1573.9" width="408.0" height="21.0" rx="3" class="g35s18"/>
+<text y="1588.2" xml:space="preserve" class="g35s12"><tspan x="1335.5" textLength="45.5" lengthAdjust="spacing">in the loss?</tspan></text>
+<rect x="1387.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s15"/>
+<text x="1421.0" y="1588.2" class="g35s37">counted</text>
+<rect x="1455.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s15"/>
+<text x="1489.0" y="1588.2" class="g35s37">counted</text>
+<rect x="1523.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s15"/>
+<text x="1557.0" y="1588.2" class="g35s37">counted</text>
+<rect x="1591.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s15"/>
+<text x="1625.0" y="1588.2" class="g35s37">counted</text>
+<rect x="1659.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s15"/>
+<text x="1693.0" y="1588.2" class="g35s37">counted</text>
+<rect x="1727.6" y="1574.5" width="66.8" height="19.8" rx="0" class="g35s15"/>
+<text x="1761.0" y="1588.2" class="g35s37">counted</text>
+<line x1="1455.0" y1="1573.9" x2="1455.0" y2="1594.9" class="g35s1"/>
+<line x1="1523.0" y1="1573.9" x2="1523.0" y2="1594.9" class="g35s1"/>
+<line x1="1591.0" y1="1573.9" x2="1591.0" y2="1594.9" class="g35s1"/>
+<line x1="1659.0" y1="1573.9" x2="1659.0" y2="1594.9" class="g35s1"/>
+<line x1="1727.0" y1="1573.9" x2="1727.0" y2="1594.9" class="g35s1"/>
+<rect x="1387.0" y="1573.9" width="408.0" height="21.0" rx="3" class="g35s28"/>
+<rect x="60.0" y="1646.9" width="1786.0" height="129.0" rx="8" class="g35s49"/>
+<path d="M65.55 1647.86 A7.45 7.45 0 0 0 60.55 1654.90 V1767.90 A7.45 7.45 0 0 0 65.55 1774.94 Z" class="g35s98"/>
+<rect x="70.0" y="1656.4" width="22.0" height="17.0" rx="4" class="g35s99"/>
+<text x="81.0" y="1668.9" class="g35s27">7</text>
+<text x="98.0" y="1668.9" style="fill:var(--s6);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">CrossEntropyLoss</text>
+<text x="720.0" y="1729.4" style="fill:var(--s6);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">07</text>
+<text x="98.0" y="1686.9" xml:space="preserve" class="g35s32"><tspan class="g35s53">return</tspan><tspan class="g35s3"> </tspan><tspan class="g35s3">nll</tspan><tspan class="g35s2">[</tspan><tspan class="g35s3">kept</tspan><tspan class="g35s2">]</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">mean</tspan><tspan class="g35s2">(</tspan><tspan class="g35s2">)</tspan></text>
+<text y="1708.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="112.5" lengthAdjust="spacing">The average over the </tspan><tspan x="210.5" class="g35s0" textLength="35.9" lengthAdjust="spacing">9 rows</tspan><tspan x="246.4" textLength="466.0" lengthAdjust="spacing"> that survived — one number for the whole batch, and the only number training ever sees. It</tspan></text>
+<text y="1724.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="610.4" lengthAdjust="spacing">is an average rather than a sum, so a batch with more padding does not look better just because it has fewer terms, and</tspan></text>
+<text y="1740.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="609.8" lengthAdjust="spacing">batches of different sizes stay comparable. The flip side: it is one number, so one badly predicted token can hide among</tspan></text>
+<text y="1756.9" xml:space="preserve" class="g35s7"><tspan x="98.0" textLength="88.2" lengthAdjust="spacing">many good ones.</tspan></text>
+<line x1="736.0" y1="1656.9" x2="736.0" y2="1765.9" class="g35s33"/>
+<rect x="750.0" y="1660.9" width="1082.0" height="17.0" rx="4" class="g35s81"/>
+<text x="757.0" y="1673.4" class="g35s82">BOTH SEQUENCES</text>
+<text y="1673.4" xml:space="preserve" class="g35s14"><tspan x="868.8" textLength="250.3" lengthAdjust="spacing">one scalar — and it lands where an untrained model should</tspan></text>
+<text y="1690.9" xml:space="preserve" class="g35s5"><tspan x="909.3" textLength="53.4" lengthAdjust="spacing">loss, this pass</tspan></text>
+<text y="1690.9" xml:space="preserve" class="g35s5"><tspan x="1112.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.0px;font-weight:600;fill:var(--ink)" textLength="48.1" lengthAdjust="spacing">ln(12,917)</tspan></text>
+<text y="1690.9" xml:space="preserve" class="g35s5"><tspan x="1283.6" class="g35s0" textLength="32.1" lengthAdjust="spacing">epoch 0</tspan><tspan x="1315.7" textLength="72.8" lengthAdjust="spacing">, when this was run</tspan></text>
+<rect x="836.0" y="1696.9" width="600.0" height="24.0" rx="3" class="g35s18"/>
+<text y="1713.2" xml:space="preserve" class="g35s12"><tspan x="808.5" textLength="21.5" lengthAdjust="spacing">value</tspan></text>
+<rect x="836.6" y="1697.5" width="198.8" height="22.8" rx="0" class="g35s15"/>
+<text x="936.0" y="1713.2" class="g35s27">9.5737</text>
+<text x="1136.0" y="1713.2" class="g35s120">9.4663</text>
+<text x="1336.0" y="1713.2" class="g35s120">9.465688</text>
+<line x1="1036.0" y1="1696.9" x2="1036.0" y2="1720.9" class="g35s1"/>
+<line x1="1236.0" y1="1696.9" x2="1236.0" y2="1720.9" class="g35s1"/>
+<rect x="836.0" y="1696.9" width="600.0" height="24.0" rx="3" class="g35s28"/>
+<rect x="34.0" y="1785.9" width="1812.0" height="146.0" rx="8" class="g35s49"/>
+<path d="M39.55 1786.86 A7.45 7.45 0 0 0 34.55 1793.90 V1923.90 A7.45 7.45 0 0 0 39.55 1930.94 Z" class="g35s100"/>
+<rect x="44.0" y="1795.4" width="22.0" height="17.0" rx="4" class="g35s101"/>
+<text x="55.0" y="1807.9" class="g35s27">8</text>
+<text x="72.0" y="1807.9" style="fill:var(--s7);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">training loop</text>
+<text x="720.0" y="1876.9" style="fill:var(--s7);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">08</text>
+<text x="72.0" y="1825.9" xml:space="preserve" class="g35s32"><tspan class="g35s3">loss</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">backward</tspan><tspan class="g35s2">(</tspan><tspan class="g35s2">)</tspan></text>
+<text y="1847.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="614.9" lengthAdjust="spacing">From that one number, a gradient for every parameter in the model — how much the loss would change if that parameter</tspan></text>
+<text y="1863.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="620.7" lengthAdjust="spacing">moved a little. PyTorch computes it by walking the recorded operations backwards: through the output head, both decoder</tspan></text>
+<text y="1879.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="634.1" lengthAdjust="spacing">layers, cross-attention into the encoder, and finally into the embeddings. Two things get nothing: the dropped rows contribute</tspan></text>
+<rect x="205.0" y="1885.6" width="37.5" height="14.0" rx="3" class="g35s69"/>
+<text y="1895.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="133.0" lengthAdjust="spacing">no gradient at all, and the </tspan><tspan x="207.5" class="g35s83" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="242.5" textLength="179.0" lengthAdjust="spacing"> row of the embedding is frozen by </tspan><tspan x="421.5" class="g35s13" textLength="71.6" lengthAdjust="spacing">padding_idx</tspan><tspan x="493.1" textLength="187.3" lengthAdjust="spacing"> — which is why the random vector it</tspan></text>
+<text y="1911.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="58.8" lengthAdjust="spacing">received in </tspan><tspan x="130.8" class="g35s0" textLength="33.2" lengthAdjust="spacing">step 6</tspan><tspan x="164.0" textLength="209.0" lengthAdjust="spacing"> will still be there after a hundred epochs.</tspan></text>
+<line x1="736.0" y1="1795.9" x2="736.0" y2="1921.9" class="g35s33"/>
+<rect x="750.0" y="1799.9" width="1082.0" height="17.0" rx="4" class="g35s81"/>
+<text x="757.0" y="1812.4" class="g35s82">BOTH SEQUENCES</text>
+<text y="1812.4" xml:space="preserve" class="g35s14"><tspan x="868.8" textLength="213.8" lengthAdjust="spacing">everything that moves when that one scalar moves</tspan></text>
+<text y="1829.9" xml:space="preserve" class="g35s5"><tspan x="909.9" textLength="92.1" lengthAdjust="spacing">what receives a gradient</tspan></text>
+<text y="1829.9" xml:space="preserve" class="g35s5"><tspan x="1233.4" textLength="15.1" lengthAdjust="spacing">size</tspan></text>
+<rect x="836.0" y="1835.9" width="570.0" height="84.0" rx="3" class="g35s18"/>
+<rect x="836.6" y="1836.5" width="238.8" height="19.8" rx="0" class="g35s16"/>
+<text x="956.0" y="1850.2" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;font-weight:600;text-anchor:middle">embeddings</text>
+<text y="1850.2" xml:space="preserve" class="g35s24"><tspan x="1141.5" class="g35s0" textLength="91.9" lengthAdjust="spacing">13,227,008 weights</tspan><tspan x="1233.4" textLength="47.8" lengthAdjust="spacing"> — except </tspan><tspan x="1281.2" class="g35s0" textLength="25.9" lengthAdjust="spacing">row 0</tspan><tspan x="1307.1" textLength="33.4" lengthAdjust="spacing">, frozen</tspan></text>
+<rect x="836.6" y="1857.5" width="238.8" height="19.8" rx="0" class="g35s16"/>
+<text y="1871.2" xml:space="preserve" class="g35s46"><tspan x="919.2" class="g35s4" textLength="73.6" lengthAdjust="spacing">attention blocks</tspan></text>
+<text y="1871.2" xml:space="preserve" class="g35s24"><tspan x="1161.0" class="g35s0" textLength="86.0" lengthAdjust="spacing">6,303,744 weights</tspan><tspan x="1247.1" textLength="35.0" lengthAdjust="spacing"> across </tspan><tspan x="1282.1" class="g35s0" textLength="38.9" lengthAdjust="spacing">6 blocks</tspan></text>
+<rect x="836.6" y="1878.5" width="238.8" height="19.8" rx="0" class="g35s16"/>
+<text y="1892.2" xml:space="preserve" class="g35s46"><tspan x="909.8" class="g35s4" textLength="92.5" lengthAdjust="spacing">feed-forward blocks</tspan></text>
+<text y="1892.2" xml:space="preserve" class="g35s24"><tspan x="1161.0" class="g35s0" textLength="86.0" lengthAdjust="spacing">2,101,248 weights</tspan><tspan x="1247.1" textLength="35.0" lengthAdjust="spacing"> across </tspan><tspan x="1282.1" class="g35s0" textLength="38.9" lengthAdjust="spacing">4 blocks</tspan></text>
+<rect x="836.6" y="1899.5" width="238.8" height="19.8" rx="0" class="g35s16"/>
+<text y="1913.2" xml:space="preserve" class="g35s46"><tspan x="928.0" class="g35s4" textLength="56.0" lengthAdjust="spacing">output head</tspan></text>
+<text y="1913.2" xml:space="preserve" class="g35s24"><tspan x="1137.4" class="g35s0" textLength="86.0" lengthAdjust="spacing">6,626,421 weights</tspan><tspan x="1223.4" textLength="121.2" lengthAdjust="spacing"> — the largest single matrix</tspan></text>
+<line x1="1076.0" y1="1835.9" x2="1076.0" y2="1919.9" class="g35s1"/>
+<line x1="836.0" y1="1856.9" x2="1406.0" y2="1856.9" class="g35s1"/>
+<line x1="836.0" y1="1877.9" x2="1406.0" y2="1877.9" class="g35s1"/>
+<line x1="836.0" y1="1898.9" x2="1406.0" y2="1898.9" class="g35s1"/>
+<rect x="836.0" y="1835.9" width="570.0" height="84.0" rx="3" class="g35s28"/>
+<rect x="34.0" y="1941.9" width="1812.0" height="145.0" rx="8" class="g35s49"/>
+<path d="M39.55 1942.86 A7.45 7.45 0 0 0 34.55 1949.90 V2078.90 A7.45 7.45 0 0 0 39.55 2085.94 Z" class="g35s102"/>
+<rect x="44.0" y="1951.4" width="22.0" height="17.0" rx="4" class="g35s103"/>
+<text x="55.0" y="1963.9" class="g35s27">9</text>
+<text x="72.0" y="1963.9" style="fill:var(--s8);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">training loop</text>
+<text x="720.0" y="2032.4" style="fill:var(--s8);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">09</text>
+<text x="72.0" y="1981.9" xml:space="preserve" class="g35s32"><tspan class="g35s3">optimizer</tspan><tspan class="g35s2">.</tspan><tspan class="g35s17">step</tspan><tspan class="g35s2">(</tspan><tspan class="g35s2">)</tspan><tspan class="g35s3">   </tspan><tspan class="g35s47"># Adam, lr = 1e-3</tspan></text>
+<text y="2003.9" xml:space="preserve" class="g35s7"><tspan x="72.0" class="g35s13" textLength="26.0" lengthAdjust="spacing">Adam</tspan><tspan x="98.0" textLength="588.6" lengthAdjust="spacing"> applies the update. It gives every parameter its own step size, based on running averages of that parameter’s past</tspan></text>
+<text y="2019.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="219.2" lengthAdjust="spacing">gradients, and the next iteration starts with </tspan><tspan x="291.2" class="g35s13" textLength="136.7" lengthAdjust="spacing">optimizer.zero_grad()</tspan><tspan x="427.9" textLength="291.5" lengthAdjust="spacing">, because PyTorch adds new gradients to old ones rather</tspan></text>
+<text y="2035.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="252.5" lengthAdjust="spacing">than replacing them. The notebook runs this loop </tspan><tspan x="324.5" class="g35s0" textLength="52.8" lengthAdjust="spacing">100 times</tspan><tspan x="377.3" textLength="331.1" lengthAdjust="spacing"> on the same two sentences, which is why it ends up reproducing</tspan></text>
+<text y="2051.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="117.6" lengthAdjust="spacing">the target exactly: with </tspan><tspan x="189.6" class="g35s0" textLength="126.0" lengthAdjust="spacing">28,268,661 parameters</tspan><tspan x="315.6" textLength="386.3" lengthAdjust="spacing"> and two examples, memorising is far easier than generalising, and the &quot;dog</tspan></text>
+<text y="2067.9" xml:space="preserve" class="g35s7"><tspan x="72.0" textLength="53.9" lengthAdjust="spacing">resting&quot; in </tspan><tspan x="125.9" class="g35s0" textLength="40.0" lengthAdjust="spacing">step 18</tspan><tspan x="165.9" textLength="157.9" lengthAdjust="spacing"> is recall rather than reasoning.</tspan></text>
+<line x1="736.0" y1="1951.9" x2="736.0" y2="2076.9" class="g35s33"/>
+<rect x="34.0" y="2118.9" width="1812.0" height="30.0" rx="6" class="g35s43"/>
+<path d="M38.50 2119.61 A5.50 5.50 0 0 0 34.50 2124.90 V2142.90 A5.50 5.50 0 0 0 38.50 2148.19 Z" class="g35s48"/>
+<text y="2138.9" xml:space="preserve" class="g35s59"><tspan x="50.0" class="g35s4" textLength="262.6" lengthAdjust="spacing">B · One position’s loss, computed by hand</tspan></text>
+<text y="2138.9" xml:space="preserve" class="g35s60"><tspan x="330.6" textLength="67.1" lengthAdjust="spacing">sequence A, </tspan><tspan x="397.7" class="g35s0" textLength="52.2" lengthAdjust="spacing">position 0</tspan><tspan x="449.9" textLength="171.8" lengthAdjust="spacing"> — the model must produce &quot;dog&quot;</tspan></text>
+<text y="2166.9" xml:space="preserve" class="g35s44"><tspan x="38.0" class="g35s4" textLength="201.5" lengthAdjust="spacing">One target position, scored by hand</tspan></text>
+<text y="2184.9" xml:space="preserve" class="g35s22"><tspan x="38.0" textLength="796.3" lengthAdjust="spacing">Cross-entropy is one lookup and one logarithm. Seeing it on a single position removes any impression that something more complicated is happening.</tspan></text>
+<text y="2217.3" xml:space="preserve" class="g35s39"><tspan x="34.0" class="g35s4" textLength="31.8" lengthAdjust="spacing">From </tspan><tspan x="65.8" class="g35s4" textLength="76.6" lengthAdjust="spacing">12,917 scores</tspan><tspan x="142.4" class="g35s4" textLength="82.0" lengthAdjust="spacing"> to one number</tspan></text>
+<rect x="34.0" y="2226.3" width="1812.0" height="24.0" rx="4" class="g35s43"/>
+<text y="2242.3" xml:space="preserve" class="g35s29"><tspan x="43.0" class="g35s4" textLength="21.0" lengthAdjust="spacing">step</tspan></text>
+<text y="2242.3" xml:space="preserve" class="g35s29"><tspan x="463.0" class="g35s4" textLength="26.6" lengthAdjust="spacing">value</tspan></text>
+<text y="2242.3" xml:space="preserve" class="g35s29"><tspan x="643.0" class="g35s4" textLength="37.1" lengthAdjust="spacing">reading</tspan></text>
+<text y="2266.7" xml:space="preserve" class="g35s39"><tspan x="43.0" class="g35s4" textLength="161.9" lengthAdjust="spacing">the raw score at the target id (</tspan><tspan x="204.9" class="g35s0" textLength="27.1" lengthAdjust="spacing">3380</tspan><tspan x="232.0" class="g35s4">)</tspan></text>
+<text x="463.0" y="2266.7" class="g35s71">-0.1642</text>
+<text y="2266.7" xml:space="preserve" class="g35s7"><tspan x="643.0" textLength="54.3" lengthAdjust="spacing">one of the </tspan><tspan x="697.3" class="g35s0" textLength="88.1" lengthAdjust="spacing">12,917 numbers</tspan><tspan x="785.4" textLength="55.0" lengthAdjust="spacing"> in this row</tspan></text>
+<line x1="34.0" y1="2275.3" x2="1846.0" y2="2275.3" class="g35s1"/>
+<rect x="34.0" y="2275.3" width="1812.0" height="25.0" rx="0" class="g35s38"/>
+<text y="2291.7" xml:space="preserve" class="g35s39"><tspan x="43.0" class="g35s4" textLength="146.3" lengthAdjust="spacing">the largest score in the row</tspan></text>
+<text x="463.0" y="2291.7" class="g35s71">+1.1848</text>
+<text y="2291.7" xml:space="preserve" class="g35s7"><tspan x="643.0" textLength="162.6" lengthAdjust="spacing">the model&#x27;s current favourite — </tspan><tspan x="805.6" class="g35s0" textLength="40.0" lengthAdjust="spacing">id 3371</tspan></text>
+<line x1="34.0" y1="2300.3" x2="1846.0" y2="2300.3" class="g35s1"/>
+<text y="2316.7" xml:space="preserve" class="g35s39"><tspan x="43.0" class="g35s4" textLength="27.8" lengthAdjust="spacing">after </tspan><tspan x="70.8" class="g35s13" textLength="45.6" lengthAdjust="spacing">softmax</tspan><tspan x="116.3" class="g35s4">: </tspan><tspan x="123.1" class="g35s13" textLength="58.6" lengthAdjust="spacing">p(target)</tspan></text>
+<text x="463.0" y="2316.7" class="g35s71">0.000063</text>
+<text y="2316.7" xml:space="preserve" class="g35s7"><tspan x="643.0" textLength="142.5" lengthAdjust="spacing">a uniform guess would give </tspan><tspan x="785.5" class="g35s0" textLength="50.8" lengthAdjust="spacing">0.000077</tspan></text>
+<line x1="34.0" y1="2325.3" x2="1846.0" y2="2325.3" class="g35s1"/>
+<rect x="34.0" y="2325.3" width="1812.0" height="25.0" rx="0" class="g35s38"/>
+<text y="2341.7" xml:space="preserve" class="g35s39"><tspan x="43.0" class="g35s4" textLength="27.0" lengthAdjust="spacing">−log </tspan><tspan x="70.0" class="g35s13" textLength="58.6" lengthAdjust="spacing">p(target)</tspan><tspan x="128.5" class="g35s4" textLength="116.8" lengthAdjust="spacing"> → this position&#x27;s loss</tspan></text>
+<text x="463.0" y="2341.7" class="g35s71">9.6684</text>
+<text y="2341.7" xml:space="preserve" class="g35s7"><tspan x="643.0" textLength="22.4" lengthAdjust="spacing">and </tspan><tspan x="665.4" class="g35s13" textLength="123.6" lengthAdjust="spacing">ln(12,917) = 9.4663</tspan><tspan x="789.0" textLength="221.8" lengthAdjust="spacing"> is what a perfectly even guess would score</tspan></text>
+<line x1="34.0" y1="2350.3" x2="1846.0" y2="2350.3" class="g35s1"/>
+<rect x="34.0" y="2250.3" width="1812.0" height="100.0" rx="0" class="g35s86"/>
+<line x1="454.0" y1="2250.3" x2="454.0" y2="2350.3" class="g35s1"/>
+<line x1="634.0" y1="2250.3" x2="634.0" y2="2350.3" class="g35s1"/>
+<rect x="34.0" y="2372.3" width="1812.0" height="30.0" rx="6" class="g35s43"/>
+<path d="M38.50 2373.01 A5.50 5.50 0 0 0 34.50 2378.30 V2396.30 A5.50 5.50 0 0 0 38.50 2401.59 Z" class="g35s48"/>
+<text y="2392.3" xml:space="preserve" class="g35s59"><tspan x="50.0" class="g35s4" textLength="40.6" lengthAdjust="spacing">C · All </tspan><tspan x="90.6" class="g35s0" textLength="48.2" lengthAdjust="spacing">12 rows</tspan><tspan x="138.8" class="g35s4" textLength="173.1" lengthAdjust="spacing">, and the mean that survives</tspan></text>
+<text y="2392.3" xml:space="preserve" class="g35s60"><tspan x="329.9" textLength="238.4" lengthAdjust="spacing">the flattened batch, in the order the loss sees it</tspan></text>
+<text y="2420.3" xml:space="preserve" class="g35s44"><tspan x="38.0" class="g35s4" textLength="153.4" lengthAdjust="spacing">The whole loss, row by row</tspan></text>
+<text y="2438.3" xml:space="preserve" class="g35s22"><tspan x="38.0" textLength="446.9" lengthAdjust="spacing">This is the whole loss, itemised. It is also the clearest picture of what padding costs: </tspan><tspan x="484.9" class="g35s0">3</tspan><tspan x="491.9" textLength="306.8" lengthAdjust="spacing"> of these rows are computed in full and then thrown away.</tspan></text>
+<text y="2470.7" xml:space="preserve" class="g35s39"><tspan x="34.0" class="g35s4" textLength="100.3" lengthAdjust="spacing">Every position the </tspan><tspan x="134.3" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600" textLength="58.6" lengthAdjust="spacing">criterion</tspan><tspan x="192.8" class="g35s4" textLength="69.1" lengthAdjust="spacing"> was handed</tspan></text>
+<rect x="34.0" y="2479.7" width="1812.0" height="24.0" rx="4" class="g35s43"/>
+<text y="2495.7" xml:space="preserve" class="g35s29"><tspan x="153.0" class="g35s4" textLength="52.6" lengthAdjust="spacing">came from</tspan></text>
+<text y="2495.7" xml:space="preserve" class="g35s29"><tspan x="413.0" class="g35s4" textLength="28.5" lengthAdjust="spacing">target</tspan></text>
+<text y="2495.7" xml:space="preserve" class="g35s29"><tspan x="603.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)" textLength="53.5" lengthAdjust="spacing">p(target)</tspan></text>
+<text y="2495.7" xml:space="preserve" class="g35s29"><tspan x="773.0" class="g35s4" textLength="30.8" lengthAdjust="spacing">−log p</tspan></text>
+<text y="2495.7" xml:space="preserve" class="g35s29"><tspan x="923.0" class="g35s4" textLength="56.3" lengthAdjust="spacing">in the loss?</tspan></text>
+<text y="2518.6" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 0</tspan></text>
+<text y="2518.6" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> A, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 0</tspan></text>
+<text y="2518.6" xml:space="preserve" class="g35s8"><tspan x="413.0" textLength="17.5" lengthAdjust="spacing">dog</tspan></text>
+<text x="603.0" y="2518.6" class="g35s11">0.000063</text>
+<text x="773.0" y="2518.6" class="g35s11">9.6684</text>
+<text y="2518.6" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="37.4" lengthAdjust="spacing">counted</tspan></text>
+<line x1="34.0" y1="2526.4" x2="1846.0" y2="2526.4" class="g35s1"/>
+<rect x="34.0" y="2526.4" width="1812.0" height="22.7" rx="0" class="g35s38"/>
+<text y="2541.3" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 1</tspan></text>
+<text y="2541.3" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> A, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 1</tspan></text>
+<text y="2541.3" xml:space="preserve" class="g35s8"><tspan x="413.0" textLength="31.5" lengthAdjust="spacing">resting</tspan></text>
+<text x="603.0" y="2541.3" class="g35s11">0.000053</text>
+<text x="773.0" y="2541.3" class="g35s11">9.8504</text>
+<text y="2541.3" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="37.4" lengthAdjust="spacing">counted</tspan></text>
+<line x1="34.0" y1="2549.1" x2="1846.0" y2="2549.1" class="g35s1"/>
+<text y="2564.0" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 2</tspan></text>
+<text y="2564.0" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> A, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 2</tspan></text>
+<text y="2564.0" xml:space="preserve" class="g35s8"><tspan x="415.5" class="g35s121" textLength="29.7" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<text x="603.0" y="2564.0" class="g35s11">0.000087</text>
+<text x="773.0" y="2564.0" class="g35s11">9.3544</text>
+<text y="2564.0" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="37.4" lengthAdjust="spacing">counted</tspan></text>
+<line x1="34.0" y1="2571.8" x2="1846.0" y2="2571.8" class="g35s1"/>
+<rect x="34.0" y="2571.8" width="1812.0" height="22.7" rx="0" class="g35s38"/>
+<text y="2586.7" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 3</tspan></text>
+<text y="2586.7" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> A, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 3</tspan></text>
+<text y="2586.7" xml:space="preserve" class="g35s8"><tspan x="415.5" class="g35s87" textLength="29.7" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<text x="603.0" y="2586.7" class="g35s11">0.000070</text>
+<text x="773.0" y="2586.7" class="g35s11">9.5643</text>
+<text y="2586.7" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="44.9" lengthAdjust="spacing">dropped (</tspan><tspan x="967.9" class="g35s19" textLength="71.3" lengthAdjust="spacing">ignore_index</tspan><tspan x="1039.2">)</tspan></text>
+<line x1="34.0" y1="2594.5" x2="1846.0" y2="2594.5" class="g35s1"/>
+<text y="2609.4" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 4</tspan></text>
+<text y="2609.4" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> A, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 4</tspan></text>
+<text y="2609.4" xml:space="preserve" class="g35s8"><tspan x="415.5" class="g35s87" textLength="29.7" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<text x="603.0" y="2609.4" class="g35s11">0.000063</text>
+<text x="773.0" y="2609.4" class="g35s11">9.6646</text>
+<text y="2609.4" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="44.9" lengthAdjust="spacing">dropped (</tspan><tspan x="967.9" class="g35s19" textLength="71.3" lengthAdjust="spacing">ignore_index</tspan><tspan x="1039.2">)</tspan></text>
+<line x1="34.0" y1="2617.2" x2="1846.0" y2="2617.2" class="g35s1"/>
+<rect x="34.0" y="2617.2" width="1812.0" height="22.7" rx="0" class="g35s38"/>
+<text y="2632.1" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 5</tspan></text>
+<text y="2632.1" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> A, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 5</tspan></text>
+<text y="2632.1" xml:space="preserve" class="g35s8"><tspan x="415.5" class="g35s87" textLength="29.7" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<text x="603.0" y="2632.1" class="g35s11">0.000061</text>
+<text x="773.0" y="2632.1" class="g35s11">9.7056</text>
+<text y="2632.1" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="44.9" lengthAdjust="spacing">dropped (</tspan><tspan x="967.9" class="g35s19" textLength="71.3" lengthAdjust="spacing">ignore_index</tspan><tspan x="1039.2">)</tspan></text>
+<line x1="34.0" y1="2639.9" x2="1846.0" y2="2639.9" class="g35s1"/>
+<text y="2654.8" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 6</tspan></text>
+<text y="2654.8" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> B, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 0</tspan></text>
+<text y="2654.8" xml:space="preserve" class="g35s8"><tspan x="413.0" textLength="14.6" lengthAdjust="spacing">the</tspan></text>
+<text x="603.0" y="2654.8" class="g35s11">0.000087</text>
+<text x="773.0" y="2654.8" class="g35s11">9.3475</text>
+<text y="2654.8" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="37.4" lengthAdjust="spacing">counted</tspan></text>
+<line x1="34.0" y1="2662.6" x2="1846.0" y2="2662.6" class="g35s1"/>
+<rect x="34.0" y="2662.6" width="1812.0" height="22.7" rx="0" class="g35s38"/>
+<text y="2677.5" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 7</tspan></text>
+<text y="2677.5" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> B, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 1</tspan></text>
+<text y="2677.5" xml:space="preserve" class="g35s8"><tspan x="413.0" textLength="14.0" lengthAdjust="spacing">cat</tspan></text>
+<text x="603.0" y="2677.5" class="g35s11">0.000088</text>
+<text x="773.0" y="2677.5" class="g35s11">9.3414</text>
+<text y="2677.5" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="37.4" lengthAdjust="spacing">counted</tspan></text>
+<line x1="34.0" y1="2685.3" x2="1846.0" y2="2685.3" class="g35s1"/>
+<text y="2700.2" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 8</tspan></text>
+<text y="2700.2" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> B, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 2</tspan></text>
+<text y="2700.2" xml:space="preserve" class="g35s8"><tspan x="413.0" textLength="7.6" lengthAdjust="spacing">is</tspan></text>
+<text x="603.0" y="2700.2" class="g35s11">0.000054</text>
+<text x="773.0" y="2700.2" class="g35s11">9.8280</text>
+<text y="2700.2" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="37.4" lengthAdjust="spacing">counted</tspan></text>
+<line x1="34.0" y1="2708.0" x2="1846.0" y2="2708.0" class="g35s1"/>
+<rect x="34.0" y="2708.0" width="1812.0" height="22.7" rx="0" class="g35s38"/>
+<text y="2722.9" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="27.2" lengthAdjust="spacing">row 9</tspan></text>
+<text y="2722.9" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> B, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 3</tspan></text>
+<text y="2722.9" xml:space="preserve" class="g35s8"><tspan x="413.0" textLength="39.1" lengthAdjust="spacing">sleeping</tspan></text>
+<text x="603.0" y="2722.9" class="g35s11">0.000071</text>
+<text x="773.0" y="2722.9" class="g35s11">9.5501</text>
+<text y="2722.9" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="37.4" lengthAdjust="spacing">counted</tspan></text>
+<line x1="34.0" y1="2730.7" x2="1846.0" y2="2730.7" class="g35s1"/>
+<text y="2745.6" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="33.4" lengthAdjust="spacing">row 10</tspan></text>
+<text y="2745.6" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> B, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 4</tspan></text>
+<text y="2745.6" xml:space="preserve" class="g35s8"><tspan x="413.0" textLength="47.3" lengthAdjust="spacing">peacefully</tspan></text>
+<text x="603.0" y="2745.6" class="g35s11">0.000076</text>
+<text x="773.0" y="2745.6" class="g35s11">9.4877</text>
+<text y="2745.6" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="37.4" lengthAdjust="spacing">counted</tspan></text>
+<line x1="34.0" y1="2753.4" x2="1846.0" y2="2753.4" class="g35s1"/>
+<rect x="34.0" y="2753.4" width="1812.0" height="22.7" rx="0" class="g35s38"/>
+<text y="2768.3" xml:space="preserve" class="g35s26"><tspan x="43.0" class="g35s0" textLength="33.4" lengthAdjust="spacing">row 11</tspan></text>
+<text y="2768.3" xml:space="preserve" class="g35s8"><tspan x="153.0" class="g35s19" textLength="17.8" lengthAdjust="spacing">seq</tspan><tspan x="170.8" textLength="15.8" lengthAdjust="spacing"> B, </tspan><tspan x="186.6" class="g35s0" textLength="47.6" lengthAdjust="spacing">position 5</tspan></text>
+<text y="2768.3" xml:space="preserve" class="g35s8"><tspan x="415.5" class="g35s121" textLength="29.7" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<text x="603.0" y="2768.3" class="g35s11">0.000059</text>
+<text x="773.0" y="2768.3" class="g35s11">9.7351</text>
+<text y="2768.3" xml:space="preserve" class="g35s8"><tspan x="923.0" textLength="37.4" lengthAdjust="spacing">counted</tspan></text>
+<line x1="34.0" y1="2776.1" x2="1846.0" y2="2776.1" class="g35s1"/>
+<rect x="34.0" y="2503.7" width="1812.0" height="272.4" rx="0" class="g35s86"/>
+<line x1="144.0" y1="2503.7" x2="144.0" y2="2776.1" class="g35s1"/>
+<line x1="404.0" y1="2503.7" x2="404.0" y2="2776.1" class="g35s1"/>
+<line x1="594.0" y1="2503.7" x2="594.0" y2="2776.1" class="g35s1"/>
+<line x1="764.0" y1="2503.7" x2="764.0" y2="2776.1" class="g35s1"/>
+<line x1="914.0" y1="2503.7" x2="914.0" y2="2776.1" class="g35s1"/>
+<rect x="34.0" y="2796.1" width="1812.0" height="72.6" rx="6" class="g35s72"/>
+<path d="M38.50 2796.81 A5.50 5.50 0 0 0 34.50 2802.10 V2862.66 A5.50 5.50 0 0 0 38.50 2867.95 Z" class="g35s73"/>
+<text y="2822.1" xml:space="preserve" class="g35s44"><tspan x="50.0" class="g35s4" textLength="275.0" lengthAdjust="spacing">The number you can check against the notebook</tspan></text>
+<text y="2839.6" xml:space="preserve" class="g35s22"><tspan x="50.0" textLength="90.7" lengthAdjust="spacing">The mean of the </tspan><tspan x="140.7" class="g35s0" textLength="96.2" lengthAdjust="spacing">9 counted values</tspan><tspan x="236.9" textLength="15.3" lengthAdjust="spacing"> is </tspan><tspan x="252.2" class="g35s0" textLength="38.9" lengthAdjust="spacing">9.5737</tspan><tspan x="291.1" textLength="396.9" lengthAdjust="spacing">. A model that knew nothing at all and spread its probability evenly over all </tspan><tspan x="688.0" class="g35s0" textLength="76.4" lengthAdjust="spacing">12,917 words</tspan><tspan x="764.3" textLength="70.7" lengthAdjust="spacing"> would score </tspan><tspan x="835.0" class="g35s23" textLength="129.0" lengthAdjust="spacing">ln(12,917) = 9.4663</tspan><tspan x="964.0" textLength="213.3" lengthAdjust="spacing">, and the notebook’s real run started at </tspan><tspan x="1177.4" class="g35s0" textLength="53.0" lengthAdjust="spacing">9.465688</tspan><tspan x="1230.4" textLength="598.3" lengthAdjust="spacing"> — so this untrained number is exactly where it should be. Training pushes it down by making the highlighted cell</tspan></text>
+<text y="2857.1" xml:space="preserve" class="g35s22"><tspan x="50.0" textLength="42.0" lengthAdjust="spacing">in each </tspan><tspan x="92.0" class="g35s23" textLength="40.7" lengthAdjust="spacing">logits</tspan><tspan x="132.8" textLength="159.4" lengthAdjust="spacing"> row the largest in its row; the </tspan><tspan x="292.2" class="g35s0" textLength="87.7" lengthAdjust="spacing">3 dropped rows</tspan><tspan x="379.8" textLength="440.2" lengthAdjust="spacing"> never take part, so the model is never rewarded for confidently predicting padding.</tspan></text>
+<rect x="34.0" y="2892.7" width="1812.0" height="30.0" rx="6" class="g35s43"/>
+<path d="M38.50 2893.37 A5.50 5.50 0 0 0 34.50 2898.66 V2916.66 A5.50 5.50 0 0 0 38.50 2921.95 Z" class="g35s48"/>
+<text y="2912.7" xml:space="preserve" class="g35s59"><tspan x="50.0" class="g35s4" textLength="380.7" lengthAdjust="spacing">D · The optimisation setup — and the three things it leaves out</tspan></text>
+<text y="2912.7" xml:space="preserve" class="g35s60"><tspan x="448.7" class="g35s13" textLength="84.6" lengthAdjust="spacing">Adam(lr=1e-3)</tspan><tspan x="533.3">, </tspan><tspan x="539.7" class="g35s0" textLength="63.0" lengthAdjust="spacing">100 epochs</tspan><tspan x="602.7" textLength="72.9" lengthAdjust="spacing">, one batch of </tspan><tspan x="675.6" class="g35s0">2</tspan><tspan x="682.4" textLength="129.8" lengthAdjust="spacing">, no schedule, no clipping</tspan></text>
+<text y="2940.7" xml:space="preserve" class="g35s44"><tspan x="38.0" class="g35s4" textLength="185.2" lengthAdjust="spacing">What the training loop leaves out</tspan></text>
+<text y="2958.7" xml:space="preserve" class="g35s22"><tspan x="38.0" textLength="1294.6" lengthAdjust="spacing">The loop above is correct and will train this model. It also leaves out three things that serious training scripts have. Knowing which three — and why they can be skipped here — is most of the difference between reading a tutorial and writing one.</tspan></text>
+<text y="2991.1" xml:space="preserve" class="g35s39"><tspan x="34.0" class="g35s4" textLength="245.9" lengthAdjust="spacing">Reading the training loop for what is NOT in it</tspan></text>
+<rect x="34.0" y="3000.1" width="1812.0" height="24.0" rx="4" class="g35s43"/>
+<text y="3016.1" xml:space="preserve" class="g35s29"><tspan x="43.0" class="g35s4" textLength="23.5" lengthAdjust="spacing">what</tspan></text>
+<text y="3016.1" xml:space="preserve" class="g35s29"><tspan x="243.0" class="g35s4" textLength="120.0" lengthAdjust="spacing">what this notebook does</tspan></text>
+<text y="3016.1" xml:space="preserve" class="g35s29"><tspan x="623.0" class="g35s4" textLength="323.5" lengthAdjust="spacing">what a production script would add, and why it is safe to skip here</tspan></text>
+<text y="3047.2" xml:space="preserve" class="g35s88"><tspan x="43.0" class="g35s4" textLength="64.8" lengthAdjust="spacing">learning rate</tspan></text>
+<text y="3047.2" xml:space="preserve" class="g35s21"><tspan x="243.0" textLength="26.3" lengthAdjust="spacing">fixed </tspan><tspan x="269.3" class="g35s0" textLength="23.3" lengthAdjust="spacing">1e-3</tspan><tspan x="292.6" textLength="141.8" lengthAdjust="spacing">, from the first step to the last</tspan></text>
+<text y="3039.5" xml:space="preserve" class="g35s21"><tspan x="623.0" textLength="18.3" lengthAdjust="spacing">the </tspan><tspan x="641.3" class="g35s0" textLength="25.9" lengthAdjust="spacing">2017</tspan><tspan x="667.3" textLength="260.4" lengthAdjust="spacing"> paper uses the Noam schedule: warm up linearly for </tspan><tspan x="927.7" class="g35s0" textLength="60.3" lengthAdjust="spacing">4,000 steps</tspan><tspan x="988.0" textLength="77.7" lengthAdjust="spacing">, then decay as </tspan><tspan x="1065.7" class="g35s20" textLength="74.7" lengthAdjust="spacing">1/sqrt(step)</tspan><tspan x="1140.4" textLength="193.2" lengthAdjust="spacing">. Post-norm Transformers (section D of </tspan><tspan x="1333.5" class="g35s0" textLength="38.2" lengthAdjust="spacing">step 16</tspan><tspan x="1371.8" textLength="217.1" lengthAdjust="spacing">) genuinely need that warmup at depth — at </tspan><tspan x="1588.8" class="g35s0" textLength="40.8" lengthAdjust="spacing">2 layers</tspan><tspan x="1629.6" textLength="30.0" lengthAdjust="spacing"> a flat </tspan><tspan x="1659.6" class="g35s0" textLength="23.3" lengthAdjust="spacing">1e-3</tspan><tspan x="1682.9" textLength="59.3" lengthAdjust="spacing"> is fine, and </tspan><tspan x="1742.3" class="g35s20" textLength="24.9" lengthAdjust="spacing">Adam</tspan><tspan x="1767.2" textLength="30.8" lengthAdjust="spacing">&#x27;s own</tspan></text>
+<text y="3054.9" xml:space="preserve" class="g35s21"><tspan x="623.0" textLength="323.4" lengthAdjust="spacing">per-parameter scaling covers most of what the schedule would do.</tspan></text>
+<line x1="34.0" y1="3062.9" x2="1846.0" y2="3062.9" class="g35s1"/>
+<rect x="34.0" y="3062.9" width="1812.0" height="23.4" rx="0" class="g35s38"/>
+<text y="3078.3" xml:space="preserve" class="g35s88"><tspan x="43.0" class="g35s4" textLength="84.9" lengthAdjust="spacing">gradient clipping</tspan></text>
+<text y="3078.3" xml:space="preserve" class="g35s21"><tspan x="243.0" textLength="24.5" lengthAdjust="spacing">none</tspan></text>
+<text y="3078.3" xml:space="preserve" class="g35s21"><tspan x="623.0" class="g35s20" textLength="249.0" lengthAdjust="spacing">clip_grad_norm_(model.parameters(), 1.0)</tspan><tspan x="872.0" textLength="424.9" lengthAdjust="spacing"> is standard insurance against a single bad batch producing an enormous update. With </tspan><tspan x="1296.9" class="g35s0" textLength="87.5" lengthAdjust="spacing">2 fixed examples</tspan><tspan x="1384.4" textLength="354.7" lengthAdjust="spacing"> and no data noise there is no bad batch to guard against, so it is left out.</tspan></text>
+<line x1="34.0" y1="3086.3" x2="1846.0" y2="3086.3" class="g35s1"/>
+<text y="3109.4" xml:space="preserve" class="g35s88"><tspan x="43.0" class="g35s4" textLength="97.2" lengthAdjust="spacing">batching / shuffling</tspan></text>
+<text y="3109.4" xml:space="preserve" class="g35s21"><tspan x="243.0" textLength="220.1" lengthAdjust="spacing">the entire dataset is one batch, reused every </tspan><tspan x="463.1" class="g35s20" textLength="31.1" lengthAdjust="spacing">epoch</tspan></text>
+<text y="3101.7" xml:space="preserve" class="g35s21"><tspan x="623.0" textLength="54.4" lengthAdjust="spacing">there is no </tspan><tspan x="677.4" class="g35s20" textLength="62.2" lengthAdjust="spacing">DataLoader</tspan><tspan x="739.7" textLength="82.2" lengthAdjust="spacing"> and no shuffle: &quot;</tspan><tspan x="821.8" class="g35s0" textLength="60.3" lengthAdjust="spacing">100 epochs</tspan><tspan x="882.1" textLength="105.4" lengthAdjust="spacing">&quot; here means exactly </tspan><tspan x="987.5" class="g35s0" textLength="19.4" lengthAdjust="spacing">100</tspan><tspan x="1007.0"> </tspan><tspan x="1010.0" class="g35s20" textLength="24.9" lengthAdjust="spacing">Adam</tspan><tspan x="1034.9" textLength="276.4" lengthAdjust="spacing"> updates on the same two sentences. Each update sees </tspan><tspan x="1311.3" class="g35s0" textLength="103.7" lengthAdjust="spacing">9 supervised tokens</tspan><tspan x="1415.0" textLength="140.0" lengthAdjust="spacing">, so the whole training run is </tspan><tspan x="1555.0" class="g35s0" textLength="138.7" lengthAdjust="spacing">900 supervised predictions</tspan><tspan x="1693.7" textLength="38.5" lengthAdjust="spacing"> against</tspan></text>
+<text y="3117.1" xml:space="preserve" class="g35s21"><tspan x="623.0" class="g35s0" textLength="120.6" lengthAdjust="spacing">28,268,661 parameters</tspan><tspan x="743.6">.</tspan></text>
+<line x1="34.0" y1="3125.1" x2="1846.0" y2="3125.1" class="g35s1"/>
+<rect x="34.0" y="3024.1" width="1812.0" height="101.0" rx="0" class="g35s86"/>
+<line x1="234.0" y1="3024.1" x2="234.0" y2="3125.1" class="g35s1"/>
+<line x1="614.0" y1="3024.1" x2="614.0" y2="3125.1" class="g35s1"/>
+<rect x="34.0" y="3143.1" width="896.0" height="90.1" rx="6" class="g35s72"/>
+<path d="M38.50 3143.77 A5.50 5.50 0 0 0 34.50 3149.06 V3227.14 A5.50 5.50 0 0 0 38.50 3232.43 Z" class="g35s73"/>
+<text y="3169.1" xml:space="preserve" class="g35s44"><tspan x="50.0" class="g35s4" textLength="33.2" lengthAdjust="spacing">What </tspan><tspan x="83.2" class="g35s0" textLength="65.8" lengthAdjust="spacing">100 epochs</tspan><tspan x="149.0" class="g35s4" textLength="21.2" lengthAdjust="spacing"> on </tspan><tspan x="170.2" class="g35s0" textLength="65.0" lengthAdjust="spacing">2 examples</tspan><tspan x="235.2" class="g35s4" textLength="46.6" lengthAdjust="spacing"> really is</tspan></text>
+<text y="3186.6" xml:space="preserve" class="g35s22"><tspan x="50.0" class="g35s0" textLength="131.5" lengthAdjust="spacing">28,268,661 parameters</tspan><tspan x="181.5" textLength="30.0" lengthAdjust="spacing">, and </tspan><tspan x="211.5" class="g35s0" textLength="129.4" lengthAdjust="spacing">900 graded predictions</tspan><tspan x="340.9" textLength="128.1" lengthAdjust="spacing"> in the whole run: about </tspan><tspan x="469.0" class="g35s0" textLength="106.8" lengthAdjust="spacing">31,400 parameters</tspan><tspan x="575.8" textLength="334.8" lengthAdjust="spacing"> for every training signal the model will ever receive. So it is not</tspan></text>
+<text y="3204.1" xml:space="preserve" class="g35s22"><tspan x="50.0" textLength="438.8" lengthAdjust="spacing">learning the language — it is memorising two sentence pairs, which is exactly why </tspan><tspan x="488.8" class="g35s23" textLength="67.9" lengthAdjust="spacing">generate()</tspan><tspan x="556.7" textLength="232.1" lengthAdjust="spacing"> can reproduce the targets word for word in </tspan><tspan x="788.8" class="g35s0" textLength="41.7" lengthAdjust="spacing">step 18</tspan><tspan x="830.6" textLength="62.7" lengthAdjust="spacing">. That is the</tspan></text>
+<text y="3221.6" xml:space="preserve" class="g35s22"><tspan x="50.0" textLength="667.7" lengthAdjust="spacing">right outcome for a demonstration and a useless one for a real model; the code is identical either way, only the dataset differs.</tspan></text>
+<rect x="950.0" y="3143.1" width="896.0" height="107.6" rx="6" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:1"/>
+<path d="M954.50 3143.77 A5.50 5.50 0 0 0 950.50 3149.06 V3244.66 A5.50 5.50 0 0 0 954.50 3249.95 Z" class="g35s48"/>
+<text y="3169.1" xml:space="preserve" class="g35s44"><tspan x="966.0" class="g35s4" textLength="33.2" lengthAdjust="spacing">What </tspan><tspan x="999.2" class="g35s23" textLength="27.2" lengthAdjust="spacing">Adam</tspan><tspan x="1026.4" class="g35s4" textLength="160.5" lengthAdjust="spacing"> allocates behind the scenes</tspan></text>
+<text y="3186.6" xml:space="preserve" class="g35s22"><tspan x="966.0" class="g35s23" textLength="27.2" lengthAdjust="spacing">Adam</tspan><tspan x="993.2" textLength="700.3" lengthAdjust="spacing"> keeps two extra tensors for every parameter — a running average of its gradient and of the gradient squared — created on the first </tspan><tspan x="1693.5" class="g35s23" textLength="108.6" lengthAdjust="spacing">optimizer.step()</tspan><tspan x="1802.2" textLength="21.3" lengthAdjust="spacing">. So</tspan></text>
+<text y="3204.1" xml:space="preserve" class="g35s22"><tspan x="966.0" textLength="347.1" lengthAdjust="spacing">at that moment the memory for the weights roughly triples, from ~</tspan><tspan x="1313.1" class="g35s0" textLength="43.8" lengthAdjust="spacing">113 MB</tspan><tspan x="1357.0" textLength="23.7" lengthAdjust="spacing"> to ~</tspan><tspan x="1380.7" class="g35s0" textLength="43.8" lengthAdjust="spacing">339 MB</tspan><tspan x="1424.5" textLength="268.8" lengthAdjust="spacing">, before any activations are counted. It is also why </tspan><tspan x="1693.3" class="g35s23" textLength="101.9" lengthAdjust="spacing">loss.backward()</tspan><tspan x="1795.1" textLength="29.3" lengthAdjust="spacing"> must</tspan></text>
+<text y="3221.6" xml:space="preserve" class="g35s22"><tspan x="966.0" textLength="60.0" lengthAdjust="spacing">come after </tspan><tspan x="1026.0" class="g35s23" textLength="142.6" lengthAdjust="spacing">optimizer.zero_grad()</tspan><tspan x="1168.6" textLength="412.8" lengthAdjust="spacing">: PyTorch ADDS new gradients to .grad instead of overwriting it, so a missing </tspan><tspan x="1581.4" class="g35s23" textLength="74.7" lengthAdjust="spacing">zero_grad()</tspan><tspan x="1656.1" textLength="108.0" lengthAdjust="spacing"> silently sums every </tspan><tspan x="1764.2" class="g35s23" textLength="34.0" lengthAdjust="spacing">epoch</tspan><tspan x="1798.1" textLength="13.2" lengthAdjust="spacing">’s</tspan></text>
+<text y="3239.1" xml:space="preserve" class="g35s22"><tspan x="966.0" textLength="100.1" lengthAdjust="spacing">gradients together.</tspan></text>
+<rect x="34.0" y="3272.7" width="1812.0" height="34.0" rx="6" class="g35s104"/>
+<rect x="48.0" y="3281.7" width="15.0" height="15.0" rx="3" class="g35s105"/>
+<text y="3292.7" xml:space="preserve" class="g35s21"><tspan x="70.0" textLength="256.7" lengthAdjust="spacing">sequence A — &quot;the dog sat on the floor&quot; (padded by </tspan><tspan x="326.7" class="g35s0">1</tspan><tspan x="333.2">)</tspan></text>
+<rect x="373.1" y="3281.7" width="15.0" height="15.0" rx="3" class="g35s106"/>
+<text y="3292.7" xml:space="preserve" class="g35s21"><tspan x="395.1" textLength="386.3" lengthAdjust="spacing">sequence B — &quot;the cat is sleeping on the sofa&quot; (no padding — it sets the width)</tspan></text>
+<rect x="822.9" y="3281.7" width="15.0" height="15.0" rx="3" style="fill:url(#hatch35);stroke:var(--pad);stroke-width:1"/>
+<rect x="844.9" y="3282.8" width="36.1" height="13.4" rx="3" class="g35s69"/>
+<text y="3292.7" xml:space="preserve" class="g35s21"><tspan x="847.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--pad)" textLength="31.1" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="881.0" textLength="63.6" lengthAdjust="spacing"> token or row</tspan></text>
+<rect x="973.9" y="3281.7" width="15.0" height="15.0" rx="3" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:1"/>
+<text y="3292.7" xml:space="preserve" class="g35s21"><tspan x="995.9" textLength="46.5" lengthAdjust="spacing">allowed / </tspan><tspan x="1042.3" class="g35s20" textLength="24.9" lengthAdjust="spacing">True</tspan><tspan x="1067.2" textLength="75.2" lengthAdjust="spacing"> / the target cell</tspan></text>
+<rect x="1171.9" y="3281.7" width="15.0" height="15.0" rx="3" style="fill:var(--pos);stroke:var(--pos);stroke-width:1;opacity:0.35"/>
+<text y="3292.7" xml:space="preserve" class="g35s21"><tspan x="1193.9" textLength="66.6" lengthAdjust="spacing">positive value</tspan></text>
+<rect x="1289.2" y="3281.7" width="15.0" height="15.0" rx="3" style="fill:var(--neg);stroke:var(--neg);stroke-width:1;opacity:0.35"/>
+<text y="3292.7" xml:space="preserve" class="g35s21"><tspan x="1311.2" textLength="70.9" lengthAdjust="spacing">negative value</tspan></text>
+<line x1="28.0" y1="3332.7" x2="1852.0" y2="3332.7" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="3349.7" xml:space="preserve" class="g35s77"><tspan x="28.0" textLength="407.8" lengthAdjust="spacing">Numbers are a real forward pass of a freshly initialised model of exactly this shape (</tspan><tspan x="435.8" class="g35s20" textLength="68.5" lengthAdjust="spacing">d_model=512</tspan><tspan x="504.2">, </tspan><tspan x="510.3" class="g35s20" textLength="43.6" lengthAdjust="spacing">heads=4</tspan><tspan x="553.9">, </tspan><tspan x="560.0" class="g35s20" textLength="49.8" lengthAdjust="spacing">layers=2</tspan><tspan x="609.8">, </tspan><tspan x="615.9" class="g35s20" textLength="49.8" lengthAdjust="spacing">d_ff=512</tspan><tspan x="665.7">, </tspan><tspan x="671.9" class="g35s20" textLength="68.5" lengthAdjust="spacing">dropout=0.1</tspan><tspan x="740.3" textLength="323.4" lengthAdjust="spacing">), computed in pure Python: shapes, masks, positional encodings, </tspan><tspan x="1063.8" class="g35s20" textLength="43.6" lengthAdjust="spacing">softmax</tspan><tspan x="1107.3" textLength="103.3" lengthAdjust="spacing"> rows, the activation, </tspan><tspan x="1210.7" class="g35s20" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1266.7" textLength="69.7" lengthAdjust="spacing"> statistics and </tspan><tspan x="1336.4" class="g35s20" textLength="43.6" lengthAdjust="spacing">dropout</tspan><tspan x="1380.0" textLength="454.5" lengthAdjust="spacing"> scaling are exact; the learned weights are seeded draws from the notebook&#x27;s own initialisers,</tspan></text>
+<text y="3364.7" xml:space="preserve" class="g35s77"><tspan x="28.0" textLength="179.8" lengthAdjust="spacing">not values from a trained checkpoint.</tspan></text>
+</svg>

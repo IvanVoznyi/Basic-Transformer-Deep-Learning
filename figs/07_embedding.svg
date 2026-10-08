@@ -1,0 +1,514 @@
+<svg data-src="07_embedding.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1479" viewBox="0 0 1880 1479">
+<style>.txfig .g15s0{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g15s1{font-weight:600;fill:var(--ink)}.txfig .g15s2{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g15s3{fill:var(--op)}.txfig .g15s4{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px}.txfig .g15s5{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g15s6{font-weight:600}.txfig .g15s7{fill:var(--code)}.txfig .g15s8{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px}.txfig .g15s9{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g15s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g15s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g15s12{fill:url(#hatch15);stroke:none;stroke-width:1}.txfig .g15s13{fill:var(--pad);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g15s14{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.101}.txfig .g15s15{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.212}.txfig .g15s16{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.3}.txfig .g15s17{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.143}.txfig .g15s18{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.147}.txfig .g15s19{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g15s20{fill:var(--kw)}.txfig .g15s21{fill:var(--padbg);stroke:var(--pad);stroke-width:0.8}.txfig .g15s22{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g15s23{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g15s24{fill:var(--fn)}.txfig .g15s25{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g15s26{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g15s27{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g15s28{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:end}.txfig .g15s29{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g15s30{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.115}.txfig .g15s31{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.149}.txfig .g15s32{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.298}.txfig .g15s33{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.116}.txfig .g15s34{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.114}.txfig .g15s35{fill:none;stroke:var(--grid);stroke-width:1.2}.txfig .g15s36{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g15s37{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)}.txfig .g15s38{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g15s39{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)}.txfig .g15s40{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g15s41{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g15s42{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g15s43{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--pad)}.txfig .g15s44{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g15s45{fill:var(--keep);stroke:none}.txfig .g15s46{fill:var(--attr)}.txfig .g15s47{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g15s48{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.133}.txfig .g15s49{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.195}.txfig .g15s50{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.141}.txfig .g15s51{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.233}.txfig .g15s52{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.217}.txfig .g15s53{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.099}.txfig .g15s54{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.221}.txfig .g15s55{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.289}.txfig .g15s56{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.215}.txfig .g15s57{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.095}.txfig .g15s58{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.277}.txfig .g15s59{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.073}.txfig .g15s60{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.257}.txfig .g15s61{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.256}.txfig .g15s62{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.4px;font-weight:600;fill:var(--pad)}.txfig .g15s63{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.129}.txfig .g15s64{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.196}.txfig .g15s65{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.16}.txfig .g15s66{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.253}.txfig .g15s67{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.215}.txfig .g15s68{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.097}.txfig .g15s69{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.08}.txfig .g15s70{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.24}.txfig .g15s71{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.113}.txfig .g15s72{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.096}.txfig .g15s73{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.076}.txfig .g15s74{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.094}.txfig .g15s75{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.152}.txfig .g15s76{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.224}.txfig .g15s77{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.281}.txfig .g15s78{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.093}.txfig .g15s79{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.167}.txfig .g15s80{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.137}.txfig .g15s81{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.113}.txfig .g15s82{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--pad)}.txfig .g15s83{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g15s84{fill:var(--accent);stroke:none}.txfig .g15s85{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch15" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash15" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1479" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">STEP 7 / 18</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="150.0" class="g15s37" textLength="107.0" lengthAdjust="spacing">Embedding</tspan><tspan x="257.0" class="g15s6"> </tspan><tspan x="263.1" class="g15s37" textLength="261.4" lengthAdjust="spacing">lookup × sqrt(d_model)</tspan><tspan x="524.6" class="g15s6"> → </tspan><tspan x="559.2" class="g15s37" textLength="130.7" lengthAdjust="spacing">(2, 7, 512)</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g15s26" textLength="360.5" lengthAdjust="spacing">self.src_embedding(src) * math.sqrt(self.d_model)</tspan></text>
+<rect x="271.3" y="74.7" width="37.5" height="14.0" rx="3" class="g15s21"/>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="136.8" lengthAdjust="spacing">Integer ids become lists of </tspan><tspan x="170.8" class="g15s1" textLength="71.1" lengthAdjust="spacing">512 numbers</tspan><tspan x="241.9" textLength="29.4" lengthAdjust="spacing">. The </tspan><tspan x="273.8" class="g15s43" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="308.9" textLength="313.2" lengthAdjust="spacing"> row is looked up like any other token — and it is not a row of </tspan><tspan x="622.1" class="g15s22" textLength="32.5" lengthAdjust="spacing">zeros</tspan><tspan x="654.6">.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="107.0" rx="8" class="g15s44"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V219.00 A7.50 7.50 0 0 0 39.50 226.07 Z" class="g15s45"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g15s6" textLength="438.0" lengthAdjust="spacing">Where a number stops being a label and starts to mean something</tspan></text>
+<text y="169.0" xml:space="preserve" class="g15s38"><tspan x="54.0" textLength="16.6" lengthAdjust="spacing">Up</tspan><tspan x="70.6"> </tspan><tspan x="74.6" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="85.5"> </tspan><tspan x="89.5" textLength="26.0" lengthAdjust="spacing">here</tspan><tspan x="115.5"> </tspan><tspan x="119.5" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="147.6"> </tspan><tspan x="151.6" textLength="28.2" lengthAdjust="spacing">word</tspan><tspan x="179.8"> </tspan><tspan x="183.8" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="193.2"> </tspan><tspan x="197.2" textLength="20.2" lengthAdjust="spacing">just</tspan><tspan x="217.4"> </tspan><tspan x="221.4" textLength="14.5" lengthAdjust="spacing">an</tspan><tspan x="235.9"> </tspan><tspan x="239.9" textLength="43.4" lengthAdjust="spacing">integer,</tspan><tspan x="283.2"> </tspan><tspan x="287.2" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="308.9"> </tspan><tspan x="312.9" textLength="46.2" lengthAdjust="spacing">integers</tspan><tspan x="359.2"> </tspan><tspan x="363.2" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="384.8"> </tspan><tspan x="388.8" textLength="18.8" lengthAdjust="spacing">are</tspan><tspan x="407.6"> </tspan><tspan x="411.6" textLength="30.3" lengthAdjust="spacing">close</tspan><tspan x="442.0"> </tspan><tspan x="446.0" textLength="47.7" lengthAdjust="spacing">together</tspan><tspan x="493.7"> </tspan><tspan x="497.7" textLength="32.5" lengthAdjust="spacing">mean</tspan><tspan x="530.2"> </tspan><tspan x="534.2" textLength="46.3" lengthAdjust="spacing">nothing:</tspan><tspan x="580.4"> </tspan><tspan x="584.4" class="g15s1" textLength="45.2" lengthAdjust="spacing">id 3380</tspan><tspan x="629.6"> </tspan><tspan x="633.6" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="655.3"> </tspan><tspan x="659.3" class="g15s1" textLength="45.2" lengthAdjust="spacing">id 3381</tspan><tspan x="704.5"> </tspan><tspan x="708.5" textLength="18.8" lengthAdjust="spacing">are</tspan><tspan x="727.3"> </tspan><tspan x="731.3" textLength="18.1" lengthAdjust="spacing">not</tspan><tspan x="749.4"> </tspan><tspan x="753.4" textLength="42.2" lengthAdjust="spacing">&quot;similar</tspan><tspan x="795.5"> </tspan><tspan x="799.5" textLength="42.9" lengthAdjust="spacing">words&quot;.</tspan><tspan x="842.4"> </tspan><tspan x="846.4" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="868.8"> </tspan><tspan x="872.8" textLength="64.3" lengthAdjust="spacing">embedding</tspan><tspan x="937.1"> </tspan><tspan x="941.1" textLength="28.2" lengthAdjust="spacing">table</tspan><tspan x="969.3"> </tspan><tspan x="973.3" textLength="26.7" lengthAdjust="spacing">fixes</tspan><tspan x="1000.0"> </tspan><tspan x="1004.0" textLength="25.3" lengthAdjust="spacing">that.</tspan><tspan x="1029.3"> </tspan><tspan x="1033.3" textLength="7.2" lengthAdjust="spacing">It</tspan><tspan x="1040.6"> </tspan><tspan x="1044.6" textLength="30.3" lengthAdjust="spacing">gives</tspan><tspan x="1074.9"> </tspan><tspan x="1078.9" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="1110.7"> </tspan><tspan x="1114.7" textLength="10.1" lengthAdjust="spacing">id</tspan><tspan x="1124.8"> </tspan><tspan x="1128.8" textLength="13.0" lengthAdjust="spacing">its</tspan><tspan x="1141.8"> </tspan><tspan x="1145.8" textLength="23.8" lengthAdjust="spacing">own</tspan><tspan x="1169.6"> </tspan><tspan x="1173.6" textLength="15.9" lengthAdjust="spacing">list</tspan><tspan x="1189.5"> </tspan><tspan x="1193.5" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="1204.4"> </tspan><tspan x="1208.4" class="g15s1" textLength="80.4" lengthAdjust="spacing">512 numbers</tspan><tspan x="1288.8"> </tspan><tspan x="1292.8">—</tspan><tspan x="1305.8"> </tspan><tspan x="1309.8" textLength="27.5" lengthAdjust="spacing">think</tspan><tspan x="1337.2"> </tspan><tspan x="1341.2" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="1352.1"> </tspan><tspan x="1356.1" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="1362.6"> </tspan><tspan x="1366.6" textLength="13.7" lengthAdjust="spacing">as</tspan><tspan x="1380.3"> </tspan><tspan x="1384.3">a</tspan><tspan x="1391.5"> </tspan><tspan x="1395.5" textLength="28.2" lengthAdjust="spacing">point</tspan><tspan x="1423.7"> </tspan><tspan x="1427.7" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="1437.8"> </tspan><tspan x="1441.8">a</tspan><tspan x="1449.0"> </tspan><tspan x="1453.0" class="g15s1" textLength="101.1" lengthAdjust="spacing">512-dimensional</tspan><tspan x="1554.1"> </tspan><tspan x="1558.1" textLength="34.7" lengthAdjust="spacing">space</tspan><tspan x="1592.8"> </tspan><tspan x="1596.8">—</tspan><tspan x="1609.8"> </tspan><tspan x="1613.8" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1635.5"> </tspan><tspan x="1639.5" textLength="36.1" lengthAdjust="spacing">during</tspan><tspan x="1675.6"> </tspan><tspan x="1679.6" textLength="42.6" lengthAdjust="spacing">training</tspan><tspan x="1722.2"> </tspan><tspan x="1726.2" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1744.3"> </tspan><tspan x="1748.3" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="1783.7"> </tspan><tspan x="1787.7" textLength="38.3" lengthAdjust="spacing">moves</tspan></text>
+<text y="188.0" xml:space="preserve" class="g15s38"><tspan x="54.0" textLength="31.8" lengthAdjust="spacing">those</tspan><tspan x="85.8"> </tspan><tspan x="89.8" textLength="34.7" lengthAdjust="spacing">points</tspan><tspan x="124.5"> </tspan><tspan x="128.5" textLength="13.7" lengthAdjust="spacing">so</tspan><tspan x="142.2"> </tspan><tspan x="146.2" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="167.9"> </tspan><tspan x="171.9" textLength="34.7" lengthAdjust="spacing">words</tspan><tspan x="206.6"> </tspan><tspan x="210.6" textLength="28.2" lengthAdjust="spacing">used</tspan><tspan x="238.8"> </tspan><tspan x="242.8" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="252.9"> </tspan><tspan x="256.9" textLength="37.5" lengthAdjust="spacing">similar</tspan><tspan x="294.5"> </tspan><tspan x="298.5" textLength="29.6" lengthAdjust="spacing">ways</tspan><tspan x="328.1"> </tspan><tspan x="332.1" textLength="21.7" lengthAdjust="spacing">end</tspan><tspan x="353.8"> </tspan><tspan x="357.8" textLength="14.5" lengthAdjust="spacing">up</tspan><tspan x="372.3"> </tspan><tspan x="376.3" textLength="30.3" lengthAdjust="spacing">close</tspan><tspan x="406.6"> </tspan><tspan x="410.6" textLength="51.3" lengthAdjust="spacing">together.</tspan><tspan x="461.9"> </tspan><tspan x="465.9" textLength="44.8" lengthAdjust="spacing">Nobody</tspan><tspan x="510.7"> </tspan><tspan x="514.7" textLength="23.1" lengthAdjust="spacing">tells</tspan><tspan x="537.9"> </tspan><tspan x="541.9" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="548.4"> </tspan><tspan x="552.4" textLength="35.4" lengthAdjust="spacing">where</tspan><tspan x="587.8"> </tspan><tspan x="591.8" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="602.6"> </tspan><tspan x="606.6" textLength="18.1" lengthAdjust="spacing">put</tspan><tspan x="624.7"> </tspan><tspan x="628.7" textLength="32.5" lengthAdjust="spacing">them;</tspan><tspan x="661.2"> </tspan><tspan x="665.2" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="683.3"> </tspan><tspan x="687.3" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="722.7"> </tspan><tspan x="726.7" textLength="41.2" lengthAdjust="spacing">invents</tspan><tspan x="767.9"> </tspan><tspan x="771.9" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="790.0"> </tspan><tspan x="794.0" textLength="34.7" lengthAdjust="spacing">layout</tspan><tspan x="828.7"> </tspan><tspan x="832.7" textLength="30.3" lengthAdjust="spacing">itself.</tspan><tspan x="863.0"> </tspan><tspan x="867.0" textLength="61.4" lengthAdjust="spacing">Everything</tspan><tspan x="928.4"> </tspan><tspan x="932.5" textLength="25.3" lengthAdjust="spacing">later</tspan><tspan x="957.7"> </tspan><tspan x="961.7" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="971.1"> </tspan><tspan x="975.1" textLength="54.2" lengthAdjust="spacing">geometry</tspan><tspan x="1029.3"> </tspan><tspan x="1033.3" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="1047.8"> </tspan><tspan x="1051.8" textLength="31.8" lengthAdjust="spacing">these</tspan><tspan x="1083.6"> </tspan><tspan x="1087.6" textLength="38.3" lengthAdjust="spacing">points:</tspan><tspan x="1125.9"> </tspan><tspan x="1129.9" textLength="49.9" lengthAdjust="spacing">attention</tspan><tspan x="1179.8"> </tspan><tspan x="1183.8" textLength="57.1" lengthAdjust="spacing">measures</tspan><tspan x="1240.9"> </tspan><tspan x="1244.9" textLength="23.8" lengthAdjust="spacing">how</tspan><tspan x="1268.7"> </tspan><tspan x="1272.7" textLength="41.9" lengthAdjust="spacing">aligned</tspan><tspan x="1314.6"> </tspan><tspan x="1318.6" textLength="20.2" lengthAdjust="spacing">two</tspan><tspan x="1338.9"> </tspan><tspan x="1342.9" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="1353.7"> </tspan><tspan x="1357.7" textLength="28.9" lengthAdjust="spacing">them</tspan><tspan x="1386.6"> </tspan><tspan x="1390.6" textLength="22.4" lengthAdjust="spacing">are,</tspan><tspan x="1413.0"> </tspan><tspan x="1417.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1435.1"> </tspan><tspan x="1439.1" textLength="73.0" lengthAdjust="spacing">feed-forward</tspan><tspan x="1512.1"> </tspan><tspan x="1516.1" textLength="30.3" lengthAdjust="spacing">block</tspan><tspan x="1546.4"> </tspan><tspan x="1550.5" textLength="53.5" lengthAdjust="spacing">reshapes</tspan><tspan x="1603.9"> </tspan><tspan x="1607.9" textLength="32.5" lengthAdjust="spacing">them,</tspan><tspan x="1640.4"> </tspan><tspan x="1644.5" class="g15s26" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1710.7"> </tspan><tspan x="1714.7" textLength="48.4" lengthAdjust="spacing">rescales</tspan><tspan x="1763.1"> </tspan><tspan x="1767.1" textLength="32.5" lengthAdjust="spacing">them.</tspan><tspan x="1799.6"> </tspan><tspan x="1803.6" textLength="22.4" lengthAdjust="spacing">The</tspan></text>
+<text y="207.0" xml:space="preserve" class="g15s38"><tspan x="54.0" textLength="96.1" lengthAdjust="spacing">multiplication by </tspan><tspan x="150.1" class="g15s26" textLength="66.2" lengthAdjust="spacing">sqrt(512)</tspan><tspan x="216.3" textLength="680.7" lengthAdjust="spacing"> on the same line matters too — it keeps these vectors from being drowned out by the position information added next.</tspan></text>
+<text y="260.2" xml:space="preserve" class="g15s27"><tspan x="34.0" textLength="22.7" lengthAdjust="spacing">The</tspan><tspan x="56.7"> </tspan><tspan x="60.9" textLength="65.3" lengthAdjust="spacing">embedding</tspan><tspan x="126.2"> </tspan><tspan x="130.4" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="139.9"> </tspan><tspan x="144.0">a</tspan><tspan x="151.4"> </tspan><tspan x="155.5" class="g15s1" textLength="161.6" lengthAdjust="spacing">12,917 × 512 lookup table</tspan><tspan x="317.2">:</tspan><tspan x="320.8"> </tspan><tspan x="325.0" textLength="21.3" lengthAdjust="spacing">row</tspan><tspan x="346.3"> </tspan><tspan x="350.4">i</tspan><tspan x="353.3"> </tspan><tspan x="357.5" textLength="31.5" lengthAdjust="spacing">holds</tspan><tspan x="389.0"> </tspan><tspan x="393.2" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="411.6"> </tspan><tspan x="415.7" textLength="35.9" lengthAdjust="spacing">vector</tspan><tspan x="451.7"> </tspan><tspan x="455.8" textLength="15.4" lengthAdjust="spacing">for</tspan><tspan x="471.2"> </tspan><tspan x="475.4" textLength="32.3" lengthAdjust="spacing">token</tspan><tspan x="507.7"> </tspan><tspan x="511.8" textLength="10.3" lengthAdjust="spacing">id</tspan><tspan x="522.1"> </tspan><tspan x="526.2" textLength="6.6" lengthAdjust="spacing">i.</tspan><tspan x="532.8"> </tspan><tspan x="537.0" textLength="16.1" lengthAdjust="spacing">So</tspan><tspan x="553.1"> </tspan><tspan x="557.3" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="575.6"> </tspan><tspan x="579.8" class="g15s39" textLength="44.8" lengthAdjust="spacing">(2, 7)</tspan><tspan x="624.6"> </tspan><tspan x="628.8" textLength="32.3" lengthAdjust="spacing">batch</tspan><tspan x="661.1"> </tspan><tspan x="665.2" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="676.2"> </tspan><tspan x="680.4" textLength="16.9" lengthAdjust="spacing">ids</tspan><tspan x="697.2"> </tspan><tspan x="701.4" textLength="53.6" lengthAdjust="spacing">becomes</tspan><tspan x="754.9"> </tspan><tspan x="759.1">a</tspan><tspan x="766.4"> </tspan><tspan x="770.6" class="g15s39" textLength="82.2" lengthAdjust="spacing">(2, 7, 512)</tspan><tspan x="852.8"> </tspan><tspan x="856.9" textLength="36.7" lengthAdjust="spacing">tensor</tspan><tspan x="893.6"> </tspan><tspan x="897.8" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="908.8"> </tspan><tspan x="912.9" textLength="45.5" lengthAdjust="spacing">decimal</tspan><tspan x="958.4"> </tspan><tspan x="962.5" textLength="51.3" lengthAdjust="spacing">numbers</tspan><tspan x="1013.9"> </tspan><tspan x="1018.1">—</tspan><tspan x="1031.3"> </tspan><tspan x="1035.4" textLength="28.6" lengthAdjust="spacing">each</tspan><tspan x="1064.0"> </tspan><tspan x="1068.2" textLength="10.3" lengthAdjust="spacing">id</tspan><tspan x="1078.4"> </tspan><tspan x="1082.6" textLength="37.4" lengthAdjust="spacing">simply</tspan></text>
+<text y="280.0" xml:space="preserve" class="g15s27"><tspan x="34.0" textLength="50.6" lengthAdjust="spacing">replaced</tspan><tspan x="84.6"> </tspan><tspan x="88.9" textLength="13.9" lengthAdjust="spacing">by</tspan><tspan x="102.9"> </tspan><tspan x="107.1" textLength="13.2" lengthAdjust="spacing">its</tspan><tspan x="120.3"> </tspan><tspan x="124.6" textLength="24.9" lengthAdjust="spacing">row.</tspan><tspan x="149.6"> </tspan><tspan x="153.9" textLength="33.7" lengthAdjust="spacing">Every</tspan><tspan x="187.6"> </tspan><tspan x="191.9" textLength="31.5" lengthAdjust="spacing">value</tspan><tspan x="223.4"> </tspan><tspan x="227.7" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="237.3"> </tspan><tspan x="241.6" textLength="25.7" lengthAdjust="spacing">then</tspan><tspan x="267.3"> </tspan><tspan x="271.5" textLength="55.7" lengthAdjust="spacing">multiplied</tspan><tspan x="327.3"> </tspan><tspan x="331.6" textLength="13.9" lengthAdjust="spacing">by</tspan><tspan x="345.5"> </tspan><tspan x="349.8" class="g15s39" textLength="134.5" lengthAdjust="spacing">sqrt(512) = 22.627</tspan><tspan x="484.3">.</tspan><tspan x="487.9"> </tspan><tspan x="492.2" textLength="26.4" lengthAdjust="spacing">That</tspan><tspan x="518.6"> </tspan><tspan x="522.9" textLength="44.0" lengthAdjust="spacing">matters</tspan><tspan x="566.9"> </tspan><tspan x="571.2" textLength="49.9" lengthAdjust="spacing">because</tspan><tspan x="621.1"> </tspan><tspan x="625.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="643.8"> </tspan><tspan x="648.1" textLength="43.1" lengthAdjust="spacing">table’s</tspan><tspan x="691.2"> </tspan><tspan x="695.5" textLength="43.3" lengthAdjust="spacing">starting</tspan><tspan x="738.8"> </tspan><tspan x="743.1" textLength="38.1" lengthAdjust="spacing">values</tspan><tspan x="781.2"> </tspan><tspan x="785.5" textLength="19.1" lengthAdjust="spacing">are</tspan><tspan x="804.6"> </tspan><tspan x="808.9" textLength="20.5" lengthAdjust="spacing">tiny</tspan><tspan x="829.4"> </tspan><tspan x="833.7" textLength="15.4" lengthAdjust="spacing">(at</tspan><tspan x="849.1"> </tspan><tspan x="853.4" textLength="28.6" lengthAdjust="spacing">most</tspan><tspan x="882.0"> </tspan><tspan x="886.3">±</tspan><tspan x="894.2" class="g15s1" textLength="42.8" lengthAdjust="spacing">0.0211</tspan><tspan x="937.0" textLength="8.1" lengthAdjust="spacing">),</tspan><tspan x="945.1"> </tspan><tspan x="949.4" textLength="30.1" lengthAdjust="spacing">while</tspan><tspan x="979.4"> </tspan><tspan x="983.7" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="1002.1"> </tspan><tspan x="1006.4" textLength="55.8" lengthAdjust="spacing">positional</tspan><tspan x="1062.1"> </tspan><tspan x="1066.4" textLength="53.6" lengthAdjust="spacing">encoding</tspan></text>
+<text y="299.8" xml:space="preserve" class="g15s27"><tspan x="34.0" textLength="36.7" lengthAdjust="spacing">added</tspan><tspan x="70.7"> </tspan><tspan x="74.7" textLength="24.9" lengthAdjust="spacing">next</tspan><tspan x="99.7"> </tspan><tspan x="103.7" textLength="28.6" lengthAdjust="spacing">goes</tspan><tspan x="132.3"> </tspan><tspan x="136.3" textLength="13.2" lengthAdjust="spacing">all</tspan><tspan x="149.5"> </tspan><tspan x="153.5" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="171.9"> </tspan><tspan x="175.9" textLength="23.5" lengthAdjust="spacing">way</tspan><tspan x="199.3"> </tspan><tspan x="203.4" textLength="26.4" lengthAdjust="spacing">from</tspan><tspan x="229.8"> </tspan><tspan x="233.8" class="g15s1" textLength="16.2" lengthAdjust="spacing">−1</tspan><tspan x="249.9"> </tspan><tspan x="254.0" textLength="11.0" lengthAdjust="spacing">to</tspan><tspan x="265.0"> </tspan><tspan x="269.0">+</tspan><tspan x="276.7" class="g15s1">1</tspan><tspan x="284.5">:</tspan><tspan x="288.1"> </tspan><tspan x="292.2" textLength="41.8" lengthAdjust="spacing">without</tspan><tspan x="334.0"> </tspan><tspan x="338.0" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="356.3"> </tspan><tspan x="360.3" textLength="80.0" lengthAdjust="spacing">multiplication,</tspan><tspan x="440.3"> </tspan><tspan x="444.3" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="462.7"> </tspan><tspan x="466.7" textLength="45.5" lengthAdjust="spacing">position</tspan><tspan x="512.2"> </tspan><tspan x="516.2" textLength="34.5" lengthAdjust="spacing">signal</tspan><tspan x="550.6"> </tspan><tspan x="554.7" textLength="34.5" lengthAdjust="spacing">would</tspan><tspan x="589.1"> </tspan><tspan x="593.2" textLength="63.1" lengthAdjust="spacing">completely</tspan><tspan x="656.2"> </tspan><tspan x="660.2" textLength="35.9" lengthAdjust="spacing">drown</tspan><tspan x="696.2"> </tspan><tspan x="700.2" textLength="18.3" lengthAdjust="spacing">out</tspan><tspan x="718.6"> </tspan><tspan x="722.6" textLength="33.7" lengthAdjust="spacing">which</tspan><tspan x="756.3"> </tspan><tspan x="760.3" textLength="28.6" lengthAdjust="spacing">word</tspan><tspan x="788.9"> </tspan><tspan x="792.9" textLength="6.6" lengthAdjust="spacing">it</tspan><tspan x="799.5"> </tspan><tspan x="803.5" textLength="13.2" lengthAdjust="spacing">is.</tspan><tspan x="816.7"> </tspan><tspan x="820.8" textLength="59.4" lengthAdjust="spacing">Sequence</tspan><tspan x="880.2"> </tspan><tspan x="884.2" textLength="23.3" lengthAdjust="spacing">A’s</tspan><tspan x="907.5"> </tspan><tspan x="911.6" class="g15s1" textLength="34.2" lengthAdjust="spacing">row 6</tspan><tspan x="945.8"> </tspan><tspan x="949.8" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="959.3"> </tspan><tspan x="963.3" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="981.7"> </tspan><tspan x="985.7" textLength="38.9" lengthAdjust="spacing">lookup</tspan><tspan x="1024.6"> </tspan><tspan x="1028.6" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="1039.6"> </tspan><tspan x="1043.6" class="g15s1" textLength="22.6" lengthAdjust="spacing">id 0</tspan><tspan x="1066.2"> </tspan><tspan x="1070.2">—</tspan><tspan x="1083.4"> </tspan><tspan x="1087.4">a</tspan><tspan x="1094.7"> </tspan><tspan x="1098.7" textLength="21.3" lengthAdjust="spacing">row</tspan></text>
+<text y="319.6" xml:space="preserve" class="g15s27"><tspan x="34.0" textLength="446.1" lengthAdjust="spacing">of real random numbers, which is one reason the padding mask has to exist.</tspan></text>
+<rect x="1146.0" y="247.0" width="700.0" height="133.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="265.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="1156.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="1167.9" class="g15s6" textLength="64.3" lengthAdjust="spacing"> · embedding</tspan></text>
+<text x="1156.0" y="288.0" xml:space="preserve" class="g15s23"><tspan class="g15s20">self</tspan><tspan class="g15s3">.</tspan><tspan class="g15s46">src_embedding</tspan><tspan class="g15s7"> </tspan><tspan class="g15s3">=</tspan><tspan class="g15s7"> </tspan><tspan class="g15s7">nn</tspan><tspan class="g15s3">.</tspan><tspan class="g15s24">Embedding</tspan><tspan class="g15s3">(</tspan><tspan class="g15s7">src_vocab_size</tspan><tspan class="g15s3">,</tspan><tspan class="g15s7"> </tspan><tspan class="g15s7">d_model</tspan><tspan class="g15s3">,</tspan><tspan class="g15s7"> </tspan><tspan class="g15s7">padding_idx</tspan><tspan class="g15s3">=</tspan><tspan class="g15s7">pad_idx</tspan><tspan class="g15s3">)</tspan></text>
+<text x="1156.0" y="307.5" xml:space="preserve" class="g15s23"></text>
+<text x="1156.0" y="327.0" xml:space="preserve" class="g15s23"><tspan class="g15s20">def</tspan><tspan class="g15s7"> </tspan><tspan class="g15s24">encode</tspan><tspan class="g15s3">(</tspan><tspan class="g15s20">self</tspan><tspan class="g15s3">,</tspan><tspan class="g15s7"> </tspan><tspan class="g15s7">src</tspan><tspan class="g15s3">,</tspan><tspan class="g15s7"> </tspan><tspan class="g15s7">src_mask</tspan><tspan class="g15s3">=</tspan><tspan class="g15s20">None</tspan><tspan class="g15s3">)</tspan><tspan class="g15s3">:</tspan></text>
+<text x="1156.0" y="346.5" xml:space="preserve" class="g15s23"><tspan class="g15s7">    </tspan><tspan class="g15s7">x</tspan><tspan class="g15s7"> </tspan><tspan class="g15s3">=</tspan><tspan class="g15s7"> </tspan><tspan class="g15s20">self</tspan><tspan class="g15s3">.</tspan><tspan class="g15s24">pos_encoder</tspan><tspan class="g15s3">(</tspan><tspan class="g15s20">self</tspan><tspan class="g15s3">.</tspan><tspan class="g15s24">src_embedding</tspan><tspan class="g15s3">(</tspan><tspan class="g15s7">src</tspan><tspan class="g15s3">)</tspan><tspan class="g15s7"> </tspan><tspan class="g15s3">*</tspan><tspan class="g15s7"> </tspan><tspan class="g15s7">math</tspan><tspan class="g15s3">.</tspan><tspan class="g15s24">sqrt</tspan><tspan class="g15s3">(</tspan><tspan class="g15s20">self</tspan><tspan class="g15s3">.</tspan><tspan class="g15s46">d_model</tspan><tspan class="g15s3">)</tspan><tspan class="g15s3">)</tspan></text>
+<text x="1156.0" y="366.0" xml:space="preserve" class="g15s23"><tspan class="g15s7">    </tspan><tspan class="g15s3">.</tspan><tspan class="g15s3">.</tspan><tspan class="g15s3">.</tspan></text>
+<rect x="34.0" y="402.5" width="893.0" height="46.0" rx="7" style="fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1.2"/>
+<path d="M39.60 403.26 A6.40 6.40 0 0 0 34.60 409.50 V441.50 A6.40 6.40 0 0 0 39.60 447.74 Z" style="fill:var(--seqA);stroke:none"/>
+<text y="422.5" xml:space="preserve" style="fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600"><tspan x="50.0" class="g15s6" textLength="97.9" lengthAdjust="spacing">SEQUENCE A · </tspan><tspan x="147.9" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.8px;font-weight:600;fill:var(--seqA)" textLength="21.2" lengthAdjust="spacing">src</tspan><tspan x="169.2" class="g15s6" textLength="111.9" lengthAdjust="spacing"> embedding lookup</tspan></text>
+<rect x="422.8" y="429.1" width="37.5" height="14.0" rx="3" class="g15s21"/>
+<text y="439.5" xml:space="preserve" class="g15s47"><tspan x="50.0" textLength="27.5" lengthAdjust="spacing">the→</tspan><tspan x="77.5" class="g15s1" textLength="33.9" lengthAdjust="spacing">11425</tspan><tspan x="111.4" textLength="33.9" lengthAdjust="spacing"> dog→</tspan><tspan x="145.3" class="g15s1" textLength="27.1" lengthAdjust="spacing">3380</tspan><tspan x="172.4" textLength="30.0" lengthAdjust="spacing"> sat→</tspan><tspan x="202.4" class="g15s1" textLength="33.9" lengthAdjust="spacing">10283</tspan><tspan x="236.3" textLength="27.5" lengthAdjust="spacing"> on→</tspan><tspan x="263.8" class="g15s1" textLength="27.1" lengthAdjust="spacing">8277</tspan><tspan x="290.9" textLength="30.7" lengthAdjust="spacing"> the→</tspan><tspan x="321.6" class="g15s1" textLength="33.9" lengthAdjust="spacing">11425</tspan><tspan x="355.5" textLength="37.1" lengthAdjust="spacing"> floor→</tspan><tspan x="392.5" class="g15s1" textLength="27.1" lengthAdjust="spacing">4535</tspan><tspan x="419.6"> </tspan><tspan x="425.3" class="g15s43" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="460.4">→</tspan><tspan x="471.9" class="g15s1">0</tspan></text>
+<text y="475.5" xml:space="preserve" class="g15s25"><tspan x="40.0" class="g15s22" textLength="117.1" lengthAdjust="spacing">src_embedding(src)</tspan><tspan x="157.1" class="g15s6" textLength="97.5" lengthAdjust="spacing"> — raw table rows</tspan></text>
+<text x="493.1" y="475.5" class="g15s28">(7, 512)</text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="127.5" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 0</tspan></text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="201.5" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 1</tspan></text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="275.5" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 2</tspan></text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="349.5" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 3</tspan></text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="439.9" class="g15s1" textLength="32.5" lengthAdjust="spacing">col 511</tspan></text>
+<rect x="101.1" y="504.5" width="392.0" height="154.0" rx="3" class="g15s29"/>
+<text y="519.5" xml:space="preserve" class="g15s4"><tspan x="72.5" class="g15s1">0</tspan><tspan x="78.4" textLength="16.7" lengthAdjust="spacing"> the</tspan></text>
+<rect x="101.7" y="505.1" width="72.8" height="20.8" rx="0" class="g15s14"/>
+<text x="138.1" y="519.5" class="g15s0">0.004</text>
+<rect x="175.7" y="505.1" width="72.8" height="20.8" rx="0" class="g15s15"/>
+<text x="212.1" y="519.5" class="g15s0">0.014</text>
+<rect x="249.7" y="505.1" width="72.8" height="20.8" rx="0" class="g15s16"/>
+<text x="286.1" y="519.5" class="g15s0">-0.021</text>
+<rect x="323.7" y="505.1" width="72.8" height="20.8" rx="0" class="g15s17"/>
+<text x="360.1" y="519.5" class="g15s0">-0.008</text>
+<text x="408.1" y="519.5" class="g15s5">⋯</text>
+<rect x="419.7" y="505.1" width="72.8" height="20.8" rx="0" class="g15s18"/>
+<text x="456.1" y="519.5" class="g15s0">-0.008</text>
+<text y="541.5" xml:space="preserve" class="g15s4"><tspan x="69.7" class="g15s1">1</tspan><tspan x="75.6" textLength="19.5" lengthAdjust="spacing"> dog</tspan></text>
+<rect x="101.7" y="527.1" width="72.8" height="20.8" rx="0" class="g15s48"/>
+<text x="138.1" y="541.5" class="g15s0">-0.007</text>
+<rect x="175.7" y="527.1" width="72.8" height="20.8" rx="0" class="g15s49"/>
+<text x="212.1" y="541.5" class="g15s0">-0.012</text>
+<rect x="249.7" y="527.1" width="72.8" height="20.8" rx="0" class="g15s50"/>
+<text x="286.1" y="541.5" class="g15s0">0.008</text>
+<rect x="323.7" y="527.1" width="72.8" height="20.8" rx="0" class="g15s51"/>
+<text x="360.1" y="541.5" class="g15s0">0.015</text>
+<text x="408.1" y="541.5" class="g15s5">⋯</text>
+<rect x="419.7" y="527.1" width="72.8" height="20.8" rx="0" class="g15s52"/>
+<text x="456.1" y="541.5" class="g15s0">0.014</text>
+<text y="563.5" xml:space="preserve" class="g15s4"><tspan x="73.1" class="g15s1">2</tspan><tspan x="79.0" textLength="16.1" lengthAdjust="spacing"> sat</tspan></text>
+<rect x="101.7" y="549.1" width="72.8" height="20.8" rx="0" class="g15s53"/>
+<text x="138.1" y="563.5" class="g15s0">0.004</text>
+<text x="212.1" y="563.5" class="g15s0">0.000</text>
+<rect x="249.7" y="549.1" width="72.8" height="20.8" rx="0" class="g15s54"/>
+<text x="286.1" y="563.5" class="g15s0">0.014</text>
+<rect x="323.7" y="549.1" width="72.8" height="20.8" rx="0" class="g15s55"/>
+<text x="360.1" y="563.5" class="g15s0">0.020</text>
+<text x="408.1" y="563.5" class="g15s5">⋯</text>
+<rect x="419.7" y="549.1" width="72.8" height="20.8" rx="0" class="g15s56"/>
+<text x="456.1" y="563.5" class="g15s0">-0.014</text>
+<text y="585.5" xml:space="preserve" class="g15s4"><tspan x="75.3" class="g15s1">3</tspan><tspan x="81.2" textLength="13.9" lengthAdjust="spacing"> on</tspan></text>
+<rect x="101.7" y="571.1" width="72.8" height="20.8" rx="0" class="g15s30"/>
+<text x="138.1" y="585.5" class="g15s0">0.005</text>
+<rect x="175.7" y="571.1" width="72.8" height="20.8" rx="0" class="g15s31"/>
+<text x="212.1" y="585.5" class="g15s0">0.008</text>
+<rect x="249.7" y="571.1" width="72.8" height="20.8" rx="0" class="g15s32"/>
+<text x="286.1" y="585.5" class="g15s0">-0.021</text>
+<rect x="323.7" y="571.1" width="72.8" height="20.8" rx="0" class="g15s33"/>
+<text x="360.1" y="585.5" class="g15s0">-0.006</text>
+<text x="408.1" y="585.5" class="g15s5">⋯</text>
+<rect x="419.7" y="571.1" width="72.8" height="20.8" rx="0" class="g15s34"/>
+<text x="456.1" y="585.5" class="g15s0">-0.005</text>
+<text y="607.5" xml:space="preserve" class="g15s4"><tspan x="72.5" class="g15s1">4</tspan><tspan x="78.4" textLength="16.7" lengthAdjust="spacing"> the</tspan></text>
+<rect x="101.7" y="593.1" width="72.8" height="20.8" rx="0" class="g15s14"/>
+<text x="138.1" y="607.5" class="g15s0">0.004</text>
+<rect x="175.7" y="593.1" width="72.8" height="20.8" rx="0" class="g15s15"/>
+<text x="212.1" y="607.5" class="g15s0">0.014</text>
+<rect x="249.7" y="593.1" width="72.8" height="20.8" rx="0" class="g15s16"/>
+<text x="286.1" y="607.5" class="g15s0">-0.021</text>
+<rect x="323.7" y="593.1" width="72.8" height="20.8" rx="0" class="g15s17"/>
+<text x="360.1" y="607.5" class="g15s0">-0.008</text>
+<text x="408.1" y="607.5" class="g15s5">⋯</text>
+<rect x="419.7" y="593.1" width="72.8" height="20.8" rx="0" class="g15s18"/>
+<text x="456.1" y="607.5" class="g15s0">-0.008</text>
+<text y="629.5" xml:space="preserve" class="g15s4"><tspan x="67.0" class="g15s1">5</tspan><tspan x="72.9" textLength="22.2" lengthAdjust="spacing"> floor</tspan></text>
+<rect x="101.7" y="615.1" width="72.8" height="20.8" rx="0" class="g15s57"/>
+<text x="138.1" y="629.5" class="g15s0">-0.004</text>
+<rect x="175.7" y="615.1" width="72.8" height="20.8" rx="0" class="g15s58"/>
+<text x="212.1" y="629.5" class="g15s0">0.019</text>
+<rect x="249.7" y="615.1" width="72.8" height="20.8" rx="0" class="g15s59"/>
+<text x="286.1" y="629.5" class="g15s0">-0.002</text>
+<rect x="323.7" y="615.1" width="72.8" height="20.8" rx="0" class="g15s60"/>
+<text x="360.1" y="629.5" class="g15s0">0.017</text>
+<text x="408.1" y="629.5" class="g15s5">⋯</text>
+<rect x="419.7" y="615.1" width="72.8" height="20.8" rx="0" class="g15s61"/>
+<text x="456.1" y="629.5" class="g15s0">-0.017</text>
+<text y="651.5" xml:space="preserve" class="g15s4"><tspan x="53.1" class="g15s1">6</tspan><tspan x="59.0"> </tspan><tspan x="64.3" class="g15s62" textLength="28.3" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<rect x="101.7" y="637.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="138.1" y="651.5" class="g15s13">0.011</text>
+<rect x="175.7" y="637.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="212.1" y="651.5" class="g15s13">-0.014</text>
+<rect x="249.7" y="637.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="286.1" y="651.5" class="g15s13">-0.005</text>
+<rect x="323.7" y="637.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="360.1" y="651.5" class="g15s13">0.001</text>
+<text x="408.1" y="651.5" class="g15s5">⋯</text>
+<rect x="419.7" y="637.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="456.1" y="651.5" class="g15s13">-0.007</text>
+<line x1="175.1" y1="504.5" x2="175.1" y2="658.5" class="g15s2"/>
+<line x1="249.1" y1="504.5" x2="249.1" y2="658.5" class="g15s2"/>
+<line x1="323.1" y1="504.5" x2="323.1" y2="658.5" class="g15s2"/>
+<line x1="397.1" y1="504.5" x2="397.1" y2="658.5" class="g15s2"/>
+<line x1="419.1" y1="504.5" x2="419.1" y2="658.5" class="g15s2"/>
+<line x1="101.1" y1="526.5" x2="493.1" y2="526.5" class="g15s2"/>
+<line x1="101.1" y1="548.5" x2="493.1" y2="548.5" class="g15s2"/>
+<line x1="101.1" y1="570.5" x2="493.1" y2="570.5" class="g15s2"/>
+<line x1="101.1" y1="592.5" x2="493.1" y2="592.5" class="g15s2"/>
+<line x1="101.1" y1="614.5" x2="493.1" y2="614.5" class="g15s2"/>
+<line x1="101.1" y1="636.5" x2="493.1" y2="636.5" class="g15s2"/>
+<rect x="101.1" y="504.5" width="392.0" height="154.0" rx="3" class="g15s35"/>
+<text y="685.5" xml:space="preserve" class="g15s25"><tspan x="40.0" class="g15s6">× </tspan><tspan x="50.7" class="g15s22" textLength="117.1" lengthAdjust="spacing">sqrt(512) = 22.627</tspan></text>
+<text x="493.1" y="685.5" class="g15s28">(7, 512)</text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="127.5" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 0</tspan></text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="201.5" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 1</tspan></text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="275.5" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 2</tspan></text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="349.5" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 3</tspan></text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="439.9" class="g15s1" textLength="32.5" lengthAdjust="spacing">col 511</tspan></text>
+<rect x="101.1" y="714.5" width="392.0" height="154.0" rx="3" class="g15s29"/>
+<text y="729.5" xml:space="preserve" class="g15s4"><tspan x="72.5" class="g15s1">0</tspan><tspan x="78.4" textLength="16.7" lengthAdjust="spacing"> the</tspan></text>
+<rect x="101.7" y="715.1" width="72.8" height="20.8" rx="0" class="g15s14"/>
+<text x="138.1" y="729.5" class="g15s0">0.095</text>
+<rect x="175.7" y="715.1" width="72.8" height="20.8" rx="0" class="g15s15"/>
+<text x="212.1" y="729.5" class="g15s0">0.306</text>
+<rect x="249.7" y="715.1" width="72.8" height="20.8" rx="0" class="g15s16"/>
+<text x="286.1" y="729.5" class="g15s0">-0.472</text>
+<rect x="323.7" y="715.1" width="72.8" height="20.8" rx="0" class="g15s17"/>
+<text x="360.1" y="729.5" class="g15s0">-0.175</text>
+<text x="408.1" y="729.5" class="g15s5">⋯</text>
+<rect x="419.7" y="715.1" width="72.8" height="20.8" rx="0" class="g15s18"/>
+<text x="456.1" y="729.5" class="g15s0">-0.183</text>
+<text y="751.5" xml:space="preserve" class="g15s4"><tspan x="69.7" class="g15s1">1</tspan><tspan x="75.6" textLength="19.5" lengthAdjust="spacing"> dog</tspan></text>
+<rect x="101.7" y="737.1" width="72.8" height="20.8" rx="0" class="g15s48"/>
+<text x="138.1" y="751.5" class="g15s0">-0.157</text>
+<rect x="175.7" y="737.1" width="72.8" height="20.8" rx="0" class="g15s49"/>
+<text x="212.1" y="751.5" class="g15s0">-0.274</text>
+<rect x="249.7" y="737.1" width="72.8" height="20.8" rx="0" class="g15s50"/>
+<text x="286.1" y="751.5" class="g15s0">0.171</text>
+<rect x="323.7" y="737.1" width="72.8" height="20.8" rx="0" class="g15s51"/>
+<text x="360.1" y="751.5" class="g15s0">0.345</text>
+<text x="408.1" y="751.5" class="g15s5">⋯</text>
+<rect x="419.7" y="737.1" width="72.8" height="20.8" rx="0" class="g15s52"/>
+<text x="456.1" y="751.5" class="g15s0">0.314</text>
+<text y="773.5" xml:space="preserve" class="g15s4"><tspan x="73.1" class="g15s1">2</tspan><tspan x="79.0" textLength="16.1" lengthAdjust="spacing"> sat</tspan></text>
+<rect x="101.7" y="759.1" width="72.8" height="20.8" rx="0" class="g15s53"/>
+<text x="138.1" y="773.5" class="g15s0">0.092</text>
+<text x="212.1" y="773.5" class="g15s0">0.011</text>
+<rect x="249.7" y="759.1" width="72.8" height="20.8" rx="0" class="g15s54"/>
+<text x="286.1" y="773.5" class="g15s0">0.322</text>
+<rect x="323.7" y="759.1" width="72.8" height="20.8" rx="0" class="g15s55"/>
+<text x="360.1" y="773.5" class="g15s0">0.451</text>
+<text x="408.1" y="773.5" class="g15s5">⋯</text>
+<rect x="419.7" y="759.1" width="72.8" height="20.8" rx="0" class="g15s56"/>
+<text x="456.1" y="773.5" class="g15s0">-0.312</text>
+<text y="795.5" xml:space="preserve" class="g15s4"><tspan x="75.3" class="g15s1">3</tspan><tspan x="81.2" textLength="13.9" lengthAdjust="spacing"> on</tspan></text>
+<rect x="101.7" y="781.1" width="72.8" height="20.8" rx="0" class="g15s30"/>
+<text x="138.1" y="795.5" class="g15s0">0.122</text>
+<rect x="175.7" y="781.1" width="72.8" height="20.8" rx="0" class="g15s31"/>
+<text x="212.1" y="795.5" class="g15s0">0.186</text>
+<rect x="249.7" y="781.1" width="72.8" height="20.8" rx="0" class="g15s32"/>
+<text x="286.1" y="795.5" class="g15s0">-0.468</text>
+<rect x="323.7" y="781.1" width="72.8" height="20.8" rx="0" class="g15s33"/>
+<text x="360.1" y="795.5" class="g15s0">-0.125</text>
+<text x="408.1" y="795.5" class="g15s5">⋯</text>
+<rect x="419.7" y="781.1" width="72.8" height="20.8" rx="0" class="g15s34"/>
+<text x="456.1" y="795.5" class="g15s0">-0.121</text>
+<text y="817.5" xml:space="preserve" class="g15s4"><tspan x="72.5" class="g15s1">4</tspan><tspan x="78.4" textLength="16.7" lengthAdjust="spacing"> the</tspan></text>
+<rect x="101.7" y="803.1" width="72.8" height="20.8" rx="0" class="g15s14"/>
+<text x="138.1" y="817.5" class="g15s0">0.095</text>
+<rect x="175.7" y="803.1" width="72.8" height="20.8" rx="0" class="g15s15"/>
+<text x="212.1" y="817.5" class="g15s0">0.306</text>
+<rect x="249.7" y="803.1" width="72.8" height="20.8" rx="0" class="g15s16"/>
+<text x="286.1" y="817.5" class="g15s0">-0.472</text>
+<rect x="323.7" y="803.1" width="72.8" height="20.8" rx="0" class="g15s17"/>
+<text x="360.1" y="817.5" class="g15s0">-0.175</text>
+<text x="408.1" y="817.5" class="g15s5">⋯</text>
+<rect x="419.7" y="803.1" width="72.8" height="20.8" rx="0" class="g15s18"/>
+<text x="456.1" y="817.5" class="g15s0">-0.183</text>
+<text y="839.5" xml:space="preserve" class="g15s4"><tspan x="67.0" class="g15s1">5</tspan><tspan x="72.9" textLength="22.2" lengthAdjust="spacing"> floor</tspan></text>
+<rect x="101.7" y="825.1" width="72.8" height="20.8" rx="0" class="g15s57"/>
+<text x="138.1" y="839.5" class="g15s0">-0.085</text>
+<rect x="175.7" y="825.1" width="72.8" height="20.8" rx="0" class="g15s58"/>
+<text x="212.1" y="839.5" class="g15s0">0.427</text>
+<rect x="249.7" y="825.1" width="72.8" height="20.8" rx="0" class="g15s59"/>
+<text x="286.1" y="839.5" class="g15s0">-0.043</text>
+<rect x="323.7" y="825.1" width="72.8" height="20.8" rx="0" class="g15s60"/>
+<text x="360.1" y="839.5" class="g15s0">0.391</text>
+<text x="408.1" y="839.5" class="g15s5">⋯</text>
+<rect x="419.7" y="825.1" width="72.8" height="20.8" rx="0" class="g15s61"/>
+<text x="456.1" y="839.5" class="g15s0">-0.388</text>
+<text y="861.5" xml:space="preserve" class="g15s4"><tspan x="53.1" class="g15s1">6</tspan><tspan x="59.0"> </tspan><tspan x="64.3" class="g15s62" textLength="28.3" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<rect x="101.7" y="847.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="138.1" y="861.5" class="g15s13">0.243</text>
+<rect x="175.7" y="847.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="212.1" y="861.5" class="g15s13">-0.323</text>
+<rect x="249.7" y="847.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="286.1" y="861.5" class="g15s13">-0.104</text>
+<rect x="323.7" y="847.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="360.1" y="861.5" class="g15s13">0.034</text>
+<text x="408.1" y="861.5" class="g15s5">⋯</text>
+<rect x="419.7" y="847.1" width="72.8" height="20.8" rx="0" class="g15s12"/>
+<text x="456.1" y="861.5" class="g15s13">-0.166</text>
+<line x1="175.1" y1="714.5" x2="175.1" y2="868.5" class="g15s2"/>
+<line x1="249.1" y1="714.5" x2="249.1" y2="868.5" class="g15s2"/>
+<line x1="323.1" y1="714.5" x2="323.1" y2="868.5" class="g15s2"/>
+<line x1="397.1" y1="714.5" x2="397.1" y2="868.5" class="g15s2"/>
+<line x1="419.1" y1="714.5" x2="419.1" y2="868.5" class="g15s2"/>
+<line x1="101.1" y1="736.5" x2="493.1" y2="736.5" class="g15s2"/>
+<line x1="101.1" y1="758.5" x2="493.1" y2="758.5" class="g15s2"/>
+<line x1="101.1" y1="780.5" x2="493.1" y2="780.5" class="g15s2"/>
+<line x1="101.1" y1="802.5" x2="493.1" y2="802.5" class="g15s2"/>
+<line x1="101.1" y1="824.5" x2="493.1" y2="824.5" class="g15s2"/>
+<line x1="101.1" y1="846.5" x2="493.1" y2="846.5" class="g15s2"/>
+<rect x="101.1" y="714.5" width="392.0" height="154.0" rx="3" class="g15s35"/>
+<rect x="953.0" y="402.5" width="893.0" height="46.0" rx="7" style="fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1.2"/>
+<path d="M958.60 403.26 A6.40 6.40 0 0 0 953.60 409.50 V441.50 A6.40 6.40 0 0 0 958.60 447.74 Z" style="fill:var(--seqB);stroke:none"/>
+<text y="422.5" xml:space="preserve" style="fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600"><tspan x="969.0" class="g15s6" textLength="97.9" lengthAdjust="spacing">SEQUENCE B · </tspan><tspan x="1066.9" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.8px;font-weight:600;fill:var(--seqB)" textLength="21.2" lengthAdjust="spacing">src</tspan><tspan x="1088.2" class="g15s6" textLength="111.9" lengthAdjust="spacing"> embedding lookup</tspan></text>
+<text y="439.5" xml:space="preserve" class="g15s47"><tspan x="969.0" textLength="27.5" lengthAdjust="spacing">the→</tspan><tspan x="996.5" class="g15s1" textLength="33.9" lengthAdjust="spacing">11425</tspan><tspan x="1030.4" textLength="30.0" lengthAdjust="spacing"> cat→</tspan><tspan x="1060.4" class="g15s1" textLength="27.1" lengthAdjust="spacing">1928</tspan><tspan x="1087.5" textLength="23.0" lengthAdjust="spacing"> is→</tspan><tspan x="1110.5" class="g15s1" textLength="27.1" lengthAdjust="spacing">6274</tspan><tspan x="1137.6" textLength="57.5" lengthAdjust="spacing"> sleeping→</tspan><tspan x="1195.2" class="g15s1" textLength="33.9" lengthAdjust="spacing">10697</tspan><tspan x="1229.0" textLength="27.5" lengthAdjust="spacing"> on→</tspan><tspan x="1256.5" class="g15s1" textLength="27.1" lengthAdjust="spacing">8277</tspan><tspan x="1283.6" textLength="30.7" lengthAdjust="spacing"> the→</tspan><tspan x="1314.3" class="g15s1" textLength="33.9" lengthAdjust="spacing">11425</tspan><tspan x="1348.2" textLength="36.4" lengthAdjust="spacing"> sofa→</tspan><tspan x="1384.6" class="g15s1" textLength="33.9" lengthAdjust="spacing">10752</tspan></text>
+<text y="475.5" xml:space="preserve" class="g15s25"><tspan x="959.0" class="g15s22" textLength="117.1" lengthAdjust="spacing">src_embedding(src)</tspan><tspan x="1076.1" class="g15s6" textLength="97.5" lengthAdjust="spacing"> — raw table rows</tspan></text>
+<text x="1417.3" y="475.5" class="g15s28">(7, 512)</text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="1051.7" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 0</tspan></text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="1125.7" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 1</tspan></text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="1199.7" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 2</tspan></text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="1273.7" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 3</tspan></text>
+<text y="498.5" xml:space="preserve" class="g15s8"><tspan x="1364.1" class="g15s1" textLength="32.5" lengthAdjust="spacing">col 511</tspan></text>
+<rect x="1025.3" y="504.5" width="392.0" height="154.0" rx="3" class="g15s29"/>
+<text y="519.5" xml:space="preserve" class="g15s4"><tspan x="996.7" class="g15s1">0</tspan><tspan x="1002.6" textLength="16.7" lengthAdjust="spacing"> the</tspan></text>
+<rect x="1025.9" y="505.1" width="72.8" height="20.8" rx="0" class="g15s14"/>
+<text x="1062.3" y="519.5" class="g15s0">0.004</text>
+<rect x="1099.9" y="505.1" width="72.8" height="20.8" rx="0" class="g15s15"/>
+<text x="1136.3" y="519.5" class="g15s0">0.014</text>
+<rect x="1173.9" y="505.1" width="72.8" height="20.8" rx="0" class="g15s16"/>
+<text x="1210.3" y="519.5" class="g15s0">-0.021</text>
+<rect x="1247.9" y="505.1" width="72.8" height="20.8" rx="0" class="g15s17"/>
+<text x="1284.3" y="519.5" class="g15s0">-0.008</text>
+<text x="1332.3" y="519.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="505.1" width="72.8" height="20.8" rx="0" class="g15s18"/>
+<text x="1380.3" y="519.5" class="g15s0">-0.008</text>
+<text y="541.5" xml:space="preserve" class="g15s4"><tspan x="997.3" class="g15s1">1</tspan><tspan x="1003.2" textLength="16.1" lengthAdjust="spacing"> cat</tspan></text>
+<rect x="1025.9" y="527.1" width="72.8" height="20.8" rx="0" class="g15s63"/>
+<text x="1062.3" y="541.5" class="g15s0">0.007</text>
+<rect x="1099.9" y="527.1" width="72.8" height="20.8" rx="0" class="g15s64"/>
+<text x="1136.3" y="541.5" class="g15s0">-0.012</text>
+<rect x="1173.9" y="527.1" width="72.8" height="20.8" rx="0" class="g15s65"/>
+<text x="1210.3" y="541.5" class="g15s0">-0.009</text>
+<rect x="1247.9" y="527.1" width="72.8" height="20.8" rx="0" class="g15s66"/>
+<text x="1284.3" y="541.5" class="g15s0">-0.017</text>
+<text x="1332.3" y="541.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="527.1" width="72.8" height="20.8" rx="0" class="g15s67"/>
+<text x="1380.3" y="541.5" class="g15s0">0.014</text>
+<text y="563.5" xml:space="preserve" class="g15s4"><tspan x="1003.4" class="g15s1">2</tspan><tspan x="1009.3" textLength="10.0" lengthAdjust="spacing"> is</tspan></text>
+<rect x="1025.9" y="549.1" width="72.8" height="20.8" rx="0" class="g15s68"/>
+<text x="1062.3" y="563.5" class="g15s0">0.004</text>
+<rect x="1099.9" y="549.1" width="72.8" height="20.8" rx="0" class="g15s69"/>
+<text x="1136.3" y="563.5" class="g15s0">0.002</text>
+<rect x="1173.9" y="549.1" width="72.8" height="20.8" rx="0" class="g15s70"/>
+<text x="1210.3" y="563.5" class="g15s0">-0.016</text>
+<rect x="1247.9" y="549.1" width="72.8" height="20.8" rx="0" class="g15s71"/>
+<text x="1284.3" y="563.5" class="g15s0">0.005</text>
+<text x="1332.3" y="563.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="549.1" width="72.8" height="20.8" rx="0" class="g15s72"/>
+<text x="1380.3" y="563.5" class="g15s0">0.004</text>
+<text y="585.5" xml:space="preserve" class="g15s4"><tspan x="973.4" class="g15s1">3</tspan><tspan x="979.3" textLength="40.0" lengthAdjust="spacing"> sleeping</tspan></text>
+<rect x="1025.9" y="571.1" width="72.8" height="20.8" rx="0" class="g15s73"/>
+<text x="1062.3" y="585.5" class="g15s0">-0.002</text>
+<rect x="1099.9" y="571.1" width="72.8" height="20.8" rx="0" class="g15s74"/>
+<text x="1136.3" y="585.5" class="g15s0">-0.004</text>
+<rect x="1173.9" y="571.1" width="72.8" height="20.8" rx="0" class="g15s75"/>
+<text x="1210.3" y="585.5" class="g15s0">0.009</text>
+<text x="1284.3" y="585.5" class="g15s0">0.000</text>
+<text x="1332.3" y="585.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="571.1" width="72.8" height="20.8" rx="0" class="g15s76"/>
+<text x="1380.3" y="585.5" class="g15s0">-0.015</text>
+<text y="607.5" xml:space="preserve" class="g15s4"><tspan x="999.5" class="g15s1">4</tspan><tspan x="1005.4" textLength="13.9" lengthAdjust="spacing"> on</tspan></text>
+<rect x="1025.9" y="593.1" width="72.8" height="20.8" rx="0" class="g15s30"/>
+<text x="1062.3" y="607.5" class="g15s0">0.005</text>
+<rect x="1099.9" y="593.1" width="72.8" height="20.8" rx="0" class="g15s31"/>
+<text x="1136.3" y="607.5" class="g15s0">0.008</text>
+<rect x="1173.9" y="593.1" width="72.8" height="20.8" rx="0" class="g15s32"/>
+<text x="1210.3" y="607.5" class="g15s0">-0.021</text>
+<rect x="1247.9" y="593.1" width="72.8" height="20.8" rx="0" class="g15s33"/>
+<text x="1284.3" y="607.5" class="g15s0">-0.006</text>
+<text x="1332.3" y="607.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="593.1" width="72.8" height="20.8" rx="0" class="g15s34"/>
+<text x="1380.3" y="607.5" class="g15s0">-0.005</text>
+<text y="629.5" xml:space="preserve" class="g15s4"><tspan x="996.7" class="g15s1">5</tspan><tspan x="1002.6" textLength="16.7" lengthAdjust="spacing"> the</tspan></text>
+<rect x="1025.9" y="615.1" width="72.8" height="20.8" rx="0" class="g15s14"/>
+<text x="1062.3" y="629.5" class="g15s0">0.004</text>
+<rect x="1099.9" y="615.1" width="72.8" height="20.8" rx="0" class="g15s15"/>
+<text x="1136.3" y="629.5" class="g15s0">0.014</text>
+<rect x="1173.9" y="615.1" width="72.8" height="20.8" rx="0" class="g15s16"/>
+<text x="1210.3" y="629.5" class="g15s0">-0.021</text>
+<rect x="1247.9" y="615.1" width="72.8" height="20.8" rx="0" class="g15s17"/>
+<text x="1284.3" y="629.5" class="g15s0">-0.008</text>
+<text x="1332.3" y="629.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="615.1" width="72.8" height="20.8" rx="0" class="g15s18"/>
+<text x="1380.3" y="629.5" class="g15s0">-0.008</text>
+<text y="651.5" xml:space="preserve" class="g15s4"><tspan x="991.7" class="g15s1">6</tspan><tspan x="997.6" textLength="21.7" lengthAdjust="spacing"> sofa</tspan></text>
+<rect x="1025.9" y="637.1" width="72.8" height="20.8" rx="0" class="g15s77"/>
+<text x="1062.3" y="651.5" class="g15s0">-0.019</text>
+<rect x="1099.9" y="637.1" width="72.8" height="20.8" rx="0" class="g15s78"/>
+<text x="1136.3" y="651.5" class="g15s0">0.004</text>
+<rect x="1173.9" y="637.1" width="72.8" height="20.8" rx="0" class="g15s79"/>
+<text x="1210.3" y="651.5" class="g15s0">-0.010</text>
+<rect x="1247.9" y="637.1" width="72.8" height="20.8" rx="0" class="g15s80"/>
+<text x="1284.3" y="651.5" class="g15s0">0.007</text>
+<text x="1332.3" y="651.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="637.1" width="72.8" height="20.8" rx="0" class="g15s81"/>
+<text x="1380.3" y="651.5" class="g15s0">-0.005</text>
+<line x1="1099.3" y1="504.5" x2="1099.3" y2="658.5" class="g15s2"/>
+<line x1="1173.3" y1="504.5" x2="1173.3" y2="658.5" class="g15s2"/>
+<line x1="1247.3" y1="504.5" x2="1247.3" y2="658.5" class="g15s2"/>
+<line x1="1321.3" y1="504.5" x2="1321.3" y2="658.5" class="g15s2"/>
+<line x1="1343.3" y1="504.5" x2="1343.3" y2="658.5" class="g15s2"/>
+<line x1="1025.3" y1="526.5" x2="1417.3" y2="526.5" class="g15s2"/>
+<line x1="1025.3" y1="548.5" x2="1417.3" y2="548.5" class="g15s2"/>
+<line x1="1025.3" y1="570.5" x2="1417.3" y2="570.5" class="g15s2"/>
+<line x1="1025.3" y1="592.5" x2="1417.3" y2="592.5" class="g15s2"/>
+<line x1="1025.3" y1="614.5" x2="1417.3" y2="614.5" class="g15s2"/>
+<line x1="1025.3" y1="636.5" x2="1417.3" y2="636.5" class="g15s2"/>
+<rect x="1025.3" y="504.5" width="392.0" height="154.0" rx="3" class="g15s35"/>
+<text y="685.5" xml:space="preserve" class="g15s25"><tspan x="959.0" class="g15s6">× </tspan><tspan x="969.7" class="g15s22" textLength="117.1" lengthAdjust="spacing">sqrt(512) = 22.627</tspan></text>
+<text x="1417.3" y="685.5" class="g15s28">(7, 512)</text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="1051.7" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 0</tspan></text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="1125.7" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 1</tspan></text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="1199.7" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 2</tspan></text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="1273.7" class="g15s1" textLength="21.3" lengthAdjust="spacing">col 3</tspan></text>
+<text y="708.5" xml:space="preserve" class="g15s8"><tspan x="1364.1" class="g15s1" textLength="32.5" lengthAdjust="spacing">col 511</tspan></text>
+<rect x="1025.3" y="714.5" width="392.0" height="154.0" rx="3" class="g15s29"/>
+<text y="729.5" xml:space="preserve" class="g15s4"><tspan x="996.7" class="g15s1">0</tspan><tspan x="1002.6" textLength="16.7" lengthAdjust="spacing"> the</tspan></text>
+<rect x="1025.9" y="715.1" width="72.8" height="20.8" rx="0" class="g15s14"/>
+<text x="1062.3" y="729.5" class="g15s0">0.095</text>
+<rect x="1099.9" y="715.1" width="72.8" height="20.8" rx="0" class="g15s15"/>
+<text x="1136.3" y="729.5" class="g15s0">0.306</text>
+<rect x="1173.9" y="715.1" width="72.8" height="20.8" rx="0" class="g15s16"/>
+<text x="1210.3" y="729.5" class="g15s0">-0.472</text>
+<rect x="1247.9" y="715.1" width="72.8" height="20.8" rx="0" class="g15s17"/>
+<text x="1284.3" y="729.5" class="g15s0">-0.175</text>
+<text x="1332.3" y="729.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="715.1" width="72.8" height="20.8" rx="0" class="g15s18"/>
+<text x="1380.3" y="729.5" class="g15s0">-0.183</text>
+<text y="751.5" xml:space="preserve" class="g15s4"><tspan x="997.3" class="g15s1">1</tspan><tspan x="1003.2" textLength="16.1" lengthAdjust="spacing"> cat</tspan></text>
+<rect x="1025.9" y="737.1" width="72.8" height="20.8" rx="0" class="g15s63"/>
+<text x="1062.3" y="751.5" class="g15s0">0.148</text>
+<rect x="1099.9" y="737.1" width="72.8" height="20.8" rx="0" class="g15s64"/>
+<text x="1136.3" y="751.5" class="g15s0">-0.276</text>
+<rect x="1173.9" y="737.1" width="72.8" height="20.8" rx="0" class="g15s65"/>
+<text x="1210.3" y="751.5" class="g15s0">-0.207</text>
+<rect x="1247.9" y="737.1" width="72.8" height="20.8" rx="0" class="g15s66"/>
+<text x="1284.3" y="751.5" class="g15s0">-0.383</text>
+<text x="1332.3" y="751.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="737.1" width="72.8" height="20.8" rx="0" class="g15s67"/>
+<text x="1380.3" y="751.5" class="g15s0">0.311</text>
+<text y="773.5" xml:space="preserve" class="g15s4"><tspan x="1003.4" class="g15s1">2</tspan><tspan x="1009.3" textLength="10.0" lengthAdjust="spacing"> is</tspan></text>
+<rect x="1025.9" y="759.1" width="72.8" height="20.8" rx="0" class="g15s68"/>
+<text x="1062.3" y="773.5" class="g15s0">0.088</text>
+<rect x="1099.9" y="759.1" width="72.8" height="20.8" rx="0" class="g15s69"/>
+<text x="1136.3" y="773.5" class="g15s0">0.056</text>
+<rect x="1173.9" y="759.1" width="72.8" height="20.8" rx="0" class="g15s70"/>
+<text x="1210.3" y="773.5" class="g15s0">-0.358</text>
+<rect x="1247.9" y="759.1" width="72.8" height="20.8" rx="0" class="g15s71"/>
+<text x="1284.3" y="773.5" class="g15s0">0.119</text>
+<text x="1332.3" y="773.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="759.1" width="72.8" height="20.8" rx="0" class="g15s72"/>
+<text x="1380.3" y="773.5" class="g15s0">0.087</text>
+<text y="795.5" xml:space="preserve" class="g15s4"><tspan x="973.4" class="g15s1">3</tspan><tspan x="979.3" textLength="40.0" lengthAdjust="spacing"> sleeping</tspan></text>
+<rect x="1025.9" y="781.1" width="72.8" height="20.8" rx="0" class="g15s73"/>
+<text x="1062.3" y="795.5" class="g15s0">-0.048</text>
+<rect x="1099.9" y="781.1" width="72.8" height="20.8" rx="0" class="g15s74"/>
+<text x="1136.3" y="795.5" class="g15s0">-0.082</text>
+<rect x="1173.9" y="781.1" width="72.8" height="20.8" rx="0" class="g15s75"/>
+<text x="1210.3" y="795.5" class="g15s0">0.193</text>
+<text x="1284.3" y="795.5" class="g15s0">-0.002</text>
+<text x="1332.3" y="795.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="781.1" width="72.8" height="20.8" rx="0" class="g15s76"/>
+<text x="1380.3" y="795.5" class="g15s0">-0.329</text>
+<text y="817.5" xml:space="preserve" class="g15s4"><tspan x="999.5" class="g15s1">4</tspan><tspan x="1005.4" textLength="13.9" lengthAdjust="spacing"> on</tspan></text>
+<rect x="1025.9" y="803.1" width="72.8" height="20.8" rx="0" class="g15s30"/>
+<text x="1062.3" y="817.5" class="g15s0">0.122</text>
+<rect x="1099.9" y="803.1" width="72.8" height="20.8" rx="0" class="g15s31"/>
+<text x="1136.3" y="817.5" class="g15s0">0.186</text>
+<rect x="1173.9" y="803.1" width="72.8" height="20.8" rx="0" class="g15s32"/>
+<text x="1210.3" y="817.5" class="g15s0">-0.468</text>
+<rect x="1247.9" y="803.1" width="72.8" height="20.8" rx="0" class="g15s33"/>
+<text x="1284.3" y="817.5" class="g15s0">-0.125</text>
+<text x="1332.3" y="817.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="803.1" width="72.8" height="20.8" rx="0" class="g15s34"/>
+<text x="1380.3" y="817.5" class="g15s0">-0.121</text>
+<text y="839.5" xml:space="preserve" class="g15s4"><tspan x="996.7" class="g15s1">5</tspan><tspan x="1002.6" textLength="16.7" lengthAdjust="spacing"> the</tspan></text>
+<rect x="1025.9" y="825.1" width="72.8" height="20.8" rx="0" class="g15s14"/>
+<text x="1062.3" y="839.5" class="g15s0">0.095</text>
+<rect x="1099.9" y="825.1" width="72.8" height="20.8" rx="0" class="g15s15"/>
+<text x="1136.3" y="839.5" class="g15s0">0.306</text>
+<rect x="1173.9" y="825.1" width="72.8" height="20.8" rx="0" class="g15s16"/>
+<text x="1210.3" y="839.5" class="g15s0">-0.472</text>
+<rect x="1247.9" y="825.1" width="72.8" height="20.8" rx="0" class="g15s17"/>
+<text x="1284.3" y="839.5" class="g15s0">-0.175</text>
+<text x="1332.3" y="839.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="825.1" width="72.8" height="20.8" rx="0" class="g15s18"/>
+<text x="1380.3" y="839.5" class="g15s0">-0.183</text>
+<text y="861.5" xml:space="preserve" class="g15s4"><tspan x="991.7" class="g15s1">6</tspan><tspan x="997.6" textLength="21.7" lengthAdjust="spacing"> sofa</tspan></text>
+<rect x="1025.9" y="847.1" width="72.8" height="20.8" rx="0" class="g15s77"/>
+<text x="1062.3" y="861.5" class="g15s0">-0.435</text>
+<rect x="1099.9" y="847.1" width="72.8" height="20.8" rx="0" class="g15s78"/>
+<text x="1136.3" y="861.5" class="g15s0">0.082</text>
+<rect x="1173.9" y="847.1" width="72.8" height="20.8" rx="0" class="g15s79"/>
+<text x="1210.3" y="861.5" class="g15s0">-0.221</text>
+<rect x="1247.9" y="847.1" width="72.8" height="20.8" rx="0" class="g15s80"/>
+<text x="1284.3" y="861.5" class="g15s0">0.163</text>
+<text x="1332.3" y="861.5" class="g15s5">⋯</text>
+<rect x="1343.9" y="847.1" width="72.8" height="20.8" rx="0" class="g15s81"/>
+<text x="1380.3" y="861.5" class="g15s0">-0.119</text>
+<line x1="1099.3" y1="714.5" x2="1099.3" y2="868.5" class="g15s2"/>
+<line x1="1173.3" y1="714.5" x2="1173.3" y2="868.5" class="g15s2"/>
+<line x1="1247.3" y1="714.5" x2="1247.3" y2="868.5" class="g15s2"/>
+<line x1="1321.3" y1="714.5" x2="1321.3" y2="868.5" class="g15s2"/>
+<line x1="1343.3" y1="714.5" x2="1343.3" y2="868.5" class="g15s2"/>
+<line x1="1025.3" y1="736.5" x2="1417.3" y2="736.5" class="g15s2"/>
+<line x1="1025.3" y1="758.5" x2="1417.3" y2="758.5" class="g15s2"/>
+<line x1="1025.3" y1="780.5" x2="1417.3" y2="780.5" class="g15s2"/>
+<line x1="1025.3" y1="802.5" x2="1417.3" y2="802.5" class="g15s2"/>
+<line x1="1025.3" y1="824.5" x2="1417.3" y2="824.5" class="g15s2"/>
+<line x1="1025.3" y1="846.5" x2="1417.3" y2="846.5" class="g15s2"/>
+<rect x="1025.3" y="714.5" width="392.0" height="154.0" rx="3" class="g15s35"/>
+<rect x="34.0" y="900.5" width="1812.0" height="72.6" rx="6" style="fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1"/>
+<path d="M38.50 901.21 A5.50 5.50 0 0 0 34.50 906.50 V967.06 A5.50 5.50 0 0 0 38.50 972.35 Z" style="fill:var(--drop);stroke:none"/>
+<rect x="75.5" y="915.7" width="39.0" height="14.6" rx="3" class="g15s21"/>
+<text y="926.5" xml:space="preserve" class="g15s36"><tspan x="50.0" class="g15s6" textLength="25.5" lengthAdjust="spacing">The </tspan><tspan x="78.0" class="g15s82" textLength="34.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="114.4" class="g15s6" textLength="221.3" lengthAdjust="spacing"> embedding is not zero in this notebook</tspan></text>
+<rect x="1237.3" y="933.2" width="39.0" height="14.6" rx="3" class="g15s21"/>
+<text y="944.0" xml:space="preserve" class="g15s11"><tspan x="50.0" class="g15s10" textLength="217.3" lengthAdjust="spacing">nn.Embedding(..., padding_idx=0)</tspan><tspan x="267.3" textLength="42.7" lengthAdjust="spacing"> zeroes </tspan><tspan x="310.0" class="g15s1" textLength="31.1" lengthAdjust="spacing">row 0</tspan><tspan x="341.1" textLength="55.4" lengthAdjust="spacing"> when the </tspan><tspan x="396.5" class="g15s10" textLength="40.7" lengthAdjust="spacing">module</tspan><tspan x="437.2" textLength="76.0" lengthAdjust="spacing"> is built — but </tspan><tspan x="513.2" class="g15s10" textLength="135.8" lengthAdjust="spacing">Transformer.__init__</tspan><tspan x="649.0" textLength="57.4" lengthAdjust="spacing"> then calls </tspan><tspan x="706.4" class="g15s10" textLength="163.0" lengthAdjust="spacing">self.apply(init_weights)</tspan><tspan x="869.4" textLength="258.1" lengthAdjust="spacing">, and Xavier overwrites the whole weight tensor, </tspan><tspan x="1127.5" class="g15s1" textLength="31.1" lengthAdjust="spacing">row 0</tspan><tspan x="1158.6" textLength="78.7" lengthAdjust="spacing"> included. The </tspan><tspan x="1239.8" class="g15s82" textLength="34.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="1276.2" textLength="354.8" lengthAdjust="spacing"> vector in this model therefore starts as ordinary random numbers (</tspan><tspan x="1631.0" class="g15s1" textLength="31.8" lengthAdjust="spacing">0.243</tspan><tspan x="1662.9">, </tspan><tspan x="1669.5" class="g15s1" textLength="36.1" lengthAdjust="spacing">-0.323</tspan><tspan x="1705.6">, </tspan><tspan x="1712.3" class="g15s1" textLength="36.1" lengthAdjust="spacing">-0.104</tspan><tspan x="1748.3" textLength="77.4" lengthAdjust="spacing">, …) and stays</tspan></text>
+<text y="961.5" xml:space="preserve" class="g15s11"><tspan x="50.0" textLength="119.4" lengthAdjust="spacing">frozen there, because </tspan><tspan x="169.4" class="g15s10" textLength="74.7" lengthAdjust="spacing">padding_idx</tspan><tspan x="244.1" textLength="241.1" lengthAdjust="spacing"> also zeroes that row&#x27;s gradient. Sequence A </tspan><tspan x="485.2" class="g15s1" textLength="31.1" lengthAdjust="spacing">row 6</tspan><tspan x="516.3" textLength="268.8" lengthAdjust="spacing"> is genuinely carrying signal into the encoder; only </tspan><tspan x="785.1" class="g15s10" textLength="54.3" lengthAdjust="spacing">src_mask</tspan><tspan x="839.4" textLength="202.1" lengthAdjust="spacing"> stops other tokens from listening to it.</tspan></text>
+<rect x="34.0" y="997.1" width="1812.0" height="30.0" rx="6" class="g15s83"/>
+<path d="M38.50 997.77 A5.50 5.50 0 0 0 34.50 1003.06 V1021.06 A5.50 5.50 0 0 0 38.50 1026.35 Z" class="g15s84"/>
+<text y="1017.1" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600"><tspan x="50.0" class="g15s6" textLength="75.1" lengthAdjust="spacing">A · Why the </tspan><tspan x="125.1" class="g15s26" textLength="66.2" lengthAdjust="spacing">sqrt(512)</tspan><tspan x="191.3" class="g15s6" textLength="188.4" lengthAdjust="spacing"> is there — one row, measured</tspan></text>
+<text y="1017.1" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="397.7" textLength="216.0" lengthAdjust="spacing">the average size (root mean square) of all </tspan><tspan x="613.7" class="g15s1" textLength="71.1" lengthAdjust="spacing">512 numbers</tspan><tspan x="684.8" textLength="122.7" lengthAdjust="spacing"> in one real token vector</tspan></text>
+<text y="1045.1" xml:space="preserve" class="g15s36"><tspan x="38.0" class="g15s6" textLength="371.2" lengthAdjust="spacing">The multiplication nobody explains, settled with one measurement</tspan></text>
+<text y="1063.1" xml:space="preserve" class="g15s11"><tspan x="38.0" textLength="64.3" lengthAdjust="spacing">&quot;Multiply by </tspan><tspan x="102.3" class="g15s10" textLength="88.3" lengthAdjust="spacing">sqrt(d_model)</tspan><tspan x="190.5" textLength="1115.5" lengthAdjust="spacing">&quot; is one of the most copied and least explained lines in Transformer code. It has one job, and one measurement shows what that job is: balancing the size of the word signal against the size of the position signal.</tspan></text>
+<text y="1095.5" xml:space="preserve" class="g15s25"><tspan x="34.0" class="g15s6" textLength="320.5" lengthAdjust="spacing">Measured on this model, before the two are added together</tspan></text>
+<rect x="34.0" y="1104.5" width="1812.0" height="24.0" rx="4" class="g15s83"/>
+<text y="1120.5" xml:space="preserve" class="g15s40"><tspan x="43.0" class="g15s6" textLength="30.3" lengthAdjust="spacing">vector</tspan></text>
+<text y="1120.5" xml:space="preserve" class="g15s40"><tspan x="323.0" class="g15s6" textLength="52.6" lengthAdjust="spacing">RMS over </tspan><tspan x="375.6" style="font-weight:600;fill:var(--ink2)" textLength="61.9" lengthAdjust="spacing">512 features</tspan></text>
+<text y="1120.5" xml:space="preserve" class="g15s40"><tspan x="523.0" class="g15s6" textLength="154.0" lengthAdjust="spacing">where that number comes from</tspan></text>
+<text y="1143.9" xml:space="preserve" class="g15s41"><tspan x="43.0" class="g15s9" textLength="124.5" lengthAdjust="spacing">src_embedding(&quot;the&quot;)</tspan></text>
+<text x="323.0" y="1143.9" class="g15s42">0.01200</text>
+<text y="1143.9" xml:space="preserve" class="g15s19"><tspan x="523.0" textLength="94.7" lengthAdjust="spacing">Xavier drew it from </tspan><tspan x="617.7" class="g15s9" textLength="62.2" lengthAdjust="spacing">U(±0.0211)</tspan><tspan x="680.0" textLength="153.5" lengthAdjust="spacing">, and that bound shrinks as the </tspan><tspan x="833.5" class="g15s9" textLength="62.2" lengthAdjust="spacing">vocabulary</tspan><tspan x="895.7" textLength="38.5" lengthAdjust="spacing"> grows: </tspan><tspan x="934.2" class="g15s9" textLength="62.2" lengthAdjust="spacing">fan_in = V</tspan><tspan x="996.5"> = </tspan><tspan x="1009.0" class="g15s1" textLength="35.7" lengthAdjust="spacing">12,917</tspan></text>
+<line x1="34.0" y1="1151.9" x2="1846.0" y2="1151.9" class="g15s2"/>
+<rect x="34.0" y="1151.9" width="1812.0" height="23.4" rx="0" style="fill:var(--zebra);stroke:none;stroke-width:1"/>
+<text y="1167.3" xml:space="preserve" class="g15s41"><tspan x="43.0" class="g15s6">× </tspan><tspan x="53.2" class="g15s9" textLength="112.0" lengthAdjust="spacing">sqrt(512) = 22.627</tspan></text>
+<text x="323.0" y="1167.3" class="g15s42">0.27163</text>
+<text y="1167.3" xml:space="preserve" class="g15s19"><tspan x="523.0" textLength="84.4" lengthAdjust="spacing">the same vector, </tspan><tspan x="607.4" class="g15s1" textLength="42.7" lengthAdjust="spacing">22.627×</tspan><tspan x="650.0" textLength="247.0" lengthAdjust="spacing"> longer — no direction has changed, only the scale</tspan></text>
+<line x1="34.0" y1="1175.3" x2="1846.0" y2="1175.3" class="g15s2"/>
+<text y="1190.7" xml:space="preserve" class="g15s41"><tspan x="43.0" class="g15s6" textLength="106.3" lengthAdjust="spacing">positional encoding, </tspan><tspan x="149.3" class="g15s1" textLength="28.5" lengthAdjust="spacing">row 1</tspan></text>
+<text x="323.0" y="1190.7" class="g15s42">0.70711</text>
+<text y="1190.7" xml:space="preserve" class="g15s19"><tspan x="523.0" textLength="26.3" lengthAdjust="spacing">fixed </tspan><tspan x="549.3" class="g15s9" textLength="18.7" lengthAdjust="spacing">sin</tspan><tspan x="568.0">/</tspan><tspan x="571.0" class="g15s9" textLength="18.7" lengthAdjust="spacing">cos</tspan><tspan x="589.7" textLength="52.6" lengthAdjust="spacing"> values in [</tspan><tspan x="642.3" class="g15s1" textLength="13.5" lengthAdjust="spacing">−1</tspan><tspan x="655.8">, </tspan><tspan x="661.9" class="g15s1">1</tspan><tspan x="668.4" textLength="387.9" lengthAdjust="spacing">]; every position&#x27;s row has almost exactly this magnitude, because sin² + cos² = </tspan><tspan x="1056.2" class="g15s1">1</tspan><tspan x="1062.7" textLength="118.6" lengthAdjust="spacing"> for every frequency pair</tspan></text>
+<line x1="34.0" y1="1198.7" x2="1846.0" y2="1198.7" class="g15s2"/>
+<rect x="34.0" y="1128.5" width="1812.0" height="70.2" rx="0" style="fill:none;stroke:var(--panelbd);stroke-width:1"/>
+<line x1="314.0" y1="1128.5" x2="314.0" y2="1198.7" class="g15s2"/>
+<line x1="514.0" y1="1128.5" x2="514.0" y2="1198.7" class="g15s2"/>
+<rect x="34.0" y="1216.7" width="896.0" height="107.6" rx="6" class="g15s44"/>
+<path d="M38.50 1217.37 A5.50 5.50 0 0 0 34.50 1222.66 V1318.26 A5.50 5.50 0 0 0 38.50 1323.55 Z" class="g15s45"/>
+<text y="1242.7" xml:space="preserve" class="g15s36"><tspan x="50.0" class="g15s1" textLength="21.8" lengthAdjust="spacing">59×</tspan><tspan x="71.8" class="g15s6" textLength="46.7" lengthAdjust="spacing"> before, </tspan><tspan x="118.4" class="g15s1" textLength="25.3" lengthAdjust="spacing">2.6×</tspan><tspan x="143.8" class="g15s6" textLength="29.0" lengthAdjust="spacing"> after</tspan></text>
+<text y="1260.2" xml:space="preserve" class="g15s11"><tspan x="50.0" textLength="251.4" lengthAdjust="spacing">Without the multiplication, the position signal is </tspan><tspan x="301.4" class="g15s1" textLength="48.1" lengthAdjust="spacing">59 times</tspan><tspan x="349.5" textLength="544.1" lengthAdjust="spacing"> bigger than the word vector it is added to — the sum would be mostly &quot;which position&quot; with only a faint</tspan></text>
+<text y="1277.7" xml:space="preserve" class="g15s11"><tspan x="50.0" textLength="741.5" lengthAdjust="spacing">trace of &quot;which word&quot;, and the first encoder layer would have almost nothing about the words to work with. With it, the position signal is only </tspan><tspan x="791.5" class="g15s1" textLength="51.6" lengthAdjust="spacing">2.6 times</tspan><tspan x="843.1" textLength="56.0" lengthAdjust="spacing"> bigger, so</tspan></text>
+<text y="1295.2" xml:space="preserve" class="g15s11"><tspan x="50.0" textLength="451.6" lengthAdjust="spacing">both kinds of information survive. That is the whole argument. It also depends on the </tspan><tspan x="501.6" class="g15s10" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="569.5" textLength="50.7" lengthAdjust="spacing">: a larger </tspan><tspan x="620.2" class="g15s10">V</tspan><tspan x="626.9" textLength="265.4" lengthAdjust="spacing"> gives Xavier a narrower spread, which makes the</tspan></text>
+<text y="1312.7" xml:space="preserve" class="g15s11"><tspan x="50.0" textLength="190.7" lengthAdjust="spacing">multiplication even more necessary.</tspan></text>
+<rect x="950.0" y="1216.7" width="896.0" height="107.6" rx="6" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:1"/>
+<path d="M954.50 1217.37 A5.50 5.50 0 0 0 950.50 1222.66 V1318.26 A5.50 5.50 0 0 0 954.50 1323.55 Z" class="g15s84"/>
+<text y="1242.7" xml:space="preserve" class="g15s36"><tspan x="966.0" class="g15s6" textLength="238.2" lengthAdjust="spacing">Two tables, two vectors for the same word</tspan></text>
+<text y="1260.2" xml:space="preserve" class="g15s11"><tspan x="966.0" class="g15s10" textLength="88.3" lengthAdjust="spacing">src_embedding</tspan><tspan x="1054.3" textLength="26.7" lengthAdjust="spacing"> and </tspan><tspan x="1081.0" class="g15s10" textLength="88.3" lengthAdjust="spacing">tgt_embedding</tspan><tspan x="1169.2" textLength="96.0" lengthAdjust="spacing"> are two separate </tspan><tspan x="1265.3" class="g15s10" textLength="88.3" lengthAdjust="spacing">(12,917, 512)</tspan><tspan x="1353.6" textLength="475.8" lengthAdjust="spacing"> tables. The word &quot;the&quot; appears in sequence A’s source and in sequence B’s target, and</tspan></text>
+<text y="1277.7" xml:space="preserve" class="g15s11"><tspan x="966.0" textLength="147.4" lengthAdjust="spacing">it gets a DIFFERENT list of </tspan><tspan x="1113.4" class="g15s1" textLength="74.2" lengthAdjust="spacing">512 numbers</tspan><tspan x="1187.6" textLength="608.3" lengthAdjust="spacing"> in each — one learned from reading, one from writing, with no connection between them. That makes sense when</tspan></text>
+<text y="1295.2" xml:space="preserve" class="g15s11"><tspan x="966.0" textLength="768.4" lengthAdjust="spacing">source and target are different languages; here both sides are English, so the model has to learn the same word twice, from only two sentences. </tspan><tspan x="1734.4" class="g15s1" textLength="36.8" lengthAdjust="spacing">Step 6</tspan><tspan x="1771.1" textLength="52.7" lengthAdjust="spacing"> section B</tspan></text>
+<text y="1312.7" xml:space="preserve" class="g15s11"><tspan x="966.0" textLength="226.1" lengthAdjust="spacing">counts what sharing one table would save.</tspan></text>
+<rect x="34.0" y="1346.3" width="1812.0" height="34.0" rx="6" style="fill:var(--soft);stroke:var(--hair);stroke-width:1"/>
+<rect x="48.0" y="1355.3" width="15.0" height="15.0" rx="3" style="fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1"/>
+<text y="1366.3" xml:space="preserve" class="g15s19"><tspan x="70.0" textLength="256.7" lengthAdjust="spacing">sequence A — &quot;the dog sat on the floor&quot; (padded by </tspan><tspan x="326.7" class="g15s1">1</tspan><tspan x="333.2">)</tspan></text>
+<rect x="373.1" y="1355.3" width="15.0" height="15.0" rx="3" style="fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1"/>
+<text y="1366.3" xml:space="preserve" class="g15s19"><tspan x="395.1" textLength="386.3" lengthAdjust="spacing">sequence B — &quot;the cat is sleeping on the sofa&quot; (no padding — it sets the width)</tspan></text>
+<rect x="822.9" y="1355.3" width="15.0" height="15.0" rx="3" style="fill:url(#hatch15);stroke:var(--pad);stroke-width:1"/>
+<rect x="844.9" y="1356.4" width="36.1" height="13.4" rx="3" class="g15s21"/>
+<text y="1366.3" xml:space="preserve" class="g15s19"><tspan x="847.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--pad)" textLength="31.1" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="881.0" textLength="63.6" lengthAdjust="spacing"> token or row</tspan></text>
+<rect x="973.9" y="1355.3" width="15.0" height="15.0" rx="3" style="fill:var(--pos);stroke:var(--pos);stroke-width:1;opacity:0.35"/>
+<text y="1366.3" xml:space="preserve" class="g15s19"><tspan x="995.9" textLength="66.6" lengthAdjust="spacing">positive value</tspan></text>
+<rect x="1091.2" y="1355.3" width="15.0" height="15.0" rx="3" style="fill:var(--neg);stroke:var(--neg);stroke-width:1;opacity:0.35"/>
+<text y="1366.3" xml:space="preserve" class="g15s19"><tspan x="1113.2" textLength="70.9" lengthAdjust="spacing">negative value</tspan></text>
+<line x1="28.0" y1="1406.3" x2="1852.0" y2="1406.3" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1423.3" xml:space="preserve" class="g15s85"><tspan x="28.0" textLength="407.8" lengthAdjust="spacing">Numbers are a real forward pass of a freshly initialised model of exactly this shape (</tspan><tspan x="435.8" class="g15s9" textLength="68.5" lengthAdjust="spacing">d_model=512</tspan><tspan x="504.2">, </tspan><tspan x="510.3" class="g15s9" textLength="43.6" lengthAdjust="spacing">heads=4</tspan><tspan x="553.9">, </tspan><tspan x="560.0" class="g15s9" textLength="49.8" lengthAdjust="spacing">layers=2</tspan><tspan x="609.8">, </tspan><tspan x="615.9" class="g15s9" textLength="49.8" lengthAdjust="spacing">d_ff=512</tspan><tspan x="665.7">, </tspan><tspan x="671.9" class="g15s9" textLength="68.5" lengthAdjust="spacing">dropout=0.1</tspan><tspan x="740.3" textLength="323.4" lengthAdjust="spacing">), computed in pure Python: shapes, masks, positional encodings, </tspan><tspan x="1063.8" class="g15s9" textLength="43.6" lengthAdjust="spacing">softmax</tspan><tspan x="1107.3" textLength="103.3" lengthAdjust="spacing"> rows, the activation, </tspan><tspan x="1210.7" class="g15s9" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1266.7" textLength="69.7" lengthAdjust="spacing"> statistics and </tspan><tspan x="1336.4" class="g15s9" textLength="43.6" lengthAdjust="spacing">dropout</tspan><tspan x="1380.0" textLength="454.5" lengthAdjust="spacing"> scaling are exact; the learned weights are seeded draws from the notebook&#x27;s own initialisers,</tspan></text>
+<text y="1438.3" xml:space="preserve" class="g15s85"><tspan x="28.0" textLength="179.8" lengthAdjust="spacing">not values from a trained checkpoint.</tspan></text>
+</svg>
