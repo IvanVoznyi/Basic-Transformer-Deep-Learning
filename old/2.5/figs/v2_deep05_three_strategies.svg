@@ -1,0 +1,447 @@
+<svg data-src="v2_deep05_three_strategies.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="2969" viewBox="0 0 1880 2969">
+<style>.txfig .g80s0{font-weight:600}.txfig .g80s1{fill:var(--op)}.txfig .g80s2{fill:var(--code)}.txfig .g80s3{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g80s4{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g80s5{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g80s6{font-weight:600;fill:var(--ink)}.txfig .g80s7{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g80s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g80s9{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g80s10{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g80s11{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g80s12{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g80s13{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g80s14{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g80s15{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:end}.txfig .g80s16{fill:var(--accent);stroke:none;stroke-width:1;opacity:0.85}.txfig .g80s17{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:start}.txfig .g80s18{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g80s19{fill:var(--fn)}.txfig .g80s20{fill:var(--accent);stroke:none}.txfig .g80s21{fill:var(--num)}.txfig .g80s22{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g80s23{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:end}.txfig .g80s24{fill:var(--grid);stroke:none;stroke-width:1;opacity:0.35}.txfig .g80s25{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:start}.txfig .g80s26{fill:var(--cmt)}.txfig .g80s27{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g80s28{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g80s29{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.5px;text-anchor:start}.txfig .g80s30{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g80s31{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start}.txfig .g80s32{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g80s33{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g80s34{fill:var(--infobg);stroke:var(--infobd);stroke-width:1}.txfig .g80s35{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g80s36{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g80s37{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start}.txfig .g80s38{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g80s39{fill:var(--keepbg);stroke:var(--keep);stroke-width:1}.txfig .g80s40{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:middle}.txfig .g80s41{fill:var(--cellbg);stroke:var(--drop);stroke-width:2}.txfig .g80s42{fill:var(--cellbg);stroke:var(--keep);stroke-width:2}.txfig .g80s43{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px}.txfig .g80s44{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g80s45{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g80s46{fill:var(--keep);stroke:none}.txfig .g80s47{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g80s48{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start}.txfig .g80s49{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g80s50{fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1}.txfig .g80s51{fill:var(--warnbd);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:middle}.txfig .g80s52{fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start}.txfig .g80s53{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start}.txfig .g80s54{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g80s55{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600}.txfig .g80s56{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.8px;font-weight:600;fill:var(--ink)}.txfig .g80s57{fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8}.txfig .g80s58{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--accent)}.txfig .g80s59{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch80" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash80" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="2969" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">DEEP DIVE 5 / 5</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="150.0" class="g80s0" textLength="540.7" lengthAdjust="spacing">Greedy, top-k sampling and beam search — the same </tspan><tspan x="690.7" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)" textLength="71.3" lengthAdjust="spacing">scores</tspan><tspan x="762.0" class="g80s0" textLength="120.0" lengthAdjust="spacing">, three ways</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g80s33" textLength="51.5" lengthAdjust="spacing">softmax</tspan><tspan x="85.5" textLength="100.4" lengthAdjust="spacing"> → probabilities · </tspan><tspan x="185.9" class="g80s33" textLength="44.1" lengthAdjust="spacing">argmax</tspan><tspan x="230.1" textLength="286.8" lengthAdjust="spacing"> vs a draw vs a search · every number worked out</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="59.4" lengthAdjust="spacing">One row of </tspan><tspan x="93.4" class="g80s44" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="132.5" textLength="396.3" lengthAdjust="spacing"> read three ways, then the same three strategies run to the end of a sentence.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g80s45"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g80s46"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g80s0" textLength="237.5" lengthAdjust="spacing">The model never writes a word — it </tspan><tspan x="291.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.2px;font-weight:600;fill:var(--ink)" textLength="47.5" lengthAdjust="spacing">scores</tspan><tspan x="339.0" class="g80s0" textLength="37.1" lengthAdjust="spacing"> them</tspan></text>
+<text y="169.0" xml:space="preserve" class="g80s47"><tspan x="54.0" textLength="12.3" lengthAdjust="spacing">At</tspan><tspan x="66.3"> </tspan><tspan x="70.2" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="101.9"> </tspan><tspan x="105.8" textLength="24.6" lengthAdjust="spacing">step</tspan><tspan x="130.4"> </tspan><tspan x="134.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="152.3"> </tspan><tspan x="156.2" textLength="47.0" lengthAdjust="spacing">decoder</tspan><tspan x="203.2"> </tspan><tspan x="207.1" textLength="53.5" lengthAdjust="spacing">produces</tspan><tspan x="260.5"> </tspan><tspan x="264.4" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="286.1"> </tspan><tspan x="290.0" textLength="44.1" lengthAdjust="spacing">number</tspan><tspan x="334.0"> </tspan><tspan x="337.9" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="356.7"> </tspan><tspan x="360.6" textLength="35.4" lengthAdjust="spacing">token:</tspan><tspan x="396.0"> </tspan><tspan x="399.9">a</tspan><tspan x="407.1"> </tspan><tspan x="411.0" textLength="27.5" lengthAdjust="spacing">logit.</tspan><tspan x="438.4"> </tspan><tspan x="442.3" textLength="34.7" lengthAdjust="spacing">Logits</tspan><tspan x="477.0"> </tspan><tspan x="480.8" textLength="18.8" lengthAdjust="spacing">are</tspan><tspan x="499.6"> </tspan><tspan x="503.5" textLength="18.1" lengthAdjust="spacing">not</tspan><tspan x="521.6"> </tspan><tspan x="525.5" textLength="73.0" lengthAdjust="spacing">probabilities;</tspan><tspan x="598.4"> </tspan><tspan x="602.3" class="g80s33" textLength="51.5" lengthAdjust="spacing">softmax</tspan><tspan x="653.8"> </tspan><tspan x="657.7" textLength="28.9" lengthAdjust="spacing">turns</tspan><tspan x="686.6"> </tspan><tspan x="690.4" textLength="28.9" lengthAdjust="spacing">them</tspan><tspan x="719.3"> </tspan><tspan x="723.2" textLength="21.0" lengthAdjust="spacing">into</tspan><tspan x="744.2"> </tspan><tspan x="748.0" textLength="73.0" lengthAdjust="spacing">probabilities,</tspan><tspan x="821.0"> </tspan><tspan x="824.9" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="846.6"> </tspan><tspan x="850.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="868.5"> </tspan><tspan x="872.4" textLength="46.2" lengthAdjust="spacing">strategy</tspan><tspan x="918.6"> </tspan><tspan x="922.5" textLength="44.8" lengthAdjust="spacing">decides</tspan><tspan x="967.3"> </tspan><tspan x="971.2" textLength="27.5" lengthAdjust="spacing">what</tspan><tspan x="998.6"> </tspan><tspan x="1002.5" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1013.4"> </tspan><tspan x="1017.2" textLength="14.5" lengthAdjust="spacing">do</tspan><tspan x="1031.7"> </tspan><tspan x="1035.6" textLength="23.1" lengthAdjust="spacing">with</tspan><tspan x="1058.7"> </tspan><tspan x="1062.6" textLength="32.5" lengthAdjust="spacing">them.</tspan><tspan x="1095.1"> </tspan><tspan x="1098.9" textLength="42.6" lengthAdjust="spacing">Greedy</tspan><tspan x="1141.6"> </tspan><tspan x="1145.4" textLength="31.1" lengthAdjust="spacing">takes</tspan><tspan x="1176.5"> </tspan><tspan x="1180.4" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1198.5"> </tspan><tspan x="1202.3" textLength="42.6" lengthAdjust="spacing">largest.</tspan><tspan x="1245.0"> </tspan><tspan x="1248.8" textLength="33.2" lengthAdjust="spacing">Top-k</tspan><tspan x="1282.1"> </tspan><tspan x="1285.9" textLength="52.0" lengthAdjust="spacing">sampling</tspan><tspan x="1338.0"> </tspan><tspan x="1341.8" textLength="34.7" lengthAdjust="spacing">keeps</tspan><tspan x="1376.5"> </tspan><tspan x="1380.4" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1398.5"> </tspan><tspan x="1402.3">k</tspan><tspan x="1408.8"> </tspan><tspan x="1412.7" textLength="28.2" lengthAdjust="spacing">best,</tspan><tspan x="1440.9"> </tspan><tspan x="1444.8" textLength="53.5" lengthAdjust="spacing">reshapes</tspan><tspan x="1498.2"> </tspan><tspan x="1502.1" textLength="28.9" lengthAdjust="spacing">them</tspan><tspan x="1531.0"> </tspan><tspan x="1534.9" textLength="23.1" lengthAdjust="spacing">with</tspan><tspan x="1558.0"> </tspan><tspan x="1561.9">a</tspan><tspan x="1569.1"> </tspan><tspan x="1573.0" textLength="70.1" lengthAdjust="spacing">temperature</tspan><tspan x="1643.1"> </tspan><tspan x="1646.9" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1668.6"> </tspan><tspan x="1672.5" textLength="23.8" lengthAdjust="spacing">rolls</tspan><tspan x="1696.3"> </tspan><tspan x="1700.2">a</tspan><tspan x="1707.4"> </tspan><tspan x="1711.3" textLength="52.0" lengthAdjust="spacing">weighted</tspan><tspan x="1763.3"> </tspan><tspan x="1767.2" textLength="21.0" lengthAdjust="spacing">die.</tspan><tspan x="1788.2"> </tspan><tspan x="1792.0" textLength="34.0" lengthAdjust="spacing">Beam</tspan></text>
+<text y="188.0" xml:space="preserve" class="g80s47"><tspan x="54.0" textLength="1414.9" lengthAdjust="spacing">search keeps the B best partial sentences and compares whole sequences. This page does the arithmetic once, applies all three to the same numbers, and then runs them to the end of a sentence so you can see what each one actually produces.</tspan></text>
+<text y="241.2" xml:space="preserve" class="g80s35"><tspan x="34.0" textLength="50.6" lengthAdjust="spacing">Sections</tspan><tspan x="84.6"> </tspan><tspan x="89.8">A</tspan><tspan x="98.6"> </tspan><tspan x="103.9" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="125.9"> </tspan><tspan x="131.1">B</tspan><tspan x="139.9"> </tspan><tspan x="145.1" textLength="21.3" lengthAdjust="spacing">use</tspan><tspan x="166.4"> </tspan><tspan x="171.6" textLength="22.0" lengthAdjust="spacing">one</tspan><tspan x="193.6"> </tspan><tspan x="198.9" textLength="51.4" lengthAdjust="spacing">hand-set</tspan><tspan x="250.2"> </tspan><tspan x="255.5" textLength="21.3" lengthAdjust="spacing">row</tspan><tspan x="276.7"> </tspan><tspan x="281.9" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="292.9"> </tspan><tspan x="298.2" textLength="16.1" lengthAdjust="spacing">six</tspan><tspan x="314.3"> </tspan><tspan x="319.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)" textLength="44.8" lengthAdjust="spacing">scores</tspan><tspan x="364.3">,</tspan><tspan x="368.0"> </tspan><tspan x="373.2" textLength="13.9" lengthAdjust="spacing">so</tspan><tspan x="387.2"> </tspan><tspan x="392.4" textLength="32.3" lengthAdjust="spacing">every</tspan><tspan x="424.7"> </tspan><tspan x="429.9" textLength="44.7" lengthAdjust="spacing">number</tspan><tspan x="474.6"> </tspan><tspan x="479.9" textLength="14.7" lengthAdjust="spacing">on</tspan><tspan x="494.5"> </tspan><tspan x="499.8" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="518.1"> </tspan><tspan x="523.3" textLength="29.4" lengthAdjust="spacing">page</tspan><tspan x="552.7"> </tspan><tspan x="557.9" textLength="21.3" lengthAdjust="spacing">can</tspan><tspan x="579.2"> </tspan><tspan x="584.4" textLength="14.7" lengthAdjust="spacing">be</tspan><tspan x="599.1"> </tspan><tspan x="604.3" textLength="49.2" lengthAdjust="spacing">checked</tspan><tspan x="653.5"> </tspan><tspan x="658.7" textLength="13.9" lengthAdjust="spacing">by</tspan><tspan x="672.6"> </tspan><tspan x="677.8" textLength="33.0" lengthAdjust="spacing">hand.</tspan><tspan x="710.9"> </tspan><tspan x="716.1" textLength="44.0" lengthAdjust="spacing">Section</tspan><tspan x="760.1"> </tspan><tspan x="765.3">C</tspan><tspan x="774.9"> </tspan><tspan x="780.1" textLength="25.7" lengthAdjust="spacing">runs</tspan><tspan x="805.8"> </tspan><tspan x="811.0" textLength="13.2" lengthAdjust="spacing">all</tspan><tspan x="824.2"> </tspan><tspan x="829.4" textLength="30.1" lengthAdjust="spacing">three</tspan><tspan x="859.5"> </tspan><tspan x="864.7" textLength="57.2" lengthAdjust="spacing">strategies</tspan><tspan x="921.9"> </tspan><tspan x="927.1" textLength="11.0" lengthAdjust="spacing">to</tspan><tspan x="938.1"> </tspan><tspan x="943.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="961.7"> </tspan><tspan x="966.9" textLength="22.0" lengthAdjust="spacing">end</tspan><tspan x="989.0"> </tspan><tspan x="994.2" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="1005.2"> </tspan><tspan x="1010.4">a</tspan><tspan x="1017.7"> </tspan><tspan x="1023.0" textLength="53.6" lengthAdjust="spacing">sentence</tspan><tspan x="1076.5"> </tspan><tspan x="1081.8" textLength="14.7" lengthAdjust="spacing">on</tspan><tspan x="1096.4"> </tspan><tspan x="1101.7" textLength="18.3" lengthAdjust="spacing">the</tspan></text>
+<text y="261.0" xml:space="preserve" class="g80s35"><tspan x="34.0" textLength="51.4" lengthAdjust="spacing">hand-set</tspan><tspan x="85.4"> </tspan><tspan x="90.7" textLength="35.9" lengthAdjust="spacing">model</tspan><tspan x="126.6"> </tspan><tspan x="131.9" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="150.3"> </tspan><tspan x="155.6" textLength="30.1" lengthAdjust="spacing">other</tspan><tspan x="185.7"> </tspan><tspan x="191.0" textLength="53.6" lengthAdjust="spacing">decoding</tspan><tspan x="244.5"> </tspan><tspan x="249.8" textLength="30.8" lengthAdjust="spacing">dives</tspan><tspan x="280.6"> </tspan><tspan x="286.0" textLength="24.9" lengthAdjust="spacing">use,</tspan><tspan x="310.9"> </tspan><tspan x="316.2">D</tspan><tspan x="325.7"> </tspan><tspan x="331.0" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="340.6"> </tspan><tspan x="345.9" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="364.2"> </tspan><tspan x="369.5" textLength="57.2" lengthAdjust="spacing">sequence</tspan><tspan x="426.8"> </tspan><tspan x="432.1" textLength="57.2" lengthAdjust="spacing">arithmetic</tspan><tspan x="489.3"> </tspan><tspan x="494.6">—</tspan><tspan x="507.8"> </tspan><tspan x="513.1" textLength="24.2" lengthAdjust="spacing">how</tspan><tspan x="537.3"> </tspan><tspan x="542.6">a</tspan><tspan x="550.0"> </tspan><tspan x="555.3" textLength="68.1" lengthAdjust="spacing">sentence’s</tspan><tspan x="623.3"> </tspan><tspan x="628.7" textLength="60.2" lengthAdjust="spacing">probability</tspan><tspan x="688.8"> </tspan><tspan x="694.1" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="703.6"> </tspan><tspan x="708.9" textLength="24.2" lengthAdjust="spacing">built</tspan><tspan x="733.2"> </tspan><tspan x="738.5" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="760.5"> </tspan><tspan x="765.8" textLength="58.7" lengthAdjust="spacing">compared</tspan><tspan x="824.5"> </tspan><tspan x="829.8">—</tspan><tspan x="843.0"> </tspan><tspan x="848.3">E</tspan><tspan x="857.1"> </tspan><tspan x="862.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="880.7"> </tspan><tspan x="886.1" textLength="25.7" lengthAdjust="spacing">pros</tspan><tspan x="911.7"> </tspan><tspan x="917.0" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="939.1"> </tspan><tspan x="944.4" textLength="27.9" lengthAdjust="spacing">cons</tspan><tspan x="972.2"> </tspan><tspan x="977.5" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="988.6"> </tspan><tspan x="993.9" textLength="13.2" lengthAdjust="spacing">all</tspan><tspan x="1007.1"> </tspan><tspan x="1012.4" textLength="33.8" lengthAdjust="spacing">three,</tspan><tspan x="1046.1"> </tspan><tspan x="1051.4">F</tspan><tspan x="1059.5"> </tspan><tspan x="1064.8" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="1083.1"> </tspan><tspan x="1088.5" textLength="31.5" lengthAdjust="spacing">usual</tspan></text>
+<text y="280.8" xml:space="preserve" class="g80s35"><tspan x="34.0" textLength="114.4" lengthAdjust="spacing">misunderstandings.</tspan></text>
+<rect x="1146.0" y="228.0" width="700.0" height="231.0" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="1156.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v2</tspan><tspan x="1167.9" class="g80s0" textLength="229.4" lengthAdjust="spacing"> · the three rules, in the notebook’s own terms</tspan></text>
+<text x="1156.0" y="269.0" xml:space="preserve" class="g80s13"><tspan class="g80s26"># the model gives logits; everything else is the reading</tspan></text>
+<text x="1156.0" y="288.5" xml:space="preserve" class="g80s13"><tspan class="g80s2">logits</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">=</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">model</tspan><tspan class="g80s1">.</tspan><tspan class="g80s19">decode</tspan><tspan class="g80s1">(</tspan><tspan class="g80s1">.</tspan><tspan class="g80s1">.</tspan><tspan class="g80s1">.</tspan><tspan class="g80s1">)</tspan><tspan class="g80s1">[</tspan><tspan class="g80s1">:</tspan><tspan class="g80s1">,</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">-</tspan><tspan class="g80s21">1</tspan><tspan class="g80s1">,</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">:</tspan><tspan class="g80s1">]</tspan><tspan class="g80s2">               </tspan><tspan class="g80s26"># one number per token</tspan></text>
+<text x="1156.0" y="308.0" xml:space="preserve" class="g80s13"><tspan class="g80s2">p</tspan><tspan class="g80s2">      </tspan><tspan class="g80s1">=</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">torch</tspan><tspan class="g80s1">.</tspan><tspan class="g80s19">softmax</tspan><tspan class="g80s1">(</tspan><tspan class="g80s2">logits</tspan><tspan class="g80s1">,</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">dim</tspan><tspan class="g80s1">=</tspan><tspan class="g80s1">-</tspan><tspan class="g80s21">1</tspan><tspan class="g80s1">)</tspan><tspan class="g80s2">             </tspan><tspan class="g80s26"># probabilities</tspan></text>
+<text x="1156.0" y="327.5" xml:space="preserve" class="g80s13"><tspan class="g80s2">logp</tspan><tspan class="g80s2">   </tspan><tspan class="g80s1">=</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">torch</tspan><tspan class="g80s1">.</tspan><tspan class="g80s19">log_softmax</tspan><tspan class="g80s1">(</tspan><tspan class="g80s2">logits</tspan><tspan class="g80s1">,</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">dim</tspan><tspan class="g80s1">=</tspan><tspan class="g80s1">-</tspan><tspan class="g80s21">1</tspan><tspan class="g80s1">)</tspan><tspan class="g80s2">         </tspan><tspan class="g80s26"># log-probabilities</tspan></text>
+<text x="1156.0" y="347.0" xml:space="preserve" class="g80s13"></text>
+<text x="1156.0" y="366.5" xml:space="preserve" class="g80s13"><tspan class="g80s2">greedy</tspan><tspan class="g80s2">   </tspan><tspan class="g80s1">=</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">logits</tspan><tspan class="g80s1">.</tspan><tspan class="g80s19">argmax</tspan><tspan class="g80s1">(</tspan><tspan class="g80s1">-</tspan><tspan class="g80s21">1</tspan><tspan class="g80s1">)</tspan><tspan class="g80s2">                       </tspan><tspan class="g80s26"># the single best</tspan></text>
+<text x="1156.0" y="386.0" xml:space="preserve" class="g80s13"><tspan class="g80s2">kth</tspan><tspan class="g80s2">      </tspan><tspan class="g80s1">=</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">torch</tspan><tspan class="g80s1">.</tspan><tspan class="g80s19">topk</tspan><tspan class="g80s1">(</tspan><tspan class="g80s2">logits</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">/</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">T</tspan><tspan class="g80s1">,</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">k</tspan><tspan class="g80s1">)</tspan><tspan class="g80s1">.</tspan><tspan style="fill:var(--attr)">values</tspan><tspan class="g80s1">[</tspan><tspan class="g80s1">:</tspan><tspan class="g80s1">,</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">-</tspan><tspan class="g80s21">1</tspan><tspan class="g80s1">:</tspan><tspan class="g80s1">]</tspan></text>
+<text x="1156.0" y="405.5" xml:space="preserve" class="g80s13"><tspan class="g80s2">sampled</tspan><tspan class="g80s2">  </tspan><tspan class="g80s1">=</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">torch</tspan><tspan class="g80s1">.</tspan><tspan class="g80s19">multinomial</tspan><tspan class="g80s1">(</tspan><tspan class="g80s2">torch</tspan><tspan class="g80s1">.</tspan><tspan class="g80s19">softmax</tspan><tspan class="g80s1">(</tspan></text>
+<text x="1156.0" y="425.0" xml:space="preserve" class="g80s13"><tspan class="g80s2">    </tspan><tspan class="g80s1">(</tspan><tspan class="g80s2">logits</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">/</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">T</tspan><tspan class="g80s1">)</tspan><tspan class="g80s1">.</tspan><tspan class="g80s19">masked_fill</tspan><tspan class="g80s1">(</tspan><tspan class="g80s2">logits</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">/</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">T</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">&lt;</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">kth</tspan><tspan class="g80s1">,</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">-</tspan><tspan class="g80s2">inf</tspan><tspan class="g80s1">)</tspan><tspan class="g80s1">,</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">-</tspan><tspan class="g80s21">1</tspan><tspan class="g80s1">)</tspan><tspan class="g80s1">,</tspan><tspan class="g80s2"> </tspan><tspan class="g80s21">1</tspan><tspan class="g80s1">)</tspan></text>
+<text x="1156.0" y="444.5" xml:space="preserve" class="g80s13"><tspan class="g80s2">beam</tspan><tspan class="g80s2">     </tspan><tspan class="g80s1">=</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">score</tspan><tspan class="g80s2"> </tspan><tspan class="g80s1">+</tspan><tspan class="g80s2"> </tspan><tspan class="g80s2">logp</tspan><tspan class="g80s1">[</tspan><tspan class="g80s2">token</tspan><tspan class="g80s1">]</tspan><tspan class="g80s2">                     </tspan><tspan class="g80s26"># a running sum</tspan></text>
+<rect x="34.0" y="481.0" width="1812.0" height="30.0" rx="6" class="g80s11"/>
+<path d="M38.50 481.71 A5.50 5.50 0 0 0 34.50 487.00 V505.00 A5.50 5.50 0 0 0 38.50 510.29 Z" class="g80s20"/>
+<text y="501.0" xml:space="preserve" class="g80s27"><tspan x="50.0" class="g80s0" textLength="56.7" lengthAdjust="spacing">A · From </tspan><tspan x="106.7" class="g80s33" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="150.8" class="g80s0" textLength="196.8" lengthAdjust="spacing"> to probabilities — the arithmetic</tspan></text>
+<text y="501.0" xml:space="preserve" class="g80s28"><tspan x="365.6" class="g80s44" textLength="45.6" lengthAdjust="spacing">softmax</tspan><tspan x="411.2" textLength="187.3" lengthAdjust="spacing">, and what the temperature does to it</tspan></text>
+<text y="529.0" xml:space="preserve" class="g80s22"><tspan x="38.0" class="g80s0" textLength="39.6" lengthAdjust="spacing">Why a </tspan><tspan x="77.6" class="g80s18" textLength="47.5" lengthAdjust="spacing">softmax</tspan><tspan x="125.1" class="g80s0" textLength="30.4" lengthAdjust="spacing"> at all</tspan></text>
+<text y="547.0" xml:space="preserve" class="g80s14"><tspan x="38.0" textLength="490.2" lengthAdjust="spacing">A logit can be any number, positive or negative; probabilities must be positive and add up to </tspan><tspan x="528.2" class="g80s6">1</tspan><tspan x="535.3">. </tspan><tspan x="542.0" class="g80s18" textLength="34.0" lengthAdjust="spacing">exp()</tspan><tspan x="575.9" textLength="476.2" lengthAdjust="spacing"> makes every score positive and keeps the order; dividing by the sum makes them add to </tspan><tspan x="1052.2" class="g80s6">1</tspan><tspan x="1059.2" textLength="230.1" lengthAdjust="spacing">. Nothing else about the model changes — </tspan><tspan x="1289.3" class="g80s18" textLength="47.5" lengthAdjust="spacing">softmax</tspan><tspan x="1336.9" textLength="202.8" lengthAdjust="spacing"> is a reading of the same six numbers.</tspan></text>
+<rect x="34.0" y="568.4" width="894.0" height="172.0" rx="8" class="g80s34"/>
+<text x="50.0" y="590.4" class="g80s48">the formulas</text>
+<text x="50.0" y="622.4" class="g80s29">p_i  =  exp(z_i) / Σ_j exp(z_j)</text>
+<text y="639.4" xml:space="preserve" class="g80s4"><tspan x="50.0" textLength="18.3" lengthAdjust="spacing">the </tspan><tspan x="68.3" class="g80s9" textLength="43.6" lengthAdjust="spacing">softmax</tspan><tspan x="111.9" textLength="294.1" lengthAdjust="spacing">: z is the logit of token i, and the sum runs over all tokens — </tspan><tspan x="406.0" class="g80s6" textLength="35.7" lengthAdjust="spacing">16,111</tspan><tspan x="441.7" textLength="54.4" lengthAdjust="spacing"> of them in </tspan><tspan x="496.1" class="g80s9" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="508.5" textLength="47.7" lengthAdjust="spacing">, six here.</tspan></text>
+<text x="50.0" y="668.4" class="g80s29">log p_i  =  z_i − log Σ_j exp(z_j)</text>
+<text y="685.4" xml:space="preserve" class="g80s4"><tspan x="50.0" textLength="460.4" lengthAdjust="spacing">the same thing in logs. The subtracted term is the same for every token, so DIFFERENCES of </tspan><tspan x="510.3" class="g80s9" textLength="37.3" lengthAdjust="spacing">logits</tspan><tspan x="547.7" textLength="258.0" lengthAdjust="spacing"> are differences of log-probabilities: dog beats cat by </tspan><tspan x="805.7" class="g80s6" textLength="16.2" lengthAdjust="spacing">4.0</tspan><tspan x="821.9"> − </tspan><tspan x="834.6" class="g80s9" textLength="56.0" lengthAdjust="spacing">3.2 = 0.8</tspan></text>
+<text y="701.4" xml:space="preserve" class="g80s4"><tspan x="50.0" textLength="53.2" lengthAdjust="spacing">either way.</tspan></text>
+<text x="50.0" y="714.4" class="g80s29">p_i(T)  =  exp(z_i / T) / Σ_j exp(z_j / T)</text>
+<text y="731.4" xml:space="preserve" class="g80s4"><tspan x="50.0" textLength="97.2" lengthAdjust="spacing">with a temperature: </tspan><tspan x="147.2" class="g80s9" textLength="31.1" lengthAdjust="spacing">T &lt; 1</tspan><tspan x="178.3" textLength="146.7" lengthAdjust="spacing"> stretches the gaps (sharper), </tspan><tspan x="325.1" class="g80s9" textLength="31.1" lengthAdjust="spacing">T &gt; 1</tspan><tspan x="356.2" textLength="109.4" lengthAdjust="spacing"> shrinks them (flatter), </tspan><tspan x="465.6" class="g80s9" textLength="31.1" lengthAdjust="spacing">T = 1</tspan><tspan x="496.7" textLength="58.7" lengthAdjust="spacing"> is the plain </tspan><tspan x="555.4" class="g80s9" textLength="43.6" lengthAdjust="spacing">softmax</tspan><tspan x="599.0" textLength="132.1" lengthAdjust="spacing">. The order never changes.</tspan></text>
+<text y="579.4" xml:space="preserve" class="g80s36"><tspan x="952.0" class="g80s0" textLength="157.2" lengthAdjust="spacing">the hand-set row, worked out</tspan></text>
+<rect x="952.0" y="588.4" width="894.0" height="24.0" rx="4" class="g80s11"/>
+<text y="604.4" xml:space="preserve" class="g80s8"><tspan x="961.0" class="g80s0" textLength="27.2" lengthAdjust="spacing">token</tspan></text>
+<text y="604.4" xml:space="preserve" class="g80s8"><tspan x="1193.4" class="g80s0" textLength="29.1" lengthAdjust="spacing">logit z</tspan></text>
+<text y="604.4" xml:space="preserve" class="g80s8"><tspan x="1336.5" class="g80s49" textLength="35.7" lengthAdjust="spacing">exp(z)</tspan></text>
+<text y="604.4" xml:space="preserve" class="g80s8"><tspan x="1515.3" class="g80s49" textLength="59.4" lengthAdjust="spacing">p = exp(z)</tspan><tspan x="1574.7" class="g80s0" textLength="16.1" lengthAdjust="spacing"> / Σ</tspan></text>
+<text y="604.4" xml:space="preserve" class="g80s8"><tspan x="1712.0" class="g80s0" textLength="24.1" lengthAdjust="spacing">log p</tspan></text>
+<text y="629.6" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="19.4" lengthAdjust="spacing">dog</tspan></text>
+<text x="1193.4" y="629.6" class="g80s3">4.0</text>
+<text x="1336.5" y="629.6" class="g80s3">54.598</text>
+<text x="1515.3" y="629.6" class="g80s3">0.5471</text>
+<text x="1712.0" y="629.6" class="g80s3">-0.603</text>
+<line x1="952.0" y1="639.4" x2="1846.0" y2="639.4" class="g80s5"/>
+<rect x="952.0" y="639.4" width="894.0" height="27.0" rx="0" class="g80s10"/>
+<text y="656.6" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="15.6" lengthAdjust="spacing">cat</tspan></text>
+<text x="1193.4" y="656.6" class="g80s3">3.2</text>
+<text x="1336.5" y="656.6" class="g80s3">24.533</text>
+<text x="1515.3" y="656.6" class="g80s3">0.2458</text>
+<text x="1712.0" y="656.6" class="g80s3">-1.403</text>
+<line x1="952.0" y1="666.4" x2="1846.0" y2="666.4" class="g80s5"/>
+<text y="683.6" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="34.3" lengthAdjust="spacing">animal</tspan></text>
+<text x="1193.4" y="683.6" class="g80s3">2.5</text>
+<text x="1336.5" y="683.6" class="g80s3">12.182</text>
+<text x="1515.3" y="683.6" class="g80s3">0.1221</text>
+<text x="1712.0" y="683.6" class="g80s3">-2.103</text>
+<line x1="952.0" y1="693.4" x2="1846.0" y2="693.4" class="g80s5"/>
+<rect x="952.0" y="693.4" width="894.0" height="27.0" rx="0" class="g80s10"/>
+<text y="710.6" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="31.8" lengthAdjust="spacing">puppy</tspan></text>
+<text x="1193.4" y="710.6" class="g80s3">1.8</text>
+<text x="1336.5" y="710.6" class="g80s3">6.050</text>
+<text x="1515.3" y="710.6" class="g80s3">0.0606</text>
+<text x="1712.0" y="710.6" class="g80s3">-2.803</text>
+<line x1="952.0" y1="720.4" x2="1846.0" y2="720.4" class="g80s5"/>
+<text y="737.6" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="22.0" lengthAdjust="spacing">sofa</tspan></text>
+<text x="1193.4" y="737.6" class="g80s3">0.6</text>
+<text x="1336.5" y="737.6" class="g80s3">1.822</text>
+<text x="1515.3" y="737.6" class="g80s3">0.0183</text>
+<text x="1712.0" y="737.6" class="g80s3">-4.003</text>
+<line x1="952.0" y1="747.4" x2="1846.0" y2="747.4" class="g80s5"/>
+<rect x="952.0" y="747.4" width="894.0" height="27.0" rx="0" class="g80s10"/>
+<text y="764.6" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="16.8" lengthAdjust="spacing">ran</tspan></text>
+<text x="1193.4" y="764.6" class="g80s3">-0.5</text>
+<text x="1336.5" y="764.6" class="g80s3">0.607</text>
+<text x="1515.3" y="764.6" class="g80s3">0.0061</text>
+<text x="1712.0" y="764.6" class="g80s3">-5.103</text>
+<line x1="952.0" y1="774.4" x2="1846.0" y2="774.4" class="g80s5"/>
+<text y="791.6" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="47.3" lengthAdjust="spacing">Σ (all six)</tspan></text>
+<text x="1336.5" y="791.6" class="g80s3">99.791</text>
+<text x="1515.3" y="791.6" class="g80s3">1.0000</text>
+<line x1="952.0" y1="801.4" x2="1846.0" y2="801.4" class="g80s5"/>
+<rect x="952.0" y="612.4" width="894.0" height="189.0" rx="0" class="g80s32"/>
+<line x1="1184.4" y1="612.4" x2="1184.4" y2="801.4" class="g80s5"/>
+<line x1="1327.5" y1="612.4" x2="1327.5" y2="801.4" class="g80s5"/>
+<line x1="1506.3" y1="612.4" x2="1506.3" y2="801.4" class="g80s5"/>
+<line x1="1703.0" y1="612.4" x2="1703.0" y2="801.4" class="g80s5"/>
+<rect x="952.0" y="544.4" width="123.9" height="18.0" rx="9" class="g80s50"/>
+<text x="1014.0" y="556.9" class="g80s51">HAND-SET EXAMPLE</text>
+<rect x="34.0" y="817.4" width="1812.0" height="72.6" rx="6" class="g80s34"/>
+<path d="M38.50 818.11 A5.50 5.50 0 0 0 34.50 823.40 V883.96 A5.50 5.50 0 0 0 38.50 889.25 Z" class="g80s20"/>
+<text y="843.4" xml:space="preserve" class="g80s22"><tspan x="50.0" class="g80s0" textLength="157.7" lengthAdjust="spacing">The same arithmetic on the </tspan><tspan x="207.7" class="g80s18" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="221.2" class="g80s0" textLength="38.2" lengthAdjust="spacing"> model</tspan></text>
+<text y="860.9" xml:space="preserve" class="g80s14"><tspan x="50.0" textLength="62.7" lengthAdjust="spacing">On the real </tspan><tspan x="112.7" class="g80s18" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="126.3" textLength="94.0" lengthAdjust="spacing"> model the row is </tspan><tspan x="220.3" class="g80s6" textLength="91.9" lengthAdjust="spacing">16,111 numbers</tspan><tspan x="312.2" textLength="362.8" lengthAdjust="spacing"> wide instead of six. Its largest logit at the first step of sequence A is </tspan><tspan x="675.1" class="g80s6" textLength="38.9" lengthAdjust="spacing">0.9931</tspan><tspan x="714.0" textLength="240.8" lengthAdjust="spacing">, and the sum in the denominator makes that </tspan><tspan x="954.8" class="g80s6" textLength="50.2" lengthAdjust="spacing">0.0162%</tspan><tspan x="1005.0" textLength="812.9" lengthAdjust="spacing"> of the probability — an untrained model spreads itself almost evenly, so no token stands out. A trained model puts most of the row’s probability on a few</tspan></text>
+<text y="878.4" xml:space="preserve" class="g80s14"><tspan x="50.0" textLength="291.5" lengthAdjust="spacing">tokens, which is what makes the three strategies differ.</tspan></text>
+<rect x="34.0" y="916.0" width="1812.0" height="30.0" rx="6" class="g80s11"/>
+<path d="M38.50 916.67 A5.50 5.50 0 0 0 34.50 921.96 V939.96 A5.50 5.50 0 0 0 38.50 945.25 Z" class="g80s20"/>
+<text y="936.0" xml:space="preserve" class="g80s27"><tspan x="50.0" class="g80s0" textLength="172.3" lengthAdjust="spacing">B · One step, three readings</tspan></text>
+<text y="936.0" xml:space="preserve" class="g80s28"><tspan x="240.3" textLength="246.1" lengthAdjust="spacing">the same six probabilities, read by each strategy</tspan></text>
+<text y="964.0" xml:space="preserve" class="g80s22"><tspan x="38.0" class="g80s0" textLength="149.2" lengthAdjust="spacing">Where the three part ways</tspan></text>
+<text y="982.0" xml:space="preserve" class="g80s14"><tspan x="38.0" textLength="1311.3" lengthAdjust="spacing">Greedy reads one number: the largest. Top-k sampling throws away all but the k best, reshapes what is left with the temperature, and draws. Beam search keeps the B best and carries them BOTH forward, to be judged later by the whole sentence.</tspan></text>
+<text x="34.0" y="1015.4" class="g80s37">greedy — argmax</text>
+<text x="34.0" y="1031.4" class="g80s38">take the single largest probability</text>
+<text x="100.0" y="1054.4" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:end">dog</text>
+<rect x="108.0" y="1044.4" width="368.0" height="13.0" rx="2" style="fill:var(--drop);stroke:none;stroke-width:1;opacity:0.85"/>
+<text x="484.0" y="1055.4" style="fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;font-weight:600;text-anchor:start">0.5471</text>
+<text x="100.0" y="1074.4" class="g80s15">cat</text>
+<rect x="108.0" y="1064.4" width="165.4" height="13.0" rx="2" class="g80s16"/>
+<text x="281.4" y="1075.4" class="g80s17">0.2458</text>
+<text x="100.0" y="1094.4" class="g80s15">animal</text>
+<rect x="108.0" y="1084.4" width="82.1" height="13.0" rx="2" class="g80s16"/>
+<text x="198.1" y="1095.4" class="g80s17">0.1221</text>
+<text x="100.0" y="1114.4" class="g80s15">puppy</text>
+<rect x="108.0" y="1104.4" width="40.8" height="13.0" rx="2" class="g80s16"/>
+<text x="156.8" y="1115.4" class="g80s17">0.0606</text>
+<text x="100.0" y="1134.4" class="g80s15">sofa</text>
+<rect x="108.0" y="1124.4" width="12.3" height="13.0" rx="2" class="g80s16"/>
+<text x="128.3" y="1135.4" class="g80s17">0.0183</text>
+<text x="100.0" y="1154.4" class="g80s15">ran</text>
+<rect x="108.0" y="1144.4" width="4.1" height="13.0" rx="2" class="g80s16"/>
+<text x="120.1" y="1155.4" class="g80s17">0.0061</text>
+<text x="646.0" y="1015.4" class="g80s37">top-k sampling — k = 3, T = 0.8</text>
+<text x="646.0" y="1031.4" class="g80s38">cut to the k best, rescale by T, then draw</text>
+<text x="712.0" y="1054.4" class="g80s15">dog</text>
+<rect x="720.0" y="1044.4" width="368.0" height="13.0" rx="2" class="g80s16"/>
+<text x="1096.0" y="1055.4" class="g80s17">0.6574</text>
+<text x="712.0" y="1074.4" class="g80s15">cat</text>
+<rect x="720.0" y="1064.4" width="135.4" height="13.0" rx="2" class="g80s16"/>
+<text x="863.4" y="1075.4" class="g80s17">0.2418</text>
+<text x="712.0" y="1094.4" class="g80s15">animal</text>
+<rect x="720.0" y="1084.4" width="56.4" height="13.0" rx="2" class="g80s16"/>
+<text x="784.4" y="1095.4" class="g80s17">0.1008</text>
+<text x="712.0" y="1114.4" class="g80s23">puppy</text>
+<rect x="720.0" y="1104.4" width="2.0" height="13.0" rx="2" class="g80s24"/>
+<text x="730.0" y="1115.4" class="g80s25">−∞ · cut</text>
+<text x="712.0" y="1134.4" class="g80s23">sofa</text>
+<rect x="720.0" y="1124.4" width="2.0" height="13.0" rx="2" class="g80s24"/>
+<text x="730.0" y="1135.4" class="g80s25">−∞ · cut</text>
+<text x="712.0" y="1154.4" class="g80s23">ran</text>
+<rect x="720.0" y="1144.4" width="2.0" height="13.0" rx="2" class="g80s24"/>
+<text x="730.0" y="1155.4" class="g80s25">−∞ · cut</text>
+<text x="646.0" y="1181.4" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">the draw: u lands in one slice</text>
+<rect x="646.0" y="1187.4" width="380.0" height="26.0" rx="3" class="g80s39"/>
+<text x="836.0" y="1204.4" class="g80s40">dog</text>
+<text x="836.0" y="1225.4" class="g80s12">66%</text>
+<rect x="1026.0" y="1187.4" width="139.8" height="26.0" rx="3" class="g80s39"/>
+<text x="1095.8" y="1204.4" class="g80s40">cat</text>
+<text x="1095.8" y="1225.4" class="g80s12">24%</text>
+<rect x="1165.7" y="1187.4" width="58.3" height="26.0" rx="3" class="g80s39"/>
+<text x="1194.9" y="1204.4" class="g80s40">animal</text>
+<text x="1194.9" y="1225.4" class="g80s12">10%</text>
+<text x="1258.0" y="1015.4" class="g80s37">beam search — B = 2</text>
+<text x="1258.0" y="1031.4" class="g80s38">keep the B best, carry both forward as beams</text>
+<text x="1324.0" y="1054.4" class="g80s15">dog</text>
+<rect x="1332.0" y="1044.4" width="368.0" height="13.0" rx="2" class="g80s16"/>
+<text x="1708.0" y="1055.4" class="g80s17">0.5471 · log -0.603</text>
+<text x="1324.0" y="1074.4" class="g80s15">cat</text>
+<rect x="1332.0" y="1064.4" width="165.4" height="13.0" rx="2" class="g80s16"/>
+<text x="1505.4" y="1075.4" class="g80s17">0.2458 · log -1.403</text>
+<text x="1324.0" y="1094.4" class="g80s23">animal</text>
+<rect x="1332.0" y="1084.4" width="82.1" height="13.0" rx="2" class="g80s24"/>
+<text x="1422.1" y="1095.4" class="g80s25">not kept</text>
+<text x="1324.0" y="1114.4" class="g80s23">puppy</text>
+<rect x="1332.0" y="1104.4" width="40.8" height="13.0" rx="2" class="g80s24"/>
+<text x="1380.8" y="1115.4" class="g80s25">not kept</text>
+<text x="1324.0" y="1134.4" class="g80s23">sofa</text>
+<rect x="1332.0" y="1124.4" width="12.3" height="13.0" rx="2" class="g80s24"/>
+<text x="1352.3" y="1135.4" class="g80s25">not kept</text>
+<text x="1324.0" y="1154.4" class="g80s23">ran</text>
+<rect x="1332.0" y="1144.4" width="4.1" height="13.0" rx="2" class="g80s24"/>
+<text x="1344.1" y="1155.4" class="g80s25">not kept</text>
+<text x="34.0" y="1257.4" class="g80s52">greedy</text>
+<text y="1274.4" xml:space="preserve" class="g80s4"><tspan x="34.0" textLength="191.2" lengthAdjust="spacing">writes &quot;dog&quot; — every time, on this row. </tspan><tspan x="225.2" class="g80s9" textLength="62.2" lengthAdjust="spacing">p = 0.5471</tspan><tspan x="287.4" textLength="52.6" lengthAdjust="spacing">; the other </tspan><tspan x="340.0" class="g80s6" textLength="35.7" lengthAdjust="spacing">0.4529</tspan><tspan x="375.7" textLength="148.6" lengthAdjust="spacing"> of the probability is discarded.</tspan></text>
+<text x="646.0" y="1257.4" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start">top-k sampling</text>
+<text y="1274.4" xml:space="preserve" class="g80s4"><tspan x="646.0" textLength="135.1" lengthAdjust="spacing">keeps dog, cat and animal (</tspan><tspan x="781.1" class="g80s6" textLength="33.1" lengthAdjust="spacing">91.5%</tspan><tspan x="814.2" textLength="219.5" lengthAdjust="spacing"> of the row between them), rescales them by </tspan><tspan x="1033.7" class="g80s9" textLength="43.6" lengthAdjust="spacing">T = 0.8</tspan><tspan x="1077.2" textLength="15.3" lengthAdjust="spacing"> to </tspan><tspan x="1092.5" class="g80s6" textLength="107.0" lengthAdjust="spacing">0.657 / 0.242 / 0.101</tspan><tspan x="1199.5" textLength="24.5" lengthAdjust="spacing">, and</tspan></text>
+<text y="1290.3" xml:space="preserve" class="g80s4"><tspan x="646.0" textLength="265.2" lengthAdjust="spacing">draws one. &quot;cat&quot; comes up about a quarter of the time.</tspan></text>
+<text x="1258.0" y="1257.4" class="g80s53">beam search</text>
+<text y="1274.4" xml:space="preserve" class="g80s4"><tspan x="1258.0" textLength="249.8" lengthAdjust="spacing">keeps &quot;dog&quot; AND &quot;cat&quot; as two beams, with running </tspan><tspan x="1507.8" class="g80s9" textLength="37.3" lengthAdjust="spacing">scores</tspan><tspan x="1545.1"> </tspan><tspan x="1548.2" class="g80s6" textLength="33.1" lengthAdjust="spacing">-0.603</tspan><tspan x="1581.2" textLength="24.5" lengthAdjust="spacing"> and </tspan><tspan x="1605.7" class="g80s6" textLength="33.1" lengthAdjust="spacing">-1.403</tspan><tspan x="1638.8" textLength="193.8" lengthAdjust="spacing">; which one survives is decided later, by</tspan></text>
+<text y="1290.3" xml:space="preserve" class="g80s4"><tspan x="1258.0" textLength="97.8" lengthAdjust="spacing">the whole sentence.</tspan></text>
+<rect x="34.0" y="1329.4" width="1812.0" height="72.6" rx="6" class="g80s34"/>
+<path d="M38.50 1330.07 A5.50 5.50 0 0 0 34.50 1335.36 V1395.92 A5.50 5.50 0 0 0 38.50 1401.21 Z" class="g80s20"/>
+<text y="1355.4" xml:space="preserve" class="g80s22"><tspan x="50.0" class="g80s0" textLength="152.0" lengthAdjust="spacing">The top-k cut, then a fresh </tspan><tspan x="202.0" class="g80s18" textLength="47.5" lengthAdjust="spacing">softmax</tspan></text>
+<text y="1372.9" xml:space="preserve" class="g80s14"><tspan x="50.0" textLength="498.9" lengthAdjust="spacing">Note what top-k does to the arithmetic: after the cut, the kept probabilities no longer add up to </tspan><tspan x="548.9" class="g80s6">1</tspan><tspan x="556.0" textLength="86.7" lengthAdjust="spacing"> (they add up to </tspan><tspan x="642.7" class="g80s6" textLength="38.9" lengthAdjust="spacing">0.9150</tspan><tspan x="681.6" textLength="276.8" lengthAdjust="spacing">), so they are divided by their own sum — the same </tspan><tspan x="958.4" class="g80s18" textLength="47.5" lengthAdjust="spacing">softmax</tspan><tspan x="1005.9" textLength="297.3" lengthAdjust="spacing"> formula over a shorter list. That is why &quot;dog&quot; rises from </tspan><tspan x="1303.2" class="g80s6" textLength="38.9" lengthAdjust="spacing">0.5471</tspan><tspan x="1342.1" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="1358.8" class="g80s6" textLength="38.9" lengthAdjust="spacing">0.6574</tspan><tspan x="1397.7" textLength="302.8" lengthAdjust="spacing">: it is now the best of three instead of the best of six, and </tspan><tspan x="1700.5" class="g80s18" textLength="47.5" lengthAdjust="spacing">T = 0.8</tspan><tspan x="1748.1" textLength="62.0" lengthAdjust="spacing"> sharpens it</tspan></text>
+<text y="1390.4" xml:space="preserve" class="g80s14"><tspan x="50.0" textLength="38.0" lengthAdjust="spacing">further.</tspan></text>
+<rect x="34.0" y="1427.9" width="1812.0" height="30.0" rx="6" class="g80s11"/>
+<path d="M38.50 1428.63 A5.50 5.50 0 0 0 34.50 1433.92 V1451.92 A5.50 5.50 0 0 0 38.50 1457.21 Z" class="g80s20"/>
+<text y="1447.9" xml:space="preserve" class="g80s27"><tspan x="50.0" class="g80s0" textLength="297.2" lengthAdjust="spacing">C · The same three, run to the end of a sentence</tspan></text>
+<text y="1447.9" xml:space="preserve" class="g80s28"><tspan x="365.2" textLength="173.2" lengthAdjust="spacing">the hand-set model of deep dives </tspan><tspan x="538.4" class="g80s6">1</tspan><tspan x="545.2" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="570.8" class="g80s6">2</tspan><tspan x="577.6" textLength="145.1" lengthAdjust="spacing"> · what each strategy returns</tspan></text>
+<text y="1475.9" xml:space="preserve" class="g80s22"><tspan x="38.0" class="g80s0" textLength="132.9" lengthAdjust="spacing">A sentence is a product</tspan></text>
+<text y="1493.9" xml:space="preserve" class="g80s14"><tspan x="38.0" textLength="1463.2" lengthAdjust="spacing">Each step multiplies the sentence’s probability by the probability of the token chosen. Greedy maximises each factor as it goes; beam search compares the products of several candidates; sampling does not compare at all — it draws, so it can return many different sentences.</tspan></text>
+<rect x="34.0" y="1515.3" width="123.9" height="18.0" rx="9" class="g80s50"/>
+<text x="96.0" y="1527.8" class="g80s51">HAND-SET EXAMPLE</text>
+<text x="34.0" y="1554.3" class="g80s52">greedy writes</text>
+<rect x="184.0" y="1541.3" width="35.0" height="22.0" rx="4" class="g80s41"/>
+<text x="201.5" y="1556.3" class="g80s30">the</text>
+<text x="201.5" y="1577.3" class="g80s12">0.50</text>
+<text x="227.0" y="1558.3" class="g80s31">×</text>
+<rect x="241.0" y="1541.3" width="35.0" height="22.0" rx="4" class="g80s41"/>
+<text x="258.4" y="1556.3" class="g80s30">cat</text>
+<text x="258.4" y="1577.3" class="g80s12">0.36</text>
+<text x="283.9" y="1558.3" class="g80s31">×</text>
+<rect x="297.9" y="1541.3" width="35.0" height="22.0" rx="4" class="g80s41"/>
+<text x="315.4" y="1556.3" class="g80s30">sat</text>
+<text x="315.4" y="1577.3" class="g80s12">0.50</text>
+<text x="340.9" y="1558.3" class="g80s31">×</text>
+<rect x="354.9" y="1541.3" width="47.6" height="22.0" rx="4" style="fill:var(--keepbg);stroke:var(--drop);stroke-width:2"/>
+<text x="378.7" y="1556.3" class="g80s54">&lt;EOS&gt;</text>
+<text x="378.7" y="1577.3" class="g80s12">0.70</text>
+<text x="420.5" y="1558.3" style="fill:var(--drop);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;text-anchor:start">=  0.0630     log-prob -2.765</text>
+<text x="34.0" y="1600.3" class="g80s53">beam(2) returns</text>
+<rect x="184.0" y="1587.3" width="22.3" height="22.0" rx="4" class="g80s42"/>
+<text x="195.2" y="1602.3" class="g80s30">a</text>
+<text x="195.2" y="1623.3" class="g80s12">0.40</text>
+<text x="214.3" y="1604.3" class="g80s31">×</text>
+<rect x="228.3" y="1587.3" width="35.0" height="22.0" rx="4" class="g80s42"/>
+<text x="245.8" y="1602.3" class="g80s30">dog</text>
+<text x="245.8" y="1623.3" class="g80s12">0.80</text>
+<text x="271.3" y="1604.3" class="g80s31">×</text>
+<rect x="285.3" y="1587.3" width="35.0" height="22.0" rx="4" class="g80s42"/>
+<text x="302.8" y="1602.3" class="g80s30">sat</text>
+<text x="302.8" y="1623.3" class="g80s12">0.45</text>
+<text x="328.2" y="1604.3" class="g80s31">×</text>
+<rect x="342.2" y="1587.3" width="47.6" height="22.0" rx="4" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:2"/>
+<text x="366.0" y="1602.3" class="g80s54">&lt;EOS&gt;</text>
+<text x="366.0" y="1623.3" class="g80s12">0.85</text>
+<text x="407.9" y="1604.3" style="fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;text-anchor:start">=  0.1224     log-prob -2.100</text>
+<text y="1654.3" xml:space="preserve" class="g80s36"><tspan x="34.0" class="g80s0" textLength="119.9" lengthAdjust="spacing">15 different sentences</tspan><tspan x="153.9" class="g80s0" textLength="35.2" lengthAdjust="spacing"> in all, </tspan><tspan x="189.2" class="g80s55" textLength="32.5" lengthAdjust="spacing">k = 2</tspan><tspan x="221.7" class="g80s0">, </tspan><tspan x="228.5" class="g80s55" textLength="45.6" lengthAdjust="spacing">T = 0.8</tspan></text>
+<rect x="34.0" y="1663.3" width="894.0" height="24.0" rx="4" class="g80s11"/>
+<text y="1679.3" xml:space="preserve" class="g80s8"><tspan x="43.0" class="g80s0" textLength="139.8" lengthAdjust="spacing">top-k sampling can return …</tspan></text>
+<text y="1679.3" xml:space="preserve" class="g80s8"><tspan x="472.1" class="g80s0" textLength="48.3" lengthAdjust="spacing">how often</tspan></text>
+<text y="1679.3" xml:space="preserve" class="g80s8"><tspan x="704.6" class="g80s0" textLength="71.6" lengthAdjust="spacing">the model’s P</tspan></text>
+<text y="1704.6" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="48.0" lengthAdjust="spacing">a dog sat</tspan></text>
+<text x="472.1" y="1704.6" class="g80s3">18.7%</text>
+<text x="704.6" y="1704.6" class="g80s3">0.1224</text>
+<line x1="34.0" y1="1714.3" x2="928.0" y2="1714.3" class="g80s5"/>
+<rect x="34.0" y="1714.3" width="894.0" height="27.0" rx="0" class="g80s10"/>
+<text y="1731.6" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="29.2" lengthAdjust="spacing">a dog</tspan></text>
+<text x="472.1" y="1731.6" class="g80s3">18.3%</text>
+<text x="704.6" y="1731.6" class="g80s3">0.1344</text>
+<line x1="34.0" y1="1741.3" x2="928.0" y2="1741.3" class="g80s5"/>
+<text y="1758.6" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="53.8" lengthAdjust="spacing">the cat sat</tspan></text>
+<text x="472.1" y="1758.6" class="g80s3">13.9%</text>
+<text x="704.6" y="1758.6" class="g80s3">0.0630</text>
+<line x1="34.0" y1="1768.3" x2="928.0" y2="1768.3" class="g80s5"/>
+<rect x="34.0" y="1768.3" width="894.0" height="27.0" rx="0" class="g80s10"/>
+<text y="1785.6" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="57.7" lengthAdjust="spacing">the dog sat</tspan></text>
+<text x="472.1" y="1785.6" class="g80s3">13.7%</text>
+<text x="704.6" y="1785.6" class="g80s3">0.0612</text>
+<line x1="34.0" y1="1795.3" x2="928.0" y2="1795.3" class="g80s5"/>
+<text y="1812.6" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="62.9" lengthAdjust="spacing">the cat slept</tspan></text>
+<text x="472.1" y="1812.6" class="g80s3">11.9%</text>
+<text x="704.6" y="1812.6" class="g80s3">0.0648</text>
+<line x1="34.0" y1="1822.3" x2="928.0" y2="1822.3" class="g80s5"/>
+<rect x="34.0" y="1822.3" width="894.0" height="27.0" rx="0" class="g80s10"/>
+<text y="1839.6" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="59.0" lengthAdjust="spacing">the dog ran</tspan></text>
+<text x="472.1" y="1839.6" class="g80s3">8.2%</text>
+<text x="704.6" y="1839.6" class="g80s3">0.0408</text>
+<line x1="34.0" y1="1849.3" x2="928.0" y2="1849.3" class="g80s5"/>
+<text y="1866.6" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="44.1" lengthAdjust="spacing">a cat sat</tspan></text>
+<text x="472.1" y="1866.6" class="g80s3">2.8%</text>
+<text x="704.6" y="1866.6" class="g80s3">0.0252</text>
+<line x1="34.0" y1="1876.3" x2="928.0" y2="1876.3" class="g80s5"/>
+<rect x="34.0" y="1876.3" width="894.0" height="27.0" rx="0" class="g80s10"/>
+<text y="1893.6" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="73.9" lengthAdjust="spacing">the dog sat on</tspan></text>
+<text x="472.1" y="1893.6" class="g80s3">2.8%</text>
+<text x="704.6" y="1893.6" class="g80s3">0.0122</text>
+<line x1="34.0" y1="1903.3" x2="928.0" y2="1903.3" class="g80s5"/>
+<rect x="34.0" y="1687.3" width="894.0" height="216.0" rx="0" class="g80s32"/>
+<line x1="463.1" y1="1687.3" x2="463.1" y2="1903.3" class="g80s5"/>
+<line x1="695.6" y1="1687.3" x2="695.6" y2="1903.3" class="g80s5"/>
+<text y="1659.8" xml:space="preserve" class="g80s43"><tspan x="952.0" textLength="693.9" lengthAdjust="spacing">Greedy is deterministic: on this model it always writes &quot;the cat sat&quot;, the sentence whose every step looked best at the time — </tspan><tspan x="1645.9" class="g80s56" textLength="70.7" lengthAdjust="spacing">P = 0.0630</tspan><tspan x="1716.6" textLength="93.1" lengthAdjust="spacing">. Beam search is</tspan></text>
+<text y="1677.9" xml:space="preserve" class="g80s43"><tspan x="952.0" textLength="231.9" lengthAdjust="spacing">deterministic too, and finds &quot;a dog sat&quot; — </tspan><tspan x="1183.9" class="g80s56" textLength="70.7" lengthAdjust="spacing">P = 0.1224</tspan><tspan x="1254.6" textLength="420.3" lengthAdjust="spacing">, twice as likely, because it kept a second candidate alive. Sampling returns </tspan><tspan x="1675.0" class="g80s6" textLength="130.4" lengthAdjust="spacing">15 different sentences</tspan><tspan x="1805.3" textLength="24.3" lengthAdjust="spacing">: the</tspan></text>
+<text y="1696.1" xml:space="preserve" class="g80s43"><tspan x="952.0" textLength="51.4" lengthAdjust="spacing">best one </tspan><tspan x="1003.4" class="g80s6" textLength="37.6" lengthAdjust="spacing">18.7%</tspan><tspan x="1041.0" textLength="124.2" lengthAdjust="spacing"> of the time, greedy’s </tspan><tspan x="1165.2" class="g80s6" textLength="37.6" lengthAdjust="spacing">13.9%</tspan><tspan x="1202.8" textLength="574.6" lengthAdjust="spacing"> of the time, and something else the rest of the time. That spread IS the point of sampling — and its risk.</tspan></text>
+<rect x="34.0" y="1929.3" width="1812.0" height="30.0" rx="6" class="g80s11"/>
+<path d="M38.50 1930.03 A5.50 5.50 0 0 0 34.50 1935.32 V1953.32 A5.50 5.50 0 0 0 38.50 1958.61 Z" class="g80s20"/>
+<text y="1949.3" xml:space="preserve" class="g80s27"><tspan x="50.0" class="g80s0" textLength="281.7" lengthAdjust="spacing">D · How a sentence’s probability is calculated</tspan></text>
+<text y="1949.3" xml:space="preserve" class="g80s28"><tspan x="349.7" textLength="216.1" lengthAdjust="spacing">the chain rule, logs, and the length penalty</tspan></text>
+<text y="1977.3" xml:space="preserve" class="g80s22"><tspan x="38.0" class="g80s0" textLength="50.2" lengthAdjust="spacing">Why the </tspan><tspan x="88.2" class="g80s18" textLength="40.7" lengthAdjust="spacing">scores</tspan><tspan x="128.9" class="g80s0" textLength="142.8" lengthAdjust="spacing"> are added, not multiplied</tspan></text>
+<text y="1995.3" xml:space="preserve" class="g80s14"><tspan x="38.0" textLength="177.4" lengthAdjust="spacing">Multiplying many numbers below </tspan><tspan x="215.4" class="g80s6">1</tspan><tspan x="222.5" textLength="170.1" lengthAdjust="spacing"> underflows to zero quickly — a </tspan><tspan x="392.5" class="g80s6" textLength="49.5" lengthAdjust="spacing">60-token</tspan><tspan x="442.0" textLength="173.4" lengthAdjust="spacing"> sentence would be a product of </tspan><tspan x="615.4" class="g80s6" textLength="14.1" lengthAdjust="spacing">60</tspan><tspan x="629.6" textLength="1064.5" lengthAdjust="spacing"> small probabilities. Logs turn the product into a sum, which is exact and cheap, and the order is the same. Every log-probability is negative, so a longer sentence has a lower score just for being longer.</tspan></text>
+<rect x="34.0" y="2016.7" width="894.0" height="172.0" rx="8" class="g80s34"/>
+<text x="50.0" y="2038.7" class="g80s48">from one token to a whole sentence</text>
+<text x="50.0" y="2070.7" class="g80s29">P(y₁…y_n)  =  Π_t  p(y_t | y_&lt;t, x)</text>
+<text y="2087.7" xml:space="preserve" class="g80s4"><tspan x="50.0" textLength="851.7" lengthAdjust="spacing">the chain rule: the probability of a sentence is the probability of its first token, times the second given the first, and so on. Nothing in the model computes it — the decoder gives</tspan></text>
+<text y="2103.7" xml:space="preserve" class="g80s4"><tspan x="50.0" textLength="94.8" lengthAdjust="spacing">one factor per step.</tspan></text>
+<text x="50.0" y="2116.7" class="g80s29">log P  =  Σ_t  log p(y_t | y_&lt;t, x)</text>
+<text y="2133.7" xml:space="preserve" class="g80s4"><tspan x="50.0" textLength="570.0" lengthAdjust="spacing">the same number, added instead of multiplied. This is beam search’s running score, the `score + lp` in the notebook.</tspan></text>
+<text x="50.0" y="2162.7" class="g80s29">normalised  =  log P  /  ((5 + L) / 6) ** α</text>
+<rect x="273.7" y="2169.8" width="36.1" height="13.4" rx="3" class="g80s57"/>
+<rect x="334.3" y="2169.8" width="36.1" height="13.4" rx="3" class="g80s57"/>
+<text y="2179.7" xml:space="preserve" class="g80s4"><tspan x="50.0" textLength="147.5" lengthAdjust="spacing">the GNMT length penalty, α = </tspan><tspan x="197.5" class="g80s6" textLength="16.2" lengthAdjust="spacing">0.6</tspan><tspan x="213.7" textLength="59.9" lengthAdjust="spacing">, L counting </tspan><tspan x="276.2" class="g80s58" textLength="31.1" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="309.8" textLength="24.5" lengthAdjust="spacing"> and </tspan><tspan x="336.8" class="g80s58" textLength="31.1" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="370.4" textLength="318.5" lengthAdjust="spacing">: without it beam search would prefer to stop as early as possible.</tspan></text>
+<text y="2027.7" xml:space="preserve" class="g80s36"><tspan x="952.0" class="g80s0" textLength="208.0" lengthAdjust="spacing">three sentences of the hand-set model</tspan></text>
+<rect x="952.0" y="2036.7" width="894.0" height="24.0" rx="4" class="g80s11"/>
+<text y="2052.7" xml:space="preserve" class="g80s8"><tspan x="961.0" class="g80s0" textLength="45.2" lengthAdjust="spacing">sentence</tspan></text>
+<text y="2052.7" xml:space="preserve" class="g80s8"><tspan x="1229.2" class="g80s0">L</tspan></text>
+<text y="2052.7" xml:space="preserve" class="g80s8"><tspan x="1300.7" class="g80s0" textLength="16.0" lengthAdjust="spacing">Π p</tspan></text>
+<text y="2052.7" xml:space="preserve" class="g80s8"><tspan x="1434.8" class="g80s0" textLength="34.0" lengthAdjust="spacing">Σ log p</tspan></text>
+<text y="2052.7" xml:space="preserve" class="g80s8"><tspan x="1577.9" class="g80s0" textLength="35.9" lengthAdjust="spacing">penalty</tspan></text>
+<text y="2052.7" xml:space="preserve" class="g80s8"><tspan x="1712.0" class="g80s0" textLength="54.4" lengthAdjust="spacing">normalised</tspan></text>
+<text y="2078.0" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="53.8" lengthAdjust="spacing">the cat sat</tspan></text>
+<text x="1229.2" y="2078.0" class="g80s3">5</text>
+<text x="1300.7" y="2078.0" class="g80s3">0.0630</text>
+<text x="1434.8" y="2078.0" class="g80s3">-2.765</text>
+<text x="1577.9" y="2078.0" class="g80s3">1.3587</text>
+<text x="1712.0" y="2078.0" class="g80s3">-2.035</text>
+<line x1="952.0" y1="2087.7" x2="1846.0" y2="2087.7" class="g80s5"/>
+<rect x="952.0" y="2087.7" width="894.0" height="27.0" rx="0" class="g80s10"/>
+<text y="2105.0" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="48.0" lengthAdjust="spacing">a dog sat</tspan></text>
+<text x="1229.2" y="2105.0" class="g80s3">5</text>
+<text x="1300.7" y="2105.0" class="g80s3">0.1224</text>
+<text x="1434.8" y="2105.0" class="g80s3">-2.100</text>
+<text x="1577.9" y="2105.0" class="g80s3">1.3587</text>
+<text x="1712.0" y="2105.0" class="g80s3">-1.546</text>
+<line x1="952.0" y1="2114.7" x2="1846.0" y2="2114.7" class="g80s5"/>
+<text y="2132.0" xml:space="preserve" class="g80s7"><tspan x="961.0" class="g80s0" textLength="29.2" lengthAdjust="spacing">a dog</tspan></text>
+<text x="1229.2" y="2132.0" class="g80s3">4</text>
+<text x="1300.7" y="2132.0" class="g80s3">0.1344</text>
+<text x="1434.8" y="2132.0" class="g80s3">-2.007</text>
+<text x="1577.9" y="2132.0" class="g80s3">1.2754</text>
+<text x="1712.0" y="2132.0" class="g80s3">-1.574</text>
+<line x1="952.0" y1="2141.7" x2="1846.0" y2="2141.7" class="g80s5"/>
+<rect x="952.0" y="2060.7" width="894.0" height="81.0" rx="0" class="g80s32"/>
+<line x1="1220.2" y1="2060.7" x2="1220.2" y2="2141.7" class="g80s5"/>
+<line x1="1291.7" y1="2060.7" x2="1291.7" y2="2141.7" class="g80s5"/>
+<line x1="1425.8" y1="2060.7" x2="1425.8" y2="2141.7" class="g80s5"/>
+<line x1="1568.9" y1="2060.7" x2="1568.9" y2="2141.7" class="g80s5"/>
+<line x1="1703.0" y1="2060.7" x2="1703.0" y2="2141.7" class="g80s5"/>
+<rect x="34.0" y="2200.7" width="1812.0" height="72.6" rx="6" class="g80s45"/>
+<path d="M38.50 2201.43 A5.50 5.50 0 0 0 34.50 2206.72 V2267.28 A5.50 5.50 0 0 0 38.50 2272.57 Z" class="g80s46"/>
+<text y="2226.7" xml:space="preserve" class="g80s22"><tspan x="50.0" class="g80s0" textLength="144.9" lengthAdjust="spacing">What the numbers decide</tspan></text>
+<text y="2244.2" xml:space="preserve" class="g80s14"><tspan x="50.0" textLength="217.9" lengthAdjust="spacing">&quot;a dog&quot; is the most likely sentence of all (</tspan><tspan x="267.9" class="g80s6" textLength="38.9" lengthAdjust="spacing">0.1344</tspan><tspan x="306.8" textLength="1517.9" lengthAdjust="spacing">) and the shortest. Beam search still returns &quot;a dog sat&quot;, because after the length penalty its normalised score is the better one — the penalty is there precisely so that a sentence is not preferred just for stopping early. Greedy never computes any of these numbers: it only ever compares</tspan></text>
+<text y="2261.8" xml:space="preserve" class="g80s14"><tspan x="50.0" textLength="167.3" lengthAdjust="spacing">the current step’s probabilities.</tspan></text>
+<rect x="34.0" y="2299.3" width="1812.0" height="30.0" rx="6" class="g80s11"/>
+<path d="M38.50 2299.99 A5.50 5.50 0 0 0 34.50 2305.28 V2323.28 A5.50 5.50 0 0 0 38.50 2328.57 Z" class="g80s20"/>
+<text y="2319.3" xml:space="preserve" class="g80s27"><tspan x="50.0" class="g80s0" textLength="179.2" lengthAdjust="spacing">E · Pros and cons — all three</tspan></text>
+<text y="2319.3" xml:space="preserve" class="g80s28"><tspan x="247.2" textLength="161.7" lengthAdjust="spacing">the same model, three readings</tspan></text>
+<rect x="34.0" y="2345.3" width="1812.0" height="24.0" rx="4" class="g80s11"/>
+<text y="2361.3" xml:space="preserve" class="g80s8"><tspan x="273.0" class="g80s0" textLength="34.0" lengthAdjust="spacing">greedy</tspan></text>
+<text y="2361.3" xml:space="preserve" class="g80s8"><tspan x="743.0" class="g80s0" textLength="72.4" lengthAdjust="spacing">top-k sampling</tspan></text>
+<text y="2361.3" xml:space="preserve" class="g80s8"><tspan x="1263.0" class="g80s0" textLength="64.3" lengthAdjust="spacing">beam search</tspan></text>
+<text y="2386.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="38.9" lengthAdjust="spacing">the rule</tspan></text>
+<text y="2386.5" xml:space="preserve" class="g80s4"><tspan x="273.0" class="g80s9" textLength="37.3" lengthAdjust="spacing">argmax</tspan><tspan x="310.3"> p</tspan></text>
+<text y="2386.5" xml:space="preserve" class="g80s4"><tspan x="743.0" textLength="147.2" lengthAdjust="spacing">draw from the k best, after ÷ T</tspan></text>
+<text y="2386.5" xml:space="preserve" class="g80s4"><tspan x="1263.0" textLength="162.6" lengthAdjust="spacing">keep the B best partial sentences</tspan></text>
+<line x1="34.0" y1="2396.3" x2="1846.0" y2="2396.3" class="g80s5"/>
+<rect x="34.0" y="2396.3" width="1812.0" height="27.0" rx="0" class="g80s10"/>
+<text y="2413.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="86.2" lengthAdjust="spacing">what it optimises</tspan></text>
+<text y="2413.5" xml:space="preserve" class="g80s4"><tspan x="273.0" textLength="64.2" lengthAdjust="spacing">this step only</tspan></text>
+<text y="2413.5" xml:space="preserve" class="g80s4"><tspan x="743.0" textLength="91.1" lengthAdjust="spacing">nothing — it draws</tspan></text>
+<text y="2413.5" xml:space="preserve" class="g80s4"><tspan x="1263.0" textLength="169.4" lengthAdjust="spacing">the whole sentence, approximately</tspan></text>
+<line x1="34.0" y1="2423.3" x2="1846.0" y2="2423.3" class="g80s5"/>
+<text y="2440.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="127.7" lengthAdjust="spacing">same input, same output</tspan></text>
+<text y="2440.5" xml:space="preserve" class="g80s4"><tspan x="273.0" textLength="17.1" lengthAdjust="spacing">yes</tspan></text>
+<text y="2440.5" xml:space="preserve" class="g80s4"><tspan x="743.0" textLength="162.6" lengthAdjust="spacing">no — a different answer each run</tspan></text>
+<text y="2440.5" xml:space="preserve" class="g80s4"><tspan x="1263.0" textLength="17.1" lengthAdjust="spacing">yes</tspan></text>
+<line x1="34.0" y1="2450.3" x2="1846.0" y2="2450.3" class="g80s5"/>
+<rect x="34.0" y="2450.3" width="1812.0" height="27.0" rx="0" class="g80s10"/>
+<text y="2467.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="66.8" lengthAdjust="spacing">cost per step</tspan></text>
+<text y="2467.5" xml:space="preserve" class="g80s4"><tspan x="273.0" class="g80s6" textLength="73.9" lengthAdjust="spacing">1 decoder row</tspan></text>
+<text y="2467.5" xml:space="preserve" class="g80s4"><tspan x="743.0" class="g80s6" textLength="73.9" lengthAdjust="spacing">1 decoder row</tspan></text>
+<text y="2467.5" xml:space="preserve" class="g80s4"><tspan x="1263.0" textLength="123.4" lengthAdjust="spacing">B rows, B × B candidates</tspan></text>
+<line x1="34.0" y1="2477.3" x2="1846.0" y2="2477.3" class="g80s5"/>
+<text y="2494.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="49.9" lengthAdjust="spacing">KV cache</tspan></text>
+<text y="2494.5" xml:space="preserve" class="g80s4"><tspan x="273.0" class="g80s6" textLength="28.5" lengthAdjust="spacing">1 row</tspan><tspan x="301.5" textLength="66.6" lengthAdjust="spacing"> per sentence</tspan></text>
+<text y="2494.5" xml:space="preserve" class="g80s4"><tspan x="743.0" class="g80s6" textLength="28.5" lengthAdjust="spacing">1 row</tspan><tspan x="771.5" textLength="66.6" lengthAdjust="spacing"> per sentence</tspan></text>
+<text y="2494.5" xml:space="preserve" class="g80s4"><tspan x="1263.0" textLength="137.5" lengthAdjust="spacing">B rows, re-sorted every step</tspan></text>
+<line x1="34.0" y1="2504.3" x2="1846.0" y2="2504.3" class="g80s5"/>
+<rect x="34.0" y="2504.3" width="1812.0" height="27.0" rx="0" class="g80s10"/>
+<text y="2521.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="31.1" lengthAdjust="spacing">knobs</tspan></text>
+<text y="2521.5" xml:space="preserve" class="g80s4"><tspan x="273.0" textLength="24.5" lengthAdjust="spacing">none</tspan></text>
+<text y="2521.5" xml:space="preserve" class="g80s4"><tspan x="743.0" textLength="36.7" lengthAdjust="spacing">k and T</tspan></text>
+<text y="2521.5" xml:space="preserve" class="g80s4"><tspan x="1263.0" textLength="128.3" lengthAdjust="spacing">B and the length penalty α</tspan></text>
+<line x1="34.0" y1="2531.3" x2="1846.0" y2="2531.3" class="g80s5"/>
+<text y="2548.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="111.3" lengthAdjust="spacing">on this page’s model</tspan></text>
+<text y="2548.5" xml:space="preserve" class="g80s4"><tspan x="273.0" textLength="75.1" lengthAdjust="spacing">&quot;the cat sat&quot;, P </tspan><tspan x="348.1" class="g80s6" textLength="35.7" lengthAdjust="spacing">0.0630</tspan><tspan x="383.7" textLength="56.8" lengthAdjust="spacing">, every time</tspan></text>
+<text y="2548.5" xml:space="preserve" class="g80s4"><tspan x="743.0" class="g80s6" textLength="69.4" lengthAdjust="spacing">15 sentences</tspan><tspan x="812.4" textLength="69.7" lengthAdjust="spacing">; the best one </tspan><tspan x="882.1" class="g80s6" textLength="23.3" lengthAdjust="spacing">19%</tspan><tspan x="905.4" textLength="54.4" lengthAdjust="spacing"> of the time</tspan></text>
+<text y="2548.5" xml:space="preserve" class="g80s4"><tspan x="1263.0" textLength="69.6" lengthAdjust="spacing">&quot;a dog sat&quot;, P </tspan><tspan x="1332.6" class="g80s6" textLength="35.7" lengthAdjust="spacing">0.1224</tspan><tspan x="1368.2" textLength="56.8" lengthAdjust="spacing">, every time</tspan></text>
+<line x1="34.0" y1="2558.3" x2="1846.0" y2="2558.3" class="g80s5"/>
+<rect x="34.0" y="2558.3" width="1812.0" height="27.0" rx="0" class="g80s10"/>
+<text y="2575.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="68.0" lengthAdjust="spacing">typical failure</tspan></text>
+<text y="2575.5" xml:space="preserve" class="g80s4"><tspan x="273.0" textLength="199.9" lengthAdjust="spacing">repeats itself; commits to a bad first word</tspan></text>
+<text y="2575.5" xml:space="preserve" class="g80s4"><tspan x="743.0" textLength="325.3" lengthAdjust="spacing">can wander onto a low-probability path; needs a seed to reproduce</tspan></text>
+<text y="2575.5" xml:space="preserve" class="g80s4"><tspan x="1263.0" textLength="388.9" lengthAdjust="spacing">bland, generic answers; too short without the penalty; can stop early (deep dive </tspan><tspan x="1651.9" class="g80s6">2</tspan><tspan x="1658.3" textLength="56.2" lengthAdjust="spacing">, section G)</tspan></text>
+<line x1="34.0" y1="2585.3" x2="1846.0" y2="2585.3" class="g80s5"/>
+<text y="2602.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="44.7" lengthAdjust="spacing">use it for</tspan></text>
+<text y="2602.5" xml:space="preserve" class="g80s4"><tspan x="273.0" textLength="149.2" lengthAdjust="spacing">evaluation, batches, streaming</tspan></text>
+<text y="2602.5" xml:space="preserve" class="g80s4"><tspan x="743.0" textLength="270.8" lengthAdjust="spacing">variety: chat, creative text, several answers to one input</tspan></text>
+<text y="2602.5" xml:space="preserve" class="g80s4"><tspan x="1263.0" textLength="333.7" lengthAdjust="spacing">one right answer: translation, summarisation — this notebook’s task</tspan></text>
+<line x1="34.0" y1="2612.3" x2="1846.0" y2="2612.3" class="g80s5"/>
+<rect x="34.0" y="2369.3" width="1812.0" height="243.0" rx="0" class="g80s32"/>
+<line x1="264.0" y1="2369.3" x2="264.0" y2="2612.3" class="g80s5"/>
+<line x1="734.0" y1="2369.3" x2="734.0" y2="2612.3" class="g80s5"/>
+<line x1="1254.0" y1="2369.3" x2="1254.0" y2="2612.3" class="g80s5"/>
+<rect x="34.0" y="2638.3" width="1812.0" height="30.0" rx="6" class="g80s11"/>
+<path d="M38.50 2638.99 A5.50 5.50 0 0 0 34.50 2644.28 V2662.28 A5.50 5.50 0 0 0 38.50 2667.57 Z" class="g80s20"/>
+<text y="2658.3" xml:space="preserve" class="g80s27"><tspan x="50.0" class="g80s0" textLength="199.9" lengthAdjust="spacing">F · The usual misunderstandings</tspan></text>
+<text y="2658.3" xml:space="preserve" class="g80s28"><tspan x="267.9" textLength="133.0" lengthAdjust="spacing">checked against this page</tspan></text>
+<rect x="34.0" y="2684.3" width="1812.0" height="24.0" rx="4" class="g80s11"/>
+<text y="2700.3" xml:space="preserve" class="g80s8"><tspan x="43.0" class="g80s0" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="2700.3" xml:space="preserve" class="g80s8"><tspan x="663.0" class="g80s0" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="2700.3" xml:space="preserve" class="g80s8"><tspan x="813.0" class="g80s0" textLength="44.5" lengthAdjust="spacing">evidence</tspan></text>
+<text y="2725.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="173.5" lengthAdjust="spacing">&quot;The model outputs probabilities.&quot;</tspan></text>
+<text y="2725.5" xml:space="preserve" class="g80s4"><tspan x="663.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="2725.5" xml:space="preserve" class="g80s4"><tspan x="813.0" textLength="47.7" lengthAdjust="spacing">it outputs </tspan><tspan x="860.7" class="g80s9" textLength="37.3" lengthAdjust="spacing">logits</tspan><tspan x="898.0" textLength="108.2" lengthAdjust="spacing"> — any real numbers; </tspan><tspan x="1006.3" class="g80s9" textLength="43.6" lengthAdjust="spacing">softmax</tspan><tspan x="1049.8" textLength="358.9" lengthAdjust="spacing"> turns them into probabilities, and that is a choice made outside the model</tspan></text>
+<line x1="34.0" y1="2735.3" x2="1846.0" y2="2735.3" class="g80s5"/>
+<rect x="34.0" y="2735.3" width="1812.0" height="27.0" rx="0" class="g80s10"/>
+<text y="2752.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="187.2" lengthAdjust="spacing">&quot;A temperature changes the model.&quot;</tspan></text>
+<text y="2752.5" xml:space="preserve" class="g80s4"><tspan x="663.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="2752.5" xml:space="preserve" class="g80s4"><tspan x="813.0" textLength="87.4" lengthAdjust="spacing">it only divides the </tspan><tspan x="900.4" class="g80s9" textLength="37.3" lengthAdjust="spacing">logits</tspan><tspan x="937.8" textLength="55.6" lengthAdjust="spacing"> before the </tspan><tspan x="993.4" class="g80s9" textLength="43.6" lengthAdjust="spacing">softmax</tspan><tspan x="1037.0" textLength="373.6" lengthAdjust="spacing">: the order never changes, only how far apart the probabilities are (section A)</tspan></text>
+<line x1="34.0" y1="2762.3" x2="1846.0" y2="2762.3" class="g80s5"/>
+<text y="2779.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0">&quot;</tspan><tspan x="47.1" class="g80s9" textLength="56.0" lengthAdjust="spacing">top_k = 1</tspan><tspan x="103.2" class="g80s0" textLength="57.9" lengthAdjust="spacing"> is greedy.&quot;</tspan></text>
+<text y="2779.5" xml:space="preserve" class="g80s4"><tspan x="663.0" textLength="19.0" lengthAdjust="spacing">true</tspan></text>
+<text y="2779.5" xml:space="preserve" class="g80s4"><tspan x="813.0" textLength="384.0" lengthAdjust="spacing">one token survives the cut, so the draw has only one outcome — whatever T is</tspan></text>
+<line x1="34.0" y1="2789.3" x2="1846.0" y2="2789.3" class="g80s5"/>
+<rect x="34.0" y="2789.3" width="1812.0" height="27.0" rx="0" class="g80s10"/>
+<text y="2806.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="142.4" lengthAdjust="spacing">&quot;Sampling is simply worse.&quot;</tspan></text>
+<text y="2806.5" xml:space="preserve" class="g80s4"><tspan x="663.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="2806.5" xml:space="preserve" class="g80s4"><tspan x="813.0" textLength="251.2" lengthAdjust="spacing">on this page’s model it returns the better sentence </tspan><tspan x="1064.2" class="g80s6" textLength="23.3" lengthAdjust="spacing">19%</tspan><tspan x="1087.5" textLength="127.7" lengthAdjust="spacing"> of the time and greedy’s </tspan><tspan x="1215.2" class="g80s6" textLength="23.3" lengthAdjust="spacing">14%</tspan><tspan x="1238.5" textLength="360.7" lengthAdjust="spacing"> — and it is the only one of the three that can give a different answer twice</tspan></text>
+<line x1="34.0" y1="2816.3" x2="1846.0" y2="2816.3" class="g80s5"/>
+<text y="2833.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="297.3" lengthAdjust="spacing">&quot;Beam search maximises the probability of the sentence.&quot;</tspan></text>
+<text y="2833.5" xml:space="preserve" class="g80s4"><tspan x="663.0" textLength="30.0" lengthAdjust="spacing">nearly</tspan></text>
+<text y="2833.5" xml:space="preserve" class="g80s4"><tspan x="813.0" textLength="484.2" lengthAdjust="spacing">it maximises the length-normalised score among the candidates it kept — section D, and deep dive </tspan><tspan x="1297.2" class="g80s6">2</tspan><tspan x="1303.7" textLength="87.4" lengthAdjust="spacing"> for what it prunes</tspan></text>
+<line x1="34.0" y1="2843.3" x2="1846.0" y2="2843.3" class="g80s5"/>
+<rect x="34.0" y="2843.3" width="1812.0" height="27.0" rx="0" class="g80s10"/>
+<text y="2860.5" xml:space="preserve" class="g80s7"><tspan x="43.0" class="g80s0" textLength="338.1" lengthAdjust="spacing">&quot;Longer answers are less likely, so the model prefers short ones.&quot;</tspan></text>
+<text y="2860.5" xml:space="preserve" class="g80s4"><tspan x="663.0" textLength="19.0" lengthAdjust="spacing">true</tspan></text>
+<text y="2860.5" xml:space="preserve" class="g80s4"><tspan x="813.0" textLength="103.3" lengthAdjust="spacing">every factor is below </tspan><tspan x="916.3" class="g80s6">1</tspan><tspan x="922.8" textLength="48.2" lengthAdjust="spacing">: &quot;a dog&quot; (</tspan><tspan x="971.0" class="g80s6" textLength="35.7" lengthAdjust="spacing">0.1344</tspan><tspan x="1006.6" textLength="96.5" lengthAdjust="spacing">) beats &quot;a dog sat&quot; (</tspan><tspan x="1103.1" class="g80s6" textLength="35.7" lengthAdjust="spacing">0.1224</tspan><tspan x="1138.7" textLength="94.8" lengthAdjust="spacing">) before the penalty</tspan></text>
+<line x1="34.0" y1="2870.3" x2="1846.0" y2="2870.3" class="g80s5"/>
+<rect x="34.0" y="2708.3" width="1812.0" height="162.0" rx="0" class="g80s32"/>
+<line x1="654.0" y1="2708.3" x2="654.0" y2="2870.3" class="g80s5"/>
+<line x1="804.0" y1="2708.3" x2="804.0" y2="2870.3" class="g80s5"/>
+<line x1="28.0" y1="2896.3" x2="1852.0" y2="2896.3" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="2913.3" xml:space="preserve" class="g80s59"><tspan x="28.0" textLength="212.8" lengthAdjust="spacing">Sections A and B use a hand-set row of six </tspan><tspan x="240.8" class="g80s9" textLength="37.3" lengthAdjust="spacing">logits</tspan><tspan x="278.1" textLength="437.1" lengthAdjust="spacing">; section C runs the notebook’s own decoding rules on the hand-set model of deep dives </tspan><tspan x="715.2" class="g80s6">1</tspan><tspan x="721.7" textLength="24.5" lengthAdjust="spacing"> and </tspan><tspan x="746.1" class="g80s6">2</tspan><tspan x="752.6" textLength="492.2" lengthAdjust="spacing">, with the sampling outcomes enumerated exactly rather than simulated. The numbers quoted for the </tspan><tspan x="1244.8" class="g80s9" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1257.2" textLength="440.1" lengthAdjust="spacing"> model are the real untrained model’s. The length penalty is the GNMT formula (Wu et al. </tspan><tspan x="1697.3" class="g80s6" textLength="25.9" lengthAdjust="spacing">2016</tspan><tspan x="1723.2" textLength="116.8" lengthAdjust="spacing">) as the notebook writes</tspan></text>
+<text y="2928.3" xml:space="preserve" class="g80s59"><tspan x="28.0" textLength="8.6" lengthAdjust="spacing">it.</tspan></text>
+</svg>

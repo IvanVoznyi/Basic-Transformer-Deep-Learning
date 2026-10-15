@@ -1,420 +1,420 @@
 <svg data-src="v25_deep07_rmsnorm.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="2287" viewBox="0 0 1880 2287">
-<style>.txfig .g82s0{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g82s1{font-weight:600}.txfig .g82s2{fill:var(--op)}.txfig .g82s3{fill:var(--code)}.txfig .g82s4{fill:var(--soft);stroke:var(--hair);stroke-width:0.7}.txfig .g82s5{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9px;text-anchor:middle}.txfig .g82s6{font-weight:600;fill:var(--ink)}.txfig .g82s7{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g82s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g82s9{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g82s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g82s11{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g82s12{fill:var(--fn)}.txfig .g82s13{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g82s14{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g82s15{fill:var(--kw)}.txfig .g82s16{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g82s17{fill:var(--accent);stroke:none;stroke-width:1}.txfig .g82s18{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:start}.txfig .g82s19{fill:var(--accent);stroke:none}.txfig .g82s20{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1.2}.txfig .g82s21{fill:var(--bg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600;text-anchor:middle}.txfig .g82s22{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;text-anchor:start}.txfig .g82s23{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g82s24{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start}.txfig .g82s25{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g82s26{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g82s27{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g82s28{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g82s29{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g82s30{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g82s31{fill:var(--attr)}.txfig .g82s32{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g82s33{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g82s34{fill:var(--num)}.txfig .g82s35{font-weight:600;fill:var(--ink2)}.txfig .g82s36{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g82s37{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g82s38{fill:var(--keep);stroke:none}.txfig .g82s39{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g82s40{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g82s41{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
-<defs><pattern id="hatch82" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash82" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<style>.txfig .g97s0{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g97s1{font-weight:600}.txfig .g97s2{fill:var(--op)}.txfig .g97s3{fill:var(--code)}.txfig .g97s4{fill:var(--soft);stroke:var(--hair);stroke-width:0.7}.txfig .g97s5{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9px;text-anchor:middle}.txfig .g97s6{font-weight:600;fill:var(--ink)}.txfig .g97s7{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g97s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g97s9{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g97s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g97s11{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g97s12{fill:var(--fn)}.txfig .g97s13{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g97s14{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g97s15{fill:var(--kw)}.txfig .g97s16{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g97s17{fill:var(--accent);stroke:none;stroke-width:1}.txfig .g97s18{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:start}.txfig .g97s19{fill:var(--accent);stroke:none}.txfig .g97s20{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1.2}.txfig .g97s21{fill:var(--bg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600;text-anchor:middle}.txfig .g97s22{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;text-anchor:start}.txfig .g97s23{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g97s24{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start}.txfig .g97s25{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g97s26{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g97s27{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g97s28{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g97s29{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g97s30{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g97s31{fill:var(--attr)}.txfig .g97s32{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g97s33{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g97s34{fill:var(--num)}.txfig .g97s35{font-weight:600;fill:var(--ink2)}.txfig .g97s36{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g97s37{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g97s38{fill:var(--keep);stroke:none}.txfig .g97s39{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g97s40{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g97s41{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch97" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash97" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
 <rect width="1880" height="2287" style="fill:var(--bg)"/>
 <rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
 <rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
-<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" class="g82s17"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" class="g97s17"/>
 <text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v2.5 · DEEP DIVE 7 / 17</text>
-<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="195.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)" textLength="83.2" lengthAdjust="spacing">RMSNorm</tspan><tspan x="278.6" class="g82s1" textLength="400.9" lengthAdjust="spacing"> — keeping every vector at a steady size</tspan></text>
-<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="93.9" lengthAdjust="spacing">why normalise · </tspan><tspan x="127.9" class="g82s10" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="194.1" textLength="17.3" lengthAdjust="spacing"> in </tspan><tspan x="211.5" class="g82s6" textLength="44.4" lengthAdjust="spacing">5 steps</tspan><tspan x="255.9"> · </tspan><tspan x="266.7" class="g82s10" textLength="51.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="318.2" textLength="17.3" lengthAdjust="spacing"> in </tspan><tspan x="335.6" class="g82s6">3</tspan><tspan x="343.2" textLength="314.3" lengthAdjust="spacing"> · every word compared · the gain · the cost, measured</tspan></text>
-<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="259.3" lengthAdjust="spacing">Traced on the word “cat” of sequence B, encoder </tspan><tspan x="293.3" class="g82s6" textLength="36.6" lengthAdjust="spacing">layer 0</tspan><tspan x="329.8" textLength="164.9" lengthAdjust="spacing">, with the untrained weights and </tspan><tspan x="494.8" class="g82s33" textLength="45.6" lengthAdjust="spacing">dropout</tspan><tspan x="540.3" textLength="19.2" lengthAdjust="spacing"> off.</tspan></text>
-<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g82s37"/>
-<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g82s38"/>
-<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g82s1" textLength="225.2" lengthAdjust="spacing">A volume knob before every move</tspan></text>
-<text y="169.0" xml:space="preserve" class="g82s39"><tspan x="54.0" textLength="1080.0" lengthAdjust="spacing">Each layer ADDS what it computes onto the stream of numbers flowing through the model, so the numbers keep growing. Before each move, a normaliser rescales a copy of every word’s </tspan><tspan x="1134.0" class="g82s6" textLength="80.4" lengthAdjust="spacing">512 numbers</tspan><tspan x="1214.4" textLength="458.1" lengthAdjust="spacing"> to a steady size, so no layer is flooded by big numbers or starved by tiny ones. </tspan><tspan x="1672.6" class="g82s10" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="1687.3" textLength="35.4" lengthAdjust="spacing"> used </tspan><tspan x="1722.7" class="g82s10" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1788.9">; </tspan><tspan x="1796.1" class="g82s10" textLength="29.4" lengthAdjust="spacing">v2.5</tspan></text>
-<text y="188.0" xml:space="preserve" class="g82s39"><tspan x="54.0" textLength="31.1" lengthAdjust="spacing">uses </tspan><tspan x="85.1" class="g82s10" textLength="51.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="136.6" textLength="119.2" lengthAdjust="spacing"> (Zhang &amp; Sennrich, </tspan><tspan x="255.8" class="g82s6" textLength="30.6" lengthAdjust="spacing">2019</tspan><tspan x="286.4" textLength="143.8" lengthAdjust="spacing">), which skips the part of </tspan><tspan x="430.2" class="g82s10" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="496.4" textLength="122.8" lengthAdjust="spacing"> that barely mattered.</tspan></text>
-<text y="241.2" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px"><tspan x="34.0" textLength="119.6" lengthAdjust="spacing">The whole class, as </tspan><tspan x="153.6" class="g82s6" textLength="32.7" lengthAdjust="spacing">cell 2</tspan><tspan x="186.2" textLength="52.1" lengthAdjust="spacing"> writes it:</tspan></text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="195.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)" textLength="83.2" lengthAdjust="spacing">RMSNorm</tspan><tspan x="278.6" class="g97s1" textLength="400.9" lengthAdjust="spacing"> — keeping every vector at a steady size</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="93.9" lengthAdjust="spacing">why normalise · </tspan><tspan x="127.9" class="g97s10" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="194.1" textLength="17.3" lengthAdjust="spacing"> in </tspan><tspan x="211.5" class="g97s6" textLength="44.4" lengthAdjust="spacing">5 steps</tspan><tspan x="255.9"> · </tspan><tspan x="266.7" class="g97s10" textLength="51.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="318.2" textLength="17.3" lengthAdjust="spacing"> in </tspan><tspan x="335.6" class="g97s6">3</tspan><tspan x="343.2" textLength="314.3" lengthAdjust="spacing"> · every word compared · the gain · the cost, measured</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="259.3" lengthAdjust="spacing">Traced on the word “cat” of sequence B, encoder </tspan><tspan x="293.3" class="g97s6" textLength="36.6" lengthAdjust="spacing">layer 0</tspan><tspan x="329.8" textLength="164.9" lengthAdjust="spacing">, with the untrained weights and </tspan><tspan x="494.8" class="g97s33" textLength="45.6" lengthAdjust="spacing">dropout</tspan><tspan x="540.3" textLength="19.2" lengthAdjust="spacing"> off.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g97s37"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g97s38"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g97s1" textLength="225.2" lengthAdjust="spacing">A volume knob before every move</tspan></text>
+<text y="169.0" xml:space="preserve" class="g97s39"><tspan x="54.0" textLength="1080.0" lengthAdjust="spacing">Each layer ADDS what it computes onto the stream of numbers flowing through the model, so the numbers keep growing. Before each move, a normaliser rescales a copy of every word’s </tspan><tspan x="1134.0" class="g97s6" textLength="80.4" lengthAdjust="spacing">512 numbers</tspan><tspan x="1214.4" textLength="458.1" lengthAdjust="spacing"> to a steady size, so no layer is flooded by big numbers or starved by tiny ones. </tspan><tspan x="1672.6" class="g97s10" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="1687.3" textLength="35.4" lengthAdjust="spacing"> used </tspan><tspan x="1722.7" class="g97s10" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1788.9">; </tspan><tspan x="1796.1" class="g97s10" textLength="29.4" lengthAdjust="spacing">v2.5</tspan></text>
+<text y="188.0" xml:space="preserve" class="g97s39"><tspan x="54.0" textLength="31.1" lengthAdjust="spacing">uses </tspan><tspan x="85.1" class="g97s10" textLength="51.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="136.6" textLength="119.2" lengthAdjust="spacing"> (Zhang &amp; Sennrich, </tspan><tspan x="255.8" class="g97s6" textLength="30.6" lengthAdjust="spacing">2019</tspan><tspan x="286.4" textLength="143.8" lengthAdjust="spacing">), which skips the part of </tspan><tspan x="430.2" class="g97s10" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="496.4" textLength="122.8" lengthAdjust="spacing"> that barely mattered.</tspan></text>
+<text y="241.2" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px"><tspan x="34.0" textLength="119.6" lengthAdjust="spacing">The whole class, as </tspan><tspan x="153.6" class="g97s6" textLength="32.7" lengthAdjust="spacing">cell 2</tspan><tspan x="186.2" textLength="52.1" lengthAdjust="spacing"> writes it:</tspan></text>
 <rect x="986.0" y="228.0" width="860.0" height="172.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
-<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="996.0" class="g82s40" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1019.8" class="g82s1"> · </tspan><tspan x="1029.0" class="g82s40" textLength="41.6" lengthAdjust="spacing">RMSNorm</tspan></text>
-<text x="996.0" y="269.0" xml:space="preserve" class="g82s26"><tspan class="g82s15">class</tspan><tspan class="g82s3"> </tspan><tspan class="g82s12">RMSNorm</tspan><tspan class="g82s2">(</tspan><tspan class="g82s3">nn</tspan><tspan class="g82s2">.</tspan><tspan class="g82s31">Module</tspan><tspan class="g82s2">)</tspan><tspan class="g82s2">:</tspan></text>
-<text x="996.0" y="288.5" xml:space="preserve" class="g82s26"><tspan class="g82s3">    </tspan><tspan class="g82s15">def</tspan><tspan class="g82s3"> </tspan><tspan class="g82s12">__init__</tspan><tspan class="g82s2">(</tspan><tspan class="g82s15">self</tspan><tspan class="g82s2">,</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">d_model</tspan><tspan class="g82s2">:</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">int</tspan><tspan class="g82s2">,</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">eps</tspan><tspan class="g82s2">:</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">float</tspan><tspan class="g82s3"> </tspan><tspan class="g82s2">=</tspan><tspan class="g82s3"> </tspan><tspan class="g82s34">1e-6</tspan><tspan class="g82s2">)</tspan><tspan class="g82s2">:</tspan></text>
-<text x="996.0" y="308.0" xml:space="preserve" class="g82s26"><tspan class="g82s3">        </tspan><tspan class="g82s15">self</tspan><tspan class="g82s2">.</tspan><tspan class="g82s31">weight</tspan><tspan class="g82s3"> </tspan><tspan class="g82s2">=</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">nn</tspan><tspan class="g82s2">.</tspan><tspan class="g82s12">Parameter</tspan><tspan class="g82s2">(</tspan><tspan class="g82s3">torch</tspan><tspan class="g82s2">.</tspan><tspan class="g82s12">ones</tspan><tspan class="g82s2">(</tspan><tspan class="g82s3">d_model</tspan><tspan class="g82s2">)</tspan><tspan class="g82s2">)</tspan><tspan class="g82s3">    </tspan><tspan style="fill:var(--cmt)"># the gain, starts at 1</tspan></text>
-<text x="996.0" y="327.5" xml:space="preserve" class="g82s26"><tspan class="g82s3">    </tspan><tspan class="g82s15">def</tspan><tspan class="g82s3"> </tspan><tspan class="g82s12">forward</tspan><tspan class="g82s2">(</tspan><tspan class="g82s15">self</tspan><tspan class="g82s2">,</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">x</tspan><tspan class="g82s2">)</tspan><tspan class="g82s2">:</tspan></text>
-<text x="996.0" y="347.0" xml:space="preserve" class="g82s26"><tspan class="g82s3">        </tspan><tspan class="g82s3">x32</tspan><tspan class="g82s3"> </tspan><tspan class="g82s2">=</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">x</tspan><tspan class="g82s2">.</tspan><tspan class="g82s12">float</tspan><tspan class="g82s2">(</tspan><tspan class="g82s2">)</tspan></text>
-<text x="996.0" y="366.5" xml:space="preserve" class="g82s26"><tspan class="g82s3">        </tspan><tspan class="g82s3">rms</tspan><tspan class="g82s3"> </tspan><tspan class="g82s2">=</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">x32</tspan><tspan class="g82s2">.</tspan><tspan class="g82s12">pow</tspan><tspan class="g82s2">(</tspan><tspan class="g82s34">2</tspan><tspan class="g82s2">)</tspan><tspan class="g82s2">.</tspan><tspan class="g82s12">mean</tspan><tspan class="g82s2">(</tspan><tspan class="g82s2">-</tspan><tspan class="g82s34">1</tspan><tspan class="g82s2">,</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">keepdim</tspan><tspan class="g82s2">=</tspan><tspan class="g82s15">True</tspan><tspan class="g82s2">)</tspan><tspan class="g82s2">.</tspan><tspan class="g82s12">add</tspan><tspan class="g82s2">(</tspan><tspan class="g82s15">self</tspan><tspan class="g82s2">.</tspan><tspan class="g82s31">eps</tspan><tspan class="g82s2">)</tspan><tspan class="g82s2">.</tspan><tspan class="g82s12">rsqrt</tspan><tspan class="g82s2">(</tspan><tspan class="g82s2">)</tspan></text>
-<text x="996.0" y="386.0" xml:space="preserve" class="g82s26"><tspan class="g82s3">        </tspan><tspan class="g82s15">return</tspan><tspan class="g82s3"> </tspan><tspan class="g82s2">(</tspan><tspan class="g82s3">x32</tspan><tspan class="g82s3"> </tspan><tspan class="g82s2">*</tspan><tspan class="g82s3"> </tspan><tspan class="g82s3">rms</tspan><tspan class="g82s2">)</tspan><tspan class="g82s2">.</tspan><tspan class="g82s12">type_as</tspan><tspan class="g82s2">(</tspan><tspan class="g82s3">x</tspan><tspan class="g82s2">)</tspan><tspan class="g82s3"> </tspan><tspan class="g82s2">*</tspan><tspan class="g82s3"> </tspan><tspan class="g82s15">self</tspan><tspan class="g82s2">.</tspan><tspan class="g82s31">weight</tspan></text>
-<rect x="34.0" y="422.5" width="1812.0" height="30.0" rx="6" class="g82s13"/>
-<path d="M38.50 423.21 A5.50 5.50 0 0 0 34.50 428.50 V446.50 A5.50 5.50 0 0 0 38.50 451.79 Z" class="g82s19"/>
-<text y="442.5" xml:space="preserve" class="g82s27"><tspan x="50.0" class="g82s1" textLength="225.1" lengthAdjust="spacing">A · Why normalise: the stream grows</tspan></text>
-<text y="442.5" xml:space="preserve" class="g82s28"><tspan x="293.1" textLength="371.9" lengthAdjust="spacing">the size (RMS) of every word’s vector, sequence B, through the encoder</tspan></text>
-<rect x="34.0" y="468.5" width="1812.0" height="24.0" rx="4" class="g82s13"/>
-<text y="484.5" xml:space="preserve" class="g82s9"><tspan x="43.0" class="g82s1" textLength="24.1" lengthAdjust="spacing">word</tspan></text>
-<text y="484.5" xml:space="preserve" class="g82s9"><tspan x="263.0" class="g82s1" textLength="21.0" lengthAdjust="spacing">into </tspan><tspan x="284.0" class="g82s35" textLength="33.4" lengthAdjust="spacing">layer 0</tspan></text>
-<text y="484.5" xml:space="preserve" class="g82s9"><tspan x="528.0" class="g82s1" textLength="82.3" lengthAdjust="spacing">after its attention</tspan></text>
-<text y="484.5" xml:space="preserve" class="g82s9"><tspan x="793.0" class="g82s1" textLength="21.0" lengthAdjust="spacing">into </tspan><tspan x="814.0" class="g82s35" textLength="33.4" lengthAdjust="spacing">layer 1</tspan></text>
-<text y="484.5" xml:space="preserve" class="g82s9"><tspan x="1058.0" class="g82s1" textLength="82.3" lengthAdjust="spacing">after its attention</tspan></text>
-<text y="484.5" xml:space="preserve" class="g82s9"><tspan x="1323.0" class="g82s1" textLength="30.9" lengthAdjust="spacing">out of </tspan><tspan x="1353.9" class="g82s35" textLength="33.4" lengthAdjust="spacing">layer 1</tspan></text>
-<text y="484.5" xml:space="preserve" class="g82s9"><tspan x="1589.0" class="g82s1" textLength="64.3" lengthAdjust="spacing">after the last </tspan><tspan x="1653.3" class="g82s29" textLength="41.6" lengthAdjust="spacing">RMSNorm</tspan></text>
-<text x="43.0" y="508.2" class="g82s0">the_</text>
-<text x="263.0" y="508.2" class="g82s0">0.251</text>
-<text x="528.0" y="508.2" class="g82s0">0.531</text>
-<text x="793.0" y="508.2" class="g82s0">0.665</text>
-<text x="1058.0" y="508.2" class="g82s0">1.023</text>
-<text x="1323.0" y="508.2" class="g82s0">1.108</text>
-<text x="1589.0" y="508.2" class="g82s0">1.000</text>
-<line x1="34.0" y1="516.5" x2="1846.0" y2="516.5" class="g82s7"/>
-<rect x="34.0" y="516.5" width="1812.0" height="24.0" rx="0" class="g82s11"/>
-<text x="43.0" y="532.2" class="g82s0">cat_</text>
-<text x="263.0" y="532.2" class="g82s0">0.240</text>
-<text x="528.0" y="532.2" class="g82s0">0.526</text>
-<text x="793.0" y="532.2" class="g82s0">0.678</text>
-<text x="1058.0" y="532.2" class="g82s0">1.051</text>
-<text x="1323.0" y="532.2" class="g82s0">1.122</text>
-<text x="1589.0" y="532.2" class="g82s0">1.000</text>
-<line x1="34.0" y1="540.5" x2="1846.0" y2="540.5" class="g82s7"/>
-<text x="43.0" y="556.2" class="g82s0">is_</text>
-<text x="263.0" y="556.2" class="g82s0">0.252</text>
-<text x="528.0" y="556.2" class="g82s0">0.581</text>
-<text x="793.0" y="556.2" class="g82s0">0.639</text>
-<text x="1058.0" y="556.2" class="g82s0">0.998</text>
-<text x="1323.0" y="556.2" class="g82s0">1.077</text>
-<text x="1589.0" y="556.2" class="g82s0">1.000</text>
-<line x1="34.0" y1="564.5" x2="1846.0" y2="564.5" class="g82s7"/>
-<rect x="34.0" y="564.5" width="1812.0" height="24.0" rx="0" class="g82s11"/>
-<text x="43.0" y="580.2" class="g82s0">sleeping_</text>
-<text x="263.0" y="580.2" class="g82s0">0.254</text>
-<text x="528.0" y="580.2" class="g82s0">0.543</text>
-<text x="793.0" y="580.2" class="g82s0">0.646</text>
-<text x="1058.0" y="580.2" class="g82s0">0.981</text>
-<text x="1323.0" y="580.2" class="g82s0">1.049</text>
-<text x="1589.0" y="580.2" class="g82s0">1.000</text>
-<line x1="34.0" y1="588.5" x2="1846.0" y2="588.5" class="g82s7"/>
-<text x="43.0" y="604.2" class="g82s0">on_</text>
-<text x="263.0" y="604.2" class="g82s0">0.249</text>
-<text x="528.0" y="604.2" class="g82s0">0.592</text>
-<text x="793.0" y="604.2" class="g82s0">0.707</text>
-<text x="1058.0" y="604.2" class="g82s0">1.011</text>
-<text x="1323.0" y="604.2" class="g82s0">1.084</text>
-<text x="1589.0" y="604.2" class="g82s0">1.000</text>
-<line x1="34.0" y1="612.5" x2="1846.0" y2="612.5" class="g82s7"/>
-<rect x="34.0" y="612.5" width="1812.0" height="24.0" rx="0" class="g82s11"/>
-<text x="43.0" y="628.2" class="g82s0">the_</text>
-<text x="263.0" y="628.2" class="g82s0">0.251</text>
-<text x="528.0" y="628.2" class="g82s0">0.638</text>
-<text x="793.0" y="628.2" class="g82s0">0.754</text>
-<text x="1058.0" y="628.2" class="g82s0">1.052</text>
-<text x="1323.0" y="628.2" class="g82s0">1.151</text>
-<text x="1589.0" y="628.2" class="g82s0">1.000</text>
-<line x1="34.0" y1="636.5" x2="1846.0" y2="636.5" class="g82s7"/>
-<text x="43.0" y="652.2" class="g82s0">sof</text>
-<text x="263.0" y="652.2" class="g82s0">0.255</text>
-<text x="528.0" y="652.2" class="g82s0">0.602</text>
-<text x="793.0" y="652.2" class="g82s0">0.689</text>
-<text x="1058.0" y="652.2" class="g82s0">1.031</text>
-<text x="1323.0" y="652.2" class="g82s0">1.093</text>
-<text x="1589.0" y="652.2" class="g82s0">1.000</text>
-<line x1="34.0" y1="660.5" x2="1846.0" y2="660.5" class="g82s7"/>
-<rect x="34.0" y="660.5" width="1812.0" height="24.0" rx="0" class="g82s11"/>
-<text x="43.0" y="676.2" class="g82s0">a_</text>
-<text x="263.0" y="676.2" class="g82s0">0.247</text>
-<text x="528.0" y="676.2" class="g82s0">0.581</text>
-<text x="793.0" y="676.2" class="g82s0">0.717</text>
-<text x="1058.0" y="676.2" class="g82s0">1.027</text>
-<text x="1323.0" y="676.2" class="g82s0">1.096</text>
-<text x="1589.0" y="676.2" class="g82s0">1.000</text>
-<line x1="34.0" y1="684.5" x2="1846.0" y2="684.5" class="g82s7"/>
-<rect x="34.0" y="492.5" width="1812.0" height="192.0" rx="0" class="g82s32"/>
-<line x1="254.0" y1="492.5" x2="254.0" y2="684.5" class="g82s7"/>
-<line x1="519.0" y1="492.5" x2="519.0" y2="684.5" class="g82s7"/>
-<line x1="784.0" y1="492.5" x2="784.0" y2="684.5" class="g82s7"/>
-<line x1="1049.0" y1="492.5" x2="1049.0" y2="684.5" class="g82s7"/>
-<line x1="1314.0" y1="492.5" x2="1314.0" y2="684.5" class="g82s7"/>
-<line x1="1580.0" y1="492.5" x2="1580.0" y2="684.5" class="g82s7"/>
-<rect x="34.0" y="708.5" width="1812.0" height="30.0" rx="6" class="g82s13"/>
-<path d="M38.50 709.21 A5.50 5.50 0 0 0 34.50 714.50 V732.50 A5.50 5.50 0 0 0 38.50 737.79 Z" class="g82s19"/>
-<text y="728.5" xml:space="preserve" class="g82s27"><tspan x="50.0" class="g82s1" textLength="20.7" lengthAdjust="spacing">B · </tspan><tspan x="70.7" class="g82s10" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="136.9" class="g82s1"> (</tspan><tspan x="145.3" class="g82s10" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="160.0" class="g82s1" textLength="85.0" lengthAdjust="spacing">), in five steps</tspan></text>
-<text y="728.5" xml:space="preserve" class="g82s28"><tspan x="263.0" textLength="141.0" lengthAdjust="spacing">on “cat”: the first five of its </tspan><tspan x="404.0" class="g82s6" textLength="71.1" lengthAdjust="spacing">512 numbers</tspan></text>
-<rect x="34.0" y="754.5" width="351.2" height="180.0" rx="9" class="g82s20"/>
-<rect x="46.0" y="766.5" width="28.0" height="28.0" rx="14" class="g82s17"/>
-<text x="60.0" y="785.5" class="g82s21">1</text>
-<text x="82.0" y="785.5" class="g82s22">Mean</text>
-<text x="48.0" y="814.5" class="g82s23">add all 512 numbers, divide by 512</text>
-<text x="48.0" y="865.5" class="g82s18">x</text>
-<rect x="130.0" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="154.3" y="865.9" class="g82s5">-0.082</text>
-<rect x="178.6" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="203.0" y="865.9" class="g82s5">0.368</text>
-<rect x="227.3" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="251.6" y="865.9" class="g82s5">-0.176</text>
-<rect x="275.9" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="300.2" y="865.9" class="g82s5">-0.081</text>
-<rect x="324.6" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="348.9" y="865.9" class="g82s5">0.271</text>
-<text x="48.0" y="904.5" class="g82s24">mean = -0.0046</text>
-<rect x="399.2" y="754.5" width="351.2" height="180.0" rx="9" class="g82s20"/>
-<rect x="411.2" y="766.5" width="28.0" height="28.0" rx="14" class="g82s17"/>
-<text x="425.2" y="785.5" class="g82s21">2</text>
-<text x="447.2" y="785.5" class="g82s22">Subtract it</text>
-<text x="413.2" y="814.5" class="g82s23">centre the vector on 0</text>
-<text x="413.2" y="865.5" class="g82s18">x − mean</text>
-<rect x="495.2" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="519.5" y="865.9" class="g82s5">-0.077</text>
-<rect x="543.8" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="568.2" y="865.9" class="g82s5">0.372</text>
-<rect x="592.5" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="616.8" y="865.9" class="g82s5">-0.172</text>
-<rect x="641.1" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="665.4" y="865.9" class="g82s5">-0.076</text>
-<rect x="689.8" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="714.1" y="865.9" class="g82s5">0.275</text>
-<text x="413.2" y="904.5" class="g82s24">the average is now exactly 0</text>
-<rect x="764.4" y="754.5" width="351.2" height="180.0" rx="9" class="g82s20"/>
-<rect x="776.4" y="766.5" width="28.0" height="28.0" rx="14" class="g82s17"/>
-<text x="790.4" y="785.5" class="g82s21">3</text>
-<text x="812.4" y="785.5" class="g82s22">Variance</text>
-<text x="778.4" y="814.5" class="g82s23">the average squared distance from the mean</text>
-<text x="778.4" y="865.5" class="g82s18">(x − mean)²</text>
-<rect x="860.4" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="884.7" y="865.9" class="g82s5">0.006</text>
-<rect x="909.0" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="933.4" y="865.9" class="g82s5">0.139</text>
-<rect x="957.7" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="982.0" y="865.9" class="g82s5">0.029</text>
-<rect x="1006.3" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1030.6" y="865.9" class="g82s5">0.006</text>
-<rect x="1055.0" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1079.3" y="865.9" class="g82s5">0.076</text>
-<text x="778.4" y="904.5" class="g82s24">variance = 0.05769</text>
-<rect x="1129.6" y="754.5" width="351.2" height="180.0" rx="9" class="g82s20"/>
-<rect x="1141.6" y="766.5" width="28.0" height="28.0" rx="14" class="g82s17"/>
-<text x="1155.6" y="785.5" class="g82s21">4</text>
-<text x="1177.6" y="785.5" class="g82s22">Divide</text>
-<text x="1143.6" y="814.5" class="g82s23">by √(variance + 0.00001)</text>
-<text x="1143.6" y="865.5" class="g82s18">LN(x)</text>
-<rect x="1225.6" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1249.9" y="865.9" class="g82s5">-0.322</text>
-<rect x="1274.2" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1298.6" y="865.9" class="g82s5">1.550</text>
-<rect x="1322.9" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1347.2" y="865.9" class="g82s5">-0.715</text>
-<rect x="1371.5" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1395.8" y="865.9" class="g82s5">-0.318</text>
-<rect x="1420.2" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1444.5" y="865.9" class="g82s5">1.146</text>
-<text x="1143.6" y="904.5" class="g82s24">size 1, average 0</text>
-<rect x="1494.8" y="754.5" width="351.2" height="180.0" rx="9" class="g82s20"/>
-<rect x="1506.8" y="766.5" width="28.0" height="28.0" rx="14" class="g82s17"/>
-<text x="1520.8" y="785.5" class="g82s21">5</text>
-<text x="1542.8" y="785.5" class="g82s22">Scale and shift</text>
-<text x="1508.8" y="814.5" class="g82s23">× a learned gain, + a learned bias (1 and 0 at the start)</text>
-<text x="1508.8" y="865.5" class="g82s18">out</text>
-<rect x="1590.8" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1615.1" y="865.9" class="g82s5">-0.322</text>
-<rect x="1639.4" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1663.8" y="865.9" class="g82s5">1.550</text>
-<rect x="1688.1" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1712.4" y="865.9" class="g82s5">-0.715</text>
-<rect x="1736.7" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1761.0" y="865.9" class="g82s5">-0.318</text>
-<rect x="1785.4" y="850.5" width="48.6" height="22.0" rx="0" class="g82s4"/>
-<text x="1809.7" y="865.9" class="g82s5">1.146</text>
-<text x="1508.8" y="904.5" class="g82s24">1,024 learned numbers per norm</text>
-<rect x="34.0" y="958.5" width="1812.0" height="30.0" rx="6" class="g82s13"/>
-<path d="M38.50 959.21 A5.50 5.50 0 0 0 34.50 964.50 V982.50 A5.50 5.50 0 0 0 38.50 987.79 Z" class="g82s19"/>
-<text y="978.5" xml:space="preserve" class="g82s27"><tspan x="50.0" class="g82s1" textLength="21.4" lengthAdjust="spacing">C · </tspan><tspan x="71.4" class="g82s10" textLength="51.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="122.9" class="g82s1"> (</tspan><tspan x="131.4" class="g82s10" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="160.8" class="g82s1" textLength="95.0" lengthAdjust="spacing">), in three steps</tspan></text>
-<text y="978.5" xml:space="preserve" class="g82s28"><tspan x="273.8" textLength="116.3" lengthAdjust="spacing">the same five numbers</tspan></text>
-<rect x="34.0" y="1004.5" width="594.7" height="208.0" rx="9" class="g82s20"/>
-<rect x="46.0" y="1016.5" width="28.0" height="28.0" rx="14" class="g82s17"/>
-<text x="60.0" y="1035.5" class="g82s21">1</text>
-<text x="82.0" y="1035.5" class="g82s22">Square and average</text>
-<text x="48.0" y="1064.5" class="g82s23">x.pow(2).mean(-1): the average of the squares</text>
-<text x="48.0" y="1115.5" class="g82s18">x</text>
-<rect x="130.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="178.7" y="1115.9" class="g82s5">-0.082</text>
-<rect x="227.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="276.0" y="1115.9" class="g82s5">0.368</text>
-<rect x="324.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="373.3" y="1115.9" class="g82s5">-0.176</text>
-<rect x="422.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="470.7" y="1115.9" class="g82s5">-0.081</text>
-<rect x="519.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="568.0" y="1115.9" class="g82s5">0.271</text>
-<text x="48.0" y="1143.5" class="g82s18">x²</text>
-<rect x="130.0" y="1128.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="178.7" y="1143.9" class="g82s5">0.007</text>
-<rect x="227.3" y="1128.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="276.0" y="1143.9" class="g82s5">0.135</text>
-<rect x="324.7" y="1128.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="373.3" y="1143.9" class="g82s5">0.031</text>
-<rect x="422.0" y="1128.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="470.7" y="1143.9" class="g82s5">0.007</text>
-<rect x="519.3" y="1128.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="568.0" y="1143.9" class="g82s5">0.073</text>
-<text x="48.0" y="1182.5" class="g82s24">mean of squares = 0.05771</text>
-<rect x="642.7" y="1004.5" width="594.7" height="208.0" rx="9" class="g82s20"/>
-<rect x="654.7" y="1016.5" width="28.0" height="28.0" rx="14" class="g82s17"/>
-<text x="668.7" y="1035.5" class="g82s21">2</text>
-<text x="690.7" y="1035.5" class="g82s22">Square root</text>
-<text x="656.7" y="1064.5" class="g82s23">.add(eps).rsqrt(): 1 / √(mean + 0.000001)</text>
-<text x="656.7" y="1115.5" class="g82s18">x</text>
-<rect x="738.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="787.3" y="1115.9" class="g82s5">-0.082</text>
-<rect x="836.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="884.7" y="1115.9" class="g82s5">0.368</text>
-<rect x="933.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="982.0" y="1115.9" class="g82s5">-0.176</text>
-<rect x="1030.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="1079.3" y="1115.9" class="g82s5">-0.081</text>
-<rect x="1128.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="1176.7" y="1115.9" class="g82s5">0.271</text>
-<text x="656.7" y="1182.5" class="g82s24">RMS = 0.24024, 1 / RMS = 4.1625</text>
-<rect x="1251.3" y="1004.5" width="594.7" height="208.0" rx="9" class="g82s20"/>
-<rect x="1263.3" y="1016.5" width="28.0" height="28.0" rx="14" class="g82s17"/>
-<text x="1277.3" y="1035.5" class="g82s21">3</text>
-<text x="1299.3" y="1035.5" class="g82s22">Divide and scale</text>
-<text x="1265.3" y="1064.5" class="g82s23">x × (1 / RMS) × the gain (1 at the start)</text>
-<text x="1265.3" y="1115.5" class="g82s18">RMSNorm(x)</text>
-<rect x="1347.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="1396.0" y="1115.9" class="g82s5">-0.341</text>
-<rect x="1444.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="1493.3" y="1115.9" class="g82s5">1.531</text>
-<rect x="1542.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="1590.7" y="1115.9" class="g82s5">-0.734</text>
-<rect x="1639.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="1688.0" y="1115.9" class="g82s5">-0.337</text>
-<rect x="1736.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g82s4"/>
-<text x="1785.3" y="1115.9" class="g82s5">1.127</text>
-<text x="1265.3" y="1182.5" class="g82s24">size exactly 1 — 512 learned numbers</text>
-<rect x="34.0" y="1236.5" width="1812.0" height="30.0" rx="6" class="g82s13"/>
-<path d="M38.50 1237.21 A5.50 5.50 0 0 0 34.50 1242.50 V1260.50 A5.50 5.50 0 0 0 38.50 1265.79 Z" class="g82s19"/>
-<text y="1256.5" xml:space="preserve" class="g82s27"><tspan x="50.0" class="g82s1" textLength="164.7" lengthAdjust="spacing">D · The two, on every word</tspan></text>
-<text y="1256.5" xml:space="preserve" class="g82s28"><tspan x="232.7" textLength="157.3" lengthAdjust="spacing">the largest difference between </tspan><tspan x="389.9" class="g82s33" textLength="58.6" lengthAdjust="spacing">LayerNorm</tspan><tspan x="448.5" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="474.1" class="g82s33" textLength="45.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="519.6" textLength="72.9" lengthAdjust="spacing"> on any of the </tspan><tspan x="592.5" class="g82s6" textLength="71.1" lengthAdjust="spacing">512 numbers</tspan></text>
-<rect x="34.0" y="1282.5" width="1812.0" height="24.0" rx="4" class="g82s13"/>
-<text y="1298.5" xml:space="preserve" class="g82s9"><tspan x="43.0" class="g82s1" textLength="24.1" lengthAdjust="spacing">word</tspan></text>
-<text y="1298.5" xml:space="preserve" class="g82s9"><tspan x="283.0" class="g82s1" textLength="100.8" lengthAdjust="spacing">mean of its numbers</tspan></text>
-<text y="1298.5" xml:space="preserve" class="g82s9"><tspan x="613.0" class="g82s1" textLength="55.0" lengthAdjust="spacing">RMS (size)</tspan></text>
-<text y="1298.5" xml:space="preserve" class="g82s9"><tspan x="913.0" class="g82s1" textLength="65.4" lengthAdjust="spacing">mean ÷ RMS</tspan></text>
-<text y="1298.5" xml:space="preserve" class="g82s9"><tspan x="1213.0" class="g82s1" textLength="85.4" lengthAdjust="spacing">largest difference</tspan></text>
-<text x="43.0" y="1322.2" class="g82s0">the_</text>
-<text x="283.0" y="1322.2" class="g82s0">-0.0072</text>
-<text x="613.0" y="1322.2" class="g82s0">0.2513</text>
-<text x="913.0" y="1322.2" class="g82s0">-0.0286</text>
-<text x="1213.0" y="1322.2" class="g82s0">0.0292</text>
-<line x1="34.0" y1="1330.5" x2="1846.0" y2="1330.5" class="g82s7"/>
-<rect x="34.0" y="1330.5" width="1812.0" height="24.0" rx="0" class="g82s11"/>
-<text x="43.0" y="1346.2" class="g82s0">cat_</text>
-<text x="283.0" y="1346.2" class="g82s0">-0.0046</text>
-<text x="613.0" y="1346.2" class="g82s0">0.2402</text>
-<text x="913.0" y="1346.2" class="g82s0">-0.0192</text>
-<text x="1213.0" y="1346.2" class="g82s0">0.0194</text>
-<line x1="34.0" y1="1354.5" x2="1846.0" y2="1354.5" class="g82s7"/>
-<text x="43.0" y="1370.2" class="g82s0">is_</text>
-<text x="283.0" y="1370.2" class="g82s0">0.0032</text>
-<text x="613.0" y="1370.2" class="g82s0">0.2516</text>
-<text x="913.0" y="1370.2" class="g82s0">0.0128</text>
-<text x="1213.0" y="1370.2" class="g82s0">0.0128</text>
-<line x1="34.0" y1="1378.5" x2="1846.0" y2="1378.5" class="g82s7"/>
-<rect x="34.0" y="1378.5" width="1812.0" height="24.0" rx="0" class="g82s11"/>
-<text x="43.0" y="1394.2" class="g82s0">sleeping_</text>
-<text x="283.0" y="1394.2" class="g82s0">-0.0076</text>
-<text x="613.0" y="1394.2" class="g82s0">0.2545</text>
-<text x="913.0" y="1394.2" class="g82s0">-0.0297</text>
-<text x="1213.0" y="1394.2" class="g82s0">0.0304</text>
-<line x1="34.0" y1="1402.5" x2="1846.0" y2="1402.5" class="g82s7"/>
-<text x="43.0" y="1418.2" class="g82s0">on_</text>
-<text x="283.0" y="1418.2" class="g82s0">0.0059</text>
-<text x="613.0" y="1418.2" class="g82s0">0.2486</text>
-<text x="913.0" y="1418.2" class="g82s0">0.0239</text>
-<text x="1213.0" y="1418.2" class="g82s0">0.0243</text>
-<line x1="34.0" y1="1426.5" x2="1846.0" y2="1426.5" class="g82s7"/>
-<rect x="34.0" y="1426.5" width="1812.0" height="24.0" rx="0" class="g82s11"/>
-<text x="43.0" y="1442.2" class="g82s0">the_</text>
-<text x="283.0" y="1442.2" class="g82s0">-0.0072</text>
-<text x="613.0" y="1442.2" class="g82s0">0.2513</text>
-<text x="913.0" y="1442.2" class="g82s0">-0.0286</text>
-<text x="1213.0" y="1442.2" class="g82s0">0.0292</text>
-<line x1="34.0" y1="1450.5" x2="1846.0" y2="1450.5" class="g82s7"/>
-<text x="43.0" y="1466.2" class="g82s0">sof</text>
-<text x="283.0" y="1466.2" class="g82s0">-0.0114</text>
-<text x="613.0" y="1466.2" class="g82s0">0.2551</text>
-<text x="913.0" y="1466.2" class="g82s0">-0.0447</text>
-<text x="1213.0" y="1466.2" class="g82s0">0.0464</text>
-<line x1="34.0" y1="1474.5" x2="1846.0" y2="1474.5" class="g82s7"/>
-<rect x="34.0" y="1474.5" width="1812.0" height="24.0" rx="0" class="g82s11"/>
-<text x="43.0" y="1490.2" class="g82s0">a_</text>
-<text x="283.0" y="1490.2" class="g82s0">-0.0038</text>
-<text x="613.0" y="1490.2" class="g82s0">0.2471</text>
-<text x="913.0" y="1490.2" class="g82s0">-0.0156</text>
-<text x="1213.0" y="1490.2" class="g82s0">0.0156</text>
-<line x1="34.0" y1="1498.5" x2="1846.0" y2="1498.5" class="g82s7"/>
-<rect x="34.0" y="1306.5" width="1812.0" height="192.0" rx="0" class="g82s32"/>
-<line x1="274.0" y1="1306.5" x2="274.0" y2="1498.5" class="g82s7"/>
-<line x1="604.0" y1="1306.5" x2="604.0" y2="1498.5" class="g82s7"/>
-<line x1="904.0" y1="1306.5" x2="904.0" y2="1498.5" class="g82s7"/>
-<line x1="1204.0" y1="1306.5" x2="1204.0" y2="1498.5" class="g82s7"/>
-<rect x="34.0" y="1510.5" width="1812.0" height="55.0" rx="6" class="g82s37"/>
-<path d="M38.50 1511.21 A5.50 5.50 0 0 0 34.50 1516.50 V1559.54 A5.50 5.50 0 0 0 38.50 1564.83 Z" class="g82s38"/>
-<text y="1536.5" xml:space="preserve" class="g82s36"><tspan x="50.0" class="g82s1" textLength="172.5" lengthAdjust="spacing">Why skipping the mean is safe</tspan></text>
-<text y="1554.0" xml:space="preserve" class="g82s30"><tspan x="50.0" class="g82s14" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="111.1" textLength="214.6" lengthAdjust="spacing">’s first two steps remove the mean. But </tspan><tspan x="325.7" class="g82s6" textLength="74.2" lengthAdjust="spacing">512 numbers</tspan><tspan x="400.0" textLength="214.8" lengthAdjust="spacing"> with random signs average out close to </tspan><tspan x="614.7" class="g82s6">0</tspan><tspan x="621.8" textLength="109.4" lengthAdjust="spacing"> — never more than </tspan><tspan x="731.2" class="g82s6" textLength="38.9" lengthAdjust="spacing">0.0239</tspan><tspan x="770.1" textLength="604.8" lengthAdjust="spacing"> of the vector’s size here — so removing the mean changes almost nothing: the two normalisers differ by at most </tspan><tspan x="1374.9" class="g82s6" textLength="31.8" lengthAdjust="spacing">0.046</tspan><tspan x="1406.7">. </tspan><tspan x="1413.4" class="g82s14" textLength="47.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="1460.9" textLength="239.4" lengthAdjust="spacing"> keeps the size-fixing part and drops the rest.</tspan></text>
-<rect x="34.0" y="1589.5" width="1812.0" height="30.0" rx="6" class="g82s13"/>
-<path d="M38.50 1590.25 A5.50 5.50 0 0 0 34.50 1595.54 V1613.54 A5.50 5.50 0 0 0 38.50 1618.83 Z" class="g82s19"/>
-<text y="1609.5" xml:space="preserve" class="g82s27"><tspan x="50.0" class="g82s1" textLength="137.1" lengthAdjust="spacing">E · The gain, and why </tspan><tspan x="187.1" class="g82s10" textLength="51.5" lengthAdjust="spacing">float()</tspan></text>
-<text y="1609.5" xml:space="preserve" class="g82s28"><tspan x="256.6" textLength="133.0" lengthAdjust="spacing">the two details in the code</tspan></text>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="996.0" class="g97s40" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1019.8" class="g97s1"> · </tspan><tspan x="1029.0" class="g97s40" textLength="41.6" lengthAdjust="spacing">RMSNorm</tspan></text>
+<text x="996.0" y="269.0" xml:space="preserve" class="g97s26"><tspan class="g97s15">class</tspan><tspan class="g97s3"> </tspan><tspan class="g97s12">RMSNorm</tspan><tspan class="g97s2">(</tspan><tspan class="g97s3">nn</tspan><tspan class="g97s2">.</tspan><tspan class="g97s31">Module</tspan><tspan class="g97s2">)</tspan><tspan class="g97s2">:</tspan></text>
+<text x="996.0" y="288.5" xml:space="preserve" class="g97s26"><tspan class="g97s3">    </tspan><tspan class="g97s15">def</tspan><tspan class="g97s3"> </tspan><tspan class="g97s12">__init__</tspan><tspan class="g97s2">(</tspan><tspan class="g97s15">self</tspan><tspan class="g97s2">,</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">d_model</tspan><tspan class="g97s2">:</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">int</tspan><tspan class="g97s2">,</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">eps</tspan><tspan class="g97s2">:</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">float</tspan><tspan class="g97s3"> </tspan><tspan class="g97s2">=</tspan><tspan class="g97s3"> </tspan><tspan class="g97s34">1e-6</tspan><tspan class="g97s2">)</tspan><tspan class="g97s2">:</tspan></text>
+<text x="996.0" y="308.0" xml:space="preserve" class="g97s26"><tspan class="g97s3">        </tspan><tspan class="g97s15">self</tspan><tspan class="g97s2">.</tspan><tspan class="g97s31">weight</tspan><tspan class="g97s3"> </tspan><tspan class="g97s2">=</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">nn</tspan><tspan class="g97s2">.</tspan><tspan class="g97s12">Parameter</tspan><tspan class="g97s2">(</tspan><tspan class="g97s3">torch</tspan><tspan class="g97s2">.</tspan><tspan class="g97s12">ones</tspan><tspan class="g97s2">(</tspan><tspan class="g97s3">d_model</tspan><tspan class="g97s2">)</tspan><tspan class="g97s2">)</tspan><tspan class="g97s3">    </tspan><tspan style="fill:var(--cmt)"># the gain, starts at 1</tspan></text>
+<text x="996.0" y="327.5" xml:space="preserve" class="g97s26"><tspan class="g97s3">    </tspan><tspan class="g97s15">def</tspan><tspan class="g97s3"> </tspan><tspan class="g97s12">forward</tspan><tspan class="g97s2">(</tspan><tspan class="g97s15">self</tspan><tspan class="g97s2">,</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">x</tspan><tspan class="g97s2">)</tspan><tspan class="g97s2">:</tspan></text>
+<text x="996.0" y="347.0" xml:space="preserve" class="g97s26"><tspan class="g97s3">        </tspan><tspan class="g97s3">x32</tspan><tspan class="g97s3"> </tspan><tspan class="g97s2">=</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">x</tspan><tspan class="g97s2">.</tspan><tspan class="g97s12">float</tspan><tspan class="g97s2">(</tspan><tspan class="g97s2">)</tspan></text>
+<text x="996.0" y="366.5" xml:space="preserve" class="g97s26"><tspan class="g97s3">        </tspan><tspan class="g97s3">rms</tspan><tspan class="g97s3"> </tspan><tspan class="g97s2">=</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">x32</tspan><tspan class="g97s2">.</tspan><tspan class="g97s12">pow</tspan><tspan class="g97s2">(</tspan><tspan class="g97s34">2</tspan><tspan class="g97s2">)</tspan><tspan class="g97s2">.</tspan><tspan class="g97s12">mean</tspan><tspan class="g97s2">(</tspan><tspan class="g97s2">-</tspan><tspan class="g97s34">1</tspan><tspan class="g97s2">,</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">keepdim</tspan><tspan class="g97s2">=</tspan><tspan class="g97s15">True</tspan><tspan class="g97s2">)</tspan><tspan class="g97s2">.</tspan><tspan class="g97s12">add</tspan><tspan class="g97s2">(</tspan><tspan class="g97s15">self</tspan><tspan class="g97s2">.</tspan><tspan class="g97s31">eps</tspan><tspan class="g97s2">)</tspan><tspan class="g97s2">.</tspan><tspan class="g97s12">rsqrt</tspan><tspan class="g97s2">(</tspan><tspan class="g97s2">)</tspan></text>
+<text x="996.0" y="386.0" xml:space="preserve" class="g97s26"><tspan class="g97s3">        </tspan><tspan class="g97s15">return</tspan><tspan class="g97s3"> </tspan><tspan class="g97s2">(</tspan><tspan class="g97s3">x32</tspan><tspan class="g97s3"> </tspan><tspan class="g97s2">*</tspan><tspan class="g97s3"> </tspan><tspan class="g97s3">rms</tspan><tspan class="g97s2">)</tspan><tspan class="g97s2">.</tspan><tspan class="g97s12">type_as</tspan><tspan class="g97s2">(</tspan><tspan class="g97s3">x</tspan><tspan class="g97s2">)</tspan><tspan class="g97s3"> </tspan><tspan class="g97s2">*</tspan><tspan class="g97s3"> </tspan><tspan class="g97s15">self</tspan><tspan class="g97s2">.</tspan><tspan class="g97s31">weight</tspan></text>
+<rect x="34.0" y="422.5" width="1812.0" height="30.0" rx="6" class="g97s13"/>
+<path d="M38.50 423.21 A5.50 5.50 0 0 0 34.50 428.50 V446.50 A5.50 5.50 0 0 0 38.50 451.79 Z" class="g97s19"/>
+<text y="442.5" xml:space="preserve" class="g97s27"><tspan x="50.0" class="g97s1" textLength="225.1" lengthAdjust="spacing">A · Why normalise: the stream grows</tspan></text>
+<text y="442.5" xml:space="preserve" class="g97s28"><tspan x="293.1" textLength="371.9" lengthAdjust="spacing">the size (RMS) of every word’s vector, sequence B, through the encoder</tspan></text>
+<rect x="34.0" y="468.5" width="1812.0" height="24.0" rx="4" class="g97s13"/>
+<text y="484.5" xml:space="preserve" class="g97s9"><tspan x="43.0" class="g97s1" textLength="24.1" lengthAdjust="spacing">word</tspan></text>
+<text y="484.5" xml:space="preserve" class="g97s9"><tspan x="263.0" class="g97s1" textLength="21.0" lengthAdjust="spacing">into </tspan><tspan x="284.0" class="g97s35" textLength="33.4" lengthAdjust="spacing">layer 0</tspan></text>
+<text y="484.5" xml:space="preserve" class="g97s9"><tspan x="528.0" class="g97s1" textLength="82.3" lengthAdjust="spacing">after its attention</tspan></text>
+<text y="484.5" xml:space="preserve" class="g97s9"><tspan x="793.0" class="g97s1" textLength="21.0" lengthAdjust="spacing">into </tspan><tspan x="814.0" class="g97s35" textLength="33.4" lengthAdjust="spacing">layer 1</tspan></text>
+<text y="484.5" xml:space="preserve" class="g97s9"><tspan x="1058.0" class="g97s1" textLength="82.3" lengthAdjust="spacing">after its attention</tspan></text>
+<text y="484.5" xml:space="preserve" class="g97s9"><tspan x="1323.0" class="g97s1" textLength="30.9" lengthAdjust="spacing">out of </tspan><tspan x="1353.9" class="g97s35" textLength="33.4" lengthAdjust="spacing">layer 1</tspan></text>
+<text y="484.5" xml:space="preserve" class="g97s9"><tspan x="1589.0" class="g97s1" textLength="64.3" lengthAdjust="spacing">after the last </tspan><tspan x="1653.3" class="g97s29" textLength="41.6" lengthAdjust="spacing">RMSNorm</tspan></text>
+<text x="43.0" y="508.2" class="g97s0">the_</text>
+<text x="263.0" y="508.2" class="g97s0">0.251</text>
+<text x="528.0" y="508.2" class="g97s0">0.531</text>
+<text x="793.0" y="508.2" class="g97s0">0.665</text>
+<text x="1058.0" y="508.2" class="g97s0">1.023</text>
+<text x="1323.0" y="508.2" class="g97s0">1.108</text>
+<text x="1589.0" y="508.2" class="g97s0">1.000</text>
+<line x1="34.0" y1="516.5" x2="1846.0" y2="516.5" class="g97s7"/>
+<rect x="34.0" y="516.5" width="1812.0" height="24.0" rx="0" class="g97s11"/>
+<text x="43.0" y="532.2" class="g97s0">cat_</text>
+<text x="263.0" y="532.2" class="g97s0">0.240</text>
+<text x="528.0" y="532.2" class="g97s0">0.526</text>
+<text x="793.0" y="532.2" class="g97s0">0.678</text>
+<text x="1058.0" y="532.2" class="g97s0">1.051</text>
+<text x="1323.0" y="532.2" class="g97s0">1.122</text>
+<text x="1589.0" y="532.2" class="g97s0">1.000</text>
+<line x1="34.0" y1="540.5" x2="1846.0" y2="540.5" class="g97s7"/>
+<text x="43.0" y="556.2" class="g97s0">is_</text>
+<text x="263.0" y="556.2" class="g97s0">0.252</text>
+<text x="528.0" y="556.2" class="g97s0">0.581</text>
+<text x="793.0" y="556.2" class="g97s0">0.639</text>
+<text x="1058.0" y="556.2" class="g97s0">0.998</text>
+<text x="1323.0" y="556.2" class="g97s0">1.077</text>
+<text x="1589.0" y="556.2" class="g97s0">1.000</text>
+<line x1="34.0" y1="564.5" x2="1846.0" y2="564.5" class="g97s7"/>
+<rect x="34.0" y="564.5" width="1812.0" height="24.0" rx="0" class="g97s11"/>
+<text x="43.0" y="580.2" class="g97s0">sleeping_</text>
+<text x="263.0" y="580.2" class="g97s0">0.254</text>
+<text x="528.0" y="580.2" class="g97s0">0.543</text>
+<text x="793.0" y="580.2" class="g97s0">0.646</text>
+<text x="1058.0" y="580.2" class="g97s0">0.981</text>
+<text x="1323.0" y="580.2" class="g97s0">1.049</text>
+<text x="1589.0" y="580.2" class="g97s0">1.000</text>
+<line x1="34.0" y1="588.5" x2="1846.0" y2="588.5" class="g97s7"/>
+<text x="43.0" y="604.2" class="g97s0">on_</text>
+<text x="263.0" y="604.2" class="g97s0">0.249</text>
+<text x="528.0" y="604.2" class="g97s0">0.592</text>
+<text x="793.0" y="604.2" class="g97s0">0.707</text>
+<text x="1058.0" y="604.2" class="g97s0">1.011</text>
+<text x="1323.0" y="604.2" class="g97s0">1.084</text>
+<text x="1589.0" y="604.2" class="g97s0">1.000</text>
+<line x1="34.0" y1="612.5" x2="1846.0" y2="612.5" class="g97s7"/>
+<rect x="34.0" y="612.5" width="1812.0" height="24.0" rx="0" class="g97s11"/>
+<text x="43.0" y="628.2" class="g97s0">the_</text>
+<text x="263.0" y="628.2" class="g97s0">0.251</text>
+<text x="528.0" y="628.2" class="g97s0">0.638</text>
+<text x="793.0" y="628.2" class="g97s0">0.754</text>
+<text x="1058.0" y="628.2" class="g97s0">1.052</text>
+<text x="1323.0" y="628.2" class="g97s0">1.151</text>
+<text x="1589.0" y="628.2" class="g97s0">1.000</text>
+<line x1="34.0" y1="636.5" x2="1846.0" y2="636.5" class="g97s7"/>
+<text x="43.0" y="652.2" class="g97s0">sof</text>
+<text x="263.0" y="652.2" class="g97s0">0.255</text>
+<text x="528.0" y="652.2" class="g97s0">0.602</text>
+<text x="793.0" y="652.2" class="g97s0">0.689</text>
+<text x="1058.0" y="652.2" class="g97s0">1.031</text>
+<text x="1323.0" y="652.2" class="g97s0">1.093</text>
+<text x="1589.0" y="652.2" class="g97s0">1.000</text>
+<line x1="34.0" y1="660.5" x2="1846.0" y2="660.5" class="g97s7"/>
+<rect x="34.0" y="660.5" width="1812.0" height="24.0" rx="0" class="g97s11"/>
+<text x="43.0" y="676.2" class="g97s0">a_</text>
+<text x="263.0" y="676.2" class="g97s0">0.247</text>
+<text x="528.0" y="676.2" class="g97s0">0.581</text>
+<text x="793.0" y="676.2" class="g97s0">0.717</text>
+<text x="1058.0" y="676.2" class="g97s0">1.027</text>
+<text x="1323.0" y="676.2" class="g97s0">1.096</text>
+<text x="1589.0" y="676.2" class="g97s0">1.000</text>
+<line x1="34.0" y1="684.5" x2="1846.0" y2="684.5" class="g97s7"/>
+<rect x="34.0" y="492.5" width="1812.0" height="192.0" rx="0" class="g97s32"/>
+<line x1="254.0" y1="492.5" x2="254.0" y2="684.5" class="g97s7"/>
+<line x1="519.0" y1="492.5" x2="519.0" y2="684.5" class="g97s7"/>
+<line x1="784.0" y1="492.5" x2="784.0" y2="684.5" class="g97s7"/>
+<line x1="1049.0" y1="492.5" x2="1049.0" y2="684.5" class="g97s7"/>
+<line x1="1314.0" y1="492.5" x2="1314.0" y2="684.5" class="g97s7"/>
+<line x1="1580.0" y1="492.5" x2="1580.0" y2="684.5" class="g97s7"/>
+<rect x="34.0" y="708.5" width="1812.0" height="30.0" rx="6" class="g97s13"/>
+<path d="M38.50 709.21 A5.50 5.50 0 0 0 34.50 714.50 V732.50 A5.50 5.50 0 0 0 38.50 737.79 Z" class="g97s19"/>
+<text y="728.5" xml:space="preserve" class="g97s27"><tspan x="50.0" class="g97s1" textLength="20.7" lengthAdjust="spacing">B · </tspan><tspan x="70.7" class="g97s10" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="136.9" class="g97s1"> (</tspan><tspan x="145.3" class="g97s10" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="160.0" class="g97s1" textLength="85.0" lengthAdjust="spacing">), in five steps</tspan></text>
+<text y="728.5" xml:space="preserve" class="g97s28"><tspan x="263.0" textLength="141.0" lengthAdjust="spacing">on “cat”: the first five of its </tspan><tspan x="404.0" class="g97s6" textLength="71.1" lengthAdjust="spacing">512 numbers</tspan></text>
+<rect x="34.0" y="754.5" width="351.2" height="180.0" rx="9" class="g97s20"/>
+<rect x="46.0" y="766.5" width="28.0" height="28.0" rx="14" class="g97s17"/>
+<text x="60.0" y="785.5" class="g97s21">1</text>
+<text x="82.0" y="785.5" class="g97s22">Mean</text>
+<text x="48.0" y="814.5" class="g97s23">add all 512 numbers, divide by 512</text>
+<text x="48.0" y="865.5" class="g97s18">x</text>
+<rect x="130.0" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="154.3" y="865.9" class="g97s5">-0.082</text>
+<rect x="178.6" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="203.0" y="865.9" class="g97s5">0.368</text>
+<rect x="227.3" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="251.6" y="865.9" class="g97s5">-0.176</text>
+<rect x="275.9" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="300.2" y="865.9" class="g97s5">-0.081</text>
+<rect x="324.6" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="348.9" y="865.9" class="g97s5">0.271</text>
+<text x="48.0" y="904.5" class="g97s24">mean = -0.0046</text>
+<rect x="399.2" y="754.5" width="351.2" height="180.0" rx="9" class="g97s20"/>
+<rect x="411.2" y="766.5" width="28.0" height="28.0" rx="14" class="g97s17"/>
+<text x="425.2" y="785.5" class="g97s21">2</text>
+<text x="447.2" y="785.5" class="g97s22">Subtract it</text>
+<text x="413.2" y="814.5" class="g97s23">centre the vector on 0</text>
+<text x="413.2" y="865.5" class="g97s18">x − mean</text>
+<rect x="495.2" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="519.5" y="865.9" class="g97s5">-0.077</text>
+<rect x="543.8" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="568.2" y="865.9" class="g97s5">0.372</text>
+<rect x="592.5" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="616.8" y="865.9" class="g97s5">-0.172</text>
+<rect x="641.1" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="665.4" y="865.9" class="g97s5">-0.076</text>
+<rect x="689.8" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="714.1" y="865.9" class="g97s5">0.275</text>
+<text x="413.2" y="904.5" class="g97s24">the average is now exactly 0</text>
+<rect x="764.4" y="754.5" width="351.2" height="180.0" rx="9" class="g97s20"/>
+<rect x="776.4" y="766.5" width="28.0" height="28.0" rx="14" class="g97s17"/>
+<text x="790.4" y="785.5" class="g97s21">3</text>
+<text x="812.4" y="785.5" class="g97s22">Variance</text>
+<text x="778.4" y="814.5" class="g97s23">the average squared distance from the mean</text>
+<text x="778.4" y="865.5" class="g97s18">(x − mean)²</text>
+<rect x="860.4" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="884.7" y="865.9" class="g97s5">0.006</text>
+<rect x="909.0" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="933.4" y="865.9" class="g97s5">0.139</text>
+<rect x="957.7" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="982.0" y="865.9" class="g97s5">0.029</text>
+<rect x="1006.3" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1030.6" y="865.9" class="g97s5">0.006</text>
+<rect x="1055.0" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1079.3" y="865.9" class="g97s5">0.076</text>
+<text x="778.4" y="904.5" class="g97s24">variance = 0.05769</text>
+<rect x="1129.6" y="754.5" width="351.2" height="180.0" rx="9" class="g97s20"/>
+<rect x="1141.6" y="766.5" width="28.0" height="28.0" rx="14" class="g97s17"/>
+<text x="1155.6" y="785.5" class="g97s21">4</text>
+<text x="1177.6" y="785.5" class="g97s22">Divide</text>
+<text x="1143.6" y="814.5" class="g97s23">by √(variance + 0.00001)</text>
+<text x="1143.6" y="865.5" class="g97s18">LN(x)</text>
+<rect x="1225.6" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1249.9" y="865.9" class="g97s5">-0.322</text>
+<rect x="1274.2" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1298.6" y="865.9" class="g97s5">1.550</text>
+<rect x="1322.9" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1347.2" y="865.9" class="g97s5">-0.715</text>
+<rect x="1371.5" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1395.8" y="865.9" class="g97s5">-0.318</text>
+<rect x="1420.2" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1444.5" y="865.9" class="g97s5">1.146</text>
+<text x="1143.6" y="904.5" class="g97s24">size 1, average 0</text>
+<rect x="1494.8" y="754.5" width="351.2" height="180.0" rx="9" class="g97s20"/>
+<rect x="1506.8" y="766.5" width="28.0" height="28.0" rx="14" class="g97s17"/>
+<text x="1520.8" y="785.5" class="g97s21">5</text>
+<text x="1542.8" y="785.5" class="g97s22">Scale and shift</text>
+<text x="1508.8" y="814.5" class="g97s23">× a learned gain, + a learned bias (1 and 0 at the start)</text>
+<text x="1508.8" y="865.5" class="g97s18">out</text>
+<rect x="1590.8" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1615.1" y="865.9" class="g97s5">-0.322</text>
+<rect x="1639.4" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1663.8" y="865.9" class="g97s5">1.550</text>
+<rect x="1688.1" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1712.4" y="865.9" class="g97s5">-0.715</text>
+<rect x="1736.7" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1761.0" y="865.9" class="g97s5">-0.318</text>
+<rect x="1785.4" y="850.5" width="48.6" height="22.0" rx="0" class="g97s4"/>
+<text x="1809.7" y="865.9" class="g97s5">1.146</text>
+<text x="1508.8" y="904.5" class="g97s24">1,024 learned numbers per norm</text>
+<rect x="34.0" y="958.5" width="1812.0" height="30.0" rx="6" class="g97s13"/>
+<path d="M38.50 959.21 A5.50 5.50 0 0 0 34.50 964.50 V982.50 A5.50 5.50 0 0 0 38.50 987.79 Z" class="g97s19"/>
+<text y="978.5" xml:space="preserve" class="g97s27"><tspan x="50.0" class="g97s1" textLength="21.4" lengthAdjust="spacing">C · </tspan><tspan x="71.4" class="g97s10" textLength="51.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="122.9" class="g97s1"> (</tspan><tspan x="131.4" class="g97s10" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="160.8" class="g97s1" textLength="95.0" lengthAdjust="spacing">), in three steps</tspan></text>
+<text y="978.5" xml:space="preserve" class="g97s28"><tspan x="273.8" textLength="116.3" lengthAdjust="spacing">the same five numbers</tspan></text>
+<rect x="34.0" y="1004.5" width="594.7" height="208.0" rx="9" class="g97s20"/>
+<rect x="46.0" y="1016.5" width="28.0" height="28.0" rx="14" class="g97s17"/>
+<text x="60.0" y="1035.5" class="g97s21">1</text>
+<text x="82.0" y="1035.5" class="g97s22">Square and average</text>
+<text x="48.0" y="1064.5" class="g97s23">x.pow(2).mean(-1): the average of the squares</text>
+<text x="48.0" y="1115.5" class="g97s18">x</text>
+<rect x="130.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="178.7" y="1115.9" class="g97s5">-0.082</text>
+<rect x="227.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="276.0" y="1115.9" class="g97s5">0.368</text>
+<rect x="324.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="373.3" y="1115.9" class="g97s5">-0.176</text>
+<rect x="422.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="470.7" y="1115.9" class="g97s5">-0.081</text>
+<rect x="519.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="568.0" y="1115.9" class="g97s5">0.271</text>
+<text x="48.0" y="1143.5" class="g97s18">x²</text>
+<rect x="130.0" y="1128.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="178.7" y="1143.9" class="g97s5">0.007</text>
+<rect x="227.3" y="1128.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="276.0" y="1143.9" class="g97s5">0.135</text>
+<rect x="324.7" y="1128.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="373.3" y="1143.9" class="g97s5">0.031</text>
+<rect x="422.0" y="1128.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="470.7" y="1143.9" class="g97s5">0.007</text>
+<rect x="519.3" y="1128.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="568.0" y="1143.9" class="g97s5">0.073</text>
+<text x="48.0" y="1182.5" class="g97s24">mean of squares = 0.05771</text>
+<rect x="642.7" y="1004.5" width="594.7" height="208.0" rx="9" class="g97s20"/>
+<rect x="654.7" y="1016.5" width="28.0" height="28.0" rx="14" class="g97s17"/>
+<text x="668.7" y="1035.5" class="g97s21">2</text>
+<text x="690.7" y="1035.5" class="g97s22">Square root</text>
+<text x="656.7" y="1064.5" class="g97s23">.add(eps).rsqrt(): 1 / √(mean + 0.000001)</text>
+<text x="656.7" y="1115.5" class="g97s18">x</text>
+<rect x="738.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="787.3" y="1115.9" class="g97s5">-0.082</text>
+<rect x="836.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="884.7" y="1115.9" class="g97s5">0.368</text>
+<rect x="933.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="982.0" y="1115.9" class="g97s5">-0.176</text>
+<rect x="1030.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="1079.3" y="1115.9" class="g97s5">-0.081</text>
+<rect x="1128.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="1176.7" y="1115.9" class="g97s5">0.271</text>
+<text x="656.7" y="1182.5" class="g97s24">RMS = 0.24024, 1 / RMS = 4.1625</text>
+<rect x="1251.3" y="1004.5" width="594.7" height="208.0" rx="9" class="g97s20"/>
+<rect x="1263.3" y="1016.5" width="28.0" height="28.0" rx="14" class="g97s17"/>
+<text x="1277.3" y="1035.5" class="g97s21">3</text>
+<text x="1299.3" y="1035.5" class="g97s22">Divide and scale</text>
+<text x="1265.3" y="1064.5" class="g97s23">x × (1 / RMS) × the gain (1 at the start)</text>
+<text x="1265.3" y="1115.5" class="g97s18">RMSNorm(x)</text>
+<rect x="1347.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="1396.0" y="1115.9" class="g97s5">-0.341</text>
+<rect x="1444.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="1493.3" y="1115.9" class="g97s5">1.531</text>
+<rect x="1542.0" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="1590.7" y="1115.9" class="g97s5">-0.734</text>
+<rect x="1639.3" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="1688.0" y="1115.9" class="g97s5">-0.337</text>
+<rect x="1736.7" y="1100.5" width="97.3" height="22.0" rx="0" class="g97s4"/>
+<text x="1785.3" y="1115.9" class="g97s5">1.127</text>
+<text x="1265.3" y="1182.5" class="g97s24">size exactly 1 — 512 learned numbers</text>
+<rect x="34.0" y="1236.5" width="1812.0" height="30.0" rx="6" class="g97s13"/>
+<path d="M38.50 1237.21 A5.50 5.50 0 0 0 34.50 1242.50 V1260.50 A5.50 5.50 0 0 0 38.50 1265.79 Z" class="g97s19"/>
+<text y="1256.5" xml:space="preserve" class="g97s27"><tspan x="50.0" class="g97s1" textLength="164.7" lengthAdjust="spacing">D · The two, on every word</tspan></text>
+<text y="1256.5" xml:space="preserve" class="g97s28"><tspan x="232.7" textLength="157.3" lengthAdjust="spacing">the largest difference between </tspan><tspan x="389.9" class="g97s33" textLength="58.6" lengthAdjust="spacing">LayerNorm</tspan><tspan x="448.5" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="474.1" class="g97s33" textLength="45.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="519.6" textLength="72.9" lengthAdjust="spacing"> on any of the </tspan><tspan x="592.5" class="g97s6" textLength="71.1" lengthAdjust="spacing">512 numbers</tspan></text>
+<rect x="34.0" y="1282.5" width="1812.0" height="24.0" rx="4" class="g97s13"/>
+<text y="1298.5" xml:space="preserve" class="g97s9"><tspan x="43.0" class="g97s1" textLength="24.1" lengthAdjust="spacing">word</tspan></text>
+<text y="1298.5" xml:space="preserve" class="g97s9"><tspan x="283.0" class="g97s1" textLength="100.8" lengthAdjust="spacing">mean of its numbers</tspan></text>
+<text y="1298.5" xml:space="preserve" class="g97s9"><tspan x="613.0" class="g97s1" textLength="55.0" lengthAdjust="spacing">RMS (size)</tspan></text>
+<text y="1298.5" xml:space="preserve" class="g97s9"><tspan x="913.0" class="g97s1" textLength="65.4" lengthAdjust="spacing">mean ÷ RMS</tspan></text>
+<text y="1298.5" xml:space="preserve" class="g97s9"><tspan x="1213.0" class="g97s1" textLength="85.4" lengthAdjust="spacing">largest difference</tspan></text>
+<text x="43.0" y="1322.2" class="g97s0">the_</text>
+<text x="283.0" y="1322.2" class="g97s0">-0.0072</text>
+<text x="613.0" y="1322.2" class="g97s0">0.2513</text>
+<text x="913.0" y="1322.2" class="g97s0">-0.0286</text>
+<text x="1213.0" y="1322.2" class="g97s0">0.0292</text>
+<line x1="34.0" y1="1330.5" x2="1846.0" y2="1330.5" class="g97s7"/>
+<rect x="34.0" y="1330.5" width="1812.0" height="24.0" rx="0" class="g97s11"/>
+<text x="43.0" y="1346.2" class="g97s0">cat_</text>
+<text x="283.0" y="1346.2" class="g97s0">-0.0046</text>
+<text x="613.0" y="1346.2" class="g97s0">0.2402</text>
+<text x="913.0" y="1346.2" class="g97s0">-0.0192</text>
+<text x="1213.0" y="1346.2" class="g97s0">0.0194</text>
+<line x1="34.0" y1="1354.5" x2="1846.0" y2="1354.5" class="g97s7"/>
+<text x="43.0" y="1370.2" class="g97s0">is_</text>
+<text x="283.0" y="1370.2" class="g97s0">0.0032</text>
+<text x="613.0" y="1370.2" class="g97s0">0.2516</text>
+<text x="913.0" y="1370.2" class="g97s0">0.0128</text>
+<text x="1213.0" y="1370.2" class="g97s0">0.0128</text>
+<line x1="34.0" y1="1378.5" x2="1846.0" y2="1378.5" class="g97s7"/>
+<rect x="34.0" y="1378.5" width="1812.0" height="24.0" rx="0" class="g97s11"/>
+<text x="43.0" y="1394.2" class="g97s0">sleeping_</text>
+<text x="283.0" y="1394.2" class="g97s0">-0.0076</text>
+<text x="613.0" y="1394.2" class="g97s0">0.2545</text>
+<text x="913.0" y="1394.2" class="g97s0">-0.0297</text>
+<text x="1213.0" y="1394.2" class="g97s0">0.0304</text>
+<line x1="34.0" y1="1402.5" x2="1846.0" y2="1402.5" class="g97s7"/>
+<text x="43.0" y="1418.2" class="g97s0">on_</text>
+<text x="283.0" y="1418.2" class="g97s0">0.0059</text>
+<text x="613.0" y="1418.2" class="g97s0">0.2486</text>
+<text x="913.0" y="1418.2" class="g97s0">0.0239</text>
+<text x="1213.0" y="1418.2" class="g97s0">0.0243</text>
+<line x1="34.0" y1="1426.5" x2="1846.0" y2="1426.5" class="g97s7"/>
+<rect x="34.0" y="1426.5" width="1812.0" height="24.0" rx="0" class="g97s11"/>
+<text x="43.0" y="1442.2" class="g97s0">the_</text>
+<text x="283.0" y="1442.2" class="g97s0">-0.0072</text>
+<text x="613.0" y="1442.2" class="g97s0">0.2513</text>
+<text x="913.0" y="1442.2" class="g97s0">-0.0286</text>
+<text x="1213.0" y="1442.2" class="g97s0">0.0292</text>
+<line x1="34.0" y1="1450.5" x2="1846.0" y2="1450.5" class="g97s7"/>
+<text x="43.0" y="1466.2" class="g97s0">sof</text>
+<text x="283.0" y="1466.2" class="g97s0">-0.0114</text>
+<text x="613.0" y="1466.2" class="g97s0">0.2551</text>
+<text x="913.0" y="1466.2" class="g97s0">-0.0447</text>
+<text x="1213.0" y="1466.2" class="g97s0">0.0464</text>
+<line x1="34.0" y1="1474.5" x2="1846.0" y2="1474.5" class="g97s7"/>
+<rect x="34.0" y="1474.5" width="1812.0" height="24.0" rx="0" class="g97s11"/>
+<text x="43.0" y="1490.2" class="g97s0">a_</text>
+<text x="283.0" y="1490.2" class="g97s0">-0.0038</text>
+<text x="613.0" y="1490.2" class="g97s0">0.2471</text>
+<text x="913.0" y="1490.2" class="g97s0">-0.0156</text>
+<text x="1213.0" y="1490.2" class="g97s0">0.0156</text>
+<line x1="34.0" y1="1498.5" x2="1846.0" y2="1498.5" class="g97s7"/>
+<rect x="34.0" y="1306.5" width="1812.0" height="192.0" rx="0" class="g97s32"/>
+<line x1="274.0" y1="1306.5" x2="274.0" y2="1498.5" class="g97s7"/>
+<line x1="604.0" y1="1306.5" x2="604.0" y2="1498.5" class="g97s7"/>
+<line x1="904.0" y1="1306.5" x2="904.0" y2="1498.5" class="g97s7"/>
+<line x1="1204.0" y1="1306.5" x2="1204.0" y2="1498.5" class="g97s7"/>
+<rect x="34.0" y="1510.5" width="1812.0" height="55.0" rx="6" class="g97s37"/>
+<path d="M38.50 1511.21 A5.50 5.50 0 0 0 34.50 1516.50 V1559.54 A5.50 5.50 0 0 0 38.50 1564.83 Z" class="g97s38"/>
+<text y="1536.5" xml:space="preserve" class="g97s36"><tspan x="50.0" class="g97s1" textLength="172.5" lengthAdjust="spacing">Why skipping the mean is safe</tspan></text>
+<text y="1554.0" xml:space="preserve" class="g97s30"><tspan x="50.0" class="g97s14" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="111.1" textLength="214.6" lengthAdjust="spacing">’s first two steps remove the mean. But </tspan><tspan x="325.7" class="g97s6" textLength="74.2" lengthAdjust="spacing">512 numbers</tspan><tspan x="400.0" textLength="214.8" lengthAdjust="spacing"> with random signs average out close to </tspan><tspan x="614.7" class="g97s6">0</tspan><tspan x="621.8" textLength="109.4" lengthAdjust="spacing"> — never more than </tspan><tspan x="731.2" class="g97s6" textLength="38.9" lengthAdjust="spacing">0.0239</tspan><tspan x="770.1" textLength="604.8" lengthAdjust="spacing"> of the vector’s size here — so removing the mean changes almost nothing: the two normalisers differ by at most </tspan><tspan x="1374.9" class="g97s6" textLength="31.8" lengthAdjust="spacing">0.046</tspan><tspan x="1406.7">. </tspan><tspan x="1413.4" class="g97s14" textLength="47.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="1460.9" textLength="239.4" lengthAdjust="spacing"> keeps the size-fixing part and drops the rest.</tspan></text>
+<rect x="34.0" y="1589.5" width="1812.0" height="30.0" rx="6" class="g97s13"/>
+<path d="M38.50 1590.25 A5.50 5.50 0 0 0 34.50 1595.54 V1613.54 A5.50 5.50 0 0 0 38.50 1618.83 Z" class="g97s19"/>
+<text y="1609.5" xml:space="preserve" class="g97s27"><tspan x="50.0" class="g97s1" textLength="137.1" lengthAdjust="spacing">E · The gain, and why </tspan><tspan x="187.1" class="g97s10" textLength="51.5" lengthAdjust="spacing">float()</tspan></text>
+<text y="1609.5" xml:space="preserve" class="g97s28"><tspan x="256.6" textLength="133.0" lengthAdjust="spacing">the two details in the code</tspan></text>
 <rect x="34.0" y="1635.5" width="1812.0" height="72.6" rx="6" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:1"/>
-<path d="M38.50 1636.25 A5.50 5.50 0 0 0 34.50 1641.54 V1702.10 A5.50 5.50 0 0 0 38.50 1707.39 Z" class="g82s19"/>
-<text y="1661.5" xml:space="preserve" class="g82s36"><tspan x="50.0" class="g82s1" textLength="194.4" lengthAdjust="spacing">Two small lines, two good reasons</tspan></text>
-<text y="1679.1" xml:space="preserve" class="g82s30"><tspan x="50.0" class="g82s14" textLength="74.7" lengthAdjust="spacing">self.weight</tspan><tspan x="124.7" textLength="320.2" lengthAdjust="spacing"> is one learned number per position of the vector, starting at </tspan><tspan x="444.9" class="g82s6">1</tspan><tspan x="451.9" textLength="179.4" lengthAdjust="spacing">: it lets training make some of the </tspan><tspan x="631.3" class="g82s6" textLength="74.2" lengthAdjust="spacing">512 numbers</tspan><tspan x="705.6" textLength="346.8" lengthAdjust="spacing"> louder or quieter after the rescaling. Because it should stay near </tspan><tspan x="1052.4" class="g82s6">1</tspan><tspan x="1059.5">, </tspan><tspan x="1066.2" class="g82s14" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="1093.3" textLength="240.1" lengthAdjust="spacing"> does not apply weight decay to it (deep dive </tspan><tspan x="1333.4" class="g82s6" textLength="14.1" lengthAdjust="spacing">14</tspan><tspan x="1347.6" textLength="10.7" lengthAdjust="spacing">). </tspan><tspan x="1358.3" class="g82s14" textLength="61.1" lengthAdjust="spacing">x.float()</tspan><tspan x="1419.4" textLength="120.7" lengthAdjust="spacing"> does the arithmetic in </tspan><tspan x="1540.1" class="g82s6" textLength="31.8" lengthAdjust="spacing">32-bit</tspan><tspan x="1571.9" textLength="146.7" lengthAdjust="spacing"> even when training runs in </tspan><tspan x="1718.6" class="g82s6" textLength="31.8" lengthAdjust="spacing">16-bit</tspan><tspan x="1750.5" textLength="59.4" lengthAdjust="spacing"> on a GPU:</tspan></text>
-<text y="1696.6" xml:space="preserve" class="g82s30"><tspan x="50.0" textLength="80.7" lengthAdjust="spacing">squaring small </tspan><tspan x="130.7" class="g82s6" textLength="31.8" lengthAdjust="spacing">16-bit</tspan><tspan x="162.5" textLength="356.8" lengthAdjust="spacing"> numbers loses precision, and the rescaling would inherit the error. </tspan><tspan x="519.3" class="g82s14" textLength="67.9" lengthAdjust="spacing">type_as(x)</tspan><tspan x="587.2" textLength="133.4" lengthAdjust="spacing"> converts the result back.</tspan></text>
-<rect x="34.0" y="1732.1" width="1812.0" height="30.0" rx="6" class="g82s13"/>
-<path d="M38.50 1732.81 A5.50 5.50 0 0 0 34.50 1738.10 V1756.10 A5.50 5.50 0 0 0 38.50 1761.39 Z" class="g82s19"/>
-<text y="1752.1" xml:space="preserve" class="g82s27"><tspan x="50.0" class="g82s1" textLength="72.8" lengthAdjust="spacing">F · The cost</tspan></text>
-<text y="1752.1" xml:space="preserve" class="g82s28"><tspan x="140.8" textLength="251.2" lengthAdjust="spacing">operations, learned numbers, and measured time</tspan></text>
-<rect x="34.0" y="1778.1" width="1812.0" height="24.0" rx="4" class="g82s13"/>
-<text y="1794.1" xml:space="preserve" class="g82s9"><tspan x="563.0" class="g82s29" textLength="53.5" lengthAdjust="spacing">LayerNorm</tspan><tspan x="616.5" class="g82s1"> (</tspan><tspan x="623.3" class="g82s29" textLength="11.9" lengthAdjust="spacing">v2</tspan><tspan x="635.2" class="g82s1">)</tspan></text>
-<text y="1794.1" xml:space="preserve" class="g82s9"><tspan x="993.0" class="g82s29" textLength="41.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="1034.6" class="g82s1" textLength="129.9" lengthAdjust="spacing"> as the notebook writes it (</tspan><tspan x="1164.5" class="g82s29" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1188.3" class="g82s1">)</tspan></text>
-<text y="1794.1" xml:space="preserve" class="g82s9"><tspan x="1424.0" class="g82s1" textLength="80.3" lengthAdjust="spacing">PyTorch’s own </tspan><tspan x="1504.3" class="g82s29" textLength="59.4" lengthAdjust="spacing">nn.RMSNorm</tspan></text>
-<text y="1818.8" xml:space="preserve" class="g82s25"><tspan x="43.0" class="g82s1" textLength="117.3" lengthAdjust="spacing">passes over the vector</tspan></text>
-<text y="1818.8" xml:space="preserve" class="g82s8"><tspan x="563.0" textLength="213.4" lengthAdjust="spacing">mean, subtract, variance, divide, scale, shift</tspan></text>
-<text y="1818.8" xml:space="preserve" class="g82s8"><tspan x="993.0" textLength="153.4" lengthAdjust="spacing">square-and-mean, divide, scale</tspan></text>
-<text y="1818.8" xml:space="preserve" class="g82s8"><tspan x="1424.0" textLength="74.6" lengthAdjust="spacing">the same steps</tspan></text>
-<line x1="34.0" y1="1828.1" x2="1846.0" y2="1828.1" class="g82s7"/>
-<rect x="34.0" y="1828.1" width="1812.0" height="26.0" rx="0" class="g82s11"/>
-<text y="1844.8" xml:space="preserve" class="g82s25"><tspan x="43.0" class="g82s1" textLength="137.4" lengthAdjust="spacing">learned numbers per norm</tspan></text>
-<text y="1844.8" xml:space="preserve" class="g82s8"><tspan x="563.0" class="g82s6" textLength="29.2" lengthAdjust="spacing">1,024</tspan></text>
-<text y="1844.8" xml:space="preserve" class="g82s8"><tspan x="993.0" class="g82s6" textLength="19.4" lengthAdjust="spacing">512</tspan></text>
-<text y="1844.8" xml:space="preserve" class="g82s8"><tspan x="1424.0" class="g82s6" textLength="19.4" lengthAdjust="spacing">512</tspan></text>
-<line x1="34.0" y1="1854.1" x2="1846.0" y2="1854.1" class="g82s7"/>
-<text y="1870.8" xml:space="preserve" class="g82s25"><tspan x="43.0" class="g82s1" textLength="72.6" lengthAdjust="spacing">in this model (</tspan><tspan x="115.6" class="g82s6" textLength="13.0" lengthAdjust="spacing">12</tspan><tspan x="128.5" class="g82s1" textLength="39.5" lengthAdjust="spacing"> norms)</tspan></text>
-<text y="1870.8" xml:space="preserve" class="g82s8"><tspan x="563.0" class="g82s6" textLength="35.7" lengthAdjust="spacing">12,288</tspan></text>
-<text y="1870.8" xml:space="preserve" class="g82s8"><tspan x="993.0" class="g82s6" textLength="29.2" lengthAdjust="spacing">6,144</tspan></text>
-<text y="1870.8" xml:space="preserve" class="g82s8"><tspan x="1424.0" class="g82s6" textLength="29.2" lengthAdjust="spacing">6,144</tspan></text>
-<line x1="34.0" y1="1880.1" x2="1846.0" y2="1880.1" class="g82s7"/>
-<rect x="34.0" y="1880.1" width="1812.0" height="26.0" rx="0" class="g82s11"/>
-<text y="1896.8" xml:space="preserve" class="g82s25"><tspan x="43.0" class="g82s1" textLength="137.7" lengthAdjust="spacing">time, forward + backward (</tspan><tspan x="180.7" class="g82s6" textLength="44.7" lengthAdjust="spacing">batch 64</tspan><tspan x="225.4" class="g82s1"> × </tspan><tspan x="238.9" class="g82s6" textLength="50.6" lengthAdjust="spacing">12 tokens</tspan><tspan x="289.5" class="g82s1"> × </tspan><tspan x="302.9" class="g82s6" textLength="19.4" lengthAdjust="spacing">128</tspan><tspan x="322.4" class="g82s1">)</tspan></text>
-<text y="1896.8" xml:space="preserve" class="g82s8"><tspan x="563.0" class="g82s6" textLength="19.4" lengthAdjust="spacing">271</tspan><tspan x="582.4" textLength="14.7" lengthAdjust="spacing"> µs</tspan></text>
-<text y="1896.8" xml:space="preserve" class="g82s8"><tspan x="993.0" class="g82s6" textLength="19.4" lengthAdjust="spacing">630</tspan><tspan x="1012.4" textLength="14.7" lengthAdjust="spacing"> µs</tspan></text>
-<text y="1896.8" xml:space="preserve" class="g82s8"><tspan x="1424.0" class="g82s6" textLength="19.4" lengthAdjust="spacing">716</tspan><tspan x="1443.4" textLength="14.7" lengthAdjust="spacing"> µs</tspan></text>
-<line x1="34.0" y1="1906.1" x2="1846.0" y2="1906.1" class="g82s7"/>
-<rect x="34.0" y="1802.1" width="1812.0" height="104.0" rx="0" class="g82s32"/>
-<line x1="554.0" y1="1802.1" x2="554.0" y2="1906.1" class="g82s7"/>
-<line x1="984.0" y1="1802.1" x2="984.0" y2="1906.1" class="g82s7"/>
-<line x1="1415.0" y1="1802.1" x2="1415.0" y2="1906.1" class="g82s7"/>
+<path d="M38.50 1636.25 A5.50 5.50 0 0 0 34.50 1641.54 V1702.10 A5.50 5.50 0 0 0 38.50 1707.39 Z" class="g97s19"/>
+<text y="1661.5" xml:space="preserve" class="g97s36"><tspan x="50.0" class="g97s1" textLength="194.4" lengthAdjust="spacing">Two small lines, two good reasons</tspan></text>
+<text y="1679.1" xml:space="preserve" class="g97s30"><tspan x="50.0" class="g97s14" textLength="74.7" lengthAdjust="spacing">self.weight</tspan><tspan x="124.7" textLength="320.2" lengthAdjust="spacing"> is one learned number per position of the vector, starting at </tspan><tspan x="444.9" class="g97s6">1</tspan><tspan x="451.9" textLength="179.4" lengthAdjust="spacing">: it lets training make some of the </tspan><tspan x="631.3" class="g97s6" textLength="74.2" lengthAdjust="spacing">512 numbers</tspan><tspan x="705.6" textLength="346.8" lengthAdjust="spacing"> louder or quieter after the rescaling. Because it should stay near </tspan><tspan x="1052.4" class="g97s6">1</tspan><tspan x="1059.5">, </tspan><tspan x="1066.2" class="g97s14" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="1093.3" textLength="240.1" lengthAdjust="spacing"> does not apply weight decay to it (deep dive </tspan><tspan x="1333.4" class="g97s6" textLength="14.1" lengthAdjust="spacing">14</tspan><tspan x="1347.6" textLength="10.7" lengthAdjust="spacing">). </tspan><tspan x="1358.3" class="g97s14" textLength="61.1" lengthAdjust="spacing">x.float()</tspan><tspan x="1419.4" textLength="120.7" lengthAdjust="spacing"> does the arithmetic in </tspan><tspan x="1540.1" class="g97s6" textLength="31.8" lengthAdjust="spacing">32-bit</tspan><tspan x="1571.9" textLength="146.7" lengthAdjust="spacing"> even when training runs in </tspan><tspan x="1718.6" class="g97s6" textLength="31.8" lengthAdjust="spacing">16-bit</tspan><tspan x="1750.5" textLength="59.4" lengthAdjust="spacing"> on a GPU:</tspan></text>
+<text y="1696.6" xml:space="preserve" class="g97s30"><tspan x="50.0" textLength="80.7" lengthAdjust="spacing">squaring small </tspan><tspan x="130.7" class="g97s6" textLength="31.8" lengthAdjust="spacing">16-bit</tspan><tspan x="162.5" textLength="356.8" lengthAdjust="spacing"> numbers loses precision, and the rescaling would inherit the error. </tspan><tspan x="519.3" class="g97s14" textLength="67.9" lengthAdjust="spacing">type_as(x)</tspan><tspan x="587.2" textLength="133.4" lengthAdjust="spacing"> converts the result back.</tspan></text>
+<rect x="34.0" y="1732.1" width="1812.0" height="30.0" rx="6" class="g97s13"/>
+<path d="M38.50 1732.81 A5.50 5.50 0 0 0 34.50 1738.10 V1756.10 A5.50 5.50 0 0 0 38.50 1761.39 Z" class="g97s19"/>
+<text y="1752.1" xml:space="preserve" class="g97s27"><tspan x="50.0" class="g97s1" textLength="72.8" lengthAdjust="spacing">F · The cost</tspan></text>
+<text y="1752.1" xml:space="preserve" class="g97s28"><tspan x="140.8" textLength="251.2" lengthAdjust="spacing">operations, learned numbers, and measured time</tspan></text>
+<rect x="34.0" y="1778.1" width="1812.0" height="24.0" rx="4" class="g97s13"/>
+<text y="1794.1" xml:space="preserve" class="g97s9"><tspan x="563.0" class="g97s29" textLength="53.5" lengthAdjust="spacing">LayerNorm</tspan><tspan x="616.5" class="g97s1"> (</tspan><tspan x="623.3" class="g97s29" textLength="11.9" lengthAdjust="spacing">v2</tspan><tspan x="635.2" class="g97s1">)</tspan></text>
+<text y="1794.1" xml:space="preserve" class="g97s9"><tspan x="993.0" class="g97s29" textLength="41.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="1034.6" class="g97s1" textLength="129.9" lengthAdjust="spacing"> as the notebook writes it (</tspan><tspan x="1164.5" class="g97s29" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1188.3" class="g97s1">)</tspan></text>
+<text y="1794.1" xml:space="preserve" class="g97s9"><tspan x="1424.0" class="g97s1" textLength="80.3" lengthAdjust="spacing">PyTorch’s own </tspan><tspan x="1504.3" class="g97s29" textLength="59.4" lengthAdjust="spacing">nn.RMSNorm</tspan></text>
+<text y="1818.8" xml:space="preserve" class="g97s25"><tspan x="43.0" class="g97s1" textLength="117.3" lengthAdjust="spacing">passes over the vector</tspan></text>
+<text y="1818.8" xml:space="preserve" class="g97s8"><tspan x="563.0" textLength="213.4" lengthAdjust="spacing">mean, subtract, variance, divide, scale, shift</tspan></text>
+<text y="1818.8" xml:space="preserve" class="g97s8"><tspan x="993.0" textLength="153.4" lengthAdjust="spacing">square-and-mean, divide, scale</tspan></text>
+<text y="1818.8" xml:space="preserve" class="g97s8"><tspan x="1424.0" textLength="74.6" lengthAdjust="spacing">the same steps</tspan></text>
+<line x1="34.0" y1="1828.1" x2="1846.0" y2="1828.1" class="g97s7"/>
+<rect x="34.0" y="1828.1" width="1812.0" height="26.0" rx="0" class="g97s11"/>
+<text y="1844.8" xml:space="preserve" class="g97s25"><tspan x="43.0" class="g97s1" textLength="137.4" lengthAdjust="spacing">learned numbers per norm</tspan></text>
+<text y="1844.8" xml:space="preserve" class="g97s8"><tspan x="563.0" class="g97s6" textLength="29.2" lengthAdjust="spacing">1,024</tspan></text>
+<text y="1844.8" xml:space="preserve" class="g97s8"><tspan x="993.0" class="g97s6" textLength="19.4" lengthAdjust="spacing">512</tspan></text>
+<text y="1844.8" xml:space="preserve" class="g97s8"><tspan x="1424.0" class="g97s6" textLength="19.4" lengthAdjust="spacing">512</tspan></text>
+<line x1="34.0" y1="1854.1" x2="1846.0" y2="1854.1" class="g97s7"/>
+<text y="1870.8" xml:space="preserve" class="g97s25"><tspan x="43.0" class="g97s1" textLength="72.6" lengthAdjust="spacing">in this model (</tspan><tspan x="115.6" class="g97s6" textLength="13.0" lengthAdjust="spacing">12</tspan><tspan x="128.5" class="g97s1" textLength="39.5" lengthAdjust="spacing"> norms)</tspan></text>
+<text y="1870.8" xml:space="preserve" class="g97s8"><tspan x="563.0" class="g97s6" textLength="35.7" lengthAdjust="spacing">12,288</tspan></text>
+<text y="1870.8" xml:space="preserve" class="g97s8"><tspan x="993.0" class="g97s6" textLength="29.2" lengthAdjust="spacing">6,144</tspan></text>
+<text y="1870.8" xml:space="preserve" class="g97s8"><tspan x="1424.0" class="g97s6" textLength="29.2" lengthAdjust="spacing">6,144</tspan></text>
+<line x1="34.0" y1="1880.1" x2="1846.0" y2="1880.1" class="g97s7"/>
+<rect x="34.0" y="1880.1" width="1812.0" height="26.0" rx="0" class="g97s11"/>
+<text y="1896.8" xml:space="preserve" class="g97s25"><tspan x="43.0" class="g97s1" textLength="137.7" lengthAdjust="spacing">time, forward + backward (</tspan><tspan x="180.7" class="g97s6" textLength="44.7" lengthAdjust="spacing">batch 64</tspan><tspan x="225.4" class="g97s1"> × </tspan><tspan x="238.9" class="g97s6" textLength="50.6" lengthAdjust="spacing">12 tokens</tspan><tspan x="289.5" class="g97s1"> × </tspan><tspan x="302.9" class="g97s6" textLength="19.4" lengthAdjust="spacing">128</tspan><tspan x="322.4" class="g97s1">)</tspan></text>
+<text y="1896.8" xml:space="preserve" class="g97s8"><tspan x="563.0" class="g97s6" textLength="19.4" lengthAdjust="spacing">271</tspan><tspan x="582.4" textLength="14.7" lengthAdjust="spacing"> µs</tspan></text>
+<text y="1896.8" xml:space="preserve" class="g97s8"><tspan x="993.0" class="g97s6" textLength="19.4" lengthAdjust="spacing">630</tspan><tspan x="1012.4" textLength="14.7" lengthAdjust="spacing"> µs</tspan></text>
+<text y="1896.8" xml:space="preserve" class="g97s8"><tspan x="1424.0" class="g97s6" textLength="19.4" lengthAdjust="spacing">716</tspan><tspan x="1443.4" textLength="14.7" lengthAdjust="spacing"> µs</tspan></text>
+<line x1="34.0" y1="1906.1" x2="1846.0" y2="1906.1" class="g97s7"/>
+<rect x="34.0" y="1802.1" width="1812.0" height="104.0" rx="0" class="g97s32"/>
+<line x1="554.0" y1="1802.1" x2="554.0" y2="1906.1" class="g97s7"/>
+<line x1="984.0" y1="1802.1" x2="984.0" y2="1906.1" class="g97s7"/>
+<line x1="1415.0" y1="1802.1" x2="1415.0" y2="1906.1" class="g97s7"/>
 <rect x="34.0" y="1918.1" width="1812.0" height="72.6" rx="6" style="fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1"/>
 <path d="M38.50 1918.81 A5.50 5.50 0 0 0 34.50 1924.10 V1984.66 A5.50 5.50 0 0 0 38.50 1989.95 Z" style="fill:var(--drop);stroke:none"/>
-<text y="1944.1" xml:space="preserve" class="g82s36"><tspan x="50.0" class="g82s1" textLength="113.8" lengthAdjust="spacing">Honest about speed</tspan></text>
-<text y="1961.6" xml:space="preserve" class="g82s30"><tspan x="50.0" textLength="503.5" lengthAdjust="spacing">Fewer operations only become less time when they run as one optimised kernel. On this CPU, </tspan><tspan x="553.5" class="g82s14" textLength="81.5" lengthAdjust="spacing">nn.LayerNorm</tspan><tspan x="635.0" textLength="138.6" lengthAdjust="spacing"> has one; the notebook’s </tspan><tspan x="773.6" class="g82s14" textLength="47.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="821.2" textLength="347.4" lengthAdjust="spacing"> is written out step by step so it can be read, and PyTorch’s own </tspan><tspan x="1168.5" class="g82s14" textLength="67.9" lengthAdjust="spacing">nn.RMSNorm</tspan><tspan x="1236.4" textLength="398.2" lengthAdjust="spacing"> is also built from ordinary operations on a CPU — so both are slower than </tspan><tspan x="1634.6" class="g82s14" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1695.7" textLength="58.0" lengthAdjust="spacing"> here. The </tspan><tspan x="1753.8" class="g82s14" textLength="47.5" lengthAdjust="spacing">RMSNorm</tspan></text>
-<text y="1979.1" xml:space="preserve" class="g82s30"><tspan x="50.0" textLength="74.7" lengthAdjust="spacing">paper reports </tspan><tspan x="124.7" class="g82s6" textLength="18.4" lengthAdjust="spacing">7%</tspan><tspan x="143.1" textLength="27.3" lengthAdjust="spacing">% to </tspan><tspan x="170.4" class="g82s6" textLength="25.5" lengthAdjust="spacing">64%</tspan><tspan x="195.9" textLength="697.6" lengthAdjust="spacing">% less running time on its own models, with kernels written for the purpose; this page could not measure that, and does not claim it.</tspan></text>
-<rect x="34.0" y="2014.7" width="1812.0" height="30.0" rx="6" class="g82s13"/>
-<path d="M38.50 2015.37 A5.50 5.50 0 0 0 34.50 2020.66 V2038.66 A5.50 5.50 0 0 0 38.50 2043.95 Z" class="g82s19"/>
-<text y="2034.7" xml:space="preserve" class="g82s27"><tspan x="50.0" class="g82s1" textLength="211.3" lengthAdjust="spacing">Claims · Common claims, checked</tspan></text>
-<text y="2034.7" xml:space="preserve" class="g82s28"><tspan x="279.3" textLength="147.5" lengthAdjust="spacing">against this page’s numbers</tspan></text>
-<rect x="34.0" y="2060.7" width="1812.0" height="24.0" rx="4" class="g82s13"/>
-<text y="2076.7" xml:space="preserve" class="g82s9"><tspan x="43.0" class="g82s1" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
-<text y="2076.7" xml:space="preserve" class="g82s9"><tspan x="603.0" class="g82s1" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
-<text y="2076.7" xml:space="preserve" class="g82s9"><tspan x="713.0" class="g82s1" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
-<text y="2101.4" xml:space="preserve" class="g82s25"><tspan x="43.0" class="g82s1">“</tspan><tspan x="50.0" class="g82s16" textLength="43.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="93.6" class="g82s1" textLength="112.8" lengthAdjust="spacing"> is less accurate than </tspan><tspan x="206.3" class="g82s16" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="262.4" class="g82s1" textLength="10.2" lengthAdjust="spacing">.”</tspan></text>
-<text y="2101.4" xml:space="preserve" class="g82s8"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
-<text y="2101.4" xml:space="preserve" class="g82s8"><tspan x="713.0" textLength="203.6" lengthAdjust="spacing">on these vectors the two differ by at most </tspan><tspan x="916.6" class="g82s6" textLength="29.2" lengthAdjust="spacing">0.046</tspan><tspan x="945.8" textLength="145.5" lengthAdjust="spacing">; models trained with it match </tspan><tspan x="1091.3" class="g82s16" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1147.3" textLength="100.9" lengthAdjust="spacing"> (Zhang &amp; Sennrich, </tspan><tspan x="1248.2" class="g82s6" textLength="25.9" lengthAdjust="spacing">2019</tspan><tspan x="1274.1">)</tspan></text>
-<line x1="34.0" y1="2110.7" x2="1846.0" y2="2110.7" class="g82s7"/>
-<rect x="34.0" y="2110.7" width="1812.0" height="26.0" rx="0" class="g82s11"/>
-<text y="2127.4" xml:space="preserve" class="g82s25"><tspan x="43.0" class="g82s1">“</tspan><tspan x="50.0" class="g82s16" textLength="43.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="93.6" class="g82s1" textLength="93.2" lengthAdjust="spacing"> is always faster.”</tspan></text>
-<text y="2127.4" xml:space="preserve" class="g82s8"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
-<text y="2127.4" xml:space="preserve" class="g82s8"><tspan x="713.0" textLength="221.3" lengthAdjust="spacing">it has fewer operations, but on this CPU both </tspan><tspan x="934.3" class="g82s16" textLength="43.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="977.9" textLength="231.6" lengthAdjust="spacing"> versions are slower than PyTorch’s optimised </tspan><tspan x="1209.5" class="g82s16" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1265.5" textLength="55.0" lengthAdjust="spacing"> (section F)</tspan></text>
-<line x1="34.0" y1="2136.7" x2="1846.0" y2="2136.7" class="g82s7"/>
-<text y="2153.4" xml:space="preserve" class="g82s25"><tspan x="43.0" class="g82s1" textLength="78.9" lengthAdjust="spacing">“The output of </tspan><tspan x="121.9" class="g82s16" textLength="43.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="165.5" class="g82s1" textLength="70.6" lengthAdjust="spacing"> has average </tspan><tspan x="236.2" class="g82s6">0</tspan><tspan x="242.7" class="g82s1" textLength="10.2" lengthAdjust="spacing">.”</tspan></text>
-<text y="2153.4" xml:space="preserve" class="g82s8"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
-<text y="2153.4" xml:space="preserve" class="g82s8"><tspan x="713.0" textLength="45.8" lengthAdjust="spacing">only size </tspan><tspan x="758.8" class="g82s6">1</tspan><tspan x="765.3" textLength="300.1" lengthAdjust="spacing">; its average is whatever the input’s was, divided by the RMS</tspan></text>
-<line x1="34.0" y1="2162.7" x2="1846.0" y2="2162.7" class="g82s7"/>
-<rect x="34.0" y="2162.7" width="1812.0" height="26.0" rx="0" class="g82s11"/>
-<text y="2179.4" xml:space="preserve" class="g82s25"><tspan x="43.0" class="g82s1" textLength="108.1" lengthAdjust="spacing">“The gain is fixed at </tspan><tspan x="151.1" class="g82s6">1</tspan><tspan x="157.6" class="g82s1" textLength="10.2" lengthAdjust="spacing">.”</tspan></text>
-<text y="2179.4" xml:space="preserve" class="g82s8"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
-<text y="2179.4" xml:space="preserve" class="g82s8"><tspan x="713.0" textLength="50.7" lengthAdjust="spacing">it starts at </tspan><tspan x="763.7" class="g82s6">1</tspan><tspan x="770.2" textLength="214.6" lengthAdjust="spacing"> and is learned; it is only exempt from decay</tspan></text>
-<line x1="34.0" y1="2188.7" x2="1846.0" y2="2188.7" class="g82s7"/>
-<rect x="34.0" y="2084.7" width="1812.0" height="104.0" rx="0" class="g82s32"/>
-<line x1="594.0" y1="2084.7" x2="594.0" y2="2188.7" class="g82s7"/>
-<line x1="704.0" y1="2084.7" x2="704.0" y2="2188.7" class="g82s7"/>
+<text y="1944.1" xml:space="preserve" class="g97s36"><tspan x="50.0" class="g97s1" textLength="113.8" lengthAdjust="spacing">Honest about speed</tspan></text>
+<text y="1961.6" xml:space="preserve" class="g97s30"><tspan x="50.0" textLength="503.5" lengthAdjust="spacing">Fewer operations only become less time when they run as one optimised kernel. On this CPU, </tspan><tspan x="553.5" class="g97s14" textLength="81.5" lengthAdjust="spacing">nn.LayerNorm</tspan><tspan x="635.0" textLength="138.6" lengthAdjust="spacing"> has one; the notebook’s </tspan><tspan x="773.6" class="g97s14" textLength="47.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="821.2" textLength="347.4" lengthAdjust="spacing"> is written out step by step so it can be read, and PyTorch’s own </tspan><tspan x="1168.5" class="g97s14" textLength="67.9" lengthAdjust="spacing">nn.RMSNorm</tspan><tspan x="1236.4" textLength="398.2" lengthAdjust="spacing"> is also built from ordinary operations on a CPU — so both are slower than </tspan><tspan x="1634.6" class="g97s14" textLength="61.1" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1695.7" textLength="58.0" lengthAdjust="spacing"> here. The </tspan><tspan x="1753.8" class="g97s14" textLength="47.5" lengthAdjust="spacing">RMSNorm</tspan></text>
+<text y="1979.1" xml:space="preserve" class="g97s30"><tspan x="50.0" textLength="74.7" lengthAdjust="spacing">paper reports </tspan><tspan x="124.7" class="g97s6" textLength="18.4" lengthAdjust="spacing">7%</tspan><tspan x="143.1" textLength="27.3" lengthAdjust="spacing">% to </tspan><tspan x="170.4" class="g97s6" textLength="25.5" lengthAdjust="spacing">64%</tspan><tspan x="195.9" textLength="697.6" lengthAdjust="spacing">% less running time on its own models, with kernels written for the purpose; this page could not measure that, and does not claim it.</tspan></text>
+<rect x="34.0" y="2014.7" width="1812.0" height="30.0" rx="6" class="g97s13"/>
+<path d="M38.50 2015.37 A5.50 5.50 0 0 0 34.50 2020.66 V2038.66 A5.50 5.50 0 0 0 38.50 2043.95 Z" class="g97s19"/>
+<text y="2034.7" xml:space="preserve" class="g97s27"><tspan x="50.0" class="g97s1" textLength="211.3" lengthAdjust="spacing">Claims · Common claims, checked</tspan></text>
+<text y="2034.7" xml:space="preserve" class="g97s28"><tspan x="279.3" textLength="147.5" lengthAdjust="spacing">against this page’s numbers</tspan></text>
+<rect x="34.0" y="2060.7" width="1812.0" height="24.0" rx="4" class="g97s13"/>
+<text y="2076.7" xml:space="preserve" class="g97s9"><tspan x="43.0" class="g97s1" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="2076.7" xml:space="preserve" class="g97s9"><tspan x="603.0" class="g97s1" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="2076.7" xml:space="preserve" class="g97s9"><tspan x="713.0" class="g97s1" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
+<text y="2101.4" xml:space="preserve" class="g97s25"><tspan x="43.0" class="g97s1">“</tspan><tspan x="50.0" class="g97s16" textLength="43.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="93.6" class="g97s1" textLength="112.8" lengthAdjust="spacing"> is less accurate than </tspan><tspan x="206.3" class="g97s16" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="262.4" class="g97s1" textLength="10.2" lengthAdjust="spacing">.”</tspan></text>
+<text y="2101.4" xml:space="preserve" class="g97s8"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="2101.4" xml:space="preserve" class="g97s8"><tspan x="713.0" textLength="203.6" lengthAdjust="spacing">on these vectors the two differ by at most </tspan><tspan x="916.6" class="g97s6" textLength="29.2" lengthAdjust="spacing">0.046</tspan><tspan x="945.8" textLength="145.5" lengthAdjust="spacing">; models trained with it match </tspan><tspan x="1091.3" class="g97s16" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1147.3" textLength="100.9" lengthAdjust="spacing"> (Zhang &amp; Sennrich, </tspan><tspan x="1248.2" class="g97s6" textLength="25.9" lengthAdjust="spacing">2019</tspan><tspan x="1274.1">)</tspan></text>
+<line x1="34.0" y1="2110.7" x2="1846.0" y2="2110.7" class="g97s7"/>
+<rect x="34.0" y="2110.7" width="1812.0" height="26.0" rx="0" class="g97s11"/>
+<text y="2127.4" xml:space="preserve" class="g97s25"><tspan x="43.0" class="g97s1">“</tspan><tspan x="50.0" class="g97s16" textLength="43.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="93.6" class="g97s1" textLength="93.2" lengthAdjust="spacing"> is always faster.”</tspan></text>
+<text y="2127.4" xml:space="preserve" class="g97s8"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="2127.4" xml:space="preserve" class="g97s8"><tspan x="713.0" textLength="221.3" lengthAdjust="spacing">it has fewer operations, but on this CPU both </tspan><tspan x="934.3" class="g97s16" textLength="43.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="977.9" textLength="231.6" lengthAdjust="spacing"> versions are slower than PyTorch’s optimised </tspan><tspan x="1209.5" class="g97s16" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1265.5" textLength="55.0" lengthAdjust="spacing"> (section F)</tspan></text>
+<line x1="34.0" y1="2136.7" x2="1846.0" y2="2136.7" class="g97s7"/>
+<text y="2153.4" xml:space="preserve" class="g97s25"><tspan x="43.0" class="g97s1" textLength="78.9" lengthAdjust="spacing">“The output of </tspan><tspan x="121.9" class="g97s16" textLength="43.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="165.5" class="g97s1" textLength="70.6" lengthAdjust="spacing"> has average </tspan><tspan x="236.2" class="g97s6">0</tspan><tspan x="242.7" class="g97s1" textLength="10.2" lengthAdjust="spacing">.”</tspan></text>
+<text y="2153.4" xml:space="preserve" class="g97s8"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="2153.4" xml:space="preserve" class="g97s8"><tspan x="713.0" textLength="45.8" lengthAdjust="spacing">only size </tspan><tspan x="758.8" class="g97s6">1</tspan><tspan x="765.3" textLength="300.1" lengthAdjust="spacing">; its average is whatever the input’s was, divided by the RMS</tspan></text>
+<line x1="34.0" y1="2162.7" x2="1846.0" y2="2162.7" class="g97s7"/>
+<rect x="34.0" y="2162.7" width="1812.0" height="26.0" rx="0" class="g97s11"/>
+<text y="2179.4" xml:space="preserve" class="g97s25"><tspan x="43.0" class="g97s1" textLength="108.1" lengthAdjust="spacing">“The gain is fixed at </tspan><tspan x="151.1" class="g97s6">1</tspan><tspan x="157.6" class="g97s1" textLength="10.2" lengthAdjust="spacing">.”</tspan></text>
+<text y="2179.4" xml:space="preserve" class="g97s8"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="2179.4" xml:space="preserve" class="g97s8"><tspan x="713.0" textLength="50.7" lengthAdjust="spacing">it starts at </tspan><tspan x="763.7" class="g97s6">1</tspan><tspan x="770.2" textLength="214.6" lengthAdjust="spacing"> and is learned; it is only exempt from decay</tspan></text>
+<line x1="34.0" y1="2188.7" x2="1846.0" y2="2188.7" class="g97s7"/>
+<rect x="34.0" y="2084.7" width="1812.0" height="104.0" rx="0" class="g97s32"/>
+<line x1="594.0" y1="2084.7" x2="594.0" y2="2188.7" class="g97s7"/>
+<line x1="704.0" y1="2084.7" x2="704.0" y2="2188.7" class="g97s7"/>
 <line x1="28.0" y1="2214.7" x2="1852.0" y2="2214.7" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
-<text y="2231.7" xml:space="preserve" class="g82s41"><tspan x="28.0" textLength="404.7" lengthAdjust="spacing">Two kinds of numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="432.7" class="g82s16" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="457.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="600.7" class="g82s6" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="616.9" textLength="234.8" lengthAdjust="spacing">.0 on its own two sentence pairs (CPU, seeded, </tspan><tspan x="851.6" class="g82s6" textLength="22.7" lengthAdjust="spacing">15.6</tspan><tspan x="874.3" textLength="181.0" lengthAdjust="spacing"> s): its printed lines, the loss of every </tspan><tspan x="1055.3" class="g82s16" textLength="31.1" lengthAdjust="spacing">epoch</tspan><tspan x="1086.4" textLength="450.0" lengthAdjust="spacing">, the checkpoint it kept. UNTRAINED numbers are a pure-Python trace of the same code on </tspan><tspan x="1536.4" class="g82s16" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1548.8" textLength="294.6" lengthAdjust="spacing">’s seeded starting weights, and every one of them has been</tspan></text>
-<text y="2246.7" xml:space="preserve" class="g82s41"><tspan x="28.0" textLength="352.6" lengthAdjust="spacing">checked against the notebook’s own PyTorch model (largest difference </tspan><tspan x="380.6" class="g82s6" textLength="39.5" lengthAdjust="spacing">1.3e-06</tspan><tspan x="420.2" textLength="156.5" lengthAdjust="spacing">). The notebook file is only read.</tspan></text>
+<text y="2231.7" xml:space="preserve" class="g97s41"><tspan x="28.0" textLength="404.7" lengthAdjust="spacing">Two kinds of numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="432.7" class="g97s16" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="457.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="600.7" class="g97s6" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="616.9" textLength="234.8" lengthAdjust="spacing">.0 on its own two sentence pairs (CPU, seeded, </tspan><tspan x="851.6" class="g97s6" textLength="22.7" lengthAdjust="spacing">15.6</tspan><tspan x="874.3" textLength="181.0" lengthAdjust="spacing"> s): its printed lines, the loss of every </tspan><tspan x="1055.3" class="g97s16" textLength="31.1" lengthAdjust="spacing">epoch</tspan><tspan x="1086.4" textLength="450.0" lengthAdjust="spacing">, the checkpoint it kept. UNTRAINED numbers are a pure-Python trace of the same code on </tspan><tspan x="1536.4" class="g97s16" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1548.8" textLength="294.6" lengthAdjust="spacing">’s seeded starting weights, and every one of them has been</tspan></text>
+<text y="2246.7" xml:space="preserve" class="g97s41"><tspan x="28.0" textLength="352.6" lengthAdjust="spacing">checked against the notebook’s own PyTorch model (largest difference </tspan><tspan x="380.6" class="g97s6" textLength="39.5" lengthAdjust="spacing">1.3e-06</tspan><tspan x="420.2" textLength="156.5" lengthAdjust="spacing">). The notebook file is only read.</tspan></text>
 </svg>

@@ -1,0 +1,203 @@
+<svg data-src="v25_c09b_evaluation_decoding.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1653" viewBox="0 0 1880 1653">
+<style>.txfig .g72s0{fill:var(--code)}.txfig .g72s1{fill:var(--op)}.txfig .g72s2{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:start}.txfig .g72s3{font-weight:600;fill:var(--ink)}.txfig .g72s4{font-weight:600}.txfig .g72s5{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g72s6{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g72s7{fill:var(--kw)}.txfig .g72s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g72s9{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g72s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px}.txfig .g72s11{fill:var(--fn)}.txfig .g72s12{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g72s13{fill:var(--num)}.txfig .g72s14{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g72s15{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g72s16{fill:var(--s1);stroke:none}.txfig .g72s17{fill:var(--s1);stroke:none;stroke-width:1;opacity:0.22}.txfig .g72s18{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g72s19{stroke:var(--panelbd);stroke-width:1;stroke-dasharray:3 4;stroke-linecap:round}.txfig .g72s20{fill:var(--panel);stroke:var(--panelbd);stroke-width:1.1}.txfig .g72s21{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11}.txfig .g72s22{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g72s23{fill:var(--code);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:start}.txfig .g72s24{fill:var(--codebg);stroke:var(--codebd);stroke-width:1}.txfig .g72s25{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g72s26{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g72s27{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g72s28{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g72s29{fill:var(--keep);stroke:none}.txfig .g72s30{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g72s31{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g72s32{fill:var(--accent);stroke:none}.txfig .g72s33{fill:var(--soft);stroke:var(--hair);stroke-width:1}.txfig .g72s34{fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1}.txfig .g72s35{fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1}.txfig .g72s36{font-weight:600;fill:var(--ink2)}.txfig .g72s37{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch72" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash72" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1653" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v2.5 · CELL 9 · 2 / 2</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="168.9" class="g72s4" textLength="160.9" lengthAdjust="spacing">Evaluation, part </tspan><tspan x="329.8" style="font-weight:600;fill:var(--hdfg)">2</tspan><tspan x="342.2" class="g72s4" textLength="423.1" lengthAdjust="spacing"> — four ways to write, on the trained model</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="460.3" lengthAdjust="spacing">greedy · top-k sampling · top-p with the penalty · beam search · the cache check</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="368.0" lengthAdjust="spacing">The trained run’s real outputs, and the probabilities it saw at every step.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g72s28"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g72s29"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g72s4" textLength="343.9" lengthAdjust="spacing">When the model is sure, every way of writing agrees</tspan></text>
+<text y="169.0" xml:space="preserve" class="g72s30"><tspan x="54.0" class="g72s3" textLength="35.2" lengthAdjust="spacing">Cell 9</tspan><tspan x="89.2" textLength="723.3" lengthAdjust="spacing"> writes each validation sentence four ways. On this trained model all four agree, because at every step one token holds about </tspan><tspan x="812.5" class="g72s3" textLength="27.6" lengthAdjust="spacing">93%</tspan><tspan x="840.1" textLength="984.0" lengthAdjust="spacing"> of the probability: greedy takes it, top-p keeps only it, top-k’s five candidates are dominated by it, and beam search finds nothing better. The ways differ when the model is</tspan></text>
+<text y="188.0" xml:space="preserve" class="g72s30"><tspan x="54.0" textLength="60.0" lengthAdjust="spacing">unsure — </tspan><tspan x="114.0" class="g72s3" textLength="32.2" lengthAdjust="spacing">cell 2</tspan><tspan x="146.1" textLength="33.2" lengthAdjust="spacing">, part </tspan><tspan x="179.4" class="g72s3">3</tspan><tspan x="187.0" textLength="99.0" lengthAdjust="spacing">, and deep dives </tspan><tspan x="286.0" class="g72s3">5</tspan><tspan x="293.7" textLength="28.9" lengthAdjust="spacing"> and </tspan><tspan x="322.6" class="g72s3" textLength="15.3" lengthAdjust="spacing">11</tspan><tspan x="337.9" textLength="62.9" lengthAdjust="spacing"> show that.</tspan></text>
+<text y="241.2" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px"><tspan x="34.0" textLength="34.5" lengthAdjust="spacing">What </tspan><tspan x="68.5" class="g72s3" textLength="32.7" lengthAdjust="spacing">cell 9</tspan><tspan x="101.1" textLength="47.7" lengthAdjust="spacing"> printed:</tspan></text>
+<rect x="946.0" y="228.0" width="900.0" height="270.0" rx="6" class="g72s24"/>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="956.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="979.8" class="g72s4" textLength="180.0" lengthAdjust="spacing"> · the four strategies, both sentences</tspan></text>
+<text x="956.0" y="269.0" xml:space="preserve" class="g72s5"><tspan class="g72s0">Input</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">    </tspan><tspan class="g72s0">the</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">dog</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">sat</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">on</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">the</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">floor</tspan></text>
+<text x="956.0" y="288.5" xml:space="preserve" class="g72s5"><tspan class="g72s0">Expected</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">dog</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">resting</tspan></text>
+<text x="956.0" y="308.0" xml:space="preserve" class="g72s5"><tspan class="g72s0">Greedy</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">   </tspan><tspan class="g72s0">dog</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">resting</tspan></text>
+<text x="956.0" y="327.5" xml:space="preserve" class="g72s5"><tspan class="g72s0">Sampled</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">  </tspan><tspan class="g72s0">dog</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">resting</tspan></text>
+<text x="956.0" y="347.0" xml:space="preserve" class="g72s5"><tspan class="g72s0">Top</tspan><tspan class="g72s1">-</tspan><tspan class="g72s0">p</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">    </tspan><tspan class="g72s0">dog</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">resting</tspan></text>
+<text x="956.0" y="366.5" xml:space="preserve" class="g72s5"><tspan class="g72s11">Beam</tspan><tspan class="g72s1">(</tspan><tspan class="g72s13">4</tspan><tspan class="g72s1">)</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">  </tspan><tspan class="g72s0">dog</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">resting</tspan></text>
+<text x="956.0" y="386.0" xml:space="preserve" class="g72s5"><tspan class="g72s0">Input</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">    </tspan><tspan class="g72s0">the</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">cat</tspan><tspan class="g72s0"> </tspan><tspan class="g72s7">is</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">sleeping</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">on</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">the</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">sofa</tspan></text>
+<text x="956.0" y="405.5" xml:space="preserve" class="g72s5"><tspan class="g72s0">Expected</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">the</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">cat</tspan><tspan class="g72s0"> </tspan><tspan class="g72s7">is</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">sleeping</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">peacefully</tspan></text>
+<text x="956.0" y="425.0" xml:space="preserve" class="g72s5"><tspan class="g72s0">Greedy</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">   </tspan><tspan class="g72s0">the</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">cat</tspan><tspan class="g72s0"> </tspan><tspan class="g72s7">is</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">sleeping</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">peacefully</tspan></text>
+<text x="956.0" y="444.5" xml:space="preserve" class="g72s5"><tspan class="g72s0">Sampled</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">  </tspan><tspan class="g72s0">the</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">cat</tspan><tspan class="g72s0"> </tspan><tspan class="g72s7">is</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">sleeping</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">peacefully</tspan></text>
+<text x="956.0" y="464.0" xml:space="preserve" class="g72s5"><tspan class="g72s0">Top</tspan><tspan class="g72s1">-</tspan><tspan class="g72s0">p</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">    </tspan><tspan class="g72s0">the</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">cat</tspan><tspan class="g72s0"> </tspan><tspan class="g72s7">is</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">sleeping</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">peacefully</tspan></text>
+<text x="956.0" y="483.5" xml:space="preserve" class="g72s5"><tspan class="g72s11">Beam</tspan><tspan class="g72s1">(</tspan><tspan class="g72s13">4</tspan><tspan class="g72s1">)</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0">  </tspan><tspan class="g72s0">the</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">cat</tspan><tspan class="g72s0"> </tspan><tspan class="g72s7">is</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">sleeping</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">peacefully</tspan></text>
+<rect x="34.0" y="520.0" width="1812.0" height="30.0" rx="6" class="g72s31"/>
+<path d="M38.50 520.71 A5.50 5.50 0 0 0 34.50 526.00 V544.00 A5.50 5.50 0 0 0 38.50 549.29 Z" class="g72s32"/>
+<text y="540.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600"><tspan x="50.0" class="g72s4" textLength="104.9" lengthAdjust="spacing">A · The call stack</tspan></text>
+<text y="540.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="172.9" textLength="233.1" lengthAdjust="spacing">sequence B, “the cat is sleeping on the sofa”</tspan></text>
+<rect x="34.0" y="566.0" width="1812.0" height="118.0" rx="8" class="g72s33"/>
+<path d="M38.50 567.37 A7.50 7.50 0 0 0 34.50 574.00 V676.00 A7.50 7.50 0 0 0 38.50 682.63 Z" class="g72s32"/>
+<text x="52.0" y="586.0" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">How to read a frame</text>
+<text y="586.0" xml:space="preserve" class="g72s25"><tspan x="187.8" textLength="184.6" lengthAdjust="spacing">every frame below has these six parts</tspan></text>
+<rect x="52.0" y="595.5" width="22.0" height="17.0" rx="4" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.22"/>
+<text x="63.0" y="608.0" class="g72s14">7</text>
+<text x="52.0" y="641.5" class="g72s9">the order this line ran, counting from the top of the page</text>
+<text x="350.7" y="608.0" style="fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:start">cell 2 · EncoderLayer.forward</text>
+<text x="350.7" y="641.5" class="g72s9">the cell the line lives in and the function it sits inside — a stack</text>
+<text x="350.7" y="654.0" class="g72s9">moves from cell to cell. &lt;module&gt; means no function at all</text>
+<text x="649.3" y="608.0" xml:space="preserve" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px"><tspan class="g72s0">x</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">=</tspan><tspan class="g72s0"> </tspan><tspan class="g72s7">self</tspan><tspan class="g72s1">.</tspan><tspan class="g72s11">norm1</tspan><tspan class="g72s1">(</tspan><tspan class="g72s0">x</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">+</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">.</tspan><tspan class="g72s1">.</tspan><tspan class="g72s1">.</tspan><tspan class="g72s1">)</tspan></text>
+<text x="649.3" y="641.5" class="g72s9">the line of Python that actually ran, in the order it ran</text>
+<text x="948.0" y="608.0" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start">the similarity table</text>
+<text x="948.0" y="641.5" class="g72s9">the note on the right edge — a plain-language name for what</text>
+<text x="948.0" y="654.0" class="g72s9">this line achieves. Only the frames that matter most carry one</text>
+<rect x="1246.7" y="595.0" width="89.0" height="18.0" rx="4" style="fill:var(--cellbg);stroke:var(--grid);stroke-width:1"/>
+<text x="1291.2" y="607.8" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">(2, 4, 7, 7)</text>
+<rect x="1341.7" y="595.0" width="95.2" height="18.0" rx="4" style="fill:var(--codebg);stroke:none;stroke-width:1"/>
+<text x="1389.3" y="607.8" style="fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">torch.float32</text>
+<text x="1246.7" y="641.5" class="g72s9">the size of the tensor that line produced, and the kind of number</text>
+<text x="1246.7" y="654.0" class="g72s9">it holds</text>
+<rect x="1545.3" y="595.0" width="44.0" height="18.0" rx="4" class="g72s34"/>
+<text x="1567.3" y="608.0" style="fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ A</text>
+<rect x="1595.3" y="595.0" width="44.0" height="18.0" rx="4" class="g72s35"/>
+<text x="1617.3" y="608.0" style="fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ B</text>
+<text x="1545.3" y="641.5" class="g72s9">right of the dashed line: that tensor&#x27;s real values, both sentences</text>
+<text x="1545.3" y="654.0" class="g72s9">at once</text>
+<rect x="34.0" y="698.0" width="1812.0" height="208.9" rx="8" class="g72s20"/>
+<path d="M39.55 698.96 A7.45 7.45 0 0 0 34.55 706.00 V898.90 A7.45 7.45 0 0 0 39.55 905.94 Z" class="g72s16"/>
+<rect x="44.0" y="707.5" width="22.0" height="17.0" rx="4" class="g72s17"/>
+<text x="55.0" y="720.0" class="g72s14">6</text>
+<text x="72.0" y="720.0" class="g72s18">cell 9 · &lt;module&gt;</text>
+<text x="720.0" y="820.5" class="g72s21">06</text>
+<text x="72.0" y="738.0" xml:space="preserve" class="g72s10"><tspan class="g72s0">greedy</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">_</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">=</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">model</tspan><tspan class="g72s1">.</tspan><tspan class="g72s11">generate</tspan><tspan class="g72s1">(</tspan><tspan class="g72s0">src</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">SOS</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">EOS</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">max_len</tspan><tspan class="g72s1">=</tspan><tspan class="g72s0">MAX_SEQ_LEN</tspan><tspan class="g72s1">)</tspan></text>
+<text y="760.0" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="199.5" lengthAdjust="spacing">At every step the best token has about </tspan><tspan x="271.5" class="g72s3" textLength="24.4" lengthAdjust="spacing">93%</tspan><tspan x="295.8" textLength="159.8" lengthAdjust="spacing"> (label smoothing keeps it from </tspan><tspan x="455.6" class="g72s3" textLength="31.2" lengthAdjust="spacing">100%</tspan><tspan x="486.8" textLength="124.0" lengthAdjust="spacing">); the runner-up has well</tspan></text>
+<text y="776.0" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="32.6" lengthAdjust="spacing">under </tspan><tspan x="104.6" class="g72s3" textLength="17.6" lengthAdjust="spacing">1%</tspan><tspan x="122.2" textLength="513.9" lengthAdjust="spacing">. The last two columns: how many tokens top-p would keep, and whether the repetition penalty would</tspan></text>
+<text y="792.0" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="96.5" lengthAdjust="spacing">change the choice.</tspan></text>
+<line x1="736.0" y1="708.0" x2="736.0" y2="896.9" class="g72s19"/>
+<rect x="750.0" y="712.0" width="1082.0" height="24.0" rx="4" class="g72s31"/>
+<text y="728.0" xml:space="preserve" class="g72s15"><tspan x="759.0" class="g72s4" textLength="21.0" lengthAdjust="spacing">step</tspan></text>
+<text y="728.0" xml:space="preserve" class="g72s15"><tspan x="845.6" class="g72s4" textLength="15.5" lengthAdjust="spacing">fed</tspan></text>
+<text y="728.0" xml:space="preserve" class="g72s15"><tspan x="1018.7" class="g72s4" textLength="51.4" lengthAdjust="spacing">best token</tspan></text>
+<text y="728.0" xml:space="preserve" class="g72s15"><tspan x="1278.4" class="g72s4" textLength="48.2" lengthAdjust="spacing">runner-up</tspan></text>
+<text y="728.0" xml:space="preserve" class="g72s15"><tspan x="1538.0" class="g72s4" textLength="28.5" lengthAdjust="spacing">top-p </tspan><tspan x="1566.5" class="g72s36" textLength="15.5" lengthAdjust="spacing">0.9</tspan><tspan x="1582.0" class="g72s4" textLength="32.8" lengthAdjust="spacing"> keeps</tspan></text>
+<text y="728.0" xml:space="preserve" class="g72s15"><tspan x="1689.5" class="g72s4" textLength="39.0" lengthAdjust="spacing">penalty </tspan><tspan x="1728.5" class="g72s36" textLength="15.5" lengthAdjust="spacing">1.2</tspan></text>
+<text x="759.0" y="750.9" class="g72s2">0</text>
+<text x="845.6" y="750.9" class="g72s2">&lt;SOS&gt;</text>
+<text x="1018.7" y="750.9" class="g72s2">the_ 92.8%</text>
+<text x="1278.4" y="750.9" class="g72s2">dog_ 0.03%</text>
+<text x="1538.0" y="750.9" class="g72s2">1</text>
+<text y="750.9" xml:space="preserve" class="g72s12"><tspan x="1689.5" textLength="25.7" lengthAdjust="spacing">same</tspan></text>
+<line x1="750.0" y1="758.7" x2="1832.0" y2="758.7" class="g72s6"/>
+<rect x="750.0" y="758.7" width="1082.0" height="22.7" rx="0" class="g72s26"/>
+<text x="759.0" y="773.6" class="g72s2">1</text>
+<text x="845.6" y="773.6" class="g72s2">the_</text>
+<text x="1018.7" y="773.6" class="g72s2">cat_ 92.5%</text>
+<text x="1278.4" y="773.6" class="g72s2">the_ 0.06%</text>
+<text x="1538.0" y="773.6" class="g72s2">1</text>
+<text y="773.6" xml:space="preserve" class="g72s12"><tspan x="1689.5" textLength="25.7" lengthAdjust="spacing">same</tspan></text>
+<line x1="750.0" y1="781.4" x2="1832.0" y2="781.4" class="g72s6"/>
+<text x="759.0" y="796.3" class="g72s2">2</text>
+<text x="845.6" y="796.3" class="g72s2">cat_</text>
+<text x="1018.7" y="796.3" class="g72s2">is_ 93.0%</text>
+<text x="1278.4" y="796.3" class="g72s2">cat_ 0.05%</text>
+<text x="1538.0" y="796.3" class="g72s2">1</text>
+<text y="796.3" xml:space="preserve" class="g72s12"><tspan x="1689.5" textLength="25.7" lengthAdjust="spacing">same</tspan></text>
+<line x1="750.0" y1="804.1" x2="1832.0" y2="804.1" class="g72s6"/>
+<rect x="750.0" y="804.1" width="1082.0" height="22.7" rx="0" class="g72s26"/>
+<text x="759.0" y="819.0" class="g72s2">3</text>
+<text x="845.6" y="819.0" class="g72s2">is_</text>
+<text x="1018.7" y="819.0" class="g72s2">sleeping_ 91.4%</text>
+<text x="1278.4" y="819.0" class="g72s2">is_ 0.03%</text>
+<text x="1538.0" y="819.0" class="g72s2">1</text>
+<text y="819.0" xml:space="preserve" class="g72s12"><tspan x="1689.5" textLength="25.7" lengthAdjust="spacing">same</tspan></text>
+<line x1="750.0" y1="826.8" x2="1832.0" y2="826.8" class="g72s6"/>
+<text x="759.0" y="841.7" class="g72s2">4</text>
+<text x="845.6" y="841.7" class="g72s2">sleeping_</text>
+<text x="1018.7" y="841.7" class="g72s2">peac 91.9%</text>
+<text x="1278.4" y="841.7" class="g72s2">sleeping_ 0.03%</text>
+<text x="1538.0" y="841.7" class="g72s2">1</text>
+<text y="841.7" xml:space="preserve" class="g72s12"><tspan x="1689.5" textLength="25.7" lengthAdjust="spacing">same</tspan></text>
+<line x1="750.0" y1="849.5" x2="1832.0" y2="849.5" class="g72s6"/>
+<rect x="750.0" y="849.5" width="1082.0" height="22.7" rx="0" class="g72s26"/>
+<text x="759.0" y="864.4" class="g72s2">5</text>
+<text x="845.6" y="864.4" class="g72s2">peac</text>
+<text x="1018.7" y="864.4" class="g72s2">efully_ 93.3%</text>
+<text x="1278.4" y="864.4" class="g72s2">is_ 0.04%</text>
+<text x="1538.0" y="864.4" class="g72s2">1</text>
+<text y="864.4" xml:space="preserve" class="g72s12"><tspan x="1689.5" textLength="25.7" lengthAdjust="spacing">same</tspan></text>
+<line x1="750.0" y1="872.2" x2="1832.0" y2="872.2" class="g72s6"/>
+<text x="759.0" y="887.1" class="g72s2">6</text>
+<text x="845.6" y="887.1" class="g72s2">efully_</text>
+<text x="1018.7" y="887.1" class="g72s2">&lt;EOS&gt; 91.2%</text>
+<text x="1278.4" y="887.1" class="g72s2">resting_ 0.03%</text>
+<text x="1538.0" y="887.1" class="g72s2">1</text>
+<text y="887.1" xml:space="preserve" class="g72s12"><tspan x="1689.5" textLength="25.7" lengthAdjust="spacing">same</tspan></text>
+<line x1="750.0" y1="894.9" x2="1832.0" y2="894.9" class="g72s6"/>
+<rect x="750.0" y="736.0" width="1082.0" height="158.9" rx="0" style="fill:none;stroke:var(--panelbd);stroke-width:1"/>
+<line x1="836.6" y1="736.0" x2="836.6" y2="894.9" class="g72s6"/>
+<line x1="1009.7" y1="736.0" x2="1009.7" y2="894.9" class="g72s6"/>
+<line x1="1269.4" y1="736.0" x2="1269.4" y2="894.9" class="g72s6"/>
+<line x1="1529.0" y1="736.0" x2="1529.0" y2="894.9" class="g72s6"/>
+<line x1="1680.5" y1="736.0" x2="1680.5" y2="894.9" class="g72s6"/>
+<rect x="34.0" y="916.9" width="1812.0" height="114.0" rx="8" class="g72s20"/>
+<path d="M39.55 917.86 A7.45 7.45 0 0 0 34.55 924.90 V1022.90 A7.45 7.45 0 0 0 39.55 1029.94 Z" class="g72s16"/>
+<rect x="44.0" y="926.4" width="22.0" height="17.0" rx="4" class="g72s17"/>
+<text x="55.0" y="938.9" class="g72s14">7</text>
+<text x="72.0" y="938.9" class="g72s18">cell 9 · &lt;module&gt;</text>
+<text x="720.0" y="991.9" class="g72s21">07</text>
+<text x="72.0" y="956.9" xml:space="preserve" class="g72s10"><tspan class="g72s0">sampled</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">_</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">=</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">model</tspan><tspan class="g72s1">.</tspan><tspan class="g72s11">generate</tspan><tspan class="g72s1">(</tspan><tspan class="g72s0">src</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">SOS</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">EOS</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">max_len</tspan><tspan class="g72s1">=</tspan><tspan class="g72s0">MAX_SEQ_LEN</tspan><tspan class="g72s1">,</tspan></text>
+<text x="72.0" y="973.9" xml:space="preserve" class="g72s10"><tspan class="g72s0">    </tspan><tspan class="g72s0">temperature</tspan><tspan class="g72s1">=</tspan><tspan class="g72s13">0.8</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">top_k</tspan><tspan class="g72s1">=</tspan><tspan class="g72s13">5</tspan><tspan class="g72s1">)</tspan></text>
+<text y="995.9" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="171.3" lengthAdjust="spacing">Five candidates, but temperature </tspan><tspan x="243.3" class="g72s3" textLength="16.9" lengthAdjust="spacing">0.8</tspan><tspan x="260.2" textLength="363.7" lengthAdjust="spacing"> makes the best even more dominant: the draw lands on it every time in</tspan></text>
+<text y="1011.9" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="40.9" lengthAdjust="spacing">this run.</tspan></text>
+<line x1="736.0" y1="926.9" x2="736.0" y2="1020.9" class="g72s19"/>
+<rect x="34.0" y="1040.9" width="1812.0" height="148.0" rx="8" style="fill:var(--infobg);stroke:var(--s1);stroke-width:1.5"/>
+<path d="M39.75 1042.01 A7.25 7.25 0 0 0 34.75 1048.90 V1180.90 A7.25 7.25 0 0 0 39.75 1187.79 Z" class="g72s16"/>
+<rect x="44.0" y="1050.4" width="22.0" height="17.0" rx="4" class="g72s17"/>
+<text x="55.0" y="1062.9" class="g72s14">8</text>
+<text x="72.0" y="1062.9" class="g72s18">cell 9 · &lt;module&gt;</text>
+<text y="1062.9" xml:space="preserve" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600"><tspan x="663.8" class="g72s4" textLength="33.6" lengthAdjust="spacing">new in </tspan><tspan x="697.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.4px;font-weight:600;fill:var(--accent)" textLength="22.6" lengthAdjust="spacing">v2.5</tspan></text>
+<text x="720.0" y="1132.9" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18">08</text>
+<text x="72.0" y="1080.9" xml:space="preserve" class="g72s10"><tspan class="g72s0">nucleus</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">_</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">=</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">model</tspan><tspan class="g72s1">.</tspan><tspan class="g72s11">generate</tspan><tspan class="g72s1">(</tspan><tspan class="g72s0">src</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">SOS</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">EOS</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">max_len</tspan><tspan class="g72s1">=</tspan><tspan class="g72s0">MAX_SEQ_LEN</tspan><tspan class="g72s1">,</tspan></text>
+<text x="72.0" y="1097.9" xml:space="preserve" class="g72s10"><tspan class="g72s0">    </tspan><tspan class="g72s0">temperature</tspan><tspan class="g72s1">=</tspan><tspan class="g72s13">0.8</tspan><tspan class="g72s1">,</tspan></text>
+<text x="72.0" y="1114.9" xml:space="preserve" class="g72s10"><tspan class="g72s0">                            </tspan><tspan class="g72s0">top_p</tspan><tspan class="g72s1">=</tspan><tspan class="g72s0">TOP_P</tspan><tspan class="g72s1">,</tspan></text>
+<text x="72.0" y="1131.9" xml:space="preserve" class="g72s10"><tspan class="g72s0">    </tspan><tspan class="g72s0">repetition_penalty</tspan><tspan class="g72s1">=</tspan><tspan class="g72s0">REPETITION_PENALTY</tspan><tspan class="g72s1">)</tspan></text>
+<text y="1153.9" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="67.1" lengthAdjust="spacing">Top-p keeps </tspan><tspan x="139.1" class="g72s3" textLength="40.0" lengthAdjust="spacing">1 token</tspan><tspan x="179.1" textLength="455.7" lengthAdjust="spacing"> at every step here, so this is greedy in disguise — exactly what top-p should do when the</tspan></text>
+<text y="1169.9" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="428.9" lengthAdjust="spacing">model is sure. The penalty never changes a choice: no token of this answer repeats.</tspan></text>
+<line x1="736.0" y1="1050.9" x2="736.0" y2="1178.9" class="g72s19"/>
+<rect x="34.0" y="1198.9" width="1812.0" height="97.0" rx="8" class="g72s20"/>
+<path d="M39.55 1199.86 A7.45 7.45 0 0 0 34.55 1206.90 V1287.90 A7.45 7.45 0 0 0 39.55 1294.94 Z" class="g72s16"/>
+<rect x="44.0" y="1208.4" width="22.0" height="17.0" rx="4" class="g72s17"/>
+<text x="55.0" y="1220.9" class="g72s14">9</text>
+<text x="72.0" y="1220.9" class="g72s18">cell 9 · &lt;module&gt;</text>
+<text x="720.0" y="1265.4" class="g72s21">09</text>
+<text x="72.0" y="1238.9" xml:space="preserve" class="g72s10"><tspan class="g72s0">beam</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">=</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">model</tspan><tspan class="g72s1">.</tspan><tspan class="g72s11">beam_search</tspan><tspan class="g72s1">(</tspan><tspan class="g72s0">src</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">SOS</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">EOS</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">beam_size</tspan><tspan class="g72s1">=</tspan><tspan class="g72s13">4</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">max_len</tspan><tspan class="g72s1">=</tspan><tspan class="g72s0">MAX_SEQ_LEN</tspan><tspan class="g72s1">)</tspan></text>
+<text y="1260.9" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="26.2" lengthAdjust="spacing">With </tspan><tspan x="98.2" class="g72s22" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="124.2" textLength="224.9" lengthAdjust="spacing">’s stop the beam returns the full sentence. (</tspan><tspan x="349.1" class="g72s22" textLength="13.0" lengthAdjust="spacing">V2</tspan><tspan x="362.1" textLength="274.0" lengthAdjust="spacing">’s stop on this same model would have returned “the</tspan></text>
+<text y="1276.9" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="70.2" lengthAdjust="spacing">cat efully” — </tspan><tspan x="142.2" class="g72s3" textLength="28.5" lengthAdjust="spacing">cell 2</tspan><tspan x="170.6" textLength="29.4" lengthAdjust="spacing">, part </tspan><tspan x="200.0" class="g72s3">3</tspan><tspan x="206.8" textLength="7.0" lengthAdjust="spacing">.)</tspan></text>
+<line x1="736.0" y1="1208.9" x2="736.0" y2="1285.9" class="g72s19"/>
+<rect x="750.0" y="1218.9" width="1082.0" height="26.0" rx="5" class="g72s24"/>
+<text x="759.0" y="1234.9" class="g72s23">Beam(4):  the cat is sleeping peacefully</text>
+<rect x="34.0" y="1305.9" width="1812.0" height="114.0" rx="8" class="g72s20"/>
+<path d="M39.55 1306.86 A7.45 7.45 0 0 0 34.55 1313.90 V1411.90 A7.45 7.45 0 0 0 39.55 1418.94 Z" class="g72s16"/>
+<rect x="44.0" y="1315.4" width="22.0" height="17.0" rx="4" class="g72s17"/>
+<text x="55.0" y="1327.9" class="g72s14">10</text>
+<text x="72.0" y="1327.9" class="g72s18">cell 9 · &lt;module&gt;</text>
+<text x="720.0" y="1380.9" class="g72s21">10</text>
+<text x="72.0" y="1345.9" xml:space="preserve" class="g72s10"><tspan class="g72s7">for</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">use_cache</tspan><tspan class="g72s0"> </tspan><tspan class="g72s7">in</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">(</tspan><tspan class="g72s7">False</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s7">True</tspan><tspan class="g72s1">)</tspan><tspan class="g72s1">:</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">.</tspan><tspan class="g72s1">.</tspan><tspan class="g72s1">.</tspan></text>
+<text x="72.0" y="1362.9" xml:space="preserve" class="g72s10"><tspan class="g72s11">print</tspan><tspan class="g72s1">(</tspan><tspan style="fill:var(--str)">&quot;identical results:&quot;</tspan><tspan class="g72s1">,</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">outs</tspan><tspan class="g72s0"> </tspan><tspan class="g72s1">=</tspan><tspan class="g72s1">=</tspan><tspan class="g72s0"> </tspan><tspan class="g72s0">reference</tspan><tspan class="g72s1">)</tspan></text>
+<text y="1384.9" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="119.5" lengthAdjust="spacing">The built-in check from </tspan><tspan x="191.5" class="g72s22" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="204.5" textLength="86.3" lengthAdjust="spacing"> still passes with </tspan><tspan x="290.8" class="g72s22" textLength="26.0" lengthAdjust="spacing">RoPE</tspan><tspan x="316.8" textLength="294.7" lengthAdjust="spacing">: the cached and uncached beam searches give the same</tspan></text>
+<text y="1400.9" xml:space="preserve" class="g72s8"><tspan x="72.0" textLength="46.0" lengthAdjust="spacing">answers.</tspan></text>
+<line x1="736.0" y1="1315.9" x2="736.0" y2="1409.9" class="g72s19"/>
+<rect x="750.0" y="1325.9" width="1082.0" height="54.0" rx="5" class="g72s24"/>
+<text x="759.0" y="1341.9" class="g72s23">beam search, use_cache=False: 0.045s</text>
+<text x="759.0" y="1355.9" class="g72s23">beam search, use_cache=True : 0.044s</text>
+<text x="759.0" y="1369.9" class="g72s23">identical results: True</text>
+<rect x="34.0" y="1443.9" width="1812.0" height="55.0" rx="6" class="g72s28"/>
+<path d="M38.50 1444.61 A5.50 5.50 0 0 0 34.50 1449.90 V1492.94 A5.50 5.50 0 0 0 38.50 1498.23 Z" class="g72s29"/>
+<text y="1469.9" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600"><tspan x="50.0" class="g72s4" textLength="33.2" lengthAdjust="spacing">What </tspan><tspan x="83.2" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="110.4" class="g72s4" textLength="62.9" lengthAdjust="spacing"> gains here</tspan></text>
+<text y="1487.4" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px"><tspan x="50.0" textLength="1205.2" lengthAdjust="spacing">A fourth way of writing, top-p with the repetition penalty, sits beside the other three — and on a confident model it behaves exactly like greedy, as it should. Every answer is right, and the cache check still passes with the rotation.</tspan></text>
+<rect x="34.0" y="1520.9" width="1812.0" height="34.0" rx="6" class="g72s33"/>
+<rect x="48.0" y="1529.9" width="15.0" height="15.0" rx="3" class="g72s34"/>
+<text y="1540.9" xml:space="preserve" class="g72s37"><tspan x="70.0" textLength="256.7" lengthAdjust="spacing">sequence A — &quot;the dog sat on the floor&quot; (padded by </tspan><tspan x="326.7" class="g72s3">2</tspan><tspan x="333.2">)</tspan></text>
+<rect x="373.1" y="1529.9" width="15.0" height="15.0" rx="3" class="g72s35"/>
+<text y="1540.9" xml:space="preserve" class="g72s37"><tspan x="395.1" textLength="386.3" lengthAdjust="spacing">sequence B — &quot;the cat is sleeping on the sofa&quot; (no padding — it sets the width)</tspan></text>
+<line x1="28.0" y1="1580.9" x2="1852.0" y2="1580.9" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1597.9" xml:space="preserve" class="g72s25"><tspan x="28.0" textLength="404.7" lengthAdjust="spacing">Two kinds of numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="432.7" class="g72s27" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="457.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="600.7" class="g72s3" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="616.9" textLength="234.8" lengthAdjust="spacing">.0 on its own two sentence pairs (CPU, seeded, </tspan><tspan x="851.6" class="g72s3" textLength="22.7" lengthAdjust="spacing">15.6</tspan><tspan x="874.3" textLength="181.0" lengthAdjust="spacing"> s): its printed lines, the loss of every </tspan><tspan x="1055.3" class="g72s27" textLength="31.1" lengthAdjust="spacing">epoch</tspan><tspan x="1086.4" textLength="450.0" lengthAdjust="spacing">, the checkpoint it kept. UNTRAINED numbers are a pure-Python trace of the same code on </tspan><tspan x="1536.4" class="g72s27" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1548.8" textLength="294.6" lengthAdjust="spacing">’s seeded starting weights, and every one of them has been</tspan></text>
+<text y="1612.9" xml:space="preserve" class="g72s25"><tspan x="28.0" textLength="352.6" lengthAdjust="spacing">checked against the notebook’s own PyTorch model (largest difference </tspan><tspan x="380.6" class="g72s3" textLength="39.5" lengthAdjust="spacing">1.3e-06</tspan><tspan x="420.2" textLength="156.5" lengthAdjust="spacing">). The notebook file is only read.</tspan></text>
+</svg>

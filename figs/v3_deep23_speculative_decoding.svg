@@ -1,0 +1,819 @@
+<svg data-src="v3_deep23_speculative_decoding.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="4210" viewBox="0 0 1880 4210">
+<style>.txfig .g113s0{font-weight:600}.txfig .g113s1{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g113s2{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g113s3{font-weight:600;fill:var(--ink)}.txfig .g113s4{fill:var(--op)}.txfig .g113s5{fill:var(--code)}.txfig .g113s6{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g113s7{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g113s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g113s9{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g113s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g113s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g113s12{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g113s13{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g113s14{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g113s15{fill:var(--panel);stroke:var(--panelbd);stroke-width:1}.txfig .g113s16{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:middle}.txfig .g113s17{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g113s18{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g113s19{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:middle}.txfig .g113s20{fill:none;stroke:var(--s3);stroke-width:1.4;stroke-dasharray:3 2}.txfig .g113s21{fill:var(--accent);stroke:none}.txfig .g113s22{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g113s23{fill:var(--keep);stroke:none;stroke-width:1}.txfig .g113s24{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g113s25{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g113s26{fill:var(--cellbg);stroke:var(--hair);stroke-width:1}.txfig .g113s27{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g113s28{fill:var(--fn)}.txfig .g113s29{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g113s30{font-weight:600;fill:var(--ink2)}.txfig .g113s31{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g113s32{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g113s33{fill:var(--kw)}.txfig .g113s34{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g113s35{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g113s36{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g113s37{fill:var(--num)}.txfig .g113s38{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g113s39{fill:var(--keepbg);stroke:var(--keep);stroke-width:1}.txfig .g113s40{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:middle}.txfig .g113s41{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:middle}.txfig .g113s42{fill:var(--cmt)}.txfig .g113s43{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start}.txfig .g113s44{fill:var(--infobg);stroke:var(--infobd);stroke-width:1}.txfig .g113s45{fill:var(--drop);stroke:none;stroke-width:1}.txfig .g113s46{fill:var(--s2);stroke:none;stroke-width:1}.txfig .g113s47{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g113s48{fill:var(--keep);stroke:none}.txfig .g113s49{stroke:var(--ink3);stroke-width:1.2;stroke-linecap:round}.txfig .g113s50{fill:none;stroke:var(--ink3);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round}.txfig .g113s51{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g113s52{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g113s53{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g113s54{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g113s55{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g113s56{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g113s57{fill:var(--keepbg);stroke:var(--keep);stroke-width:1.8}.txfig .g113s58{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g113s59{stroke:var(--grid);stroke-width:1;stroke-linecap:round}.txfig .g113s60{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch113" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash113" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="4210" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v3 · DEEP DIVE 23 / 27</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="191.7" class="g113s0" textLength="637.2" lengthAdjust="spacing">Speculative decoding — two tokens per pass, the same answers</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="523.2" lengthAdjust="spacing">guess, then check · pass by pass · a wrong guess · why greedy cannot change · sampling: </tspan><tspan x="557.2" class="g113s38" textLength="95.6" lengthAdjust="spacing">min(1, p ÷ q)</tspan><tspan x="652.8" textLength="258.7" lengthAdjust="spacing"> · passes and time · the experiment · against </tspan><tspan x="911.5" class="g113s38" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="940.9" textLength="88.9" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="44.1" lengthAdjust="spacing">The tiny </tspan><tspan x="78.1" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="91.1" textLength="398.7" lengthAdjust="spacing"> model (a sentence it knows and one it never saw), the real notebook’s code (</tspan><tspan x="489.8" class="g113s10" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="548.4">, </tspan><tspan x="554.8" class="g113s10" textLength="58.6" lengthAdjust="spacing">run3.json</tspan><tspan x="613.4" textLength="121.9" lengthAdjust="spacing">), this machine’s CPU (</tspan><tspan x="735.3" class="g113s10" textLength="58.6" lengthAdjust="spacing">bench3.py</tspan><tspan x="793.9" textLength="108.7" lengthAdjust="spacing">) and the experiment.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g113s47"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g113s48"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g113s0" textLength="145.2" lengthAdjust="spacing">Write two, check once</tspan></text>
+<text y="169.0" xml:space="preserve" class="g113s54"><tspan x="54.0">A</tspan><tspan x="62.7"> </tspan><tspan x="66.8" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="102.2"> </tspan><tspan x="106.3" textLength="33.9" lengthAdjust="spacing">writes</tspan><tspan x="140.2"> </tspan><tspan x="144.3" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="166.0"> </tspan><tspan x="170.1" textLength="31.8" lengthAdjust="spacing">token</tspan><tspan x="201.9"> </tspan><tspan x="206.0" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="224.7"> </tspan><tspan x="228.8" textLength="31.1" lengthAdjust="spacing">pass,</tspan><tspan x="259.9"> </tspan><tspan x="264.0" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="285.7"> </tspan><tspan x="289.8" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="318.0"> </tspan><tspan x="322.0" textLength="27.5" lengthAdjust="spacing">pass</tspan><tspan x="349.5"> </tspan><tspan x="353.6" textLength="25.3" lengthAdjust="spacing">runs</tspan><tspan x="378.9"> </tspan><tspan x="383.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="401.0"> </tspan><tspan x="405.1" textLength="34.0" lengthAdjust="spacing">whole</tspan><tspan x="439.1"> </tspan><tspan x="443.2" textLength="50.6" lengthAdjust="spacing">decoder.</tspan><tspan x="493.8"> </tspan><tspan x="497.9" textLength="19.5" lengthAdjust="spacing">But</tspan><tspan x="517.4"> </tspan><tspan x="521.5">a</tspan><tspan x="528.7"> </tspan><tspan x="532.8" textLength="27.5" lengthAdjust="spacing">pass</tspan><tspan x="560.2"> </tspan><tspan x="564.3" textLength="21.0" lengthAdjust="spacing">can</tspan><tspan x="585.3"> </tspan><tspan x="589.4" textLength="26.0" lengthAdjust="spacing">read</tspan><tspan x="615.4"> </tspan><tspan x="619.5" textLength="41.9" lengthAdjust="spacing">several</tspan><tspan x="661.4"> </tspan><tspan x="665.5" textLength="38.3" lengthAdjust="spacing">tokens</tspan><tspan x="703.8"> </tspan><tspan x="707.9" textLength="10.8" lengthAdjust="spacing">at</tspan><tspan x="718.7"> </tspan><tspan x="722.8" textLength="28.2" lengthAdjust="spacing">once</tspan><tspan x="751.0"> </tspan><tspan x="755.1" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="776.8"> </tspan><tspan x="780.9" textLength="31.8" lengthAdjust="spacing">score</tspan><tspan x="812.6"> </tspan><tspan x="816.7" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="844.9"> </tspan><tspan x="849.0" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="859.9"> </tspan><tspan x="863.9" textLength="32.5" lengthAdjust="spacing">them.</tspan><tspan x="896.5"> </tspan><tspan x="900.6" textLength="67.2" lengthAdjust="spacing">Speculative</tspan><tspan x="967.7"> </tspan><tspan x="971.8" textLength="52.8" lengthAdjust="spacing">decoding</tspan><tspan x="1024.6"> </tspan><tspan x="1028.7" textLength="60.7" lengthAdjust="spacing">(Leviathan</tspan><tspan x="1089.4"> </tspan><tspan x="1093.5" textLength="10.8" lengthAdjust="spacing">et</tspan><tspan x="1104.3"> </tspan><tspan x="1108.4" textLength="17.3" lengthAdjust="spacing">al.,</tspan><tspan x="1125.8"> </tspan><tspan x="1129.8" class="g113s3" textLength="30.6" lengthAdjust="spacing">2023</tspan><tspan x="1160.5">;</tspan><tspan x="1164.1"> </tspan><tspan x="1168.2" textLength="31.1" lengthAdjust="spacing">Chen</tspan><tspan x="1199.3"> </tspan><tspan x="1203.4" textLength="10.8" lengthAdjust="spacing">et</tspan><tspan x="1214.2"> </tspan><tspan x="1218.3" textLength="17.3" lengthAdjust="spacing">al.,</tspan><tspan x="1235.6"> </tspan><tspan x="1239.7" class="g113s3" textLength="30.6" lengthAdjust="spacing">2023</tspan><tspan x="1270.4">)</tspan><tspan x="1274.7"> </tspan><tspan x="1278.8" textLength="20.2" lengthAdjust="spacing">lets</tspan><tspan x="1299.0"> </tspan><tspan x="1303.1">a</tspan><tspan x="1310.3"> </tspan><tspan x="1314.4" textLength="35.4" lengthAdjust="spacing">cheap</tspan><tspan x="1349.8"> </tspan><tspan x="1353.9" textLength="46.2" lengthAdjust="spacing">guesser</tspan><tspan x="1400.2"> </tspan><tspan x="1404.3" textLength="47.0" lengthAdjust="spacing">propose</tspan><tspan x="1451.2"> </tspan><tspan x="1455.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1473.4"> </tspan><tspan x="1477.5" textLength="24.6" lengthAdjust="spacing">next</tspan><tspan x="1502.1"> </tspan><tspan x="1506.2" textLength="35.4" lengthAdjust="spacing">token;</tspan><tspan x="1541.6"> </tspan><tspan x="1545.7" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1567.3"> </tspan><tspan x="1571.4" textLength="27.5" lengthAdjust="spacing">pass</tspan><tspan x="1598.9"> </tspan><tspan x="1603.0" textLength="40.5" lengthAdjust="spacing">checks</tspan><tspan x="1643.4"> </tspan><tspan x="1647.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1665.6"> </tspan><tspan x="1669.7" textLength="34.7" lengthAdjust="spacing">guess</tspan><tspan x="1704.4"> </tspan><tspan x="1708.5" textLength="25.3" lengthAdjust="spacing">and,</tspan><tspan x="1733.8"> </tspan><tspan x="1737.9" textLength="31.1" lengthAdjust="spacing">when</tspan><tspan x="1768.9"> </tspan><tspan x="1773.0" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="1779.5"> </tspan><tspan x="1783.6" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1793.0"> </tspan><tspan x="1797.1" textLength="28.9" lengthAdjust="spacing">right,</tspan></text>
+<text y="188.0" xml:space="preserve" class="g113s54"><tspan x="54.0" textLength="165.5" lengthAdjust="spacing">also writes the token after it. </tspan><tspan x="219.5" class="g113s38" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="234.2" textLength="658.8" lengthAdjust="spacing">’s guesser is its own multi-token head. The answer never changes: greedy stays greedy, sampling keeps its odds.</tspan></text>
+<text x="34.0" y="268.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">WHERE IT LIVES</text>
+<text y="290.5" xml:space="preserve" class="g113s55"><tspan x="34.0" textLength="112.6" lengthAdjust="spacing">the writing loop, with the</tspan></text>
+<text y="305.7" xml:space="preserve" class="g113s55"><tspan x="34.0" textLength="145.3" lengthAdjust="spacing">multi-token head as its guesser</tspan></text>
+<rect x="204.0" y="254.0" width="120.0" height="40.0" rx="6" class="g113s26"/>
+<text x="264.0" y="278.0" class="g113s27">source words</text>
+<line x1="327.0" y1="274.0" x2="347.0" y2="274.0" class="g113s49"/>
+<path d="M341.0 270.0 L347.0 274.0 L341.0 278.0" class="g113s50"/>
+<rect x="350.0" y="234.0" width="396.0" height="72.0" rx="8" class="g113s25"/>
+<text x="360.0" y="247.0" class="g113s56">encoder × 2</text>
+<rect x="360.0" y="254.0" width="182.0" height="40.0" rx="6" class="g113s26"/>
+<text x="451.0" y="278.0" class="g113s27">self-attention</text>
+<rect x="554.0" y="254.0" width="182.0" height="40.0" rx="6" class="g113s26"/>
+<text x="645.0" y="278.0" class="g113s27">feed-forward</text>
+<line x1="749.0" y1="274.0" x2="769.0" y2="274.0" class="g113s49"/>
+<path d="M763.0 270.0 L769.0 274.0 L763.0 278.0" class="g113s50"/>
+<rect x="772.0" y="234.0" width="588.0" height="72.0" rx="8" class="g113s25"/>
+<text x="782.0" y="247.0" class="g113s56">decoder × 2</text>
+<rect x="782.0" y="254.0" width="182.0" height="40.0" rx="6" class="g113s26"/>
+<text x="873.0" y="278.0" class="g113s27">self-attention</text>
+<rect x="976.0" y="254.0" width="182.0" height="40.0" rx="6" class="g113s26"/>
+<text x="1067.0" y="278.0" class="g113s27">cross-attention</text>
+<rect x="1170.0" y="254.0" width="182.0" height="40.0" rx="6" class="g113s26"/>
+<text x="1261.0" y="278.0" class="g113s27">feed-forward</text>
+<line x1="1363.0" y1="274.0" x2="1383.0" y2="274.0" class="g113s49"/>
+<path d="M1377.0 270.0 L1383.0 274.0 L1377.0 278.0" class="g113s50"/>
+<rect x="1386.0" y="254.0" width="200.0" height="40.0" rx="6" class="g113s26"/>
+<text x="1486.0" y="271.0" class="g113s27">output layer</text>
+<text x="1486.0" y="286.0" class="g113s41">a score for every word</text>
+<line x1="1589.0" y1="274.0" x2="1609.0" y2="274.0" class="g113s49"/>
+<path d="M1603.0 270.0 L1609.0 274.0 L1603.0 278.0" class="g113s50"/>
+<rect x="1612.0" y="254.0" width="120.0" height="40.0" rx="6" class="g113s26"/>
+<text x="1672.0" y="278.0" class="g113s27">next word</text>
+<rect x="350.0" y="316.0" width="196.0" height="40.0" rx="6" class="g113s26"/>
+<text x="448.0" y="333.0" class="g113s27">optimizer</text>
+<text x="448.0" y="348.0" class="g113s41">how training updates</text>
+<rect x="554.0" y="316.0" width="182.0" height="40.0" rx="6" class="g113s26"/>
+<text x="645.0" y="340.0" class="g113s27">stored weights</text>
+<rect x="782.0" y="316.0" width="182.0" height="40.0" rx="6" class="g113s26"/>
+<text x="873.0" y="333.0" class="g113s27">KV cache</text>
+<text x="873.0" y="348.0" class="g113s41">kept while writing</text>
+<rect x="976.0" y="316.0" width="376.0" height="40.0" rx="6" class="g113s57"/>
+<text x="1164.0" y="333.0" class="g113s58">writing loop</text>
+<text x="1164.0" y="348.0" class="g113s41">one word per pass of the model</text>
+<rect x="1386.0" y="316.0" width="200.0" height="40.0" rx="6" class="g113s57"/>
+<text x="1486.0" y="333.0" class="g113s58">multi-token head</text>
+<text x="1486.0" y="348.0" class="g113s41">guesses the word after next</text>
+<text y="393.2" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px"><tspan x="34.0" textLength="74.8" lengthAdjust="spacing">The heart of </tspan><tspan x="108.8" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)" textLength="164.3" lengthAdjust="spacing">speculative_generate()</tspan><tspan x="273.2" textLength="24.9" lengthAdjust="spacing">, as </tspan><tspan x="298.1" class="g113s3" textLength="32.7" lengthAdjust="spacing">cell 2</tspan><tspan x="330.8" textLength="52.1" lengthAdjust="spacing"> writes it:</tspan></text>
+<rect x="786.0" y="380.0" width="1060.0" height="172.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="398.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="796.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="807.9" class="g113s0" textLength="113.2" lengthAdjust="spacing"> · speculative decoding</tspan></text>
+<text x="796.0" y="421.0" xml:space="preserve" class="g113s36"><tspan class="g113s5">feed</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">=</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">torch</tspan><tspan class="g113s4">.</tspan><tspan class="g113s28">cat</tspan><tspan class="g113s4">(</tspan><tspan class="g113s4">[</tspan><tspan class="g113s5">tgt</tspan><tspan class="g113s4">[</tspan><tspan class="g113s4">:</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">-</tspan><tspan class="g113s37">1</tspan><tspan class="g113s4">:</tspan><tspan class="g113s4">]</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">guess</tspan><tspan class="g113s4">]</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">dim</tspan><tspan class="g113s4">=</tspan><tspan class="g113s37">1</tspan><tspan class="g113s4">)</tspan><tspan class="g113s5">          </tspan><tspan class="g113s42"># the last token + the head’s guess</tspan></text>
+<text x="796.0" y="440.5" xml:space="preserve" class="g113s36"><tspan class="g113s5">logits</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">h</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">=</tspan><tspan class="g113s5"> </tspan><tspan class="g113s33">self</tspan><tspan class="g113s4">.</tspan><tspan class="g113s28">decode</tspan><tspan class="g113s4">(</tspan><tspan class="g113s5">feed</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">enc_out</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">src_mask</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s33">None</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">cache</tspan><tspan class="g113s4">=</tspan><tspan class="g113s5">cache</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">start_pos</tspan><tspan class="g113s4">=</tspan><tspan class="g113s5">tgt</tspan><tspan class="g113s4">.</tspan><tspan class="g113s28">size</tspan><tspan class="g113s4">(</tspan><tspan class="g113s37">1</tspan><tspan class="g113s4">)</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">-</tspan><tspan class="g113s5"> </tspan><tspan class="g113s37">1</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">return_hidden</tspan><tspan class="g113s4">=</tspan><tspan class="g113s33">True</tspan><tspan class="g113s4">)</tspan></text>
+<text x="796.0" y="460.0" xml:space="preserve" class="g113s36"><tspan class="g113s5">p</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">=</tspan><tspan class="g113s5"> </tspan><tspan class="g113s33">self</tspan><tspan class="g113s4">.</tspan><tspan class="g113s28">_rules</tspan><tspan class="g113s4">(</tspan><tspan class="g113s5">logits</tspan><tspan class="g113s4">[</tspan><tspan class="g113s4">:</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s37">0</tspan><tspan class="g113s4">]</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">tgt</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">*</tspan><tspan class="g113s4">*</tspan><tspan class="g113s5">rules</tspan><tspan class="g113s4">)</tspan><tspan class="g113s5">            </tspan><tspan class="g113s42"># the model’s scores where the guess goes</tspan></text>
+<text x="796.0" y="479.5" xml:space="preserve" class="g113s36"><tspan class="g113s5">token</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">=</tspan><tspan class="g113s5"> </tspan><tspan class="g113s28">pick</tspan><tspan class="g113s4">(</tspan><tspan class="g113s5">p</tspan><tspan class="g113s4">)</tspan><tspan class="g113s4">;</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">keep</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">=</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">token</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">=</tspan><tspan class="g113s4">=</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">guess</tspan><tspan class="g113s5">                  </tspan><tspan class="g113s42"># greedy (sampling: min(1, p/q), section D)</tspan></text>
+<text x="796.0" y="499.0" xml:space="preserve" class="g113s36"><tspan class="g113s28">write</tspan><tspan class="g113s4">(</tspan><tspan class="g113s5">token</tspan><tspan class="g113s4">)</tspan></text>
+<text x="796.0" y="518.5" xml:space="preserve" class="g113s36"><tspan class="g113s33">if</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">keep</tspan><tspan class="g113s4">.</tspan><tspan class="g113s28">all</tspan><tspan class="g113s4">(</tspan><tspan class="g113s4">)</tspan><tspan class="g113s4">:</tspan><tspan class="g113s5"> </tspan><tspan class="g113s28">write</tspan><tspan class="g113s4">(</tspan><tspan class="g113s28">pick</tspan><tspan class="g113s4">(</tspan><tspan class="g113s33">self</tspan><tspan class="g113s4">.</tspan><tspan class="g113s28">_rules</tspan><tspan class="g113s4">(</tspan><tspan class="g113s5">logits</tspan><tspan class="g113s4">[</tspan><tspan class="g113s4">:</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s37">1</tspan><tspan class="g113s4">]</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s5">tgt</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s4">*</tspan><tspan class="g113s4">*</tspan><tspan class="g113s5">rules</tspan><tspan class="g113s4">)</tspan><tspan class="g113s4">)</tspan><tspan class="g113s4">)</tspan><tspan class="g113s5">     </tspan><tspan class="g113s42"># a second token, same pass</tspan></text>
+<text x="796.0" y="538.0" xml:space="preserve" class="g113s36"><tspan class="g113s33">else</tspan><tspan class="g113s4">:</tspan><tspan class="g113s5"> </tspan><tspan class="g113s33">self</tspan><tspan class="g113s4">.</tspan><tspan class="g113s28">_trim_cache</tspan><tspan class="g113s4">(</tspan><tspan class="g113s5">cache</tspan><tspan class="g113s4">,</tspan><tspan class="g113s5"> </tspan><tspan class="g113s37">1</tspan><tspan class="g113s4">)</tspan><tspan class="g113s5">                        </tspan><tspan class="g113s42"># forget the guess</tspan></text>
+<rect x="34.0" y="574.5" width="1812.0" height="30.0" rx="6" class="g113s13"/>
+<path d="M38.50 575.21 A5.50 5.50 0 0 0 34.50 580.50 V598.50 A5.50 5.50 0 0 0 38.50 603.79 Z" class="g113s21"/>
+<text y="594.5" xml:space="preserve" class="g113s34"><tspan x="50.0" class="g113s0" textLength="250.5" lengthAdjust="spacing">A · Pass by pass, on a sentence it knows</tspan></text>
+<text y="594.5" xml:space="preserve" class="g113s35"><tspan x="318.5" textLength="470.6" lengthAdjust="spacing">“the cat is sleeping on the sof a” → “the cat is sleeping peac efully”, the tiny model, greedy</tspan></text>
+<text y="622.5" xml:space="preserve" class="g113s22"><tspan x="38.0" class="g113s0" textLength="78.5" lengthAdjust="spacing">How to read it</tspan></text>
+<text y="640.5" xml:space="preserve" class="g113s11"><tspan x="38.0" textLength="190.1" lengthAdjust="spacing">Each box is one pass of the model. </tspan><tspan x="228.1" class="g113s14" textLength="67.9" lengthAdjust="spacing">generate()</tspan><tspan x="296.0" textLength="146.7" lengthAdjust="spacing"> writes one token per pass. </tspan><tspan x="442.7" class="g113s14" textLength="149.4" lengthAdjust="spacing">speculative_generate()</tspan><tspan x="592.1" textLength="870.2" lengthAdjust="spacing"> writes the first token; after that, each pass checks the head’s guess. If the model’s own pick at that place is the guess (ticked), the pass also writes the next token.</tspan></text>
+<text x="34.0" y="673.9" class="g113s43">generate(): 7 passes</text>
+<rect x="34.0" y="695.9" width="52.8" height="40.0" rx="6" class="g113s15"/>
+<text x="60.4" y="690.9" class="g113s16">pass 1</text>
+<rect x="42.0" y="703.9" width="36.8" height="24.0" rx="5" class="g113s18"/>
+<text x="60.4" y="720.2" class="g113s19">the</text>
+<rect x="98.8" y="695.9" width="52.8" height="40.0" rx="6" class="g113s15"/>
+<text x="125.2" y="690.9" class="g113s16">pass 2</text>
+<rect x="106.8" y="703.9" width="36.8" height="24.0" rx="5" class="g113s18"/>
+<text x="125.2" y="720.2" class="g113s19">cat</text>
+<rect x="163.5" y="695.9" width="45.8" height="40.0" rx="6" class="g113s15"/>
+<text x="186.5" y="690.9" class="g113s16">pass 3</text>
+<rect x="171.5" y="703.9" width="29.8" height="24.0" rx="5" class="g113s18"/>
+<text x="186.5" y="720.2" class="g113s19">is</text>
+<rect x="221.4" y="695.9" width="87.4" height="40.0" rx="6" class="g113s15"/>
+<text x="265.1" y="690.9" class="g113s16">pass 4</text>
+<rect x="229.4" y="703.9" width="71.4" height="24.0" rx="5" class="g113s18"/>
+<text x="265.1" y="720.2" class="g113s19">sleeping</text>
+<rect x="320.8" y="695.9" width="59.7" height="40.0" rx="6" class="g113s15"/>
+<text x="350.6" y="690.9" class="g113s16">pass 5</text>
+<rect x="328.8" y="703.9" width="43.7" height="24.0" rx="5" class="g113s18"/>
+<text x="350.6" y="720.2" class="g113s19">peac</text>
+<rect x="392.5" y="695.9" width="73.5" height="40.0" rx="6" class="g113s15"/>
+<text x="429.2" y="690.9" class="g113s16">pass 6</text>
+<rect x="400.5" y="703.9" width="57.5" height="24.0" rx="5" class="g113s18"/>
+<text x="429.2" y="720.2" class="g113s19">efully</text>
+<rect x="478.0" y="695.9" width="66.6" height="40.0" rx="6" class="g113s15"/>
+<text x="511.3" y="690.9" class="g113s16">pass 7</text>
+<rect x="486.0" y="703.9" width="50.6" height="24.0" rx="5" class="g113s18"/>
+<text x="511.3" y="720.2" class="g113s19">&lt;EOS&gt;</text>
+<text x="34.0" y="755.9" class="g113s43">speculative_generate(): 4 passes, the same 7 tokens</text>
+<rect x="34.0" y="777.9" width="52.8" height="40.0" rx="6" class="g113s15"/>
+<text x="60.4" y="772.9" class="g113s16">pass 1</text>
+<rect x="42.0" y="785.9" width="36.8" height="24.0" rx="5" class="g113s18"/>
+<text x="60.4" y="802.2" class="g113s19">the</text>
+<rect x="98.8" y="777.9" width="102.5" height="40.0" rx="6" class="g113s15"/>
+<text x="150.0" y="772.9" class="g113s16">pass 2</text>
+<rect x="106.8" y="785.9" width="50.6" height="24.0" rx="5" class="g113s39"/>
+<text x="132.1" y="802.2" class="g113s40">cat ✓</text>
+<rect x="163.4" y="785.9" width="29.8" height="24.0" rx="5" class="g113s18"/>
+<text x="178.3" y="802.2" class="g113s19">is</text>
+<rect x="213.2" y="777.9" width="150.9" height="40.0" rx="6" class="g113s15"/>
+<text x="288.7" y="772.9" class="g113s16">pass 3</text>
+<rect x="221.2" y="785.9" width="85.2" height="24.0" rx="5" class="g113s39"/>
+<text x="263.8" y="802.2" class="g113s40">sleeping ✓</text>
+<rect x="312.5" y="785.9" width="43.7" height="24.0" rx="5" class="g113s18"/>
+<text x="334.3" y="802.2" class="g113s19">peac</text>
+<rect x="376.2" y="777.9" width="144.0" height="40.0" rx="6" class="g113s15"/>
+<text x="448.2" y="772.9" class="g113s16">pass 4</text>
+<rect x="384.2" y="785.9" width="71.4" height="24.0" rx="5" class="g113s39"/>
+<text x="419.8" y="802.2" class="g113s40">efully ✓</text>
+<rect x="461.5" y="785.9" width="50.6" height="24.0" rx="5" class="g113s18"/>
+<text x="486.8" y="802.2" class="g113s19">&lt;EOS&gt;</text>
+<rect x="34.0" y="831.9" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="847.9" xml:space="preserve" class="g113s7"><tspan x="43.0" class="g113s0" textLength="23.5" lengthAdjust="spacing">pass</tspan></text>
+<text y="847.9" xml:space="preserve" class="g113s7"><tspan x="133.0" class="g113s0" textLength="27.8" lengthAdjust="spacing">reads</tspan></text>
+<text y="847.9" xml:space="preserve" class="g113s7"><tspan x="463.0" class="g113s0" textLength="92.8" lengthAdjust="spacing">the guess checked</tspan></text>
+<text y="847.9" xml:space="preserve" class="g113s7"><tspan x="703.0" class="g113s0" textLength="129.2" lengthAdjust="spacing">the model’s pick there (p)</tspan></text>
+<text y="847.9" xml:space="preserve" class="g113s7"><tspan x="1033.0" class="g113s0" textLength="21.0" lengthAdjust="spacing">kept</tspan></text>
+<text y="847.9" xml:space="preserve" class="g113s7"><tspan x="1143.0" class="g113s0" textLength="29.1" lengthAdjust="spacing">writes</tspan></text>
+<text y="847.9" xml:space="preserve" class="g113s7"><tspan x="1473.0" class="g113s0" textLength="129.2" lengthAdjust="spacing">the head’s next guess (q)</tspan></text>
+<text x="43.0" y="872.8" class="g113s1">1</text>
+<text x="133.0" y="872.8" class="g113s1">&lt;SOS&gt;</text>
+<text x="463.0" y="872.8" class="g113s1">— (nothing to check)</text>
+<text x="703.0" y="872.8" class="g113s1">the (0.9172)</text>
+<text y="872.8" xml:space="preserve" class="g113s8"><tspan x="1033.0">—</tspan></text>
+<text x="1143.0" y="872.8" class="g113s1">the</text>
+<text x="1473.0" y="872.8" class="g113s1">cat (0.8953)</text>
+<line x1="34.0" y1="881.9" x2="1846.0" y2="881.9" class="g113s2"/>
+<rect x="34.0" y="881.9" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text x="43.0" y="898.8" class="g113s1">2</text>
+<text x="133.0" y="898.8" class="g113s1">the, the guess cat</text>
+<text x="463.0" y="898.8" class="g113s1">cat</text>
+<text x="703.0" y="898.8" class="g113s1">cat (0.9195)</text>
+<text y="898.8" xml:space="preserve" class="g113s8"><tspan x="1033.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1143.0" y="898.8" class="g113s1">cat, is</text>
+<text x="1473.0" y="898.8" class="g113s1">sleeping (0.9182)</text>
+<line x1="34.0" y1="907.9" x2="1846.0" y2="907.9" class="g113s2"/>
+<text x="43.0" y="924.8" class="g113s1">3</text>
+<text x="133.0" y="924.8" class="g113s1">is, the guess sleeping</text>
+<text x="463.0" y="924.8" class="g113s1">sleeping</text>
+<text x="703.0" y="924.8" class="g113s1">sleeping (0.9097)</text>
+<text y="924.8" xml:space="preserve" class="g113s8"><tspan x="1033.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1143.0" y="924.8" class="g113s1">sleeping, peac</text>
+<text x="1473.0" y="924.8" class="g113s1">efully (0.9087)</text>
+<line x1="34.0" y1="933.9" x2="1846.0" y2="933.9" class="g113s2"/>
+<rect x="34.0" y="933.9" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text x="43.0" y="950.8" class="g113s1">4</text>
+<text x="133.0" y="950.8" class="g113s1">peac, the guess efully</text>
+<text x="463.0" y="950.8" class="g113s1">efully</text>
+<text x="703.0" y="950.8" class="g113s1">efully (0.9112)</text>
+<text y="950.8" xml:space="preserve" class="g113s8"><tspan x="1033.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1143.0" y="950.8" class="g113s1">efully, &lt;EOS&gt;</text>
+<text x="1473.0" y="950.8" class="g113s1">—</text>
+<line x1="34.0" y1="959.9" x2="1846.0" y2="959.9" class="g113s2"/>
+<rect x="34.0" y="855.9" width="1812.0" height="104.0" rx="0" class="g113s25"/>
+<line x1="124.0" y1="855.9" x2="124.0" y2="959.9" class="g113s2"/>
+<line x1="454.0" y1="855.9" x2="454.0" y2="959.9" class="g113s2"/>
+<line x1="694.0" y1="855.9" x2="694.0" y2="959.9" class="g113s2"/>
+<line x1="1024.0" y1="855.9" x2="1024.0" y2="959.9" class="g113s2"/>
+<line x1="1134.0" y1="855.9" x2="1134.0" y2="959.9" class="g113s2"/>
+<line x1="1464.0" y1="855.9" x2="1464.0" y2="959.9" class="g113s2"/>
+<rect x="34.0" y="971.9" width="1812.0" height="72.6" rx="6" class="g113s44"/>
+<path d="M38.50 972.61 A5.50 5.50 0 0 0 34.50 977.90 V1038.46 A5.50 5.50 0 0 0 38.50 1043.75 Z" class="g113s21"/>
+<text y="997.9" xml:space="preserve" class="g113s22"><tspan x="50.0" class="g113s0" textLength="130.1" lengthAdjust="spacing">Why the check is exact</tspan></text>
+<text y="1015.4" xml:space="preserve" class="g113s11"><tspan x="50.0" class="g113s3" textLength="36.0" lengthAdjust="spacing">Row 0</tspan><tspan x="86.0" textLength="571.6" lengthAdjust="spacing"> of a pass sits at the last token written. A causal model never looks at what comes after a position, so those </tspan><tspan x="657.7" class="g113s14" textLength="40.7" lengthAdjust="spacing">scores</tspan><tspan x="698.4" textLength="587.6" lengthAdjust="spacing"> are exactly the ones plain greedy computes there: the guess cannot sway the check. When the guess is right, </tspan><tspan x="1286.0" class="g113s3" textLength="31.1" lengthAdjust="spacing">row 1</tspan><tspan x="1317.1" textLength="516.8" lengthAdjust="spacing"> was computed with the right token in place and is greedy’s next step as well. The fewest passes</tspan></text>
+<text y="1032.9" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="78.0" lengthAdjust="spacing">possible here: </tspan><tspan x="128.0" class="g113s3">1</tspan><tspan x="135.1" textLength="24.9" lengthAdjust="spacing"> + ⌈(</tspan><tspan x="160.0" class="g113s3">7</tspan><tspan x="167.1"> − </tspan><tspan x="180.9" class="g113s3">1</tspan><tspan x="188.0" textLength="17.9" lengthAdjust="spacing">) ÷ </tspan><tspan x="205.9" class="g113s3">2</tspan><tspan x="212.9" textLength="20.9" lengthAdjust="spacing">⌉ = </tspan><tspan x="233.8" class="g113s3">4</tspan><tspan x="240.9" textLength="388.8" lengthAdjust="spacing"> — the first pass has nothing to check, every later one writes at most two.</tspan></text>
+<rect x="34.0" y="1064.5" width="1812.0" height="30.0" rx="6" class="g113s13"/>
+<path d="M38.50 1065.17 A5.50 5.50 0 0 0 34.50 1070.46 V1088.46 A5.50 5.50 0 0 0 38.50 1093.75 Z" class="g113s21"/>
+<text y="1084.5" xml:space="preserve" class="g113s34"><tspan x="50.0" class="g113s0" textLength="298.0" lengthAdjust="spacing">B · A sentence it never saw: a guess goes wrong</tspan></text>
+<text y="1084.5" xml:space="preserve" class="g113s35"><tspan x="366.0" textLength="469.9" lengthAdjust="spacing">“the cat is running on the sof a” → “the dog is sleeping peac efully”, the tiny model, greedy</tspan></text>
+<text y="1112.5" xml:space="preserve" class="g113s22"><tspan x="38.0" class="g113s0" textLength="182.4" lengthAdjust="spacing">What happens to a wrong guess</tspan></text>
+<text y="1130.5" xml:space="preserve" class="g113s11"><tspan x="38.0" textLength="142.1" lengthAdjust="spacing">The head was unsure (cat </tspan><tspan x="180.1" class="g113s3" textLength="38.9" lengthAdjust="spacing">0.6817</tspan><tspan x="219.0" textLength="30.0" lengthAdjust="spacing">, dog </tspan><tspan x="249.0" class="g113s3" textLength="38.9" lengthAdjust="spacing">0.2044</tspan><tspan x="287.9" textLength="189.7" lengthAdjust="spacing">) and guessed “cat”. The model’s </tspan><tspan x="477.6" class="g113s3" textLength="31.1" lengthAdjust="spacing">row 0</tspan><tspan x="508.7" textLength="73.1" lengthAdjust="spacing"> says “dog” (</tspan><tspan x="581.8" class="g113s3" textLength="38.9" lengthAdjust="spacing">0.9229</tspan><tspan x="620.7" textLength="358.8" lengthAdjust="spacing">), so that token is written — the same one a plain pass would write. </tspan><tspan x="979.5" class="g113s3" textLength="36.0" lengthAdjust="spacing">Row 1</tspan><tspan x="1015.5" textLength="595.0" lengthAdjust="spacing"> came after the wrong guess and is thrown away. The guess is cut from the cache, and the head guesses again.</tspan></text>
+<text x="34.0" y="1163.9" class="g113s43">speculative_generate(): 5 passes for 7 tokens</text>
+<rect x="34.0" y="1185.9" width="52.8" height="40.0" rx="6" class="g113s15"/>
+<text x="60.4" y="1180.9" class="g113s16">pass 1</text>
+<rect x="42.0" y="1193.9" width="36.8" height="24.0" rx="5" class="g113s18"/>
+<text x="60.4" y="1210.2" class="g113s19">the</text>
+<rect x="98.8" y="1185.9" width="109.4" height="40.0" rx="6" class="g113s15"/>
+<text x="153.5" y="1180.9" class="g113s16">pass 2</text>
+<rect x="106.8" y="1193.9" width="50.6" height="24.0" rx="5" style="fill:var(--dropbg);stroke:var(--drop);stroke-width:1"/>
+<text x="132.1" y="1210.2" style="fill:var(--drop);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:middle">cat ✗</text>
+<rect x="163.4" y="1193.9" width="36.8" height="24.0" rx="5" class="g113s18"/>
+<text x="181.8" y="1210.2" class="g113s19">dog</text>
+<rect x="220.2" y="1185.9" width="137.1" height="40.0" rx="6" class="g113s15"/>
+<text x="288.7" y="1180.9" class="g113s16">pass 3</text>
+<rect x="228.2" y="1193.9" width="43.7" height="24.0" rx="5" class="g113s39"/>
+<text x="250.0" y="1210.2" class="g113s40">is ✓</text>
+<rect x="277.8" y="1193.9" width="71.4" height="24.0" rx="5" class="g113s18"/>
+<text x="313.5" y="1210.2" class="g113s19">sleeping</text>
+<rect x="369.2" y="1185.9" width="137.1" height="40.0" rx="6" class="g113s15"/>
+<text x="437.8" y="1180.9" class="g113s16">pass 4</text>
+<rect x="377.2" y="1193.9" width="57.5" height="24.0" rx="5" class="g113s39"/>
+<text x="406.0" y="1210.2" class="g113s40">peac ✓</text>
+<rect x="440.8" y="1193.9" width="57.5" height="24.0" rx="5" class="g113s18"/>
+<text x="469.5" y="1210.2" class="g113s19">efully</text>
+<rect x="518.3" y="1185.9" width="80.5" height="40.0" rx="6" class="g113s15"/>
+<text x="558.5" y="1180.9" class="g113s16">pass 5</text>
+<rect x="526.3" y="1193.9" width="64.5" height="24.0" rx="5" class="g113s39"/>
+<text x="558.5" y="1210.2" class="g113s40">&lt;EOS&gt; ✓</text>
+<rect x="34.0" y="1239.9" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="1255.9" xml:space="preserve" class="g113s7"><tspan x="43.0" class="g113s0" textLength="23.5" lengthAdjust="spacing">pass</tspan></text>
+<text y="1255.9" xml:space="preserve" class="g113s7"><tspan x="133.0" class="g113s0" textLength="27.8" lengthAdjust="spacing">reads</tspan></text>
+<text y="1255.9" xml:space="preserve" class="g113s7"><tspan x="463.0" class="g113s0" textLength="92.8" lengthAdjust="spacing">the guess checked</tspan></text>
+<text y="1255.9" xml:space="preserve" class="g113s7"><tspan x="703.0" class="g113s0" textLength="129.2" lengthAdjust="spacing">the model’s pick there (p)</tspan></text>
+<text y="1255.9" xml:space="preserve" class="g113s7"><tspan x="1033.0" class="g113s0" textLength="21.0" lengthAdjust="spacing">kept</tspan></text>
+<text y="1255.9" xml:space="preserve" class="g113s7"><tspan x="1143.0" class="g113s0" textLength="29.1" lengthAdjust="spacing">writes</tspan></text>
+<text y="1255.9" xml:space="preserve" class="g113s7"><tspan x="1473.0" class="g113s0" textLength="129.2" lengthAdjust="spacing">the head’s next guess (q)</tspan></text>
+<text x="43.0" y="1280.8" class="g113s1">1</text>
+<text x="133.0" y="1280.8" class="g113s1">&lt;SOS&gt;</text>
+<text x="463.0" y="1280.8" class="g113s1">— (nothing to check)</text>
+<text x="703.0" y="1280.8" class="g113s1">the (0.9148)</text>
+<text y="1280.8" xml:space="preserve" class="g113s8"><tspan x="1033.0">—</tspan></text>
+<text x="1143.0" y="1280.8" class="g113s1">the</text>
+<text x="1473.0" y="1280.8" class="g113s1">cat (0.6817)</text>
+<line x1="34.0" y1="1289.9" x2="1846.0" y2="1289.9" class="g113s2"/>
+<rect x="34.0" y="1289.9" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text x="43.0" y="1306.8" class="g113s1">2</text>
+<text x="133.0" y="1306.8" class="g113s1">the, the guess cat</text>
+<text x="463.0" y="1306.8" class="g113s1">cat</text>
+<text x="703.0" y="1306.8" class="g113s1">dog (0.9229)</text>
+<text y="1306.8" xml:space="preserve" class="g113s8"><tspan x="1033.0" textLength="17.2" lengthAdjust="spacing">NO</tspan></text>
+<text x="1143.0" y="1306.8" class="g113s1">dog</text>
+<text x="1473.0" y="1306.8" class="g113s1">is (0.9281)</text>
+<line x1="34.0" y1="1315.9" x2="1846.0" y2="1315.9" class="g113s2"/>
+<text x="43.0" y="1332.8" class="g113s1">3</text>
+<text x="133.0" y="1332.8" class="g113s1">dog, the guess is</text>
+<text x="463.0" y="1332.8" class="g113s1">is</text>
+<text x="703.0" y="1332.8" class="g113s1">is (0.9199)</text>
+<text y="1332.8" xml:space="preserve" class="g113s8"><tspan x="1033.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1143.0" y="1332.8" class="g113s1">is, sleeping</text>
+<text x="1473.0" y="1332.8" class="g113s1">peac (0.9186)</text>
+<line x1="34.0" y1="1341.9" x2="1846.0" y2="1341.9" class="g113s2"/>
+<rect x="34.0" y="1341.9" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text x="43.0" y="1358.8" class="g113s1">4</text>
+<text x="133.0" y="1358.8" class="g113s1">sleeping, the guess peac</text>
+<text x="463.0" y="1358.8" class="g113s1">peac</text>
+<text x="703.0" y="1358.8" class="g113s1">peac (0.9192)</text>
+<text y="1358.8" xml:space="preserve" class="g113s8"><tspan x="1033.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1143.0" y="1358.8" class="g113s1">peac, efully</text>
+<text x="1473.0" y="1358.8" class="g113s1">&lt;EOS&gt; (0.9179)</text>
+<line x1="34.0" y1="1367.9" x2="1846.0" y2="1367.9" class="g113s2"/>
+<text x="43.0" y="1384.8" class="g113s1">5</text>
+<text x="133.0" y="1384.8" class="g113s1">efully, the guess &lt;EOS&gt;</text>
+<text x="463.0" y="1384.8" class="g113s1">&lt;EOS&gt;</text>
+<text x="703.0" y="1384.8" class="g113s1">&lt;EOS&gt; (0.9193)</text>
+<text y="1384.8" xml:space="preserve" class="g113s8"><tspan x="1033.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1143.0" y="1384.8" class="g113s1">&lt;EOS&gt;</text>
+<text x="1473.0" y="1384.8" class="g113s1">—</text>
+<line x1="34.0" y1="1393.9" x2="1846.0" y2="1393.9" class="g113s2"/>
+<rect x="34.0" y="1263.9" width="1812.0" height="130.0" rx="0" class="g113s25"/>
+<line x1="124.0" y1="1263.9" x2="124.0" y2="1393.9" class="g113s2"/>
+<line x1="454.0" y1="1263.9" x2="454.0" y2="1393.9" class="g113s2"/>
+<line x1="694.0" y1="1263.9" x2="694.0" y2="1393.9" class="g113s2"/>
+<line x1="1024.0" y1="1263.9" x2="1024.0" y2="1393.9" class="g113s2"/>
+<line x1="1134.0" y1="1263.9" x2="1134.0" y2="1393.9" class="g113s2"/>
+<line x1="1464.0" y1="1263.9" x2="1464.0" y2="1393.9" class="g113s2"/>
+<rect x="34.0" y="1405.9" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="1421.9" xml:space="preserve" class="g113s7"><tspan x="43.0" class="g113s0" textLength="43.3" lengthAdjust="spacing">decoder </tspan><tspan x="86.3" class="g113s30" textLength="33.4" lengthAdjust="spacing">layer 0</tspan><tspan x="119.7" class="g113s0" textLength="92.7" lengthAdjust="spacing">’s cached keys at </tspan><tspan x="212.4" class="g113s30" textLength="47.6" lengthAdjust="spacing">position 2</tspan></text>
+<text y="1421.9" xml:space="preserve" class="g113s7"><tspan x="563.0" class="g113s0" textLength="27.2" lengthAdjust="spacing">token</tspan></text>
+<text y="1421.9" xml:space="preserve" class="g113s7"><tspan x="823.0" class="g113s0" textLength="20.4" lengthAdjust="spacing">key </tspan><tspan x="843.4" class="g113s30" textLength="34.0" lengthAdjust="spacing">head 0</tspan><tspan x="877.4" class="g113s0"> [</tspan><tspan x="883.6" class="g113s30">0</tspan><tspan x="889.8" class="g113s0">]</tspan></text>
+<text y="1421.9" xml:space="preserve" class="g113s7"><tspan x="1081.0" class="g113s0" textLength="20.4" lengthAdjust="spacing">key </tspan><tspan x="1101.4" class="g113s30" textLength="34.0" lengthAdjust="spacing">head 0</tspan><tspan x="1135.4" class="g113s0"> [</tspan><tspan x="1141.6" class="g113s30">1</tspan><tspan x="1147.8" class="g113s0">]</tspan></text>
+<text y="1421.9" xml:space="preserve" class="g113s7"><tspan x="1339.0" class="g113s0" textLength="20.4" lengthAdjust="spacing">key </tspan><tspan x="1359.4" class="g113s30" textLength="34.0" lengthAdjust="spacing">head 1</tspan><tspan x="1393.4" class="g113s0"> [</tspan><tspan x="1399.6" class="g113s30">0</tspan><tspan x="1405.8" class="g113s0">]</tspan></text>
+<text y="1421.9" xml:space="preserve" class="g113s7"><tspan x="1597.0" class="g113s0" textLength="20.4" lengthAdjust="spacing">key </tspan><tspan x="1617.4" class="g113s30" textLength="34.0" lengthAdjust="spacing">head 1</tspan><tspan x="1651.4" class="g113s0"> [</tspan><tspan x="1657.6" class="g113s30">1</tspan><tspan x="1663.8" class="g113s0">]</tspan></text>
+<text y="1446.8" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="56.9" lengthAdjust="spacing">after pass </tspan><tspan x="99.9" class="g113s3">2</tspan><tspan x="106.7" class="g113s0" textLength="27.8" lengthAdjust="spacing"> (cut)</tspan></text>
+<text x="563.0" y="1446.8" class="g113s1">cat</text>
+<text x="823.0" y="1446.8" class="g113s1">-1.3679</text>
+<text x="1081.0" y="1446.8" class="g113s1">1.1430</text>
+<text x="1339.0" y="1446.8" class="g113s1">-1.0452</text>
+<text x="1597.0" y="1446.8" class="g113s1">1.5627</text>
+<line x1="34.0" y1="1455.9" x2="1846.0" y2="1455.9" class="g113s2"/>
+<rect x="34.0" y="1455.9" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="1472.8" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="56.9" lengthAdjust="spacing">after pass </tspan><tspan x="99.9" class="g113s3">3</tspan></text>
+<text x="563.0" y="1472.8" class="g113s1">dog</text>
+<text x="823.0" y="1472.8" class="g113s1">-0.1837</text>
+<text x="1081.0" y="1472.8" class="g113s1">1.8210</text>
+<text x="1339.0" y="1472.8" class="g113s1">1.4783</text>
+<text x="1597.0" y="1472.8" class="g113s1">-0.8416</text>
+<line x1="34.0" y1="1481.9" x2="1846.0" y2="1481.9" class="g113s2"/>
+<rect x="34.0" y="1429.9" width="1812.0" height="52.0" rx="0" class="g113s25"/>
+<line x1="554.0" y1="1429.9" x2="554.0" y2="1481.9" class="g113s2"/>
+<line x1="814.0" y1="1429.9" x2="814.0" y2="1481.9" class="g113s2"/>
+<line x1="1072.0" y1="1429.9" x2="1072.0" y2="1481.9" class="g113s2"/>
+<line x1="1330.0" y1="1429.9" x2="1330.0" y2="1481.9" class="g113s2"/>
+<line x1="1588.0" y1="1429.9" x2="1588.0" y2="1481.9" class="g113s2"/>
+<rect x="34.0" y="1493.9" width="1812.0" height="72.6" rx="6" class="g113s44"/>
+<path d="M38.50 1494.57 A5.50 5.50 0 0 0 34.50 1499.86 V1560.42 A5.50 5.50 0 0 0 38.50 1565.71 Z" class="g113s21"/>
+<text y="1519.9" xml:space="preserve" class="g113s22"><tspan x="50.0" class="g113s0" textLength="97.6" lengthAdjust="spacing">Undo, then go on</tspan></text>
+<text y="1537.4" xml:space="preserve" class="g113s11"><tspan x="50.0" class="g113s3" textLength="48.1" lengthAdjust="spacing">7 tokens</tspan><tspan x="98.1" textLength="16.0" lengthAdjust="spacing"> in </tspan><tspan x="114.1" class="g113s3" textLength="50.9" lengthAdjust="spacing">5 passes</tspan><tspan x="165.0" textLength="1002.9" lengthAdjust="spacing"> — one more than the best case — and still exactly greedy’s answer, which here is a wrong translation: speculative decoding never makes a model better or worse, only its writing cheaper. </tspan><tspan x="1167.9" class="g113s14" textLength="74.7" lengthAdjust="spacing">_trim_cache</tspan><tspan x="1242.6" textLength="566.9" lengthAdjust="spacing"> slices the last position off every self-attention cache (keys and values, both layers); the rows before it stay,</tspan></text>
+<text y="1554.9" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="279.5" lengthAdjust="spacing">since a causal row never depends on what follows it.</tspan></text>
+<rect x="34.0" y="1586.4" width="1812.0" height="30.0" rx="6" class="g113s13"/>
+<path d="M38.50 1587.13 A5.50 5.50 0 0 0 34.50 1592.42 V1610.42 A5.50 5.50 0 0 0 38.50 1615.71 Z" class="g113s21"/>
+<text y="1606.4" xml:space="preserve" class="g113s34"><tspan x="50.0" class="g113s0" textLength="449.4" lengthAdjust="spacing">C · Why greedy’s answer cannot change — and the checks that it did not</tspan></text>
+<text y="1606.4" xml:space="preserve" class="g113s35"><tspan x="517.4" textLength="106.7" lengthAdjust="spacing">every comparison of </tspan><tspan x="624.2" class="g113s10" textLength="143.2" lengthAdjust="spacing">speculative_generate()</tspan><tspan x="767.3" textLength="43.5" lengthAdjust="spacing"> against </tspan><tspan x="810.8" class="g113s10" textLength="65.1" lengthAdjust="spacing">generate()</tspan><tspan x="875.9" textLength="101.0" lengthAdjust="spacing"> that this tutorial ran</tspan></text>
+<rect x="34.0" y="1632.4" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="1648.4" xml:space="preserve" class="g113s7"><tspan x="43.0" class="g113s0" textLength="57.5" lengthAdjust="spacing">comparison</tspan></text>
+<text y="1648.4" xml:space="preserve" class="g113s7"><tspan x="843.0" class="g113s51" textLength="118.8" lengthAdjust="spacing">speculative = greedy</tspan><tspan x="961.8" class="g113s0">?</tspan></text>
+<text y="1648.4" xml:space="preserve" class="g113s7"><tspan x="1223.0" class="g113s0" textLength="21.7" lengthAdjust="spacing">note</tspan></text>
+<text y="1673.3" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s10" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="101.6" class="g113s0">: </tspan><tspan x="108.3" class="g113s3">8</tspan><tspan x="115.1" class="g113s0" textLength="286.6" lengthAdjust="spacing"> untrained models of the real size, random sentences</tspan></text>
+<text y="1673.3" xml:space="preserve" class="g113s8"><tspan x="843.0" class="g113s3" textLength="16.9" lengthAdjust="spacing">8/8</tspan><tspan x="859.9" textLength="45.4" lengthAdjust="spacing"> identical</tspan></text>
+<text y="1673.3" xml:space="preserve" class="g113s8"><tspan x="1223.0" textLength="66.5" lengthAdjust="spacing">the real code</tspan></text>
+<line x1="34.0" y1="1682.4" x2="1846.0" y2="1682.4" class="g113s2"/>
+<rect x="34.0" y="1682.4" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="1699.3" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s10" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="101.6" class="g113s0" textLength="176.9" lengthAdjust="spacing">: the trained notebook model, its </tspan><tspan x="278.4" class="g113s3" textLength="65.7" lengthAdjust="spacing">2 sentences</tspan></text>
+<text y="1699.3" xml:space="preserve" class="g113s8"><tspan x="843.0" class="g113s3">2</tspan><tspan x="849.8" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="865.8" class="g113s3">2</tspan><tspan x="872.5" textLength="45.4" lengthAdjust="spacing"> identical</tspan></text>
+<text y="1699.3" xml:space="preserve" class="g113s8"><tspan x="1223.0" class="g113s3" textLength="46.1" lengthAdjust="spacing">7 tokens</tspan><tspan x="1269.1" textLength="15.3" lengthAdjust="spacing"> in </tspan><tspan x="1284.4" class="g113s3" textLength="48.8" lengthAdjust="spacing">4 passes</tspan><tspan x="1333.2">; </tspan><tspan x="1339.6" class="g113s3" textLength="46.1" lengthAdjust="spacing">3 tokens</tspan><tspan x="1385.7" textLength="15.3" lengthAdjust="spacing"> in </tspan><tspan x="1401.0" class="g113s3" textLength="48.8" lengthAdjust="spacing">2 passes</tspan></text>
+<line x1="34.0" y1="1708.4" x2="1846.0" y2="1708.4" class="g113s2"/>
+<text y="1725.3" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s10" textLength="117.1" lengthAdjust="spacing">crosscheck_toy3.py</tspan><tspan x="160.1" class="g113s0" textLength="89.4" lengthAdjust="spacing">: the tiny model, </tspan><tspan x="249.6" class="g113s3">5</tspan><tspan x="256.4" class="g113s0" textLength="52.5" lengthAdjust="spacing"> known + </tspan><tspan x="308.9" class="g113s3" textLength="109.1" lengthAdjust="spacing">8 unseen sentences</tspan></text>
+<text y="1725.3" xml:space="preserve" class="g113s8"><tspan x="843.0" class="g113s3" textLength="13.6" lengthAdjust="spacing">13</tspan><tspan x="856.6" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="872.5" class="g113s3" textLength="13.6" lengthAdjust="spacing">13</tspan><tspan x="886.1" textLength="45.4" lengthAdjust="spacing"> identical</tspan></text>
+<text y="1725.3" xml:space="preserve" class="g113s8"><tspan x="1223.0" textLength="137.4" lengthAdjust="spacing">pass for pass the same as </tspan><tspan x="1360.4" class="g113s10" textLength="65.1" lengthAdjust="spacing">toy3fwd.py</tspan><tspan x="1425.5" textLength="118.1" lengthAdjust="spacing"> (this page’s numbers)</tspan></text>
+<line x1="34.0" y1="1734.4" x2="1846.0" y2="1734.4" class="g113s2"/>
+<rect x="34.0" y="1734.4" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="1751.3" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s10" textLength="91.1" lengthAdjust="spacing">experiment3.py</tspan><tspan x="134.1" class="g113s0">: </tspan><tspan x="140.9" class="g113s3" textLength="13.6" lengthAdjust="spacing">30</tspan><tspan x="154.4" class="g113s0" textLength="97.4" lengthAdjust="spacing"> trained models × </tspan><tspan x="251.9" class="g113s3" textLength="122.7" lengthAdjust="spacing">100 unseen sentences</tspan></text>
+<text y="1751.3" xml:space="preserve" class="g113s8"><tspan x="843.0" class="g113s3" textLength="30.5" lengthAdjust="spacing">3,000</tspan><tspan x="873.5" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="889.5" class="g113s3" textLength="30.5" lengthAdjust="spacing">3,000</tspan><tspan x="920.0" textLength="45.4" lengthAdjust="spacing"> identical</tspan></text>
+<text y="1751.3" xml:space="preserve" class="g113s8"><tspan x="1223.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="1236.0" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="1261.6" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="1274.6" textLength="85.7" lengthAdjust="spacing"> minus one part, </tspan><tspan x="1360.3" class="g113s3">3</tspan><tspan x="1367.0" textLength="88.2" lengthAdjust="spacing"> seeds, two tasks</tspan></text>
+<line x1="34.0" y1="1760.4" x2="1846.0" y2="1760.4" class="g113s2"/>
+<rect x="34.0" y="1656.4" width="1812.0" height="104.0" rx="0" class="g113s25"/>
+<line x1="834.0" y1="1656.4" x2="834.0" y2="1760.4" class="g113s2"/>
+<line x1="1214.0" y1="1656.4" x2="1214.0" y2="1760.4" class="g113s2"/>
+<rect x="34.0" y="1772.4" width="1812.0" height="72.6" rx="6" class="g113s47"/>
+<path d="M38.50 1773.13 A5.50 5.50 0 0 0 34.50 1778.42 V1838.98 A5.50 5.50 0 0 0 38.50 1844.27 Z" class="g113s48"/>
+<text y="1798.4" xml:space="preserve" class="g113s22"><tspan x="50.0" class="g113s0" textLength="136.4" lengthAdjust="spacing">Identical by construction</tspan></text>
+<text y="1815.9" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="1652.5" lengthAdjust="spacing">The proof is two lines. A kept token is the model’s own greedy pick at its place, computed from exactly the tokens greedy would have written before it. A rejected guess is replaced by that same pick. So every token written is greedy’s, in order. The one place where the two can differ is arithmetic: one pass over </tspan><tspan x="1702.5" class="g113s3" textLength="48.1" lengthAdjust="spacing">2 tokens</tspan><tspan x="1750.5" textLength="79.4" lengthAdjust="spacing"> adds numbers</tspan></text>
+<text y="1833.5" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="217.4" lengthAdjust="spacing">in a different order than two passes over </tspan><tspan x="267.4" class="g113s3">1</tspan><tspan x="274.5" textLength="110.7" lengthAdjust="spacing">, and two nearly tied </tspan><tspan x="385.2" class="g113s14" textLength="40.7" lengthAdjust="spacing">scores</tspan><tspan x="426.0" textLength="239.5" lengthAdjust="spacing"> could swap — none did in any of these runs.</tspan></text>
+<rect x="34.0" y="1865.0" width="1812.0" height="30.0" rx="6" class="g113s13"/>
+<path d="M38.50 1865.69 A5.50 5.50 0 0 0 34.50 1870.98 V1888.98 A5.50 5.50 0 0 0 38.50 1894.27 Z" class="g113s21"/>
+<text y="1885.0" xml:space="preserve" class="g113s34"><tspan x="50.0" class="g113s0" textLength="248.9" lengthAdjust="spacing">D · Sampling: keep a guess with chance </tspan><tspan x="298.9" class="g113s38" textLength="95.6" lengthAdjust="spacing">min(1, p ÷ q)</tspan></text>
+<rect x="869.5" y="1874.6" width="37.5" height="14.0" rx="3" style="fill:var(--padbg);stroke:var(--pad);stroke-width:0.8"/>
+<rect x="932.6" y="1874.6" width="37.5" height="14.0" rx="3" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8"/>
+<text y="1885.0" xml:space="preserve" class="g113s35"><tspan x="412.6" textLength="65.2" lengthAdjust="spacing">temperature </tspan><tspan x="477.7" class="g113s3">1</tspan><tspan x="484.5" textLength="385.0" lengthAdjust="spacing">, the unseen sentence, the place after “the”: the model’s p, the head’s q (</tspan><tspan x="872.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--pad)" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="907.0" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="935.1" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--accent)" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="970.1" textLength="46.7" lengthAdjust="spacing"> blocked)</tspan></text>
+<text y="1913.0" xml:space="preserve" class="g113s22"><tspan x="38.0" class="g113s0" textLength="119.5" lengthAdjust="spacing">Why the rule keeps p</tspan></text>
+<text y="1931.0" xml:space="preserve" class="g113s11"><tspan x="38.0" textLength="262.8" lengthAdjust="spacing">Draw the guess d from q and keep it with chance </tspan><tspan x="300.8" class="g113s14" textLength="129.0" lengthAdjust="spacing">min(1, p(d) ÷ q(d))</tspan><tspan x="429.8" textLength="186.1" lengthAdjust="spacing">. In all, a token is kept with chance </tspan><tspan x="615.9" class="g113s14" textLength="61.1" lengthAdjust="spacing">min(p, q)</tspan><tspan x="677.0" textLength="177.4" lengthAdjust="spacing">. If the guess is dropped (chance </tspan><tspan x="854.5" class="g113s3">1</tspan><tspan x="861.5" textLength="151.1" lengthAdjust="spacing"> − β), draw from the leftover </tspan><tspan x="1012.6" class="g113s14" textLength="88.3" lengthAdjust="spacing">max(0, p − q)</tspan><tspan x="1100.9" textLength="102.7" lengthAdjust="spacing">, scaled. Together: </tspan><tspan x="1203.6" class="g113s14" textLength="169.8" lengthAdjust="spacing">min(p, q) + max(0, p − q)</tspan><tspan x="1373.4" textLength="106.4" lengthAdjust="spacing"> = p for every token.</tspan></text>
+<text x="34.0" y="1964.4" class="g113s43">each token’s chance in all, built from the two ways it can be written</text>
+<rect x="34.0" y="1974.4" width="14.0" height="10.0" rx="2" class="g113s23"/>
+<text x="54.0" y="1983.4" class="g113s52">kept guesses: min(p, q)</text>
+<rect x="193.5" y="1974.4" width="14.0" height="10.0" rx="2" class="g113s45"/>
+<text x="213.5" y="1983.4" class="g113s52">drawn instead: (1 − β) × leftover</text>
+<rect x="394.5" y="1974.4" width="14.0" height="10.0" rx="2" class="g113s20"/>
+<text x="414.5" y="1983.4" class="g113s52">q: the head’s guesses</text>
+<line x1="34.0" y1="2180.4" x2="1846.0" y2="2180.4" class="g113s59"/>
+<rect x="67.7" y="2179.5" width="34.0" height="0.9" rx="1.5" class="g113s23"/>
+<rect x="67.7" y="2179.2" width="34.0" height="0.3" rx="1.5" class="g113s45"/>
+<text x="84.7" y="2174.2" class="g113s17">0.007</text>
+<rect x="105.7" y="2179.5" width="34.0" height="0.9" rx="1.5" class="g113s20"/>
+<text x="103.7" y="2196.4" class="g113s24">&lt;EOS&gt;</text>
+<rect x="207.1" y="2179.1" width="34.0" height="1.2" rx="1.5" class="g113s23"/>
+<text x="224.1" y="2174.1" class="g113s17">0.007</text>
+<rect x="245.1" y="2178.7" width="34.0" height="1.7" rx="1.5" class="g113s20"/>
+<text x="243.1" y="2196.4" class="g113s24">a</text>
+<rect x="346.5" y="2178.4" width="34.0" height="2.0" rx="1.5" class="g113s23"/>
+<text x="363.5" y="2173.4" class="g113s17">0.011</text>
+<rect x="384.5" y="2062.2" width="34.0" height="118.2" rx="1.5" class="g113s20"/>
+<text x="382.5" y="2196.4" class="g113s24">cat</text>
+<rect x="485.8" y="2144.9" width="34.0" height="35.4" rx="1.5" class="g113s23"/>
+<rect x="485.8" y="2020.4" width="34.0" height="124.6" rx="1.5" class="g113s45"/>
+<text x="502.8" y="2015.4" class="g113s17">0.923</text>
+<rect x="523.8" y="2144.9" width="34.0" height="35.4" rx="1.5" class="g113s20"/>
+<text x="521.8" y="2196.4" class="g113s24">dog</text>
+<rect x="663.2" y="2180.2" width="34.0" height="0.2" rx="1.5" class="g113s20"/>
+<text x="661.2" y="2196.4" class="g113s24">efully</text>
+<rect x="764.6" y="2179.5" width="34.0" height="0.9" rx="1.5" class="g113s23"/>
+<text x="781.6" y="2174.5" class="g113s17">0.005</text>
+<rect x="802.6" y="2178.2" width="34.0" height="2.1" rx="1.5" class="g113s20"/>
+<text x="800.6" y="2196.4" class="g113s24">fast</text>
+<rect x="904.0" y="2180.1" width="34.0" height="0.3" rx="1.5" class="g113s23"/>
+<rect x="904.0" y="2179.5" width="34.0" height="0.6" rx="1.5" class="g113s45"/>
+<text x="921.0" y="2174.5" class="g113s17">0.005</text>
+<rect x="942.0" y="2180.1" width="34.0" height="0.3" rx="1.5" class="g113s20"/>
+<text x="940.0" y="2196.4" class="g113s24">is</text>
+<rect x="1043.4" y="2179.8" width="34.0" height="0.6" rx="1.5" class="g113s23"/>
+<text x="1060.4" y="2174.8" class="g113s17">0.003</text>
+<rect x="1081.4" y="2178.8" width="34.0" height="1.5" rx="1.5" class="g113s20"/>
+<text x="1079.4" y="2196.4" class="g113s24">on</text>
+<rect x="1182.8" y="2179.2" width="34.0" height="1.2" rx="1.5" class="g113s23"/>
+<text x="1199.8" y="2174.2" class="g113s17">0.007</text>
+<rect x="1220.8" y="2178.0" width="34.0" height="2.3" rx="1.5" class="g113s20"/>
+<text x="1218.8" y="2196.4" class="g113s24">peac</text>
+<rect x="1322.2" y="2179.1" width="34.0" height="1.3" rx="1.5" class="g113s23"/>
+<text x="1339.2" y="2174.1" class="g113s17">0.008</text>
+<rect x="1360.2" y="2177.3" width="34.0" height="3.1" rx="1.5" class="g113s20"/>
+<text x="1358.2" y="2196.4" class="g113s24">running</text>
+<rect x="1461.5" y="2179.0" width="34.0" height="1.3" rx="1.5" class="g113s23"/>
+<text x="1478.5" y="2174.0" class="g113s17">0.008</text>
+<rect x="1499.5" y="2176.7" width="34.0" height="3.7" rx="1.5" class="g113s20"/>
+<text x="1497.5" y="2196.4" class="g113s24">sleeping</text>
+<rect x="1600.9" y="2179.4" width="34.0" height="1.0" rx="1.5" class="g113s23"/>
+<text x="1617.9" y="2174.4" class="g113s17">0.006</text>
+<rect x="1638.9" y="2177.8" width="34.0" height="2.5" rx="1.5" class="g113s20"/>
+<text x="1636.9" y="2196.4" class="g113s24">sof</text>
+<rect x="1740.3" y="2179.1" width="34.0" height="1.3" rx="1.5" class="g113s23"/>
+<rect x="1740.3" y="2178.7" width="34.0" height="0.4" rx="1.5" class="g113s45"/>
+<text x="1757.3" y="2173.7" class="g113s17">0.010</text>
+<rect x="1778.3" y="2179.1" width="34.0" height="1.3" rx="1.5" class="g113s20"/>
+<text x="1776.3" y="2196.4" class="g113s24">the</text>
+<rect x="34.0" y="2210.4" width="1812.0" height="55.0" rx="6" class="g113s44"/>
+<path d="M38.50 2211.09 A5.50 5.50 0 0 0 34.50 2216.38 V2259.42 A5.50 5.50 0 0 0 38.50 2264.71 Z" class="g113s21"/>
+<text y="2236.4" xml:space="preserve" class="g113s22"><tspan x="50.0" class="g113s0" textLength="78.5" lengthAdjust="spacing">How to read it</tspan></text>
+<text y="2253.9" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="1326.6" lengthAdjust="spacing">Each stack is one token’s chance: the green part comes from guesses kept, the orange part from draws after a dropped guess. The stack’s height, printed on top, is exactly the model’s p. The dashed bar is q: where the head over-bets (“cat”), only </tspan><tspan x="1376.6" class="g113s14" textLength="61.1" lengthAdjust="spacing">min(p, q)</tspan><tspan x="1437.8" textLength="300.8" lengthAdjust="spacing"> of it survives; where it under-bets, the leftover tops it up.</tspan></text>
+<rect x="34.0" y="2277.4" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="297.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--accent)" textLength="29.7" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="415.0" class="g113s0">a</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="535.0" class="g113s0" textLength="14.8" lengthAdjust="spacing">cat</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="655.0" class="g113s0" textLength="18.6" lengthAdjust="spacing">dog</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="775.0" class="g113s0" textLength="26.0" lengthAdjust="spacing">efully</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="895.0" class="g113s0" textLength="17.9" lengthAdjust="spacing">fast</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="1015.0" class="g113s0" textLength="8.0" lengthAdjust="spacing">is</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="1135.0" class="g113s0" textLength="12.4" lengthAdjust="spacing">on</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="1255.0" class="g113s0" textLength="24.1" lengthAdjust="spacing">peac</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="1375.0" class="g113s0" textLength="37.1" lengthAdjust="spacing">running</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="1495.0" class="g113s0" textLength="41.4" lengthAdjust="spacing">sleeping</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="1615.0" class="g113s0" textLength="14.8" lengthAdjust="spacing">sof</tspan></text>
+<text y="2293.4" xml:space="preserve" class="g113s7"><tspan x="1735.0" class="g113s0" textLength="15.5" lengthAdjust="spacing">the</tspan></text>
+<text y="2318.2" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s0" textLength="64.2" lengthAdjust="spacing">p: the model</tspan></text>
+<text x="295.0" y="2318.2" class="g113s6">0.0067</text>
+<text x="415.0" y="2318.2" class="g113s6">0.0072</text>
+<text x="535.0" y="2318.2" class="g113s6">0.0115</text>
+<text x="655.0" y="2318.2" class="g113s6">0.9229</text>
+<text x="775.0" y="2318.2" class="g113s6">0.0000</text>
+<text x="895.0" y="2318.2" class="g113s6">0.0053</text>
+<text x="1015.0" y="2318.2" class="g113s6">0.0051</text>
+<text x="1135.0" y="2318.2" class="g113s6">0.0033</text>
+<text x="1255.0" y="2318.2" class="g113s6">0.0070</text>
+<text x="1375.0" y="2318.2" class="g113s6">0.0076</text>
+<text x="1495.0" y="2318.2" class="g113s6">0.0077</text>
+<text x="1615.0" y="2318.2" class="g113s6">0.0057</text>
+<text x="1735.0" y="2318.2" class="g113s6">0.0099</text>
+<line x1="34.0" y1="2327.4" x2="1846.0" y2="2327.4" class="g113s2"/>
+<rect x="34.0" y="2327.4" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="2344.2" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s0" textLength="58.3" lengthAdjust="spacing">q: the head</tspan></text>
+<text x="295.0" y="2344.2" class="g113s6">0.0052</text>
+<text x="415.0" y="2344.2" class="g113s6">0.0097</text>
+<text x="535.0" y="2344.2" class="g113s6">0.6817</text>
+<text x="655.0" y="2344.2" class="g113s6">0.2044</text>
+<text x="775.0" y="2344.2" class="g113s6">0.0013</text>
+<text x="895.0" y="2344.2" class="g113s6">0.0123</text>
+<text x="1015.0" y="2344.2" class="g113s6">0.0019</text>
+<text x="1135.0" y="2344.2" class="g113s6">0.0089</text>
+<text x="1255.0" y="2344.2" class="g113s6">0.0135</text>
+<text x="1375.0" y="2344.2" class="g113s6">0.0179</text>
+<text x="1495.0" y="2344.2" class="g113s6">0.0211</text>
+<text x="1615.0" y="2344.2" class="g113s6">0.0146</text>
+<text x="1735.0" y="2344.2" class="g113s6">0.0074</text>
+<line x1="34.0" y1="2353.4" x2="1846.0" y2="2353.4" class="g113s2"/>
+<text y="2370.2" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s29" textLength="56.0" lengthAdjust="spacing">min(p, q)</tspan><tspan x="99.0" class="g113s0" textLength="28.5" lengthAdjust="spacing">: kept</tspan></text>
+<text x="295.0" y="2370.2" class="g113s6">0.0052</text>
+<text x="415.0" y="2370.2" class="g113s6">0.0072</text>
+<text x="535.0" y="2370.2" class="g113s6">0.0115</text>
+<text x="655.0" y="2370.2" class="g113s6">0.2044</text>
+<text x="775.0" y="2370.2" class="g113s6">0.0000</text>
+<text x="895.0" y="2370.2" class="g113s6">0.0053</text>
+<text x="1015.0" y="2370.2" class="g113s6">0.0019</text>
+<text x="1135.0" y="2370.2" class="g113s6">0.0033</text>
+<text x="1255.0" y="2370.2" class="g113s6">0.0070</text>
+<text x="1375.0" y="2370.2" class="g113s6">0.0076</text>
+<text x="1495.0" y="2370.2" class="g113s6">0.0077</text>
+<text x="1615.0" y="2370.2" class="g113s6">0.0057</text>
+<text x="1735.0" y="2370.2" class="g113s6">0.0074</text>
+<line x1="34.0" y1="2379.4" x2="1846.0" y2="2379.4" class="g113s2"/>
+<rect x="34.0" y="2379.4" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="2396.2" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s0" textLength="78.4" lengthAdjust="spacing">leftover, scaled</tspan></text>
+<text x="295.0" y="2396.2" class="g113s6">0.0021</text>
+<text x="415.0" y="2396.2" class="g113s6">0.0000</text>
+<text x="535.0" y="2396.2" class="g113s6">0.0000</text>
+<text x="655.0" y="2396.2" class="g113s6">0.9901</text>
+<text x="775.0" y="2396.2" class="g113s6">0.0000</text>
+<text x="895.0" y="2396.2" class="g113s6">0.0000</text>
+<text x="1015.0" y="2396.2" class="g113s6">0.0045</text>
+<text x="1135.0" y="2396.2" class="g113s6">0.0000</text>
+<text x="1255.0" y="2396.2" class="g113s6">0.0000</text>
+<text x="1375.0" y="2396.2" class="g113s6">0.0000</text>
+<text x="1495.0" y="2396.2" class="g113s6">0.0000</text>
+<text x="1615.0" y="2396.2" class="g113s6">0.0000</text>
+<text x="1735.0" y="2396.2" class="g113s6">0.0033</text>
+<line x1="34.0" y1="2405.4" x2="1846.0" y2="2405.4" class="g113s2"/>
+<text y="2422.2" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s29" textLength="149.4" lengthAdjust="spacing">min + (1 − β) × leftover</tspan></text>
+<text x="295.0" y="2422.2" class="g113s6">0.0067</text>
+<text x="415.0" y="2422.2" class="g113s6">0.0072</text>
+<text x="535.0" y="2422.2" class="g113s6">0.0115</text>
+<text x="655.0" y="2422.2" class="g113s6">0.9229</text>
+<text x="775.0" y="2422.2" class="g113s6">0.0000</text>
+<text x="895.0" y="2422.2" class="g113s6">0.0053</text>
+<text x="1015.0" y="2422.2" class="g113s6">0.0051</text>
+<text x="1135.0" y="2422.2" class="g113s6">0.0033</text>
+<text x="1255.0" y="2422.2" class="g113s6">0.0070</text>
+<text x="1375.0" y="2422.2" class="g113s6">0.0076</text>
+<text x="1495.0" y="2422.2" class="g113s6">0.0077</text>
+<text x="1615.0" y="2422.2" class="g113s6">0.0057</text>
+<text x="1735.0" y="2422.2" class="g113s6">0.0099</text>
+<line x1="34.0" y1="2431.4" x2="1846.0" y2="2431.4" class="g113s2"/>
+<rect x="34.0" y="2301.4" width="1812.0" height="130.0" rx="0" class="g113s25"/>
+<line x1="286.0" y1="2301.4" x2="286.0" y2="2431.4" class="g113s2"/>
+<line x1="406.0" y1="2301.4" x2="406.0" y2="2431.4" class="g113s2"/>
+<line x1="526.0" y1="2301.4" x2="526.0" y2="2431.4" class="g113s2"/>
+<line x1="646.0" y1="2301.4" x2="646.0" y2="2431.4" class="g113s2"/>
+<line x1="766.0" y1="2301.4" x2="766.0" y2="2431.4" class="g113s2"/>
+<line x1="886.0" y1="2301.4" x2="886.0" y2="2431.4" class="g113s2"/>
+<line x1="1006.0" y1="2301.4" x2="1006.0" y2="2431.4" class="g113s2"/>
+<line x1="1126.0" y1="2301.4" x2="1126.0" y2="2431.4" class="g113s2"/>
+<line x1="1246.0" y1="2301.4" x2="1246.0" y2="2431.4" class="g113s2"/>
+<line x1="1366.0" y1="2301.4" x2="1366.0" y2="2431.4" class="g113s2"/>
+<line x1="1486.0" y1="2301.4" x2="1486.0" y2="2431.4" class="g113s2"/>
+<line x1="1606.0" y1="2301.4" x2="1606.0" y2="2431.4" class="g113s2"/>
+<line x1="1726.0" y1="2301.4" x2="1726.0" y2="2431.4" class="g113s2"/>
+<rect x="34.0" y="2443.4" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="2459.4" xml:space="preserve" class="g113s7"><tspan x="43.0" class="g113s51" textLength="53.5" lengthAdjust="spacing">check3.py</tspan><tspan x="96.5" class="g113s0" textLength="70.5" lengthAdjust="spacing">, the real code</tspan></text>
+<text y="2459.4" xml:space="preserve" class="g113s7"><tspan x="663.0" class="g113s0" textLength="29.7" lengthAdjust="spacing">draws</tspan></text>
+<text y="2459.4" xml:space="preserve" class="g113s7"><tspan x="883.0" class="g113s0" textLength="141.0" lengthAdjust="spacing">distance from plain sampling</tspan></text>
+<text y="2459.4" xml:space="preserve" class="g113s7"><tspan x="1223.0" class="g113s0" textLength="120.0" lengthAdjust="spacing">if every guess were kept</tspan></text>
+<text y="2459.4" xml:space="preserve" class="g113s7"><tspan x="1563.0" class="g113s0" textLength="65.6" lengthAdjust="spacing">guesses kept</tspan></text>
+<text y="2484.3" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="69.1" lengthAdjust="spacing">temperature </tspan><tspan x="112.1" class="g113s3" textLength="16.9" lengthAdjust="spacing">1.0</tspan></text>
+<text x="663.0" y="2484.3" class="g113s1">40,000</text>
+<text x="883.0" y="2484.3" class="g113s1">0.0053</text>
+<text x="1223.0" y="2484.3" class="g113s1">0.5683</text>
+<text x="1563.0" y="2484.3" class="g113s1">22.8%</text>
+<line x1="34.0" y1="2493.4" x2="1846.0" y2="2493.4" class="g113s2"/>
+<rect x="34.0" y="2493.4" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="2510.3" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="69.1" lengthAdjust="spacing">temperature </tspan><tspan x="112.1" class="g113s3" textLength="16.9" lengthAdjust="spacing">0.8</tspan><tspan x="129.0" class="g113s0" textLength="37.9" lengthAdjust="spacing">, top-p </tspan><tspan x="167.0" class="g113s3" textLength="16.9" lengthAdjust="spacing">0.9</tspan><tspan x="183.9" class="g113s0" textLength="103.0" lengthAdjust="spacing">, repetition penalty </tspan><tspan x="286.9" class="g113s3" textLength="16.9" lengthAdjust="spacing">1.2</tspan></text>
+<text x="663.0" y="2510.3" class="g113s1">40,000</text>
+<text x="883.0" y="2510.3" class="g113s1">0.0047</text>
+<text x="1223.0" y="2510.3" class="g113s1">0.7309</text>
+<text x="1563.0" y="2510.3" class="g113s1">12.6%</text>
+<line x1="34.0" y1="2519.4" x2="1846.0" y2="2519.4" class="g113s2"/>
+<rect x="34.0" y="2467.4" width="1812.0" height="52.0" rx="0" class="g113s25"/>
+<line x1="654.0" y1="2467.4" x2="654.0" y2="2519.4" class="g113s2"/>
+<line x1="874.0" y1="2467.4" x2="874.0" y2="2519.4" class="g113s2"/>
+<line x1="1214.0" y1="2467.4" x2="1214.0" y2="2519.4" class="g113s2"/>
+<line x1="1554.0" y1="2467.4" x2="1554.0" y2="2519.4" class="g113s2"/>
+<rect x="34.0" y="2531.4" width="1812.0" height="72.6" rx="6" class="g113s44"/>
+<path d="M38.50 2532.13 A5.50 5.50 0 0 0 34.50 2537.42 V2597.98 A5.50 5.50 0 0 0 38.50 2603.27 Z" class="g113s21"/>
+<text y="2557.4" xml:space="preserve" class="g113s22"><tspan x="50.0" class="g113s0" textLength="121.6" lengthAdjust="spacing">Reading the numbers</tspan></text>
+<text y="2574.9" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="31.5" lengthAdjust="spacing">β = Σ </tspan><tspan x="81.5" class="g113s14" textLength="61.1" lengthAdjust="spacing">min(p, q)</tspan><tspan x="142.7" textLength="164.1" lengthAdjust="spacing"> is the chance a guess is kept: </tspan><tspan x="306.7" class="g113s3" textLength="38.9" lengthAdjust="spacing">0.2743</tspan><tspan x="345.6" textLength="210.5" lengthAdjust="spacing"> here, where the head bets on “cat” (q </tspan><tspan x="556.2" class="g113s3" textLength="38.9" lengthAdjust="spacing">0.6817</tspan><tspan x="595.1" textLength="155.1" lengthAdjust="spacing">) and the model on “dog” (p </tspan><tspan x="750.2" class="g113s3" textLength="38.9" lengthAdjust="spacing">0.9229</tspan><tspan x="789.1" textLength="10.7" lengthAdjust="spacing">); </tspan><tspan x="799.8" class="g113s3" textLength="38.9" lengthAdjust="spacing">0.9720</tspan><tspan x="838.7" textLength="549.6" lengthAdjust="spacing"> on the sentence the model knows. Distance is the total variation between the token frequencies and p (</tspan><tspan x="1388.3" class="g113s14" textLength="88.3" lengthAdjust="spacing">0 = identical</tspan><tspan x="1476.6" textLength="10.7" lengthAdjust="spacing">); </tspan><tspan x="1487.2" class="g113s3" textLength="38.9" lengthAdjust="spacing">40,000</tspan><tspan x="1526.1" textLength="104.1" lengthAdjust="spacing"> draws leave about </tspan><tspan x="1630.2" class="g113s3" textLength="31.8" lengthAdjust="spacing">0.005</tspan><tspan x="1662.0" textLength="164.1" lengthAdjust="spacing"> of noise. Keeping every guess</tspan></text>
+<text y="2592.5" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="206.1" lengthAdjust="spacing">would shift the output toward the head.</tspan></text>
+<rect x="34.0" y="2624.0" width="1812.0" height="30.0" rx="6" class="g113s13"/>
+<path d="M38.50 2624.69 A5.50 5.50 0 0 0 34.50 2629.98 V2647.98 A5.50 5.50 0 0 0 38.50 2653.27 Z" class="g113s21"/>
+<text y="2644.0" xml:space="preserve" class="g113s34"><tspan x="50.0" class="g113s0" textLength="191.5" lengthAdjust="spacing">E · Passes and time, measured</tspan></text>
+<text y="2644.0" xml:space="preserve" class="g113s35"><tspan x="259.5" textLength="355.4" lengthAdjust="spacing">fewer passes everywhere; the time saved depends on what a pass of </tspan><tspan x="614.9" class="g113s3" textLength="46.1" lengthAdjust="spacing">2 tokens</tspan><tspan x="660.9" textLength="30.0" lengthAdjust="spacing"> costs</tspan></text>
+<text y="2672.0" xml:space="preserve" class="g113s22"><tspan x="38.0" class="g113s0" textLength="113.8" lengthAdjust="spacing">Honest about speed</tspan></text>
+<text y="2690.0" xml:space="preserve" class="g113s11"><tspan x="38.0" textLength="262.1" lengthAdjust="spacing">On this CPU arithmetic is the bottleneck: reading </tspan><tspan x="300.1" class="g113s3" textLength="48.1" lengthAdjust="spacing">2 tokens</tspan><tspan x="348.2" textLength="98.7" lengthAdjust="spacing"> costs about twice </tspan><tspan x="446.9" class="g113s3">1</tspan><tspan x="454.0" textLength="1215.7" lengthAdjust="spacing">, and the guess comes on top. So even with every guess right, a token costs more than plain writing — the notebook’s run got slower. On a GPU writing for one reader, a pass mostly reads the weights from memory, the same for </tspan><tspan x="1669.7" class="g113s3" textLength="41.7" lengthAdjust="spacing">1 token</tspan><tspan x="1711.4" textLength="17.3" lengthAdjust="spacing"> or </tspan><tspan x="1728.8" class="g113s3">2</tspan><tspan x="1735.8" textLength="78.7" lengthAdjust="spacing">. That is where</tspan></text>
+<text y="2707.4" xml:space="preserve" class="g113s11"><tspan x="38.0" textLength="305.5" lengthAdjust="spacing">speculative decoding pays (not measured here: no GPU).</tspan></text>
+<rect x="34.0" y="2728.8" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="2744.8" xml:space="preserve" class="g113s7"><tspan x="43.0" class="g113s0" textLength="30.3" lengthAdjust="spacing">where</tspan></text>
+<text y="2744.8" xml:space="preserve" class="g113s7"><tspan x="683.0" class="g113s0" textLength="32.8" lengthAdjust="spacing">tokens</tspan></text>
+<text y="2744.8" xml:space="preserve" class="g113s7"><tspan x="833.0" class="g113s0" textLength="35.3" lengthAdjust="spacing">passes</tspan></text>
+<text y="2744.8" xml:space="preserve" class="g113s7"><tspan x="983.0" class="g113s0" textLength="68.7" lengthAdjust="spacing">tokens a pass</tspan></text>
+<text y="2744.8" xml:space="preserve" class="g113s7"><tspan x="1183.0" class="g113s0" textLength="65.6" lengthAdjust="spacing">guesses kept</tspan></text>
+<text y="2744.8" xml:space="preserve" class="g113s7"><tspan x="1403.0" class="g113s0" textLength="123.7" lengthAdjust="spacing">time: plain → speculative</tspan></text>
+<text y="2769.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="169.4" lengthAdjust="spacing">tiny model, a sentence it knows</tspan></text>
+<text x="683.0" y="2769.7" class="g113s1">7</text>
+<text x="833.0" y="2769.7" class="g113s1">4</text>
+<text x="983.0" y="2769.7" class="g113s1">1.75</text>
+<text x="1183.0" y="2769.7" class="g113s1">3 of 3</text>
+<text x="1403.0" y="2769.7" class="g113s1">—</text>
+<line x1="34.0" y1="2778.8" x2="1846.0" y2="2778.8" class="g113s2"/>
+<rect x="34.0" y="2778.8" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="2795.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="190.4" lengthAdjust="spacing">tiny model, a sentence it never saw</tspan></text>
+<text x="683.0" y="2795.7" class="g113s1">7</text>
+<text x="833.0" y="2795.7" class="g113s1">5</text>
+<text x="983.0" y="2795.7" class="g113s1">1.40</text>
+<text x="1183.0" y="2795.7" class="g113s1">3 of 4</text>
+<text x="1403.0" y="2795.7" class="g113s1">—</text>
+<line x1="34.0" y1="2804.8" x2="1846.0" y2="2804.8" class="g113s2"/>
+<text y="2821.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="111.7" lengthAdjust="spacing">the notebook’s run: </tspan><tspan x="154.7" class="g113s3" textLength="65.7" lengthAdjust="spacing">2 sentences</tspan><tspan x="220.4" class="g113s0" textLength="109.7" lengthAdjust="spacing">, the real-size model</tspan></text>
+<text x="683.0" y="2821.7" class="g113s1">10</text>
+<text x="833.0" y="2821.7" class="g113s1">6</text>
+<text x="983.0" y="2821.7" class="g113s1">1.67</text>
+<text x="1183.0" y="2821.7" class="g113s1">—</text>
+<text x="1403.0" y="2821.7" class="g113s1">0.034 s → 0.041 s</text>
+<line x1="34.0" y1="2830.8" x2="1846.0" y2="2830.8" class="g113s2"/>
+<rect x="34.0" y="2830.8" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="2847.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="120.6" lengthAdjust="spacing">experiment, translate: </tspan><tspan x="163.6" class="g113s3" textLength="79.3" lengthAdjust="spacing">100 sentences</tspan><tspan x="242.9" class="g113s0">, </tspan><tspan x="249.7" class="g113s10" textLength="45.6" lengthAdjust="spacing">d_model</tspan><tspan x="295.2" class="g113s0"> </tspan><tspan x="298.6" class="g113s3" textLength="20.3" lengthAdjust="spacing">128</tspan><tspan x="318.9" class="g113s0" textLength="54.9" lengthAdjust="spacing"> (mean of </tspan><tspan x="373.8" class="g113s3">3</tspan><tspan x="380.6" class="g113s0">)</tspan></text>
+<text x="683.0" y="2847.7" class="g113s1">650</text>
+<text x="833.0" y="2847.7" class="g113s1">404</text>
+<text x="983.0" y="2847.7" class="g113s1">1.61</text>
+<text x="1183.0" y="2847.7" class="g113s1">100.0%</text>
+<text x="1403.0" y="2847.7" class="g113s1">8.28 → 7.22 ms a sentence</text>
+<line x1="34.0" y1="2856.8" x2="1846.0" y2="2856.8" class="g113s2"/>
+<text y="2873.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="114.5" lengthAdjust="spacing">experiment, reverse: </tspan><tspan x="157.5" class="g113s3" textLength="79.3" lengthAdjust="spacing">100 sentences</tspan><tspan x="236.8" class="g113s0">, </tspan><tspan x="243.5" class="g113s10" textLength="45.6" lengthAdjust="spacing">d_model</tspan><tspan x="289.1" class="g113s0"> </tspan><tspan x="292.5" class="g113s3" textLength="20.3" lengthAdjust="spacing">128</tspan><tspan x="312.8" class="g113s0" textLength="54.9" lengthAdjust="spacing"> (mean of </tspan><tspan x="367.7" class="g113s3">3</tspan><tspan x="374.5" class="g113s0">)</tspan></text>
+<text x="683.0" y="2873.7" class="g113s1">923</text>
+<text x="833.0" y="2873.7" class="g113s1">543</text>
+<text x="983.0" y="2873.7" class="g113s1">1.70</text>
+<text x="1183.0" y="2873.7" class="g113s1">98.3%</text>
+<text x="1403.0" y="2873.7" class="g113s1">11.44 → 9.41 ms a sentence</text>
+<line x1="34.0" y1="2882.8" x2="1846.0" y2="2882.8" class="g113s2"/>
+<rect x="34.0" y="2752.8" width="1812.0" height="130.0" rx="0" class="g113s25"/>
+<line x1="674.0" y1="2752.8" x2="674.0" y2="2882.8" class="g113s2"/>
+<line x1="824.0" y1="2752.8" x2="824.0" y2="2882.8" class="g113s2"/>
+<line x1="974.0" y1="2752.8" x2="974.0" y2="2882.8" class="g113s2"/>
+<line x1="1174.0" y1="2752.8" x2="1174.0" y2="2882.8" class="g113s2"/>
+<line x1="1394.0" y1="2752.8" x2="1394.0" y2="2882.8" class="g113s2"/>
+<text x="34.0" y="2906.8" class="g113s43">the real-size model (bench3.py, 2 threads, a cache of 20 tokens)</text>
+<rect x="34.0" y="2916.8" width="14.0" height="10.0" rx="2" class="g113s46"/>
+<text x="54.0" y="2925.8" class="g113s52">ms on this CPU</text>
+<line x1="34.0" y1="3102.8" x2="997.6" y2="3102.8" class="g113s59"/>
+<rect x="129.4" y="3032.3" width="50.0" height="70.5" rx="2" class="g113s46"/>
+<text x="154.4" y="3027.3" class="g113s17">2.41 ms</text>
+<text x="154.4" y="3118.8" class="g113s53">a pass, 1 new token</text>
+<rect x="370.3" y="2962.8" width="50.0" height="140.0" rx="2" class="g113s46"/>
+<text x="395.3" y="2957.8" class="g113s17">4.79 ms</text>
+<text x="395.3" y="3118.8" class="g113s53">a pass, 2 new tokens</text>
+<rect x="611.2" y="3072.4" width="50.0" height="30.4" rx="2" class="g113s46"/>
+<text x="636.2" y="3067.4" class="g113s17">1.04 ms</text>
+<text x="636.2" y="3118.8" class="g113s53">a guess of the head</text>
+<rect x="852.2" y="3017.6" width="50.0" height="85.2" rx="2" class="g113s46"/>
+<text x="877.2" y="3012.6" class="g113s17">2.91 ms</text>
+<text x="877.2" y="3118.8" class="g113s53">a token, every guess right</text>
+<rect x="1057.6" y="2916.8" width="788.4" height="90.1" rx="6" class="g113s44"/>
+<path d="M1062.10 2917.49 A5.50 5.50 0 0 0 1058.10 2922.78 V3000.86 A5.50 5.50 0 0 0 1062.10 3006.15 Z" class="g113s21"/>
+<text y="2942.8" xml:space="preserve" class="g113s22"><tspan x="1073.6" class="g113s0" textLength="80.6" lengthAdjust="spacing">The arithmetic</tspan></text>
+<text y="2960.3" xml:space="preserve" class="g113s11"><tspan x="1073.6" textLength="120.0" lengthAdjust="spacing">Plain writing pays one </tspan><tspan x="1193.6" class="g113s3" textLength="42.4" lengthAdjust="spacing">1-token</tspan><tspan x="1236.1" textLength="88.7" lengthAdjust="spacing"> pass per token: </tspan><tspan x="1324.8" class="g113s3" textLength="24.8" lengthAdjust="spacing">2.41</tspan><tspan x="1349.5" textLength="214.1" lengthAdjust="spacing"> ms. Speculative writing, at best, pays a </tspan><tspan x="1563.6" class="g113s3" textLength="42.4" lengthAdjust="spacing">2-token</tspan><tspan x="1606.1" textLength="150.7" lengthAdjust="spacing"> pass and a guess for every </tspan><tspan x="1756.8" class="g113s3" textLength="48.1" lengthAdjust="spacing">2 tokens</tspan><tspan x="1804.9">:</tspan></text>
+<text y="2977.8" xml:space="preserve" class="g113s11"><tspan x="1073.6">(</tspan><tspan x="1077.6" class="g113s3" textLength="64.0" lengthAdjust="spacing">4.79 + 1.04</tspan><tspan x="1141.6" textLength="17.9" lengthAdjust="spacing">) ÷ </tspan><tspan x="1159.5" class="g113s14" textLength="54.3" lengthAdjust="spacing">2 = 2.91</tspan><tspan x="1213.8" textLength="68.7" lengthAdjust="spacing"> ms a token, </tspan><tspan x="1282.5" class="g113s3" textLength="32.4" lengthAdjust="spacing">1.21×</tspan><tspan x="1314.9" textLength="46.7" lengthAdjust="spacing"> plain. A </tspan><tspan x="1361.6" class="g113s3" textLength="42.4" lengthAdjust="spacing">2-token</tspan><tspan x="1404.0" textLength="63.4" lengthAdjust="spacing"> pass costs </tspan><tspan x="1467.4" class="g113s3" textLength="43.0" lengthAdjust="spacing">1.99× a</tspan><tspan x="1510.3"> </tspan><tspan x="1513.7" class="g113s3" textLength="42.4" lengthAdjust="spacing">1-token</tspan><tspan x="1556.1" textLength="270.2" lengthAdjust="spacing"> one here; it would need to cost about the same for</tspan></text>
+<text y="2995.3" xml:space="preserve" class="g113s11"><tspan x="1073.6" textLength="136.1" lengthAdjust="spacing">the guesses to save time.</tspan></text>
+<rect x="34.0" y="3148.8" width="1812.0" height="30.0" rx="6" class="g113s13"/>
+<path d="M38.50 3149.49 A5.50 5.50 0 0 0 34.50 3154.78 V3172.78 A5.50 5.50 0 0 0 38.50 3178.07 Z" class="g113s21"/>
+<text y="3168.8" xml:space="preserve" class="g113s34"><tspan x="50.0" class="g113s0" textLength="380.7" lengthAdjust="spacing">F · In the experiment: how many guesses each model got right</tspan></text>
+<text y="3168.8" xml:space="preserve" class="g113s35"><tspan x="448.7" textLength="140.6" lengthAdjust="spacing">every model with the head, </tspan><tspan x="589.3" class="g113s3">3</tspan><tspan x="596.1" textLength="40.3" lengthAdjust="spacing"> seeds, </tspan><tspan x="636.3" class="g113s3" textLength="122.7" lengthAdjust="spacing">100 unseen sentences</tspan><tspan x="759.0" textLength="99.1" lengthAdjust="spacing"> each — deep dive </tspan><tspan x="858.1" class="g113s3" textLength="13.6" lengthAdjust="spacing">26</tspan><tspan x="871.6" textLength="134.2" lengthAdjust="spacing"> has the whole experiment</tspan></text>
+<rect x="34.0" y="3194.8" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="3210.8" xml:space="preserve" class="g113s7"><tspan x="43.0" class="g113s0" textLength="20.4" lengthAdjust="spacing">task</tspan></text>
+<text y="3210.8" xml:space="preserve" class="g113s7"><tspan x="203.0" class="g113s0" textLength="30.3" lengthAdjust="spacing">model</tspan></text>
+<text y="3210.8" xml:space="preserve" class="g113s7"><tspan x="643.0" class="g113s0" textLength="32.8" lengthAdjust="spacing">tokens</tspan></text>
+<text y="3210.8" xml:space="preserve" class="g113s7"><tspan x="793.0" class="g113s0" textLength="35.3" lengthAdjust="spacing">passes</tspan></text>
+<text y="3210.8" xml:space="preserve" class="g113s7"><tspan x="943.0" class="g113s0" textLength="65.6" lengthAdjust="spacing">guesses kept</tspan></text>
+<text y="3210.8" xml:space="preserve" class="g113s7"><tspan x="1283.0" class="g113s0" textLength="79.2" lengthAdjust="spacing">same as greedy</tspan></text>
+<text y="3210.8" xml:space="preserve" class="g113s7"><tspan x="1483.0" class="g113s0" textLength="157.1" lengthAdjust="spacing">a sentence: plain → speculative</tspan></text>
+<text y="3235.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="3235.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan></text>
+<text x="643.0" y="3235.7" class="g113s1">650</text>
+<text x="793.0" y="3235.7" class="g113s1">404</text>
+<text x="943.0" y="3235.7" class="g113s1">100.0% (100.0%–100.0%)</text>
+<text y="3235.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3235.7" class="g113s1">8.28 → 7.22 ms</text>
+<line x1="34.0" y1="3244.8" x2="1846.0" y2="3244.8" class="g113s2"/>
+<rect x="34.0" y="3244.8" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="3261.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="3261.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="216.0" textLength="68.4" lengthAdjust="spacing"> without GQA</tspan></text>
+<text x="643.0" y="3261.7" class="g113s1">650</text>
+<text x="793.0" y="3261.7" class="g113s1">404</text>
+<text x="943.0" y="3261.7" class="g113s1">100.0% (100.0%–100.0%)</text>
+<text y="3261.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3261.7" class="g113s1">7.55 → 6.69 ms</text>
+<line x1="34.0" y1="3270.8" x2="1846.0" y2="3270.8" class="g113s2"/>
+<text y="3287.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="3287.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="216.0" textLength="154.7" lengthAdjust="spacing"> without QK-Norm and the cap</tspan></text>
+<text x="643.0" y="3287.7" class="g113s1">650</text>
+<text x="793.0" y="3287.7" class="g113s1">404</text>
+<text x="943.0" y="3287.7" class="g113s1">100.0% (100.0%–100.0%)</text>
+<text y="3287.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3287.7" class="g113s1">7.30 → 6.49 ms</text>
+<line x1="34.0" y1="3296.8" x2="1846.0" y2="3296.8" class="g113s2"/>
+<rect x="34.0" y="3296.8" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="3313.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="3313.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="216.0" textLength="80.5" lengthAdjust="spacing"> without experts</tspan></text>
+<text x="643.0" y="3313.7" class="g113s1">650</text>
+<text x="793.0" y="3313.7" class="g113s1">404</text>
+<text x="943.0" y="3313.7" class="g113s1">100.0% (100.0%–100.0%)</text>
+<text y="3313.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3313.7" class="g113s1">5.97 → 5.01 ms</text>
+<line x1="34.0" y1="3322.8" x2="1846.0" y2="3322.8" class="g113s2"/>
+<text y="3339.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="3339.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="216.0" textLength="71.6" lengthAdjust="spacing"> without Muon</tspan></text>
+<text x="643.0" y="3339.7" class="g113s1">650</text>
+<text x="793.0" y="3339.7" class="g113s1">404</text>
+<text x="943.0" y="3339.7" class="g113s1">100.0% (100.0%–100.0%)</text>
+<text y="3339.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3339.7" class="g113s1">8.21 → 7.11 ms</text>
+<line x1="34.0" y1="3348.8" x2="1846.0" y2="3348.8" class="g113s2"/>
+<rect x="34.0" y="3348.8" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="3365.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="3365.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan></text>
+<text x="643.0" y="3365.7" class="g113s1">923</text>
+<text x="793.0" y="3365.7" class="g113s1">543</text>
+<text x="943.0" y="3365.7" class="g113s1">98.3% (96.2%–99.5%)</text>
+<text y="3365.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3365.7" class="g113s1">11.44 → 9.41 ms</text>
+<line x1="34.0" y1="3374.8" x2="1846.0" y2="3374.8" class="g113s2"/>
+<text y="3391.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="3391.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="216.0" textLength="68.4" lengthAdjust="spacing"> without GQA</tspan></text>
+<text x="643.0" y="3391.7" class="g113s1">921</text>
+<text x="793.0" y="3391.7" class="g113s1">541</text>
+<text x="943.0" y="3391.7" class="g113s1">98.7% (98.6%–98.9%)</text>
+<text y="3391.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3391.7" class="g113s1">9.71 → 8.05 ms</text>
+<line x1="34.0" y1="3400.8" x2="1846.0" y2="3400.8" class="g113s2"/>
+<rect x="34.0" y="3400.8" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="3417.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="3417.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="216.0" textLength="154.7" lengthAdjust="spacing"> without QK-Norm and the cap</tspan></text>
+<text x="643.0" y="3417.7" class="g113s1">922</text>
+<text x="793.0" y="3417.7" class="g113s1">541</text>
+<text x="943.0" y="3417.7" class="g113s1">99.3% (99.1%–99.5%)</text>
+<text y="3417.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3417.7" class="g113s1">9.57 → 7.91 ms</text>
+<line x1="34.0" y1="3426.8" x2="1846.0" y2="3426.8" class="g113s2"/>
+<text y="3443.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="3443.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="216.0" textLength="80.5" lengthAdjust="spacing"> without experts</tspan></text>
+<text x="643.0" y="3443.7" class="g113s1">923</text>
+<text x="793.0" y="3443.7" class="g113s1">541</text>
+<text x="943.0" y="3443.7" class="g113s1">99.4% (99.1%–99.8%)</text>
+<text y="3443.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3443.7" class="g113s1">8.05 → 6.51 ms</text>
+<line x1="34.0" y1="3452.8" x2="1846.0" y2="3452.8" class="g113s2"/>
+<rect x="34.0" y="3452.8" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="3469.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="3469.7" xml:space="preserve" class="g113s8"><tspan x="203.0" class="g113s10" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="216.0" textLength="71.6" lengthAdjust="spacing"> without Muon</tspan></text>
+<text x="643.0" y="3469.7" class="g113s1">909</text>
+<text x="793.0" y="3469.7" class="g113s1">562</text>
+<text x="943.0" y="3469.7" class="g113s1">86.0% (82.3%–88.1%)</text>
+<text y="3469.7" xml:space="preserve" class="g113s8"><tspan x="1283.0" textLength="17.9" lengthAdjust="spacing">yes</tspan></text>
+<text x="1483.0" y="3469.7" class="g113s1">9.78 → 8.33 ms</text>
+<line x1="34.0" y1="3478.8" x2="1846.0" y2="3478.8" class="g113s2"/>
+<rect x="34.0" y="3218.8" width="1812.0" height="260.0" rx="0" class="g113s25"/>
+<line x1="194.0" y1="3218.8" x2="194.0" y2="3478.8" class="g113s2"/>
+<line x1="634.0" y1="3218.8" x2="634.0" y2="3478.8" class="g113s2"/>
+<line x1="784.0" y1="3218.8" x2="784.0" y2="3478.8" class="g113s2"/>
+<line x1="934.0" y1="3218.8" x2="934.0" y2="3478.8" class="g113s2"/>
+<line x1="1274.0" y1="3218.8" x2="1274.0" y2="3478.8" class="g113s2"/>
+<line x1="1474.0" y1="3218.8" x2="1474.0" y2="3478.8" class="g113s2"/>
+<rect x="34.0" y="3490.8" width="1812.0" height="72.6" rx="6" class="g113s47"/>
+<path d="M38.50 3491.49 A5.50 5.50 0 0 0 34.50 3496.78 V3557.34 A5.50 5.50 0 0 0 38.50 3562.63 Z" class="g113s48"/>
+<text y="3516.8" xml:space="preserve" class="g113s22"><tspan x="50.0" class="g113s0" textLength="121.6" lengthAdjust="spacing">Reading the numbers</tspan></text>
+<text y="3534.3" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="312.8" lengthAdjust="spacing">A better-trained model guesses better: on the reverse task </tspan><tspan x="362.8" class="g113s14" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="376.4" textLength="498.8" lengthAdjust="spacing"> without Muon, which at the notebook’s learning rate learned the task far less well (deep dive </tspan><tspan x="875.2" class="g113s3" textLength="14.1" lengthAdjust="spacing">24</tspan><tspan x="889.3" textLength="36.7" lengthAdjust="spacing">), kept </tspan><tspan x="926.0" class="g113s3" textLength="36.1" lengthAdjust="spacing">86.0%</tspan><tspan x="962.1" textLength="122.1" lengthAdjust="spacing"> of its guesses against </tspan><tspan x="1084.1" class="g113s14" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="1097.7" textLength="16.5" lengthAdjust="spacing">’s </tspan><tspan x="1114.2" class="g113s3" textLength="36.1" lengthAdjust="spacing">98.3%</tspan><tspan x="1150.3" textLength="73.4" lengthAdjust="spacing">, and needed </tspan><tspan x="1223.7" class="g113s3" textLength="65.1" lengthAdjust="spacing">562 passes</tspan><tspan x="1288.7" textLength="58.7" lengthAdjust="spacing"> instead of </tspan><tspan x="1347.4" class="g113s3" textLength="21.2" lengthAdjust="spacing">543</tspan><tspan x="1368.7" textLength="437.4" lengthAdjust="spacing">. On the translate task every guess was right in every run. The experiment’s small</tspan></text>
+<text y="3551.8" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="629.6" lengthAdjust="spacing">model gained a little time per sentence on this CPU, where the fixed cost of each pass weighs more than its arithmetic.</tspan></text>
+<rect x="34.0" y="3583.3" width="1812.0" height="30.0" rx="6" class="g113s13"/>
+<path d="M38.50 3584.05 A5.50 5.50 0 0 0 34.50 3589.34 V3607.34 A5.50 5.50 0 0 0 38.50 3612.63 Z" class="g113s21"/>
+<text y="3603.3" xml:space="preserve" class="g113s34"><tspan x="50.0" class="g113s0" textLength="22.2" lengthAdjust="spacing">G · </tspan><tspan x="72.2" class="g113s38" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="101.6" class="g113s0" textLength="52.1" lengthAdjust="spacing"> against </tspan><tspan x="153.7" class="g113s38" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="168.4" class="g113s0" textLength="94.2" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="3603.3" xml:space="preserve" class="g113s35"><tspan x="280.7" textLength="494.1" lengthAdjust="spacing">the answers stay the same, so the rows compare what it costs and saves, measured on this CPU</tspan></text>
+<text y="3631.3" xml:space="preserve" class="g113s22"><tspan x="38.0" class="g113s0" textLength="69.3" lengthAdjust="spacing">What it fixes</tspan></text>
+<text y="3649.3" xml:space="preserve" class="g113s11"><tspan x="38.0" class="g113s14" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="65.2" textLength="261.3" lengthAdjust="spacing">’s way: one pass of the model per written token. </tspan><tspan x="326.5" class="g113s14" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="340.1" textLength="357.4" lengthAdjust="spacing">’s: the head guesses, one pass checks: up to two tokens per pass.</tspan></text>
+<rect x="34.0" y="3670.7" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="3686.7" xml:space="preserve" class="g113s7"><tspan x="743.0" class="g113s51" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="766.8" class="g113s0" textLength="89.6" lengthAdjust="spacing">’s way (without it)</tspan></text>
+<text y="3686.7" xml:space="preserve" class="g113s7"><tspan x="1133.0" class="g113s51" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="1144.9" class="g113s0" textLength="39.0" lengthAdjust="spacing"> (with it)</tspan></text>
+<text y="3686.7" xml:space="preserve" class="g113s7"><tspan x="1523.0" class="g113s0" textLength="71.1" lengthAdjust="spacing">which is better</tspan></text>
+<text y="3711.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="73.2" lengthAdjust="spacing">the answers (</tspan><tspan x="116.2" class="g113s3" textLength="102.3" lengthAdjust="spacing">100 test sentences</tspan><tspan x="218.5" class="g113s0">, </tspan><tspan x="225.3" class="g113s3">3</tspan><tspan x="232.0" class="g113s0" textLength="40.0" lengthAdjust="spacing"> seeds)</tspan></text>
+<text x="743.0" y="3711.7" class="g113s1">greedy</text>
+<text x="1133.0" y="3711.7" class="g113s1">speculative: identical in 3 of 3 runs</text>
+<text y="3711.7" xml:space="preserve" class="g113s8"><tspan x="1523.0" textLength="47.3" lengthAdjust="spacing">the same</tspan></text>
+<line x1="34.0" y1="3720.7" x2="1846.0" y2="3720.7" class="g113s2"/>
+<rect x="34.0" y="3720.7" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="3737.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="182.3" lengthAdjust="spacing">passes of the model to write them</tspan></text>
+<text x="743.0" y="3737.7" class="g113s1">923</text>
+<text x="1133.0" y="3737.7" class="g113s1">543</text>
+<text y="3737.7" xml:space="preserve" class="g113s8"><tspan x="1523.0" textLength="60.7" lengthAdjust="spacing">fewer with it</tspan></text>
+<line x1="34.0" y1="3746.7" x2="1846.0" y2="3746.7" class="g113s2"/>
+<text y="3763.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="352.8" lengthAdjust="spacing">time to write a sentence, the experiment’s small model, this CPU</tspan></text>
+<text x="743.0" y="3763.7" class="g113s1">11.4 ms</text>
+<text x="1133.0" y="3763.7" class="g113s1">9.4 ms</text>
+<text y="3763.7" xml:space="preserve" class="g113s8"><tspan x="1523.0" textLength="61.4" lengthAdjust="spacing">faster with it</tspan></text>
+<line x1="34.0" y1="3772.7" x2="1846.0" y2="3772.7" class="g113s2"/>
+<rect x="34.0" y="3772.7" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="3789.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="150.4" lengthAdjust="spacing">one pass of the real model, </tspan><tspan x="193.4" class="g113s3" textLength="40.0" lengthAdjust="spacing">1 token</tspan><tspan x="233.4" class="g113s0" textLength="46.1" lengthAdjust="spacing"> against </tspan><tspan x="279.5" class="g113s3">2</tspan><tspan x="286.3" class="g113s0" textLength="54.9" lengthAdjust="spacing">, this CPU</tspan></text>
+<text x="743.0" y="3789.7" class="g113s1">2.4 ms</text>
+<text x="1133.0" y="3789.7" class="g113s1">4.8 ms</text>
+<text y="3789.7" xml:space="preserve" class="g113s8"><tspan x="1523.0">a </tspan><tspan x="1532.6" class="g113s3" textLength="40.7" lengthAdjust="spacing">2-token</tspan><tspan x="1573.2" textLength="60.7" lengthAdjust="spacing"> pass costs </tspan><tspan x="1634.0" class="g113s3" textLength="24.3" lengthAdjust="spacing">2.0×</tspan><tspan x="1658.2" textLength="113.8" lengthAdjust="spacing">: little saved on a CPU</tspan></text>
+<line x1="34.0" y1="3798.7" x2="1846.0" y2="3798.7" class="g113s2"/>
+<text y="3815.7" xml:space="preserve" class="g113s9"><tspan x="43.0" class="g113s0" textLength="71.8" lengthAdjust="spacing">what it needs</tspan></text>
+<text x="743.0" y="3815.7" class="g113s1">—</text>
+<text x="1133.0" y="3815.7" class="g113s1">the multi-token head (deep dive 22)</text>
+<text y="3815.7" xml:space="preserve" class="g113s8"><tspan x="1523.0" textLength="64.5" lengthAdjust="spacing">more to train</tspan></text>
+<line x1="34.0" y1="3824.7" x2="1846.0" y2="3824.7" class="g113s2"/>
+<rect x="34.0" y="3694.7" width="1812.0" height="130.0" rx="0" class="g113s25"/>
+<line x1="734.0" y1="3694.7" x2="734.0" y2="3824.7" class="g113s2"/>
+<line x1="1124.0" y1="3694.7" x2="1124.0" y2="3824.7" class="g113s2"/>
+<line x1="1514.0" y1="3694.7" x2="1514.0" y2="3824.7" class="g113s2"/>
+<rect x="34.0" y="3836.7" width="1812.0" height="55.0" rx="6" class="g113s47"/>
+<path d="M38.50 3837.45 A5.50 5.50 0 0 0 34.50 3842.74 V3885.78 A5.50 5.50 0 0 0 38.50 3891.07 Z" class="g113s48"/>
+<text y="3862.7" xml:space="preserve" class="g113s22"><tspan x="50.0" class="g113s0" textLength="57.3" lengthAdjust="spacing">Reading it</tspan></text>
+<text y="3880.3" xml:space="preserve" class="g113s11"><tspan x="50.0" textLength="1183.3" lengthAdjust="spacing">It changes no answer, so whether it helps is a question of what it costs and saves — and that depends on the hardware and the length of the text more than on training. The overview page puts all eight changes side by side.</tspan></text>
+<rect x="34.0" y="3911.8" width="1812.0" height="30.0" rx="6" class="g113s13"/>
+<path d="M38.50 3912.49 A5.50 5.50 0 0 0 34.50 3917.78 V3935.78 A5.50 5.50 0 0 0 38.50 3941.07 Z" class="g113s21"/>
+<text y="3931.8" xml:space="preserve" class="g113s34"><tspan x="50.0" class="g113s0" textLength="211.3" lengthAdjust="spacing">Claims · Common claims, checked</tspan></text>
+<text y="3931.8" xml:space="preserve" class="g113s35"><tspan x="279.3" textLength="147.5" lengthAdjust="spacing">against this page’s numbers</tspan></text>
+<rect x="34.0" y="3957.8" width="1812.0" height="24.0" rx="4" class="g113s13"/>
+<text y="3973.8" xml:space="preserve" class="g113s7"><tspan x="43.0" class="g113s0" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="3973.8" xml:space="preserve" class="g113s7"><tspan x="603.0" class="g113s0" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="3973.8" xml:space="preserve" class="g113s7"><tspan x="713.0" class="g113s0" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
+<text y="3998.5" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s0" textLength="237.9" lengthAdjust="spacing">Speculative decoding can change the answer.</tspan></text>
+<text y="3998.5" xml:space="preserve" class="g113s32"><tspan x="603.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="3998.5" xml:space="preserve" class="g113s32"><tspan x="713.0" textLength="311.0" lengthAdjust="spacing">greedy: every token written is the model’s own pick (section C, </tspan><tspan x="1024.0" class="g113s3" textLength="85.6" lengthAdjust="spacing">3,000 sentences</tspan><tspan x="1109.6" textLength="264.1" lengthAdjust="spacing"> identical); sampling: the same distribution (section D).</tspan></text>
+<line x1="34.0" y1="4007.8" x2="1846.0" y2="4007.8" class="g113s2"/>
+<rect x="34.0" y="4007.8" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="4024.5" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s0" textLength="167.2" lengthAdjust="spacing">A wrong guess wastes the pass.</tspan></text>
+<text y="4024.5" xml:space="preserve" class="g113s32"><tspan x="603.0" textLength="42.2" lengthAdjust="spacing">not quite</tspan></text>
+<text y="4024.5" xml:space="preserve" class="g113s32"><tspan x="713.0" textLength="588.0" lengthAdjust="spacing">the pass still writes the model’s own token, as a plain pass would; the loss is the work of checking the guess (section B).</tspan></text>
+<line x1="34.0" y1="4033.8" x2="1846.0" y2="4033.8" class="g113s2"/>
+<text y="4050.5" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s0" textLength="155.5" lengthAdjust="spacing">It always makes writing faster.</tspan></text>
+<text y="4050.5" xml:space="preserve" class="g113s32"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="4050.5" xml:space="preserve" class="g113s32"><tspan x="713.0" textLength="196.9" lengthAdjust="spacing">fewer passes always; but on this CPU a </tspan><tspan x="909.9" class="g113s3" textLength="38.9" lengthAdjust="spacing">2-token</tspan><tspan x="948.7" textLength="58.1" lengthAdjust="spacing"> pass costs </tspan><tspan x="1006.8" class="g113s3" textLength="32.9" lengthAdjust="spacing">2.0× a</tspan><tspan x="1039.7"> </tspan><tspan x="1042.8" class="g113s3" textLength="38.9" lengthAdjust="spacing">1-token</tspan><tspan x="1081.7" textLength="482.3" lengthAdjust="spacing"> one and the notebook’s run got slower (section E). GPUs, one reader at a time, are where it pays.</tspan></text>
+<line x1="34.0" y1="4059.8" x2="1846.0" y2="4059.8" class="g113s2"/>
+<rect x="34.0" y="4059.8" width="1812.0" height="26.0" rx="0" class="g113s12"/>
+<text y="4076.5" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s0" textLength="174.3" lengthAdjust="spacing">It needs a second, smaller model.</tspan></text>
+<text y="4076.5" xml:space="preserve" class="g113s32"><tspan x="603.0" textLength="40.4" lengthAdjust="spacing">not here</tspan></text>
+<text y="4076.5" xml:space="preserve" class="g113s32"><tspan x="713.0" textLength="236.6" lengthAdjust="spacing">the classic method uses a separate draft model; </tspan><tspan x="949.6" class="g113s29" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="962.1" textLength="288.6" lengthAdjust="spacing"> drafts with its own multi-token head — self-speculative, as </tspan><tspan x="1250.6" class="g113s3" textLength="72.6" lengthAdjust="spacing">DeepSeek-V3</tspan><tspan x="1323.2">.</tspan></text>
+<line x1="34.0" y1="4085.8" x2="1846.0" y2="4085.8" class="g113s2"/>
+<text y="4102.5" xml:space="preserve" class="g113s31"><tspan x="43.0" class="g113s0" textLength="222.3" lengthAdjust="spacing">More guesses per pass would always help.</tspan></text>
+<text y="4102.5" xml:space="preserve" class="g113s32"><tspan x="603.0" textLength="60.5" lengthAdjust="spacing">up to a point</tspan></text>
+<text y="4102.5" xml:space="preserve" class="g113s32"><tspan x="713.0" textLength="340.5" lengthAdjust="spacing">every extra guess must also be right, and k right in a row grows rarer; </tspan><tspan x="1053.5" class="g113s29" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1066.0" textLength="97.8" lengthAdjust="spacing"> drafts one (at most </tspan><tspan x="1163.8" class="g113s3" textLength="44.1" lengthAdjust="spacing">2 tokens</tspan><tspan x="1207.9" textLength="212.2" lengthAdjust="spacing"> a pass). Medusa and EAGLE draft several.</tspan></text>
+<line x1="34.0" y1="4111.8" x2="1846.0" y2="4111.8" class="g113s2"/>
+<rect x="34.0" y="3981.8" width="1812.0" height="130.0" rx="0" class="g113s25"/>
+<line x1="594.0" y1="3981.8" x2="594.0" y2="4111.8" class="g113s2"/>
+<line x1="704.0" y1="3981.8" x2="704.0" y2="4111.8" class="g113s2"/>
+<line x1="28.0" y1="4137.8" x2="1852.0" y2="4137.8" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="4154.8" xml:space="preserve" class="g113s60"><tspan x="28.0" textLength="341.7" lengthAdjust="spacing">Numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="369.7" class="g113s29" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="382.2" textLength="105.2" lengthAdjust="spacing"> notebook (written by </tspan><tspan x="487.3" class="g113s29" textLength="37.3" lengthAdjust="spacing">nb3.py</tspan><tspan x="524.7" textLength="28.1" lengthAdjust="spacing"> from </tspan><tspan x="552.8" class="g113s29" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="577.7" textLength="195.1" lengthAdjust="spacing">; your notebooks are only read) and the </tspan><tspan x="772.7" class="g113s29" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="797.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="940.7" class="g113s3" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="956.9" textLength="280.0" lengthAdjust="spacing">.0 on their own two sentence pairs (CPU, seeded). Every </tspan><tspan x="1236.9" class="g113s29" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1249.4" textLength="234.1" lengthAdjust="spacing"> change is tested on the notebook’s own code (</tspan><tspan x="1483.4" class="g113s29" textLength="56.0" lengthAdjust="spacing">check3.py</tspan><tspan x="1539.5" textLength="199.9" lengthAdjust="spacing">). TINY-MODEL numbers come from the </tspan><tspan x="1739.3" class="g113s29" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1751.8" textLength="85.6" lengthAdjust="spacing"> classes built with</tspan></text>
+<text y="4169.8" xml:space="preserve" class="g113s60"><tspan x="28.0" class="g113s3" textLength="55.1" lengthAdjust="spacing">8 numbers</tspan><tspan x="83.1" textLength="472.6" lengthAdjust="spacing"> a token and trained on five sentences; a pure-Python copy of that model agrees with PyTorch to </tspan><tspan x="555.7" class="g113s3" textLength="29.8" lengthAdjust="spacing">1e-04</tspan><tspan x="585.5">.</tspan></text>
+</svg>

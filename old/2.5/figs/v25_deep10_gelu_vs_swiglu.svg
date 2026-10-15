@@ -1,0 +1,219 @@
+<svg data-src="v25_deep10_gelu_vs_swiglu.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1791" viewBox="0 0 1880 1791">
+<style>.txfig .g85s0{font-weight:600}.txfig .g85s1{font-weight:600;fill:var(--ink)}.txfig .g85s2{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g85s3{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g85s4{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g85s5{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g85s6{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g85s7{stroke:var(--ink3);stroke-width:1.4;stroke-linecap:round}.txfig .g85s8{fill:var(--ink3)}.txfig .g85s9{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:middle}.txfig .g85s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.8px;font-weight:600;fill:var(--ink)}.txfig .g85s11{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g85s12{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g85s13{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g85s14{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g85s15{fill:var(--accent);stroke:none}.txfig .g85s16{stroke:var(--gridline);stroke-width:0.8;stroke-linecap:round}.txfig .g85s17{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g85s18{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g85s19{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g85s20{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g85s21{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g85s22{fill:var(--soft);stroke:var(--panelbd);stroke-width:1.4}.txfig .g85s23{fill:var(--keepbg);stroke:var(--keep);stroke-width:1.4}.txfig .g85s24{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g85s25{fill:var(--dropbg);stroke:var(--drop);stroke-width:1.4}.txfig .g85s26{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px}.txfig .g85s27{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g85s28{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g85s29{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g85s30{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g85s31{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)}.txfig .g85s32{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g85s33{fill:var(--keep);stroke:none}.txfig .g85s34{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1}.txfig .g85s35{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start}.txfig .g85s36{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g85s37{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g85s38{stroke:var(--panelbd);stroke-width:1.2;stroke-linecap:round}.txfig .g85s39{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g85s40{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g85s41{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch85" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash85" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1791" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v2.5 · DEEP DIVE 10 / 17</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="202.7" class="g85s31" textLength="47.5" lengthAdjust="spacing">GELU</tspan><tspan x="250.3" class="g85s0" textLength="84.1" lengthAdjust="spacing"> against </tspan><tspan x="334.4" class="g85s31" textLength="71.3" lengthAdjust="spacing">SwiGLU</tspan><tspan x="405.7" class="g85s0" textLength="152.2" lengthAdjust="spacing"> — side by side</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="652.5" lengthAdjust="spacing">the two pipelines · the two curves · the same input through both · what the gate adds · cost · what training showed</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="380.1" lengthAdjust="spacing">Both feed-forwards get exactly the same normalised input: “cat”, encoder </tspan><tspan x="414.1" class="g85s1" textLength="36.6" lengthAdjust="spacing">layer 0</tspan><tspan x="450.6">. </tspan><tspan x="457.0" class="g85s6" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="470.0" textLength="168.6" lengthAdjust="spacing">’s uses its own seeded weights, </tspan><tspan x="638.7" class="g85s6" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="664.7" textLength="54.8" lengthAdjust="spacing">’s its own.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="69.0" rx="8" class="g85s32"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V181.00 A7.50 7.50 0 0 0 39.50 188.07 Z" class="g85s33"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g85s0" textLength="384.4" lengthAdjust="spacing">Same job, same size, one difference that matters: the gate</tspan></text>
+<text y="169.0" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="54.0" textLength="303.2" lengthAdjust="spacing">Both are the “think” move of a layer and hold about </tspan><tspan x="357.2" class="g85s1" textLength="119.5" lengthAdjust="spacing">2.1 million numbers</tspan><tspan x="476.7" textLength="61.4" lengthAdjust="spacing"> per layer. </tspan><tspan x="538.1" class="g85s24" textLength="29.4" lengthAdjust="spacing">GELU</tspan><tspan x="567.5" textLength="268.1" lengthAdjust="spacing"> bends every hidden number by its own value. </tspan><tspan x="835.6" class="g85s24" textLength="44.1" lengthAdjust="spacing">SwiGLU</tspan><tspan x="879.7" textLength="120.0" lengthAdjust="spacing"> computes a second </tspan><tspan x="999.7" class="g85s24" textLength="29.4" lengthAdjust="spacing">view</tspan><tspan x="1029.1" textLength="422.7" lengthAdjust="spacing"> of the input and uses it to open or shut each hidden number. Deep dives </tspan><tspan x="1451.8" class="g85s1">8</tspan><tspan x="1459.5" textLength="28.9" lengthAdjust="spacing"> and </tspan><tspan x="1488.4" class="g85s1">9</tspan><tspan x="1496.1" textLength="226.2" lengthAdjust="spacing"> explain each; this one compares them.</tspan></text>
+<rect x="34.0" y="209.0" width="1812.0" height="30.0" rx="6" class="g85s12"/>
+<path d="M38.50 209.71 A5.50 5.50 0 0 0 34.50 215.00 V233.00 A5.50 5.50 0 0 0 38.50 238.29 Z" class="g85s15"/>
+<text y="229.0" xml:space="preserve" class="g85s20"><tspan x="50.0" class="g85s0" textLength="127.9" lengthAdjust="spacing">A · The two pipelines</tspan></text>
+<text y="229.0" xml:space="preserve" class="g85s21"><tspan x="195.9" textLength="150.7" lengthAdjust="spacing">what happens to one word’s </tspan><tspan x="346.6" class="g85s1" textLength="71.1" lengthAdjust="spacing">512 numbers</tspan></text>
+<rect x="34.0" y="255.0" width="1812.0" height="250.0" rx="10" class="g85s34"/>
+<text x="54.0" y="281.0" style="fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;text-anchor:start">v2 · GELU</text>
+<rect x="54.0" y="299.0" width="180.0" height="50.0" rx="7" class="g85s22"/>
+<text x="144.0" y="320.0" class="g85s9">x</text>
+<text x="144.0" y="338.0" class="g85s4">512 numbers</text>
+<rect x="284.0" y="299.0" width="250.0" height="50.0" rx="7" class="g85s25"/>
+<text x="409.0" y="320.0" class="g85s9">fc1</text>
+<text x="409.0" y="338.0" class="g85s4">512 → 2,048 + bias</text>
+<rect x="574.0" y="299.0" width="200.0" height="50.0" rx="7" class="g85s25"/>
+<text x="674.0" y="320.0" class="g85s9">GELU</text>
+<text x="674.0" y="338.0" class="g85s4">the soft switch</text>
+<rect x="814.0" y="299.0" width="200.0" height="50.0" rx="7" class="g85s25"/>
+<text x="914.0" y="320.0" class="g85s9">fc2</text>
+<text x="914.0" y="338.0" class="g85s4">2,048 → 512 + bias</text>
+<rect x="1054.0" y="299.0" width="200.0" height="50.0" rx="7" class="g85s22"/>
+<text x="1154.0" y="320.0" class="g85s9">out</text>
+<text x="1154.0" y="338.0" class="g85s4">512 numbers</text>
+<line x1="238.0" y1="324.0" x2="274.0" y2="324.0" class="g85s7"/>
+<path d="M280.0 324.0 L271.8 327.7 L271.8 320.3 Z" class="g85s8"/>
+<line x1="538.0" y1="324.0" x2="564.0" y2="324.0" class="g85s7"/>
+<path d="M570.0 324.0 L561.8 327.7 L561.8 320.3 Z" class="g85s8"/>
+<line x1="778.0" y1="324.0" x2="804.0" y2="324.0" class="g85s7"/>
+<path d="M810.0 324.0 L801.8 327.7 L801.8 320.3 Z" class="g85s8"/>
+<line x1="1018.0" y1="324.0" x2="1044.0" y2="324.0" class="g85s7"/>
+<path d="M1050.0 324.0 L1041.8 327.7 L1041.8 320.3 Z" class="g85s8"/>
+<text x="1284.0" y="320.0" class="g85s35">2,099,712 numbers per layer</text>
+<text x="1284.0" y="338.0" class="g85s36">every unit bends its own value</text>
+<text x="54.0" y="395.0" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;text-anchor:start">v2.5 · SwiGLU</text>
+<rect x="54.0" y="425.0" width="180.0" height="50.0" rx="7" class="g85s22"/>
+<text x="144.0" y="446.0" class="g85s9">x</text>
+<text x="144.0" y="464.0" class="g85s4">512 numbers</text>
+<rect x="284.0" y="401.0" width="250.0" height="36.0" rx="7" class="g85s23"/>
+<text x="409.0" y="423.0" class="g85s37">w_gate 512 → 1,368 → SiLU</text>
+<rect x="284.0" y="455.0" width="250.0" height="36.0" rx="7" class="g85s23"/>
+<text x="409.0" y="477.0" class="g85s37">w_up 512 → 1,368</text>
+<rect x="574.0" y="425.0" width="200.0" height="50.0" rx="7" class="g85s23"/>
+<text x="674.0" y="446.0" class="g85s9">× unit by unit</text>
+<text x="674.0" y="464.0" class="g85s4">gate × value</text>
+<rect x="814.0" y="425.0" width="200.0" height="50.0" rx="7" class="g85s23"/>
+<text x="914.0" y="446.0" class="g85s9">w_down</text>
+<text x="914.0" y="464.0" class="g85s4">1,368 → 512</text>
+<rect x="1054.0" y="425.0" width="200.0" height="50.0" rx="7" class="g85s22"/>
+<text x="1154.0" y="446.0" class="g85s9">out</text>
+<text x="1154.0" y="464.0" class="g85s4">512 numbers</text>
+<line x1="238.0" y1="443.0" x2="274.8" y2="422.0" class="g85s7"/>
+<path d="M280.0 419.0 L274.7 426.3 L271.0 419.9 Z" class="g85s8"/>
+<line x1="238.0" y1="457.0" x2="274.4" y2="470.9" class="g85s7"/>
+<path d="M280.0 473.0 L271.0 473.5 L273.6 466.6 Z" class="g85s8"/>
+<line x1="538.0" y1="419.0" x2="565.2" y2="439.4" class="g85s7"/>
+<path d="M570.0 443.0 L561.2 441.0 L565.6 435.1 Z" class="g85s8"/>
+<line x1="538.0" y1="473.0" x2="564.6" y2="459.7" class="g85s7"/>
+<path d="M570.0 457.0 L564.3 464.0 L561.0 457.4 Z" class="g85s8"/>
+<line x1="778.0" y1="450.0" x2="804.0" y2="450.0" class="g85s7"/>
+<path d="M810.0 450.0 L801.8 453.7 L801.8 446.3 Z" class="g85s8"/>
+<line x1="1018.0" y1="450.0" x2="1044.0" y2="450.0" class="g85s7"/>
+<path d="M1050.0 450.0 L1041.8 453.7 L1041.8 446.3 Z" class="g85s8"/>
+<text x="1284.0" y="446.0" class="g85s35">2,101,248 numbers per layer</text>
+<text x="1284.0" y="464.0" class="g85s36">one view of x switches the other</text>
+<rect x="34.0" y="529.0" width="1812.0" height="30.0" rx="6" class="g85s12"/>
+<path d="M38.50 529.71 A5.50 5.50 0 0 0 34.50 535.00 V553.00 A5.50 5.50 0 0 0 38.50 558.29 Z" class="g85s15"/>
+<text y="549.0" xml:space="preserve" class="g85s20"><tspan x="50.0" class="g85s0" textLength="114.1" lengthAdjust="spacing">B · The two curves</tspan></text>
+<text y="549.0" xml:space="preserve" class="g85s21"><tspan x="182.1" class="g85s6" textLength="26.0" lengthAdjust="spacing">GELU</tspan><tspan x="208.1"> (</tspan><tspan x="215.2" class="g85s6" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="228.2" textLength="29.4" lengthAdjust="spacing">) and </tspan><tspan x="257.6" class="g85s6" textLength="26.0" lengthAdjust="spacing">SiLU</tspan><tspan x="283.6" textLength="94.0" lengthAdjust="spacing">, the switch inside </tspan><tspan x="377.6" class="g85s6" textLength="39.0" lengthAdjust="spacing">SwiGLU</tspan><tspan x="416.6"> (</tspan><tspan x="423.6" class="g85s6" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="449.7">)</tspan></text>
+<rect x="34.0" y="575.0" width="894.0" height="320.0" rx="8" class="g85s34"/>
+<text y="599.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600"><tspan x="50.0" class="g85s0" textLength="134.0" lengthAdjust="spacing">nearly the same shape</tspan></text>
+<text y="617.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px"><tspan x="50.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink)" textLength="23.8" lengthAdjust="spacing">SiLU</tspan><tspan x="73.8" textLength="214.7" lengthAdjust="spacing"> dips a little lower and rises a little more slowly</tspan></text>
+<line x1="96.0" y1="853.0" x2="906.0" y2="853.0" class="g85s16"/>
+<text x="88.0" y="857.0" class="g85s17">-1</text>
+<line x1="96.0" y1="810.6" x2="906.0" y2="810.6" class="g85s16"/>
+<text x="88.0" y="814.6" class="g85s17">0</text>
+<line x1="96.0" y1="768.2" x2="906.0" y2="768.2" class="g85s16"/>
+<text x="88.0" y="772.2" class="g85s17">1</text>
+<line x1="96.0" y1="725.8" x2="906.0" y2="725.8" class="g85s16"/>
+<text x="88.0" y="729.8" class="g85s17">2</text>
+<line x1="96.0" y1="683.4" x2="906.0" y2="683.4" class="g85s16"/>
+<text x="88.0" y="687.4" class="g85s17">3</text>
+<line x1="96.0" y1="641.0" x2="906.0" y2="641.0" class="g85s16"/>
+<text x="88.0" y="645.0" class="g85s17">4</text>
+<line x1="96.0" y1="853.0" x2="906.0" y2="853.0" class="g85s38"/>
+<line x1="96.0" y1="641.0" x2="96.0" y2="853.0" class="g85s38"/>
+<text x="501.0" y="885.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle">the input z</text>
+<path d="M96.0 813.7 L101.1 813.8 L106.1 813.9 L111.2 814.0 L116.3 814.1 L121.3 814.3 L126.4 814.4 L131.4 814.5 L136.5 814.7 L141.6 814.8 L146.6 814.9 L151.7 815.1 L156.8 815.3 L161.8 815.4 L166.9 815.6 L171.9 815.7 L177.0 815.9 L182.1 816.1 L187.1 816.3 L192.2 816.4 L197.2 816.6 L202.3 816.8 L207.4 817.0 L212.4 817.2 L217.5 817.4 L222.6 817.6 L227.6 817.8 L232.7 818.0 L237.8 818.2 L242.8 818.4 L247.9 818.6 L252.9 818.9 L258.0 819.1 L263.1 819.3 L268.1 819.5 L273.2 819.7 L278.2 819.9 L283.3 820.1 L288.4 820.3 L293.4 820.5 L298.5 820.7 L303.6 820.9 L308.6 821.1 L313.7 821.3 L318.8 821.4 L323.8 821.6 L328.9 821.7 L333.9 821.9 L339.0 822.0 L344.1 822.1 L349.1 822.2 L354.2 822.3 L359.2 822.3 L364.3 822.4 L369.4 822.4 L374.4 822.4 L379.5 822.4 L384.6 822.3 L389.6 822.2 L394.7 822.1 L399.8 822.0 L404.8 821.8 L409.9 821.6 L414.9 821.4 L420.0 821.1 L425.1 820.8 L430.1 820.4 L435.2 820.1 L440.2 819.6 L445.3 819.1 L450.4 818.6 L455.4 818.0 L460.5 817.4 L465.6 816.7 L470.6 816.0 L475.7 815.2 L480.8 814.4 L485.8 813.5 L490.9 812.6 L495.9 811.6 L501.0 810.6 L506.1 809.5 L511.1 808.4 L516.2 807.2 L521.2 805.9 L526.3 804.6 L531.4 803.3 L536.4 801.9 L541.5 800.4 L546.6 798.9 L551.6 797.4 L556.7 795.8 L561.8 794.2 L566.8 792.5 L571.9 790.8 L576.9 789.0 L582.0 787.2 L587.1 785.4 L592.1 783.5 L597.2 781.6 L602.2 779.6 L607.3 777.6 L612.4 775.6 L617.4 773.6 L622.5 771.5 L627.6 769.4 L632.6 767.3 L637.7 765.1 L642.8 763.0 L647.8 760.8 L652.9 758.6 L657.9 756.4 L663.0 754.2 L668.1 751.9 L673.1 749.7 L678.2 747.4 L683.2 745.1 L688.3 742.8 L693.4 740.5 L698.4 738.2 L703.5 735.9 L708.6 733.6 L713.6 731.3 L718.7 729.0 L723.8 726.6 L728.8 724.3 L733.9 722.0 L738.9 719.6 L744.0 717.3 L749.1 715.0 L754.1 712.6 L759.2 710.3 L764.2 708.0 L769.3 705.7 L774.4 703.3 L779.4 701.0 L784.5 698.7 L789.6 696.4 L794.6 694.1 L799.7 691.7 L804.8 689.4 L809.8 687.1 L814.9 684.8 L819.9 682.5 L825.0 680.2 L830.1 677.9 L835.1 675.7 L840.2 673.4 L845.2 671.1 L850.3 668.8 L855.4 666.5 L860.4 664.3 L865.5 662.0 L870.6 659.8 L875.6 657.5 L880.7 655.3 L885.8 653.0 L890.8 650.8 L895.9 648.5 L900.9 646.3 L906.0 644.1" style="fill:none;stroke:var(--keep);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+<line x1="847.2" y1="597.0" x2="867.2" y2="597.0" style="stroke:var(--keep);stroke-width:3;stroke-linecap:round"/>
+<text x="873.2" y="601.0" class="g85s39">SiLU</text>
+<path d="M96.0 810.6 L101.1 810.6 L106.1 810.6 L111.2 810.6 L116.3 810.6 L121.3 810.6 L126.4 810.6 L131.4 810.6 L136.5 810.6 L141.6 810.6 L146.6 810.6 L151.7 810.6 L156.8 810.6 L161.8 810.7 L166.9 810.7 L171.9 810.7 L177.0 810.7 L182.1 810.7 L187.1 810.7 L192.2 810.7 L197.2 810.8 L202.3 810.8 L207.4 810.8 L212.4 810.9 L217.5 810.9 L222.6 810.9 L227.6 811.0 L232.7 811.1 L237.8 811.1 L242.8 811.2 L247.9 811.3 L252.9 811.3 L258.0 811.4 L263.1 811.5 L268.1 811.6 L273.2 811.8 L278.2 811.9 L283.3 812.0 L288.4 812.2 L293.4 812.4 L298.5 812.5 L303.6 812.7 L308.6 812.9 L313.7 813.1 L318.8 813.3 L323.8 813.6 L328.9 813.8 L333.9 814.1 L339.0 814.3 L344.1 814.6 L349.1 814.8 L354.2 815.1 L359.2 815.4 L364.3 815.7 L369.4 815.9 L374.4 816.2 L379.5 816.5 L384.6 816.7 L389.6 816.9 L394.7 817.1 L399.8 817.3 L404.8 817.5 L409.9 817.6 L414.9 817.7 L420.0 817.8 L425.1 817.8 L430.1 817.8 L435.2 817.7 L440.2 817.6 L445.3 817.4 L450.4 817.1 L455.4 816.8 L460.5 816.4 L465.6 816.0 L470.6 815.5 L475.7 814.9 L480.8 814.2 L485.8 813.4 L490.9 812.6 L495.9 811.6 L501.0 810.6 L506.1 809.5 L511.1 808.3 L516.2 807.0 L521.2 805.7 L526.3 804.3 L531.4 802.7 L536.4 801.1 L541.5 799.5 L546.6 797.7 L551.6 795.9 L556.7 794.1 L561.8 792.1 L566.8 790.1 L571.9 788.1 L576.9 786.0 L582.0 783.9 L587.1 781.7 L592.1 779.5 L597.2 777.2 L602.2 774.9 L607.3 772.6 L612.4 770.3 L617.4 767.9 L622.5 765.6 L627.6 763.2 L632.6 760.8 L637.7 758.4 L642.8 756.0 L647.8 753.6 L652.9 751.2 L657.9 748.9 L663.0 746.5 L668.1 744.1 L673.1 741.7 L678.2 739.4 L683.2 737.0 L688.3 734.7 L693.4 732.4 L698.4 730.0 L703.5 727.7 L708.6 725.4 L713.6 723.2 L718.7 720.9 L723.8 718.6 L728.8 716.4 L733.9 714.1 L738.9 711.9 L744.0 709.7 L749.1 707.5 L754.1 705.3 L759.2 703.1 L764.2 700.9 L769.3 698.7 L774.4 696.5 L779.4 694.3 L784.5 692.2 L789.6 690.0 L794.6 687.9 L799.7 685.7 L804.8 683.6 L809.8 681.4 L814.9 679.3 L819.9 677.1 L825.0 675.0 L830.1 672.9 L835.1 670.7 L840.2 668.6 L845.2 666.5 L850.3 664.4 L855.4 662.2 L860.4 660.1 L865.5 658.0 L870.6 655.9 L875.6 653.7 L880.7 651.6 L885.8 649.5 L890.8 647.4 L895.9 645.2 L900.9 643.1 L906.0 641.0" style="fill:none;stroke:var(--drop);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+<line x1="788.4" y1="597.0" x2="808.4" y2="597.0" style="stroke:var(--drop);stroke-width:3;stroke-linecap:round"/>
+<text x="814.4" y="601.0" class="g85s39">GELU</text>
+<text x="96.0" y="870.0" class="g85s4">-4</text>
+<text x="298.5" y="870.0" class="g85s4">-2</text>
+<text x="501.0" y="870.0" class="g85s4">0</text>
+<text x="703.5" y="870.0" class="g85s4">+2</text>
+<text x="906.0" y="870.0" class="g85s4">+4</text>
+<text y="593.5" xml:space="preserve" class="g85s26"><tspan x="952.0" textLength="218.2" lengthAdjust="spacing">The curves are close cousins: both are </tspan><tspan x="1170.1" class="g85s10" textLength="169.8" lengthAdjust="spacing">z × (a soft switch of z)</tspan><tspan x="1339.9">. </tspan><tspan x="1346.9" class="g85s10" textLength="28.3" lengthAdjust="spacing">GELU</tspan><tspan x="1375.2" textLength="207.3" lengthAdjust="spacing">’s switch is the normal curve’s Φ(z); </tspan><tspan x="1582.4" class="g85s10" textLength="28.3" lengthAdjust="spacing">SiLU</tspan><tspan x="1610.7" textLength="100.6" lengthAdjust="spacing">’s is the sigmoid. </tspan><tspan x="1711.3" class="g85s10" textLength="28.3" lengthAdjust="spacing">GELU</tspan><tspan x="1739.6" textLength="95.7" lengthAdjust="spacing">’s lowest point is</tspan></text>
+<text y="611.6" xml:space="preserve" class="g85s26"><tspan x="952.0" class="g85s1" textLength="37.6" lengthAdjust="spacing">-0.170</tspan><tspan x="989.6" textLength="21.5" lengthAdjust="spacing"> (at </tspan><tspan x="1011.1" class="g85s10" textLength="63.7" lengthAdjust="spacing">z = -0.75</tspan><tspan x="1074.8" textLength="11.1" lengthAdjust="spacing">), </tspan><tspan x="1085.9" class="g85s10" textLength="28.3" lengthAdjust="spacing">SiLU</tspan><tspan x="1114.2" textLength="17.2" lengthAdjust="spacing">’s </tspan><tspan x="1131.4" class="g85s1" textLength="37.6" lengthAdjust="spacing">-0.278</tspan><tspan x="1169.0" textLength="21.5" lengthAdjust="spacing"> (at </tspan><tspan x="1190.5" class="g85s10" textLength="63.7" lengthAdjust="spacing">z = -1.28</tspan><tspan x="1254.2" textLength="501.6" lengthAdjust="spacing">). So the curve is NOT the real difference. The difference is what the curve is applied to: in </tspan><tspan x="1755.8" class="g85s10" textLength="28.3" lengthAdjust="spacing">GELU</tspan><tspan x="1784.1" textLength="38.2" lengthAdjust="spacing">, to the</tspan></text>
+<text y="629.8" xml:space="preserve" class="g85s26"><tspan x="952.0" textLength="79.2" lengthAdjust="spacing">value itself; in </tspan><tspan x="1031.2" class="g85s10" textLength="42.4" lengthAdjust="spacing">SwiGLU</tspan><tspan x="1073.6" textLength="273.1" lengthAdjust="spacing">, to a separate gate that then multiplies the value.</tspan></text>
+<rect x="34.0" y="919.0" width="1812.0" height="30.0" rx="6" class="g85s12"/>
+<path d="M38.50 919.71 A5.50 5.50 0 0 0 34.50 925.00 V943.00 A5.50 5.50 0 0 0 38.50 948.29 Z" class="g85s15"/>
+<text y="939.0" xml:space="preserve" class="g85s20"><tspan x="50.0" class="g85s0" textLength="197.6" lengthAdjust="spacing">C · The same input through both</tspan></text>
+<text y="939.0" xml:space="preserve" class="g85s21"><tspan x="265.6" textLength="80.3" lengthAdjust="spacing">“cat”, encoder </tspan><tspan x="345.9" class="g85s1" textLength="36.6" lengthAdjust="spacing">layer 0</tspan></text>
+<rect x="34.0" y="965.0" width="1812.0" height="24.0" rx="4" class="g85s12"/>
+<text y="981.0" xml:space="preserve" class="g85s14"><tspan x="743.0" class="g85s13" textLength="23.8" lengthAdjust="spacing">GELU</tspan><tspan x="766.8" class="g85s0"> (</tspan><tspan x="773.6" class="g85s13" textLength="11.9" lengthAdjust="spacing">v2</tspan><tspan x="785.5" class="g85s0">)</tspan></text>
+<text y="981.0" xml:space="preserve" class="g85s14"><tspan x="1299.0" class="g85s13" textLength="35.7" lengthAdjust="spacing">SwiGLU</tspan><tspan x="1334.7" class="g85s0"> (</tspan><tspan x="1341.5" class="g85s13" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1365.2" class="g85s0">)</tspan></text>
+<text y="1005.9" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="87.4" lengthAdjust="spacing">hidden numbers</tspan></text>
+<text x="743.0" y="1005.9" class="g85s2">2,048</text>
+<text x="1299.0" y="1005.9" class="g85s2">1,368</text>
+<line x1="34.0" y1="1015.0" x2="1846.0" y2="1015.0" class="g85s3"/>
+<rect x="34.0" y="1015.0" width="1812.0" height="26.0" rx="0" class="g85s18"/>
+<text y="1031.9" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="50.1" lengthAdjust="spacing">… within </tspan><tspan x="93.1" class="g85s1" textLength="23.7" lengthAdjust="spacing">0.01</tspan><tspan x="116.8" class="g85s0" textLength="40.7" lengthAdjust="spacing"> of zero</tspan></text>
+<text x="743.0" y="1031.9" class="g85s2">2.5%</text>
+<text x="1299.0" y="1031.9" class="g85s2">9.7%</text>
+<line x1="34.0" y1="1041.0" x2="1846.0" y2="1041.0" class="g85s3"/>
+<text y="1057.9" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="61.7" lengthAdjust="spacing">… negative</tspan></text>
+<text x="743.0" y="1057.9" class="g85s2">48.7%</text>
+<text x="1299.0" y="1057.9" class="g85s2">45.8%</text>
+<line x1="34.0" y1="1067.0" x2="1846.0" y2="1067.0" class="g85s3"/>
+<rect x="34.0" y="1067.0" width="1812.0" height="26.0" rx="0" class="g85s18"/>
+<text y="1083.9" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="177.5" lengthAdjust="spacing">average size of a hidden number</tspan></text>
+<text x="743.0" y="1083.9" class="g85s2">0.257</text>
+<text x="1299.0" y="1083.9" class="g85s2">0.178</text>
+<line x1="34.0" y1="1093.0" x2="1846.0" y2="1093.0" class="g85s3"/>
+<text y="1109.9" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="131.4" lengthAdjust="spacing">size (RMS) of the output</tspan></text>
+<text x="743.0" y="1109.9" class="g85s2">0.483</text>
+<text x="1299.0" y="1109.9" class="g85s2">0.418</text>
+<line x1="34.0" y1="1119.0" x2="1846.0" y2="1119.0" class="g85s3"/>
+<rect x="34.0" y="1119.0" width="1812.0" height="26.0" rx="0" class="g85s18"/>
+<text y="1135.9" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="142.3" lengthAdjust="spacing">learned numbers per layer</tspan></text>
+<text x="743.0" y="1135.9" class="g85s2">2,099,712</text>
+<text x="1299.0" y="1135.9" class="g85s2">2,101,248</text>
+<line x1="34.0" y1="1145.0" x2="1846.0" y2="1145.0" class="g85s3"/>
+<text y="1161.9" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="113.1" lengthAdjust="spacing">matrix multiplications</tspan></text>
+<text x="743.0" y="1161.9" class="g85s2">2</text>
+<text x="1299.0" y="1161.9" class="g85s2">3</text>
+<line x1="34.0" y1="1171.0" x2="1846.0" y2="1171.0" class="g85s3"/>
+<rect x="34.0" y="1171.0" width="1812.0" height="26.0" rx="0" class="g85s18"/>
+<text y="1187.9" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="160.9" lengthAdjust="spacing">time, forward + backward (µs)</tspan></text>
+<text x="743.0" y="1187.9" class="g85s2">1627</text>
+<text x="1299.0" y="1187.9" class="g85s2">1406</text>
+<line x1="34.0" y1="1197.0" x2="1846.0" y2="1197.0" class="g85s3"/>
+<rect x="34.0" y="989.0" width="1812.0" height="208.0" rx="0" class="g85s27"/>
+<line x1="734.0" y1="989.0" x2="734.0" y2="1197.0" class="g85s3"/>
+<line x1="1290.0" y1="989.0" x2="1290.0" y2="1197.0" class="g85s3"/>
+<rect x="34.0" y="1209.0" width="1812.0" height="55.0" rx="6" class="g85s32"/>
+<path d="M38.50 1209.71 A5.50 5.50 0 0 0 34.50 1215.00 V1258.04 A5.50 5.50 0 0 0 38.50 1263.33 Z" class="g85s33"/>
+<text y="1235.0" xml:space="preserve" class="g85s40"><tspan x="50.0" class="g85s0" textLength="121.6" lengthAdjust="spacing">Reading the numbers</tspan></text>
+<text y="1252.5" xml:space="preserve" class="g85s28"><tspan x="50.0" textLength="376.2" lengthAdjust="spacing">Untrained, the two behave alike in size; what differs is structure. Every </tspan><tspan x="426.2" class="g85s29" textLength="40.7" lengthAdjust="spacing">SwiGLU</tspan><tspan x="466.9" textLength="1236.4" lengthAdjust="spacing"> product is gate × value, two numbers computed from the same word by different weights — so a unit can respond to a COMBINATION of features, not just to one. That extra flexibility costs one more matrix multiplication at equal size.</tspan></text>
+<rect x="34.0" y="1288.0" width="1812.0" height="30.0" rx="6" class="g85s12"/>
+<path d="M38.50 1288.75 A5.50 5.50 0 0 0 34.50 1294.04 V1312.04 A5.50 5.50 0 0 0 38.50 1317.33 Z" class="g85s15"/>
+<text y="1308.0" xml:space="preserve" class="g85s20"><tspan x="50.0" class="g85s0" textLength="153.9" lengthAdjust="spacing">D · What training showed</tspan></text>
+<text y="1308.0" xml:space="preserve" class="g85s21"><tspan x="221.9" textLength="136.1" lengthAdjust="spacing">the experiment (deep dive </tspan><tspan x="358.1" class="g85s1" textLength="13.6" lengthAdjust="spacing">17</tspan><tspan x="371.6" textLength="10.2" lengthAdjust="spacing">), </tspan><tspan x="381.9" class="g85s6" textLength="39.0" lengthAdjust="spacing">SwiGLU</tspan><tspan x="420.9" textLength="92.7" lengthAdjust="spacing"> swapped back to </tspan><tspan x="513.6" class="g85s6" textLength="26.0" lengthAdjust="spacing">GELU</tspan><tspan x="539.6" textLength="36.4" lengthAdjust="spacing"> inside </tspan><tspan x="576.1" class="g85s6" textLength="26.0" lengthAdjust="spacing">v2.5</tspan></text>
+<rect x="34.0" y="1334.0" width="1812.0" height="24.0" rx="4" class="g85s12"/>
+<text y="1350.0" xml:space="preserve" class="g85s14"><tspan x="743.0" class="g85s13" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="766.8" class="g85s0"> (</tspan><tspan x="773.6" class="g85s13" textLength="35.7" lengthAdjust="spacing">SwiGLU</tspan><tspan x="809.2" class="g85s0">)</tspan></text>
+<text y="1350.0" xml:space="preserve" class="g85s14"><tspan x="1299.0" class="g85s13" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1322.8" class="g85s0" textLength="26.0" lengthAdjust="spacing"> with </tspan><tspan x="1348.7" class="g85s13" textLength="23.8" lengthAdjust="spacing">GELU</tspan><tspan x="1372.5" class="g85s0" textLength="39.0" lengthAdjust="spacing"> instead</tspan></text>
+<text y="1375.0" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="25.7" lengthAdjust="spacing">task </tspan><tspan x="68.7" class="g85s1">1</tspan><tspan x="75.5" class="g85s0" textLength="178.2" lengthAdjust="spacing">: exact match, unseen sentences</tspan></text>
+<text x="743.0" y="1375.0" class="g85s2">100.0%</text>
+<text x="1299.0" y="1375.0" class="g85s2">100.0%</text>
+<line x1="34.0" y1="1384.0" x2="1846.0" y2="1384.0" class="g85s3"/>
+<rect x="34.0" y="1384.0" width="1812.0" height="26.0" rx="0" class="g85s18"/>
+<text y="1401.0" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="25.7" lengthAdjust="spacing">task </tspan><tspan x="68.7" class="g85s1">2</tspan><tspan x="75.5" class="g85s0" textLength="79.3" lengthAdjust="spacing">: exact match, </tspan><tspan x="154.8" class="g85s1">4</tspan><tspan x="161.6" class="g85s0">–</tspan><tspan x="167.7" class="g85s1" textLength="49.5" lengthAdjust="spacing">12 words</tspan></text>
+<text x="743.0" y="1401.0" class="g85s2">81.9%</text>
+<text x="1299.0" y="1401.0" class="g85s2">81.7%</text>
+<line x1="34.0" y1="1410.0" x2="1846.0" y2="1410.0" class="g85s3"/>
+<text y="1427.0" xml:space="preserve" class="g85s5"><tspan x="43.0" class="g85s0" textLength="25.7" lengthAdjust="spacing">task </tspan><tspan x="68.7" class="g85s1">2</tspan><tspan x="75.5" class="g85s0" textLength="79.3" lengthAdjust="spacing">: exact match, </tspan><tspan x="154.8" class="g85s1" textLength="13.6" lengthAdjust="spacing">13</tspan><tspan x="168.3" class="g85s0">–</tspan><tspan x="174.4" class="g85s1" textLength="49.5" lengthAdjust="spacing">16 words</tspan><tspan x="223.9" class="g85s0" textLength="71.8" lengthAdjust="spacing"> (never seen)</tspan></text>
+<text x="743.0" y="1427.0" class="g85s2">50.4%</text>
+<text x="1299.0" y="1427.0" class="g85s2">36.8%</text>
+<line x1="34.0" y1="1436.0" x2="1846.0" y2="1436.0" class="g85s3"/>
+<rect x="34.0" y="1358.0" width="1812.0" height="78.0" rx="0" class="g85s27"/>
+<line x1="734.0" y1="1358.0" x2="734.0" y2="1436.0" class="g85s3"/>
+<line x1="1290.0" y1="1358.0" x2="1290.0" y2="1436.0" class="g85s3"/>
+<rect x="34.0" y="1448.0" width="1812.0" height="72.6" rx="6" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:1"/>
+<path d="M38.50 1448.75 A5.50 5.50 0 0 0 34.50 1454.04 V1514.60 A5.50 5.50 0 0 0 38.50 1519.89 Z" class="g85s15"/>
+<text y="1474.0" xml:space="preserve" class="g85s40"><tspan x="50.0" class="g85s0" textLength="78.5" lengthAdjust="spacing">How to read it</tspan></text>
+<text y="1491.6" xml:space="preserve" class="g85s28"><tspan x="50.0" textLength="192.1" lengthAdjust="spacing">Averages of three seeds; deep dive </tspan><tspan x="242.1" class="g85s1" textLength="14.1" lengthAdjust="spacing">17</tspan><tspan x="256.3" textLength="485.6" lengthAdjust="spacing"> gives the spread. On large language models, gated feed-forwards reached lower loss than </tspan><tspan x="741.8" class="g85s29" textLength="27.2" lengthAdjust="spacing">GELU</tspan><tspan x="769.0" textLength="94.0" lengthAdjust="spacing"> at the same size </tspan><tspan x="863.0" class="g85s29" textLength="101.9" lengthAdjust="spacing">(Shazeer, 2020)</tspan><tspan x="964.9" textLength="822.4" lengthAdjust="spacing"> — the reason they became standard. A tiny model on made-up tasks can confirm the code works, but small gaps here are within what random starts alone</tspan></text>
+<text y="1509.1" xml:space="preserve" class="g85s28"><tspan x="50.0" textLength="46.7" lengthAdjust="spacing">produce.</tspan></text>
+<rect x="34.0" y="1544.6" width="1812.0" height="30.0" rx="6" class="g85s12"/>
+<path d="M38.50 1545.31 A5.50 5.50 0 0 0 34.50 1550.60 V1568.60 A5.50 5.50 0 0 0 38.50 1573.89 Z" class="g85s15"/>
+<text y="1564.6" xml:space="preserve" class="g85s20"><tspan x="50.0" class="g85s0" textLength="211.3" lengthAdjust="spacing">Claims · Common claims, checked</tspan></text>
+<text y="1564.6" xml:space="preserve" class="g85s21"><tspan x="279.3" textLength="147.5" lengthAdjust="spacing">against this page’s numbers</tspan></text>
+<rect x="34.0" y="1590.6" width="1812.0" height="24.0" rx="4" class="g85s12"/>
+<text y="1606.6" xml:space="preserve" class="g85s14"><tspan x="43.0" class="g85s0" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="1606.6" xml:space="preserve" class="g85s14"><tspan x="603.0" class="g85s0" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="1606.6" xml:space="preserve" class="g85s14"><tspan x="713.0" class="g85s0" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
+<text y="1631.3" xml:space="preserve" class="g85s30"><tspan x="43.0" class="g85s0">“</tspan><tspan x="50.0" class="g85s11" textLength="37.3" lengthAdjust="spacing">SwiGLU</tspan><tspan x="87.3" class="g85s0" textLength="77.1" lengthAdjust="spacing"> wins because </tspan><tspan x="164.5" class="g85s11" textLength="24.9" lengthAdjust="spacing">SiLU</tspan><tspan x="189.4" class="g85s0" textLength="115.4" lengthAdjust="spacing"> is a better curve than </tspan><tspan x="304.7" class="g85s11" textLength="24.9" lengthAdjust="spacing">GELU</tspan><tspan x="329.6" class="g85s0" textLength="10.2" lengthAdjust="spacing">.”</tspan></text>
+<text y="1631.3" xml:space="preserve" class="g85s19"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="1631.3" xml:space="preserve" class="g85s19"><tspan x="713.0" textLength="333.2" lengthAdjust="spacing">the curves are nearly the same (section B); the gate is the difference</tspan></text>
+<line x1="34.0" y1="1640.6" x2="1846.0" y2="1640.6" class="g85s3"/>
+<rect x="34.0" y="1640.6" width="1812.0" height="26.0" rx="0" class="g85s18"/>
+<text y="1657.3" xml:space="preserve" class="g85s30"><tspan x="43.0" class="g85s0">“</tspan><tspan x="50.0" class="g85s11" textLength="37.3" lengthAdjust="spacing">SwiGLU</tspan><tspan x="87.3" class="g85s0" textLength="45.2" lengthAdjust="spacing"> is free.”</tspan></text>
+<text y="1657.3" xml:space="preserve" class="g85s19"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="1657.3" xml:space="preserve" class="g85s19"><tspan x="713.0" textLength="210.9" lengthAdjust="spacing">one more matrix multiplication at equal size</tspan></text>
+<line x1="34.0" y1="1666.6" x2="1846.0" y2="1666.6" class="g85s3"/>
+<text y="1683.3" xml:space="preserve" class="g85s30"><tspan x="43.0" class="g85s0">“</tspan><tspan x="50.0" class="g85s11" textLength="24.9" lengthAdjust="spacing">GELU</tspan><tspan x="74.9" class="g85s0" textLength="25.9" lengthAdjust="spacing"> and </tspan><tspan x="100.8" class="g85s11" textLength="37.3" lengthAdjust="spacing">SwiGLU</tspan><tspan x="138.2" class="g85s0" textLength="211.8" lengthAdjust="spacing"> have the same number of hidden units.”</tspan></text>
+<text y="1683.3" xml:space="preserve" class="g85s19"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="1683.3" xml:space="preserve" class="g85s19"><tspan x="713.0" class="g85s1" textLength="29.2" lengthAdjust="spacing">2,048</tspan><tspan x="742.2" textLength="41.6" lengthAdjust="spacing"> against </tspan><tspan x="783.8" class="g85s1" textLength="29.2" lengthAdjust="spacing">1,368</tspan></text>
+<line x1="34.0" y1="1692.6" x2="1846.0" y2="1692.6" class="g85s3"/>
+<rect x="34.0" y="1614.6" width="1812.0" height="78.0" rx="0" class="g85s27"/>
+<line x1="594.0" y1="1614.6" x2="594.0" y2="1692.6" class="g85s3"/>
+<line x1="704.0" y1="1614.6" x2="704.0" y2="1692.6" class="g85s3"/>
+<line x1="28.0" y1="1718.6" x2="1852.0" y2="1718.6" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1735.6" xml:space="preserve" class="g85s41"><tspan x="28.0" textLength="404.7" lengthAdjust="spacing">Two kinds of numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="432.7" class="g85s11" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="457.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="600.7" class="g85s1" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="616.9" textLength="234.8" lengthAdjust="spacing">.0 on its own two sentence pairs (CPU, seeded, </tspan><tspan x="851.6" class="g85s1" textLength="22.7" lengthAdjust="spacing">15.6</tspan><tspan x="874.3" textLength="181.0" lengthAdjust="spacing"> s): its printed lines, the loss of every </tspan><tspan x="1055.3" class="g85s11" textLength="31.1" lengthAdjust="spacing">epoch</tspan><tspan x="1086.4" textLength="450.0" lengthAdjust="spacing">, the checkpoint it kept. UNTRAINED numbers are a pure-Python trace of the same code on </tspan><tspan x="1536.4" class="g85s11" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1548.8" textLength="294.6" lengthAdjust="spacing">’s seeded starting weights, and every one of them has been</tspan></text>
+<text y="1750.6" xml:space="preserve" class="g85s41"><tspan x="28.0" textLength="352.6" lengthAdjust="spacing">checked against the notebook’s own PyTorch model (largest difference </tspan><tspan x="380.6" class="g85s1" textLength="39.5" lengthAdjust="spacing">1.3e-06</tspan><tspan x="420.2" textLength="156.5" lengthAdjust="spacing">). The notebook file is only read.</tspan></text>
+</svg>
