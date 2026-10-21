@@ -1,0 +1,674 @@
+<svg data-src="vis_c05_model.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1937" viewBox="0 0 1880 1937">
+<style>.txfig .g124s0{fill:var(--seqB);opacity:1.00}.txfig .g124s1{fill:var(--code)}.txfig .g124s2{fill:var(--op)}.txfig .g124s3{stroke:var(--bg);stroke-width:0.5}.txfig .g124s4{font-weight:600;fill:var(--ink)}.txfig .g124s5{fill:var(--seqB);opacity:0.99}.txfig .g124s6{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g124s7{font-weight:600}.txfig .g124s8{fill:var(--kw)}.txfig .g124s9{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)}.txfig .g124s10{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:middle}.txfig .g124s11{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g124s12{fill:var(--seqB);opacity:0.03}.txfig .g124s13{fill:var(--fn)}.txfig .g124s14{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g124s15{fill:var(--cellbg);stroke:var(--hair);stroke-width:1}.txfig .g124s16{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g124s17{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g124s18{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g124s19{fill:var(--attr)}.txfig .g124s20{fill:var(--seqB);opacity:0.97}.txfig .g124s21{fill:var(--seqB);opacity:0.96}.txfig .g124s22{stroke:var(--ink3);stroke-width:1.2;stroke-linecap:round}.txfig .g124s23{fill:var(--ink3)}.txfig .g124s24{fill:var(--keepbg);stroke:var(--keep);stroke-width:1.8}.txfig .g124s25{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g124s26{fill:var(--seqB);opacity:0.06}.txfig .g124s27{fill:var(--seqB);opacity:0.98}.txfig .g124s28{fill:var(--seqB);opacity:0.91}.txfig .g124s29{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g124s30{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;text-anchor:start}.txfig .g124s31{fill:var(--soft);stroke:var(--hair);stroke-width:0.6}.txfig .g124s32{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;text-anchor:end}.txfig .g124s33{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g124s34{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g124s35{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g124s36{fill:var(--cmt)}.txfig .g124s37{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g124s38{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;fill:var(--ink)}.txfig .g124s39{fill:var(--seqB);opacity:0.09}.txfig .g124s40{fill:var(--seqB);opacity:0.95}.txfig .g124s41{fill:var(--seqB);opacity:0.88}.txfig .g124s42{fill:var(--accent);stroke:none}.txfig .g124s43{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g124s44{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g124s45{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.2px}.txfig .g124s46{fill:var(--seqB);opacity:0.83}.txfig .g124s47{fill:var(--seqB);opacity:0.78}.txfig .g124s48{fill:var(--seqB);opacity:0.08}.txfig .g124s49{fill:var(--seqB);opacity:0.04}.txfig .g124s50{fill:var(--seqB);opacity:0.87}.txfig .g124s51{fill:var(--seqB);opacity:0.18}.txfig .g124s52{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g124s53{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g124s54{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g124s55{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g124s56{fill:var(--num)}.txfig .g124s57{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g124s58{fill:var(--padbg);stroke:none;stroke-width:1}.txfig .g124s59{fill:var(--seqB);opacity:0.14}.txfig .g124s60{fill:var(--seqB);opacity:0.02}.txfig .g124s61{fill:var(--seqB);opacity:0.93}.txfig .g124s62{fill:var(--seqB);opacity:0.05}.txfig .g124s63{fill:var(--seqB);opacity:0.15}.txfig .g124s64{fill:var(--seqB);opacity:0.33}.txfig .g124s65{fill:var(--seqB);opacity:0.55}.txfig .g124s66{fill:var(--seqB);opacity:0.34}.txfig .g124s67{fill:var(--seqB);opacity:0.11}.txfig .g124s68{fill:var(--seqB);opacity:0.82}.txfig .g124s69{fill:var(--seqB);opacity:0.92}.txfig .g124s70{fill:var(--seqB);opacity:0.17}.txfig .g124s71{fill:var(--seqB);opacity:0.19}.txfig .g124s72{fill:var(--seqB);opacity:0.52}.txfig .g124s73{fill:var(--seqB);opacity:0.41}.txfig .g124s74{fill:var(--seqB);opacity:0.73}.txfig .g124s75{fill:var(--seqB);opacity:0.94}</style>
+<defs><pattern id="hatch124" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash124" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1937" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">VISION v1 · CELL 5 / 10</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="195.4" class="g124s7" textLength="105.2" lengthAdjust="spacing">The model</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="264.5" lengthAdjust="spacing">patches · positions · four encoder layers · two </tspan><tspan x="298.5" class="g124s17" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="342.6" textLength="198.7" lengthAdjust="spacing"> per patch, stretched to every pixel</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="77.3" lengthAdjust="spacing">The classes of </tspan><tspan x="111.3" class="g124s4" textLength="28.5" lengthAdjust="spacing">cell 5</tspan><tspan x="139.8"> — </tspan><tspan x="157.7" class="g124s18" textLength="91.1" lengthAdjust="spacing">PatchEmbedding</tspan><tspan x="248.8">, </tspan><tspan x="255.2" class="g124s18" textLength="117.1" lengthAdjust="spacing">MultiHeadAttention</tspan><tspan x="372.3">, </tspan><tspan x="378.7" class="g124s18" textLength="78.1" lengthAdjust="spacing">EncoderLayer</tspan><tspan x="456.8">, </tspan><tspan x="463.2" class="g124s18" textLength="39.0" lengthAdjust="spacing">SegViT</tspan><tspan x="502.2" textLength="72.9" lengthAdjust="spacing"> — with patch </tspan><tspan x="575.1" class="g124s4" textLength="20.3" lengthAdjust="spacing">450</tspan><tspan x="595.4" textLength="48.0" lengthAdjust="spacing"> of photo </tspan><tspan x="643.4" class="g124s4">1</tspan><tspan x="650.2" textLength="182.8" lengthAdjust="spacing"> followed through the trained model.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" style="fill:var(--keybg);stroke:var(--keybd);stroke-width:1"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" style="fill:var(--keep);stroke:none"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g124s7" textLength="364.5" lengthAdjust="spacing">The same Transformer encoder, with patches for words</tspan></text>
+<text y="169.0" xml:space="preserve" class="g124s53"><tspan x="54.0" class="g124s17" textLength="103.0" lengthAdjust="spacing">PatchEmbedding</tspan><tspan x="157.0"> </tspan><tspan x="160.8" textLength="23.8" lengthAdjust="spacing">cuts</tspan><tspan x="184.6"> </tspan><tspan x="188.4" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="206.5"> </tspan><tspan x="210.3" textLength="39.0" lengthAdjust="spacing">picture</tspan><tspan x="249.3"> </tspan><tspan x="253.1" textLength="21.0" lengthAdjust="spacing">into</tspan><tspan x="274.0"> </tspan><tspan x="277.8" class="g124s4" textLength="23.0" lengthAdjust="spacing">864</tspan><tspan x="300.8"> </tspan><tspan x="304.6" textLength="45.5" lengthAdjust="spacing">patches</tspan><tspan x="350.1"> </tspan><tspan x="353.9" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="375.6"> </tspan><tspan x="379.3" textLength="28.9" lengthAdjust="spacing">turns</tspan><tspan x="408.2"> </tspan><tspan x="412.0" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="440.2"> </tspan><tspan x="444.0" textLength="21.0" lengthAdjust="spacing">into</tspan><tspan x="465.0"> </tspan><tspan x="468.7" class="g124s4" textLength="80.4" lengthAdjust="spacing">128 numbers</tspan><tspan x="549.2">.</tspan><tspan x="552.8"> </tspan><tspan x="556.6">A</tspan><tspan x="565.2"> </tspan><tspan x="569.0" textLength="43.4" lengthAdjust="spacing">learned</tspan><tspan x="612.4"> </tspan><tspan x="616.1" textLength="35.4" lengthAdjust="spacing">vector</tspan><tspan x="651.5"> </tspan><tspan x="655.3" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="674.1"> </tspan><tspan x="677.9" textLength="31.1" lengthAdjust="spacing">place</tspan><tspan x="709.0"> </tspan><tspan x="712.8" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="722.1"> </tspan><tspan x="725.9" textLength="39.8" lengthAdjust="spacing">added.</tspan><tspan x="765.7"> </tspan><tspan x="769.5" textLength="26.7" lengthAdjust="spacing">Four</tspan><tspan x="796.2"> </tspan><tspan x="800.0" textLength="47.0" lengthAdjust="spacing">encoder</tspan><tspan x="846.9"> </tspan><tspan x="850.7" textLength="34.7" lengthAdjust="spacing">layers</tspan><tspan x="885.4"> </tspan><tspan x="889.2" textLength="36.8" lengthAdjust="spacing">follow,</tspan><tspan x="926.0"> </tspan><tspan x="929.8" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="958.0"> </tspan><tspan x="961.8" textLength="34.7" lengthAdjust="spacing">letting</tspan><tspan x="996.5"> </tspan><tspan x="1000.2" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="1032.0"> </tspan><tspan x="1035.8" textLength="31.8" lengthAdjust="spacing">patch</tspan><tspan x="1067.6"> </tspan><tspan x="1071.4" textLength="23.8" lengthAdjust="spacing">look</tspan><tspan x="1095.2"> </tspan><tspan x="1099.0" textLength="10.8" lengthAdjust="spacing">at</tspan><tspan x="1109.9"> </tspan><tspan x="1113.7" textLength="13.0" lengthAdjust="spacing">all</tspan><tspan x="1126.7"> </tspan><tspan x="1130.4" class="g124s4" textLength="23.0" lengthAdjust="spacing">864</tspan><tspan x="1153.4"> </tspan><tspan x="1157.2" textLength="58.5" lengthAdjust="spacing">(attention)</tspan><tspan x="1215.7"> </tspan><tspan x="1219.5" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1241.2"> </tspan><tspan x="1245.0" textLength="25.3" lengthAdjust="spacing">then</tspan><tspan x="1270.3"> </tspan><tspan x="1274.1" textLength="56.3" lengthAdjust="spacing">reworking</tspan><tspan x="1330.4"> </tspan><tspan x="1334.2" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="1362.4"> </tspan><tspan x="1366.2" textLength="31.8" lengthAdjust="spacing">patch</tspan><tspan x="1398.0"> </tspan><tspan x="1401.7" textLength="31.8" lengthAdjust="spacing">alone</tspan><tspan x="1433.5"> </tspan><tspan x="1437.3" textLength="11.6" lengthAdjust="spacing">(a</tspan><tspan x="1448.9"> </tspan><tspan x="1452.7" textLength="30.3" lengthAdjust="spacing">small</tspan><tspan x="1483.0"> </tspan><tspan x="1486.8" class="g124s17" textLength="29.4" lengthAdjust="spacing">GELU</tspan><tspan x="1516.2"> </tspan><tspan x="1520.0" textLength="53.5" lengthAdjust="spacing">network).</tspan><tspan x="1573.5"> </tspan><tspan x="1577.2">A</tspan><tspan x="1585.9"> </tspan><tspan x="1589.7" textLength="20.2" lengthAdjust="spacing">last</tspan><tspan x="1609.9"> </tspan><tspan x="1613.7" class="g124s17" textLength="66.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1679.9"> </tspan><tspan x="1683.7" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1705.4"> </tspan><tspan x="1709.2" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1730.8"> </tspan><tspan x="1734.6" textLength="31.8" lengthAdjust="spacing">linear</tspan><tspan x="1766.4"> </tspan><tspan x="1770.2" textLength="28.2" lengthAdjust="spacing">layer</tspan><tspan x="1798.4"> </tspan><tspan x="1802.2" textLength="23.8" lengthAdjust="spacing">give</tspan></text>
+<text y="188.0" xml:space="preserve" class="g124s53"><tspan x="54.0" textLength="94.7" lengthAdjust="spacing">every patch two </tspan><tspan x="148.7" class="g124s17" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="192.8" textLength="172.7" lengthAdjust="spacing">, background and person; the </tspan><tspan x="365.5" class="g124s4" textLength="73.4" lengthAdjust="spacing">24 × 36 grid</tspan><tspan x="438.9" textLength="18.1" lengthAdjust="spacing"> of </tspan><tspan x="457.0" class="g124s17" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="501.1" textLength="109.8" lengthAdjust="spacing"> is stretched to the </tspan><tspan x="610.9" class="g124s4" textLength="61.9" lengthAdjust="spacing">192 × 288</tspan><tspan x="672.8" textLength="40.5" lengthAdjust="spacing"> pixels.</tspan></text>
+<text x="34.0" y="272.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">WHERE IT LIVES</text>
+<text y="294.5" xml:space="preserve" class="g124s54"><tspan x="34.0" textLength="144.2" lengthAdjust="spacing">The whole model, defined here</tspan></text>
+<text y="309.7" xml:space="preserve" class="g124s54"><tspan x="34.0" textLength="52.5" lengthAdjust="spacing">and run by </tspan><tspan x="86.5" class="g124s4" textLength="59.4" lengthAdjust="spacing">cells 7 to 10</tspan><tspan x="145.9">.</tspan></text>
+<rect x="204.0" y="258.0" width="150.0" height="40.0" rx="6" class="g124s15"/>
+<text x="279.0" y="275.0" class="g124s16">picture</text>
+<text x="279.0" y="290.0" class="g124s10">288 × 192 × 3</text>
+<line x1="357.0" y1="278.0" x2="373.0" y2="278.0" class="g124s22"/>
+<path d="M377.0 278.0 L371.5 280.4 L371.5 275.6 Z" class="g124s23"/>
+<rect x="380.0" y="258.0" width="150.0" height="40.0" rx="6" class="g124s24"/>
+<text x="455.0" y="275.0" class="g124s25">patches</text>
+<text x="455.0" y="290.0" class="g124s10">PatchEmbedding</text>
+<line x1="533.0" y1="278.0" x2="549.0" y2="278.0" class="g124s22"/>
+<path d="M553.0 278.0 L547.5 280.4 L547.5 275.6 Z" class="g124s23"/>
+<rect x="556.0" y="258.0" width="140.0" height="40.0" rx="6" class="g124s24"/>
+<text x="626.0" y="275.0" class="g124s25">+ positions</text>
+<text x="626.0" y="290.0" class="g124s10">pos_embed</text>
+<line x1="699.0" y1="278.0" x2="715.0" y2="278.0" class="g124s22"/>
+<path d="M719.0 278.0 L713.5 280.4 L713.5 275.6 Z" class="g124s23"/>
+<rect x="722.0" y="238.0" width="396.0" height="72.0" rx="8" class="g124s35"/>
+<text x="732.0" y="251.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start">encoder layer × 4</text>
+<rect x="732.0" y="260.0" width="182.0" height="40.0" rx="6" class="g124s24"/>
+<text x="823.0" y="277.0" class="g124s25">attention</text>
+<text x="823.0" y="292.0" class="g124s10">patches look at patches</text>
+<rect x="926.0" y="260.0" width="182.0" height="40.0" rx="6" class="g124s24"/>
+<text x="1017.0" y="277.0" class="g124s25">GELU network</text>
+<text x="1017.0" y="292.0" class="g124s10">each patch alone</text>
+<line x1="1121.0" y1="278.0" x2="1137.0" y2="278.0" class="g124s22"/>
+<path d="M1141.0 278.0 L1135.5 280.4 L1135.5 275.6 Z" class="g124s23"/>
+<rect x="1144.0" y="258.0" width="160.0" height="40.0" rx="6" class="g124s24"/>
+<text x="1224.0" y="275.0" class="g124s25">two scores</text>
+<text x="1224.0" y="290.0" class="g124s10">LayerNorm · head</text>
+<line x1="1307.0" y1="278.0" x2="1323.0" y2="278.0" class="g124s22"/>
+<path d="M1327.0 278.0 L1321.5 280.4 L1321.5 275.6 Z" class="g124s23"/>
+<rect x="1330.0" y="258.0" width="150.0" height="40.0" rx="6" class="g124s24"/>
+<text x="1405.0" y="275.0" class="g124s25">to every pixel</text>
+<text x="1405.0" y="290.0" class="g124s10">interpolate</text>
+<line x1="1483.0" y1="278.0" x2="1499.0" y2="278.0" class="g124s22"/>
+<path d="M1503.0 278.0 L1497.5 280.4 L1497.5 275.6 Z" class="g124s23"/>
+<rect x="1506.0" y="258.0" width="120.0" height="40.0" rx="6" class="g124s15"/>
+<text x="1566.0" y="275.0" class="g124s16">mask</text>
+<text x="1566.0" y="290.0" class="g124s10">argmax</text>
+<rect x="204.0" y="328.0" width="196.0" height="40.0" rx="6" class="g124s15"/>
+<text x="302.0" y="345.0" class="g124s16">the dataset</text>
+<text x="302.0" y="360.0" class="g124s10">outlines → masks</text>
+<rect x="418.0" y="328.0" width="196.0" height="40.0" rx="6" class="g124s15"/>
+<text x="516.0" y="345.0" class="g124s16">DataLoader</text>
+<text x="516.0" y="360.0" class="g124s10">new pictures</text>
+<rect x="632.0" y="328.0" width="196.0" height="40.0" rx="6" class="g124s15"/>
+<text x="730.0" y="345.0" class="g124s16">AdamW</text>
+<text x="730.0" y="360.0" class="g124s10">how training updates</text>
+<rect x="846.0" y="328.0" width="196.0" height="40.0" rx="6" class="g124s15"/>
+<text x="944.0" y="345.0" class="g124s16">loss</text>
+<text x="944.0" y="360.0" class="g124s10">skips the padding</text>
+<rect x="1060.0" y="328.0" width="196.0" height="40.0" rx="6" class="g124s15"/>
+<text x="1158.0" y="345.0" class="g124s16">training loop</text>
+<text x="1158.0" y="360.0" class="g124s10">epochs</text>
+<rect x="1274.0" y="328.0" width="196.0" height="40.0" rx="6" class="g124s15"/>
+<text x="1372.0" y="345.0" class="g124s16">person IoU</text>
+<text x="1372.0" y="360.0" class="g124s10">the tests</text>
+<text y="405.2" xml:space="preserve" class="g124s29"><tspan x="34.0" class="g124s9" textLength="104.6" lengthAdjust="spacing">SegViT.forward</tspan><tspan x="138.6">,</tspan><tspan x="142.2"> </tspan><tspan x="147.0" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="165.4"> </tspan><tspan x="170.2" textLength="25.7" lengthAdjust="spacing">path</tspan><tspan x="195.8"> </tspan><tspan x="200.6" textLength="32.3" lengthAdjust="spacing">every</tspan><tspan x="232.9"> </tspan><tspan x="237.7" textLength="39.6" lengthAdjust="spacing">picture</tspan><tspan x="277.3"> </tspan><tspan x="282.1" textLength="35.2" lengthAdjust="spacing">takes.</tspan><tspan x="317.3"> </tspan><tspan x="322.1" class="g124s9" textLength="82.2" lengthAdjust="spacing">patch_embed</tspan><tspan x="404.2"> </tspan><tspan x="409.0" textLength="38.9" lengthAdjust="spacing">makes</tspan><tspan x="447.9"> </tspan><tspan x="452.7" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="471.0"> </tspan><tspan x="475.8" textLength="32.3" lengthAdjust="spacing">patch</tspan><tspan x="508.1"> </tspan><tspan x="512.9" textLength="42.5" lengthAdjust="spacing">vectors</tspan><tspan x="555.4"> </tspan><tspan x="560.2" class="g124s9" textLength="97.1" lengthAdjust="spacing">(B, 864, 128)</tspan><tspan x="657.3">,</tspan><tspan x="661.0"> </tspan><tspan x="665.8" class="g124s9" textLength="67.2" lengthAdjust="spacing">pos_embed</tspan><tspan x="733.0"> </tspan><tspan x="737.8" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="747.3"> </tspan><tspan x="752.1" textLength="36.7" lengthAdjust="spacing">added</tspan><tspan x="788.8"> </tspan><tspan x="793.6" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="815.6"> </tspan><tspan x="820.4" class="g124s9" textLength="52.3" lengthAdjust="spacing">dropout</tspan><tspan x="872.7"> </tspan><tspan x="877.4" textLength="42.6" lengthAdjust="spacing">applied</tspan></text>
+<text y="425.0" xml:space="preserve" class="g124s29"><tspan x="34.0" textLength="30.1" lengthAdjust="spacing">while</tspan><tspan x="64.1"> </tspan><tspan x="69.2" textLength="47.0" lengthAdjust="spacing">training.</tspan><tspan x="116.1"> </tspan><tspan x="121.2" textLength="30.1" lengthAdjust="spacing">Each</tspan><tspan x="151.3"> </tspan><tspan x="156.4" class="g124s9" textLength="89.6" lengthAdjust="spacing">EncoderLayer</tspan><tspan x="246.0"> </tspan><tspan x="251.1" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="260.6"> </tspan><tspan x="265.7" textLength="53.5" lengthAdjust="spacing">pre-norm</tspan><tspan x="319.2">:</tspan><tspan x="322.9"> </tspan><tspan x="328.0" class="g124s9" textLength="67.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="395.2">,</tspan><tspan x="398.9"> </tspan><tspan x="404.0" textLength="25.7" lengthAdjust="spacing">then</tspan><tspan x="429.6"> </tspan><tspan x="434.7" textLength="54.3" lengthAdjust="spacing">attention,</tspan><tspan x="489.0"> </tspan><tspan x="494.1" textLength="36.7" lengthAdjust="spacing">added</tspan><tspan x="530.8"> </tspan><tspan x="535.9" textLength="27.9" lengthAdjust="spacing">back</tspan><tspan x="563.8"> </tspan><tspan x="568.9" textLength="11.0" lengthAdjust="spacing">to</tspan><tspan x="579.9"> </tspan><tspan x="585.0" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="603.3"> </tspan><tspan x="608.4" textLength="46.8" lengthAdjust="spacing">patch’s</tspan><tspan x="655.2"> </tspan><tspan x="660.3" textLength="39.6" lengthAdjust="spacing">vector;</tspan><tspan x="699.9"> </tspan><tspan x="705.0" class="g124s9" textLength="67.2" lengthAdjust="spacing">LayerNorm</tspan><tspan x="772.2">,</tspan><tspan x="775.9"> </tspan><tspan x="781.0" textLength="25.7" lengthAdjust="spacing">then</tspan><tspan x="806.6"> </tspan><tspan x="811.7" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="830.1"> </tspan><tspan x="835.2" class="g124s9" textLength="29.9" lengthAdjust="spacing">GELU</tspan><tspan x="865.0"> </tspan><tspan x="870.1" textLength="49.9" lengthAdjust="spacing">network,</tspan></text>
+<text y="444.8" xml:space="preserve" class="g124s29"><tspan x="34.0" textLength="36.7" lengthAdjust="spacing">added</tspan><tspan x="70.7"> </tspan><tspan x="75.7" textLength="27.9" lengthAdjust="spacing">back</tspan><tspan x="103.6"> </tspan><tspan x="108.6" textLength="36.0" lengthAdjust="spacing">again.</tspan><tspan x="144.6"> </tspan><tspan x="149.6" textLength="27.9" lengthAdjust="spacing">After</tspan><tspan x="177.5"> </tspan><tspan x="182.6" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="200.9"> </tspan><tspan x="205.9" textLength="20.5" lengthAdjust="spacing">last</tspan><tspan x="226.5"> </tspan><tspan x="231.5" textLength="32.3" lengthAdjust="spacing">layer,</tspan><tspan x="263.8"> </tspan><tspan x="268.8" textLength="30.1" lengthAdjust="spacing">norm</tspan><tspan x="298.9"> </tspan><tspan x="303.9" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="325.9"> </tspan><tspan x="331.0" textLength="29.4" lengthAdjust="spacing">head</tspan><tspan x="360.3"> </tspan><tspan x="365.4" textLength="24.2" lengthAdjust="spacing">give</tspan><tspan x="389.6"> </tspan><tspan x="394.6" class="g124s9" textLength="82.2" lengthAdjust="spacing">(B, 864, 2)</tspan><tspan x="476.8">;</tspan><tspan x="480.5"> </tspan><tspan x="485.5" class="g124s9" textLength="67.2" lengthAdjust="spacing">transpose</tspan><tspan x="552.7"> </tspan><tspan x="557.8" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="579.8"> </tspan><tspan x="584.8" class="g124s9" textLength="52.3" lengthAdjust="spacing">reshape</tspan><tspan x="637.1"> </tspan><tspan x="642.1" textLength="18.3" lengthAdjust="spacing">put</tspan><tspan x="660.5"> </tspan><tspan x="665.5" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="683.9"> </tspan><tspan x="688.9" class="g124s9" textLength="44.8" lengthAdjust="spacing">scores</tspan><tspan x="733.7"> </tspan><tspan x="738.8" textLength="27.9" lengthAdjust="spacing">back</tspan><tspan x="766.6"> </tspan><tspan x="771.7" textLength="14.7" lengthAdjust="spacing">on</tspan><tspan x="786.3"> </tspan><tspan x="791.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="809.7"> </tspan><tspan x="814.8" class="g124s4" textLength="74.5" lengthAdjust="spacing">24 × 36 grid</tspan><tspan x="889.3">,</tspan><tspan x="892.9"> </tspan><tspan x="898.0" textLength="22.0" lengthAdjust="spacing">and</tspan></text>
+<text y="464.6" xml:space="preserve" class="g124s29"><tspan x="34.0" class="g124s9" textLength="97.1" lengthAdjust="spacing">F.interpolate</tspan><tspan x="131.1"> </tspan><tspan x="135.2" textLength="53.6" lengthAdjust="spacing">stretches</tspan><tspan x="188.8"> </tspan><tspan x="192.9" textLength="33.0" lengthAdjust="spacing">them,</tspan><tspan x="225.9"> </tspan><tspan x="230.0" textLength="49.9" lengthAdjust="spacing">blending</tspan><tspan x="279.9"> </tspan><tspan x="284.0" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="302.4"> </tspan><tspan x="306.5" textLength="22.7" lengthAdjust="spacing">four</tspan><tspan x="329.2"> </tspan><tspan x="333.4" textLength="44.0" lengthAdjust="spacing">nearest</tspan><tspan x="377.4"> </tspan><tspan x="381.5" textLength="46.2" lengthAdjust="spacing">patches</tspan><tspan x="427.7"> </tspan><tspan x="431.9" textLength="15.4" lengthAdjust="spacing">for</tspan><tspan x="447.3"> </tspan><tspan x="451.4" textLength="32.3" lengthAdjust="spacing">every</tspan><tspan x="483.7"> </tspan><tspan x="487.8" textLength="30.8" lengthAdjust="spacing">pixel.</tspan><tspan x="518.6"> </tspan><tspan x="522.7" class="g124s9" textLength="134.5" lengthAdjust="spacing">MultiHeadAttention</tspan><tspan x="657.1"> </tspan><tspan x="661.3" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="670.8"> </tspan><tspan x="674.9" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="693.3"> </tspan><tspan x="697.4" textLength="21.3" lengthAdjust="spacing">text</tspan><tspan x="718.7"> </tspan><tspan x="722.8" textLength="43.1" lengthAdjust="spacing">track’s</tspan><tspan x="765.9"> </tspan><tspan x="770.0" textLength="27.9" lengthAdjust="spacing">own,</tspan><tspan x="797.9"> </tspan><tspan x="802.0" textLength="23.5" lengthAdjust="spacing">with</tspan><tspan x="825.5"> </tspan><tspan x="829.6" textLength="14.7" lengthAdjust="spacing">no</tspan><tspan x="844.3"> </tspan><tspan x="848.4" textLength="35.2" lengthAdjust="spacing">mask:</tspan><tspan x="883.6"> </tspan><tspan x="887.7" textLength="32.3" lengthAdjust="spacing">every</tspan></text>
+<text y="484.4" xml:space="preserve" class="g124s29"><tspan x="34.0" textLength="179.0" lengthAdjust="spacing">patch may look at every patch.</tspan></text>
+<rect x="946.0" y="392.0" width="900.0" height="250.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="410.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="956.0" class="g124s7" textLength="31.5" lengthAdjust="spacing">vision </tspan><tspan x="987.5" class="g124s55" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="999.4" class="g124s7"> · </tspan><tspan x="1008.7" class="g124s55" textLength="83.2" lengthAdjust="spacing">SegViT.forward</tspan></text>
+<text x="956.0" y="433.0" xml:space="preserve" class="g124s11"><tspan class="g124s1">    </tspan><tspan class="g124s8">def</tspan><tspan class="g124s1"> </tspan><tspan class="g124s13">forward</tspan><tspan class="g124s2">(</tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">images</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">return_attn</tspan><tspan class="g124s2">=</tspan><tspan class="g124s8">False</tspan><tspan class="g124s2">)</tspan><tspan class="g124s2">:</tspan></text>
+<text x="956.0" y="452.5" xml:space="preserve" class="g124s11"><tspan class="g124s1">        </tspan><tspan class="g124s1">x</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">=</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s13">dropout</tspan><tspan class="g124s2">(</tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s13">patch_embed</tspan><tspan class="g124s2">(</tspan><tspan class="g124s1">images</tspan><tspan class="g124s2">)</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">+</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s19">pos_embed</tspan><tspan class="g124s2">)</tspan><tspan class="g124s1">  </tspan><tspan class="g124s36"># (B, N, d_model)</tspan></text>
+<text x="956.0" y="472.0" xml:space="preserve" class="g124s11"><tspan class="g124s1">        </tspan><tspan class="g124s1">attns</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">=</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">[</tspan><tspan class="g124s2">]</tspan></text>
+<text x="956.0" y="491.5" xml:space="preserve" class="g124s11"><tspan class="g124s1">        </tspan><tspan class="g124s8">for</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">layer</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">in</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s19">layers</tspan><tspan class="g124s2">:</tspan></text>
+<text x="956.0" y="511.0" xml:space="preserve" class="g124s11"><tspan class="g124s1">            </tspan><tspan class="g124s1">x</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">w</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">=</tspan><tspan class="g124s1"> </tspan><tspan class="g124s13">layer</tspan><tspan class="g124s2">(</tspan><tspan class="g124s1">x</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">return_attn</tspan><tspan class="g124s2">)</tspan></text>
+<text x="956.0" y="530.5" xml:space="preserve" class="g124s11"><tspan class="g124s1">            </tspan><tspan class="g124s1">attns</tspan><tspan class="g124s2">.</tspan><tspan class="g124s13">append</tspan><tspan class="g124s2">(</tspan><tspan class="g124s1">w</tspan><tspan class="g124s2">)</tspan></text>
+<text x="956.0" y="550.0" xml:space="preserve" class="g124s11"><tspan class="g124s1">        </tspan><tspan class="g124s1">logits</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">=</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s13">head</tspan><tspan class="g124s2">(</tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s13">norm</tspan><tspan class="g124s2">(</tspan><tspan class="g124s1">x</tspan><tspan class="g124s2">)</tspan><tspan class="g124s2">)</tspan><tspan class="g124s1">                             </tspan><tspan class="g124s36"># (B, N, classes)</tspan></text>
+<text x="956.0" y="569.5" xml:space="preserve" class="g124s11"><tspan class="g124s1">        </tspan><tspan class="g124s1">B</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">N</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">C</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">=</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">logits</tspan><tspan class="g124s2">.</tspan><tspan class="g124s19">shape</tspan></text>
+<text x="956.0" y="589.0" xml:space="preserve" class="g124s11"><tspan class="g124s1">        </tspan><tspan class="g124s1">logits</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">=</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">logits</tspan><tspan class="g124s2">.</tspan><tspan class="g124s13">transpose</tspan><tspan class="g124s2">(</tspan><tspan class="g124s56">1</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s56">2</tspan><tspan class="g124s2">)</tspan><tspan class="g124s2">.</tspan><tspan class="g124s13">reshape</tspan><tspan class="g124s2">(</tspan><tspan class="g124s1">B</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">C</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s19">grid_h</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s19">grid_w</tspan><tspan class="g124s2">)</tspan><tspan class="g124s1">    </tspan><tspan class="g124s36"># (B, classes, 24, 36)</tspan></text>
+<text x="956.0" y="608.5" xml:space="preserve" class="g124s11"><tspan class="g124s1">        </tspan><tspan class="g124s1">logits</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">=</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">F</tspan><tspan class="g124s2">.</tspan><tspan class="g124s13">interpolate</tspan><tspan class="g124s2">(</tspan><tspan class="g124s1">logits</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">size</tspan><tspan class="g124s2">=</tspan><tspan class="g124s2">(</tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s19">img_h</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">self</tspan><tspan class="g124s2">.</tspan><tspan class="g124s19">img_w</tspan><tspan class="g124s2">)</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">mode</tspan><tspan class="g124s2">=</tspan><tspan style="fill:var(--str)">&quot;bilinear&quot;</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">align_corners</tspan><tspan class="g124s2">=</tspan><tspan class="g124s8">False</tspan><tspan class="g124s2">)</tspan></text>
+<text x="956.0" y="628.0" xml:space="preserve" class="g124s11"><tspan class="g124s1">        </tspan><tspan class="g124s8">return</tspan><tspan class="g124s1"> </tspan><tspan class="g124s2">(</tspan><tspan class="g124s1">logits</tspan><tspan class="g124s2">,</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">attns</tspan><tspan class="g124s2">)</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">if</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">return_attn</tspan><tspan class="g124s1"> </tspan><tspan class="g124s8">else</tspan><tspan class="g124s1"> </tspan><tspan class="g124s1">logits</tspan><tspan class="g124s1">           </tspan><tspan class="g124s36"># (B, classes, H, W)</tspan></text>
+<rect x="34.0" y="664.5" width="1812.0" height="30.0" rx="6" class="g124s37"/>
+<path d="M38.50 665.21 A5.50 5.50 0 0 0 34.50 670.50 V688.50 A5.50 5.50 0 0 0 38.50 693.79 Z" class="g124s42"/>
+<text y="684.5" xml:space="preserve" class="g124s43"><tspan x="50.0" class="g124s7" textLength="88.1" lengthAdjust="spacing">A · Where the </tspan><tspan x="138.1" class="g124s4" textLength="157.0" lengthAdjust="spacing">928,898 learned numbers</tspan><tspan x="295.1" class="g124s7" textLength="23.7" lengthAdjust="spacing"> are</tspan></text>
+<text y="684.5" xml:space="preserve" class="g124s44"><tspan x="336.8" textLength="147.6" lengthAdjust="spacing">counted from the model itself</tspan></text>
+<text x="34.0" y="738.5" class="g124s30">patch_embed (Conv2d 192→128)</text>
+<rect x="364.0" y="724.5" width="1292.0" height="18.0" rx="3" class="g124s31"/>
+<rect x="364.0" y="724.5" width="40.2" height="18.0" rx="3" style="fill:var(--s2);stroke:none;stroke-width:1"/>
+<text x="1846.0" y="738.5" class="g124s32">24,704  (2.7%)</text>
+<text x="34.0" y="766.5" class="g124s30">pos_embed (864 places × 128)</text>
+<rect x="364.0" y="752.5" width="1292.0" height="18.0" rx="3" class="g124s31"/>
+<rect x="364.0" y="752.5" width="180.2" height="18.0" rx="3" style="fill:var(--s3);stroke:none;stroke-width:1"/>
+<text x="1846.0" y="766.5" class="g124s32">110,592  (11.9%)</text>
+<text x="34.0" y="794.5" class="g124s30">4 encoder layers (198,272 each)</text>
+<rect x="364.0" y="780.5" width="1292.0" height="18.0" rx="3" class="g124s31"/>
+<rect x="364.0" y="780.5" width="1292.0" height="18.0" rx="3" style="fill:var(--s4);stroke:none;stroke-width:1"/>
+<text x="1846.0" y="794.5" class="g124s32">793,088  (85.4%)</text>
+<text x="34.0" y="822.5" class="g124s30">final LayerNorm</text>
+<rect x="364.0" y="808.5" width="1292.0" height="18.0" rx="3" class="g124s31"/>
+<rect x="364.0" y="808.5" width="1.5" height="18.0" rx="3" style="fill:var(--s6);stroke:none;stroke-width:1"/>
+<text x="1846.0" y="822.5" class="g124s32">256  (0.0%)</text>
+<text x="34.0" y="850.5" class="g124s30">head (Linear 128→2)</text>
+<rect x="364.0" y="836.5" width="1292.0" height="18.0" rx="3" class="g124s31"/>
+<rect x="364.0" y="836.5" width="1.5" height="18.0" rx="3" style="fill:var(--s7);stroke:none;stroke-width:1"/>
+<text x="1846.0" y="850.5" class="g124s32">258  (0.0%)</text>
+<text y="884.7" xml:space="preserve" class="g124s45"><tspan x="34.0" textLength="92.9" lengthAdjust="spacing">Inside one layer: </tspan><tspan x="126.9" class="g124s4" textLength="93.4" lengthAdjust="spacing">66,048 numbers</tspan><tspan x="220.3" textLength="99.7" lengthAdjust="spacing"> for attention (four </tspan><tspan x="320.0" class="g124s4" textLength="110.5" lengthAdjust="spacing">128 × 128 matrices</tspan><tspan x="430.6" textLength="120.7" lengthAdjust="spacing"> and their biases) and </tspan><tspan x="551.3" class="g124s4" textLength="46.7" lengthAdjust="spacing">131,712</tspan><tspan x="598.0" textLength="41.4" lengthAdjust="spacing"> for the </tspan><tspan x="639.4" class="g124s38" textLength="27.6" lengthAdjust="spacing">GELU</tspan><tspan x="667.0" textLength="53.6" lengthAdjust="spacing"> network (</tspan><tspan x="720.6" class="g124s4" textLength="21.6" lengthAdjust="spacing">128</tspan><tspan x="742.1"> → </tspan><tspan x="761.1" class="g124s4" textLength="21.6" lengthAdjust="spacing">512</tspan><tspan x="782.7"> → </tspan><tspan x="801.7" class="g124s4" textLength="21.6" lengthAdjust="spacing">128</tspan><tspan x="823.2" textLength="59.0" lengthAdjust="spacing">), plus two </tspan><tspan x="882.2" class="g124s38" textLength="69.0" lengthAdjust="spacing">LayerNorms</tspan><tspan x="951.3" textLength="103.7" lengthAdjust="spacing">. The positions are </tspan><tspan x="1055.0" class="g124s4" textLength="36.7" lengthAdjust="spacing">11.9%</tspan><tspan x="1091.7" textLength="263.1" lengthAdjust="spacing"> of the model: one learned vector for each of the </tspan><tspan x="1354.8" class="g124s4" textLength="21.6" lengthAdjust="spacing">864</tspan><tspan x="1376.4" textLength="42.0" lengthAdjust="spacing"> places.</tspan></text>
+<rect x="34.0" y="912.2" width="1812.0" height="30.0" rx="6" class="g124s37"/>
+<path d="M38.50 912.90 A5.50 5.50 0 0 0 34.50 918.19 V936.19 A5.50 5.50 0 0 0 38.50 941.48 Z" class="g124s42"/>
+<text y="932.2" xml:space="preserve" class="g124s43"><tspan x="50.0" class="g124s7" textLength="59.8" lengthAdjust="spacing">B · Patch </tspan><tspan x="109.8" class="g124s4" textLength="23.0" lengthAdjust="spacing">450</tspan><tspan x="132.7" class="g124s7" textLength="160.9" lengthAdjust="spacing"> through the trained model</tspan></text>
+<text y="932.2" xml:space="preserve" class="g124s44"><tspan x="311.6" textLength="468.6" lengthAdjust="spacing">the length of its vector after each step, and how much attention and the network each added</tspan></text>
+<rect x="34.0" y="968.2" width="1812.0" height="24.0" rx="4" class="g124s37"/>
+<text y="984.2" xml:space="preserve" class="g124s33"><tspan x="43.0" class="g124s7" textLength="21.0" lengthAdjust="spacing">step</tspan></text>
+<text y="984.2" xml:space="preserve" class="g124s33"><tspan x="373.0" class="g124s7" textLength="63.7" lengthAdjust="spacing">vector length</tspan></text>
+<text y="984.2" xml:space="preserve" class="g124s33"><tspan x="593.0" class="g124s7" textLength="76.7" lengthAdjust="spacing">attention added</tspan></text>
+<text y="984.2" xml:space="preserve" class="g124s33"><tspan x="813.0" class="g124s7" textLength="73.0" lengthAdjust="spacing">network added</tspan></text>
+<text y="984.2" xml:space="preserve" class="g124s33"><tspan x="1033.0" class="g124s7" textLength="35.2" lengthAdjust="spacing">its first </tspan><tspan x="1068.2" style="font-weight:600;fill:var(--ink2)" textLength="52.6" lengthAdjust="spacing">4 numbers</tspan></text>
+<text y="1009.1" xml:space="preserve" class="g124s34"><tspan x="43.0" class="g124s18" textLength="149.7" lengthAdjust="spacing">patch_embed + pos_embed</tspan></text>
+<text x="373.0" y="1009.1" class="g124s6">2.72</text>
+<text x="593.0" y="1009.1" class="g124s6">—</text>
+<text x="813.0" y="1009.1" class="g124s6">—</text>
+<text x="1033.0" y="1009.1" class="g124s6">0.34, 0.15, 0.03, 0.12</text>
+<line x1="34.0" y1="1018.2" x2="1846.0" y2="1018.2" class="g124s14"/>
+<rect x="34.0" y="1018.2" width="1812.0" height="26.0" rx="0" class="g124s57"/>
+<text y="1035.1" xml:space="preserve" class="g124s34"><tspan x="43.0" class="g124s7" textLength="27.8" lengthAdjust="spacing">after </tspan><tspan x="70.8" class="g124s4" textLength="36.6" lengthAdjust="spacing">layer 1</tspan></text>
+<text x="373.0" y="1035.1" class="g124s6">5.10</text>
+<text x="593.0" y="1035.1" class="g124s6">1.06</text>
+<text x="813.0" y="1035.1" class="g124s6">3.01</text>
+<text x="1033.0" y="1035.1" class="g124s6">0.60, −0.30, 0.26, 0.10</text>
+<line x1="34.0" y1="1044.2" x2="1846.0" y2="1044.2" class="g124s14"/>
+<text y="1061.1" xml:space="preserve" class="g124s34"><tspan x="43.0" class="g124s7" textLength="27.8" lengthAdjust="spacing">after </tspan><tspan x="70.8" class="g124s4" textLength="36.6" lengthAdjust="spacing">layer 2</tspan></text>
+<text x="373.0" y="1061.1" class="g124s6">6.97</text>
+<text x="593.0" y="1061.1" class="g124s6">1.30</text>
+<text x="813.0" y="1061.1" class="g124s6">3.13</text>
+<text x="1033.0" y="1061.1" class="g124s6">0.35, −0.53, 0.17, 0.45</text>
+<line x1="34.0" y1="1070.2" x2="1846.0" y2="1070.2" class="g124s14"/>
+<rect x="34.0" y="1070.2" width="1812.0" height="26.0" rx="0" class="g124s57"/>
+<text y="1087.1" xml:space="preserve" class="g124s34"><tspan x="43.0" class="g124s7" textLength="27.8" lengthAdjust="spacing">after </tspan><tspan x="70.8" class="g124s4" textLength="36.6" lengthAdjust="spacing">layer 3</tspan></text>
+<text x="373.0" y="1087.1" class="g124s6">8.38</text>
+<text x="593.0" y="1087.1" class="g124s6">1.68</text>
+<text x="813.0" y="1087.1" class="g124s6">4.24</text>
+<text x="1033.0" y="1087.1" class="g124s6">0.42, −0.65, 0.05, −0.03</text>
+<line x1="34.0" y1="1096.2" x2="1846.0" y2="1096.2" class="g124s14"/>
+<text y="1113.1" xml:space="preserve" class="g124s34"><tspan x="43.0" class="g124s7" textLength="27.8" lengthAdjust="spacing">after </tspan><tspan x="70.8" class="g124s4" textLength="36.6" lengthAdjust="spacing">layer 4</tspan></text>
+<text x="373.0" y="1113.1" class="g124s6">11.49</text>
+<text x="593.0" y="1113.1" class="g124s6">1.42</text>
+<text x="813.0" y="1113.1" class="g124s6">6.37</text>
+<text x="1033.0" y="1113.1" class="g124s6">−0.03, −0.24, 0.51, −1.65</text>
+<line x1="34.0" y1="1122.2" x2="1846.0" y2="1122.2" class="g124s14"/>
+<rect x="34.0" y="992.2" width="1812.0" height="130.0" rx="0" class="g124s35"/>
+<line x1="364.0" y1="992.2" x2="364.0" y2="1122.2" class="g124s14"/>
+<line x1="584.0" y1="992.2" x2="584.0" y2="1122.2" class="g124s14"/>
+<line x1="804.0" y1="992.2" x2="804.0" y2="1122.2" class="g124s14"/>
+<line x1="1024.0" y1="992.2" x2="1024.0" y2="1122.2" class="g124s14"/>
+<text y="1142.4" xml:space="preserve" class="g124s45"><tspan x="34.0" class="g124s38" textLength="82.8" lengthAdjust="spacing">Length = the</tspan><tspan x="116.8" textLength="218.4" lengthAdjust="spacing"> square root of the sum of squares of its </tspan><tspan x="335.2" class="g124s4" textLength="75.5" lengthAdjust="spacing">128 numbers</tspan><tspan x="410.7" textLength="668.6" lengthAdjust="spacing">. The vector grows layer by layer as each one adds to it — the residual connection keeps what was there. In every layer the </tspan><tspan x="1079.3" class="g124s38" textLength="27.6" lengthAdjust="spacing">GELU</tspan><tspan x="1106.9" textLength="487.6" lengthAdjust="spacing"> network adds more than attention does. After the last layer the head reads it: background </tspan><tspan x="1594.5" class="g124s4" textLength="32.9" lengthAdjust="spacing">−3.61</tspan><tspan x="1627.4" textLength="47.5" lengthAdjust="spacing">, person </tspan><tspan x="1674.9" class="g124s4" textLength="25.2" lengthAdjust="spacing">5.01</tspan><tspan x="1700.0">.</tspan></text>
+<rect x="34.0" y="1169.9" width="1812.0" height="30.0" rx="6" class="g124s37"/>
+<path d="M38.50 1170.59 A5.50 5.50 0 0 0 34.50 1175.88 V1193.88 A5.50 5.50 0 0 0 38.50 1199.17 Z" class="g124s42"/>
+<text y="1189.9" xml:space="preserve" class="g124s43"><tspan x="50.0" class="g124s7" textLength="95.0" lengthAdjust="spacing">C · From patch </tspan><tspan x="145.0" class="g124s17" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="189.1" class="g124s7" textLength="54.4" lengthAdjust="spacing"> to pixels</tspan></text>
+<text y="1189.9" xml:space="preserve" class="g124s44"><tspan x="261.5" textLength="193.5" lengthAdjust="spacing">left: every patch’s person share after </tspan><tspan x="455.0" class="g124s18" textLength="45.6" lengthAdjust="spacing">softmax</tspan><tspan x="500.6" textLength="104.8" lengthAdjust="spacing">; right: the stretched </tspan><tspan x="605.4" class="g124s18" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="644.5" textLength="111.2" lengthAdjust="spacing">, person where it wins</tspan></text>
+<rect x="34.0" y="1229.9" width="891.0" height="594.0" rx="0" class="g124s58"/>
+<rect x="256.8" y="1304.1" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.65"/>
+<rect x="281.5" y="1304.1" width="24.95" height="24.95" class="g124s20"/>
+<rect x="454.8" y="1304.1" width="24.95" height="24.95" class="g124s39"/>
+<rect x="479.5" y="1304.1" width="24.95" height="24.95" class="g124s20"/>
+<rect x="727.0" y="1304.1" width="24.95" height="24.95" class="g124s59"/>
+<rect x="256.8" y="1328.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1328.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1328.9" width="24.95" height="24.95" class="g124s60"/>
+<rect x="380.5" y="1328.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1328.9" width="24.95" height="24.95" class="g124s5"/>
+<rect x="454.8" y="1328.9" width="24.95" height="24.95" class="g124s46"/>
+<rect x="479.5" y="1328.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="553.8" y="1328.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1328.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="628.0" y="1328.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="652.8" y="1328.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1328.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1328.9" width="24.95" height="24.95" class="g124s61"/>
+<rect x="776.5" y="1328.9" width="24.95" height="24.95" class="g124s26"/>
+<rect x="182.5" y="1353.6" width="24.95" height="24.95" class="g124s5"/>
+<rect x="232.0" y="1353.6" width="24.95" height="24.95" class="g124s39"/>
+<rect x="256.8" y="1353.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1353.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1353.6" width="24.95" height="24.95" class="g124s62"/>
+<rect x="380.5" y="1353.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1353.6" width="24.95" height="24.95" class="g124s47"/>
+<rect x="454.8" y="1353.6" width="24.95" height="24.95" class="g124s48"/>
+<rect x="479.5" y="1353.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1353.6" width="24.95" height="24.95" class="g124s60"/>
+<rect x="553.8" y="1353.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1353.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="628.0" y="1353.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.81"/>
+<rect x="652.8" y="1353.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="702.2" y="1353.6" width="24.95" height="24.95" class="g124s12"/>
+<rect x="727.0" y="1353.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1353.6" width="24.95" height="24.95" class="g124s5"/>
+<rect x="776.5" y="1353.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.64"/>
+<rect x="157.8" y="1378.4" width="24.95" height="24.95" class="g124s40"/>
+<rect x="182.5" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1378.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.24"/>
+<rect x="232.0" y="1378.4" width="24.95" height="24.95" class="g124s5"/>
+<rect x="256.8" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1378.4" width="24.95" height="24.95" class="g124s41"/>
+<rect x="331.0" y="1378.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.76"/>
+<rect x="355.8" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="380.5" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1378.4" width="24.95" height="24.95" class="g124s21"/>
+<rect x="430.0" y="1378.4" width="24.95" height="24.95" class="g124s21"/>
+<rect x="454.8" y="1378.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.29"/>
+<rect x="479.5" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="553.8" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="603.2" y="1378.4" width="24.95" height="24.95" class="g124s63"/>
+<rect x="628.0" y="1378.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.20"/>
+<rect x="652.8" y="1378.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1378.4" width="24.95" height="24.95" class="g124s64"/>
+<rect x="702.2" y="1378.4" width="24.95" height="24.95" class="g124s20"/>
+<rect x="727.0" y="1378.4" width="24.95" height="24.95" class="g124s5"/>
+<rect x="751.8" y="1378.4" width="24.95" height="24.95" class="g124s40"/>
+<rect x="776.5" y="1378.4" width="24.95" height="24.95" class="g124s47"/>
+<rect x="801.2" y="1378.4" width="24.95" height="24.95" class="g124s5"/>
+<rect x="826.0" y="1378.4" width="24.95" height="24.95" class="g124s12"/>
+<rect x="157.8" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="232.0" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="256.8" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="331.0" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="355.8" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="380.5" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="430.0" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="454.8" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="479.5" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1403.1" width="24.95" height="24.95" class="g124s20"/>
+<rect x="553.8" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="603.2" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="628.0" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="652.8" y="1403.1" width="24.95" height="24.95" class="g124s5"/>
+<rect x="677.5" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="702.2" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="801.2" y="1403.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="826.0" y="1403.1" width="24.95" height="24.95" class="g124s61"/>
+<rect x="133.0" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="157.8" y="1427.9" width="24.95" height="24.95" class="g124s27"/>
+<rect x="182.5" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="232.0" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="256.8" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="331.0" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="355.8" y="1427.9" width="24.95" height="24.95" class="g124s27"/>
+<rect x="380.5" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="430.0" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="454.8" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="479.5" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1427.9" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.63"/>
+<rect x="553.8" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="603.2" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="628.0" y="1427.9" width="24.95" height="24.95" class="g124s5"/>
+<rect x="652.8" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="702.2" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1427.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="801.2" y="1427.9" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.12"/>
+<rect x="108.2" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="133.0" y="1452.6" width="24.95" height="24.95" class="g124s5"/>
+<rect x="157.8" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1452.6" width="24.95" height="24.95" class="g124s27"/>
+<rect x="207.2" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="232.0" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="256.8" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="331.0" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="355.8" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="380.5" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="430.0" y="1452.6" width="24.95" height="24.95" class="g124s59"/>
+<rect x="454.8" y="1452.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.54"/>
+<rect x="479.5" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1452.6" width="24.95" height="24.95" class="g124s64"/>
+<rect x="553.8" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="603.2" y="1452.6" width="24.95" height="24.95" class="g124s65"/>
+<rect x="628.0" y="1452.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.86"/>
+<rect x="652.8" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="702.2" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1452.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="108.2" y="1477.4" width="24.95" height="24.95" class="g124s5"/>
+<rect x="133.0" y="1477.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.79"/>
+<rect x="157.8" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="232.0" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="256.8" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="331.0" y="1477.4" width="24.95" height="24.95" class="g124s5"/>
+<rect x="355.8" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="380.5" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="430.0" y="1477.4" width="24.95" height="24.95" class="g124s5"/>
+<rect x="454.8" y="1477.4" width="24.95" height="24.95" class="g124s20"/>
+<rect x="479.5" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1477.4" width="24.95" height="24.95" class="g124s66"/>
+<rect x="553.8" y="1477.4" width="24.95" height="24.95" class="g124s5"/>
+<rect x="578.5" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="603.2" y="1477.4" width="24.95" height="24.95" class="g124s48"/>
+<rect x="628.0" y="1477.4" width="24.95" height="24.95" class="g124s41"/>
+<rect x="652.8" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1477.4" width="24.95" height="24.95" class="g124s5"/>
+<rect x="702.2" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1477.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="83.5" y="1502.1" width="24.95" height="24.95" class="g124s49"/>
+<rect x="108.2" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="133.0" y="1502.1" width="24.95" height="24.95" class="g124s49"/>
+<rect x="157.8" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="232.0" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="256.8" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="331.0" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="355.8" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="380.5" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="430.0" y="1502.1" width="24.95" height="24.95" class="g124s28"/>
+<rect x="454.8" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="479.5" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="553.8" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="603.2" y="1502.1" width="24.95" height="24.95" class="g124s50"/>
+<rect x="628.0" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="652.8" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1502.1" width="24.95" height="24.95" class="g124s20"/>
+<rect x="702.2" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1502.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="801.2" y="1502.1" width="24.95" height="24.95" class="g124s67"/>
+<rect x="108.2" y="1526.9" width="24.95" height="24.95" class="g124s12"/>
+<rect x="133.0" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="157.8" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="232.0" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="256.8" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="331.0" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="355.8" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="380.5" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="430.0" y="1526.9" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.57"/>
+<rect x="454.8" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="479.5" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="553.8" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="603.2" y="1526.9" width="24.95" height="24.95" class="g124s68"/>
+<rect x="628.0" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="652.8" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1526.9" width="24.95" height="24.95" class="g124s21"/>
+<rect x="702.2" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1526.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="801.2" y="1526.9" width="24.95" height="24.95" class="g124s69"/>
+<rect x="157.8" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="232.0" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="256.8" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="331.0" y="1551.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.62"/>
+<rect x="355.8" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="380.5" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="430.0" y="1551.6" width="24.95" height="24.95" class="g124s70"/>
+<rect x="454.8" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="479.5" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="553.8" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="603.2" y="1551.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.47"/>
+<rect x="628.0" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="652.8" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1551.6" width="24.95" height="24.95" class="g124s40"/>
+<rect x="702.2" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1551.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="801.2" y="1551.6" width="24.95" height="24.95" class="g124s69"/>
+<rect x="157.8" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="232.0" y="1576.4" width="24.95" height="24.95" class="g124s71"/>
+<rect x="256.8" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="355.8" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="380.5" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="405.2" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="430.0" y="1576.4" width="24.95" height="24.95" class="g124s12"/>
+<rect x="454.8" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="479.5" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1576.4" width="24.95" height="24.95" class="g124s72"/>
+<rect x="553.8" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1576.4" width="24.95" height="24.95" class="g124s27"/>
+<rect x="628.0" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="652.8" y="1576.4" width="24.95" height="24.95" class="g124s28"/>
+<rect x="677.5" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="702.2" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1576.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="801.2" y="1576.4" width="24.95" height="24.95" class="g124s66"/>
+<rect x="157.8" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1601.1" width="24.95" height="24.95" class="g124s28"/>
+<rect x="232.0" y="1601.1" width="24.95" height="24.95" class="g124s26"/>
+<rect x="256.8" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1601.1" width="24.95" height="24.95" class="g124s28"/>
+<rect x="355.8" y="1601.1" width="24.95" height="24.95" class="g124s5"/>
+<rect x="380.5" y="1601.1" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.30"/>
+<rect x="405.2" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="454.8" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="479.5" y="1601.1" width="24.95" height="24.95" class="g124s26"/>
+<rect x="504.2" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1601.1" width="24.95" height="24.95" class="g124s5"/>
+<rect x="553.8" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1601.1" width="24.95" height="24.95" class="g124s26"/>
+<rect x="603.2" y="1601.1" width="24.95" height="24.95" class="g124s48"/>
+<rect x="628.0" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="652.8" y="1601.1" width="24.95" height="24.95" class="g124s12"/>
+<rect x="677.5" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="702.2" y="1601.1" width="24.95" height="24.95" class="g124s41"/>
+<rect x="727.0" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1601.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="801.2" y="1601.1" width="24.95" height="24.95" class="g124s12"/>
+<rect x="157.8" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1625.9" width="24.95" height="24.95" class="g124s73"/>
+<rect x="256.8" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1625.9" width="24.95" height="24.95" class="g124s39"/>
+<rect x="355.8" y="1625.9" width="24.95" height="24.95" class="g124s5"/>
+<rect x="380.5" y="1625.9" width="24.95" height="24.95" class="g124s12"/>
+<rect x="405.2" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="454.8" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="529.0" y="1625.9" width="24.95" height="24.95" class="g124s74"/>
+<rect x="553.8" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1625.9" width="24.95" height="24.95" class="g124s51"/>
+<rect x="628.0" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1625.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="157.8" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1650.6" width="24.95" height="24.95" class="g124s62"/>
+<rect x="232.0" y="1650.6" width="24.95" height="24.95" class="g124s12"/>
+<rect x="256.8" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="306.2" y="1650.6" width="24.95" height="24.95" class="g124s12"/>
+<rect x="355.8" y="1650.6" width="24.95" height="24.95" class="g124s27"/>
+<rect x="380.5" y="1650.6" width="24.95" height="24.95" class="g124s49"/>
+<rect x="405.2" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="454.8" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="553.8" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="578.5" y="1650.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.43"/>
+<rect x="603.2" y="1650.6" width="24.95" height="24.95" class="g124s63"/>
+<rect x="628.0" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1650.6" width="24.95" height="24.95" class="g124s5"/>
+<rect x="751.8" y="1650.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1650.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.59"/>
+<rect x="133.0" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="157.8" y="1675.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.89"/>
+<rect x="182.5" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1675.4" width="24.95" height="24.95" class="g124s12"/>
+<rect x="256.8" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="355.8" y="1675.4" width="24.95" height="24.95" class="g124s21"/>
+<rect x="380.5" y="1675.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.28"/>
+<rect x="405.2" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="454.8" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="479.5" y="1675.4" width="24.95" height="24.95" class="g124s51"/>
+<rect x="504.2" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="553.8" y="1675.4" width="24.95" height="24.95" class="g124s5"/>
+<rect x="578.5" y="1675.4" width="24.95" height="24.95" class="g124s46"/>
+<rect x="628.0" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1675.4" width="24.95" height="24.95" class="g124s75"/>
+<rect x="751.8" y="1675.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="776.5" y="1675.4" width="24.95" height="24.95" class="g124s26"/>
+<rect x="108.2" y="1700.1" width="24.95" height="24.95" class="g124s51"/>
+<rect x="133.0" y="1700.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="182.5" y="1700.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="256.8" y="1700.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1700.1" width="24.95" height="24.95" class="g124s27"/>
+<rect x="355.8" y="1700.1" width="24.95" height="24.95" class="g124s47"/>
+<rect x="380.5" y="1700.1" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.38"/>
+<rect x="405.2" y="1700.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="454.8" y="1700.1" width="24.95" height="24.95" class="g124s20"/>
+<rect x="479.5" y="1700.1" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.71"/>
+<rect x="504.2" y="1700.1" width="24.95" height="24.95" class="g124s74"/>
+<rect x="553.8" y="1700.1" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.25"/>
+<rect x="578.5" y="1700.1" width="24.95" height="24.95" class="g124s46"/>
+<rect x="628.0" y="1700.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1700.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1700.1" width="24.95" height="24.95" class="g124s50"/>
+<rect x="751.8" y="1700.1" width="24.95" height="24.95" class="g124s0"/>
+<rect x="108.2" y="1724.9" width="24.95" height="24.95" class="g124s75"/>
+<rect x="133.0" y="1724.9" width="24.95" height="24.95" class="g124s72"/>
+<rect x="182.5" y="1724.9" width="24.95" height="24.95" class="g124s21"/>
+<rect x="256.8" y="1724.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="281.5" y="1724.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="355.8" y="1724.9" width="24.95" height="24.95" class="g124s5"/>
+<rect x="380.5" y="1724.9" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.66"/>
+<rect x="405.2" y="1724.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="430.0" y="1724.9" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.16"/>
+<rect x="454.8" y="1724.9" width="24.95" height="24.95" class="g124s28"/>
+<rect x="479.5" y="1724.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="504.2" y="1724.9" width="24.95" height="24.95" class="g124s26"/>
+<rect x="553.8" y="1724.9" width="24.95" height="24.95" class="g124s5"/>
+<rect x="578.5" y="1724.9" width="24.95" height="24.95" class="g124s40"/>
+<rect x="628.0" y="1724.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1724.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="727.0" y="1724.9" width="24.95" height="24.95" class="g124s67"/>
+<rect x="751.8" y="1724.9" width="24.95" height="24.95" class="g124s0"/>
+<rect x="83.5" y="1749.6" width="24.95" height="24.95" class="g124s50"/>
+<rect x="108.2" y="1749.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="157.8" y="1749.6" width="24.95" height="24.95" class="g124s73"/>
+<rect x="182.5" y="1749.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="207.2" y="1749.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.10"/>
+<rect x="256.8" y="1749.6" width="24.95" height="24.95" class="g124s21"/>
+<rect x="281.5" y="1749.6" width="24.95" height="24.95" class="g124s5"/>
+<rect x="306.2" y="1749.6" width="24.95" height="24.95" class="g124s65"/>
+<rect x="454.8" y="1749.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="479.5" y="1749.6" width="24.95" height="24.95" class="g124s68"/>
+<rect x="504.2" y="1749.6" width="24.95" height="24.95" class="g124s70"/>
+<rect x="529.0" y="1749.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.60"/>
+<rect x="553.8" y="1749.6" width="24.95" height="24.95" class="g124s41"/>
+<rect x="578.5" y="1749.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="603.2" y="1749.6" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.40"/>
+<rect x="628.0" y="1749.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="677.5" y="1749.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1749.6" width="24.95" height="24.95" class="g124s0"/>
+<rect x="83.5" y="1774.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="108.2" y="1774.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.80"/>
+<rect x="182.5" y="1774.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.21"/>
+<rect x="207.2" y="1774.4" width="24.95" height="24.95" class="g124s28"/>
+<rect x="603.2" y="1774.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.44"/>
+<rect x="677.5" y="1774.4" width="24.95" height="24.95" class="g124s39"/>
+<rect x="727.0" y="1774.4" width="24.95" height="24.95" class="g124s0"/>
+<rect x="751.8" y="1774.4" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.77"/>
+<rect x="776.5" y="1774.4" width="24.95" height="24.95" class="g124s21"/>
+<rect x="83.5" y="1799.1" width="24.95" height="24.95" class="g124s71"/>
+<rect x="108.2" y="1799.1" width="24.95" height="24.95" class="g124s12"/>
+<rect x="331.0" y="1799.1" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.13"/>
+<rect x="776.5" y="1799.1" width="24.95" height="24.95" style="fill:var(--seqB);opacity:0.26"/>
+<line x1="58.8" y1="1229.9" x2="58.8" y2="1823.9" class="g124s3"/>
+<line x1="83.5" y1="1229.9" x2="83.5" y2="1823.9" class="g124s3"/>
+<line x1="108.2" y1="1229.9" x2="108.2" y2="1823.9" class="g124s3"/>
+<line x1="133.0" y1="1229.9" x2="133.0" y2="1823.9" class="g124s3"/>
+<line x1="157.8" y1="1229.9" x2="157.8" y2="1823.9" class="g124s3"/>
+<line x1="182.5" y1="1229.9" x2="182.5" y2="1823.9" class="g124s3"/>
+<line x1="207.2" y1="1229.9" x2="207.2" y2="1823.9" class="g124s3"/>
+<line x1="232.0" y1="1229.9" x2="232.0" y2="1823.9" class="g124s3"/>
+<line x1="256.8" y1="1229.9" x2="256.8" y2="1823.9" class="g124s3"/>
+<line x1="281.5" y1="1229.9" x2="281.5" y2="1823.9" class="g124s3"/>
+<line x1="306.2" y1="1229.9" x2="306.2" y2="1823.9" class="g124s3"/>
+<line x1="331.0" y1="1229.9" x2="331.0" y2="1823.9" class="g124s3"/>
+<line x1="355.8" y1="1229.9" x2="355.8" y2="1823.9" class="g124s3"/>
+<line x1="380.5" y1="1229.9" x2="380.5" y2="1823.9" class="g124s3"/>
+<line x1="405.2" y1="1229.9" x2="405.2" y2="1823.9" class="g124s3"/>
+<line x1="430.0" y1="1229.9" x2="430.0" y2="1823.9" class="g124s3"/>
+<line x1="454.8" y1="1229.9" x2="454.8" y2="1823.9" class="g124s3"/>
+<line x1="479.5" y1="1229.9" x2="479.5" y2="1823.9" class="g124s3"/>
+<line x1="504.2" y1="1229.9" x2="504.2" y2="1823.9" class="g124s3"/>
+<line x1="529.0" y1="1229.9" x2="529.0" y2="1823.9" class="g124s3"/>
+<line x1="553.8" y1="1229.9" x2="553.8" y2="1823.9" class="g124s3"/>
+<line x1="578.5" y1="1229.9" x2="578.5" y2="1823.9" class="g124s3"/>
+<line x1="603.2" y1="1229.9" x2="603.2" y2="1823.9" class="g124s3"/>
+<line x1="628.0" y1="1229.9" x2="628.0" y2="1823.9" class="g124s3"/>
+<line x1="652.8" y1="1229.9" x2="652.8" y2="1823.9" class="g124s3"/>
+<line x1="677.5" y1="1229.9" x2="677.5" y2="1823.9" class="g124s3"/>
+<line x1="702.2" y1="1229.9" x2="702.2" y2="1823.9" class="g124s3"/>
+<line x1="727.0" y1="1229.9" x2="727.0" y2="1823.9" class="g124s3"/>
+<line x1="751.8" y1="1229.9" x2="751.8" y2="1823.9" class="g124s3"/>
+<line x1="776.5" y1="1229.9" x2="776.5" y2="1823.9" class="g124s3"/>
+<line x1="801.2" y1="1229.9" x2="801.2" y2="1823.9" class="g124s3"/>
+<line x1="826.0" y1="1229.9" x2="826.0" y2="1823.9" class="g124s3"/>
+<line x1="850.8" y1="1229.9" x2="850.8" y2="1823.9" class="g124s3"/>
+<line x1="875.5" y1="1229.9" x2="875.5" y2="1823.9" class="g124s3"/>
+<line x1="900.2" y1="1229.9" x2="900.2" y2="1823.9" class="g124s3"/>
+<line x1="34.0" y1="1254.6" x2="925.0" y2="1254.6" class="g124s3"/>
+<line x1="34.0" y1="1279.4" x2="925.0" y2="1279.4" class="g124s3"/>
+<line x1="34.0" y1="1304.1" x2="925.0" y2="1304.1" class="g124s3"/>
+<line x1="34.0" y1="1328.9" x2="925.0" y2="1328.9" class="g124s3"/>
+<line x1="34.0" y1="1353.6" x2="925.0" y2="1353.6" class="g124s3"/>
+<line x1="34.0" y1="1378.4" x2="925.0" y2="1378.4" class="g124s3"/>
+<line x1="34.0" y1="1403.1" x2="925.0" y2="1403.1" class="g124s3"/>
+<line x1="34.0" y1="1427.9" x2="925.0" y2="1427.9" class="g124s3"/>
+<line x1="34.0" y1="1452.6" x2="925.0" y2="1452.6" class="g124s3"/>
+<line x1="34.0" y1="1477.4" x2="925.0" y2="1477.4" class="g124s3"/>
+<line x1="34.0" y1="1502.1" x2="925.0" y2="1502.1" class="g124s3"/>
+<line x1="34.0" y1="1526.9" x2="925.0" y2="1526.9" class="g124s3"/>
+<line x1="34.0" y1="1551.6" x2="925.0" y2="1551.6" class="g124s3"/>
+<line x1="34.0" y1="1576.4" x2="925.0" y2="1576.4" class="g124s3"/>
+<line x1="34.0" y1="1601.1" x2="925.0" y2="1601.1" class="g124s3"/>
+<line x1="34.0" y1="1625.9" x2="925.0" y2="1625.9" class="g124s3"/>
+<line x1="34.0" y1="1650.6" x2="925.0" y2="1650.6" class="g124s3"/>
+<line x1="34.0" y1="1675.4" x2="925.0" y2="1675.4" class="g124s3"/>
+<line x1="34.0" y1="1700.1" x2="925.0" y2="1700.1" class="g124s3"/>
+<line x1="34.0" y1="1724.9" x2="925.0" y2="1724.9" class="g124s3"/>
+<line x1="34.0" y1="1749.6" x2="925.0" y2="1749.6" class="g124s3"/>
+<line x1="34.0" y1="1774.4" x2="925.0" y2="1774.4" class="g124s3"/>
+<line x1="34.0" y1="1799.1" x2="925.0" y2="1799.1" class="g124s3"/>
+<rect x="34.0" y="1229.9" width="891.0" height="594.0" rx="0" class="g124s35"/>
+<rect x="955.0" y="1229.9" width="891.0" height="594.0" rx="0" class="g124s58"/>
+<image href="figs/vis_s_mask.png?v=86d88b5ff3" x="955.0" y="1229.9" width="891.0" height="594.0" preserveAspectRatio="none" style="image-rendering:pixelated"/>
+<rect x="955.0" y="1229.9" width="891.0" height="594.0" rx="0" class="g124s35"/>
+<text y="1850.1" xml:space="preserve" class="g124s45"><tspan x="34.0" class="g124s4" textLength="21.6" lengthAdjust="spacing">370</tspan><tspan x="55.6" textLength="37.3" lengthAdjust="spacing"> of the </tspan><tspan x="92.9" class="g124s4" textLength="105.7" lengthAdjust="spacing">864 patches score</tspan><tspan x="198.5" textLength="143.8" lengthAdjust="spacing"> person higher. Stretched, </tspan><tspan x="342.3" class="g124s4" textLength="36.7" lengthAdjust="spacing">44.5%</tspan><tspan x="379.0" textLength="279.2" lengthAdjust="spacing"> of the picture’s pixels are person; the tracing says </tspan><tspan x="658.2" class="g124s4" textLength="36.7" lengthAdjust="spacing">44.9%</tspan><tspan x="694.9" textLength="258.4" lengthAdjust="spacing">. Bilinear blending lets an outline cross a patch: </tspan><tspan x="953.2" class="g124s4" textLength="21.6" lengthAdjust="spacing">218</tspan><tspan x="974.8" textLength="551.3" lengthAdjust="spacing"> patches end up with pixels of both classes — the outlines run through them, not along the patch lines.</tspan></text>
+<line x1="28.0" y1="1879.7" x2="1852.0" y2="1879.7" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1896.7" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px"><tspan x="28.0" textLength="461.6" lengthAdjust="spacing">Numbers, always labelled. Everything on this page comes from the vision notebook (written by </tspan><tspan x="489.6" class="g124s52" textLength="49.8" lengthAdjust="spacing">nbvis.py</tspan><tspan x="539.4" textLength="265.9" lengthAdjust="spacing">; your notebooks are only read) run here with PyTorch </tspan><tspan x="805.3" class="g124s4" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="821.5" textLength="196.7" lengthAdjust="spacing">.0 on this Mac’s GPU: its recorded run (</tspan><tspan x="1018.2" class="g124s52" textLength="56.0" lengthAdjust="spacing">runvis.py</tspan><tspan x="1074.3" textLength="61.8" lengthAdjust="spacing">), and photo </tspan><tspan x="1136.0" class="g124s4">1</tspan><tspan x="1142.5" textLength="174.2" lengthAdjust="spacing"> followed through its trained model (</tspan><tspan x="1316.8" class="g124s52" textLength="68.5" lengthAdjust="spacing">tracevis.py</tspan><tspan x="1385.2" textLength="6.7" lengthAdjust="spacing">).</tspan></text>
+</svg>

@@ -1,0 +1,79 @@
+<svg data-src="vis_d07_where_datasets_come_from.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="867" viewBox="0 0 1880 867">
+<style>.txfig .g136s0{font-weight:600}.txfig .g136s1{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g136s2{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g136s3{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g136s4{font-weight:600;fill:var(--ink)}.txfig .g136s5{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g136s6{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g136s7{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g136s8{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g136s9{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g136s10{fill:var(--keep);stroke:none}.txfig .g136s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g136s12{fill:var(--accent);stroke:none}.txfig .g136s13{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g136s14{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g136s15{fill:none;stroke:var(--panelbd);stroke-width:1}</style>
+<defs><pattern id="hatch136" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash136" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="867" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">VISION v1 · BUILDING A BIGGER DATASET · D7</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="348.3" class="g136s0" textLength="335.3" lengthAdjust="spacing">Where bigger datasets come from</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="405.4" lengthAdjust="spacing">public datasets, labelling tools, and what to write down about your own</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="448.7" lengthAdjust="spacing">The next steps beyond two photos — told in words, since none of it was measured here.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g136s9"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g136s10"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g136s0" textLength="335.7" lengthAdjust="spacing">Most projects start from labels someone else made</tspan></text>
+<text y="169.0" xml:space="preserve" class="g136s11"><tspan x="54.0" textLength="1771.7" lengthAdjust="spacing">Person-segmentation models used in practice learn from many thousands of labelled photos. Collections of photos with people outlined by hand are public, made by research groups for exactly this; a model is often trained on them first and then on a smaller set of its own photos. This tutorial stays with its two</tspan></text>
+<text y="188.0" xml:space="preserve" class="g136s11"><tspan x="54.0" textLength="472.6" lengthAdjust="spacing">photos so that every number can be computed here — the methods are the same.</tspan></text>
+<rect x="34.0" y="242.0" width="1812.0" height="30.0" rx="6" class="g136s6"/>
+<path d="M38.50 242.71 A5.50 5.50 0 0 0 34.50 248.00 V266.00 A5.50 5.50 0 0 0 38.50 271.29 Z" class="g136s12"/>
+<text y="262.0" xml:space="preserve" class="g136s13"><tspan x="50.0" class="g136s0" textLength="163.9" lengthAdjust="spacing">A · Three sources of labels</tspan></text>
+<text y="262.0" xml:space="preserve" class="g136s14"><tspan x="231.9" textLength="179.6" lengthAdjust="spacing">from the cheapest to the most work</tspan></text>
+<rect x="34.0" y="298.0" width="1812.0" height="24.0" rx="4" class="g136s6"/>
+<text y="314.0" xml:space="preserve" class="g136s7"><tspan x="43.0" class="g136s0" textLength="33.4" lengthAdjust="spacing">source</tspan></text>
+<text y="314.0" xml:space="preserve" class="g136s7"><tspan x="303.0" class="g136s0" textLength="43.3" lengthAdjust="spacing">what it is</tspan></text>
+<text y="314.0" xml:space="preserve" class="g136s7"><tspan x="1203.0" class="g136s0" textLength="68.0" lengthAdjust="spacing">what to watch</tspan></text>
+<text y="341.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="84.8" lengthAdjust="spacing">public datasets</tspan></text>
+<text y="341.1" xml:space="preserve" class="g136s1"><tspan x="303.0" textLength="699.0" lengthAdjust="spacing">collections such as COCO (Common Objects in Context), which outlines people and other objects as polygons — the same idea as </tspan><tspan x="1002.0" class="g136s5" textLength="88.3" lengthAdjust="spacing">outlines.json</tspan></text>
+<text y="341.1" xml:space="preserve" class="g136s1"><tspan x="1203.0" textLength="517.0" lengthAdjust="spacing">read the licence of the labels and of the photos; check what kind of scenes and people they cover</tspan></text>
+<line x1="34.0" y1="352.0" x2="1846.0" y2="352.0" class="g136s2"/>
+<rect x="34.0" y="352.0" width="1812.0" height="30.0" rx="0" class="g136s8"/>
+<text y="371.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="94.6" lengthAdjust="spacing">a model’s drafts</tspan></text>
+<text y="371.1" xml:space="preserve" class="g136s1"><tspan x="303.0" textLength="284.8" lengthAdjust="spacing">a trained model labels new photos; a person corrects </tspan><tspan x="587.8" class="g136s5" textLength="54.3" lengthAdjust="spacing">(D2, D5)</tspan></text>
+<text y="371.1" xml:space="preserve" class="g136s1"><tspan x="1203.0" textLength="312.8" lengthAdjust="spacing">measure its confidence on photos with known answers first</tspan></text>
+<line x1="34.0" y1="382.0" x2="1846.0" y2="382.0" class="g136s2"/>
+<text y="401.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="93.3" lengthAdjust="spacing">your own tracing</tspan></text>
+<text y="401.1" xml:space="preserve" class="g136s1"><tspan x="303.0" textLength="137.9" lengthAdjust="spacing">the notebook’s own tool (</tspan><tspan x="440.9" class="g136s4" textLength="29.7" lengthAdjust="spacing">cell 3</tspan><tspan x="470.6" textLength="268.1" lengthAdjust="spacing">), or labelling tools such as CVAT, Label Studio or </tspan><tspan x="738.7" class="g136s5" textLength="47.5" lengthAdjust="spacing">LabelMe</tspan><tspan x="786.3" textLength="155.4" lengthAdjust="spacing"> that save polygons or masks</tspan></text>
+<text y="401.1" xml:space="preserve" class="g136s1"><tspan x="1203.0" textLength="372.2" lengthAdjust="spacing">slow, but the only way to label exactly the photos your model will meet</tspan></text>
+<line x1="34.0" y1="412.0" x2="1846.0" y2="412.0" class="g136s2"/>
+<rect x="34.0" y="322.0" width="1812.0" height="90.0" rx="0" class="g136s15"/>
+<line x1="294.0" y1="322.0" x2="294.0" y2="412.0" class="g136s2"/>
+<line x1="1194.0" y1="322.0" x2="1194.0" y2="412.0" class="g136s2"/>
+<rect x="34.0" y="426.0" width="1812.0" height="30.0" rx="6" class="g136s6"/>
+<path d="M38.50 426.71 A5.50 5.50 0 0 0 34.50 432.00 V450.00 A5.50 5.50 0 0 0 38.50 455.29 Z" class="g136s12"/>
+<text y="446.0" xml:space="preserve" class="g136s13"><tspan x="50.0" class="g136s0" textLength="154.7" lengthAdjust="spacing">B · A card for this dataset</tspan></text>
+<text y="446.0" xml:space="preserve" class="g136s14"><tspan x="222.7" textLength="330.5" lengthAdjust="spacing">what anyone using it should know — written for these two photos</tspan></text>
+<rect x="34.0" y="482.0" width="1812.0" height="24.0" rx="4" class="g136s6"/>
+<text y="498.0" xml:space="preserve" class="g136s7"><tspan x="303.0" class="g136s0" textLength="100.2" lengthAdjust="spacing">for these two photos</tspan></text>
+<text y="525.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="48.1" lengthAdjust="spacing">contents</tspan></text>
+<text y="525.1" xml:space="preserve" class="g136s1"><tspan x="303.0" class="g136s4">2</tspan><tspan x="310.1" textLength="46.0" lengthAdjust="spacing"> photos, </tspan><tspan x="356.1" class="g136s4" textLength="14.1" lengthAdjust="spacing">14</tspan><tspan x="370.2" textLength="226.8" lengthAdjust="spacing"> people, every person traced as polygons (</tspan><tspan x="597.0" class="g136s4" textLength="31.8" lengthAdjust="spacing">3,459</tspan><tspan x="628.9" textLength="76.7" lengthAdjust="spacing"> corner points)</tspan></text>
+<line x1="34.0" y1="536.0" x2="1846.0" y2="536.0" class="g136s2"/>
+<rect x="34.0" y="536.0" width="1812.0" height="30.0" rx="0" class="g136s8"/>
+<text y="555.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="33.2" lengthAdjust="spacing">labels</tspan></text>
+<text y="555.1" xml:space="preserve" class="g136s1"><tspan x="303.0" textLength="89.4" lengthAdjust="spacing">instance masks: </tspan><tspan x="392.4" class="g136s4">0</tspan><tspan x="399.4" textLength="72.7" lengthAdjust="spacing"> background, </tspan><tspan x="472.1" class="g136s4">1</tspan><tspan x="479.2">–</tspan><tspan x="485.2" class="g136s4">7</tspan><tspan x="492.3" textLength="546.9" lengthAdjust="spacing"> the people of each photo; made by hand for this tutorial — both photos in the notebook’s labelling tool</tspan></text>
+<line x1="34.0" y1="566.0" x2="1846.0" y2="566.0" class="g136s2"/>
+<text y="585.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="36.0" lengthAdjust="spacing">format</tspan></text>
+<text y="585.1" xml:space="preserve" class="g136s1"><tspan x="303.0" class="g136s5" textLength="88.3" lengthAdjust="spacing">outlines.json</tspan><tspan x="391.3" textLength="792.3" lengthAdjust="spacing">: per photo its file, size, train / test mark and drawing order; per person their number, polygons and holes in photo pixels — masks are filled in from it (</tspan><tspan x="1183.6" class="g136s4" textLength="29.7" lengthAdjust="spacing">cell 2</tspan><tspan x="1213.3">)</tspan></text>
+<line x1="34.0" y1="596.0" x2="1846.0" y2="596.0" class="g136s2"/>
+<rect x="34.0" y="596.0" width="1812.0" height="30.0" rx="0" class="g136s8"/>
+<text y="615.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="40.3" lengthAdjust="spacing">scenes</tspan></text>
+<text y="615.1" xml:space="preserve" class="g136s1"><tspan x="303.0" textLength="440.9" lengthAdjust="spacing">indoors, people standing in a row against a plain wall, full length, facing the camera</tspan></text>
+<line x1="34.0" y1="626.0" x2="1846.0" y2="626.0" class="g136s2"/>
+<text y="645.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="69.3" lengthAdjust="spacing">known limits</tspan></text>
+<text y="645.1" xml:space="preserve" class="g136s1"><tspan x="303.0" textLength="527.6" lengthAdjust="spacing">outlines approximate at loose hair; no sitting, small or partly hidden people; two walls and two floors</tspan></text>
+<line x1="34.0" y1="656.0" x2="1846.0" y2="656.0" class="g136s2"/>
+<rect x="34.0" y="656.0" width="1812.0" height="30.0" rx="0" class="g136s8"/>
+<text y="675.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="20.5" lengthAdjust="spacing">use</tspan></text>
+<text y="675.1" xml:space="preserve" class="g136s1"><tspan x="303.0" textLength="396.9" lengthAdjust="spacing">teaching: enough to learn these photos, not to work on any photo (test (a): </tspan><tspan x="699.9" class="g136s4" textLength="36.1" lengthAdjust="spacing">56.4%</tspan><tspan x="736.0" textLength="43.4" lengthAdjust="spacing"> person </tspan><tspan x="779.3" class="g136s5" textLength="20.4" lengthAdjust="spacing">IoU</tspan><tspan x="799.7" textLength="131.4" lengthAdjust="spacing"> on a photo it never saw)</tspan></text>
+<line x1="34.0" y1="686.0" x2="1846.0" y2="686.0" class="g136s2"/>
+<text y="705.1" xml:space="preserve" class="g136s3"><tspan x="43.0" class="g136s0" textLength="81.3" lengthAdjust="spacing">before sharing</tspan></text>
+<text y="705.1" xml:space="preserve" class="g136s1"><tspan x="303.0" textLength="585.4" lengthAdjust="spacing">photos of people: check the photos’ licence and the people’s consent for how the photos and labels are used</tspan></text>
+<line x1="34.0" y1="716.0" x2="1846.0" y2="716.0" class="g136s2"/>
+<rect x="34.0" y="506.0" width="1812.0" height="210.0" rx="0" class="g136s15"/>
+<line x1="294.0" y1="506.0" x2="294.0" y2="716.0" class="g136s2"/>
+<rect x="34.0" y="728.0" width="1812.0" height="55.0" rx="6" class="g136s9"/>
+<path d="M38.50 728.71 A5.50 5.50 0 0 0 34.50 734.00 V777.04 A5.50 5.50 0 0 0 38.50 782.33 Z" class="g136s10"/>
+<text y="754.0" xml:space="preserve" class="g136s3"><tspan x="50.0" class="g136s0" textLength="88.4" lengthAdjust="spacing">Mixing datasets</tspan></text>
+<text y="771.5" xml:space="preserve" class="g136s1"><tspan x="50.0" textLength="1254.7" lengthAdjust="spacing">Labels from different sources can disagree: one may trace hair, another stop at the head; one may count a bag as part of the person, another not. Before mixing them, compare a few labels of each on the same kind of photo — the same </tspan><tspan x="1304.7" class="g136s5" textLength="20.4" lengthAdjust="spacing">IoU</tspan><tspan x="1325.0" textLength="134.7" lengthAdjust="spacing"> used to score the model </tspan><tspan x="1459.8" class="g136s5" textLength="40.7" lengthAdjust="spacing">scores</tspan><tspan x="1500.5" textLength="175.4" lengthAdjust="spacing"> two labellers against each other.</tspan></text>
+<line x1="28.0" y1="809.0" x2="1852.0" y2="809.0" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="826.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px"><tspan x="28.0" textLength="542.3" lengthAdjust="spacing">Numbers, always labelled. Everything on this page is computed here from the two photos, their traced outlines (</tspan><tspan x="570.3" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)" textLength="68.5" lengthAdjust="spacing">labelvis.py</tspan><tspan x="638.8" textLength="211.5" lengthAdjust="spacing">) and the vision notebook run with PyTorch </tspan><tspan x="850.3" class="g136s4" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="866.5" textLength="12.2" lengthAdjust="spacing">.0.</tspan></text>
+</svg>

@@ -1,0 +1,242 @@
+<svg data-src="vis_c08_evaluation.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1874" viewBox="0 0 1880 1874">
+<style>.txfig .g127s0{fill:var(--code)}.txfig .g127s1{fill:var(--op)}.txfig .g127s2{font-weight:600;fill:var(--ink)}.txfig .g127s3{font-weight:600}.txfig .g127s4{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g127s5{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px;text-anchor:start}.txfig .g127s6{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:middle}.txfig .g127s7{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;text-anchor:start}.txfig .g127s8{fill:var(--soft);stroke:var(--hair);stroke-width:0.6}.txfig .g127s9{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;text-anchor:end}.txfig .g127s10{fill:var(--cellbg);stroke:var(--hair);stroke-width:1}.txfig .g127s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g127s12{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g127s13{fill:var(--str)}.txfig .g127s14{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g127s15{fill:var(--fn)}.txfig .g127s16{fill:var(--kw)}.txfig .g127s17{fill:var(--s7);stroke:none;stroke-width:1}.txfig .g127s18{fill:var(--s4);stroke:none;stroke-width:1}.txfig .g127s19{stroke:var(--ink3);stroke-width:1.2;stroke-linecap:round}.txfig .g127s20{fill:var(--ink3)}.txfig .g127s21{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g127s22{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g127s23{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)}.txfig .g127s24{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g127s25{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g127s26{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g127s27{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g127s28{fill:var(--num)}.txfig .g127s29{fill:var(--accent);stroke:none}.txfig .g127s30{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g127s31{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g127s32{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g127s33{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start}.txfig .g127s34{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.2px}.txfig .g127s35{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g127s36{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g127s37{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g127s38{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g127s39{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g127s40{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g127s41{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}</style>
+<defs><pattern id="hatch127" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash127" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1874" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">VISION v1 · CELL 8 / 10</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="195.4" class="g127s3" textLength="103.9" lengthAdjust="spacing">Evaluation</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="43.4" lengthAdjust="spacing">person </tspan><tspan x="77.4" class="g127s35" textLength="22.1" lengthAdjust="spacing">IoU</tspan><tspan x="99.4" textLength="341.1" lengthAdjust="spacing"> on what it learned, and on a photo and people it never saw</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="23.0" lengthAdjust="spacing">The </tspan><tspan x="57.0" class="g127s36" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="96.1" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="112.0" class="g127s2" textLength="28.5" lengthAdjust="spacing">cell 8</tspan><tspan x="140.5" textLength="430.8" lengthAdjust="spacing"> for the three ways the notebook was trained, side by side, and every mistake drawn.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" style="fill:var(--keybg);stroke:var(--keybd);stroke-width:1"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" style="fill:var(--keep);stroke:none"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g127s3" textLength="354.7" lengthAdjust="spacing">Learning two photos is not the same as seeing people</tspan></text>
+<text y="169.0" xml:space="preserve" class="g127s37"><tspan x="54.0" textLength="248.6" lengthAdjust="spacing">The final model learned both photos, so its </tspan><tspan x="302.6" class="g127s35" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="346.7" textLength="974.1" lengthAdjust="spacing"> on them show how well it learned — not how it does on a new photo. To measure that, the same notebook was trained twice more with one line changed: once on photo </tspan><tspan x="1320.8" class="g127s2">1</tspan><tspan x="1328.4" textLength="161.2" lengthAdjust="spacing"> alone and scored on photo </tspan><tspan x="1489.6" class="g127s2">2</tspan><tspan x="1497.2" textLength="326.6" lengthAdjust="spacing"> (a new wall, a new floor, new people), and once with the</tspan></text>
+<text y="188.0" xml:space="preserve" class="g127s37"><tspan x="54.0" textLength="353.4" lengthAdjust="spacing">two people at the right of each photo hidden, scored on them.</tspan></text>
+<text x="34.0" y="272.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">WHERE IT LIVES</text>
+<text y="294.5" xml:space="preserve" class="g127s38"><tspan x="34.0" textLength="144.7" lengthAdjust="spacing">How good the trained model is,</tspan></text>
+<text y="309.7" xml:space="preserve" class="g127s38"><tspan x="34.0" textLength="60.1" lengthAdjust="spacing">and on what.</tspan></text>
+<rect x="204.0" y="258.0" width="150.0" height="40.0" rx="6" class="g127s10"/>
+<text x="279.0" y="275.0" class="g127s11">picture</text>
+<text x="279.0" y="290.0" class="g127s6">288 × 192 × 3</text>
+<line x1="357.0" y1="278.0" x2="373.0" y2="278.0" class="g127s19"/>
+<path d="M377.0 278.0 L371.5 280.4 L371.5 275.6 Z" class="g127s20"/>
+<rect x="380.0" y="258.0" width="150.0" height="40.0" rx="6" class="g127s10"/>
+<text x="455.0" y="275.0" class="g127s11">patches</text>
+<text x="455.0" y="290.0" class="g127s6">PatchEmbedding</text>
+<line x1="533.0" y1="278.0" x2="549.0" y2="278.0" class="g127s19"/>
+<path d="M553.0 278.0 L547.5 280.4 L547.5 275.6 Z" class="g127s20"/>
+<rect x="556.0" y="258.0" width="140.0" height="40.0" rx="6" class="g127s10"/>
+<text x="626.0" y="275.0" class="g127s11">+ positions</text>
+<text x="626.0" y="290.0" class="g127s6">pos_embed</text>
+<line x1="699.0" y1="278.0" x2="715.0" y2="278.0" class="g127s19"/>
+<path d="M719.0 278.0 L713.5 280.4 L713.5 275.6 Z" class="g127s20"/>
+<rect x="722.0" y="238.0" width="396.0" height="72.0" rx="8" class="g127s22"/>
+<text x="732.0" y="251.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start">encoder layer × 4</text>
+<rect x="732.0" y="260.0" width="182.0" height="40.0" rx="6" class="g127s10"/>
+<text x="823.0" y="277.0" class="g127s11">attention</text>
+<text x="823.0" y="292.0" class="g127s6">patches look at patches</text>
+<rect x="926.0" y="260.0" width="182.0" height="40.0" rx="6" class="g127s10"/>
+<text x="1017.0" y="277.0" class="g127s11">GELU network</text>
+<text x="1017.0" y="292.0" class="g127s6">each patch alone</text>
+<line x1="1121.0" y1="278.0" x2="1137.0" y2="278.0" class="g127s19"/>
+<path d="M1141.0 278.0 L1135.5 280.4 L1135.5 275.6 Z" class="g127s20"/>
+<rect x="1144.0" y="258.0" width="160.0" height="40.0" rx="6" class="g127s10"/>
+<text x="1224.0" y="275.0" class="g127s11">two scores</text>
+<text x="1224.0" y="290.0" class="g127s6">LayerNorm · head</text>
+<line x1="1307.0" y1="278.0" x2="1323.0" y2="278.0" class="g127s19"/>
+<path d="M1327.0 278.0 L1321.5 280.4 L1321.5 275.6 Z" class="g127s20"/>
+<rect x="1330.0" y="258.0" width="150.0" height="40.0" rx="6" class="g127s10"/>
+<text x="1405.0" y="275.0" class="g127s11">to every pixel</text>
+<text x="1405.0" y="290.0" class="g127s6">interpolate</text>
+<line x1="1483.0" y1="278.0" x2="1499.0" y2="278.0" class="g127s19"/>
+<path d="M1503.0 278.0 L1497.5 280.4 L1497.5 275.6 Z" class="g127s20"/>
+<rect x="1506.0" y="258.0" width="120.0" height="40.0" rx="6" class="g127s10"/>
+<text x="1566.0" y="275.0" class="g127s11">mask</text>
+<text x="1566.0" y="290.0" class="g127s6">argmax</text>
+<rect x="204.0" y="328.0" width="196.0" height="40.0" rx="6" class="g127s10"/>
+<text x="302.0" y="345.0" class="g127s11">the dataset</text>
+<text x="302.0" y="360.0" class="g127s6">outlines → masks</text>
+<rect x="418.0" y="328.0" width="196.0" height="40.0" rx="6" class="g127s10"/>
+<text x="516.0" y="345.0" class="g127s11">DataLoader</text>
+<text x="516.0" y="360.0" class="g127s6">new pictures</text>
+<rect x="632.0" y="328.0" width="196.0" height="40.0" rx="6" class="g127s10"/>
+<text x="730.0" y="345.0" class="g127s11">AdamW</text>
+<text x="730.0" y="360.0" class="g127s6">how training updates</text>
+<rect x="846.0" y="328.0" width="196.0" height="40.0" rx="6" class="g127s10"/>
+<text x="944.0" y="345.0" class="g127s11">loss</text>
+<text x="944.0" y="360.0" class="g127s6">skips the padding</text>
+<rect x="1060.0" y="328.0" width="196.0" height="40.0" rx="6" class="g127s10"/>
+<text x="1158.0" y="345.0" class="g127s11">training loop</text>
+<text x="1158.0" y="360.0" class="g127s6">epochs</text>
+<rect x="1274.0" y="328.0" width="196.0" height="40.0" rx="6" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:1.8"/>
+<text x="1372.0" y="345.0" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle">person IoU</text>
+<text x="1372.0" y="360.0" class="g127s6">the tests</text>
+<text y="405.2" xml:space="preserve" class="g127s25"><tspan x="34.0" class="g127s2" textLength="35.8" lengthAdjust="spacing">Cell 8</tspan><tspan x="69.8"> </tspan><tspan x="74.6" textLength="31.5" lengthAdjust="spacing">loads</tspan><tspan x="106.2"> </tspan><tspan x="111.0" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="129.4"> </tspan><tspan x="134.2" textLength="35.2" lengthAdjust="spacing">saved</tspan><tspan x="169.4"> </tspan><tspan x="174.3" textLength="35.9" lengthAdjust="spacing">model</tspan><tspan x="210.2"> </tspan><tspan x="215.1" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="237.1"> </tspan><tspan x="242.0" class="g127s23" textLength="44.8" lengthAdjust="spacing">scores</tspan><tspan x="286.8"> </tspan><tspan x="291.6" textLength="32.3" lengthAdjust="spacing">every</tspan><tspan x="323.9"> </tspan><tspan x="328.7" textLength="21.3" lengthAdjust="spacing">test</tspan><tspan x="350.0"> </tspan><tspan x="354.9" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="365.9"> </tspan><tspan x="370.7" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="389.1"> </tspan><tspan x="393.9" textLength="36.7" lengthAdjust="spacing">SPLIT</tspan><tspan x="430.6"> </tspan><tspan x="435.5" textLength="6.6" lengthAdjust="spacing">it</tspan><tspan x="442.1"> </tspan><tspan x="446.9" textLength="23.5" lengthAdjust="spacing">was</tspan><tspan x="470.4"> </tspan><tspan x="475.3" textLength="40.4" lengthAdjust="spacing">trained</tspan><tspan x="515.6"> </tspan><tspan x="520.5" textLength="27.1" lengthAdjust="spacing">with:</tspan><tspan x="547.6"> </tspan><tspan x="552.4" class="g127s23" textLength="67.2" lengthAdjust="spacing">segment()</tspan><tspan x="619.7"> </tspan><tspan x="624.5" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="642.9"> </tspan><tspan x="647.7" textLength="33.0" lengthAdjust="spacing">photo</tspan><tspan x="680.8"> </tspan><tspan x="685.6" textLength="11.0" lengthAdjust="spacing">at</tspan><tspan x="696.6"> </tspan><tspan x="701.5" textLength="16.9" lengthAdjust="spacing">full</tspan><tspan x="718.3"> </tspan><tspan x="723.2" textLength="27.1" lengthAdjust="spacing">size,</tspan><tspan x="750.3"> </tspan><tspan x="755.2" textLength="51.3" lengthAdjust="spacing">compare</tspan><tspan x="806.5"> </tspan><tspan x="811.4" textLength="28.6" lengthAdjust="spacing">each</tspan></text>
+<text y="425.0" xml:space="preserve" class="g127s25"><tspan x="34.0" textLength="41.7" lengthAdjust="spacing">pixel’s</tspan><tspan x="75.7"> </tspan><tspan x="81.3" textLength="27.9" lengthAdjust="spacing">label</tspan><tspan x="109.2"> </tspan><tspan x="114.8" textLength="23.5" lengthAdjust="spacing">with</tspan><tspan x="138.3"> </tspan><tspan x="143.9" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="162.3"> </tspan><tspan x="167.9" textLength="39.6" lengthAdjust="spacing">tracing</tspan><tspan x="207.5"> </tspan><tspan x="213.2" textLength="25.7" lengthAdjust="spacing">right</tspan><tspan x="238.8"> </tspan><tspan x="244.5" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="255.5"> </tspan><tspan x="261.1" class="g127s23" textLength="14.9" lengthAdjust="spacing">x0</tspan><tspan x="276.1">,</tspan><tspan x="279.7"> </tspan><tspan x="285.4" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="307.4"> </tspan><tspan x="313.0" textLength="36.0" lengthAdjust="spacing">count.</tspan><tspan x="349.0"> </tspan><tspan x="354.6" textLength="40.4" lengthAdjust="spacing">person</tspan><tspan x="395.0"> </tspan><tspan x="400.6" class="g127s23" textLength="67.2" lengthAdjust="spacing">IoU = the</tspan><tspan x="467.8"> </tspan><tspan x="473.5" textLength="33.7" lengthAdjust="spacing">pixels</tspan><tspan x="507.2"> </tspan><tspan x="512.8" textLength="25.7" lengthAdjust="spacing">both</tspan><tspan x="538.5"> </tspan><tspan x="544.2" textLength="19.8" lengthAdjust="spacing">call</tspan><tspan x="564.0"> </tspan><tspan x="569.6" textLength="40.4" lengthAdjust="spacing">person</tspan><tspan x="610.0"> </tspan><tspan x="615.6">÷</tspan><tspan x="623.5"> </tspan><tspan x="629.2" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="647.5"> </tspan><tspan x="653.1" textLength="33.7" lengthAdjust="spacing">pixels</tspan><tspan x="686.9"> </tspan><tspan x="692.5" textLength="33.0" lengthAdjust="spacing">either</tspan><tspan x="725.5"> </tspan><tspan x="731.2" textLength="26.4" lengthAdjust="spacing">calls</tspan><tspan x="757.6"> </tspan><tspan x="763.2" textLength="44.0" lengthAdjust="spacing">person.</tspan><tspan x="807.2"> </tspan><tspan x="812.9" textLength="27.1" lengthAdjust="spacing">pixel</tspan></text>
+<text y="444.8" xml:space="preserve" class="g127s25"><tspan x="34.0" class="g127s23" textLength="104.6" lengthAdjust="spacing">accuracy = the</tspan><tspan x="138.6"> </tspan><tspan x="143.8" textLength="33.0" lengthAdjust="spacing">share</tspan><tspan x="176.8"> </tspan><tspan x="182.1" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="193.1"> </tspan><tspan x="198.3" textLength="33.7" lengthAdjust="spacing">pixels</tspan><tspan x="232.1"> </tspan><tspan x="237.3" textLength="45.5" lengthAdjust="spacing">labelled</tspan><tspan x="282.8"> </tspan><tspan x="288.0" textLength="25.7" lengthAdjust="spacing">right</tspan><tspan x="313.7"> </tspan><tspan x="318.9">—</tspan><tspan x="332.1"> </tspan><tspan x="337.4" textLength="24.9" lengthAdjust="spacing">high</tspan><tspan x="362.3"> </tspan><tspan x="367.6" textLength="28.6" lengthAdjust="spacing">even</tspan><tspan x="396.2"> </tspan><tspan x="401.4" textLength="15.4" lengthAdjust="spacing">for</tspan><tspan x="416.8"> </tspan><tspan x="422.1">a</tspan><tspan x="429.4"> </tspan><tspan x="434.6" textLength="22.0" lengthAdjust="spacing">bad</tspan><tspan x="456.7"> </tspan><tspan x="461.9" textLength="35.9" lengthAdjust="spacing">model</tspan><tspan x="497.8"> </tspan><tspan x="503.1" textLength="31.5" lengthAdjust="spacing">when</tspan><tspan x="534.6"> </tspan><tspan x="539.9" textLength="28.6" lengthAdjust="spacing">most</tspan><tspan x="568.5"> </tspan><tspan x="573.7" textLength="33.7" lengthAdjust="spacing">pixels</tspan><tspan x="607.4"> </tspan><tspan x="612.7" textLength="19.1" lengthAdjust="spacing">are</tspan><tspan x="631.8"> </tspan><tspan x="637.0" textLength="26.4" lengthAdjust="spacing">wall.</tspan><tspan x="663.4"> </tspan><tspan x="668.6" textLength="33.8" lengthAdjust="spacing">Then,</tspan><tspan x="702.4"> </tspan><tspan x="707.6" textLength="40.4" lengthAdjust="spacing">person</tspan><tspan x="748.0"> </tspan><tspan x="753.2" textLength="13.9" lengthAdjust="spacing">by</tspan><tspan x="767.2"> </tspan><tspan x="772.4" textLength="44.0" lengthAdjust="spacing">person,</tspan><tspan x="816.4"> </tspan><tspan x="821.7" textLength="18.3" lengthAdjust="spacing">the</tspan></text>
+<text y="464.6" xml:space="preserve" class="g127s25"><tspan x="34.0" textLength="216.4" lengthAdjust="spacing">share of their pixels the model found.</tspan></text>
+<rect x="866.0" y="392.0" width="980.0" height="289.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="410.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="876.0" class="g127s3" textLength="31.5" lengthAdjust="spacing">vision </tspan><tspan x="907.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="919.4" class="g127s3" textLength="60.0" lengthAdjust="spacing"> · evaluation</tspan></text>
+<text x="876.0" y="433.0" xml:space="preserve" class="g127s12"><tspan class="g127s0">seen</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">=</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">{</tspan><tspan class="g127s13">&quot;both&quot;</tspan><tspan class="g127s1">:</tspan><tspan class="g127s0"> </tspan><tspan class="g127s13">&quot;seen in training&quot;</tspan><tspan class="g127s1">,</tspan><tspan class="g127s0"> </tspan><tspan class="g127s13">&quot;photo1&quot;</tspan><tspan class="g127s1">:</tspan><tspan class="g127s0"> </tspan><tspan class="g127s13">&quot;a photo it never saw&quot;</tspan><tspan class="g127s1">,</tspan><tspan class="g127s0"> </tspan><tspan class="g127s13">&quot;right_out&quot;</tspan><tspan class="g127s1">:</tspan><tspan class="g127s0"> </tspan><tspan class="g127s13">&quot;people it never saw&quot;</tspan><tspan class="g127s1">,</tspan></text>
+<text x="876.0" y="452.5" xml:space="preserve" class="g127s12"><tspan class="g127s0">        </tspan><tspan class="g127s13">&quot;labels&quot;</tspan><tspan class="g127s1">:</tspan><tspan class="g127s0"> </tspan><tspan class="g127s13">&quot;photos marked test&quot;</tspan><tspan class="g127s1">}</tspan><tspan class="g127s1">[</tspan><tspan class="g127s0">SPLIT</tspan><tspan class="g127s1">]</tspan></text>
+<text x="876.0" y="472.0" xml:space="preserve" class="g127s12"><tspan class="g127s16">for</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">name</tspan><tspan class="g127s1">,</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">x0</tspan><tspan class="g127s0"> </tspan><tspan class="g127s16">in</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">tests</tspan><tspan class="g127s1">:</tspan></text>
+<text x="876.0" y="491.5" xml:space="preserve" class="g127s12"><tspan class="g127s0">    </tspan><tspan class="g127s0">pred</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">=</tspan><tspan class="g127s0"> </tspan><tspan class="g127s15">segment</tspan><tspan class="g127s1">(</tspan><tspan class="g127s0">photos</tspan><tspan class="g127s1">[</tspan><tspan class="g127s0">name</tspan><tspan class="g127s1">]</tspan><tspan class="g127s1">)</tspan><tspan class="g127s1">.</tspan><tspan class="g127s15">argmax</tspan><tspan class="g127s1">(</tspan><tspan class="g127s28">0</tspan><tspan class="g127s1">)</tspan><tspan class="g127s1">[</tspan><tspan class="g127s1">:</tspan><tspan class="g127s1">,</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">x0</tspan><tspan class="g127s1">:</tspan><tspan class="g127s1">]</tspan></text>
+<text x="876.0" y="511.0" xml:space="preserve" class="g127s12"><tspan class="g127s0">    </tspan><tspan class="g127s0">instance</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">=</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">masks</tspan><tspan class="g127s1">[</tspan><tspan class="g127s0">name</tspan><tspan class="g127s1">]</tspan><tspan class="g127s1">[</tspan><tspan class="g127s1">:</tspan><tspan class="g127s1">,</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">x0</tspan><tspan class="g127s1">:</tspan><tspan class="g127s1">]</tspan></text>
+<text x="876.0" y="530.5" xml:space="preserve" class="g127s12"><tspan class="g127s0">    </tspan><tspan class="g127s0">pixel_acc</tspan><tspan class="g127s1">,</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">iou</tspan><tspan class="g127s1">,</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">miou</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">=</tspan><tspan class="g127s0"> </tspan><tspan class="g127s15">scores</tspan><tspan class="g127s1">(</tspan><tspan class="g127s15">confusion</tspan><tspan class="g127s1">(</tspan><tspan class="g127s0">pred</tspan><tspan class="g127s1">,</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">(</tspan><tspan class="g127s0">instance</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">&gt;</tspan><tspan class="g127s0"> </tspan><tspan class="g127s28">0</tspan><tspan class="g127s1">)</tspan><tspan class="g127s1">.</tspan><tspan class="g127s15">long</tspan><tspan class="g127s1">(</tspan><tspan class="g127s1">)</tspan><tspan class="g127s1">)</tspan><tspan class="g127s1">)</tspan></text>
+<text x="876.0" y="550.0" xml:space="preserve" class="g127s12"><tspan class="g127s0">    </tspan><tspan class="g127s0">where</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">=</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">f</tspan><tspan class="g127s13">&quot;right of x = {x0}&quot;</tspan><tspan class="g127s0"> </tspan><tspan class="g127s16">if</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">x0</tspan><tspan class="g127s0"> </tspan><tspan class="g127s16">else</tspan><tspan class="g127s0"> </tspan><tspan class="g127s13">&quot;whole photo&quot;</tspan></text>
+<text x="876.0" y="569.5" xml:space="preserve" class="g127s12"><tspan class="g127s0">    </tspan><tspan class="g127s15">print</tspan><tspan class="g127s1">(</tspan><tspan class="g127s0">f</tspan><tspan class="g127s13">&quot;{name} ({where}; {seen}): person IoU {iou[1]:.1%} | background IoU {iou[0]:.1%} | &quot;</tspan></text>
+<text x="876.0" y="589.0" xml:space="preserve" class="g127s12"><tspan class="g127s0">          </tspan><tspan class="g127s0">f</tspan><tspan class="g127s13">&quot;pixel accuracy {pixel_acc:.1%}&quot;</tspan><tspan class="g127s1">)</tspan></text>
+<text x="876.0" y="608.5" xml:space="preserve" class="g127s12"><tspan class="g127s0">    </tspan><tspan class="g127s16">for</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">k</tspan><tspan class="g127s0"> </tspan><tspan class="g127s16">in</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">instance</tspan><tspan class="g127s1">.</tspan><tspan class="g127s15">unique</tspan><tspan class="g127s1">(</tspan><tspan class="g127s1">)</tspan><tspan class="g127s1">.</tspan><tspan class="g127s15">tolist</tspan><tspan class="g127s1">(</tspan><tspan class="g127s1">)</tspan><tspan class="g127s1">:</tspan></text>
+<text x="876.0" y="628.0" xml:space="preserve" class="g127s12"><tspan class="g127s0">        </tspan><tspan class="g127s16">if</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">k</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">&gt;</tspan><tspan class="g127s0"> </tspan><tspan class="g127s28">0</tspan><tspan class="g127s1">:</tspan></text>
+<text x="876.0" y="647.5" xml:space="preserve" class="g127s12"><tspan class="g127s0">            </tspan><tspan class="g127s0">inside</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">=</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">instance</tspan><tspan class="g127s0"> </tspan><tspan class="g127s1">=</tspan><tspan class="g127s1">=</tspan><tspan class="g127s0"> </tspan><tspan class="g127s0">k</tspan></text>
+<text x="876.0" y="667.0" xml:space="preserve" class="g127s12"><tspan class="g127s0">            </tspan><tspan class="g127s15">print</tspan><tspan class="g127s1">(</tspan><tspan class="g127s0">f</tspan><tspan class="g127s13">&quot;  person {k}: {(pred[inside] == 1).float().mean():.1%} of their pixels found&quot;</tspan><tspan class="g127s1">)</tspan></text>
+<rect x="34.0" y="703.5" width="1812.0" height="30.0" rx="6" class="g127s26"/>
+<path d="M38.50 704.21 A5.50 5.50 0 0 0 34.50 709.50 V727.50 A5.50 5.50 0 0 0 38.50 732.79 Z" class="g127s29"/>
+<text y="723.5" xml:space="preserve" class="g127s30"><tspan x="50.0" class="g127s3" textLength="112.6" lengthAdjust="spacing">A · The three tests</tspan></text>
+<text y="723.5" xml:space="preserve" class="g127s31"><tspan x="180.6" textLength="38.4" lengthAdjust="spacing">person </tspan><tspan x="218.9" class="g127s36" textLength="19.5" lengthAdjust="spacing">IoU</tspan><tspan x="238.5" textLength="200.7" lengthAdjust="spacing"> — the number to watch — and the rest</tspan></text>
+<rect x="34.0" y="759.5" width="1410.0" height="24.0" rx="4" class="g127s26"/>
+<text y="775.5" xml:space="preserve" class="g127s21"><tspan x="43.0" class="g127s3" textLength="17.9" lengthAdjust="spacing">test</tspan></text>
+<text y="775.5" xml:space="preserve" class="g127s21"><tspan x="123.0" class="g127s3" textLength="49.5" lengthAdjust="spacing">trained on</tspan></text>
+<text y="775.5" xml:space="preserve" class="g127s21"><tspan x="413.0" class="g127s3" textLength="48.9" lengthAdjust="spacing">scored on</tspan></text>
+<text y="775.5" xml:space="preserve" class="g127s21"><tspan x="893.0" class="g127s3" textLength="37.1" lengthAdjust="spacing">person </tspan><tspan x="930.1" class="g127s39" textLength="17.8" lengthAdjust="spacing">IoU</tspan></text>
+<text y="775.5" xml:space="preserve" class="g127s21"><tspan x="1073.0" class="g127s3" textLength="61.2" lengthAdjust="spacing">background </tspan><tspan x="1134.2" class="g127s39" textLength="17.8" lengthAdjust="spacing">IoU</tspan></text>
+<text y="775.5" xml:space="preserve" class="g127s21"><tspan x="1273.0" class="g127s3" textLength="46.4" lengthAdjust="spacing">pixel acc.</tspan></text>
+<text y="801.6" xml:space="preserve" class="g127s24"><tspan x="43.0" class="g127s3" textLength="14.8" lengthAdjust="spacing">(c)</tspan></text>
+<text y="801.6" xml:space="preserve" class="g127s4"><tspan x="123.0" textLength="62.7" lengthAdjust="spacing">both photos</tspan></text>
+<text y="801.6" xml:space="preserve" class="g127s4"><tspan x="413.0" textLength="33.4" lengthAdjust="spacing">photo </tspan><tspan x="446.4" class="g127s2">1</tspan><tspan x="453.4" textLength="71.4" lengthAdjust="spacing">, whole photo</tspan></text>
+<text y="801.6" xml:space="preserve" class="g127s4"><tspan x="743.0" textLength="26.0" lengthAdjust="spacing">seen</tspan></text>
+<text x="893.0" y="801.6" class="g127s5">93.2%</text>
+<text x="1073.0" y="801.6" class="g127s5">94.5%</text>
+<text x="1273.0" y="801.6" class="g127s5">96.9%</text>
+<line x1="34.0" y1="811.5" x2="1444.0" y2="811.5" class="g127s14"/>
+<rect x="34.0" y="811.5" width="1410.0" height="28.0" rx="0" class="g127s40"/>
+<text y="829.6" xml:space="preserve" class="g127s24"><tspan x="43.0" class="g127s3" textLength="14.8" lengthAdjust="spacing">(c)</tspan></text>
+<text y="829.6" xml:space="preserve" class="g127s4"><tspan x="123.0" textLength="62.7" lengthAdjust="spacing">both photos</tspan></text>
+<text y="829.6" xml:space="preserve" class="g127s4"><tspan x="413.0" textLength="33.4" lengthAdjust="spacing">photo </tspan><tspan x="446.4" class="g127s2">2</tspan><tspan x="453.4" textLength="71.4" lengthAdjust="spacing">, whole photo</tspan></text>
+<text y="829.6" xml:space="preserve" class="g127s4"><tspan x="743.0" textLength="26.0" lengthAdjust="spacing">seen</tspan></text>
+<text x="893.0" y="829.6" class="g127s5">92.8%</text>
+<text x="1073.0" y="829.6" class="g127s5">94.6%</text>
+<text x="1273.0" y="829.6" class="g127s5">96.8%</text>
+<line x1="34.0" y1="839.5" x2="1444.0" y2="839.5" class="g127s14"/>
+<text y="857.6" xml:space="preserve" class="g127s24"><tspan x="43.0" class="g127s3" textLength="15.5" lengthAdjust="spacing">(a)</tspan></text>
+<text y="857.6" xml:space="preserve" class="g127s4"><tspan x="123.0" textLength="33.4" lengthAdjust="spacing">photo </tspan><tspan x="156.4" class="g127s2">1</tspan><tspan x="163.4" textLength="25.3" lengthAdjust="spacing"> only</tspan></text>
+<text y="857.6" xml:space="preserve" class="g127s4"><tspan x="413.0" textLength="33.4" lengthAdjust="spacing">photo </tspan><tspan x="446.4" class="g127s2">2</tspan><tspan x="453.4" textLength="71.4" lengthAdjust="spacing">, whole photo</tspan></text>
+<text y="857.6" xml:space="preserve" class="g127s4"><tspan x="743.0" textLength="59.4" lengthAdjust="spacing">never seen</tspan></text>
+<text x="893.0" y="857.6" class="g127s5">56.4%</text>
+<text x="1073.0" y="857.6" class="g127s5">52.6%</text>
+<text x="1273.0" y="857.6" class="g127s5">70.6%</text>
+<line x1="34.0" y1="867.5" x2="1444.0" y2="867.5" class="g127s14"/>
+<rect x="34.0" y="867.5" width="1410.0" height="28.0" rx="0" class="g127s40"/>
+<text y="885.6" xml:space="preserve" class="g127s24"><tspan x="43.0" class="g127s3" textLength="15.5" lengthAdjust="spacing">(b)</tspan></text>
+<text y="885.6" xml:space="preserve" class="g127s4"><tspan x="123.0" textLength="131.4" lengthAdjust="spacing">each photo left of the cut</tspan></text>
+<text y="885.6" xml:space="preserve" class="g127s4"><tspan x="413.0" textLength="33.4" lengthAdjust="spacing">photo </tspan><tspan x="446.4" class="g127s2">1</tspan><tspan x="453.4" textLength="46.7" lengthAdjust="spacing">, right of </tspan><tspan x="500.1" class="g127s41" textLength="54.3" lengthAdjust="spacing">x = 1330</tspan></text>
+<text y="885.6" xml:space="preserve" class="g127s4"><tspan x="743.0" textLength="59.4" lengthAdjust="spacing">never seen</tspan></text>
+<text x="893.0" y="885.6" class="g127s5">88.3%</text>
+<text x="1073.0" y="885.6" class="g127s5">92.4%</text>
+<text x="1273.0" y="885.6" class="g127s5">95.2%</text>
+<line x1="34.0" y1="895.5" x2="1444.0" y2="895.5" class="g127s14"/>
+<text y="913.6" xml:space="preserve" class="g127s24"><tspan x="43.0" class="g127s3" textLength="15.5" lengthAdjust="spacing">(b)</tspan></text>
+<text y="913.6" xml:space="preserve" class="g127s4"><tspan x="123.0" textLength="131.4" lengthAdjust="spacing">each photo left of the cut</tspan></text>
+<text y="913.6" xml:space="preserve" class="g127s4"><tspan x="413.0" textLength="33.4" lengthAdjust="spacing">photo </tspan><tspan x="446.4" class="g127s2">2</tspan><tspan x="453.4" textLength="46.7" lengthAdjust="spacing">, right of </tspan><tspan x="500.1" class="g127s41" textLength="54.3" lengthAdjust="spacing">x = 1352</tspan></text>
+<text y="913.6" xml:space="preserve" class="g127s4"><tspan x="743.0" textLength="59.4" lengthAdjust="spacing">never seen</tspan></text>
+<text x="893.0" y="913.6" class="g127s5">76.1%</text>
+<text x="1073.0" y="913.6" class="g127s5">84.0%</text>
+<text x="1273.0" y="913.6" class="g127s5">89.4%</text>
+<line x1="34.0" y1="923.5" x2="1444.0" y2="923.5" class="g127s14"/>
+<rect x="34.0" y="783.5" width="1410.0" height="140.0" rx="0" class="g127s22"/>
+<line x1="114.0" y1="783.5" x2="114.0" y2="923.5" class="g127s14"/>
+<line x1="404.0" y1="783.5" x2="404.0" y2="923.5" class="g127s14"/>
+<line x1="734.0" y1="783.5" x2="734.0" y2="923.5" class="g127s14"/>
+<line x1="884.0" y1="783.5" x2="884.0" y2="923.5" class="g127s14"/>
+<line x1="1064.0" y1="783.5" x2="1064.0" y2="923.5" class="g127s14"/>
+<line x1="1264.0" y1="783.5" x2="1264.0" y2="923.5" class="g127s14"/>
+<rect x="34.0" y="937.5" width="1812.0" height="30.0" rx="6" class="g127s26"/>
+<path d="M38.50 938.21 A5.50 5.50 0 0 0 34.50 943.50 V961.50 A5.50 5.50 0 0 0 38.50 966.79 Z" class="g127s29"/>
+<text y="957.5" xml:space="preserve" class="g127s30"><tspan x="50.0" class="g127s3" textLength="152.4" lengthAdjust="spacing">B · Every mistake, drawn</tspan></text>
+<text y="957.5" xml:space="preserve" class="g127s31"><tspan x="220.4" textLength="274.9" lengthAdjust="spacing">the photo at full size, scored by the model of each test</tspan></text>
+<rect x="34.0" y="997.5" width="12.0" height="12.0" rx="3" style="fill:#8a4bd3;stroke:none;stroke-width:1"/>
+<text x="52.0" y="1008.0" class="g127s32">person, found</text>
+<rect x="144.0" y="997.5" width="12.0" height="12.0" rx="3" style="fill:#e67800;stroke:none;stroke-width:1"/>
+<text x="162.0" y="1008.0" class="g127s32">person, missed</text>
+<rect x="261.5" y="997.5" width="12.0" height="12.0" rx="3" style="fill:#dc1e3c;stroke:none;stroke-width:1"/>
+<text x="279.5" y="1008.0" class="g127s32">background painted as person</text>
+<text x="34.0" y="1035.5" class="g127s33">(c) photo 1, learned</text>
+<image href="figs/vis_photo_1.jpg?v=cb751a382b" x="34.0" y="1045.5" width="590.7" height="393.8" preserveAspectRatio="none"/>
+<image href="figs/vis_m_err_c_1.png?v=9e8ceeb5b8" x="34.0" y="1045.5" width="590.7" height="393.8" preserveAspectRatio="none"/>
+<rect x="34.0" y="1045.5" width="590.7" height="393.8" rx="0" class="g127s22"/>
+<text x="644.7" y="1035.5" class="g127s33">(c) photo 2, learned</text>
+<image href="figs/vis_photo_2.jpg?v=0e0316af0c" x="644.7" y="1045.5" width="590.7" height="393.8" preserveAspectRatio="none"/>
+<image href="figs/vis_m_err_c_2.png?v=a26d70ea8b" x="644.7" y="1045.5" width="590.7" height="393.8" preserveAspectRatio="none"/>
+<rect x="644.7" y="1045.5" width="590.7" height="393.8" rx="0" class="g127s22"/>
+<text x="1255.3" y="1035.5" class="g127s33">(a) photo 2, never seen</text>
+<image href="figs/vis_photo_2.jpg?v=0e0316af0c" x="1255.3" y="1045.5" width="590.7" height="393.8" preserveAspectRatio="none"/>
+<image href="figs/vis_m_err_a_2.png?v=92f35ba640" x="1255.3" y="1045.5" width="590.7" height="393.8" preserveAspectRatio="none"/>
+<rect x="1255.3" y="1045.5" width="590.7" height="393.8" rx="0" class="g127s22"/>
+<text y="1467.5" xml:space="preserve" class="g127s34"><tspan x="34.0" textLength="53.6" lengthAdjust="spacing">On photo </tspan><tspan x="87.6" class="g127s2">2</tspan><tspan x="94.8" textLength="151.9" lengthAdjust="spacing"> the model trained on photo </tspan><tspan x="246.7" class="g127s2">1</tspan><tspan x="253.9" textLength="78.0" lengthAdjust="spacing"> alone misses </tspan><tspan x="331.8" class="g127s2" textLength="36.7" lengthAdjust="spacing">11.4%</tspan><tspan x="368.5" textLength="415.0" lengthAdjust="spacing"> of the person pixels (orange) — mostly the two light grey sweaters (persons </tspan><tspan x="783.5" class="g127s2">2</tspan><tspan x="790.7" textLength="27.1" lengthAdjust="spacing"> and </tspan><tspan x="817.8" class="g127s2">4</tspan><tspan x="825.0" textLength="174.9" lengthAdjust="spacing"> below), close in colour to photo </tspan><tspan x="999.9" class="g127s2">1</tspan><tspan x="1007.1" textLength="116.5" lengthAdjust="spacing">’s wall — and paints </tspan><tspan x="1123.6" class="g127s2" textLength="46.7" lengthAdjust="spacing">652,627</tspan><tspan x="1170.3" textLength="194.6" lengthAdjust="spacing"> background pixels as person (red), </tspan><tspan x="1364.9" class="g127s2" textLength="36.7" lengthAdjust="spacing">78.2%</tspan><tspan x="1401.6" textLength="440.1" lengthAdjust="spacing"> of them on the wall: every silhouette swells into the grey wall around it. Its people</tspan></text>
+<text y="1485.2" xml:space="preserve" class="g127s34"><tspan x="34.0" textLength="183.1" lengthAdjust="spacing">are found; the wall is the problem.</tspan></text>
+<rect x="34.0" y="1508.7" width="1812.0" height="30.0" rx="6" class="g127s26"/>
+<path d="M38.50 1509.37 A5.50 5.50 0 0 0 34.50 1514.66 V1532.66 A5.50 5.50 0 0 0 38.50 1537.95 Z" class="g127s29"/>
+<text y="1528.7" xml:space="preserve" class="g127s30"><tspan x="50.0" class="g127s3" textLength="129.4" lengthAdjust="spacing">C · Person by person</tspan></text>
+<text y="1528.7" xml:space="preserve" class="g127s31"><tspan x="197.4" textLength="369.3" lengthAdjust="spacing">the share of each person’s pixels the model found, on what it never saw</tspan></text>
+<text x="34.0" y="1582.7" class="g127s7">(a) photo 2, person 1</text>
+<rect x="264.0" y="1568.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="264.0" y="1568.7" width="559.9" height="18.0" rx="3" class="g127s17"/>
+<text x="920.0" y="1582.7" class="g127s9">98.9%</text>
+<text x="34.0" y="1610.7" class="g127s7">(a) photo 2, person 2</text>
+<rect x="264.0" y="1596.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="264.0" y="1596.7" width="361.8" height="18.0" rx="3" class="g127s17"/>
+<text x="920.0" y="1610.7" class="g127s9">63.9%</text>
+<text x="34.0" y="1638.7" class="g127s7">(a) photo 2, person 3</text>
+<rect x="264.0" y="1624.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="264.0" y="1624.7" width="561.5" height="18.0" rx="3" class="g127s17"/>
+<text x="920.0" y="1638.7" class="g127s9">99.2%</text>
+<text x="34.0" y="1666.7" class="g127s7">(a) photo 2, person 4</text>
+<rect x="264.0" y="1652.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="264.0" y="1652.7" width="406.7" height="18.0" rx="3" class="g127s17"/>
+<text x="920.0" y="1666.7" class="g127s9">71.9%</text>
+<text x="34.0" y="1694.7" class="g127s7">(a) photo 2, person 5</text>
+<rect x="264.0" y="1680.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="264.0" y="1680.7" width="559.5" height="18.0" rx="3" class="g127s17"/>
+<text x="920.0" y="1694.7" class="g127s9">98.9%</text>
+<text x="34.0" y="1722.7" class="g127s7">(a) photo 2, person 6</text>
+<rect x="264.0" y="1708.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="264.0" y="1708.7" width="489.9" height="18.0" rx="3" class="g127s17"/>
+<text x="920.0" y="1722.7" class="g127s9">86.6%</text>
+<text x="34.0" y="1750.7" class="g127s7">(a) photo 2, person 7</text>
+<rect x="264.0" y="1736.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="264.0" y="1736.7" width="566.0" height="18.0" rx="3" class="g127s17"/>
+<text x="920.0" y="1750.7" class="g127s9">100.0%</text>
+<text x="960.0" y="1582.7" class="g127s7">(b) photo 1, person 4</text>
+<rect x="1190.0" y="1568.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="1190.0" y="1568.7" width="566.0" height="18.0" rx="3" class="g127s18"/>
+<text x="1846.0" y="1582.7" class="g127s9">100.0%</text>
+<text x="960.0" y="1610.7" class="g127s7">(b) photo 1, person 5</text>
+<rect x="1190.0" y="1596.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="1190.0" y="1596.7" width="566.0" height="18.0" rx="3" class="g127s18"/>
+<text x="1846.0" y="1610.7" class="g127s9">100.0%</text>
+<text x="960.0" y="1638.7" class="g127s7">(b) photo 1, person 6</text>
+<rect x="1190.0" y="1624.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="1190.0" y="1624.7" width="501.9" height="18.0" rx="3" class="g127s18"/>
+<text x="1846.0" y="1638.7" class="g127s9">88.7%</text>
+<text x="960.0" y="1666.7" class="g127s7">(b) photo 1, person 7</text>
+<rect x="1190.0" y="1652.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="1190.0" y="1652.7" width="543.3" height="18.0" rx="3" class="g127s18"/>
+<text x="1846.0" y="1666.7" class="g127s9">96.0%</text>
+<text x="960.0" y="1694.7" class="g127s7">(b) photo 2, person 5</text>
+<rect x="1190.0" y="1680.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="1190.0" y="1680.7" width="419.1" height="18.0" rx="3" class="g127s18"/>
+<text x="1846.0" y="1694.7" class="g127s9">74.0%</text>
+<text x="960.0" y="1722.7" class="g127s7">(b) photo 2, person 6</text>
+<rect x="1190.0" y="1708.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="1190.0" y="1708.7" width="546.4" height="18.0" rx="3" class="g127s18"/>
+<text x="1846.0" y="1722.7" class="g127s9">96.5%</text>
+<text x="960.0" y="1750.7" class="g127s7">(b) photo 2, person 7</text>
+<rect x="1190.0" y="1736.7" width="566.0" height="18.0" rx="3" class="g127s8"/>
+<rect x="1190.0" y="1736.7" width="410.1" height="18.0" rx="3" class="g127s18"/>
+<text x="1846.0" y="1750.7" class="g127s9">72.4%</text>
+<text y="1786.9" xml:space="preserve" class="g127s34"><tspan x="34.0" textLength="423.8" lengthAdjust="spacing">Found is not the whole story: a model that paints the entire photo person finds </tspan><tspan x="457.8" class="g127s2" textLength="33.1" lengthAdjust="spacing">100%</tspan><tspan x="490.9" textLength="139.0" lengthAdjust="spacing"> of everyone. That is why </tspan><tspan x="629.9" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;fill:var(--ink)" textLength="20.7" lengthAdjust="spacing">IoU</tspan><tspan x="650.6" textLength="358.7" lengthAdjust="spacing"> also counts the background painted as person. In test (b), person </tspan><tspan x="1009.4" class="g127s2">5</tspan><tspan x="1016.6" textLength="296.2" lengthAdjust="spacing"> is a sliver of the neighbour’s arm that crosses the cut.</tspan></text>
+<line x1="28.0" y1="1816.5" x2="1852.0" y2="1816.5" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1833.5" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px"><tspan x="28.0" textLength="461.6" lengthAdjust="spacing">Numbers, always labelled. Everything on this page comes from the vision notebook (written by </tspan><tspan x="489.6" class="g127s27" textLength="49.8" lengthAdjust="spacing">nbvis.py</tspan><tspan x="539.4" textLength="265.9" lengthAdjust="spacing">; your notebooks are only read) run here with PyTorch </tspan><tspan x="805.3" class="g127s2" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="821.5" textLength="196.7" lengthAdjust="spacing">.0 on this Mac’s GPU: its recorded run (</tspan><tspan x="1018.2" class="g127s27" textLength="56.0" lengthAdjust="spacing">runvis.py</tspan><tspan x="1074.3" textLength="273.3" lengthAdjust="spacing">), the two tests trained without what they are scored on (</tspan><tspan x="1347.6" class="g127s27" textLength="56.0" lengthAdjust="spacing">expvis.py</tspan><tspan x="1403.6" textLength="143.7" lengthAdjust="spacing">), and the mistakes drawn by </tspan><tspan x="1547.3" class="g127s27" textLength="80.9" lengthAdjust="spacing">measurevis.py</tspan><tspan x="1628.2">.</tspan></text>
+</svg>

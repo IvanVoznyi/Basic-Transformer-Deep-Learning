@@ -1,0 +1,330 @@
+<svg data-src="v25_o00_overview.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="2403" viewBox="0 0 1880 2403">
+<style>.txfig .g43s0{font-weight:600;fill:var(--ink)}.txfig .g43s1{font-weight:600}.txfig .g43s2{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g43s3{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;text-anchor:start}.txfig .g43s4{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g43s5{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g43s6{fill:var(--cellbg);stroke:var(--drop);stroke-width:1.3}.txfig .g43s7{fill:var(--keepbg);stroke:var(--keep);stroke-width:1.3}.txfig .g43s8{stroke:var(--ink3);stroke-width:1.3;stroke-linecap:round}.txfig .g43s9{fill:var(--ink3)}.txfig .g43s10{stroke:var(--keep);stroke-width:1.5;stroke-linecap:round}.txfig .g43s11{fill:var(--keep)}.txfig .g43s12{fill:var(--keepbg);stroke:var(--keep);stroke-width:1}.txfig .g43s13{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:middle}.txfig .g43s14{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:middle}.txfig .g43s15{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g43s16{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g43s17{fill:var(--keep);stroke:none}.txfig .g43s18{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start}.txfig .g43s19{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g43s20{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:15px;font-weight:600;text-anchor:start}.txfig .g43s21{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g43s22{fill:var(--cellbg);stroke:var(--keybd);stroke-width:1.2}.txfig .g43s23{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g43s24{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;text-anchor:start}.txfig .g43s25{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g43s26{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g43s27{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g43s28{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g43s29{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g43s30{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g43s31{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g43s32{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g43s33{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g43s34{fill:var(--accent);stroke:none}.txfig .g43s35{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g43s36{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g43s37{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g43s38{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;text-anchor:start}.txfig .g43s39{stroke:var(--grid);stroke-width:1;stroke-dasharray:3 4;stroke-linecap:round}.txfig .g43s40{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g43s41{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g43s42{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;text-anchor:start}.txfig .g43s43{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g43s44{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g43s45{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch43" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash43" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="2403" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v2.5 · OVERVIEW</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="159.3" class="g43s1" textLength="173.2" lengthAdjust="spacing">What changed in </tspan><tspan x="332.6" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)" textLength="47.5" lengthAdjust="spacing">v2.5</tspan><tspan x="380.1" class="g43s1" textLength="313.0" lengthAdjust="spacing"> — and what each change is for</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="95.4" lengthAdjust="spacing">nine changes to </tspan><tspan x="129.4" class="g43s16" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="144.1" textLength="328.8" lengthAdjust="spacing">, grouped by purpose, each with what it measurably does</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" class="g43s19" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="47.0" textLength="189.8" lengthAdjust="spacing"> rebuilt everything around the model. </tspan><tspan x="236.9" class="g43s19" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="262.9" textLength="523.5" lengthAdjust="spacing"> modernises the model block itself, how answers are chosen, and how training is averaged and judged.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="107.0" rx="8" class="g43s41"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V219.00 A7.50 7.50 0 0 0 39.50 226.07 Z" class="g43s17"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g43s1" textLength="33.8" lengthAdjust="spacing">Why </tspan><tspan x="87.8" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.2px;font-weight:600;fill:var(--ink)" textLength="31.7" lengthAdjust="spacing">v2.5</tspan><tspan x="119.5" class="g43s1" textLength="42.1" lengthAdjust="spacing"> exists</tspan></text>
+<text y="169.0" xml:space="preserve" class="g43s33"><tspan x="54.0" textLength="33.2" lengthAdjust="spacing">Every</tspan><tspan x="87.2"> </tspan><tspan x="91.5" textLength="42.6" lengthAdjust="spacing">change</tspan><tspan x="134.2"> </tspan><tspan x="138.5" textLength="26.0" lengthAdjust="spacing">here</tspan><tspan x="164.5"> </tspan><tspan x="168.8" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="178.2"> </tspan><tspan x="182.5" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="204.2"> </tspan><tspan x="208.5" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="230.2"> </tspan><tspan x="234.5" textLength="46.1" lengthAdjust="spacing">today’s</tspan><tspan x="280.6"> </tspan><tspan x="284.9" textLength="28.9" lengthAdjust="spacing">large</tspan><tspan x="313.8"> </tspan><tspan x="318.1" textLength="53.5" lengthAdjust="spacing">language</tspan><tspan x="371.6"> </tspan><tspan x="375.9" textLength="41.9" lengthAdjust="spacing">models</tspan><tspan x="417.8"> </tspan><tspan x="422.1" textLength="32.5" lengthAdjust="spacing">made</tspan><tspan x="454.7"> </tspan><tspan x="459.0" textLength="50.6" lengthAdjust="spacing">standard</tspan><tspan x="509.6"> </tspan><tspan x="513.9" textLength="26.0" lengthAdjust="spacing">after</tspan><tspan x="539.9"> </tspan><tspan x="544.2" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="562.3"> </tspan><tspan x="566.6" textLength="41.9" lengthAdjust="spacing">original</tspan><tspan x="608.5"> </tspan><tspan x="612.8" textLength="74.4" lengthAdjust="spacing">Transformer:</tspan><tspan x="687.2"> </tspan><tspan x="691.5" textLength="51.3" lengthAdjust="spacing">positions</tspan><tspan x="742.8"> </tspan><tspan x="747.1" textLength="44.1" lengthAdjust="spacing">entered</tspan><tspan x="791.2"> </tspan><tspan x="795.5" textLength="13.7" lengthAdjust="spacing">by</tspan><tspan x="809.2"> </tspan><tspan x="813.6" textLength="43.4" lengthAdjust="spacing">rotation</tspan><tspan x="856.9"> </tspan><tspan x="861.2">(</tspan><tspan x="865.6" class="g43s16" textLength="29.4" lengthAdjust="spacing">RoPE</tspan><tspan x="895.0" textLength="7.9" lengthAdjust="spacing">),</tspan><tspan x="902.9"> </tspan><tspan x="907.2">a</tspan><tspan x="914.5"> </tspan><tspan x="918.8" textLength="36.1" lengthAdjust="spacing">leaner</tspan><tspan x="954.9"> </tspan><tspan x="959.2" textLength="77.3" lengthAdjust="spacing">normalisation</tspan><tspan x="1036.5"> </tspan><tspan x="1040.8">(</tspan><tspan x="1045.2" class="g43s16" textLength="51.5" lengthAdjust="spacing">RMSNorm</tspan><tspan x="1096.7" textLength="7.9" lengthAdjust="spacing">),</tspan><tspan x="1104.6"> </tspan><tspan x="1108.9">a</tspan><tspan x="1116.1"> </tspan><tspan x="1120.5" textLength="32.5" lengthAdjust="spacing">gated</tspan><tspan x="1153.0"> </tspan><tspan x="1157.3" textLength="73.0" lengthAdjust="spacing">feed-forward</tspan><tspan x="1230.3"> </tspan><tspan x="1234.6">(</tspan><tspan x="1238.9" class="g43s16" textLength="44.1" lengthAdjust="spacing">SwiGLU</tspan><tspan x="1283.0" textLength="7.9" lengthAdjust="spacing">),</tspan><tspan x="1291.0"> </tspan><tspan x="1295.3">a</tspan><tspan x="1302.5"> </tspan><tspan x="1306.8" textLength="23.1" lengthAdjust="spacing">way</tspan><tspan x="1330.0"> </tspan><tspan x="1334.3" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="1345.1"> </tspan><tspan x="1349.4" textLength="52.0" lengthAdjust="spacing">sampling</tspan><tspan x="1401.4"> </tspan><tspan x="1405.8" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="1427.4"> </tspan><tspan x="1431.8" textLength="39.0" lengthAdjust="spacing">adapts</tspan><tspan x="1470.8"> </tspan><tspan x="1475.1" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1485.9"> </tspan><tspan x="1490.2" textLength="23.8" lengthAdjust="spacing">how</tspan><tspan x="1514.1"> </tspan><tspan x="1518.4" textLength="25.3" lengthAdjust="spacing">sure</tspan><tspan x="1543.7"> </tspan><tspan x="1548.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1566.1"> </tspan><tspan x="1570.4" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="1605.8"> </tspan><tspan x="1610.1" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1619.5"> </tspan><tspan x="1623.8">(</tspan><tspan x="1628.1" textLength="29.6" lengthAdjust="spacing">top-p</tspan><tspan x="1657.8" textLength="7.9" lengthAdjust="spacing">),</tspan><tspan x="1665.7"> </tspan><tspan x="1670.0">a</tspan><tspan x="1677.2"> </tspan><tspan x="1681.6" textLength="32.5" lengthAdjust="spacing">brake</tspan><tspan x="1714.1"> </tspan><tspan x="1718.4" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="1732.8"> </tspan><tspan x="1737.1" textLength="54.2" lengthAdjust="spacing">repeating</tspan><tspan x="1791.3"> </tspan><tspan x="1795.7" textLength="30.3" lengthAdjust="spacing">itself,</tspan></text>
+<text y="188.0" xml:space="preserve" class="g43s33"><tspan x="54.0" textLength="37.6" lengthAdjust="spacing">weight</tspan><tspan x="91.6"> </tspan><tspan x="96.0" textLength="34.7" lengthAdjust="spacing">decay</tspan><tspan x="130.7"> </tspan><tspan x="135.1" textLength="41.9" lengthAdjust="spacing">applied</tspan><tspan x="177.1"> </tspan><tspan x="181.5" textLength="23.8" lengthAdjust="spacing">only</tspan><tspan x="205.3"> </tspan><tspan x="209.8" textLength="35.4" lengthAdjust="spacing">where</tspan><tspan x="245.2"> </tspan><tspan x="249.6" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="256.1"> </tspan><tspan x="260.6" textLength="34.7" lengthAdjust="spacing">helps,</tspan><tspan x="295.2"> </tspan><tspan x="299.7" textLength="14.5" lengthAdjust="spacing">an</tspan><tspan x="314.1"> </tspan><tspan x="318.6" textLength="54.2" lengthAdjust="spacing">averaged</tspan><tspan x="372.8"> </tspan><tspan x="377.2" textLength="27.5" lengthAdjust="spacing">copy</tspan><tspan x="404.7"> </tspan><tspan x="409.1" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="420.0"> </tspan><tspan x="424.4" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="442.5"> </tspan><tspan x="446.9" textLength="44.1" lengthAdjust="spacing">weights</tspan><tspan x="491.0"> </tspan><tspan x="495.4" textLength="40.4" lengthAdjust="spacing">(EMA),</tspan><tspan x="535.9"> </tspan><tspan x="540.3" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="562.0"> </tspan><tspan x="566.5">a</tspan><tspan x="573.7"> </tspan><tspan x="578.1" textLength="31.8" lengthAdjust="spacing">score</tspan><tspan x="609.9"> </tspan><tspan x="614.3" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="636.0"> </tspan><tspan x="640.5" textLength="30.3" lengthAdjust="spacing">gives</tspan><tspan x="670.8"> </tspan><tspan x="675.3" textLength="35.4" lengthAdjust="spacing">partial</tspan><tspan x="710.7"> </tspan><tspan x="715.1" textLength="31.8" lengthAdjust="spacing">credit</tspan><tspan x="746.9"> </tspan><tspan x="751.3" textLength="46.2" lengthAdjust="spacing">(BLEU).</tspan><tspan x="797.6"> </tspan><tspan x="802.0" textLength="25.3" lengthAdjust="spacing">Plus</tspan><tspan x="827.3"> </tspan><tspan x="831.7" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="853.4"> </tspan><tspan x="857.9" textLength="16.6" lengthAdjust="spacing">fix:</tspan><tspan x="874.5"> </tspan><tspan x="878.9" textLength="32.5" lengthAdjust="spacing">beam</tspan><tspan x="911.4"> </tspan><tspan x="915.9" textLength="39.0" lengthAdjust="spacing">search</tspan><tspan x="954.9"> </tspan><tspan x="959.3" textLength="14.5" lengthAdjust="spacing">no</tspan><tspan x="973.8"> </tspan><tspan x="978.2" textLength="36.1" lengthAdjust="spacing">longer</tspan><tspan x="1014.3"> </tspan><tspan x="1018.8" textLength="31.1" lengthAdjust="spacing">stops</tspan><tspan x="1049.9"> </tspan><tspan x="1054.3" textLength="36.9" lengthAdjust="spacing">before</tspan><tspan x="1091.2"> </tspan><tspan x="1095.6" textLength="13.0" lengthAdjust="spacing">its</tspan><tspan x="1108.6"> </tspan><tspan x="1113.0" textLength="24.6" lengthAdjust="spacing">best</tspan><tspan x="1137.6"> </tspan><tspan x="1142.1" textLength="41.9" lengthAdjust="spacing">answer</tspan><tspan x="1184.0"> </tspan><tspan x="1188.4" textLength="21.0" lengthAdjust="spacing">has</tspan><tspan x="1209.4"> </tspan><tspan x="1213.8" textLength="48.4" lengthAdjust="spacing">finished.</tspan><tspan x="1262.2"> </tspan><tspan x="1266.7" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="1289.1"> </tspan><tspan x="1293.5" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="1328.9"> </tspan><tspan x="1333.3" textLength="34.7" lengthAdjust="spacing">keeps</tspan><tspan x="1368.0"> </tspan><tspan x="1372.5" textLength="40.5" lengthAdjust="spacing">exactly</tspan><tspan x="1412.9"> </tspan><tspan x="1417.4" class="g43s16" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="1432.1" textLength="14.3" lengthAdjust="spacing">’s</tspan><tspan x="1446.4"> </tspan><tspan x="1450.8" textLength="23.1" lengthAdjust="spacing">size</tspan><tspan x="1473.9"> </tspan><tspan x="1478.4">—</tspan><tspan x="1491.4"> </tspan><tspan x="1495.8" class="g43s0" textLength="126.4" lengthAdjust="spacing">22,979,823 numbers</tspan><tspan x="1622.2"> </tspan><tspan x="1626.7">—</tspan><tspan x="1639.7"> </tspan><tspan x="1644.1" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1665.8"> </tspan><tspan x="1670.2" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="1702.0"> </tspan><tspan x="1706.4" textLength="42.6" lengthAdjust="spacing">change</tspan><tspan x="1749.1"> </tspan><tspan x="1753.5" textLength="23.1" lengthAdjust="spacing">was</tspan><tspan x="1776.6"> </tspan><tspan x="1781.1" textLength="18.8" lengthAdjust="spacing">run</tspan><tspan x="1799.9"> </tspan><tspan x="1804.3" textLength="21.7" lengthAdjust="spacing">and</tspan></text>
+<text y="207.0" xml:space="preserve" class="g43s33"><tspan x="54.0" textLength="222.4" lengthAdjust="spacing">checked on the notebook’s own code.</tspan></text>
+<rect x="34.0" y="247.0" width="288.7" height="124.0" rx="8" class="g43s22"/>
+<path d="M35.43 251.60 A7.40 7.40 0 0 1 42.00 247.60 H314.67 A7.40 7.40 0 0 1 321.24 251.60 Z" class="g43s17"/>
+<text x="48.0" y="269.5" class="g43s23">how a word’s position enters</text>
+<text x="48.0" y="313.0" class="g43s24">added table</text>
+<text x="48.0" y="335.0" class="g43s20">→ rotation</text>
+<text x="48.0" y="357.0" class="g43s25">RoPE · cell 2b, deep dive 6</text>
+<rect x="338.7" y="247.0" width="288.7" height="124.0" rx="8" class="g43s22"/>
+<path d="M340.09 251.60 A7.40 7.40 0 0 1 346.67 247.60 H619.33 A7.40 7.40 0 0 1 625.91 251.60 Z" class="g43s17"/>
+<text x="352.7" y="269.5" class="g43s23">steps to normalise a vector</text>
+<text x="352.7" y="313.0" class="g43s24">LayerNorm: 5</text>
+<text x="352.7" y="335.0" class="g43s20">→ RMSNorm: 3</text>
+<text x="352.7" y="357.0" class="g43s25">cell 2a, deep dive 7</text>
+<rect x="643.3" y="247.0" width="288.7" height="124.0" rx="8" class="g43s22"/>
+<path d="M644.76 251.60 A7.40 7.40 0 0 1 651.33 247.60 H924.00 A7.40 7.40 0 0 1 930.57 251.60 Z" class="g43s17"/>
+<text x="657.3" y="269.5" class="g43s23">parameters</text>
+<text x="657.3" y="313.0" class="g43s24">22,979,823</text>
+<text x="657.3" y="335.0" class="g43s20">→ 22,979,823</text>
+<text x="657.3" y="357.0" class="g43s25">SwiGLU +6,144 · RMSNorm −6,144</text>
+<rect x="948.0" y="247.0" width="288.7" height="124.0" rx="8" class="g43s22"/>
+<path d="M949.43 251.60 A7.40 7.40 0 0 1 956.00 247.60 H1228.67 A7.40 7.40 0 0 1 1235.24 251.60 Z" class="g43s17"/>
+<text x="962.0" y="269.5" class="g43s23">Beam(4), trained, on “the cat is sleeping on the sofa”</text>
+<text x="962.0" y="313.0" class="g43s24">“the is sleeping peacefully”</text>
+<text x="962.0" y="335.0" class="g43s20">→ every word</text>
+<text x="962.0" y="357.0" class="g43s25">the stop fixed · cell 2c</text>
+<rect x="1252.7" y="247.0" width="288.7" height="124.0" rx="8" class="g43s22"/>
+<path d="M1254.09 251.60 A7.40 7.40 0 0 1 1260.67 247.60 H1533.33 A7.40 7.40 0 0 1 1539.91 251.60 Z" class="g43s17"/>
+<text x="1266.7" y="269.5" class="g43s23">tokens top-p 0.9 may draw from</text>
+<text x="1266.7" y="313.0" class="g43s24">13,438 untrained</text>
+<text x="1266.7" y="335.0" class="g43s20">→ 1 trained</text>
+<text x="1266.7" y="357.0" class="g43s25">it adapts · cell 2c</text>
+<rect x="1557.3" y="247.0" width="288.7" height="124.0" rx="8" class="g43s22"/>
+<path d="M1558.76 251.60 A7.40 7.40 0 0 1 1565.33 247.60 H1838.00 A7.40 7.40 0 0 1 1844.57 251.60 Z" class="g43s17"/>
+<text x="1571.3" y="269.5" class="g43s23">how an answer is scored</text>
+<text x="1571.3" y="313.0" class="g43s24">exact match</text>
+<text x="1571.3" y="335.0" class="g43s20">→ + BLEU</text>
+<text x="1571.3" y="357.0" class="g43s25">partial credit · cell 9</text>
+<rect x="34.0" y="401.0" width="1812.0" height="30.0" rx="6" class="g43s30"/>
+<path d="M38.50 401.71 A5.50 5.50 0 0 0 34.50 407.00 V425.00 A5.50 5.50 0 0 0 38.50 430.29 Z" class="g43s34"/>
+<text y="421.0" xml:space="preserve" class="g43s35"><tspan x="50.0" class="g43s1" textLength="326.3" lengthAdjust="spacing">A · The same skeleton, the changed parts marked — </tspan><tspan x="376.3" class="g43s16" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="391.0" class="g43s1" textLength="52.1" lengthAdjust="spacing"> against </tspan><tspan x="443.1" class="g43s16" textLength="29.4" lengthAdjust="spacing">v2.5</tspan></text>
+<text y="421.0" xml:space="preserve" class="g43s36"><tspan x="490.5" textLength="362.4" lengthAdjust="spacing">from token ids to a graded answer, in the order the notebook runs them</tspan></text>
+<text y="449.0" xml:space="preserve" class="g43s37"><tspan x="38.0" class="g43s1" textLength="78.5" lengthAdjust="spacing">How to read it</tspan></text>
+<text y="467.0" xml:space="preserve" class="g43s31"><tspan x="38.0" textLength="198.1" lengthAdjust="spacing">Each row is one part of the machine: </tspan><tspan x="236.1" class="g43s26" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="249.7" textLength="117.9" lengthAdjust="spacing">’s version on the left, </tspan><tspan x="367.6" class="g43s26" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="394.8" textLength="1434.6" lengthAdjust="spacing">’s on the right. A dashed line means the part did not change. A green arrow means it did: the chip names the change and the pages that take it apart. Most of the machine is the same — the changes sit in four places: how position enters, the normaliser, the feed-forward,</tspan></text>
+<text y="484.4" xml:space="preserve" class="g43s31"><tspan x="38.0" textLength="366.2" lengthAdjust="spacing">and everything around the model (choosing words, training, grading).</tspan></text>
+<text x="56.0" y="525.8" style="fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:15px;font-weight:600;text-anchor:start">v2</text>
+<text x="86.0" y="525.8" class="g43s42">what it did</text>
+<text x="922.0" y="525.8" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;text-anchor:middle">the change</text>
+<text x="1106.0" y="525.8" class="g43s20">v2.5</text>
+<text x="1150.0" y="525.8" class="g43s42">what it does now</text>
+<text x="52.0" y="567.8" class="g43s18">THE INPUT</text>
+<rect x="52.0" y="579.8" width="690.0" height="32.0" rx="7" class="g43s27"/>
+<text x="66.0" y="600.8" class="g43s3">each token id → its 512 learned numbers, × √512</text>
+<rect x="1102.0" y="579.8" width="690.0" height="32.0" rx="7" class="g43s27"/>
+<text x="1116.0" y="600.8" class="g43s38">each token id → its 512 learned numbers, × √512</text>
+<line x1="748.0" y1="595.8" x2="1096.0" y2="595.8" class="g43s39"/>
+<text x="922.0" y="590.8" class="g43s40">the same</text>
+<rect x="52.0" y="619.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="640.8" class="g43s3">position: + a table of sines and cosines, added to every word</text>
+<rect x="1102.0" y="619.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="640.8" class="g43s3">position: nothing is added here — it enters inside attention</text>
+<line x1="748.0" y1="635.8" x2="883.7" y2="635.8" class="g43s8"/>
+<path d="M888.7 635.8 L881.9 638.9 L881.9 632.7 Z" class="g43s9"/>
+<line x1="955.3" y1="635.8" x2="1090.0" y2="635.8" class="g43s10"/>
+<path d="M1096.0 635.8 L1087.8 639.5 L1087.8 632.1 Z" class="g43s11"/>
+<rect x="892.7" y="624.8" width="58.6" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="639.8" class="g43s13">RoPE</text>
+<text x="922.0" y="661.8" class="g43s14">cell 2b · deep dive 6</text>
+<text x="52.0" y="695.8" class="g43s18">ENCODER LAYER × 2 — reads the input</text>
+<rect x="52.0" y="707.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="728.8" class="g43s3">LayerNorm: centre, scale, gain, bias — 5 steps</text>
+<rect x="1102.0" y="707.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="728.8" class="g43s3">RMSNorm: scale, gain — 3 steps</text>
+<line x1="748.0" y1="723.8" x2="870.1" y2="723.8" class="g43s8"/>
+<path d="M875.1 723.8 L868.3 726.9 L868.3 720.7 Z" class="g43s9"/>
+<line x1="968.9" y1="723.8" x2="1090.0" y2="723.8" class="g43s10"/>
+<path d="M1096.0 723.8 L1087.8 727.5 L1087.8 720.1 Z" class="g43s11"/>
+<rect x="879.1" y="712.8" width="85.7" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="727.8" class="g43s13">RMSNorm</text>
+<text x="922.0" y="749.8" class="g43s14">cell 2a · deep dive 7</text>
+<rect x="52.0" y="757.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="778.8" class="g43s3">self-attention on Q, K and V</text>
+<rect x="1102.0" y="757.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="778.8" class="g43s3">self-attention, with Q and K turned by position</text>
+<line x1="748.0" y1="773.8" x2="883.7" y2="773.8" class="g43s8"/>
+<path d="M888.7 773.8 L881.9 776.9 L881.9 770.7 Z" class="g43s9"/>
+<line x1="955.3" y1="773.8" x2="1090.0" y2="773.8" class="g43s10"/>
+<path d="M1096.0 773.8 L1087.8 777.5 L1087.8 770.1 Z" class="g43s11"/>
+<rect x="892.7" y="762.8" width="58.6" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="777.8" class="g43s13">RoPE</text>
+<text x="922.0" y="799.8" class="g43s14">cell 2b · deep dive 6</text>
+<rect x="52.0" y="807.8" width="690.0" height="32.0" rx="7" class="g43s27"/>
+<text x="66.0" y="828.8" class="g43s3">x = x + … — the result is added back (the residual)</text>
+<rect x="1102.0" y="807.8" width="690.0" height="32.0" rx="7" class="g43s27"/>
+<text x="1116.0" y="828.8" class="g43s38">x = x + … — the result is added back (the residual)</text>
+<line x1="748.0" y1="823.8" x2="1096.0" y2="823.8" class="g43s39"/>
+<text x="922.0" y="818.8" class="g43s40">the same</text>
+<rect x="52.0" y="847.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="868.8" class="g43s3">LayerNorm again</text>
+<rect x="1102.0" y="847.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="868.8" class="g43s3">RMSNorm again</text>
+<line x1="748.0" y1="863.8" x2="870.1" y2="863.8" class="g43s8"/>
+<path d="M875.1 863.8 L868.3 866.9 L868.3 860.7 Z" class="g43s9"/>
+<line x1="968.9" y1="863.8" x2="1090.0" y2="863.8" class="g43s10"/>
+<path d="M1096.0 863.8 L1087.8 867.5 L1087.8 860.1 Z" class="g43s11"/>
+<rect x="879.1" y="852.8" width="85.7" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="867.8" class="g43s13">RMSNorm</text>
+<text x="922.0" y="889.8" class="g43s14">cell 2a · deep dive 7</text>
+<rect x="52.0" y="897.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="918.8" class="g43s3">feed-forward: 512 → 2,048 → GELU → 512</text>
+<rect x="1102.0" y="897.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="918.8" class="g43s3">feed-forward: SwiGLU, gate × up: 512 → 1,368 → 512</text>
+<line x1="748.0" y1="913.8" x2="876.7" y2="913.8" class="g43s8"/>
+<path d="M881.7 913.8 L874.9 916.9 L874.9 910.7 Z" class="g43s9"/>
+<line x1="962.3" y1="913.8" x2="1090.0" y2="913.8" class="g43s10"/>
+<path d="M1096.0 913.8 L1087.8 917.5 L1087.8 910.1 Z" class="g43s11"/>
+<rect x="885.7" y="902.8" width="72.5" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="917.8" class="g43s13">SwiGLU</text>
+<text x="922.0" y="939.8" class="g43s14">cell 2a · deep dives 8–10</text>
+<text x="52.0" y="973.8" class="g43s18">DECODER LAYER × 2 — writes the answer</text>
+<rect x="52.0" y="985.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="1006.8" class="g43s3">the same moves on the answer so far (no peeking ahead), plus a look at the input</text>
+<rect x="1102.0" y="985.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="1006.8" class="g43s3">the same, with RoPE in its self-attention; the look at the input is never turned</text>
+<line x1="748.0" y1="1001.8" x2="883.7" y2="1001.8" class="g43s8"/>
+<path d="M888.7 1001.8 L881.9 1004.9 L881.9 998.7 Z" class="g43s9"/>
+<line x1="955.3" y1="1001.8" x2="1090.0" y2="1001.8" class="g43s10"/>
+<path d="M1096.0 1001.8 L1087.8 1005.5 L1087.8 998.1 Z" class="g43s11"/>
+<rect x="892.7" y="990.8" width="58.6" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="1005.8" class="g43s13">RoPE</text>
+<text x="922.0" y="1027.8" class="g43s14">cell 2b · deep dives 3, 6</text>
+<text x="52.0" y="1061.8" class="g43s18">THE OUTPUT</text>
+<rect x="52.0" y="1073.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="1094.8" class="g43s3">LayerNorm, then a score for each of 16,111 tokens</text>
+<rect x="1102.0" y="1073.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="1094.8" class="g43s3">RMSNorm, then a score for each of 16,111 tokens</text>
+<line x1="748.0" y1="1089.8" x2="870.1" y2="1089.8" class="g43s8"/>
+<path d="M875.1 1089.8 L868.3 1092.9 L868.3 1086.7 Z" class="g43s9"/>
+<line x1="968.9" y1="1089.8" x2="1090.0" y2="1089.8" class="g43s10"/>
+<path d="M1096.0 1089.8 L1087.8 1093.5 L1087.8 1086.1 Z" class="g43s11"/>
+<rect x="879.1" y="1078.8" width="85.7" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="1093.8" class="g43s13">RMSNorm</text>
+<text x="922.0" y="1115.8" class="g43s14">cell 2a</text>
+<text x="52.0" y="1149.8" class="g43s18">CHOOSING THE WORDS</text>
+<rect x="52.0" y="1161.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="1182.8" class="g43s3">greedy · top-k sampling</text>
+<rect x="1102.0" y="1161.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="1182.8" class="g43s3">greedy · top-k · top-p sampling · a repetition penalty</text>
+<line x1="748.0" y1="1177.8" x2="860.9" y2="1177.8" class="g43s8"/>
+<path d="M865.9 1177.8 L859.1 1180.9 L859.1 1174.7 Z" class="g43s9"/>
+<line x1="978.1" y1="1177.8" x2="1090.0" y2="1177.8" class="g43s10"/>
+<path d="M1096.0 1177.8 L1087.8 1181.5 L1087.8 1174.1 Z" class="g43s11"/>
+<rect x="869.9" y="1166.8" width="104.2" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="1181.8" class="g43s13">top-p, penalty</text>
+<text x="922.0" y="1203.8" class="g43s14">cell 2c · deep dives 11, 12</text>
+<rect x="52.0" y="1211.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="1232.8" class="g43s3">beam search: stops once 4 answers have finished</text>
+<rect x="1102.0" y="1211.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="1232.8" class="g43s3">beam search: stops when no live beam can still win</text>
+<line x1="748.0" y1="1227.8" x2="877.5" y2="1227.8" class="g43s8"/>
+<path d="M882.5 1227.8 L875.6 1230.9 L875.6 1224.7 Z" class="g43s9"/>
+<line x1="961.5" y1="1227.8" x2="1090.0" y2="1227.8" class="g43s10"/>
+<path d="M1096.0 1227.8 L1087.8 1231.5 L1087.8 1224.1 Z" class="g43s11"/>
+<rect x="886.5" y="1216.8" width="71.1" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="1231.8" class="g43s13">the stop</text>
+<text x="922.0" y="1253.8" class="g43s14">cell 2c · deep dive 13</text>
+<text x="52.0" y="1287.8" class="g43s18">TRAINING</text>
+<rect x="52.0" y="1299.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="1320.8" class="g43s3">AdamW: weight decay on every number</text>
+<rect x="1102.0" y="1299.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="1320.8" class="g43s3">AdamW: weight decay on weight matrices only</text>
+<line x1="748.0" y1="1315.8" x2="861.3" y2="1315.8" class="g43s8"/>
+<path d="M866.3 1315.8 L859.4 1318.9 L859.4 1312.7 Z" class="g43s9"/>
+<line x1="977.7" y1="1315.8" x2="1090.0" y2="1315.8" class="g43s10"/>
+<path d="M1096.0 1315.8 L1087.8 1319.5 L1087.8 1312.1 Z" class="g43s11"/>
+<rect x="870.3" y="1304.8" width="103.4" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="1319.8" class="g43s13">decay groups</text>
+<text x="922.0" y="1341.8" class="g43s14">cell 7 · deep dive 14</text>
+<rect x="52.0" y="1349.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="1370.8" class="g43s3">validate and save the latest weights</text>
+<rect x="1102.0" y="1349.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="1370.8" class="g43s3">validate and save an average of the weights</text>
+<line x1="748.0" y1="1365.8" x2="886.7" y2="1365.8" class="g43s8"/>
+<path d="M891.7 1365.8 L884.8 1368.9 L884.8 1362.7 Z" class="g43s9"/>
+<line x1="952.3" y1="1365.8" x2="1090.0" y2="1365.8" class="g43s10"/>
+<path d="M1096.0 1365.8 L1087.8 1369.5 L1087.8 1362.1 Z" class="g43s11"/>
+<rect x="895.7" y="1354.8" width="52.7" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="1369.8" class="g43s13">EMA</text>
+<text x="922.0" y="1391.8" class="g43s14">cells 7, 8 · deep dive 15</text>
+<text x="52.0" y="1425.8" class="g43s18">GRADING</text>
+<rect x="52.0" y="1437.8" width="690.0" height="32.0" rx="7" class="g43s6"/>
+<text x="66.0" y="1458.8" class="g43s3">exact match</text>
+<rect x="1102.0" y="1437.8" width="690.0" height="32.0" rx="7" class="g43s7"/>
+<text x="1116.0" y="1458.8" class="g43s3">exact match and BLEU</text>
+<line x1="748.0" y1="1453.8" x2="883.7" y2="1453.8" class="g43s8"/>
+<path d="M888.7 1453.8 L881.9 1456.9 L881.9 1450.7 Z" class="g43s9"/>
+<line x1="955.3" y1="1453.8" x2="1090.0" y2="1453.8" class="g43s10"/>
+<path d="M1096.0 1453.8 L1087.8 1457.5 L1087.8 1450.1 Z" class="g43s11"/>
+<rect x="892.7" y="1442.8" width="58.6" height="22.0" rx="11" class="g43s12"/>
+<text x="922.0" y="1457.8" class="g43s13">BLEU</text>
+<text x="922.0" y="1479.8" class="g43s14">cell 9 · deep dive 16</text>
+<text x="52.0" y="1513.8" class="g43s18">SIZE</text>
+<rect x="52.0" y="1525.8" width="690.0" height="32.0" rx="7" class="g43s27"/>
+<text x="66.0" y="1546.8" class="g43s3">22,979,823 numbers to learn</text>
+<rect x="1102.0" y="1525.8" width="690.0" height="32.0" rx="7" class="g43s27"/>
+<text x="1116.0" y="1546.8" class="g43s38">22,979,823 numbers to learn</text>
+<line x1="748.0" y1="1541.8" x2="1096.0" y2="1541.8" class="g43s39"/>
+<text x="922.0" y="1536.8" class="g43s40">the same</text>
+<rect x="34.0" y="1591.8" width="1812.0" height="30.0" rx="6" class="g43s30"/>
+<path d="M38.50 1592.51 A5.50 5.50 0 0 0 34.50 1597.80 V1615.80 A5.50 5.50 0 0 0 38.50 1621.09 Z" class="g43s34"/>
+<text y="1611.8" xml:space="preserve" class="g43s35"><tspan x="50.0" class="g43s1" textLength="258.9" lengthAdjust="spacing">B · Every change, grouped by what it is for</tspan></text>
+<text y="1611.8" xml:space="preserve" class="g43s36"><tspan x="326.9" class="g43s0">9</tspan><tspan x="333.7" textLength="188.6" lengthAdjust="spacing"> changes · the purpose chip on each </tspan><tspan x="522.3" class="g43s19" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="535.3"> → </tspan><tspan x="553.2" class="g43s19" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="579.2" textLength="193.7" lengthAdjust="spacing"> block in the cell pages says the same</tspan></text>
+<rect x="34.0" y="1637.8" width="1812.0" height="24.0" rx="4" class="g43s30"/>
+<text y="1653.8" xml:space="preserve" class="g43s28"><tspan x="43.0" class="g43s1" textLength="40.2" lengthAdjust="spacing">purpose</tspan></text>
+<text y="1653.8" xml:space="preserve" class="g43s28"><tspan x="243.0" class="g43s1" textLength="36.5" lengthAdjust="spacing">change</tspan></text>
+<text y="1653.8" xml:space="preserve" class="g43s28"><tspan x="603.0" class="g43s1" textLength="59.4" lengthAdjust="spacing">explained in</tspan></text>
+<text y="1653.8" xml:space="preserve" class="g43s28"><tspan x="833.0" class="g43s1" textLength="77.3" lengthAdjust="spacing">what it gets you</tspan></text>
+<text y="1684.9" xml:space="preserve" class="g43s32"><tspan x="43.0" class="g43s1" textLength="101.1" lengthAdjust="spacing">OUTPUT QUALITY</tspan></text>
+<text y="1684.9" xml:space="preserve" class="g43s2"><tspan x="243.0" class="g43s5" textLength="24.9" lengthAdjust="spacing">RoPE</tspan><tspan x="267.9" textLength="120.4" lengthAdjust="spacing"> — positions as rotations</tspan></text>
+<text y="1684.9" xml:space="preserve" class="g43s2"><tspan x="603.0" class="g43s0" textLength="27.2" lengthAdjust="spacing">cell 2</tspan><tspan x="630.2" textLength="63.0" lengthAdjust="spacing">b, deep dive </tspan><tspan x="693.2" class="g43s0">6</tspan></text>
+<text y="1677.2" xml:space="preserve" class="g43s2"><tspan x="833.0" textLength="355.2" lengthAdjust="spacing">a score depends only on how far apart two words are; in the experiment, </tspan><tspan x="1188.2" class="g43s0" textLength="23.3" lengthAdjust="spacing">50%</tspan><tspan x="1211.6" textLength="291.0" lengthAdjust="spacing"> right on sentences longer than any seen in training against </tspan><tspan x="1502.6" class="g43s5" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1515.1" textLength="15.2" lengthAdjust="spacing">’s </tspan><tspan x="1530.2" class="g43s0" textLength="23.3" lengthAdjust="spacing">10%</tspan><tspan x="1553.5" textLength="35.5" lengthAdjust="spacing"> — but </tspan><tspan x="1589.0" class="g43s0" textLength="23.3" lengthAdjust="spacing">82%</tspan><tspan x="1612.3" textLength="41.6" lengthAdjust="spacing"> against </tspan><tspan x="1653.9" class="g43s0" textLength="23.3" lengthAdjust="spacing">93%</tspan><tspan x="1677.2" textLength="137.0" lengthAdjust="spacing"> at the trained lengths (deep</tspan></text>
+<text y="1692.6" xml:space="preserve" class="g43s2"><tspan x="833.0" textLength="23.2" lengthAdjust="spacing">dive </tspan><tspan x="856.2" class="g43s0" textLength="13.0" lengthAdjust="spacing">17</tspan><tspan x="869.2">)</tspan></text>
+<line x1="34.0" y1="1700.6" x2="1846.0" y2="1700.6" class="g43s4"/>
+<rect x="34.0" y="1700.6" width="1812.0" height="26.0" rx="0" class="g43s21"/>
+<text y="1717.3" xml:space="preserve" class="g43s2"><tspan x="243.0" textLength="18.3" lengthAdjust="spacing">the </tspan><tspan x="261.3" class="g43s5" textLength="37.3" lengthAdjust="spacing">SwiGLU</tspan><tspan x="298.7" textLength="64.8" lengthAdjust="spacing"> feed-forward</tspan></text>
+<text y="1717.3" xml:space="preserve" class="g43s2"><tspan x="603.0" class="g43s0" textLength="27.2" lengthAdjust="spacing">cell 2</tspan><tspan x="630.2" textLength="68.5" lengthAdjust="spacing">a, deep dives </tspan><tspan x="698.7" class="g43s0">8</tspan><tspan x="705.2">–</tspan><tspan x="710.7" class="g43s0" textLength="13.0" lengthAdjust="spacing">10</tspan></text>
+<text y="1717.3" xml:space="preserve" class="g43s2"><tspan x="833.0" textLength="127.8" lengthAdjust="spacing">a learned gate on each of </tspan><tspan x="960.8" class="g43s0" textLength="95.3" lengthAdjust="spacing">1,368 hidden units</tspan><tspan x="1056.1" textLength="12.5" lengthAdjust="spacing">; +</tspan><tspan x="1068.6" class="g43s0" textLength="77.8" lengthAdjust="spacing">1,536 numbers</tspan><tspan x="1146.4" textLength="45.8" lengthAdjust="spacing"> per layer</tspan></text>
+<line x1="34.0" y1="1726.6" x2="1846.0" y2="1726.6" class="g43s4"/>
+<text y="1743.3" xml:space="preserve" class="g43s2"><tspan x="243.0" textLength="120.4" lengthAdjust="spacing">top-p (nucleus) sampling</tspan></text>
+<text y="1743.3" xml:space="preserve" class="g43s2"><tspan x="603.0" class="g43s0" textLength="33.0" lengthAdjust="spacing">cells 2</tspan><tspan x="636.0" textLength="80.7" lengthAdjust="spacing">c, 9b, deep dive </tspan><tspan x="716.8" class="g43s0" textLength="13.0" lengthAdjust="spacing">11</tspan></text>
+<text y="1743.3" xml:space="preserve" class="g43s2"><tspan x="833.0" textLength="32.4" lengthAdjust="spacing">keeps </tspan><tspan x="865.4" class="g43s0" textLength="35.7" lengthAdjust="spacing">13,438</tspan><tspan x="901.1" textLength="15.3" lengthAdjust="spacing"> of </tspan><tspan x="916.4" class="g43s0" textLength="73.2" lengthAdjust="spacing">16,111 tokens</tspan><tspan x="989.6" textLength="190.8" lengthAdjust="spacing"> when the model is unsure (untrained), </tspan><tspan x="1180.4" class="g43s0">1</tspan><tspan x="1186.8" textLength="183.4" lengthAdjust="spacing"> when it is sure (trained); top-k keeps </tspan><tspan x="1370.2" class="g43s0">5</tspan><tspan x="1376.7" textLength="53.2" lengthAdjust="spacing"> either way</tspan></text>
+<line x1="34.0" y1="1752.6" x2="1846.0" y2="1752.6" class="g43s4"/>
+<rect x="34.0" y="1752.6" width="1812.0" height="26.0" rx="0" class="g43s21"/>
+<text y="1769.3" xml:space="preserve" class="g43s2"><tspan x="243.0" textLength="102.1" lengthAdjust="spacing">the repetition penalty</tspan></text>
+<text y="1769.3" xml:space="preserve" class="g43s2"><tspan x="603.0" class="g43s0" textLength="33.0" lengthAdjust="spacing">cells 2</tspan><tspan x="636.0" textLength="80.7" lengthAdjust="spacing">c, 9a, deep dive </tspan><tspan x="716.8" class="g43s0" textLength="13.0" lengthAdjust="spacing">12</tspan></text>
+<text y="1769.3" xml:space="preserve" class="g43s2"><tspan x="833.0" textLength="161.0" lengthAdjust="spacing">the untrained model’s &quot;resort&quot; × </tspan><tspan x="994.0" class="g43s0">8</tspan><tspan x="1000.5" textLength="88.0" lengthAdjust="spacing"> loop breaks after </tspan><tspan x="1088.5" class="g43s0">4</tspan><tspan x="1095.0" textLength="189.6" lengthAdjust="spacing"> — into a new one: a nudge, not a cure</tspan></text>
+<line x1="34.0" y1="1778.6" x2="1846.0" y2="1778.6" class="g43s4"/>
+<text y="1795.3" xml:space="preserve" class="g43s32"><tspan x="43.0" class="g43s1" textLength="51.2" lengthAdjust="spacing">SIMPLER</tspan></text>
+<text y="1795.3" xml:space="preserve" class="g43s2"><tspan x="243.0" class="g43s5" textLength="43.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="286.6" textLength="56.3" lengthAdjust="spacing"> in place of </tspan><tspan x="342.8" class="g43s5" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan></text>
+<text y="1795.3" xml:space="preserve" class="g43s2"><tspan x="603.0" class="g43s0" textLength="27.2" lengthAdjust="spacing">cell 2</tspan><tspan x="630.2" textLength="63.0" lengthAdjust="spacing">a, deep dive </tspan><tspan x="693.2" class="g43s0">7</tspan></text>
+<text y="1795.3" xml:space="preserve" class="g43s2"><tspan x="833.0" textLength="144.9" lengthAdjust="spacing">no mean to subtract, no bias: </tspan><tspan x="977.9" class="g43s0" textLength="37.6" lengthAdjust="spacing">3 steps</tspan><tspan x="1015.5" textLength="53.8" lengthAdjust="spacing"> instead of </tspan><tspan x="1069.3" class="g43s0">5</tspan><tspan x="1075.8">, </tspan><tspan x="1081.9" class="g43s0" textLength="99.8" lengthAdjust="spacing">512 fewer numbers</tspan><tspan x="1181.7" textLength="229.3" lengthAdjust="spacing"> per norm — but not faster on this CPU, where </tspan><tspan x="1411.0" class="g43s5" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1467.0" textLength="178.5" lengthAdjust="spacing"> has an optimised kernel (measured)</tspan></text>
+<line x1="34.0" y1="1804.6" x2="1846.0" y2="1804.6" class="g43s4"/>
+<rect x="34.0" y="1804.6" width="1812.0" height="26.0" rx="0" class="g43s21"/>
+<text y="1821.3" xml:space="preserve" class="g43s32"><tspan x="43.0" class="g43s1" textLength="89.4" lengthAdjust="spacing">CORRECTNESS</tspan></text>
+<text y="1821.3" xml:space="preserve" class="g43s2"><tspan x="243.0" textLength="171.8" lengthAdjust="spacing">beam search stops at the right time</tspan></text>
+<text y="1821.3" xml:space="preserve" class="g43s2"><tspan x="603.0" class="g43s0" textLength="27.2" lengthAdjust="spacing">cell 2</tspan><tspan x="630.2" textLength="62.4" lengthAdjust="spacing">c, deep dive </tspan><tspan x="692.6" class="g43s0" textLength="13.0" lengthAdjust="spacing">13</tspan></text>
+<text y="1821.3" xml:space="preserve" class="g43s2"><tspan x="833.0" textLength="15.3" lengthAdjust="spacing">on </tspan><tspan x="848.3" class="g43s5" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="860.7" textLength="280.2" lengthAdjust="spacing">’s own trained weights: “the is sleeping peacefully” with </tspan><tspan x="1141.0" class="g43s5" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1153.4" textLength="221.6" lengthAdjust="spacing">’s stop, “the cat is sleeping peacefully” with </tspan><tspan x="1375.0" class="g43s5" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="1399.9" textLength="12.1" lengthAdjust="spacing">’s</tspan></text>
+<line x1="34.0" y1="1830.6" x2="1846.0" y2="1830.6" class="g43s4"/>
+<text y="1847.3" xml:space="preserve" class="g43s32"><tspan x="43.0" class="g43s1" textLength="55.7" lengthAdjust="spacing">TRAINING</tspan></text>
+<text y="1847.3" xml:space="preserve" class="g43s2"><tspan x="243.0" textLength="182.2" lengthAdjust="spacing">weight decay on weight matrices only</tspan></text>
+<text y="1847.3" xml:space="preserve" class="g43s2"><tspan x="603.0" class="g43s0" textLength="27.2" lengthAdjust="spacing">cell 7</tspan><tspan x="630.2" textLength="56.9" lengthAdjust="spacing">, deep dive </tspan><tspan x="687.1" class="g43s0" textLength="13.0" lengthAdjust="spacing">14</tspan></text>
+<text y="1847.3" xml:space="preserve" class="g43s2"><tspan x="833.0" textLength="47.7" lengthAdjust="spacing">decay on </tspan><tspan x="880.7" class="g43s0" textLength="106.9" lengthAdjust="spacing">22,945,280 numbers</tspan><tspan x="987.6" textLength="14.7" lengthAdjust="spacing"> in </tspan><tspan x="1002.3" class="g43s0" textLength="60.3" lengthAdjust="spacing">37 matrices</tspan><tspan x="1062.6" textLength="67.3" lengthAdjust="spacing">; none on the </tspan><tspan x="1129.9" class="g43s0" textLength="35.7" lengthAdjust="spacing">34,543</tspan><tspan x="1165.5" textLength="14.7" lengthAdjust="spacing"> in </tspan><tspan x="1180.2" class="g43s0" textLength="13.0" lengthAdjust="spacing">37</tspan><tspan x="1193.1" textLength="85.6" lengthAdjust="spacing"> gains and biases</tspan></text>
+<line x1="34.0" y1="1856.6" x2="1846.0" y2="1856.6" class="g43s4"/>
+<rect x="34.0" y="1856.6" width="1812.0" height="26.0" rx="0" class="g43s21"/>
+<text y="1873.3" xml:space="preserve" class="g43s2"><tspan x="243.0" textLength="160.2" lengthAdjust="spacing">an average of the weights (EMA)</tspan></text>
+<text y="1873.3" xml:space="preserve" class="g43s2"><tspan x="603.0" class="g43s0" textLength="46.0" lengthAdjust="spacing">cells 7, 8</tspan><tspan x="649.0" textLength="56.9" lengthAdjust="spacing">, deep dive </tspan><tspan x="705.9" class="g43s0" textLength="13.0" lengthAdjust="spacing">15</tspan></text>
+<text y="1873.3" xml:space="preserve" class="g43s2"><tspan x="833.0" textLength="511.1" lengthAdjust="spacing">validation and the checkpoint use the average; in this run it trails the raw weights while the loss falls fast (</tspan><tspan x="1344.1" class="g43s0" textLength="22.7" lengthAdjust="spacing">2.56</tspan><tspan x="1366.8" textLength="41.6" lengthAdjust="spacing"> against </tspan><tspan x="1408.4" class="g43s0" textLength="22.7" lengthAdjust="spacing">2.08</tspan><tspan x="1431.1" textLength="15.3" lengthAdjust="spacing"> at </tspan><tspan x="1446.4" class="g43s0" textLength="48.0" lengthAdjust="spacing">epoch 20</tspan><tspan x="1494.3" textLength="149.2" lengthAdjust="spacing">) and matches them at the end</tspan></text>
+<line x1="34.0" y1="1882.6" x2="1846.0" y2="1882.6" class="g43s4"/>
+<text y="1899.3" xml:space="preserve" class="g43s32"><tspan x="43.0" class="g43s1" textLength="73.9" lengthAdjust="spacing">EVALUATION</tspan></text>
+<text y="1899.3" xml:space="preserve" class="g43s2"><tspan x="243.0" textLength="126.6" lengthAdjust="spacing">BLEU beside exact match</tspan></text>
+<text y="1899.3" xml:space="preserve" class="g43s2"><tspan x="603.0" class="g43s0" textLength="27.2" lengthAdjust="spacing">cell 9</tspan><tspan x="630.2" textLength="56.9" lengthAdjust="spacing">, deep dive </tspan><tspan x="687.1" class="g43s0" textLength="13.0" lengthAdjust="spacing">16</tspan></text>
+<text y="1899.3" xml:space="preserve" class="g43s2"><tspan x="833.0" class="g43s5" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="845.4" textLength="234.4" lengthAdjust="spacing">’s beam answer “the is sleeping peacefully” is </tspan><tspan x="1079.8" class="g43s0" textLength="16.8" lengthAdjust="spacing">0%</tspan><tspan x="1096.7" textLength="82.5" lengthAdjust="spacing"> exact but BLEU </tspan><tspan x="1179.2" class="g43s0" textLength="22.7" lengthAdjust="spacing">49.8</tspan><tspan x="1201.9" textLength="158.9" lengthAdjust="spacing">: partial credit for partial answers</tspan></text>
+<line x1="34.0" y1="1908.6" x2="1846.0" y2="1908.6" class="g43s4"/>
+<rect x="34.0" y="1661.8" width="1812.0" height="246.8" rx="0" class="g43s43"/>
+<line x1="234.0" y1="1661.8" x2="234.0" y2="1908.6" class="g43s4"/>
+<line x1="594.0" y1="1661.8" x2="594.0" y2="1908.6" class="g43s4"/>
+<line x1="824.0" y1="1661.8" x2="824.0" y2="1908.6" class="g43s4"/>
+<rect x="34.0" y="1934.6" width="1812.0" height="30.0" rx="6" class="g43s30"/>
+<path d="M38.50 1935.31 A5.50 5.50 0 0 0 34.50 1940.60 V1958.60 A5.50 5.50 0 0 0 38.50 1963.89 Z" class="g43s34"/>
+<text y="1954.6" xml:space="preserve" class="g43s35"><tspan x="50.0" class="g43s1" textLength="21.4" lengthAdjust="spacing">C · </tspan><tspan x="71.4" class="g43s16" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="86.2" class="g43s1" textLength="30.6" lengthAdjust="spacing"> and </tspan><tspan x="116.8" class="g43s16" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="146.2" class="g43s1" textLength="303.9" lengthAdjust="spacing">, both trained for real on the notebook’s two pairs</tspan></text>
+<text y="1954.6" xml:space="preserve" class="g43s36"><tspan x="468.2" textLength="191.1" lengthAdjust="spacing">the notebooks run here with PyTorch </tspan><tspan x="659.3" class="g43s0" textLength="16.9" lengthAdjust="spacing">2.8</tspan><tspan x="676.2" textLength="132.3" lengthAdjust="spacing">.0, same seed, same data</tspan></text>
+<text y="1982.6" xml:space="preserve" class="g43s37"><tspan x="38.0" class="g43s1" textLength="359.2" lengthAdjust="spacing">One run each, two sentences: an anecdote, not a measurement</tspan></text>
+<text y="2000.6" xml:space="preserve" class="g43s31"><tspan x="38.0" textLength="667.6" lengthAdjust="spacing">With two pairs, both models memorise them. What differs is how they get there and what their decoding does with it. Whether </tspan><tspan x="705.6" class="g43s26" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="732.8" textLength="406.9" lengthAdjust="spacing"> learns better in general needs many sentences and several runs: deep dive </tspan><tspan x="1139.6" class="g43s0" textLength="14.1" lengthAdjust="spacing">17</tspan><tspan x="1153.8" textLength="96.7" lengthAdjust="spacing"> does exactly that.</tspan></text>
+<rect x="34.0" y="2022.0" width="1812.0" height="24.0" rx="4" class="g43s30"/>
+<text y="2038.0" xml:space="preserve" class="g43s28"><tspan x="803.0" class="g43s44" textLength="11.9" lengthAdjust="spacing">v2</tspan></text>
+<text y="2038.0" xml:space="preserve" class="g43s28"><tspan x="1329.0" class="g43s44" textLength="23.8" lengthAdjust="spacing">v2.5</tspan></text>
+<text y="2063.4" xml:space="preserve" class="g43s29"><tspan x="43.0" class="g43s1" textLength="63.0" lengthAdjust="spacing">first logged </tspan><tspan x="106.0" class="g43s19" textLength="32.5" lengthAdjust="spacing">epoch</tspan><tspan x="138.5" class="g43s1" textLength="16.9" lengthAdjust="spacing"> at </tspan><tspan x="155.5" class="g43s0" textLength="31.2" lengthAdjust="spacing">100%</tspan><tspan x="186.7" class="g43s1" textLength="95.5" lengthAdjust="spacing"> training accuracy</tspan></text>
+<text y="2063.4" xml:space="preserve" class="g43s15"><tspan x="803.0" class="g43s0" textLength="13.6" lengthAdjust="spacing">60</tspan></text>
+<text y="2063.4" xml:space="preserve" class="g43s15"><tspan x="1329.0" class="g43s0" textLength="13.6" lengthAdjust="spacing">20</tspan></text>
+<line x1="34.0" y1="2073.0" x2="1846.0" y2="2073.0" class="g43s4"/>
+<rect x="34.0" y="2073.0" width="1812.0" height="27.0" rx="0" class="g43s21"/>
+<text y="2090.4" xml:space="preserve" class="g43s29"><tspan x="43.0" class="g43s19" textLength="32.5" lengthAdjust="spacing">epoch</tspan><tspan x="75.5" class="g43s1" textLength="229.0" lengthAdjust="spacing"> whose weights were kept (best validation)</tspan></text>
+<text y="2090.4" xml:space="preserve" class="g43s15"><tspan x="803.0" class="g43s0" textLength="13.6" lengthAdjust="spacing">99</tspan></text>
+<text y="2090.4" xml:space="preserve" class="g43s15"><tspan x="1329.0" class="g43s0" textLength="13.6" lengthAdjust="spacing">72</tspan></text>
+<line x1="34.0" y1="2100.0" x2="1846.0" y2="2100.0" class="g43s4"/>
+<text y="2117.4" xml:space="preserve" class="g43s29"><tspan x="43.0" class="g43s1" textLength="177.5" lengthAdjust="spacing">epochs run before early stopping</tspan></text>
+<text y="2117.4" xml:space="preserve" class="g43s15"><tspan x="803.0" class="g43s0" textLength="20.3" lengthAdjust="spacing">120</tspan></text>
+<text y="2117.4" xml:space="preserve" class="g43s15"><tspan x="1329.0" class="g43s0" textLength="13.6" lengthAdjust="spacing">93</tspan></text>
+<line x1="34.0" y1="2127.0" x2="1846.0" y2="2127.0" class="g43s4"/>
+<rect x="34.0" y="2127.0" width="1812.0" height="27.0" rx="0" class="g43s21"/>
+<text y="2144.4" xml:space="preserve" class="g43s29"><tspan x="43.0" class="g43s1" textLength="138.9" lengthAdjust="spacing">greedy, sampled answers</tspan></text>
+<text y="2144.4" xml:space="preserve" class="g43s15"><tspan x="803.0" textLength="103.6" lengthAdjust="spacing">both sentences right</tspan></text>
+<text y="2144.4" xml:space="preserve" class="g43s15"><tspan x="1329.0" textLength="103.6" lengthAdjust="spacing">both sentences right</tspan></text>
+<line x1="34.0" y1="2154.0" x2="1846.0" y2="2154.0" class="g43s4"/>
+<text y="2171.4" xml:space="preserve" class="g43s29"><tspan x="43.0" class="g43s19" textLength="45.6" lengthAdjust="spacing">Beam(4)</tspan><tspan x="88.6" class="g43s1" textLength="196.2" lengthAdjust="spacing"> on “the cat is sleeping on the sofa”</tspan></text>
+<text y="2171.4" xml:space="preserve" class="g43s15"><tspan x="803.0" textLength="142.3" lengthAdjust="spacing">“the is sleeping peacefully”</tspan></text>
+<text y="2171.4" xml:space="preserve" class="g43s15"><tspan x="1329.0" textLength="160.8" lengthAdjust="spacing">“the cat is sleeping peacefully”</tspan></text>
+<line x1="34.0" y1="2181.0" x2="1846.0" y2="2181.0" class="g43s4"/>
+<rect x="34.0" y="2181.0" width="1812.0" height="27.0" rx="0" class="g43s21"/>
+<text y="2198.4" xml:space="preserve" class="g43s29"><tspan x="43.0" class="g43s1" textLength="218.2" lengthAdjust="spacing">time for the whole notebook on this CPU</tspan></text>
+<text y="2198.4" xml:space="preserve" class="g43s15"><tspan x="803.0" class="g43s0" textLength="23.7" lengthAdjust="spacing">17.3</tspan><tspan x="826.7"> s</tspan></text>
+<text y="2198.4" xml:space="preserve" class="g43s15"><tspan x="1329.0" class="g43s0" textLength="23.7" lengthAdjust="spacing">15.6</tspan><tspan x="1352.7"> s</tspan></text>
+<line x1="34.0" y1="2208.0" x2="1846.0" y2="2208.0" class="g43s4"/>
+<rect x="34.0" y="2046.0" width="1812.0" height="162.0" rx="0" class="g43s43"/>
+<line x1="794.0" y1="2046.0" x2="794.0" y2="2208.0" class="g43s4"/>
+<line x1="1320.0" y1="2046.0" x2="1320.0" y2="2208.0" class="g43s4"/>
+<rect x="34.0" y="2232.0" width="1812.0" height="72.6" rx="6" class="g43s41"/>
+<path d="M38.50 2232.71 A5.50 5.50 0 0 0 34.50 2238.00 V2298.56 A5.50 5.50 0 0 0 38.50 2303.85 Z" class="g43s17"/>
+<text y="2258.0" xml:space="preserve" class="g43s37"><tspan x="50.0" class="g43s1" textLength="218.5" lengthAdjust="spacing">What this table can and cannot tell you</tspan></text>
+<text y="2275.5" xml:space="preserve" class="g43s31"><tspan x="50.0" textLength="432.2" lengthAdjust="spacing">The beam answer is the one difference that is not luck: it is the stopping rule. Put </tspan><tspan x="482.2" class="g43s26" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="509.4" textLength="59.2" lengthAdjust="spacing">’s stop on </tspan><tspan x="568.6" class="g43s26" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="582.2" textLength="149.3" lengthAdjust="spacing">’s own trained weights and </tspan><tspan x="731.5" class="g43s26" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="745.0" textLength="481.1" lengthAdjust="spacing">’s answer becomes “the cat is sleeping peacefully” — the same weights, a different rule (</tspan><tspan x="1226.2" class="g43s0" textLength="29.7" lengthAdjust="spacing">cell 2</tspan><tspan x="1255.9" textLength="260.8" lengthAdjust="spacing">c shows the search step by step). The epochs to </tspan><tspan x="1516.7" class="g43s0" textLength="32.5" lengthAdjust="spacing">100%</tspan><tspan x="1549.2" textLength="279.5" lengthAdjust="spacing"> are one seed on two sentences; read them as a hint</tspan></text>
+<text y="2293.0" xml:space="preserve" class="g43s31"><tspan x="50.0" textLength="25.3" lengthAdjust="spacing">only.</tspan></text>
+<line x1="28.0" y1="2330.6" x2="1852.0" y2="2330.6" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="2347.6" xml:space="preserve" class="g43s45"><tspan x="28.0" textLength="404.7" lengthAdjust="spacing">Two kinds of numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="432.7" class="g43s5" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="457.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="600.7" class="g43s0" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="616.9" textLength="234.8" lengthAdjust="spacing">.0 on its own two sentence pairs (CPU, seeded, </tspan><tspan x="851.6" class="g43s0" textLength="22.7" lengthAdjust="spacing">15.6</tspan><tspan x="874.3" textLength="181.0" lengthAdjust="spacing"> s): its printed lines, the loss of every </tspan><tspan x="1055.3" class="g43s5" textLength="31.1" lengthAdjust="spacing">epoch</tspan><tspan x="1086.4" textLength="450.0" lengthAdjust="spacing">, the checkpoint it kept. UNTRAINED numbers are a pure-Python trace of the same code on </tspan><tspan x="1536.4" class="g43s5" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1548.8" textLength="294.6" lengthAdjust="spacing">’s seeded starting weights, and every one of them has been</tspan></text>
+<text y="2362.6" xml:space="preserve" class="g43s45"><tspan x="28.0" textLength="352.6" lengthAdjust="spacing">checked against the notebook’s own PyTorch model (largest difference </tspan><tspan x="380.6" class="g43s0" textLength="39.5" lengthAdjust="spacing">1.3e-06</tspan><tspan x="420.2" textLength="156.5" lengthAdjust="spacing">). The notebook file is only read.</tspan></text>
+</svg>

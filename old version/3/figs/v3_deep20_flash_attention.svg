@@ -1,0 +1,679 @@
+<svg data-src="v3_deep20_flash_attention.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="4248" viewBox="0 0 1880 4248">
+<style>.txfig .g110s0{font-weight:600}.txfig .g110s1{fill:var(--code)}.txfig .g110s2{fill:var(--op)}.txfig .g110s3{font-weight:600;fill:var(--ink)}.txfig .g110s4{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g110s5{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g110s6{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g110s7{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g110s8{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g110s9{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g110s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g110s11{fill:var(--keepbg);stroke:var(--keep);stroke-width:0.6;opacity:1}.txfig .g110s12{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g110s13{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g110s14{fill:var(--cellbg);stroke:var(--hair);stroke-width:0.6;opacity:0.5}.txfig .g110s15{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g110s16{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g110s17{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g110s18{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g110s19{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g110s20{fill:var(--fn)}.txfig .g110s21{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g110s22{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g110s23{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g110s24{fill:var(--cellbg);stroke:var(--hair);stroke-width:1}.txfig .g110s25{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g110s26{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g110s27{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g110s28{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g110s29{fill:var(--num)}.txfig .g110s30{fill:var(--accent);stroke:none}.txfig .g110s31{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g110s32{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g110s33{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g110s34{fill:var(--keep);stroke:none}.txfig .g110s35{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9px;text-anchor:middle}.txfig .g110s36{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:end}.txfig .g110s37{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:middle}.txfig .g110s38{font-weight:600;fill:var(--ink2)}.txfig .g110s39{stroke:var(--ink3);stroke-width:1.2;stroke-linecap:round}.txfig .g110s40{fill:none;stroke:var(--ink3);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round}.txfig .g110s41{fill:var(--drop);stroke:none;stroke-width:1}.txfig .g110s42{fill:var(--keep);stroke:none;stroke-width:1}.txfig .g110s43{stroke:var(--s3);stroke-width:1.6;stroke-dasharray:4 3;stroke-linecap:round}.txfig .g110s44{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g110s45{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g110s46{fill:var(--attr)}.txfig .g110s47{fill:var(--cmt)}.txfig .g110s48{fill:var(--kw)}.txfig .g110s49{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g110s50{stroke:var(--gridline);stroke-width:1;stroke-linecap:round}.txfig .g110s51{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:end}.txfig .g110s52{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g110s53{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g110s54{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start}.txfig .g110s55{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g110s56{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:end}.txfig .g110s57{fill:var(--infobg);stroke:var(--infobd);stroke-width:1}.txfig .g110s58{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g110s59{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch110" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash110" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="4248" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v3 · DEEP DIVE 20 / 27</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="191.7" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)" textLength="166.4" lengthAdjust="spacing">FlashAttention</tspan><tspan x="358.1" class="g110s0" textLength="425.6" lengthAdjust="spacing"> — how it works, and when PyTorch uses it</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="177.8" lengthAdjust="spacing">the table the plain way builds · </tspan><tspan x="211.8" class="g110s19" textLength="51.5" lengthAdjust="spacing">softmax</tspan><tspan x="263.3" textLength="180.7" lengthAdjust="spacing"> ignores a constant · the online </tspan><tspan x="443.9" class="g110s19" textLength="51.5" lengthAdjust="spacing">softmax</tspan><tspan x="495.4" textLength="47.0" lengthAdjust="spacing"> on real </tspan><tspan x="542.4" class="g110s19" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="586.5" textLength="239.9" lengthAdjust="spacing"> · why it is exact · when PyTorch picks it · </tspan><tspan x="826.4" class="g110s19" textLength="66.2" lengthAdjust="spacing">is_causal</tspan><tspan x="892.6" textLength="17.3" lengthAdjust="spacing"> in </tspan><tspan x="909.9" class="g110s19" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="924.6" textLength="121.4" lengthAdjust="spacing">, measured · against </tspan><tspan x="1046.0" class="g110s19" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="1075.5" textLength="88.9" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="44.1" lengthAdjust="spacing">The tiny </tspan><tspan x="78.1" class="g110s8" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="91.1" textLength="86.3" lengthAdjust="spacing"> model (decoder </tspan><tspan x="177.4" class="g110s3" textLength="36.6" lengthAdjust="spacing">layer 0</tspan><tspan x="214.0">, </tspan><tspan x="220.4" class="g110s3" textLength="37.3" lengthAdjust="spacing">head 0</tspan><tspan x="257.7" textLength="244.1" lengthAdjust="spacing">, the last token of sequence B), the notebook’s </tspan><tspan x="501.7" class="g110s8" textLength="97.6" lengthAdjust="spacing">flash_attention</tspan><tspan x="599.3" textLength="64.6" lengthAdjust="spacing"> checked by </tspan><tspan x="663.9" class="g110s8" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="722.5" textLength="192.2" lengthAdjust="spacing">, and timings on this machine’s CPU.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="107.0" rx="8" class="g110s33"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V219.00 A7.50 7.50 0 0 0 39.50 226.07 Z" class="g110s34"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g110s0" textLength="33.8" lengthAdjust="spacing">How </tspan><tspan x="87.8" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.2px;font-weight:600;fill:var(--ink)" textLength="110.9" lengthAdjust="spacing">FlashAttention</tspan><tspan x="198.7" class="g110s0" textLength="242.5" lengthAdjust="spacing"> works — a page for understanding it</tspan></text>
+<text y="169.0" xml:space="preserve" class="g110s44"><tspan x="54.0" textLength="47.7" lengthAdjust="spacing">Softmax</tspan><tspan x="101.7"> </tspan><tspan x="105.6" textLength="40.5" lengthAdjust="spacing">divides</tspan><tspan x="146.0"> </tspan><tspan x="150.0" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="181.7"> </tspan><tspan x="185.6" textLength="31.8" lengthAdjust="spacing">score</tspan><tspan x="217.4"> </tspan><tspan x="221.3" textLength="13.7" lengthAdjust="spacing">by</tspan><tspan x="235.1"> </tspan><tspan x="239.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="257.0"> </tspan><tspan x="260.9" textLength="24.6" lengthAdjust="spacing">sum</tspan><tspan x="285.5"> </tspan><tspan x="289.4" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="300.3"> </tspan><tspan x="304.2" textLength="13.0" lengthAdjust="spacing">its</tspan><tspan x="317.2"> </tspan><tspan x="321.1" textLength="34.0" lengthAdjust="spacing">whole</tspan><tspan x="355.0"> </tspan><tspan x="358.9" textLength="24.6" lengthAdjust="spacing">row,</tspan><tspan x="383.5"> </tspan><tspan x="387.4" textLength="13.7" lengthAdjust="spacing">so</tspan><tspan x="401.1"> </tspan><tspan x="405.0" textLength="27.5" lengthAdjust="spacing">plain</tspan><tspan x="432.5"> </tspan><tspan x="436.4" textLength="49.9" lengthAdjust="spacing">attention</tspan><tspan x="486.3"> </tspan><tspan x="490.2" textLength="20.9" lengthAdjust="spacing">first</tspan><tspan x="511.1"> </tspan><tspan x="515.0" textLength="34.0" lengthAdjust="spacing">builds</tspan><tspan x="549.0"> </tspan><tspan x="552.9">a</tspan><tspan x="560.1"> </tspan><tspan x="564.0" textLength="28.2" lengthAdjust="spacing">table</tspan><tspan x="592.2"> </tspan><tspan x="596.1" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="607.0"> </tspan><tspan x="610.9" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="642.6"> </tspan><tspan x="646.5" textLength="32.5" lengthAdjust="spacing">query</tspan><tspan x="679.1"> </tspan><tspan x="683.0" textLength="41.9" lengthAdjust="spacing">against</tspan><tspan x="724.9"> </tspan><tspan x="728.8" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="760.6"> </tspan><tspan x="764.5" textLength="23.8" lengthAdjust="spacing">key:</tspan><tspan x="788.3"> </tspan><tspan x="792.2">L</tspan><tspan x="799.5"> </tspan><tspan x="803.4">×</tspan><tspan x="811.2"> </tspan><tspan x="815.1">L</tspan><tspan x="822.3"> </tspan><tspan x="826.2" textLength="50.6" lengthAdjust="spacing">numbers</tspan><tspan x="876.8"> </tspan><tspan x="880.7" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="899.5"> </tspan><tspan x="903.4" textLength="32.5" lengthAdjust="spacing">head.</tspan><tspan x="935.9"> </tspan><tspan x="939.8" class="g110s19" textLength="103.0" lengthAdjust="spacing">FlashAttention</tspan><tspan x="1042.8"> </tspan><tspan x="1046.7" textLength="28.2" lengthAdjust="spacing">(Dao</tspan><tspan x="1074.9"> </tspan><tspan x="1078.8" textLength="10.8" lengthAdjust="spacing">et</tspan><tspan x="1089.6"> </tspan><tspan x="1093.5" textLength="17.3" lengthAdjust="spacing">al.,</tspan><tspan x="1110.9"> </tspan><tspan x="1114.8" class="g110s3" textLength="30.6" lengthAdjust="spacing">2022</tspan><tspan x="1145.4">)</tspan><tspan x="1149.8"> </tspan><tspan x="1153.7" textLength="24.6" lengthAdjust="spacing">gets</tspan><tspan x="1178.2"> </tspan><tspan x="1182.1" textLength="40.5" lengthAdjust="spacing">exactly</tspan><tspan x="1222.6"> </tspan><tspan x="1226.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1244.6"> </tspan><tspan x="1248.5" textLength="31.8" lengthAdjust="spacing">same</tspan><tspan x="1280.3"> </tspan><tspan x="1284.2" textLength="41.9" lengthAdjust="spacing">answer</tspan><tspan x="1326.1"> </tspan><tspan x="1330.0" textLength="29.6" lengthAdjust="spacing">while</tspan><tspan x="1359.6"> </tspan><tspan x="1363.5" textLength="43.4" lengthAdjust="spacing">reading</tspan><tspan x="1406.9"> </tspan><tspan x="1410.8" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1428.8"> </tspan><tspan x="1432.7" textLength="26.7" lengthAdjust="spacing">keys</tspan><tspan x="1459.5"> </tspan><tspan x="1463.4">a</tspan><tspan x="1470.6"> </tspan><tspan x="1474.5" textLength="20.2" lengthAdjust="spacing">few</tspan><tspan x="1494.7"> </tspan><tspan x="1498.6" textLength="10.8" lengthAdjust="spacing">at</tspan><tspan x="1509.5"> </tspan><tspan x="1513.4">a</tspan><tspan x="1520.6"> </tspan><tspan x="1524.5" textLength="28.2" lengthAdjust="spacing">time,</tspan><tspan x="1552.7"> </tspan><tspan x="1556.6" textLength="45.5" lengthAdjust="spacing">keeping</tspan><tspan x="1602.1"> </tspan><tspan x="1606.0" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="1624.8"> </tspan><tspan x="1628.7" textLength="32.5" lengthAdjust="spacing">query</tspan><tspan x="1661.2"> </tspan><tspan x="1665.1" textLength="23.8" lengthAdjust="spacing">only</tspan><tspan x="1689.0"> </tspan><tspan x="1692.9">a</tspan><tspan x="1700.1"> </tspan><tspan x="1704.0" textLength="43.4" lengthAdjust="spacing">running</tspan><tspan x="1747.4"> </tspan><tspan x="1751.3" textLength="39.0" lengthAdjust="spacing">largest</tspan><tspan x="1790.3"> </tspan><tspan x="1794.2" textLength="31.8" lengthAdjust="spacing">score</tspan></text>
+<text y="188.0" xml:space="preserve" class="g110s44"><tspan x="54.0" textLength="14.4" lengthAdjust="spacing">m,</tspan><tspan x="68.4"> </tspan><tspan x="73.2">a</tspan><tspan x="80.4"> </tspan><tspan x="85.2" textLength="24.6" lengthAdjust="spacing">sum</tspan><tspan x="109.7"> </tspan><tspan x="114.5">ℓ</tspan><tspan x="122.3"> </tspan><tspan x="127.1" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="148.7"> </tspan><tspan x="153.5" textLength="14.5" lengthAdjust="spacing">an</tspan><tspan x="168.0"> </tspan><tspan x="172.7" textLength="36.1" lengthAdjust="spacing">output</tspan><tspan x="208.9"> </tspan><tspan x="213.6" textLength="10.8" lengthAdjust="spacing">o.</tspan><tspan x="224.5"> </tspan><tspan x="229.2" textLength="23.1" lengthAdjust="spacing">You</tspan><tspan x="252.3"> </tspan><tspan x="257.1" textLength="14.5" lengthAdjust="spacing">do</tspan><tspan x="271.6"> </tspan><tspan x="276.3" textLength="18.1" lengthAdjust="spacing">not</tspan><tspan x="294.4"> </tspan><tspan x="299.1" textLength="27.4" lengthAdjust="spacing">write</tspan><tspan x="326.6"> </tspan><tspan x="331.3" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="337.8"> </tspan><tspan x="342.6" textLength="49.1" lengthAdjust="spacing">yourself:</tspan><tspan x="391.7"> </tspan><tspan x="396.5" textLength="30.3" lengthAdjust="spacing">since</tspan><tspan x="426.8"> </tspan><tspan x="431.6" textLength="48.4" lengthAdjust="spacing">PyTorch</tspan><tspan x="480.0"> </tspan><tspan x="484.7" class="g110s3" textLength="19.2" lengthAdjust="spacing">2.0</tspan><tspan x="503.9"> </tspan><tspan x="508.7" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="515.2"> </tspan><tspan x="519.9" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="529.3"> </tspan><tspan x="534.1" textLength="23.8" lengthAdjust="spacing">built</tspan><tspan x="557.9"> </tspan><tspan x="562.7" textLength="21.0" lengthAdjust="spacing">into</tspan><tspan x="583.6"> </tspan><tspan x="588.4" class="g110s19" textLength="220.7" lengthAdjust="spacing">F.scaled_dot_product_attention</tspan><tspan x="809.1">,</tspan><tspan x="812.7"> </tspan><tspan x="817.4" textLength="33.2" lengthAdjust="spacing">which</tspan><tspan x="850.7"> </tspan><tspan x="855.4" textLength="29.6" lengthAdjust="spacing">picks</tspan><tspan x="885.0"> </tspan><tspan x="889.8" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="896.3"> </tspan><tspan x="901.1" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="915.5"> </tspan><tspan x="920.3" textLength="13.0" lengthAdjust="spacing">its</tspan><tspan x="933.3"> </tspan><tspan x="938.0" textLength="23.8" lengthAdjust="spacing">own</tspan><tspan x="961.9"> </tspan><tspan x="966.6">—</tspan><tspan x="979.6"> </tspan><tspan x="984.4" textLength="23.8" lengthAdjust="spacing">only</tspan><tspan x="1008.2"> </tspan><tspan x="1013.0" textLength="31.1" lengthAdjust="spacing">when</tspan><tspan x="1044.1"> </tspan><tspan x="1048.8" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1066.9"> </tspan><tspan x="1071.6" textLength="19.5" lengthAdjust="spacing">call</tspan><tspan x="1091.1"> </tspan><tspan x="1095.9" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1117.6"> </tspan><tspan x="1122.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1140.4"> </tspan><tspan x="1145.2" textLength="28.2" lengthAdjust="spacing">GPU</tspan><tspan x="1173.3"> </tspan><tspan x="1178.1" textLength="29.6" lengthAdjust="spacing">allow</tspan><tspan x="1207.7"> </tspan><tspan x="1212.5" textLength="45.5" lengthAdjust="spacing">(section</tspan><tspan x="1258.0"> </tspan><tspan x="1262.7" textLength="16.6" lengthAdjust="spacing">E).</tspan><tspan x="1279.4"> </tspan><tspan x="1284.1" textLength="24.6" lengthAdjust="spacing">This</tspan><tspan x="1308.7"> </tspan><tspan x="1313.4" textLength="53.5" lengthAdjust="spacing">notebook</tspan><tspan x="1366.9"> </tspan><tspan x="1371.7" textLength="28.2" lengthAdjust="spacing">does</tspan><tspan x="1399.9"> </tspan><tspan x="1404.6" textLength="18.1" lengthAdjust="spacing">not</tspan><tspan x="1422.7"> </tspan><tspan x="1427.4" textLength="60.0" lengthAdjust="spacing">implement</tspan><tspan x="1487.4"> </tspan><tspan x="1492.2" class="g110s19" textLength="103.0" lengthAdjust="spacing">FlashAttention</tspan><tspan x="1595.1">.</tspan><tspan x="1598.8"> </tspan><tspan x="1603.5" class="g110s19" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="1618.2"> </tspan><tspan x="1623.0" textLength="49.1" lengthAdjust="spacing">changes</tspan><tspan x="1672.1"> </tspan><tspan x="1676.9" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1698.6"> </tspan><tspan x="1703.3" textLength="54.9" lengthAdjust="spacing">argument</tspan><tspan x="1758.2"> </tspan><tspan x="1763.0" textLength="13.7" lengthAdjust="spacing">so</tspan><tspan x="1776.7"> </tspan><tspan x="1781.5" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="1803.2"> </tspan><tspan x="1807.9" textLength="18.1" lengthAdjust="spacing">the</tspan></text>
+<text y="207.0" xml:space="preserve" class="g110s44"><tspan x="54.0" textLength="237.6" lengthAdjust="spacing">decoder’s self-attention can qualify, and </tspan><tspan x="291.6" class="g110s3" textLength="32.2" lengthAdjust="spacing">cell 9</tspan><tspan x="323.8" textLength="661.1" lengthAdjust="spacing"> writes the algorithm out in plain PyTorch, to read and check. This page takes that algorithm apart on real numbers.</tspan></text>
+<text x="34.0" y="287.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">WHERE IT LIVES</text>
+<text y="309.5" xml:space="preserve" class="g110s45"><tspan x="34.0" textLength="135.4" lengthAdjust="spacing">how attention is computed —</tspan></text>
+<text y="324.7" xml:space="preserve" class="g110s45"><tspan x="34.0" textLength="133.0" lengthAdjust="spacing">the decoder’s self-attention,</tspan></text>
+<text y="340.0" xml:space="preserve" class="g110s45"><tspan x="34.0" textLength="102.1" lengthAdjust="spacing">without a mask tensor</tspan></text>
+<rect x="204.0" y="273.0" width="120.0" height="40.0" rx="6" class="g110s24"/>
+<text x="264.0" y="297.0" class="g110s25">source words</text>
+<line x1="327.0" y1="293.0" x2="347.0" y2="293.0" class="g110s39"/>
+<path d="M341.0 289.0 L347.0 293.0 L341.0 297.0" class="g110s40"/>
+<rect x="350.0" y="253.0" width="396.0" height="72.0" rx="8" class="g110s27"/>
+<text x="360.0" y="266.0" class="g110s52">encoder × 2</text>
+<rect x="360.0" y="273.0" width="182.0" height="40.0" rx="6" class="g110s24"/>
+<text x="451.0" y="297.0" class="g110s25">self-attention</text>
+<rect x="554.0" y="273.0" width="182.0" height="40.0" rx="6" class="g110s24"/>
+<text x="645.0" y="297.0" class="g110s25">feed-forward</text>
+<line x1="749.0" y1="293.0" x2="769.0" y2="293.0" class="g110s39"/>
+<path d="M763.0 289.0 L769.0 293.0 L763.0 297.0" class="g110s40"/>
+<rect x="772.0" y="253.0" width="588.0" height="72.0" rx="8" class="g110s27"/>
+<text x="782.0" y="266.0" class="g110s52">decoder × 2</text>
+<rect x="782.0" y="273.0" width="182.0" height="40.0" rx="6" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:1.8"/>
+<text x="873.0" y="297.0" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle">self-attention</text>
+<rect x="976.0" y="273.0" width="182.0" height="40.0" rx="6" class="g110s24"/>
+<text x="1067.0" y="297.0" class="g110s25">cross-attention</text>
+<rect x="1170.0" y="273.0" width="182.0" height="40.0" rx="6" class="g110s24"/>
+<text x="1261.0" y="297.0" class="g110s25">feed-forward</text>
+<line x1="1363.0" y1="293.0" x2="1383.0" y2="293.0" class="g110s39"/>
+<path d="M1377.0 289.0 L1383.0 293.0 L1377.0 297.0" class="g110s40"/>
+<rect x="1386.0" y="273.0" width="200.0" height="40.0" rx="6" class="g110s24"/>
+<text x="1486.0" y="290.0" class="g110s25">output layer</text>
+<text x="1486.0" y="305.0" class="g110s37">a score for every word</text>
+<line x1="1589.0" y1="293.0" x2="1609.0" y2="293.0" class="g110s39"/>
+<path d="M1603.0 289.0 L1609.0 293.0 L1603.0 297.0" class="g110s40"/>
+<rect x="1612.0" y="273.0" width="120.0" height="40.0" rx="6" class="g110s24"/>
+<text x="1672.0" y="297.0" class="g110s25">next word</text>
+<rect x="350.0" y="335.0" width="196.0" height="40.0" rx="6" class="g110s24"/>
+<text x="448.0" y="352.0" class="g110s25">optimizer</text>
+<text x="448.0" y="367.0" class="g110s37">how training updates</text>
+<rect x="554.0" y="335.0" width="182.0" height="40.0" rx="6" class="g110s24"/>
+<text x="645.0" y="359.0" class="g110s25">stored weights</text>
+<rect x="782.0" y="335.0" width="182.0" height="40.0" rx="6" class="g110s24"/>
+<text x="873.0" y="352.0" class="g110s25">KV cache</text>
+<text x="873.0" y="367.0" class="g110s37">kept while writing</text>
+<rect x="976.0" y="335.0" width="376.0" height="40.0" rx="6" class="g110s24"/>
+<text x="1164.0" y="352.0" class="g110s25">writing loop</text>
+<text x="1164.0" y="367.0" class="g110s37">one word per pass of the model</text>
+<rect x="1386.0" y="335.0" width="200.0" height="40.0" rx="6" class="g110s24"/>
+<text x="1486.0" y="352.0" class="g110s25">multi-token head</text>
+<text x="1486.0" y="367.0" class="g110s37">guesses the word after next</text>
+<text y="412.2" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px"><tspan x="34.0" textLength="105.6" lengthAdjust="spacing">The algorithm, as </tspan><tspan x="139.6" class="g110s3" textLength="32.7" lengthAdjust="spacing">cell 9</tspan><tspan x="172.3" textLength="341.9" lengthAdjust="spacing"> writes it out — to read and check; the model never calls it:</tspan></text>
+<rect x="946.0" y="399.0" width="900.0" height="250.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="417.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="956.0" class="g110s53" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="967.9" class="g110s0"> · </tspan><tspan x="977.2" class="g110s53" textLength="89.1" lengthAdjust="spacing">flash_attention</tspan><tspan x="1066.3" class="g110s0" textLength="291.4" lengthAdjust="spacing"> (simplified: the notebook also guards rows with no key yet)</tspan></text>
+<text x="956.0" y="440.0" xml:space="preserve" class="g110s28"><tspan class="g110s1">m</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">torch</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">full</tspan><tspan class="g110s2">(</tspan><tspan class="g110s1">Q</tspan><tspan class="g110s2">.</tspan><tspan class="g110s46">shape</tspan><tspan class="g110s2">[</tspan><tspan class="g110s2">:</tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">1</tspan><tspan class="g110s2">]</tspan><tspan class="g110s2">,</tspan><tspan class="g110s1"> </tspan><tspan class="g110s20">float</tspan><tspan class="g110s2">(</tspan><tspan style="fill:var(--str)">&quot;-inf&quot;</tspan><tspan class="g110s2">)</tspan><tspan class="g110s2">)</tspan><tspan class="g110s1">     </tspan><tspan class="g110s47"># the largest score so far</tspan></text>
+<text x="956.0" y="459.5" xml:space="preserve" class="g110s28"><tspan class="g110s1">l</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">torch</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">zeros</tspan><tspan class="g110s2">(</tspan><tspan class="g110s1">Q</tspan><tspan class="g110s2">.</tspan><tspan class="g110s46">shape</tspan><tspan class="g110s2">[</tspan><tspan class="g110s2">:</tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">1</tspan><tspan class="g110s2">]</tspan><tspan class="g110s2">)</tspan><tspan class="g110s1">                   </tspan><tspan class="g110s47"># the sum of exp(score - m)</tspan></text>
+<text x="956.0" y="479.0" xml:space="preserve" class="g110s28"><tspan class="g110s1">o</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">torch</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">zeros</tspan><tspan class="g110s2">(</tspan><tspan class="g110s1">Q</tspan><tspan class="g110s2">.</tspan><tspan class="g110s46">shape</tspan><tspan class="g110s2">)</tspan><tspan class="g110s1">                        </tspan><tspan class="g110s47"># the sum of exp(score - m) * value</tspan></text>
+<text x="956.0" y="498.5" xml:space="preserve" class="g110s28"><tspan class="g110s48">for</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">j</tspan><tspan class="g110s1"> </tspan><tspan class="g110s48">in</tspan><tspan class="g110s1"> </tspan><tspan class="g110s20">range</tspan><tspan class="g110s2">(</tspan><tspan class="g110s29">0</tspan><tspan class="g110s2">,</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">K</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">size</tspan><tspan class="g110s2">(</tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">2</tspan><tspan class="g110s2">)</tspan><tspan class="g110s2">,</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">block</tspan><tspan class="g110s2">)</tspan><tspan class="g110s2">:</tspan></text>
+<text x="956.0" y="518.0" xml:space="preserve" class="g110s28"><tspan class="g110s1">    </tspan><tspan class="g110s1">s</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">Q</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">@</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">K</tspan><tspan class="g110s2">[</tspan><tspan class="g110s2">.</tspan><tspan class="g110s2">.</tspan><tspan class="g110s2">.</tspan><tspan class="g110s2">,</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">j</tspan><tspan class="g110s2">:</tspan><tspan class="g110s1">j</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">+</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">block</tspan><tspan class="g110s2">,</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">:</tspan><tspan class="g110s2">]</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">transpose</tspan><tspan class="g110s2">(</tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">2</tspan><tspan class="g110s2">,</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">1</tspan><tspan class="g110s2">)</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">*</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">scale</tspan></text>
+<text x="956.0" y="537.5" xml:space="preserve" class="g110s28"><tspan class="g110s1">    </tspan><tspan class="g110s1">m_new</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">torch</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">maximum</tspan><tspan class="g110s2">(</tspan><tspan class="g110s1">m</tspan><tspan class="g110s2">,</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">s</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">amax</tspan><tspan class="g110s2">(</tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">1</tspan><tspan class="g110s2">)</tspan><tspan class="g110s2">)</tspan></text>
+<text x="956.0" y="557.0" xml:space="preserve" class="g110s28"><tspan class="g110s1">    </tspan><tspan class="g110s1">p</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">torch</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">exp</tspan><tspan class="g110s2">(</tspan><tspan class="g110s1">s</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">-</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">m_new</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">unsqueeze</tspan><tspan class="g110s2">(</tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">1</tspan><tspan class="g110s2">)</tspan><tspan class="g110s2">)</tspan><tspan class="g110s2">;</tspan><tspan class="g110s1">  </tspan><tspan class="g110s1">rescale</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">torch</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">exp</tspan><tspan class="g110s2">(</tspan><tspan class="g110s1">m</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">-</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">m_new</tspan><tspan class="g110s2">)</tspan></text>
+<text x="956.0" y="576.5" xml:space="preserve" class="g110s28"><tspan class="g110s1">    </tspan><tspan class="g110s1">l</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">rescale</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">*</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">l</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">+</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">p</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">sum</tspan><tspan class="g110s2">(</tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">1</tspan><tspan class="g110s2">)</tspan></text>
+<text x="956.0" y="596.0" xml:space="preserve" class="g110s28"><tspan class="g110s1">    </tspan><tspan class="g110s1">o</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">rescale</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">unsqueeze</tspan><tspan class="g110s2">(</tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">1</tspan><tspan class="g110s2">)</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">*</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">o</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">+</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">p</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">@</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">V</tspan><tspan class="g110s2">[</tspan><tspan class="g110s2">.</tspan><tspan class="g110s2">.</tspan><tspan class="g110s2">.</tspan><tspan class="g110s2">,</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">j</tspan><tspan class="g110s2">:</tspan><tspan class="g110s1">j</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">+</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">block</tspan><tspan class="g110s2">,</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">:</tspan><tspan class="g110s2">]</tspan></text>
+<text x="956.0" y="615.5" xml:space="preserve" class="g110s28"><tspan class="g110s1">    </tspan><tspan class="g110s1">m</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">=</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">m_new</tspan></text>
+<text x="956.0" y="635.0" xml:space="preserve" class="g110s28"><tspan class="g110s48">return</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">o</tspan><tspan class="g110s1"> </tspan><tspan class="g110s2">/</tspan><tspan class="g110s1"> </tspan><tspan class="g110s1">l</tspan><tspan class="g110s2">.</tspan><tspan class="g110s20">unsqueeze</tspan><tspan class="g110s2">(</tspan><tspan class="g110s2">-</tspan><tspan class="g110s29">1</tspan><tspan class="g110s2">)</tspan></text>
+<rect x="34.0" y="671.5" width="1812.0" height="30.0" rx="6" class="g110s16"/>
+<path d="M38.50 672.21 A5.50 5.50 0 0 0 34.50 677.50 V695.50 A5.50 5.50 0 0 0 38.50 700.79 Z" class="g110s30"/>
+<text y="691.5" xml:space="preserve" class="g110s31"><tspan x="50.0" class="g110s0" textLength="202.2" lengthAdjust="spacing">A · The table the plain way builds</tspan></text>
+<text y="691.5" xml:space="preserve" class="g110s32"><tspan x="270.2" textLength="143.8" lengthAdjust="spacing">one head of the real model (</tspan><tspan x="414.0" class="g110s8" textLength="58.6" lengthAdjust="spacing">d_k = 128</tspan><tspan x="472.6" textLength="90.7" lengthAdjust="spacing">); the memory for </tspan><tspan x="563.4" class="g110s3" textLength="65.7" lengthAdjust="spacing">4 sentences</tspan><tspan x="629.1"> × </tspan><tspan x="642.4" class="g110s3" textLength="43.4" lengthAdjust="spacing">4 heads</tspan><tspan x="685.7" textLength="15.3" lengthAdjust="spacing"> in </tspan><tspan x="701.1" class="g110s3" textLength="30.5" lengthAdjust="spacing">32-bit</tspan><tspan x="731.6" textLength="30.7" lengthAdjust="spacing"> floats</tspan></text>
+<rect x="34.0" y="717.5" width="1812.0" height="24.0" rx="4" class="g110s16"/>
+<text y="733.5" xml:space="preserve" class="g110s9"><tspan x="43.0" class="g110s0" textLength="32.8" lengthAdjust="spacing">tokens</tspan></text>
+<text y="733.5" xml:space="preserve" class="g110s9"><tspan x="343.0" class="g110s22" textLength="35.7" lengthAdjust="spacing">scores</tspan><tspan x="378.7" class="g110s0" textLength="114.5" lengthAdjust="spacing"> in the table (one head)</tspan></text>
+<text y="733.5" xml:space="preserve" class="g110s9"><tspan x="863.0" class="g110s0" textLength="46.4" lengthAdjust="spacing">numbers </tspan><tspan x="909.4" class="g110s22" textLength="83.2" lengthAdjust="spacing">FlashAttention</tspan><tspan x="992.6" class="g110s0" textLength="39.6" lengthAdjust="spacing"> keeps (</tspan><tspan x="1032.2" class="g110s22" textLength="77.2" lengthAdjust="spacing">L × (2 + 128)</tspan><tspan x="1109.4" class="g110s0">)</tspan></text>
+<text y="733.5" xml:space="preserve" class="g110s9"><tspan x="1423.0" class="g110s0" textLength="48.9" lengthAdjust="spacing">the table, </tspan><tspan x="1471.9" class="g110s38" textLength="58.7" lengthAdjust="spacing">4 × 4 heads</tspan></text>
+<text x="43.0" y="758.4" class="g110s5">64</text>
+<text x="343.0" y="758.4" class="g110s5">4,096</text>
+<text x="863.0" y="758.4" class="g110s5">8,320</text>
+<text x="1423.0" y="758.4" class="g110s5">0.3 MB</text>
+<line x1="34.0" y1="767.5" x2="1846.0" y2="767.5" class="g110s4"/>
+<rect x="34.0" y="767.5" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text x="43.0" y="784.4" class="g110s5">256</text>
+<text x="343.0" y="784.4" class="g110s5">65,536</text>
+<text x="863.0" y="784.4" class="g110s5">33,280</text>
+<text x="1423.0" y="784.4" class="g110s5">4.2 MB</text>
+<line x1="34.0" y1="793.5" x2="1846.0" y2="793.5" class="g110s4"/>
+<text x="43.0" y="810.4" class="g110s5">1,024</text>
+<text x="343.0" y="810.4" class="g110s5">1,048,576</text>
+<text x="863.0" y="810.4" class="g110s5">133,120</text>
+<text x="1423.0" y="810.4" class="g110s5">67.1 MB</text>
+<line x1="34.0" y1="819.5" x2="1846.0" y2="819.5" class="g110s4"/>
+<rect x="34.0" y="819.5" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text x="43.0" y="836.4" class="g110s5">2,048</text>
+<text x="343.0" y="836.4" class="g110s5">4,194,304</text>
+<text x="863.0" y="836.4" class="g110s5">266,240</text>
+<text x="1423.0" y="836.4" class="g110s5">268.4 MB</text>
+<line x1="34.0" y1="845.5" x2="1846.0" y2="845.5" class="g110s4"/>
+<text x="43.0" y="862.4" class="g110s5">8,192</text>
+<text x="343.0" y="862.4" class="g110s5">67,108,864</text>
+<text x="863.0" y="862.4" class="g110s5">1,064,960</text>
+<text x="1423.0" y="862.4" class="g110s5">4,295 MB</text>
+<line x1="34.0" y1="871.5" x2="1846.0" y2="871.5" class="g110s4"/>
+<rect x="34.0" y="741.5" width="1812.0" height="130.0" rx="0" class="g110s27"/>
+<line x1="334.0" y1="741.5" x2="334.0" y2="871.5" class="g110s4"/>
+<line x1="854.0" y1="741.5" x2="854.0" y2="871.5" class="g110s4"/>
+<line x1="1414.0" y1="741.5" x2="1414.0" y2="871.5" class="g110s4"/>
+<text x="34.0" y="899.5" class="g110s54">memory for 4 sentences × 4 heads, 32-bit (check3.py)</text>
+<rect x="34.0" y="909.5" width="14.0" height="10.0" rx="2" class="g110s41"/>
+<text x="54.0" y="918.5" class="g110s55">the whole table of scores</text>
+<rect x="200.8" y="909.5" width="14.0" height="10.0" rx="2" class="g110s42"/>
+<text x="220.8" y="918.5" class="g110s55">FlashAttention’s running m, ℓ and o</text>
+<text x="1846.0" y="918.5" class="g110s56">log scale: each step up is ×10</text>
+<line x1="34.0" y1="1115.5" x2="1846.0" y2="1115.5" style="stroke:var(--grid);stroke-width:1;stroke-linecap:round"/>
+<rect x="283.0" y="1092.2" width="50.0" height="23.3" rx="2" class="g110s41"/>
+<text x="308.0" y="1087.2" class="g110s23">0.26 MB</text>
+<rect x="339.0" y="1082.2" width="50.0" height="33.3" rx="2" class="g110s42"/>
+<text x="364.0" y="1077.2" class="g110s23">0.53 MB</text>
+<text x="336.0" y="1131.5" class="g110s49">64 words</text>
+<rect x="887.0" y="1014.1" width="50.0" height="101.4" rx="2" class="g110s41"/>
+<text x="912.0" y="1009.1" class="g110s23">67 MB</text>
+<rect x="943.0" y="1043.2" width="50.0" height="72.3" rx="2" class="g110s42"/>
+<text x="968.0" y="1038.2" class="g110s23">8.52 MB</text>
+<text x="940.0" y="1131.5" class="g110s49">1,024 words</text>
+<rect x="1491.0" y="955.5" width="50.0" height="160.0" rx="2" class="g110s41"/>
+<text x="1516.0" y="950.5" class="g110s23">4,295 MB</text>
+<rect x="1547.0" y="1013.9" width="50.0" height="101.6" rx="2" class="g110s42"/>
+<text x="1572.0" y="1008.9" class="g110s23">68 MB</text>
+<text x="1544.0" y="1131.5" class="g110s49">8,192 words</text>
+<rect x="34.0" y="1145.5" width="1812.0" height="55.0" rx="6" class="g110s57"/>
+<path d="M38.50 1146.21 A5.50 5.50 0 0 0 34.50 1151.50 V1194.54 A5.50 5.50 0 0 0 38.50 1199.83 Z" class="g110s30"/>
+<text y="1171.5" xml:space="preserve" class="g110s26"><tspan x="50.0" class="g110s0" textLength="78.5" lengthAdjust="spacing">How to read it</tspan></text>
+<text y="1189.0" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="480.2" lengthAdjust="spacing">Each step up the scale is ten times more memory. Eight times more words make the table </tspan><tspan x="530.2" class="g110s3" textLength="48.1" lengthAdjust="spacing">64 times</tspan><tspan x="578.2" textLength="220.1" lengthAdjust="spacing"> bigger — the square of the length — but </tspan><tspan x="798.4" class="g110s10" textLength="95.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="893.4" textLength="135.3" lengthAdjust="spacing">’s running numbers only </tspan><tspan x="1028.7" class="g110s3" textLength="41.0" lengthAdjust="spacing">8 times</tspan><tspan x="1069.7" textLength="58.0" lengthAdjust="spacing"> bigger. At </tspan><tspan x="1127.7" class="g110s3" textLength="51.6" lengthAdjust="spacing">64 words</tspan><tspan x="1179.3" textLength="198.8" lengthAdjust="spacing"> the table is even the smaller one; by </tspan><tspan x="1378.1" class="g110s3" textLength="69.3" lengthAdjust="spacing">8,192 words</tspan><tspan x="1447.4" textLength="24.7" lengthAdjust="spacing"> it is </tspan><tspan x="1472.1" class="g110s3" textLength="48.1" lengthAdjust="spacing">63 times</tspan><tspan x="1520.1" textLength="37.3" lengthAdjust="spacing"> larger.</tspan></text>
+<rect x="34.0" y="1220.5" width="1812.0" height="30.0" rx="6" class="g110s16"/>
+<path d="M38.50 1221.25 A5.50 5.50 0 0 0 34.50 1226.54 V1244.54 A5.50 5.50 0 0 0 38.50 1249.83 Z" class="g110s30"/>
+<text y="1240.5" xml:space="preserve" class="g110s31"><tspan x="50.0" class="g110s0" textLength="187.7" lengthAdjust="spacing">B · Softmax ignores a constant</tspan></text>
+<text y="1240.5" xml:space="preserve" class="g110s32"><tspan x="255.7" textLength="19.2" lengthAdjust="spacing">the </tspan><tspan x="274.8" class="g110s3" textLength="46.1" lengthAdjust="spacing">7 scores</tspan><tspan x="320.9" textLength="63.0" lengthAdjust="spacing"> of “efully”, </tspan><tspan x="383.9" class="g110s3" textLength="37.3" lengthAdjust="spacing">head 0</tspan><tspan x="421.2" textLength="313.2" lengthAdjust="spacing">: subtract nothing, or subtract the largest — the same weights</tspan></text>
+<text y="1268.5" xml:space="preserve" class="g110s26"><tspan x="38.0" class="g110s0" textLength="94.7" lengthAdjust="spacing">Why this matters</tspan></text>
+<text y="1286.5" xml:space="preserve" class="g110s15"><tspan x="38.0" textLength="270.1" lengthAdjust="spacing">Subtract the same number c from every score and </tspan><tspan x="308.1" class="g110s10" textLength="47.5" lengthAdjust="spacing">softmax</tspan><tspan x="355.6" textLength="648.2" lengthAdjust="spacing"> gives the same weights: e^c cancels above and below the line. Subtracting the largest score keeps every e^(…) between </tspan><tspan x="1003.9" class="g110s3">0</tspan><tspan x="1010.9" textLength="26.7" lengthAdjust="spacing"> and </tspan><tspan x="1037.6" class="g110s3">1</tspan><tspan x="1044.7" textLength="332.4" lengthAdjust="spacing">. And when a larger score turns up later, one multiplication, e^(</tspan><tspan x="1377.1" class="g110s10" textLength="34.0" lengthAdjust="spacing">m_old</tspan><tspan x="1411.1"> − </tspan><tspan x="1425.0" class="g110s10" textLength="34.0" lengthAdjust="spacing">m_new</tspan><tspan x="1458.9" textLength="244.8" lengthAdjust="spacing">), brings everything summed so far up to date.</tspan></text>
+<rect x="34.0" y="1307.9" width="1812.0" height="24.0" rx="4" class="g110s16"/>
+<text y="1323.9" xml:space="preserve" class="g110s9"><tspan x="343.0" class="g110s0">“</tspan><tspan x="352.2" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--accent)" textLength="29.7" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="384.4" class="g110s0">”</tspan></text>
+<text y="1323.9" xml:space="preserve" class="g110s9"><tspan x="559.0" class="g110s0" textLength="28.8" lengthAdjust="spacing">“the”</tspan></text>
+<text y="1323.9" xml:space="preserve" class="g110s9"><tspan x="775.0" class="g110s0" textLength="28.2" lengthAdjust="spacing">“cat”</tspan></text>
+<text y="1323.9" xml:space="preserve" class="g110s9"><tspan x="991.0" class="g110s0" textLength="21.4" lengthAdjust="spacing">“is”</tspan></text>
+<text y="1323.9" xml:space="preserve" class="g110s9"><tspan x="1207.0" class="g110s0" textLength="54.8" lengthAdjust="spacing">“sleeping”</tspan></text>
+<text y="1323.9" xml:space="preserve" class="g110s9"><tspan x="1423.0" class="g110s0" textLength="37.5" lengthAdjust="spacing">“peac”</tspan></text>
+<text y="1323.9" xml:space="preserve" class="g110s9"><tspan x="1639.0" class="g110s0" textLength="39.3" lengthAdjust="spacing">“efully”</tspan></text>
+<text y="1347.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="37.6" lengthAdjust="spacing">score s</tspan></text>
+<text x="343.0" y="1347.7" class="g110s6">-1.7680</text>
+<text x="559.0" y="1347.7" class="g110s6">1.3796</text>
+<text x="775.0" y="1347.7" class="g110s6">-1.9726</text>
+<text x="991.0" y="1347.7" class="g110s6">0.0592</text>
+<text x="1207.0" y="1347.7" class="g110s6">0.4383</text>
+<text x="1423.0" y="1347.7" class="g110s6">1.4209</text>
+<text x="1639.0" y="1347.7" class="g110s6">-2.2469</text>
+<line x1="34.0" y1="1355.9" x2="1846.0" y2="1355.9" class="g110s4"/>
+<rect x="34.0" y="1355.9" width="1812.0" height="24.0" rx="0" class="g110s12"/>
+<text y="1371.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="17.8" lengthAdjust="spacing">e^s</tspan></text>
+<text x="343.0" y="1371.7" class="g110s6">0.1707</text>
+<text x="559.0" y="1371.7" class="g110s6">3.9732</text>
+<text x="775.0" y="1371.7" class="g110s6">0.1391</text>
+<text x="991.0" y="1371.7" class="g110s6">1.0610</text>
+<text x="1207.0" y="1371.7" class="g110s6">1.5501</text>
+<text x="1423.0" y="1371.7" class="g110s6">4.1410</text>
+<text x="1639.0" y="1371.7" class="g110s6">0.1057</text>
+<line x1="34.0" y1="1379.9" x2="1846.0" y2="1379.9" class="g110s4"/>
+<text y="1395.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="53.3" lengthAdjust="spacing">e^s ÷ sum</tspan></text>
+<text x="343.0" y="1395.7" class="g110s6">0.0153</text>
+<text x="559.0" y="1395.7" class="g110s6">0.3566</text>
+<text x="775.0" y="1395.7" class="g110s6">0.0125</text>
+<text x="991.0" y="1395.7" class="g110s6">0.0952</text>
+<text x="1207.0" y="1395.7" class="g110s6">0.1391</text>
+<text x="1423.0" y="1395.7" class="g110s6">0.3717</text>
+<text x="1639.0" y="1395.7" class="g110s6">0.0095</text>
+<line x1="34.0" y1="1403.9" x2="1846.0" y2="1403.9" class="g110s4"/>
+<rect x="34.0" y="1403.9" width="1812.0" height="24.0" rx="0" class="g110s12"/>
+<text y="1419.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="55.2" lengthAdjust="spacing">e^(s − m), </tspan><tspan x="98.2" class="g110s13" textLength="62.2" lengthAdjust="spacing">m = 1.4209</tspan></text>
+<text x="343.0" y="1419.7" class="g110s6">0.0412</text>
+<text x="559.0" y="1419.7" class="g110s6">0.9595</text>
+<text x="775.0" y="1419.7" class="g110s6">0.0336</text>
+<text x="991.0" y="1419.7" class="g110s6">0.2562</text>
+<text x="1207.0" y="1419.7" class="g110s6">0.3743</text>
+<text x="1423.0" y="1419.7" class="g110s6">1.0000</text>
+<text x="1639.0" y="1419.7" class="g110s6">0.0255</text>
+<line x1="34.0" y1="1427.9" x2="1846.0" y2="1427.9" class="g110s4"/>
+<text y="1443.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="84.2" lengthAdjust="spacing">e^(s − m) ÷ sum</tspan></text>
+<text x="343.0" y="1443.7" class="g110s6">0.0153</text>
+<text x="559.0" y="1443.7" class="g110s6">0.3566</text>
+<text x="775.0" y="1443.7" class="g110s6">0.0125</text>
+<text x="991.0" y="1443.7" class="g110s6">0.0952</text>
+<text x="1207.0" y="1443.7" class="g110s6">0.1391</text>
+<text x="1423.0" y="1443.7" class="g110s6">0.3717</text>
+<text x="1639.0" y="1443.7" class="g110s6">0.0095</text>
+<line x1="34.0" y1="1451.9" x2="1846.0" y2="1451.9" class="g110s4"/>
+<rect x="34.0" y="1331.9" width="1812.0" height="120.0" rx="0" class="g110s27"/>
+<line x1="334.0" y1="1331.9" x2="334.0" y2="1451.9" class="g110s4"/>
+<line x1="550.0" y1="1331.9" x2="550.0" y2="1451.9" class="g110s4"/>
+<line x1="766.0" y1="1331.9" x2="766.0" y2="1451.9" class="g110s4"/>
+<line x1="982.0" y1="1331.9" x2="982.0" y2="1451.9" class="g110s4"/>
+<line x1="1198.0" y1="1331.9" x2="1198.0" y2="1451.9" class="g110s4"/>
+<line x1="1414.0" y1="1331.9" x2="1414.0" y2="1451.9" class="g110s4"/>
+<line x1="1630.0" y1="1331.9" x2="1630.0" y2="1451.9" class="g110s4"/>
+<rect x="34.0" y="1475.9" width="1812.0" height="30.0" rx="6" class="g110s16"/>
+<path d="M38.50 1476.65 A5.50 5.50 0 0 0 34.50 1481.94 V1499.94 A5.50 5.50 0 0 0 38.50 1505.23 Z" class="g110s30"/>
+<text y="1495.9" xml:space="preserve" class="g110s31"><tspan x="50.0" class="g110s0" textLength="89.6" lengthAdjust="spacing">C · The online </tspan><tspan x="139.6" class="g110s19" textLength="51.5" lengthAdjust="spacing">softmax</tspan><tspan x="191.1" class="g110s0" textLength="94.2" lengthAdjust="spacing">, block by block</tspan></text>
+<text y="1495.9" xml:space="preserve" class="g110s32"><tspan x="303.3" textLength="128.5" lengthAdjust="spacing">the same row, keys read </tspan><tspan x="431.8" class="g110s3">2</tspan><tspan x="438.6" textLength="92.7" lengthAdjust="spacing"> at a time — what </tspan><tspan x="531.2" class="g110s8" textLength="97.6" lengthAdjust="spacing">flash_attention</tspan><tspan x="628.8" textLength="118.3" lengthAdjust="spacing"> keeps after each block</tspan></text>
+<text x="147.0" y="1533.9" class="g110s35">&lt;SOS&gt;</text>
+<text x="193.0" y="1533.9" class="g110s35">the</text>
+<text x="239.0" y="1533.9" class="g110s35">cat</text>
+<text x="285.0" y="1533.9" class="g110s35">is</text>
+<text x="331.0" y="1533.9" class="g110s35">sleep</text>
+<text x="377.0" y="1533.9" class="g110s35">peac</text>
+<text x="423.0" y="1533.9" class="g110s35">efull</text>
+<text x="118.0" y="1572.3" class="g110s36">&lt;SOS&gt;</text>
+<rect x="125.0" y="1542.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="171.0" y="1542.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="217.0" y="1542.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="263.0" y="1542.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="309.0" y="1542.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="355.0" y="1542.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="401.0" y="1542.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<text x="118.0" y="1618.3" class="g110s36">the</text>
+<rect x="125.0" y="1588.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="171.0" y="1588.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="217.0" y="1588.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="263.0" y="1588.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="309.0" y="1588.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="355.0" y="1588.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="401.0" y="1588.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<text x="118.0" y="1664.3" class="g110s36">cat</text>
+<rect x="125.0" y="1634.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="171.0" y="1634.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="217.0" y="1634.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="263.0" y="1634.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="309.0" y="1634.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="355.0" y="1634.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="401.0" y="1634.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<text x="118.0" y="1710.3" class="g110s36">is</text>
+<rect x="125.0" y="1680.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="171.0" y="1680.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="217.0" y="1680.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="263.0" y="1680.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="309.0" y="1680.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="355.0" y="1680.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="401.0" y="1680.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<text x="118.0" y="1756.3" class="g110s36">sleeping</text>
+<rect x="125.0" y="1726.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="171.0" y="1726.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="217.0" y="1726.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="263.0" y="1726.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="309.0" y="1726.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="355.0" y="1726.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<rect x="401.0" y="1726.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<text x="118.0" y="1802.3" class="g110s36">peac</text>
+<rect x="125.0" y="1772.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="171.0" y="1772.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="217.0" y="1772.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="263.0" y="1772.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="309.0" y="1772.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="355.0" y="1772.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="401.0" y="1772.9" width="44.0" height="44.0" rx="3" class="g110s14"/>
+<text x="118.0" y="1848.3" class="g110s36">efully</text>
+<rect x="125.0" y="1818.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="171.0" y="1818.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="217.0" y="1818.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="263.0" y="1818.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="309.0" y="1818.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="355.0" y="1818.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<rect x="401.0" y="1818.9" width="44.0" height="44.0" rx="3" class="g110s11"/>
+<line x1="124.0" y1="1537.9" x2="124.0" y2="1867.9" class="g110s43"/>
+<line x1="216.0" y1="1537.9" x2="216.0" y2="1867.9" class="g110s43"/>
+<line x1="308.0" y1="1537.9" x2="308.0" y2="1867.9" class="g110s43"/>
+<line x1="400.0" y1="1537.9" x2="400.0" y2="1867.9" class="g110s43"/>
+<rect x="124.0" y="1817.9" width="322.0" height="46.0" rx="3" style="fill:none;stroke:var(--s3);stroke-width:2"/>
+<text x="170.0" y="1881.9" class="g110s23">m 1.38</text>
+<text x="170.0" y="1895.9" class="g110s23">ℓ 1.04</text>
+<text x="262.0" y="1881.9" class="g110s23">m 1.38</text>
+<text x="262.0" y="1895.9" class="g110s23">ℓ 1.34</text>
+<text x="354.0" y="1881.9" class="g110s23">m 1.42</text>
+<text x="354.0" y="1895.9" class="g110s23">ℓ 2.66</text>
+<text x="423.0" y="1881.9" class="g110s23">m 1.42</text>
+<text x="423.0" y="1895.9" class="g110s23">ℓ 2.69</text>
+<text x="486.0" y="1551.9" class="g110s54">the table of scores: a row per query, a column per key</text>
+<text y="1573.4" xml:space="preserve" class="g110s7"><tspan x="486.0" textLength="38.4" lengthAdjust="spacing">Green: </tspan><tspan x="524.4" class="g110s8" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="563.4" textLength="428.8" lengthAdjust="spacing"> a query needs. Pale: keys in a query’s future — causal attention never reads them.</tspan></text>
+<text y="1590.1" xml:space="preserve" class="g110s7"><tspan x="486.0" textLength="204.5" lengthAdjust="spacing">Dashed lines cut the keys into blocks of </tspan><tspan x="690.5" class="g110s3">2</tspan><tspan x="697.3" textLength="300.2" lengthAdjust="spacing">. The outlined row is “efully”: under each block, its running</tspan></text>
+<text y="1606.8" xml:space="preserve" class="g110s7"><tspan x="486.0" textLength="491.4" lengthAdjust="spacing">largest score m and sum ℓ after that block. The table itself is never built: only these few numbers</tspan></text>
+<text y="1623.5" xml:space="preserve" class="g110s7"><tspan x="486.0" textLength="130.4" lengthAdjust="spacing">travel from block to block.</tspan></text>
+<line x1="1080.0" y1="1883.9" x2="1836.0" y2="1883.9" class="g110s50"/>
+<text x="1074.0" y="1887.9" class="g110s51">0</text>
+<line x1="1080.0" y1="1706.9" x2="1836.0" y2="1706.9" class="g110s50"/>
+<text x="1074.0" y="1710.9" class="g110s51">1.55</text>
+<line x1="1080.0" y1="1529.9" x2="1836.0" y2="1529.9" class="g110s50"/>
+<text x="1074.0" y="1533.9" class="g110s51">3.09</text>
+<text x="1080.0" y="1899.9" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start">block 0</text>
+<text x="1836.0" y="1899.9" class="g110s56">block 4</text>
+<path d="M1269.0 1726.1 L1458.0 1726.1 L1647.0 1721.4 L1836.0 1721.4" style="fill:none;stroke:var(--drop);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"/>
+<line x1="1090.0" y1="1535.9" x2="1108.0" y2="1535.9" style="stroke:var(--drop);stroke-width:2;stroke-linecap:round"/>
+<text x="1114.0" y="1539.9" class="g110s58">m: the largest score so far</text>
+<path d="M1080.0 1883.9 L1269.0 1764.6 L1458.0 1730.0 L1647.0 1579.0 L1836.0 1576.1" style="fill:none;stroke:var(--keep);stroke-width:2;stroke-linejoin:round;stroke-linecap:round"/>
+<line x1="1270.2" y1="1535.9" x2="1288.2" y2="1535.9" style="stroke:var(--keep);stroke-width:2;stroke-linecap:round"/>
+<text x="1294.2" y="1539.9" class="g110s58">ℓ: the running sum (0 before any block)</text>
+<rect x="34.0" y="1925.9" width="1812.0" height="24.0" rx="4" class="g110s16"/>
+<text y="1941.9" xml:space="preserve" class="g110s9"><tspan x="173.0" class="g110s0" textLength="22.9" lengthAdjust="spacing">keys</tspan></text>
+<text y="1941.9" xml:space="preserve" class="g110s9"><tspan x="473.0" class="g110s0" textLength="24.7" lengthAdjust="spacing">their </tspan><tspan x="497.7" class="g110s22" textLength="35.7" lengthAdjust="spacing">scores</tspan></text>
+<text y="1941.9" xml:space="preserve" class="g110s9"><tspan x="733.0" class="g110s0" textLength="43.9" lengthAdjust="spacing">m before</tspan></text>
+<text y="1941.9" xml:space="preserve" class="g110s9"><tspan x="913.0" class="g110s0" textLength="34.6" lengthAdjust="spacing">m after</tspan></text>
+<text y="1941.9" xml:space="preserve" class="g110s9"><tspan x="1093.0" class="g110s0" textLength="35.9" lengthAdjust="spacing">rescale</tspan></text>
+<text y="1941.9" xml:space="preserve" class="g110s9"><tspan x="1273.0" class="g110s0">l</tspan></text>
+<text y="1941.9" xml:space="preserve" class="g110s9"><tspan x="1453.0" class="g110s0">o</tspan></text>
+<text y="1966.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="30.5" lengthAdjust="spacing">block </tspan><tspan x="73.5" class="g110s3">1</tspan></text>
+<rect x="179.6" y="1956.8" width="36.1" height="13.4" rx="3" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8"/>
+<text y="1966.7" xml:space="preserve" class="g110s18"><tspan x="173.0">“</tspan><tspan x="182.1" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--accent)" textLength="31.1" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="215.7" textLength="41.2" lengthAdjust="spacing">”, “the”</tspan></text>
+<text x="473.0" y="1966.7" class="g110s6">-1.7680, 1.3796</text>
+<text x="733.0" y="1966.7" class="g110s6">−∞</text>
+<text x="913.0" y="1966.7" class="g110s6">1.3796</text>
+<text x="1093.0" y="1966.7" class="g110s6">0.0000</text>
+<text x="1273.0" y="1966.7" class="g110s6">1.0430</text>
+<text x="1453.0" y="1966.7" class="g110s6">(-6.9875, 3.3677)</text>
+<line x1="34.0" y1="1975.9" x2="1846.0" y2="1975.9" class="g110s4"/>
+<rect x="34.0" y="1975.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="1992.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="30.5" lengthAdjust="spacing">block </tspan><tspan x="73.5" class="g110s3">2</tspan></text>
+<text y="1992.7" xml:space="preserve" class="g110s18"><tspan x="173.0" textLength="55.1" lengthAdjust="spacing">“cat”, “is”</tspan></text>
+<text x="473.0" y="1992.7" class="g110s6">-1.9726, 0.0592</text>
+<text x="733.0" y="1992.7" class="g110s6">1.3796</text>
+<text x="913.0" y="1992.7" class="g110s6">1.3796</text>
+<text x="1093.0" y="1992.7" class="g110s6">1.0000</text>
+<text x="1273.0" y="1992.7" class="g110s6">1.3450</text>
+<text x="1453.0" y="1992.7" class="g110s6">(-4.3082, 4.5014)</text>
+<line x1="34.0" y1="2001.9" x2="1846.0" y2="2001.9" class="g110s4"/>
+<text y="2018.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="30.5" lengthAdjust="spacing">block </tspan><tspan x="73.5" class="g110s3">3</tspan></text>
+<text y="2018.7" xml:space="preserve" class="g110s18"><tspan x="173.0" textLength="97.3" lengthAdjust="spacing">“sleeping”, “peac”</tspan></text>
+<text x="473.0" y="2018.7" class="g110s6">0.4383, 1.4209</text>
+<text x="733.0" y="2018.7" class="g110s6">1.3796</text>
+<text x="913.0" y="2018.7" class="g110s6">1.4209</text>
+<text x="1093.0" y="2018.7" class="g110s6">0.9595</text>
+<text x="1273.0" y="2018.7" class="g110s6">2.6648</text>
+<text x="1453.0" y="2018.7" class="g110s6">(7.0083, 11.6592)</text>
+<line x1="34.0" y1="2027.9" x2="1846.0" y2="2027.9" class="g110s4"/>
+<rect x="34.0" y="2027.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="2044.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="30.5" lengthAdjust="spacing">block </tspan><tspan x="73.5" class="g110s3">4</tspan></text>
+<text y="2044.7" xml:space="preserve" class="g110s18"><tspan x="173.0" textLength="38.9" lengthAdjust="spacing">“efully”</tspan></text>
+<text x="473.0" y="2044.7" class="g110s6">-2.2469</text>
+<text x="733.0" y="2044.7" class="g110s6">1.4209</text>
+<text x="913.0" y="2044.7" class="g110s6">1.4209</text>
+<text x="1093.0" y="2044.7" class="g110s6">1.0000</text>
+<text x="1273.0" y="2044.7" class="g110s6">2.6903</text>
+<text x="1453.0" y="2044.7" class="g110s6">(6.9618, 11.8676)</text>
+<line x1="34.0" y1="2053.9" x2="1846.0" y2="2053.9" class="g110s4"/>
+<rect x="34.0" y="1949.9" width="1812.0" height="104.0" rx="0" class="g110s27"/>
+<line x1="164.0" y1="1949.9" x2="164.0" y2="2053.9" class="g110s4"/>
+<line x1="464.0" y1="1949.9" x2="464.0" y2="2053.9" class="g110s4"/>
+<line x1="724.0" y1="1949.9" x2="724.0" y2="2053.9" class="g110s4"/>
+<line x1="904.0" y1="1949.9" x2="904.0" y2="2053.9" class="g110s4"/>
+<line x1="1084.0" y1="1949.9" x2="1084.0" y2="2053.9" class="g110s4"/>
+<line x1="1264.0" y1="1949.9" x2="1264.0" y2="2053.9" class="g110s4"/>
+<line x1="1444.0" y1="1949.9" x2="1444.0" y2="2053.9" class="g110s4"/>
+<rect x="34.0" y="2065.9" width="1812.0" height="55.0" rx="6" class="g110s33"/>
+<path d="M38.50 2066.65 A5.50 5.50 0 0 0 34.50 2071.94 V2114.98 A5.50 5.50 0 0 0 38.50 2120.27 Z" class="g110s34"/>
+<text y="2091.9" xml:space="preserve" class="g110s26"><tspan x="50.0" class="g110s0" textLength="95.5" lengthAdjust="spacing">The same output</tspan></text>
+<text y="2109.5" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="125.9" lengthAdjust="spacing">After the last block: o ÷ </tspan><tspan x="175.9" class="g110s10" textLength="163.0" lengthAdjust="spacing">l = (2.587690, 4.411210)</tspan><tspan x="338.9" textLength="91.4" lengthAdjust="spacing">. The plain way: (</tspan><tspan x="430.3" class="g110s3" textLength="53.0" lengthAdjust="spacing">2.587690</tspan><tspan x="483.3">, </tspan><tspan x="490.0" class="g110s3" textLength="53.0" lengthAdjust="spacing">4.411210</tspan><tspan x="543.0" textLength="68.7" lengthAdjust="spacing">). Difference </tspan><tspan x="611.7" class="g110s3" textLength="32.5" lengthAdjust="spacing">9e-16</tspan><tspan x="644.2" textLength="39.3" lengthAdjust="spacing">. Block </tspan><tspan x="683.6" class="g110s3">3</tspan><tspan x="690.7" textLength="477.2" lengthAdjust="spacing"> is the one that matters: it brings a larger score, so what was kept so far is multiplied by e^</tspan><tspan x="1167.8" class="g110s10" textLength="176.6" lengthAdjust="spacing">(1.3796 − 1.4209) = 0.9595</tspan><tspan x="1344.4" textLength="176.8" lengthAdjust="spacing"> before the new terms are added.</tspan></text>
+<rect x="34.0" y="2141.0" width="1812.0" height="30.0" rx="6" class="g110s16"/>
+<path d="M38.50 2141.69 A5.50 5.50 0 0 0 34.50 2146.98 V2164.98 A5.50 5.50 0 0 0 38.50 2170.27 Z" class="g110s30"/>
+<text y="2161.0" xml:space="preserve" class="g110s31"><tspan x="50.0" class="g110s0" textLength="110.3" lengthAdjust="spacing">D · Why it is exact</tspan></text>
+<text y="2161.0" xml:space="preserve" class="g110s32"><tspan x="178.3" textLength="107.4" lengthAdjust="spacing">three lines of algebra</tspan></text>
+<rect x="34.0" y="2187.0" width="1812.0" height="72.6" rx="6" class="g110s57"/>
+<path d="M38.50 2187.69 A5.50 5.50 0 0 0 34.50 2192.98 V2253.54 A5.50 5.50 0 0 0 38.50 2258.83 Z" class="g110s30"/>
+<text y="2213.0" xml:space="preserve" class="g110s26"><tspan x="50.0" class="g110s0" textLength="73.5" lengthAdjust="spacing">The invariant</tspan></text>
+<text y="2230.5" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="180.7" lengthAdjust="spacing">Invariant: after any block, l = Σ e^(</tspan><tspan x="230.7" class="g110s10" textLength="20.4" lengthAdjust="spacing">s_j</tspan><tspan x="251.1" textLength="101.9" lengthAdjust="spacing"> − m) and o = Σ e^(</tspan><tspan x="352.9" class="g110s10" textLength="20.4" lengthAdjust="spacing">s_j</tspan><tspan x="373.3" textLength="31.2" lengthAdjust="spacing"> − m) </tspan><tspan x="404.5" class="g110s10" textLength="20.4" lengthAdjust="spacing">v_j</tspan><tspan x="424.9" textLength="781.1" lengthAdjust="spacing"> over the keys read so far, with m their largest score. A new block with larger maximum m′ multiplies both by e^(m − m′), which turns every old e^(</tspan><tspan x="1205.9" class="g110s10" textLength="20.4" lengthAdjust="spacing">s_j</tspan><tspan x="1226.3" textLength="70.2" lengthAdjust="spacing"> − m) into e^(</tspan><tspan x="1296.5" class="g110s10" textLength="20.4" lengthAdjust="spacing">s_j</tspan><tspan x="1316.9" textLength="151.4" lengthAdjust="spacing"> − m′), and adds its own e^(</tspan><tspan x="1468.3" class="g110s10" textLength="20.4" lengthAdjust="spacing">s_j</tspan><tspan x="1488.7" textLength="335.9" lengthAdjust="spacing"> − m′) terms — the invariant holds again. After the last block m</tspan></text>
+<text y="2248.0" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="250.6" lengthAdjust="spacing">is the true maximum of the row, so o ÷ l = Σ e^(</tspan><tspan x="300.6" class="g110s10" textLength="20.4" lengthAdjust="spacing">s_j</tspan><tspan x="320.9" textLength="31.2" lengthAdjust="spacing"> − m) </tspan><tspan x="352.1" class="g110s10" textLength="20.4" lengthAdjust="spacing">v_j</tspan><tspan x="372.5" textLength="36.8" lengthAdjust="spacing"> ÷ Σ e^</tspan><tspan x="409.3" class="g110s10" textLength="149.4" lengthAdjust="spacing">(s_j − m) = softmax(s)</tspan><tspan x="558.7"> · </tspan><tspan x="568.7" class="g110s10">V</tspan><tspan x="575.5" textLength="352.8" lengthAdjust="spacing">. Nothing is approximated; only the order of the additions changes.</tspan></text>
+<rect x="34.0" y="2279.5" width="1812.0" height="30.0" rx="6" class="g110s16"/>
+<path d="M38.50 2280.25 A5.50 5.50 0 0 0 34.50 2285.54 V2303.54 A5.50 5.50 0 0 0 38.50 2308.83 Z" class="g110s30"/>
+<text y="2299.5" xml:space="preserve" class="g110s31"><tspan x="50.0" class="g110s0" textLength="199.1" lengthAdjust="spacing">E · When PyTorch actually uses </tspan><tspan x="249.1" class="g110s19" textLength="103.0" lengthAdjust="spacing">FlashAttention</tspan></text>
+<text y="2299.5" xml:space="preserve" class="g110s32"><tspan x="370.1" textLength="46.0" lengthAdjust="spacing">PyTorch </tspan><tspan x="416.1" class="g110s3" textLength="16.9" lengthAdjust="spacing">2.8</tspan><tspan x="433.1" textLength="250.6" lengthAdjust="spacing">.0 picks one of its attention kernels on every call; </tspan><tspan x="683.6" class="g110s8" textLength="91.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="774.7" textLength="138.7" lengthAdjust="spacing"> only when all of these hold</tspan></text>
+<text y="2327.5" xml:space="preserve" class="g110s26"><tspan x="38.0" class="g110s0" textLength="135.7" lengthAdjust="spacing">Where these come from</tspan></text>
+<text y="2345.5" xml:space="preserve" class="g110s15"><tspan x="38.0" textLength="279.3" lengthAdjust="spacing">PyTorch’s own selection code for the GPU kernels (</tspan><tspan x="317.3" class="g110s10" textLength="353.1" lengthAdjust="spacing">aten/src/ATen/native/transformers/cuda/sdp_utils.cpp</tspan><tspan x="670.4" textLength="48.7" lengthAdjust="spacing">, version </tspan><tspan x="719.1" class="g110s3" textLength="17.7" lengthAdjust="spacing">2.8</tspan><tspan x="736.8" textLength="156.1" lengthAdjust="spacing">.0) and the documentation of </tspan><tspan x="892.9" class="g110s10" textLength="203.7" lengthAdjust="spacing">F.scaled_dot_product_attention</tspan><tspan x="1096.6" textLength="654.3" lengthAdjust="spacing">. When a condition fails, PyTorch silently uses another kernel — the answer is the same, only the speed and memory differ.</tspan></text>
+<rect x="34.0" y="2366.9" width="1812.0" height="24.0" rx="4" class="g110s16"/>
+<text y="2382.9" xml:space="preserve" class="g110s9"><tspan x="43.0" class="g110s0" textLength="44.5" lengthAdjust="spacing">condition</tspan></text>
+<text y="2382.9" xml:space="preserve" class="g110s9"><tspan x="463.0" class="g110s0" textLength="105.8" lengthAdjust="spacing">what PyTorch checks</tspan></text>
+<text y="2382.9" xml:space="preserve" class="g110s9"><tspan x="1223.0" class="g110s0" textLength="78.0" lengthAdjust="spacing">in this notebook</tspan></text>
+<text y="2407.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="74.5" lengthAdjust="spacing">a CUDA GPU</tspan></text>
+<text y="2407.8" xml:space="preserve" class="g110s7"><tspan x="463.0" textLength="127.8" lengthAdjust="spacing">every tensor on a CUDA </tspan><tspan x="590.8" class="g110s8" textLength="39.0" lengthAdjust="spacing">device</tspan></text>
+<text y="2407.8" xml:space="preserve" class="g110s7"><tspan x="1223.0" textLength="260.1" lengthAdjust="spacing">this Mac: no — PyTorch has separate CPU kernels</tspan></text>
+<line x1="34.0" y1="2416.9" x2="1846.0" y2="2416.9" class="g110s4"/>
+<rect x="34.0" y="2416.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="2433.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="93.5" lengthAdjust="spacing">Ampere or newer</tspan></text>
+<text y="2433.8" xml:space="preserve" class="g110s7"><tspan x="463.0" textLength="98.4" lengthAdjust="spacing">compute capability </tspan><tspan x="561.4" class="g110s8" textLength="26.0" lengthAdjust="spacing">sm80</tspan><tspan x="587.5" textLength="16.0" lengthAdjust="spacing"> to </tspan><tspan x="603.4" class="g110s8" textLength="32.5" lengthAdjust="spacing">sm121</tspan><tspan x="636.0"> (</tspan><tspan x="643.0" class="g110s8" textLength="26.0" lengthAdjust="spacing">A100</tspan><tspan x="669.0" textLength="32.6" lengthAdjust="spacing">, RTX </tspan><tspan x="701.6" class="g110s3" textLength="13.6" lengthAdjust="spacing">30</tspan><tspan x="715.2" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="740.8" class="g110s3" textLength="13.6" lengthAdjust="spacing">40</tspan><tspan x="754.3">, </tspan><tspan x="760.7" class="g110s8" textLength="13.0" lengthAdjust="spacing">L4</tspan><tspan x="773.7">, </tspan><tspan x="780.1" class="g110s8" textLength="26.0" lengthAdjust="spacing">H100</tspan><tspan x="806.2" textLength="18.5" lengthAdjust="spacing"> …)</tspan></text>
+<text y="2433.8" xml:space="preserve" class="g110s7"><tspan x="1223.0" textLength="68.9" lengthAdjust="spacing">Colab’s free </tspan><tspan x="1291.9" class="g110s8" textLength="13.0" lengthAdjust="spacing">T4</tspan><tspan x="1304.9" textLength="14.7" lengthAdjust="spacing"> is </tspan><tspan x="1319.6" class="g110s8" textLength="26.0" lengthAdjust="spacing">sm75</tspan><tspan x="1345.6" textLength="19.2" lengthAdjust="spacing">: no</tspan></text>
+<line x1="34.0" y1="2442.9" x2="1846.0" y2="2442.9" class="g110s4"/>
+<text y="2459.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="71.8" lengthAdjust="spacing">half precision</tspan></text>
+<text y="2459.8" xml:space="preserve" class="g110s7"><tspan x="463.0" class="g110s8" textLength="26.0" lengthAdjust="spacing">fp16</tspan><tspan x="489.0" textLength="16.6" lengthAdjust="spacing"> or </tspan><tspan x="505.6" class="g110s8" textLength="26.0" lengthAdjust="spacing">bf16</tspan><tspan x="531.7" textLength="37.1" lengthAdjust="spacing"> — not </tspan><tspan x="568.8" class="g110s8" textLength="45.6" lengthAdjust="spacing">float32</tspan></text>
+<text y="2459.8" xml:space="preserve" class="g110s7"><tspan x="1223.0" textLength="172.6" lengthAdjust="spacing">training on a GPU: yes (autocast, </tspan><tspan x="1395.6" class="g110s3" textLength="28.5" lengthAdjust="spacing">cell 8</tspan><tspan x="1424.0" textLength="58.8" lengthAdjust="spacing">); writing in </tspan><tspan x="1482.8" class="g110s3" textLength="28.5" lengthAdjust="spacing">cell 9</tspan><tspan x="1511.3">: </tspan><tspan x="1517.7" class="g110s8" textLength="45.6" lengthAdjust="spacing">float32</tspan></text>
+<line x1="34.0" y1="2468.9" x2="1846.0" y2="2468.9" class="g110s4"/>
+<rect x="34.0" y="2468.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="2485.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="83.3" lengthAdjust="spacing">no mask tensor</tspan></text>
+<text y="2485.8" xml:space="preserve" class="g110s7"><tspan x="463.0" class="g110s8" textLength="58.6" lengthAdjust="spacing">attn_mask</tspan><tspan x="521.6" textLength="81.2" lengthAdjust="spacing"> must be None; </tspan><tspan x="602.7" class="g110s8" textLength="58.6" lengthAdjust="spacing">is_causal</tspan><tspan x="661.3" textLength="53.7" lengthAdjust="spacing"> is allowed</tspan></text>
+<text y="2485.8" xml:space="preserve" class="g110s7"><tspan x="1223.0" textLength="454.2" lengthAdjust="spacing">the decoder’s self-attention: yes; the encoder’s and the cross-attention: a padding mask</tspan></text>
+<line x1="34.0" y1="2494.9" x2="1846.0" y2="2494.9" class="g110s4"/>
+<text y="2511.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="52.2" lengthAdjust="spacing">head size</tspan></text>
+<text y="2511.8" xml:space="preserve" class="g110s7"><tspan x="463.0" textLength="192.4" lengthAdjust="spacing">q, k and v the same last size, at most </tspan><tspan x="655.4" class="g110s3" textLength="20.3" lengthAdjust="spacing">256</tspan></text>
+<text y="2511.8" xml:space="preserve" class="g110s7"><tspan x="1223.0" class="g110s8" textLength="45.6" lengthAdjust="spacing">D_MODEL</tspan><tspan x="1268.6"> ÷ </tspan><tspan x="1281.8" class="g110s8" textLength="97.6" lengthAdjust="spacing">NUM_HEADS = 128</tspan><tspan x="1379.5" textLength="24.3" lengthAdjust="spacing">: yes</tspan></text>
+<line x1="34.0" y1="2520.9" x2="1846.0" y2="2520.9" class="g110s4"/>
+<rect x="34.0" y="2520.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="2537.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s8" textLength="58.6" lengthAdjust="spacing">is_causal</tspan></text>
+<text y="2537.8" xml:space="preserve" class="g110s7"><tspan x="463.0" textLength="174.5" lengthAdjust="spacing">only with as many queries as keys</tspan></text>
+<text y="2537.8" xml:space="preserve" class="g110s7"><tspan x="1223.0" textLength="292.1" lengthAdjust="spacing">training: yes; writing with the cache passes no mask at all</tspan></text>
+<line x1="34.0" y1="2546.9" x2="1846.0" y2="2546.9" class="g110s4"/>
+<text y="2563.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="128.7" lengthAdjust="spacing">shared key/value heads</tspan></text>
+<text y="2563.8" xml:space="preserve" class="g110s7"><tspan x="463.0" textLength="267.7" lengthAdjust="spacing">allowed — the documentation: GQA works only for “</tspan><tspan x="730.7" class="g110s8" textLength="97.6" lengthAdjust="spacing">Flash_attention</tspan><tspan x="828.3" textLength="179.5" lengthAdjust="spacing"> and math kernel on CUDA tensor”</tspan></text>
+<text y="2563.8" xml:space="preserve" class="g110s7"><tspan x="1223.0" class="g110s8" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="1236.0" textLength="127.8" lengthAdjust="spacing"> shares them, so without </tspan><tspan x="1363.8" class="g110s8" textLength="91.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="1455.0" textLength="135.5" lengthAdjust="spacing"> only the plain kernel is left</tspan></text>
+<line x1="34.0" y1="2572.9" x2="1846.0" y2="2572.9" class="g110s4"/>
+<rect x="34.0" y="2390.9" width="1812.0" height="182.0" rx="0" class="g110s27"/>
+<line x1="454.0" y1="2390.9" x2="454.0" y2="2572.9" class="g110s4"/>
+<line x1="1214.0" y1="2390.9" x2="1214.0" y2="2572.9" class="g110s4"/>
+<rect x="34.0" y="2584.9" width="1812.0" height="24.0" rx="4" class="g110s16"/>
+<text y="2600.9" xml:space="preserve" class="g110s9"><tspan x="43.0" class="g110s0" textLength="62.5" lengthAdjust="spacing">attention call</tspan></text>
+<text y="2600.9" xml:space="preserve" class="g110s9"><tspan x="403.0" class="g110s0" textLength="30.3" lengthAdjust="spacing">where</tspan></text>
+<text y="2600.9" xml:space="preserve" class="g110s9"><tspan x="803.0" class="g110s0" textLength="103.9" lengthAdjust="spacing">this Mac (measured, </tspan><tspan x="906.9" class="g110s38" textLength="63.7" lengthAdjust="spacing">2,048 tokens</tspan><tspan x="970.6" class="g110s0">)</tspan></text>
+<text y="2600.9" xml:space="preserve" class="g110s9"><tspan x="1153.0" class="g110s0" textLength="155.9" lengthAdjust="spacing">NVIDIA GPU, Ampere or newer</tspan></text>
+<text y="2600.9" xml:space="preserve" class="g110s9"><tspan x="1533.0" class="g110s0" textLength="44.4" lengthAdjust="spacing">Colab’s </tspan><tspan x="1577.4" class="g110s22" textLength="11.9" lengthAdjust="spacing">T4</tspan><tspan x="1589.3" class="g110s0"> (</tspan><tspan x="1596.1" class="g110s22" textLength="23.8" lengthAdjust="spacing">sm75</tspan><tspan x="1619.9" class="g110s0">)</tspan></text>
+<text y="2625.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="164.0" lengthAdjust="spacing">decoder self-attention, training</tspan></text>
+<text y="2625.8" xml:space="preserve" class="g110s7"><tspan x="403.0" class="g110s3" textLength="28.5" lengthAdjust="spacing">cell 8</tspan><tspan x="431.5"> · </tspan><tspan x="441.0" class="g110s8" textLength="58.6" lengthAdjust="spacing">is_causal</tspan><tspan x="499.6"> · </tspan><tspan x="509.2" class="g110s3" textLength="50.8" lengthAdjust="spacing">bf16/fp16</tspan><tspan x="560.0" textLength="53.7" lengthAdjust="spacing"> on a GPU</tspan></text>
+<text y="2625.8" xml:space="preserve" class="g110s7"><tspan x="803.0" textLength="30.7" lengthAdjust="spacing">plain, </tspan><tspan x="833.7" class="g110s3" textLength="20.3" lengthAdjust="spacing">139</tspan><tspan x="854.0" textLength="18.5" lengthAdjust="spacing"> ms</tspan></text>
+<text y="2625.8" xml:space="preserve" class="g110s7"><tspan x="1153.0" class="g110s8" textLength="91.1" lengthAdjust="spacing">FlashAttention</tspan></text>
+<text y="2625.8" xml:space="preserve" class="g110s7"><tspan x="1533.0" textLength="90.1" lengthAdjust="spacing">plain (the GPU is </tspan><tspan x="1623.1" class="g110s8" textLength="26.0" lengthAdjust="spacing">sm75</tspan><tspan x="1649.1">)</tspan></text>
+<line x1="34.0" y1="2634.9" x2="1846.0" y2="2634.9" class="g110s4"/>
+<rect x="34.0" y="2634.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="2651.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="117.2" lengthAdjust="spacing">encoder self-attention</tspan></text>
+<text y="2651.8" xml:space="preserve" class="g110s7"><tspan x="403.0" textLength="146.4" lengthAdjust="spacing">every pass · a padding mask</tspan></text>
+<text y="2651.8" xml:space="preserve" class="g110s7"><tspan x="803.0" textLength="30.7" lengthAdjust="spacing">plain, </tspan><tspan x="833.7" class="g110s3" textLength="20.3" lengthAdjust="spacing">137</tspan><tspan x="854.0" textLength="18.5" lengthAdjust="spacing"> ms</tspan></text>
+<text y="2651.8" xml:space="preserve" class="g110s7"><tspan x="1153.0" textLength="116.3" lengthAdjust="spacing">plain (a padding mask)</tspan></text>
+<text y="2651.8" xml:space="preserve" class="g110s7"><tspan x="1533.0" textLength="90.1" lengthAdjust="spacing">plain (the GPU is </tspan><tspan x="1623.1" class="g110s8" textLength="26.0" lengthAdjust="spacing">sm75</tspan><tspan x="1649.1">)</tspan></text>
+<line x1="34.0" y1="2660.9" x2="1846.0" y2="2660.9" class="g110s4"/>
+<text y="2677.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="79.9" lengthAdjust="spacing">cross-attention</tspan></text>
+<text y="2677.8" xml:space="preserve" class="g110s7"><tspan x="403.0" textLength="146.4" lengthAdjust="spacing">every pass · a padding mask</tspan></text>
+<text y="2677.8" xml:space="preserve" class="g110s7"><tspan x="803.0" textLength="30.7" lengthAdjust="spacing">plain, </tspan><tspan x="833.7" class="g110s3" textLength="20.3" lengthAdjust="spacing">137</tspan><tspan x="854.0" textLength="18.5" lengthAdjust="spacing"> ms</tspan></text>
+<text y="2677.8" xml:space="preserve" class="g110s7"><tspan x="1153.0" textLength="116.3" lengthAdjust="spacing">plain (a padding mask)</tspan></text>
+<text y="2677.8" xml:space="preserve" class="g110s7"><tspan x="1533.0" textLength="90.1" lengthAdjust="spacing">plain (the GPU is </tspan><tspan x="1623.1" class="g110s8" textLength="26.0" lengthAdjust="spacing">sm75</tspan><tspan x="1649.1">)</tspan></text>
+<line x1="34.0" y1="2686.9" x2="1846.0" y2="2686.9" class="g110s4"/>
+<rect x="34.0" y="2686.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="2703.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="159.2" lengthAdjust="spacing">decoder self-attention, writing</tspan></text>
+<text y="2703.8" xml:space="preserve" class="g110s7"><tspan x="403.0" class="g110s3" textLength="28.5" lengthAdjust="spacing">cell 9</tspan><tspan x="431.5" textLength="118.9" lengthAdjust="spacing"> · the cache, no mask · </tspan><tspan x="550.3" class="g110s8" textLength="45.6" lengthAdjust="spacing">float32</tspan></text>
+<text y="2703.8" xml:space="preserve" class="g110s7"><tspan x="803.0" textLength="30.7" lengthAdjust="spacing">plain, </tspan><tspan x="833.7" class="g110s3">2</tspan><tspan x="840.5" textLength="18.5" lengthAdjust="spacing"> ms</tspan></text>
+<text y="2703.8" xml:space="preserve" class="g110s7"><tspan x="1153.0" textLength="31.3" lengthAdjust="spacing">plain (</tspan><tspan x="1184.3" class="g110s8" textLength="45.6" lengthAdjust="spacing">float32</tspan><tspan x="1229.9">)</tspan></text>
+<text y="2703.8" xml:space="preserve" class="g110s7"><tspan x="1533.0" textLength="90.1" lengthAdjust="spacing">plain (the GPU is </tspan><tspan x="1623.1" class="g110s8" textLength="26.0" lengthAdjust="spacing">sm75</tspan><tspan x="1649.1">)</tspan></text>
+<line x1="34.0" y1="2712.9" x2="1846.0" y2="2712.9" class="g110s4"/>
+<text y="2729.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="94.2" lengthAdjust="spacing">the attention map</tspan></text>
+<text y="2729.8" xml:space="preserve" class="g110s7"><tspan x="403.0" class="g110s3" textLength="35.2" lengthAdjust="spacing">cell 10</tspan><tspan x="438.2"> · </tspan><tspan x="447.8" class="g110s8" textLength="104.1" lengthAdjust="spacing">return_attn=True</tspan></text>
+<text y="2729.8" xml:space="preserve" class="g110s7"><tspan x="803.0" textLength="82.5" lengthAdjust="spacing">the manual path</tspan></text>
+<text y="2729.8" xml:space="preserve" class="g110s7"><tspan x="1153.0" textLength="82.5" lengthAdjust="spacing">the manual path</tspan></text>
+<text y="2729.8" xml:space="preserve" class="g110s7"><tspan x="1533.0" textLength="82.5" lengthAdjust="spacing">the manual path</tspan></text>
+<line x1="34.0" y1="2738.9" x2="1846.0" y2="2738.9" class="g110s4"/>
+<rect x="34.0" y="2608.9" width="1812.0" height="130.0" rx="0" class="g110s27"/>
+<line x1="394.0" y1="2608.9" x2="394.0" y2="2738.9" class="g110s4"/>
+<line x1="794.0" y1="2608.9" x2="794.0" y2="2738.9" class="g110s4"/>
+<line x1="1144.0" y1="2608.9" x2="1144.0" y2="2738.9" class="g110s4"/>
+<line x1="1524.0" y1="2608.9" x2="1524.0" y2="2738.9" class="g110s4"/>
+<rect x="34.0" y="2750.9" width="1812.0" height="90.1" rx="6" class="g110s33"/>
+<path d="M38.50 2751.65 A5.50 5.50 0 0 0 34.50 2756.94 V2835.02 A5.50 5.50 0 0 0 38.50 2840.31 Z" class="g110s34"/>
+<text y="2776.9" xml:space="preserve" class="g110s26"><tspan x="50.0" class="g110s0" textLength="188.8" lengthAdjust="spacing">What runs where in this notebook</tspan></text>
+<text y="2794.5" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="107.4" lengthAdjust="spacing">Training runs under </tspan><tspan x="157.4" class="g110s10" textLength="95.1" lengthAdjust="spacing">torch.autocast</tspan><tspan x="252.4" textLength="16.0" lengthAdjust="spacing"> in </tspan><tspan x="268.5" class="g110s10" textLength="27.2" lengthAdjust="spacing">bf16</tspan><tspan x="295.6" textLength="17.3" lengthAdjust="spacing"> or </tspan><tspan x="313.0" class="g110s10" textLength="27.2" lengthAdjust="spacing">fp16</tspan><tspan x="340.1" textLength="63.4" lengthAdjust="spacing"> on a GPU (</tspan><tspan x="403.5" class="g110s3" textLength="29.7" lengthAdjust="spacing">cell 8</tspan><tspan x="433.2" textLength="194.0" lengthAdjust="spacing">), so the decoder’s self-attention — </tspan><tspan x="627.1" class="g110s10" textLength="61.1" lengthAdjust="spacing">is_causal</tspan><tspan x="688.2" textLength="150.1" lengthAdjust="spacing">, no mask tensor, head size </tspan><tspan x="838.3" class="g110s3" textLength="21.2" lengthAdjust="spacing">128</tspan><tspan x="859.5" textLength="282.1" lengthAdjust="spacing"> — qualifies on an Ampere-or-newer GPU. Writing in </tspan><tspan x="1141.6" class="g110s3" textLength="29.7" lengthAdjust="spacing">cell 9</tspan><tspan x="1171.3" textLength="42.7" lengthAdjust="spacing"> runs in </tspan><tspan x="1214.0" class="g110s10" textLength="47.5" lengthAdjust="spacing">float32</tspan><tspan x="1261.5" textLength="40.7" lengthAdjust="spacing">, which </tspan><tspan x="1302.2" class="g110s10" textLength="95.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="1397.3" textLength="398.7" lengthAdjust="spacing"> does not take. The encoder’s self-attention and the cross-attention pass a</tspan></text>
+<text y="2812.0" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="1560.4" lengthAdjust="spacing">padding mask, which it does not take either. The other GPU kernels cannot share key/value heads (grouped-query attention), so the rest falls to the plain kernel. The GPU columns follow PyTorch’s rules; this machine has no GPU to measure them. And with this notebook’s sentences (at most </tspan><tspan x="1610.4" class="g110s3" textLength="55.2" lengthAdjust="spacing">66 tokens</tspan><tspan x="1665.6" textLength="52.7" lengthAdjust="spacing">, one tile) </tspan><tspan x="1718.3" class="g110s10" textLength="95.1" lengthAdjust="spacing">FlashAttention</tspan></text>
+<text y="2829.5" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="375.5" lengthAdjust="spacing">would save almost nothing even where it runs: it pays off on long texts.</tspan></text>
+<rect x="34.0" y="2861.0" width="1812.0" height="30.0" rx="6" class="g110s16"/>
+<path d="M38.50 2861.73 A5.50 5.50 0 0 0 34.50 2867.02 V2885.02 A5.50 5.50 0 0 0 38.50 2890.31 Z" class="g110s30"/>
+<text y="2881.0" xml:space="preserve" class="g110s31"><tspan x="50.0" class="g110s0" textLength="35.2" lengthAdjust="spacing">F · In </tspan><tspan x="85.2" class="g110s19" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="99.9" class="g110s0" textLength="242.0" lengthAdjust="spacing">: causal attention without a mask tensor</tspan></text>
+<text y="2881.0" xml:space="preserve" class="g110s32"><tspan x="360.0" textLength="171.2" lengthAdjust="spacing">the decoder’s training pass calls </tspan><tspan x="531.1" class="g110s8" textLength="357.9" lengthAdjust="spacing">F.scaled_dot_product_attention(Q, K, V, is_causal=True)</tspan><tspan x="889.1" textLength="140.0" lengthAdjust="spacing"> — measured on this CPU, </tspan><tspan x="1029.0" class="g110s3" textLength="65.7" lengthAdjust="spacing">4 sentences</tspan><tspan x="1094.8">, </tspan><tspan x="1101.2" class="g110s3" textLength="43.4" lengthAdjust="spacing">4 heads</tspan><tspan x="1144.5" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="1160.5" class="g110s3" textLength="20.3" lengthAdjust="spacing">128</tspan></text>
+<text y="2909.0" xml:space="preserve" class="g110s26"><tspan x="38.0" class="g110s0" textLength="246.7" lengthAdjust="spacing">Why it is allowed, and the one place it is not</tspan></text>
+<rect x="359.5" y="2916.2" width="39.0" height="14.6" rx="3" style="fill:var(--padbg);stroke:var(--pad);stroke-width:0.8"/>
+<text y="2927.0" xml:space="preserve" class="g110s15"><tspan x="38.0" textLength="321.5" lengthAdjust="spacing">Answers are padded at the end, so a real token never has a </tspan><tspan x="362.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--pad)" textLength="34.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="398.5" textLength="512.3" lengthAdjust="spacing"> before it. Letting each token see only itself and the tokens before it therefore hides exactly what </tspan><tspan x="910.7" class="g110s10" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="937.9" textLength="71.9" lengthAdjust="spacing">’s mask hid (</tspan><tspan x="1009.8" class="g110s10" textLength="61.1" lengthAdjust="spacing">check3.py</tspan><tspan x="1070.9" textLength="102.0" lengthAdjust="spacing">: largest difference </tspan><tspan x="1173.0" class="g110s3" textLength="32.5" lengthAdjust="spacing">8e-07</tspan><tspan x="1205.5" textLength="508.9" lengthAdjust="spacing"> on real tokens; no loss reads the pad positions). With no mask tensor, PyTorch may choose its </tspan><tspan x="1714.4" class="g110s10" textLength="95.1" lengthAdjust="spacing">FlashAttention</tspan></text>
+<text y="2944.4" xml:space="preserve" class="g110s15"><tspan x="38.0" textLength="603.0" lengthAdjust="spacing">kernel on a GPU. The one exception: while writing with the cache, one new query meets all the cached keys, and </tspan><tspan x="641.0" class="g110s10" textLength="61.1" lengthAdjust="spacing">is_causal</tspan><tspan x="702.1" textLength="342.2" lengthAdjust="spacing"> would hide all but the first — so that path passes no mask at all.</tspan></text>
+<rect x="34.0" y="2965.8" width="1812.0" height="24.0" rx="4" class="g110s16"/>
+<text y="2981.8" xml:space="preserve" class="g110s9"><tspan x="43.0" class="g110s0" textLength="32.8" lengthAdjust="spacing">tokens</tspan></text>
+<text y="2981.8" xml:space="preserve" class="g110s9"><tspan x="213.0" class="g110s0" textLength="66.8" lengthAdjust="spacing">mask tensor, </tspan><tspan x="279.8" class="g110s22" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="303.6" class="g110s0" textLength="25.3" lengthAdjust="spacing"> (ms)</tspan></text>
+<text y="2981.8" xml:space="preserve" class="g110s9"><tspan x="493.0" class="g110s22" textLength="53.5" lengthAdjust="spacing">is_causal</tspan><tspan x="546.5" class="g110s0">, </tspan><tspan x="552.7" class="g110s22" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="564.5" class="g110s0" textLength="25.3" lengthAdjust="spacing"> (ms)</tspan></text>
+<text y="2981.8" xml:space="preserve" class="g110s9"><tspan x="743.0" class="g110s0" textLength="142.9" lengthAdjust="spacing">the whole table by hand (ms)</tspan></text>
+<text y="2981.8" xml:space="preserve" class="g110s9"><tspan x="1043.0" class="g110s38" textLength="26.0" lengthAdjust="spacing">cell 9</tspan><tspan x="1069.0" class="g110s0" textLength="15.3" lengthAdjust="spacing">’s </tspan><tspan x="1084.3" class="g110s22" textLength="89.1" lengthAdjust="spacing">flash_attention</tspan><tspan x="1173.4" class="g110s0" textLength="25.3" lengthAdjust="spacing"> (ms)</tspan></text>
+<text y="2981.8" xml:space="preserve" class="g110s9"><tspan x="1355.0" class="g110s22" textLength="53.5" lengthAdjust="spacing">is_causal</tspan><tspan x="1408.5" class="g110s0" textLength="45.8" lengthAdjust="spacing"> faster by</tspan></text>
+<text y="2981.8" xml:space="preserve" class="g110s9"><tspan x="1615.0" class="g110s0" textLength="79.2" lengthAdjust="spacing">outputs differ by</tspan></text>
+<text x="43.0" y="3006.7" class="g110s5">64</text>
+<text x="213.0" y="3006.7" class="g110s5">0.15</text>
+<text x="493.0" y="3006.7" class="g110s5">0.14</text>
+<text x="743.0" y="3006.7" class="g110s5">0.23</text>
+<text x="1043.0" y="3006.7" class="g110s5">0.38</text>
+<text x="1355.0" y="3006.7" class="g110s5">1.04×</text>
+<text x="1615.0" y="3006.7" class="g110s5">0</text>
+<line x1="34.0" y1="3015.8" x2="1846.0" y2="3015.8" class="g110s4"/>
+<rect x="34.0" y="3015.8" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text x="43.0" y="3032.7" class="g110s5">256</text>
+<text x="213.0" y="3032.7" class="g110s5">1.39</text>
+<text x="493.0" y="3032.7" class="g110s5">1.27</text>
+<text x="743.0" y="3032.7" class="g110s5">1.89</text>
+<text x="1043.0" y="3032.7" class="g110s5">2.48</text>
+<text x="1355.0" y="3032.7" class="g110s5">1.10×</text>
+<text x="1615.0" y="3032.7" class="g110s5">0</text>
+<line x1="34.0" y1="3041.8" x2="1846.0" y2="3041.8" class="g110s4"/>
+<text x="43.0" y="3058.7" class="g110s5">1,024</text>
+<text x="213.0" y="3058.7" class="g110s5">15.23</text>
+<text x="493.0" y="3058.7" class="g110s5">10.51</text>
+<text x="743.0" y="3058.7" class="g110s5">22.71</text>
+<text x="1043.0" y="3058.7" class="g110s5">30.42</text>
+<text x="1355.0" y="3058.7" class="g110s5">1.45×</text>
+<text x="1615.0" y="3058.7" class="g110s5">0</text>
+<line x1="34.0" y1="3067.8" x2="1846.0" y2="3067.8" class="g110s4"/>
+<rect x="34.0" y="3067.8" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text x="43.0" y="3084.7" class="g110s5">2,048</text>
+<text x="213.0" y="3084.7" class="g110s5">63.50</text>
+<text x="493.0" y="3084.7" class="g110s5">34.56</text>
+<text x="743.0" y="3084.7" class="g110s5">88.99</text>
+<text x="1043.0" y="3084.7" class="g110s5">140.52</text>
+<text x="1355.0" y="3084.7" class="g110s5">1.84×</text>
+<text x="1615.0" y="3084.7" class="g110s5">0</text>
+<line x1="34.0" y1="3093.8" x2="1846.0" y2="3093.8" class="g110s4"/>
+<rect x="34.0" y="2989.8" width="1812.0" height="104.0" rx="0" class="g110s27"/>
+<line x1="204.0" y1="2989.8" x2="204.0" y2="3093.8" class="g110s4"/>
+<line x1="484.0" y1="2989.8" x2="484.0" y2="3093.8" class="g110s4"/>
+<line x1="734.0" y1="2989.8" x2="734.0" y2="3093.8" class="g110s4"/>
+<line x1="1034.0" y1="2989.8" x2="1034.0" y2="3093.8" class="g110s4"/>
+<line x1="1346.0" y1="2989.8" x2="1346.0" y2="3093.8" class="g110s4"/>
+<line x1="1606.0" y1="2989.8" x2="1606.0" y2="3093.8" class="g110s4"/>
+<rect x="34.0" y="3105.8" width="1812.0" height="72.6" rx="6" class="g110s33"/>
+<path d="M38.50 3106.53 A5.50 5.50 0 0 0 34.50 3111.82 V3172.38 A5.50 5.50 0 0 0 38.50 3177.67 Z" class="g110s34"/>
+<text y="3131.8" xml:space="preserve" class="g110s26"><tspan x="50.0" class="g110s0" textLength="324.4" lengthAdjust="spacing">Why the notebook’s own function is not the one that runs</tspan></text>
+<text y="3149.3" xml:space="preserve" class="g110s15"><tspan x="50.0" class="g110s3" textLength="32.5" lengthAdjust="spacing">Cell 9</tspan><tspan x="82.5" textLength="16.5" lengthAdjust="spacing">’s </tspan><tspan x="99.0" class="g110s10" textLength="101.9" lengthAdjust="spacing">flash_attention</tspan><tspan x="200.9" textLength="139.4" lengthAdjust="spacing"> is the slowest of the four: </tspan><tspan x="340.3" class="g110s3" textLength="21.2" lengthAdjust="spacing">141</tspan><tspan x="361.5" textLength="36.0" lengthAdjust="spacing"> ms at </tspan><tspan x="397.5" class="g110s3" textLength="72.8" lengthAdjust="spacing">2,048 tokens</tspan><tspan x="470.4">, </tspan><tspan x="477.0" class="g110s3" textLength="25.3" lengthAdjust="spacing">4.1×</tspan><tspan x="502.4" textLength="348.0" lengthAdjust="spacing"> PyTorch’s own kernel, with the same answer (largest difference </tspan><tspan x="850.3" class="g110s3" textLength="32.5" lengthAdjust="spacing">6e-07</tspan><tspan x="882.9" textLength="55.3" lengthAdjust="spacing">). It writes </tspan><tspan x="938.2" class="g110s10" textLength="95.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="1033.3" textLength="220.0" lengthAdjust="spacing">’s maths out in plain PyTorch, a block of </tspan><tspan x="1253.2" class="g110s3" textLength="21.2" lengthAdjust="spacing">128</tspan><tspan x="1274.5" textLength="535.6" lengthAdjust="spacing"> keys at a time, and every block is a separate operation that goes back through main memory — so it</tspan></text>
+<text y="3166.9" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="420.9" lengthAdjust="spacing">keeps the maths but not the speed. The model never calls it: its attention is the </tspan><tspan x="470.9" class="g110s10" textLength="61.1" lengthAdjust="spacing">is_causal</tspan><tspan x="532.0" textLength="243.5" lengthAdjust="spacing"> call above. The function is there to read, and </tspan><tspan x="775.5" class="g110s3" textLength="29.7" lengthAdjust="spacing">cell 9</tspan><tspan x="805.2" textLength="53.4" lengthAdjust="spacing"> checks it.</tspan></text>
+<rect x="34.0" y="3198.4" width="1812.0" height="24.0" rx="4" class="g110s16"/>
+<text y="3214.4" xml:space="preserve" class="g110s9"><tspan x="43.0" class="g110s0" textLength="35.3" lengthAdjust="spacing">the call</tspan></text>
+<text y="3214.4" xml:space="preserve" class="g110s9"><tspan x="443.0" class="g110s0" textLength="81.0" lengthAdjust="spacing">where it is made</tspan></text>
+<text y="3214.4" xml:space="preserve" class="g110s9"><tspan x="913.0" class="g110s0" textLength="119.4" lengthAdjust="spacing">the kernel PyTorch ran (</tspan><tspan x="1032.4" class="g110s22" textLength="83.2" lengthAdjust="spacing">torch.profiler</tspan><tspan x="1115.6" class="g110s0">)</tspan></text>
+<text y="3214.4" xml:space="preserve" class="g110s9"><tspan x="1433.0" class="g110s38" textLength="48.3" lengthAdjust="spacing">64 tokens</tspan><tspan x="1481.3" class="g110s0" textLength="25.3" lengthAdjust="spacing"> (ms)</tspan></text>
+<text y="3214.4" xml:space="preserve" class="g110s9"><tspan x="1643.0" class="g110s38" textLength="63.7" lengthAdjust="spacing">2,048 tokens</tspan><tspan x="1706.7" class="g110s0" textLength="25.3" lengthAdjust="spacing"> (ms)</tspan></text>
+<text x="43.0" y="3239.3" class="g110s5">a mask tensor</text>
+<text y="3239.3" xml:space="preserve" class="g110s7"><tspan x="443.0" class="g110s8" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="469.0" textLength="126.4" lengthAdjust="spacing">’s decoder self-attention</tspan></text>
+<text x="913.0" y="3239.3" class="g110s5">_scaled_dot_product_flash_attention_for_cpu</text>
+<text x="1433.0" y="3239.3" class="g110s5">0.15</text>
+<text x="1643.0" y="3239.3" class="g110s5">64.6</text>
+<line x1="34.0" y1="3248.4" x2="1846.0" y2="3248.4" class="g110s4"/>
+<rect x="34.0" y="3248.4" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text x="43.0" y="3265.3" class="g110s5">is_causal=True</text>
+<text y="3265.3" xml:space="preserve" class="g110s7"><tspan x="443.0" class="g110s8" textLength="58.6" lengthAdjust="spacing">is_causal</tspan><tspan x="501.6" textLength="132.3" lengthAdjust="spacing"> alone (the timings above)</tspan></text>
+<text x="913.0" y="3265.3" class="g110s5">_scaled_dot_product_flash_attention_for_cpu</text>
+<text x="1433.0" y="3265.3" class="g110s5">0.12</text>
+<text x="1643.0" y="3265.3" class="g110s5">35.0</text>
+<line x1="34.0" y1="3274.4" x2="1846.0" y2="3274.4" class="g110s4"/>
+<text x="43.0" y="3291.3" class="g110s5">is_causal=True, enable_gqa=True</text>
+<text y="3291.3" xml:space="preserve" class="g110s7"><tspan x="443.0" class="g110s8" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="456.0" textLength="126.4" lengthAdjust="spacing">’s decoder self-attention</tspan></text>
+<text x="913.0" y="3291.3" class="g110s5">_scaled_dot_product_attention_math</text>
+<text x="1433.0" y="3291.3" class="g110s5">0.31</text>
+<text x="1643.0" y="3291.3" class="g110s5">139.3</text>
+<line x1="34.0" y1="3300.4" x2="1846.0" y2="3300.4" class="g110s4"/>
+<rect x="34.0" y="3300.4" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text x="43.0" y="3317.3" class="g110s5">a padding mask, enable_gqa=True</text>
+<text y="3317.3" xml:space="preserve" class="g110s7"><tspan x="443.0" class="g110s8" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="456.0" textLength="227.4" lengthAdjust="spacing">’s encoder self-attention and cross-attention</tspan></text>
+<text x="913.0" y="3317.3" class="g110s5">_scaled_dot_product_attention_math</text>
+<text x="1433.0" y="3317.3" class="g110s5">0.34</text>
+<text x="1643.0" y="3317.3" class="g110s5">137.0</text>
+<line x1="34.0" y1="3326.4" x2="1846.0" y2="3326.4" class="g110s4"/>
+<rect x="34.0" y="3222.4" width="1812.0" height="104.0" rx="0" class="g110s27"/>
+<line x1="434.0" y1="3222.4" x2="434.0" y2="3326.4" class="g110s4"/>
+<line x1="904.0" y1="3222.4" x2="904.0" y2="3326.4" class="g110s4"/>
+<line x1="1424.0" y1="3222.4" x2="1424.0" y2="3326.4" class="g110s4"/>
+<line x1="1634.0" y1="3222.4" x2="1634.0" y2="3326.4" class="g110s4"/>
+<rect x="34.0" y="3338.4" width="1812.0" height="90.1" rx="6" class="g110s33"/>
+<path d="M38.50 3339.09 A5.50 5.50 0 0 0 34.50 3344.38 V3422.46 A5.50 5.50 0 0 0 38.50 3427.75 Z" class="g110s34"/>
+<text y="3364.4" xml:space="preserve" class="g110s26"><tspan x="50.0" class="g110s0" textLength="148.4" lengthAdjust="spacing">Which kernel actually runs</tspan></text>
+<text y="3381.9" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="272.7" lengthAdjust="spacing">On this CPU, PyTorch runs its own CPU version of </tspan><tspan x="322.7" class="g110s10" textLength="95.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="417.8" textLength="254.8" lengthAdjust="spacing"> for both plain calls — even with a mask tensor; </tspan><tspan x="672.6" class="g110s10" textLength="61.1" lengthAdjust="spacing">is_causal</tspan><tspan x="733.7" textLength="52.7" lengthAdjust="spacing"> is faster (</tspan><tspan x="786.4" class="g110s3" textLength="14.1" lengthAdjust="spacing">35</tspan><tspan x="800.5" textLength="45.4" lengthAdjust="spacing"> against </tspan><tspan x="845.9" class="g110s3" textLength="14.1" lengthAdjust="spacing">65</tspan><tspan x="860.0" textLength="36.0" lengthAdjust="spacing"> ms at </tspan><tspan x="896.0" class="g110s3" textLength="72.8" lengthAdjust="spacing">2,048 tokens</tspan><tspan x="968.9" textLength="32.0" lengthAdjust="spacing">). But </tspan><tspan x="1000.9" class="g110s10" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="1014.5" textLength="634.8" lengthAdjust="spacing">’s own calls also carry grouped-query attention, and on a CPU those run the plain kernel, which builds the whole table: </tspan><tspan x="1649.3" class="g110s3" textLength="21.2" lengthAdjust="spacing">139</tspan><tspan x="1670.5" textLength="116.6" lengthAdjust="spacing"> ms for the decoder’s</tspan></text>
+<text y="3399.4" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="461.9" lengthAdjust="spacing">self-attention. PyTorch’s documentation says grouped-query attention works only for “</tspan><tspan x="511.9" class="g110s10" textLength="101.9" lengthAdjust="spacing">Flash_attention</tspan><tspan x="613.8" textLength="551.3" lengthAdjust="spacing"> and math kernel on CUDA tensor”. So on a CUDA GPU in half precision, the decoder’s self-attention (</tspan><tspan x="1165.1" class="g110s10" textLength="61.1" lengthAdjust="spacing">is_causal</tspan><tspan x="1226.2" textLength="102.7" lengthAdjust="spacing">, no mask) can run </tspan><tspan x="1328.9" class="g110s10" textLength="95.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="1424.0" textLength="400.7" lengthAdjust="spacing">; the encoder’s self-attention and the cross-attention pass a padding mask,</tspan></text>
+<text y="3416.9" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="83.4" lengthAdjust="spacing">which the GPU </tspan><tspan x="133.4" class="g110s10" textLength="95.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="228.4" textLength="829.0" lengthAdjust="spacing"> kernel cannot take, so by that note they run the plain kernel there too. This page has no GPU to measure it — and with this notebook’s sentences (at most </tspan><tspan x="1057.4" class="g110s3" textLength="55.2" lengthAdjust="spacing">66 tokens</tspan><tspan x="1112.5" textLength="184.1" lengthAdjust="spacing">, one tile) the choice changes little.</tspan></text>
+<rect x="34.0" y="3448.5" width="1812.0" height="30.0" rx="6" class="g110s16"/>
+<path d="M38.50 3449.17 A5.50 5.50 0 0 0 34.50 3454.46 V3472.46 A5.50 5.50 0 0 0 38.50 3477.75 Z" class="g110s30"/>
+<text y="3468.5" xml:space="preserve" class="g110s31"><tspan x="50.0" class="g110s0" textLength="76.6" lengthAdjust="spacing">G · Checked</tspan></text>
+<text y="3468.5" xml:space="preserve" class="g110s32"><tspan x="144.6" class="g110s3" textLength="28.5" lengthAdjust="spacing">cell 9</tspan><tspan x="173.0" textLength="15.8" lengthAdjust="spacing">’s </tspan><tspan x="188.9" class="g110s8" textLength="97.6" lengthAdjust="spacing">flash_attention</tspan><tspan x="286.5" textLength="43.5" lengthAdjust="spacing"> against </tspan><tspan x="330.0" class="g110s8" textLength="45.6" lengthAdjust="spacing">softmax</tspan><tspan x="375.5" textLength="245.5" lengthAdjust="spacing"> attention, on random queries, keys and values (</tspan><tspan x="621.0" class="g110s8" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="679.5">)</tspan></text>
+<rect x="34.0" y="3494.5" width="1812.0" height="55.0" rx="6" class="g110s33"/>
+<path d="M38.50 3495.17 A5.50 5.50 0 0 0 34.50 3500.46 V3543.50 A5.50 5.50 0 0 0 38.50 3548.79 Z" class="g110s34"/>
+<text y="3520.5" xml:space="preserve" class="g110s26"><tspan x="50.0" class="g110s0" textLength="109.6" lengthAdjust="spacing">The same numbers</tspan></text>
+<text y="3538.0" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="85.4" lengthAdjust="spacing">Four shapes — </tspan><tspan x="135.4" class="g110s3" textLength="43.0" lengthAdjust="spacing">50 × 50</tspan><tspan x="178.4" textLength="78.7" lengthAdjust="spacing"> with blocks of </tspan><tspan x="257.1" class="g110s3" textLength="14.1" lengthAdjust="spacing">16</tspan><tspan x="271.2">, </tspan><tspan x="277.9" class="g110s3" textLength="28.8" lengthAdjust="spacing">7 × 7</tspan><tspan x="306.7" textLength="78.7" lengthAdjust="spacing"> with blocks of </tspan><tspan x="385.4" class="g110s3">2</tspan><tspan x="392.5">, </tspan><tspan x="399.2" class="g110s3" textLength="43.0" lengthAdjust="spacing">64 × 64</tspan><tspan x="442.2" textLength="96.0" lengthAdjust="spacing"> with one block of </tspan><tspan x="538.2" class="g110s3" textLength="14.1" lengthAdjust="spacing">64</tspan><tspan x="552.3">, </tspan><tspan x="559.0" class="g110s3">9</tspan><tspan x="566.1" textLength="88.0" lengthAdjust="spacing"> queries against </tspan><tspan x="654.1" class="g110s3" textLength="14.1" lengthAdjust="spacing">33</tspan><tspan x="668.3" textLength="106.7" lengthAdjust="spacing"> keys with blocks of </tspan><tspan x="775.0" class="g110s3">5</tspan><tspan x="782.1" textLength="374.8" lengthAdjust="spacing"> — all with a causal mask: the largest difference from plain attention is </tspan><tspan x="1156.9" class="g110s3" textLength="43.1" lengthAdjust="spacing">7.2e-07</tspan><tspan x="1200.0" textLength="64.7" lengthAdjust="spacing">, the size of </tspan><tspan x="1264.7" class="g110s10" textLength="47.5" lengthAdjust="spacing">float32</tspan><tspan x="1312.3" textLength="323.5" lengthAdjust="spacing"> rounding. The notebook prints the same check at the end of </tspan><tspan x="1635.8" class="g110s3" textLength="29.7" lengthAdjust="spacing">cell 9</tspan><tspan x="1665.5">.</tspan></text>
+<rect x="34.0" y="3569.5" width="1812.0" height="30.0" rx="6" class="g110s16"/>
+<path d="M38.50 3570.21 A5.50 5.50 0 0 0 34.50 3575.50 V3593.50 A5.50 5.50 0 0 0 38.50 3598.79 Z" class="g110s30"/>
+<text y="3589.5" xml:space="preserve" class="g110s31"><tspan x="50.0" class="g110s0" textLength="21.4" lengthAdjust="spacing">H · </tspan><tspan x="71.4" class="g110s19" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="100.9" class="g110s0" textLength="52.1" lengthAdjust="spacing"> against </tspan><tspan x="153.0" class="g110s19" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="167.7" class="g110s0" textLength="94.2" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="3589.5" xml:space="preserve" class="g110s32"><tspan x="279.9" textLength="494.1" lengthAdjust="spacing">the answers stay the same, so the rows compare what it costs and saves, measured on this CPU</tspan></text>
+<text y="3617.5" xml:space="preserve" class="g110s26"><tspan x="38.0" class="g110s0" textLength="69.3" lengthAdjust="spacing">What it fixes</tspan></text>
+<text y="3635.5" xml:space="preserve" class="g110s15"><tspan x="38.0" class="g110s10" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="65.2" textLength="281.3" lengthAdjust="spacing">’s way: a mask tensor keeps PyTorch from using its </tspan><tspan x="346.5" class="g110s10" textLength="95.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="441.5" textLength="42.7" lengthAdjust="spacing"> kernel. </tspan><tspan x="484.2" class="g110s10" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="497.8" textLength="19.9" lengthAdjust="spacing">’s: </tspan><tspan x="517.7" class="g110s10" textLength="61.1" lengthAdjust="spacing">is_causal</tspan><tspan x="578.8" textLength="276.8" lengthAdjust="spacing"> instead: the decoder can qualify on a suitable GPU.</tspan></text>
+<rect x="34.0" y="3656.9" width="1812.0" height="24.0" rx="4" class="g110s16"/>
+<text y="3672.9" xml:space="preserve" class="g110s9"><tspan x="743.0" class="g110s22" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="766.8" class="g110s0" textLength="89.6" lengthAdjust="spacing">’s way (without it)</tspan></text>
+<text y="3672.9" xml:space="preserve" class="g110s9"><tspan x="1133.0" class="g110s22" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="1144.9" class="g110s0" textLength="39.0" lengthAdjust="spacing"> (with it)</tspan></text>
+<text y="3672.9" xml:space="preserve" class="g110s9"><tspan x="1523.0" class="g110s0" textLength="71.1" lengthAdjust="spacing">which is better</tspan></text>
+<text y="3697.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="65.7" lengthAdjust="spacing">the answers</tspan></text>
+<text x="743.0" y="3697.8" class="g110s5">a mask tensor</text>
+<text x="1133.0" y="3697.8" class="g110s5">is_causal: largest difference 8e-07 on real tokens</text>
+<text y="3697.8" xml:space="preserve" class="g110s7"><tspan x="1523.0" textLength="47.3" lengthAdjust="spacing">the same</tspan></text>
+<line x1="34.0" y1="3706.9" x2="1846.0" y2="3706.9" class="g110s4"/>
+<rect x="34.0" y="3706.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="3723.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="115.2" lengthAdjust="spacing">causal self-attention, </tspan><tspan x="158.2" class="g110s3" textLength="52.9" lengthAdjust="spacing">64 tokens</tspan><tspan x="211.0" class="g110s0" textLength="110.4" lengthAdjust="spacing">, this CPU (no GQA)</tspan></text>
+<text x="743.0" y="3723.8" class="g110s5">0.15 ms</text>
+<text x="1133.0" y="3723.8" class="g110s5">0.14 ms</text>
+<text y="3723.8" xml:space="preserve" class="g110s7"><tspan x="1523.0" textLength="79.3" lengthAdjust="spacing">about the same</tspan></text>
+<line x1="34.0" y1="3732.9" x2="1846.0" y2="3732.9" class="g110s4"/>
+<text y="3749.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="115.2" lengthAdjust="spacing">causal self-attention, </tspan><tspan x="158.2" class="g110s3" textLength="69.8" lengthAdjust="spacing">2,048 tokens</tspan><tspan x="228.0" class="g110s0" textLength="110.4" lengthAdjust="spacing">, this CPU (no GQA)</tspan></text>
+<text x="743.0" y="3749.8" class="g110s5">63.50 ms</text>
+<text x="1133.0" y="3749.8" class="g110s5">34.56 ms</text>
+<text y="3749.8" xml:space="preserve" class="g110s7"><tspan x="1523.0" textLength="61.4" lengthAdjust="spacing">faster with it</tspan></text>
+<line x1="34.0" y1="3758.9" x2="1846.0" y2="3758.9" class="g110s4"/>
+<rect x="34.0" y="3758.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="3775.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s8" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="56.0" class="g110s0" textLength="129.2" lengthAdjust="spacing">’s real call (with GQA), </tspan><tspan x="185.3" class="g110s3" textLength="69.8" lengthAdjust="spacing">2,048 tokens</tspan><tspan x="255.1" class="g110s0" textLength="54.9" lengthAdjust="spacing">, this CPU</tspan></text>
+<text x="743.0" y="3775.8" class="g110s5">64.6 ms (v2.5’s mask, no GQA)</text>
+<text x="1133.0" y="3775.8" class="g110s5">139.3 ms (the plain kernel)</text>
+<text y="3775.8" xml:space="preserve" class="g110s7"><tspan x="1523.0" textLength="207.1" lengthAdjust="spacing">slower here: GQA forces the plain kernel</tspan></text>
+<line x1="34.0" y1="3784.9" x2="1846.0" y2="3784.9" class="g110s4"/>
+<text y="3801.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="85.4" lengthAdjust="spacing">memory for the </tspan><tspan x="128.4" class="g110s8" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="167.4" class="g110s0">, </tspan><tspan x="174.2" class="g110s3" textLength="69.8" lengthAdjust="spacing">8,192 tokens</tspan><tspan x="244.0" class="g110s0" textLength="39.3" lengthAdjust="spacing">, when </tspan><tspan x="283.3" class="g110s8" textLength="91.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="374.4" class="g110s0" textLength="120.6" lengthAdjust="spacing"> runs (a suitable GPU)</tspan></text>
+<text x="743.0" y="3801.8" class="g110s5">4,295 MB</text>
+<text x="1133.0" y="3801.8" class="g110s5">68 MB</text>
+<text y="3801.8" xml:space="preserve" class="g110s7"><tspan x="1523.0" textLength="177.0" lengthAdjust="spacing">far less with it — on long texts only</tspan></text>
+<line x1="34.0" y1="3810.9" x2="1846.0" y2="3810.9" class="g110s4"/>
+<rect x="34.0" y="3810.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="3827.8" xml:space="preserve" class="g110s17"><tspan x="43.0" class="g110s0" textLength="195.7" lengthAdjust="spacing">this notebook’s sentences (at most </tspan><tspan x="238.7" class="g110s3" textLength="52.9" lengthAdjust="spacing">66 tokens</tspan><tspan x="291.5" class="g110s0">)</tspan></text>
+<text x="743.0" y="3827.8" class="g110s5">one tile</text>
+<text x="1133.0" y="3827.8" class="g110s5">one tile</text>
+<text y="3827.8" xml:space="preserve" class="g110s7"><tspan x="1523.0" textLength="134.9" lengthAdjust="spacing">no difference at this length</tspan></text>
+<line x1="34.0" y1="3836.9" x2="1846.0" y2="3836.9" class="g110s4"/>
+<rect x="34.0" y="3680.9" width="1812.0" height="156.0" rx="0" class="g110s27"/>
+<line x1="734.0" y1="3680.9" x2="734.0" y2="3836.9" class="g110s4"/>
+<line x1="1124.0" y1="3680.9" x2="1124.0" y2="3836.9" class="g110s4"/>
+<line x1="1514.0" y1="3680.9" x2="1514.0" y2="3836.9" class="g110s4"/>
+<rect x="34.0" y="3848.9" width="1812.0" height="55.0" rx="6" class="g110s33"/>
+<path d="M38.50 3849.61 A5.50 5.50 0 0 0 34.50 3854.90 V3897.94 A5.50 5.50 0 0 0 38.50 3903.23 Z" class="g110s34"/>
+<text y="3874.9" xml:space="preserve" class="g110s26"><tspan x="50.0" class="g110s0" textLength="57.3" lengthAdjust="spacing">Reading it</tspan></text>
+<text y="3892.4" xml:space="preserve" class="g110s15"><tspan x="50.0" textLength="1183.3" lengthAdjust="spacing">It changes no answer, so whether it helps is a question of what it costs and saves — and that depends on the hardware and the length of the text more than on training. The overview page puts all eight changes side by side.</tspan></text>
+<rect x="34.0" y="3923.9" width="1812.0" height="30.0" rx="6" class="g110s16"/>
+<path d="M38.50 3924.65 A5.50 5.50 0 0 0 34.50 3929.94 V3947.94 A5.50 5.50 0 0 0 38.50 3953.23 Z" class="g110s30"/>
+<text y="3943.9" xml:space="preserve" class="g110s31"><tspan x="50.0" class="g110s0" textLength="211.3" lengthAdjust="spacing">Claims · Common claims, checked</tspan></text>
+<text y="3943.9" xml:space="preserve" class="g110s32"><tspan x="279.3" textLength="147.5" lengthAdjust="spacing">against this page’s numbers</tspan></text>
+<rect x="34.0" y="3969.9" width="1812.0" height="24.0" rx="4" class="g110s16"/>
+<text y="3985.9" xml:space="preserve" class="g110s9"><tspan x="43.0" class="g110s0" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="3985.9" xml:space="preserve" class="g110s9"><tspan x="603.0" class="g110s0" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="3985.9" xml:space="preserve" class="g110s9"><tspan x="713.0" class="g110s0" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
+<text y="4010.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s13" textLength="87.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="130.1" class="g110s0" textLength="168.5" lengthAdjust="spacing"> is an approximation of attention.</tspan></text>
+<text y="4010.7" xml:space="preserve" class="g110s18"><tspan x="603.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="4010.7" xml:space="preserve" class="g110s18"><tspan x="713.0" textLength="107.6" lengthAdjust="spacing">it computes the same </tspan><tspan x="820.6" class="g110s13" textLength="43.6" lengthAdjust="spacing">softmax</tspan><tspan x="864.2" textLength="383.3" lengthAdjust="spacing">-weighted sum exactly; only the order of the additions changes (sections C, D).</tspan></text>
+<line x1="34.0" y1="4019.9" x2="1846.0" y2="4019.9" class="g110s4"/>
+<rect x="34.0" y="4019.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="4036.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="152.9" lengthAdjust="spacing">It needs fewer multiplications.</tspan></text>
+<text y="4036.7" xml:space="preserve" class="g110s18"><tspan x="603.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="4036.7" xml:space="preserve" class="g110s18"><tspan x="713.0" textLength="644.4" lengthAdjust="spacing">it does the same arithmetic plus a few rescales; it is faster because it moves far less data between memory and the chip — and with </tspan><tspan x="1357.4" class="g110s13" textLength="56.0" lengthAdjust="spacing">is_causal</tspan><tspan x="1413.4" textLength="153.5" lengthAdjust="spacing"> it skips the blocks in the future.</tspan></text>
+<line x1="34.0" y1="4045.9" x2="1846.0" y2="4045.9" class="g110s4"/>
+<text y="4062.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="139.3" lengthAdjust="spacing">This notebook implements </tspan><tspan x="182.3" class="g110s13" textLength="87.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="269.5" class="g110s0">.</tspan></text>
+<text y="4062.7" xml:space="preserve" class="g110s18"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="4062.7" xml:space="preserve" class="g110s18"><tspan x="713.0" textLength="74.0" lengthAdjust="spacing">PyTorch does: </tspan><tspan x="787.0" class="g110s13" textLength="186.7" lengthAdjust="spacing">F.scaled_dot_product_attention</tspan><tspan x="973.7" textLength="222.5" lengthAdjust="spacing"> picks it when the conditions hold (section E). </tspan><tspan x="1196.3" class="g110s3" textLength="29.8" lengthAdjust="spacing">Cell 9</tspan><tspan x="1226.1" textLength="15.2" lengthAdjust="spacing">’s </tspan><tspan x="1241.2" class="g110s13" textLength="93.4" lengthAdjust="spacing">flash_attention</tspan><tspan x="1334.6" textLength="261.7" lengthAdjust="spacing"> only writes the algorithm out; the model never calls it.</tspan></text>
+<line x1="34.0" y1="4071.9" x2="1846.0" y2="4071.9" class="g110s4"/>
+<rect x="34.0" y="4071.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="4088.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s13" textLength="87.1" lengthAdjust="spacing">is_causal=True</tspan><tspan x="130.1" class="g110s0" textLength="32.4" lengthAdjust="spacing"> turns </tspan><tspan x="162.5" class="g110s13" textLength="87.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="249.7" class="g110s0" textLength="19.4" lengthAdjust="spacing"> on.</tspan></text>
+<text y="4088.7" xml:space="preserve" class="g110s18"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="4088.7" xml:space="preserve" class="g110s18"><tspan x="713.0" textLength="765.4" lengthAdjust="spacing">it only says which keys each query may see; with no mask tensor, the call can qualify — the GPU, the precision and the head size decide the rest (section E).</tspan></text>
+<line x1="34.0" y1="4097.9" x2="1846.0" y2="4097.9" class="g110s4"/>
+<text y="4114.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s13" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="55.4" class="g110s0" textLength="29.2" lengthAdjust="spacing"> runs </tspan><tspan x="84.6" class="g110s13" textLength="87.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="171.8" class="g110s0" textLength="68.7" lengthAdjust="spacing"> on this CPU.</tspan></text>
+<text y="4114.7" xml:space="preserve" class="g110s18"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="4114.7" xml:space="preserve" class="g110s18"><tspan x="713.0" textLength="100.3" lengthAdjust="spacing">PyTorch has a CPU </tspan><tspan x="813.3" class="g110s13" textLength="87.1" lengthAdjust="spacing">FlashAttention</tspan><tspan x="900.4" textLength="57.5" lengthAdjust="spacing"> kernel and </tspan><tspan x="957.9" class="g110s13" textLength="56.0" lengthAdjust="spacing">is_causal</tspan><tspan x="1013.9" textLength="87.4" lengthAdjust="spacing"> alone runs it, but </tspan><tspan x="1101.3" class="g110s13" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1113.8" textLength="460.2" lengthAdjust="spacing">’s calls also carry grouped-query attention, which a CPU runs with the plain kernel (section F).</tspan></text>
+<line x1="34.0" y1="4123.9" x2="1846.0" y2="4123.9" class="g110s4"/>
+<rect x="34.0" y="4123.9" width="1812.0" height="26.0" rx="0" class="g110s12"/>
+<text y="4140.7" xml:space="preserve" class="g110s21"><tspan x="43.0" class="g110s0" textLength="219.7" lengthAdjust="spacing">Dropping the mask is unsafe with padding.</tspan></text>
+<text y="4140.7" xml:space="preserve" class="g110s18"><tspan x="603.0" textLength="40.4" lengthAdjust="spacing">not here</tspan></text>
+<text y="4140.7" xml:space="preserve" class="g110s18"><tspan x="713.0" textLength="631.0" lengthAdjust="spacing">padding sits at the end of every answer, so no real token sees a pad (section F); a batch padded on the left would need the mask.</tspan></text>
+<line x1="34.0" y1="4149.9" x2="1846.0" y2="4149.9" class="g110s4"/>
+<rect x="34.0" y="3993.9" width="1812.0" height="156.0" rx="0" class="g110s27"/>
+<line x1="594.0" y1="3993.9" x2="594.0" y2="4149.9" class="g110s4"/>
+<line x1="704.0" y1="3993.9" x2="704.0" y2="4149.9" class="g110s4"/>
+<line x1="28.0" y1="4175.9" x2="1852.0" y2="4175.9" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="4192.9" xml:space="preserve" class="g110s59"><tspan x="28.0" textLength="341.7" lengthAdjust="spacing">Numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="369.7" class="g110s13" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="382.2" textLength="105.2" lengthAdjust="spacing"> notebook (written by </tspan><tspan x="487.3" class="g110s13" textLength="37.3" lengthAdjust="spacing">nb3.py</tspan><tspan x="524.7" textLength="28.1" lengthAdjust="spacing"> from </tspan><tspan x="552.8" class="g110s13" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="577.7" textLength="195.1" lengthAdjust="spacing">; your notebooks are only read) and the </tspan><tspan x="772.7" class="g110s13" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="797.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="940.7" class="g110s3" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="956.9" textLength="280.0" lengthAdjust="spacing">.0 on their own two sentence pairs (CPU, seeded). Every </tspan><tspan x="1236.9" class="g110s13" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1249.4" textLength="234.1" lengthAdjust="spacing"> change is tested on the notebook’s own code (</tspan><tspan x="1483.4" class="g110s13" textLength="56.0" lengthAdjust="spacing">check3.py</tspan><tspan x="1539.5" textLength="199.9" lengthAdjust="spacing">). TINY-MODEL numbers come from the </tspan><tspan x="1739.3" class="g110s13" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1751.8" textLength="85.6" lengthAdjust="spacing"> classes built with</tspan></text>
+<text y="4207.9" xml:space="preserve" class="g110s59"><tspan x="28.0" class="g110s3" textLength="55.1" lengthAdjust="spacing">8 numbers</tspan><tspan x="83.1" textLength="472.6" lengthAdjust="spacing"> a token and trained on five sentences; a pure-Python copy of that model agrees with PyTorch to </tspan><tspan x="555.7" class="g110s3" textLength="29.8" lengthAdjust="spacing">1e-04</tspan><tspan x="585.5">.</tspan></text>
+</svg>

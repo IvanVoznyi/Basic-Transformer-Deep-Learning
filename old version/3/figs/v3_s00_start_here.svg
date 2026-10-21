@@ -1,0 +1,453 @@
+<svg data-src="v3_s00_start_here.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1590" viewBox="0 0 1880 1590">
+<style>.txfig .g41s0{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.2px}.txfig .g41s1{fill:var(--soft);stroke:var(--hair);stroke-width:0.6}.txfig .g41s2{fill:var(--flat);stroke:var(--hair);stroke-width:0.6}.txfig .g41s3{font-weight:600;fill:var(--ink)}.txfig .g41s4{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g41s5{fill:var(--infobd);stroke:var(--accent);stroke-width:0.6}.txfig .g41s6{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;fill:var(--ink)}.txfig .g41s7{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g41s8{fill:var(--keep);stroke:none;stroke-width:1}.txfig .g41s9{fill:var(--keybd);stroke:var(--keep);stroke-width:0.6}.txfig .g41s10{fill:var(--ink3);stroke:none;stroke-width:1}.txfig .g41s11{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:end}.txfig .g41s12{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start}.txfig .g41s13{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start}.txfig .g41s14{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g41s15{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:middle}.txfig .g41s16{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1.2}.txfig .g41s17{fill:var(--s3);stroke:none;stroke-width:1}.txfig .g41s18{fill:var(--bg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600;text-anchor:middle}.txfig .g41s19{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14.5px;font-weight:600;text-anchor:start}.txfig .g41s20{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g41s21{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g41s22{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g41s23{stroke:var(--gridline);stroke-width:0.8;stroke-linecap:round}.txfig .g41s24{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g41s25{fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g41s26{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g41s27{font-weight:600}.txfig .g41s28{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1}.txfig .g41s29{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start}.txfig .g41s30{fill:var(--infobg);stroke:var(--infobd);stroke-width:1}.txfig .g41s31{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g41s32{fill:var(--seqBbg);stroke:var(--s3);stroke-width:1.4}.txfig .g41s33{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g41s34{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g41s35{fill:var(--keepbg);stroke:var(--keep);stroke-width:1}.txfig .g41s36{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g41s37{fill:var(--drop)}.txfig .g41s38{fill:var(--keep)}.txfig .g41s39{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g41s40{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g41s41{fill:var(--keep);stroke:none}.txfig .g41s42{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g41s43{fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;font-weight:600;text-anchor:start}.txfig .g41s44{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;text-anchor:start}.txfig .g41s45{fill:var(--keepbg);stroke:var(--keep);stroke-width:1.4}.txfig .g41s46{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g41s47{fill:var(--grid);stroke:none;stroke-width:1}.txfig .g41s48{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g41s49{stroke:var(--panelbd);stroke-width:1;stroke-linecap:round}.txfig .g41s50{stroke:var(--s3);stroke-width:1;stroke-dasharray:3 3;stroke-linecap:round}.txfig .g41s51{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g41s52{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g41s53{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch41" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash41" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1590" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v3 · START HERE</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="160.8" class="g41s27" textLength="431.8" lengthAdjust="spacing">Start here — the next level, in eight pictures</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="31.1" lengthAdjust="spacing">what </tspan><tspan x="65.1" class="g41s14" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="79.8" textLength="49.9" lengthAdjust="spacing"> adds to </tspan><tspan x="129.7" class="g41s14" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="159.1" textLength="384.4" lengthAdjust="spacing">: four ways to run faster and smaller, four that change how it learns</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="213.5" lengthAdjust="spacing">Each picture uses real numbers: from the </tspan><tspan x="247.5" class="g41s39" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="260.5" textLength="686.5" lengthAdjust="spacing"> notebook run on this machine, from the checks of its code, or from the same model built tiny. The pages after this one take each apart.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g41s40"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g41s41"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g41s27" textLength="38.8" lengthAdjust="spacing">What </tspan><tspan x="92.8" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.2px;font-weight:600;fill:var(--ink)" textLength="15.8" lengthAdjust="spacing">v3</tspan><tspan x="108.6" class="g41s27" textLength="127.9" lengthAdjust="spacing"> is, in one sentence</tspan></text>
+<text y="169.0" xml:space="preserve" class="g41s42"><tspan x="54.0" class="g41s14" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="68.7"> </tspan><tspan x="72.9" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="82.3"> </tspan><tspan x="86.5" class="g41s14" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="116.0"> </tspan><tspan x="120.2" textLength="23.1" lengthAdjust="spacing">with</tspan><tspan x="143.3"> </tspan><tspan x="147.5" textLength="28.2" lengthAdjust="spacing">eight</tspan><tspan x="175.7"> </tspan><tspan x="179.9" textLength="62.9" lengthAdjust="spacing">techniques</tspan><tspan x="242.8"> </tspan><tspan x="247.0" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="268.7"> </tspan><tspan x="272.9" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="290.9"> </tspan><tspan x="295.2" textLength="28.9" lengthAdjust="spacing">large</tspan><tspan x="324.1"> </tspan><tspan x="328.3" textLength="53.5" lengthAdjust="spacing">language</tspan><tspan x="381.8"> </tspan><tspan x="386.0" textLength="41.9" lengthAdjust="spacing">models</tspan><tspan x="427.9"> </tspan><tspan x="432.1" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="442.9"> </tspan><tspan x="447.1" class="g41s3" textLength="30.6" lengthAdjust="spacing">2024</tspan><tspan x="477.8"> </tspan><tspan x="482.0" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="503.7"> </tspan><tspan x="507.9" class="g41s3" textLength="30.6" lengthAdjust="spacing">2025</tspan><tspan x="538.5"> </tspan><tspan x="542.8" textLength="24.6" lengthAdjust="spacing">use:</tspan><tspan x="567.3"> </tspan><tspan x="571.5" textLength="22.4" lengthAdjust="spacing">four</tspan><tspan x="593.9"> </tspan><tspan x="598.2" textLength="31.8" lengthAdjust="spacing">make</tspan><tspan x="629.9"> </tspan><tspan x="634.2" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="652.2"> </tspan><tspan x="656.4" textLength="39.7" lengthAdjust="spacing">trained</tspan><tspan x="696.2"> </tspan><tspan x="700.4" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="735.8"> </tspan><tspan x="740.0" textLength="47.0" lengthAdjust="spacing">cheaper</tspan><tspan x="787.0"> </tspan><tspan x="791.2" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="812.9"> </tspan><tspan x="817.1" textLength="41.9" lengthAdjust="spacing">quicker</tspan><tspan x="859.0"> </tspan><tspan x="863.2" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="874.0"> </tspan><tspan x="878.3" textLength="18.8" lengthAdjust="spacing">run</tspan><tspan x="897.0"> </tspan><tspan x="901.3">—</tspan><tspan x="914.3"> </tspan><tspan x="918.5" textLength="23.1" lengthAdjust="spacing">less</tspan><tspan x="941.6"> </tspan><tspan x="945.8" textLength="46.9" lengthAdjust="spacing">memory</tspan><tspan x="992.7"> </tspan><tspan x="997.0" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="1015.7"> </tspan><tspan x="1020.0" textLength="31.8" lengthAdjust="spacing">word,</tspan><tspan x="1051.7"> </tspan><tspan x="1056.0" textLength="31.8" lengthAdjust="spacing">fewer</tspan><tspan x="1087.7"> </tspan><tspan x="1092.0" textLength="41.2" lengthAdjust="spacing">passes</tspan><tspan x="1133.1"> </tspan><tspan x="1137.4" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="1156.1"> </tspan><tspan x="1160.4" textLength="45.5" lengthAdjust="spacing">answer,</tspan><tspan x="1205.9"> </tspan><tspan x="1210.1">a</tspan><tspan x="1217.3"> </tspan><tspan x="1221.5" textLength="41.9" lengthAdjust="spacing">smaller</tspan><tspan x="1263.4"> </tspan><tspan x="1267.6" textLength="16.6" lengthAdjust="spacing">file</tspan><tspan x="1284.2"> </tspan><tspan x="1288.5">—</tspan><tspan x="1301.5"> </tspan><tspan x="1305.7" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1327.4"> </tspan><tspan x="1331.6" textLength="22.4" lengthAdjust="spacing">four</tspan><tspan x="1354.0"> </tspan><tspan x="1358.2" textLength="42.6" lengthAdjust="spacing">change</tspan><tspan x="1400.8"> </tspan><tspan x="1405.0" textLength="23.8" lengthAdjust="spacing">how</tspan><tspan x="1428.9"> </tspan><tspan x="1433.1" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="1439.6"> </tspan><tspan x="1443.8" textLength="39.0" lengthAdjust="spacing">learns,</tspan><tspan x="1482.8"> </tspan><tspan x="1487.0" textLength="13.7" lengthAdjust="spacing">so</tspan><tspan x="1500.8"> </tspan><tspan x="1505.0" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="1526.7"> </tspan><tspan x="1530.9" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1548.9"> </tspan><tspan x="1553.2" textLength="31.8" lengthAdjust="spacing">same</tspan><tspan x="1584.9"> </tspan><tspan x="1589.2" textLength="55.6" lengthAdjust="spacing">examples</tspan><tspan x="1644.8"> </tspan><tspan x="1649.0" textLength="31.8" lengthAdjust="spacing">teach</tspan><tspan x="1680.8"> </tspan><tspan x="1685.0" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="1691.5"> </tspan><tspan x="1695.7" textLength="33.2" lengthAdjust="spacing">more.</tspan><tspan x="1729.0"> </tspan><tspan x="1733.2" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="1755.6"> </tspan><tspan x="1759.8" textLength="41.9" lengthAdjust="spacing">answer</tspan><tspan x="1801.7"> </tspan><tspan x="1805.9" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="1812.4"> </tspan><tspan x="1816.6" textLength="9.4" lengthAdjust="spacing">is</tspan></text>
+<text y="188.0" xml:space="preserve" class="g41s42"><tspan x="54.0" textLength="187.1" lengthAdjust="spacing">trained toward is the same as in </tspan><tspan x="241.1" class="g41s14" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="270.6">; </tspan><tspan x="277.8" class="g41s14" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="292.5" textLength="515.9" lengthAdjust="spacing"> changes how cheaply it gets there and how well. The notebook is a new file, written from </tspan><tspan x="808.4" class="g41s14" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="837.8" textLength="232.5" lengthAdjust="spacing">’s code; every change is marked [NEW </tspan><tspan x="1070.3" class="g41s14" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="1085.0" textLength="219.7" lengthAdjust="spacing">] and every one was run and checked.</tspan></text>
+<text x="34.0" y="246.0" class="g41s43">FASTER AND SMALLER</text>
+<text x="247.0" y="246.0" class="g41s44">when the trained model is used — 1 to 4</text>
+<rect x="1409.5" y="260.0" width="436.5" height="427.8" rx="10" class="g41s16"/>
+<rect x="951.0" y="260.0" width="436.5" height="427.8" rx="10" class="g41s16"/>
+<rect x="492.5" y="260.0" width="436.5" height="427.8" rx="10" class="g41s16"/>
+<rect x="34.0" y="260.0" width="436.5" height="427.8" rx="10" class="g41s16"/>
+<rect x="50.0" y="276.0" width="28.0" height="28.0" rx="14" class="g41s17"/>
+<text x="64.0" y="295.0" class="g41s18">1</text>
+<text x="88.0" y="295.0" class="g41s19">Heads share their keys and values</text>
+<text x="88.0" y="314.0" class="g41s4">grouped-query attention · cell 2 · deep dive 19</text>
+<line x1="102.1" y1="360.0" x2="152.1" y2="412.0" style="stroke:var(--h0);stroke-width:2"/>
+<line x1="202.2" y1="360.0" x2="152.1" y2="412.0" style="stroke:var(--h1);stroke-width:2"/>
+<line x1="302.3" y1="360.0" x2="352.4" y2="412.0" style="stroke:var(--h2);stroke-width:2"/>
+<line x1="402.4" y1="360.0" x2="352.4" y2="412.0" style="stroke:var(--h3);stroke-width:2"/>
+<rect x="68.1" y="334.0" width="68.0" height="26.0" rx="6" style="fill:var(--cellbg);stroke:var(--h0);stroke-width:1.6"/>
+<text x="102.1" y="352.0" style="fill:var(--h0);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle">query 0</text>
+<rect x="168.2" y="334.0" width="68.0" height="26.0" rx="6" style="fill:var(--cellbg);stroke:var(--h1);stroke-width:1.6"/>
+<text x="202.2" y="352.0" style="fill:var(--h1);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle">query 1</text>
+<rect x="268.3" y="334.0" width="68.0" height="26.0" rx="6" style="fill:var(--cellbg);stroke:var(--h2);stroke-width:1.6"/>
+<text x="302.3" y="352.0" style="fill:var(--h2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle">query 2</text>
+<rect x="368.4" y="334.0" width="68.0" height="26.0" rx="6" style="fill:var(--cellbg);stroke:var(--h3);stroke-width:1.6"/>
+<text x="402.4" y="352.0" style="fill:var(--h3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle">query 3</text>
+<rect x="90.1" y="412.0" width="124.0" height="28.0" rx="6" class="g41s45"/>
+<text x="152.1" y="431.0" class="g41s46">keys, values 0</text>
+<rect x="290.4" y="412.0" width="124.0" height="28.0" rx="6" class="g41s45"/>
+<text x="352.4" y="431.0" class="g41s46">keys, values 1</text>
+<text x="52.0" y="468.0" class="g41s4">numbers the cache keeps per word written (the real model)</text>
+<text x="52.0" y="491.0" class="g41s7">v2.5 · 4 sets</text>
+<rect x="172.0" y="478.0" width="190.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="172.0" y="478.0" width="190.5" height="16.0" rx="3" class="g41s10"/>
+<text x="452.5" y="491.0" class="g41s11">2,048</text>
+<text x="52.0" y="515.0" class="g41s7">v3 · 2 sets</text>
+<rect x="172.0" y="502.0" width="190.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="172.0" y="502.0" width="95.2" height="16.0" rx="3" class="g41s8"/>
+<text x="452.5" y="515.0" class="g41s11">1,024</text>
+<text y="546.2" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="65.1" lengthAdjust="spacing">Each of the </tspan><tspan x="117.1" class="g41s3" textLength="99.2" lengthAdjust="spacing">4 attention heads</tspan><tspan x="216.3" textLength="197.3" lengthAdjust="spacing"> asks its own question (its query). In </tspan><tspan x="413.6" class="g41s6" textLength="27.6" lengthAdjust="spacing">v2.5</tspan></text>
+<text y="563.9" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="396.0" lengthAdjust="spacing">each also kept its own keys and values — and while writing, those pile up</tspan></text>
+<text y="581.6" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="200.7" lengthAdjust="spacing">in the cache for every word so far. In </tspan><tspan x="252.7" class="g41s6" textLength="13.8" lengthAdjust="spacing">v3</tspan><tspan x="266.5" textLength="160.1" lengthAdjust="spacing"> two heads share one set: the</tspan></text>
+<text y="599.3" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="396.0" lengthAdjust="spacing">cache holds half as many numbers, and the time spent reading it at every</tspan></text>
+<text y="617.0" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="128.8" lengthAdjust="spacing">word halves too. Llama </tspan><tspan x="180.8" class="g41s3">3</tspan><tspan x="188.0" textLength="175.6" lengthAdjust="spacing">, Mistral and Qwen do the same.</tspan></text>
+<rect x="508.5" y="276.0" width="28.0" height="28.0" rx="14" class="g41s17"/>
+<text x="522.5" y="295.0" class="g41s18">2</text>
+<text x="546.5" y="295.0" class="g41s19">Attention a block at a time</text>
+<text x="546.5" y="314.0" class="g41s4">PyTorch’s built-in FlashAttention · deep dive 20</text>
+<rect x="510.5" y="334.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="525.5" y="334.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="540.5" y="334.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="555.5" y="334.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="570.5" y="334.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="585.5" y="334.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="600.5" y="334.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="615.5" y="334.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="510.5" y="349.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="525.5" y="349.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="540.5" y="349.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="555.5" y="349.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="570.5" y="349.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="585.5" y="349.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="600.5" y="349.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="615.5" y="349.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="510.5" y="364.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="525.5" y="364.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="540.5" y="364.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="555.5" y="364.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="570.5" y="364.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="585.5" y="364.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="600.5" y="364.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="615.5" y="364.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="510.5" y="379.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="525.5" y="379.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="540.5" y="379.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="555.5" y="379.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="570.5" y="379.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="585.5" y="379.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="600.5" y="379.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="615.5" y="379.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="510.5" y="394.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="525.5" y="394.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="540.5" y="394.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="555.5" y="394.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="570.5" y="394.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="585.5" y="394.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="600.5" y="394.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="615.5" y="394.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="510.5" y="409.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="525.5" y="409.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="540.5" y="409.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="555.5" y="409.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="570.5" y="409.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="585.5" y="409.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="600.5" y="409.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="615.5" y="409.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="510.5" y="424.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="525.5" y="424.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="540.5" y="424.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="555.5" y="424.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="570.5" y="424.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="585.5" y="424.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="600.5" y="424.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="615.5" y="424.0" width="13.5" height="13.5" rx="2" class="g41s2"/>
+<rect x="510.5" y="439.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="525.5" y="439.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="540.5" y="439.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="555.5" y="439.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="570.5" y="439.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="585.5" y="439.0" width="13.5" height="13.5" rx="2" class="g41s5"/>
+<rect x="600.5" y="439.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="615.5" y="439.0" width="13.5" height="13.5" rx="2" class="g41s9"/>
+<rect x="508.5" y="407.0" width="122.0" height="17.0" rx="3" style="fill:none;stroke:var(--s3);stroke-width:1.6"/>
+<text x="646.5" y="348.0" style="fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start">one row: the scores of one word</text>
+<text x="646.5" y="365.0" class="g41s7">read 2 columns (a block) at a time;</text>
+<text x="646.5" y="382.0" class="g41s7">keep only a running largest score</text>
+<text x="646.5" y="399.0" class="g41s7">m and a running sum ℓ — rescale</text>
+<text x="646.5" y="416.0" class="g41s7">both when a larger score arrives</text>
+<text x="510.5" y="484.0" class="g41s4">memory for 8,192 words (4 heads, 4 sentences, float32)</text>
+<text x="510.5" y="507.0" class="g41s7">the whole table</text>
+<rect x="630.5" y="494.0" width="190.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="630.5" y="494.0" width="190.5" height="16.0" rx="3" class="g41s10"/>
+<text x="911.0" y="507.0" class="g41s11">4,295 MB</text>
+<text x="510.5" y="531.0" class="g41s7">running m, ℓ, out</text>
+<rect x="630.5" y="518.0" width="190.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="630.5" y="518.0" width="3.0" height="16.0" rx="3" class="g41s8"/>
+<text x="911.0" y="531.0" class="g41s11">68 MB</text>
+<text y="562.2" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="162.7" lengthAdjust="spacing">To weigh the words, attention </tspan><tspan x="673.2" class="g41s6" textLength="41.4" lengthAdjust="spacing">scores</tspan><tspan x="714.7" textLength="180.4" lengthAdjust="spacing"> every pair of them — a table that</tspan></text>
+<text y="579.9" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="196.0" lengthAdjust="spacing">grows with the square of the length. </tspan><tspan x="706.5" class="g41s6" textLength="96.7" lengthAdjust="spacing">FlashAttention</tspan><tspan x="803.1" textLength="78.6" lengthAdjust="spacing"> never writes it</tspan></text>
+<text y="597.6" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="381.1" lengthAdjust="spacing">down: it reads the keys a block at a time and keeps, for each word, the</tspan></text>
+<text y="615.3" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="395.3" lengthAdjust="spacing">largest score so far and a running sum, rescaled whenever a larger score</tspan></text>
+<text y="633.0" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="212.2" lengthAdjust="spacing">arrives. The result is the same (here to </tspan><tspan x="722.7" class="g41s3" textLength="33.1" lengthAdjust="spacing">7e-07</tspan><tspan x="755.8" textLength="134.2" lengthAdjust="spacing">). PyTorch has it built in; </tspan><tspan x="890.0" class="g41s6" textLength="13.8" lengthAdjust="spacing">v3</tspan></text>
+<text y="650.7" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="363.3" lengthAdjust="spacing">calls its decoder’s self-attention so that PyTorch can pick it — on a</tspan></text>
+<text y="668.3" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="135.6" lengthAdjust="spacing">suitable GPU (deep dive </tspan><tspan x="646.1" class="g41s3" textLength="14.4" lengthAdjust="spacing">20</tspan><tspan x="660.5" textLength="7.5" lengthAdjust="spacing">).</tspan></text>
+<rect x="967.0" y="276.0" width="28.0" height="28.0" rx="14" class="g41s17"/>
+<text x="981.0" y="295.0" class="g41s18">3</text>
+<text x="1005.0" y="295.0" class="g41s19">Two words for one pass</text>
+<text x="1005.0" y="314.0" class="g41s4">speculative decoding · cells 2, 9 · deep dive 23</text>
+<text x="969.0" y="342.0" class="g41s4">the tiny model writes “the cat is sleeping peacefully”:</text>
+<text x="969.0" y="371.0" class="g41s29">pass 1</text>
+<rect x="1035.0" y="354.0" width="35.9" height="24.0" rx="5" class="g41s30"/>
+<text x="1052.9" y="370.3" class="g41s15">the</text>
+<text x="1080.9" y="371.0" class="g41s4">+ guess “cat”</text>
+<text x="969.0" y="403.0" class="g41s29">pass 2</text>
+<rect x="1035.0" y="386.0" width="35.9" height="24.0" rx="5" class="g41s35"/>
+<text x="1052.9" y="402.3" class="g41s33">cat</text>
+<rect x="1076.9" y="386.0" width="29.2" height="24.0" rx="5" class="g41s30"/>
+<text x="1091.5" y="402.3" class="g41s15">is</text>
+<text x="1116.1" y="403.0" class="g41s4">+ guess “sleeping”</text>
+<text x="969.0" y="435.0" class="g41s29">pass 3</text>
+<rect x="1035.0" y="418.0" width="69.0" height="24.0" rx="5" class="g41s35"/>
+<text x="1069.5" y="434.3" class="g41s33">sleeping</text>
+<rect x="1110.0" y="418.0" width="42.5" height="24.0" rx="5" class="g41s30"/>
+<text x="1131.2" y="434.3" class="g41s15">peac</text>
+<text x="1162.5" y="435.0" class="g41s4">+ guess “efully”</text>
+<text x="969.0" y="467.0" class="g41s29">pass 4</text>
+<rect x="1035.0" y="450.0" width="55.7" height="24.0" rx="5" class="g41s35"/>
+<text x="1062.9" y="466.3" class="g41s33">efully</text>
+<rect x="1096.7" y="450.0" width="49.1" height="24.0" rx="5" class="g41s30"/>
+<text x="1121.3" y="466.3" class="g41s15">&lt;EOS&gt;</text>
+<text x="969.0" y="494.0" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start">green: a guess the model checked and kept</text>
+<text x="969.0" y="519.0" class="g41s7">greedy</text>
+<rect x="1089.0" y="506.0" width="190.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="1089.0" y="506.0" width="190.5" height="16.0" rx="3" class="g41s10"/>
+<text x="1369.5" y="519.0" class="g41s11">7 passes</text>
+<text x="969.0" y="543.0" class="g41s7">speculative</text>
+<rect x="1089.0" y="530.0" width="190.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="1089.0" y="530.0" width="108.9" height="16.0" rx="3" class="g41s8"/>
+<text x="1369.5" y="543.0" class="g41s11">4 passes</text>
+<text y="570.2" xml:space="preserve" class="g41s0"><tspan x="969.0" textLength="349.9" lengthAdjust="spacing">Writing normally takes one pass of the whole model per word. In </tspan><tspan x="1318.9" class="g41s6" textLength="13.8" lengthAdjust="spacing">v3</tspan><tspan x="1332.7"> a</tspan></text>
+<text y="587.9" xml:space="preserve" class="g41s0"><tspan x="969.0" textLength="383.8" lengthAdjust="spacing">small extra head guesses the word after the next; the next pass checks</tspan></text>
+<text y="605.6" xml:space="preserve" class="g41s0"><tspan x="969.0" textLength="381.1" lengthAdjust="spacing">that guess at the same time as it computes its own word. A right guess</tspan></text>
+<text y="623.3" xml:space="preserve" class="g41s0"><tspan x="969.0" textLength="356.0" lengthAdjust="spacing">means two words for one pass. The answer is identical — the real</tspan></text>
+<text y="641.0" xml:space="preserve" class="g41s0"><tspan x="969.0" textLength="273.7" lengthAdjust="spacing">notebook wrote “the cat is sleeping peacefully” in </tspan><tspan x="1242.7" class="g41s3" textLength="51.8" lengthAdjust="spacing">4 passes</tspan><tspan x="1294.4" textLength="59.7" lengthAdjust="spacing"> instead of </tspan><tspan x="1354.1" class="g41s3">7</tspan><tspan x="1361.3">.</tspan></text>
+<rect x="1425.5" y="276.0" width="28.0" height="28.0" rx="14" class="g41s17"/>
+<text x="1439.5" y="295.0" class="g41s18">4</text>
+<text x="1463.5" y="295.0" class="g41s19">Weights in 8 bits</text>
+<text x="1463.5" y="314.0" class="g41s4">int8 quantization · cell 9 · deep dive 25</text>
+<text x="1427.5" y="342.0" class="g41s4">one real row of the tiny model (decoder W_q, row 0):</text>
+<text x="1427.5" y="368.0" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start">float</text>
+<rect x="1483.5" y="353.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1504.0" y="368.0" class="g41s20">-2.30</text>
+<rect x="1526.6" y="353.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1547.1" y="368.0" class="g41s20">0.22</text>
+<rect x="1569.6" y="353.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1590.2" y="368.0" class="g41s20">-1.08</text>
+<rect x="1612.7" y="353.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1633.2" y="368.0" class="g41s20">1.17</text>
+<rect x="1655.8" y="353.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1676.3" y="368.0" class="g41s20">-0.50</text>
+<rect x="1698.8" y="353.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1719.3" y="368.0" class="g41s20">2.44</text>
+<rect x="1741.9" y="353.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1762.4" y="368.0" class="g41s20">1.33</text>
+<rect x="1784.9" y="353.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1805.5" y="368.0" class="g41s20">-0.48</text>
+<text x="1427.5" y="395.0" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start">int8</text>
+<rect x="1483.5" y="380.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1504.0" y="395.0" class="g41s21">-120</text>
+<rect x="1526.6" y="380.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1547.1" y="395.0" class="g41s21">11</text>
+<rect x="1569.6" y="380.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1590.2" y="395.0" class="g41s21">-56</text>
+<rect x="1612.7" y="380.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1633.2" y="395.0" class="g41s21">61</text>
+<rect x="1655.8" y="380.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1676.3" y="395.0" class="g41s21">-26</text>
+<rect x="1698.8" y="380.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1719.3" y="395.0" class="g41s21">127</text>
+<rect x="1741.9" y="380.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1762.4" y="395.0" class="g41s21">69</text>
+<rect x="1784.9" y="380.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1805.5" y="395.0" class="g41s21">-25</text>
+<text x="1427.5" y="422.0" class="g41s29">back</text>
+<rect x="1483.5" y="407.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1504.0" y="422.0" class="g41s22">-2.31</text>
+<rect x="1526.6" y="407.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1547.1" y="422.0" class="g41s22">0.21</text>
+<rect x="1569.6" y="407.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1590.2" y="422.0" class="g41s22">-1.08</text>
+<rect x="1612.7" y="407.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1633.2" y="422.0" class="g41s22">1.17</text>
+<rect x="1655.8" y="407.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1676.3" y="422.0" class="g41s22">-0.50</text>
+<rect x="1698.8" y="407.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1719.3" y="422.0" class="g41s22">2.44</text>
+<rect x="1741.9" y="407.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1762.4" y="422.0" class="g41s22">1.33</text>
+<rect x="1784.9" y="407.0" width="41.1" height="21.0" rx="3" class="g41s1"/>
+<text x="1805.5" y="422.0" class="g41s22">-0.48</text>
+<text x="1427.5" y="445.0" class="g41s4">scale = largest |w| ÷ 127 = 0.0192 · largest error 0.0095 ≤ scale ÷ 2</text>
+<text x="1427.5" y="471.0" class="g41s4">the real model’s file</text>
+<text x="1427.5" y="494.0" class="g41s7">32-bit floats</text>
+<rect x="1547.5" y="481.0" width="190.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="1547.5" y="481.0" width="190.5" height="16.0" rx="3" class="g41s10"/>
+<text x="1828.0" y="494.0" class="g41s11">130.2 MB</text>
+<text x="1427.5" y="518.0" class="g41s7">8-bit + scales</text>
+<rect x="1547.5" y="505.0" width="190.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="1547.5" y="505.0" width="48.1" height="16.0" rx="3" class="g41s8"/>
+<text x="1828.0" y="518.0" class="g41s11">32.9 MB</text>
+<text y="545.2" xml:space="preserve" class="g41s0"><tspan x="1427.5" textLength="126.1" lengthAdjust="spacing">A weight is stored as a </tspan><tspan x="1553.6" class="g41s3" textLength="32.3" lengthAdjust="spacing">32-bit</tspan><tspan x="1586.0" textLength="155.3" lengthAdjust="spacing"> number. Rounded to one of </tspan><tspan x="1741.3" class="g41s3" textLength="56.1" lengthAdjust="spacing">255 steps</tspan><tspan x="1797.3" textLength="29.2" lengthAdjust="spacing"> of its</tspan></text>
+<text y="562.9" xml:space="preserve" class="g41s0"><tspan x="1427.5" textLength="138.8" lengthAdjust="spacing">row’s own scale, it fits in </tspan><tspan x="1566.3" class="g41s3">8</tspan><tspan x="1573.5" textLength="217.0" lengthAdjust="spacing"> bits: a quarter of the memory and of the</tspan></text>
+<text y="580.6" xml:space="preserve" class="g41s0"><tspan x="1427.5" textLength="353.3" lengthAdjust="spacing">download. Each number moves by at most half a step — and the </tspan><tspan x="1780.8" class="g41s3" textLength="25.2" lengthAdjust="spacing">8-bit</tspan></text>
+<text y="598.3" xml:space="preserve" class="g41s0"><tspan x="1427.5" textLength="289.5" lengthAdjust="spacing">model gave exactly the same answers as the full one.</tspan></text>
+<text x="34.0" y="735.8" class="g41s43">HOW IT LEARNS</text>
+<text x="187.2" y="735.8" class="g41s44">while the model is trained — 5 to 8</text>
+<rect x="1409.5" y="749.8" width="436.5" height="418.8" rx="10" class="g41s16"/>
+<rect x="951.0" y="749.8" width="436.5" height="418.8" rx="10" class="g41s16"/>
+<rect x="492.5" y="749.8" width="436.5" height="418.8" rx="10" class="g41s16"/>
+<rect x="34.0" y="749.8" width="436.5" height="418.8" rx="10" class="g41s16"/>
+<rect x="50.0" y="765.8" width="28.0" height="28.0" rx="14" class="g41s17"/>
+<text x="64.0" y="784.8" class="g41s18">5</text>
+<text x="88.0" y="784.8" class="g41s19">Scores that cannot run away</text>
+<text x="88.0" y="803.8" class="g41s4">QK-Norm + soft cap · cell 2 · deep dive 18</text>
+<text x="52.0" y="831.8" class="g41s4">largest attention score as the vectors grow (log scale)</text>
+<line x1="104.0" y1="986.0" x2="430.5" y2="986.0" class="g41s23"/>
+<text x="96.0" y="990.0" class="g41s24">1</text>
+<line x1="104.0" y1="953.4" x2="430.5" y2="953.4" class="g41s23"/>
+<text x="96.0" y="957.4" class="g41s24">10</text>
+<line x1="104.0" y1="920.8" x2="430.5" y2="920.8" class="g41s23"/>
+<text x="96.0" y="924.8" class="g41s24">100</text>
+<line x1="104.0" y1="888.2" x2="430.5" y2="888.2" class="g41s23"/>
+<text x="96.0" y="892.2" class="g41s24">1,000</text>
+<line x1="104.0" y1="855.6" x2="430.5" y2="855.6" class="g41s23"/>
+<text x="96.0" y="859.6" class="g41s24">10,000</text>
+<text x="104.0" y="1011.8" class="g41s36">×1</text>
+<text x="267.2" y="1011.8" class="g41s36">×10</text>
+<text x="430.5" y="1011.8" class="g41s36">×100</text>
+<path d="M104.0 988.0 L267.2 922.7 L430.5 857.4" style="fill:none;stroke:var(--drop);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+<circle cx="104.0" cy="988.0" r="3.5" class="g41s37"/>
+<circle cx="267.2" cy="922.7" r="3.5" class="g41s37"/>
+<circle cx="430.5" cy="857.4" r="3.5" class="g41s37"/>
+<text x="422.5" y="848.4" style="fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:end">v2.5: 8,818</text>
+<path d="M104.0 975.1 L267.2 973.8 L430.5 973.7" style="fill:none;stroke:var(--keep);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+<circle cx="104.0" cy="975.1" r="3.5" class="g41s38"/>
+<circle cx="267.2" cy="973.8" r="3.5" class="g41s38"/>
+<circle cx="430.5" cy="973.7" r="3.5" class="g41s38"/>
+<text x="422.5" y="989.7" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:end">v3: 2.38</text>
+<text y="1038.0" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="394.0" lengthAdjust="spacing">Attention compares a query with a key by multiplying them. If training lets</tspan></text>
+<text y="1055.7" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="116.6" lengthAdjust="spacing">the vectors grow, the </tspan><tspan x="168.6" class="g41s6" textLength="41.4" lengthAdjust="spacing">scores</tspan><tspan x="210.1" textLength="212.9" lengthAdjust="spacing"> grow with them, and one word ends up</tspan></text>
+<text y="1073.4" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="35.9" lengthAdjust="spacing">taking </tspan><tspan x="87.9" class="g41s3" textLength="33.1" lengthAdjust="spacing">100%</tspan><tspan x="121.0" textLength="91.6" lengthAdjust="spacing"> of the attention (</tspan><tspan x="212.6" class="g41s6" textLength="27.6" lengthAdjust="spacing">v2.5</tspan><tspan x="240.2" textLength="24.3" lengthAdjust="spacing"> at ×</tspan><tspan x="264.5" class="g41s3" textLength="14.4" lengthAdjust="spacing">10</tspan><tspan x="278.8" textLength="61.0" lengthAdjust="spacing">: top share </tspan><tspan x="339.9" class="g41s3" textLength="33.1" lengthAdjust="spacing">100%</tspan><tspan x="372.9" textLength="62.4" lengthAdjust="spacing">). QK-Norm</tspan></text>
+<text y="1091.1" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="305.1" lengthAdjust="spacing">brings every query and key to the same size first, so the </tspan><tspan x="357.1" class="g41s6" textLength="41.4" lengthAdjust="spacing">scores</tspan><tspan x="398.6" textLength="49.5" lengthAdjust="spacing"> stay put;</tspan></text>
+<text y="1108.8" xml:space="preserve" class="g41s0"><tspan x="52.0" textLength="60.4" lengthAdjust="spacing">a soft cap (</tspan><tspan x="112.4" class="g41s6" textLength="145.0" lengthAdjust="spacing">30 × tanh(score ÷ 30)</tspan><tspan x="257.3" textLength="162.8" lengthAdjust="spacing">) does the same for the output</tspan></text>
+<text y="1126.5" xml:space="preserve" class="g41s0"><tspan x="52.0" class="g41s6" textLength="41.4" lengthAdjust="spacing">scores</tspan><tspan x="93.4">.</tspan></text>
+<rect x="508.5" y="765.8" width="28.0" height="28.0" rx="14" class="g41s17"/>
+<text x="522.5" y="784.8" class="g41s18">6</text>
+<text x="546.5" y="784.8" class="g41s19">Specialists for each word</text>
+<text x="546.5" y="803.8" class="g41s4">mixture of experts · cell 2 · deep dive 21</text>
+<text x="510.5" y="831.8" class="g41s4">the router of the tiny model’s decoder, for “sleeping”:</text>
+<text x="510.5" y="854.8" class="g41s7">expert 0</text>
+<rect x="590.5" y="841.8" width="230.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="590.5" y="841.8" width="1.7" height="16.0" rx="3" class="g41s47"/>
+<text x="911.0" y="854.8" class="g41s11">0.7%</text>
+<text x="510.5" y="878.8" class="g41s7">expert 1</text>
+<rect x="590.5" y="865.8" width="230.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="590.5" y="865.8" width="211.6" height="16.0" rx="3" class="g41s8"/>
+<text x="911.0" y="878.8" class="g41s11">91.8% → 95%</text>
+<text x="510.5" y="902.8" class="g41s7">expert 2</text>
+<rect x="590.5" y="889.8" width="230.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="590.5" y="889.8" width="6.9" height="16.0" rx="3" class="g41s47"/>
+<text x="911.0" y="902.8" class="g41s11">3.0%</text>
+<text x="510.5" y="926.8" class="g41s7">expert 3</text>
+<rect x="590.5" y="913.8" width="230.5" height="16.0" rx="3" class="g41s1"/>
+<rect x="590.5" y="913.8" width="10.2" height="16.0" rx="3" class="g41s8"/>
+<text x="911.0" y="926.8" class="g41s11">4.4% → 5%</text>
+<text x="510.5" y="949.8" class="g41s4">the two most likely do the work, weighted by their share</text>
+<text x="510.5" y="971.8" class="g41s48">every word’s two experts: &lt;SOS&gt;→2,1  the→3,0  cat→1,0  is→3,0  sleeping→1,3</text>
+<text x="510.5" y="987.8" class="g41s48">peac→2,3  efully→2,0</text>
+<text y="1014.0" xml:space="preserve" class="g41s0"><tspan x="510.5" class="g41s6" textLength="27.6" lengthAdjust="spacing">v2.5</tspan><tspan x="538.1" textLength="246.1" lengthAdjust="spacing"> sends every word through one feed-forward. </tspan><tspan x="784.3" class="g41s6" textLength="13.8" lengthAdjust="spacing">v3</tspan><tspan x="798.1" textLength="26.4" lengthAdjust="spacing"> has </tspan><tspan x="824.5" class="g41s3">4</tspan><tspan x="831.7" textLength="75.9" lengthAdjust="spacing"> smaller ones,</tspan></text>
+<text y="1031.7" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="238.0" lengthAdjust="spacing">the experts, and a router that picks the best </tspan><tspan x="748.5" class="g41s3">2</tspan><tspan x="755.7" textLength="134.9" lengthAdjust="spacing"> for each word. The layer</tspan></text>
+<text y="1049.4" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="139.0" lengthAdjust="spacing">holds twice the numbers (</tspan><tspan x="649.5" class="g41s3" textLength="57.5" lengthAdjust="spacing">4,229,120</tspan><tspan x="707.0" textLength="46.1" lengthAdjust="spacing"> against </tspan><tspan x="753.1" class="g41s3" textLength="111.4" lengthAdjust="spacing">2,101,248 per layer</tspan><tspan x="864.6" textLength="33.2" lengthAdjust="spacing"> in the</tspan></text>
+<text y="1067.1" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="179.7" lengthAdjust="spacing">real model) but a word uses only </tspan><tspan x="690.2" class="g41s3" textLength="57.5" lengthAdjust="spacing">2,115,584</tspan><tspan x="747.7" textLength="143.8" lengthAdjust="spacing"> of them: more knowledge,</tspan></text>
+<text y="1084.8" xml:space="preserve" class="g41s0"><tspan x="510.5" textLength="137.0" lengthAdjust="spacing">the same work per word. </tspan><tspan x="647.5" class="g41s6" textLength="55.2" lengthAdjust="spacing">DeepSeek</tspan><tspan x="702.7" textLength="69.8" lengthAdjust="spacing">, Mixtral and </tspan><tspan x="772.5" class="g41s6" textLength="34.5" lengthAdjust="spacing">Qwen3</tspan><tspan x="807.0" textLength="97.6" lengthAdjust="spacing"> are built this way.</tspan></text>
+<rect x="967.0" y="765.8" width="28.0" height="28.0" rx="14" class="g41s17"/>
+<text x="981.0" y="784.8" class="g41s18">7</text>
+<text x="1005.0" y="784.8" class="g41s19">Thinking two words ahead</text>
+<text x="1005.0" y="803.8" class="g41s4">multi-token prediction · cells 2, 8 · deep dive 22</text>
+<text x="969.0" y="831.8" class="g41s4">from each position, two guesses (the tiny model, trained):</text>
+<rect x="969.0" y="875.8" width="49.1" height="24.0" rx="5" class="g41s31"/>
+<text x="993.6" y="892.1" class="g41s15">&lt;SOS&gt;</text>
+<rect x="1024.1" y="875.8" width="35.9" height="24.0" rx="5" class="g41s31"/>
+<text x="1042.0" y="892.1" class="g41s15">the</text>
+<rect x="1066.0" y="875.8" width="35.9" height="24.0" rx="5" class="g41s30"/>
+<text x="1083.9" y="892.1" class="g41s33">cat</text>
+<rect x="1107.8" y="875.8" width="29.2" height="24.0" rx="5" class="g41s31"/>
+<text x="1122.5" y="892.1" class="g41s15">is</text>
+<rect x="1143.1" y="875.8" width="69.0" height="24.0" rx="5" class="g41s31"/>
+<text x="1177.6" y="892.1" class="g41s15">sleeping</text>
+<rect x="1218.1" y="875.8" width="42.5" height="24.0" rx="5" class="g41s31"/>
+<text x="1239.3" y="892.1" class="g41s15">peac</text>
+<path d="M1083.9 873.8 C 1083.9 851.8 1122.5 851.8 1122.5 873.8" style="fill:none;stroke:var(--accent);stroke-width:1.8"/>
+<text x="1077.9" y="845.8" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">main head: “is” next, 91%</text>
+<path d="M1083.9 901.8 C 1083.9 923.8 1177.6 923.8 1177.6 901.8" style="fill:none;stroke:var(--s3);stroke-width:1.8"/>
+<text x="1077.9" y="939.8" style="fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">extra head: “sleeping” after next, 91%</text>
+<text x="969.0" y="961.8" class="g41s4">the real run: both losses, epoch by epoch</text>
+<line x1="1001.0" y1="1061.8" x2="1365.5" y2="1061.8" class="g41s23"/>
+<text x="993.0" y="1065.8" class="g41s24">0</text>
+<line x1="1001.0" y1="1016.8" x2="1365.5" y2="1016.8" class="g41s23"/>
+<text x="993.0" y="1020.8" class="g41s24">5</text>
+<line x1="1001.0" y1="971.8" x2="1365.5" y2="971.8" class="g41s23"/>
+<text x="993.0" y="975.8" class="g41s24">10</text>
+<path d="M1001.0 975.1 L1005.1 975.3 L1009.2 976.3 L1013.3 978.5 L1017.4 980.7 L1021.5 982.9 L1025.6 985.2 L1029.7 987.9 L1033.8 990.5 L1037.9 994.1 L1042.0 997.5 L1046.1 1000.8 L1050.1 1004.3 L1054.2 1007.9 L1058.3 1011.3 L1062.4 1014.6 L1066.5 1018.6 L1070.6 1021.4 L1074.7 1024.8 L1078.8 1027.8 L1082.9 1030.4 L1087.0 1034.0 L1091.1 1035.1 L1095.2 1039.0 L1099.3 1040.9 L1103.4 1042.9 L1107.5 1043.8 L1111.6 1046.0 L1115.7 1046.6 L1119.8 1046.5 L1123.9 1047.5 L1128.0 1048.6 L1132.1 1049.0 L1136.2 1049.0 L1140.2 1049.5 L1144.3 1049.6 L1148.4 1049.8 L1152.5 1049.7 L1156.6 1049.9 L1160.7 1049.9 L1164.8 1050.0 L1168.9 1050.0 L1173.0 1050.0 L1177.1 1047.7 L1181.2 1050.0 L1185.3 1050.1 L1189.4 1050.0 L1193.5 1050.0 L1197.6 1049.9 L1201.7 1047.3 L1205.8 1050.1 L1209.9 1050.1 L1214.0 1050.0 L1218.1 1050.1 L1222.2 1050.1 L1226.3 1050.1 L1230.3 1050.1 L1234.4 1050.1 L1238.5 1050.1 L1242.6 1047.8 L1246.7 1050.1 L1250.8 1050.1 L1254.9 1050.1 L1259.0 1050.1 L1263.1 1050.1 L1267.2 1050.1 L1271.3 1050.1 L1275.4 1050.1 L1279.5 1050.1 L1283.6 1050.1 L1287.7 1050.1 L1291.8 1050.1 L1295.9 1050.1 L1300.0 1050.1 L1304.1 1050.1 L1308.2 1050.1 L1312.3 1050.1 L1316.4 1050.1 L1320.4 1050.1 L1324.5 1050.1 L1328.6 1050.1 L1332.7 1050.1 L1336.8 1050.1 L1340.9 1050.1 L1345.0 1050.2 L1349.1 1050.1 L1353.2 1050.1 L1357.3 1050.1 L1361.4 1050.1 L1365.5 1050.1" style="fill:none;stroke:var(--accent);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round"/>
+<path d="M1001.0 974.7 L1005.1 975.0 L1009.2 975.4 L1013.3 976.7 L1017.4 978.9 L1021.5 980.5 L1025.6 982.6 L1029.7 985.0 L1033.8 987.2 L1037.9 991.1 L1042.0 994.3 L1046.1 998.2 L1050.1 1002.0 L1054.2 1005.6 L1058.3 1010.0 L1062.4 1013.6 L1066.5 1016.8 L1070.6 1021.1 L1074.7 1025.1 L1078.8 1028.7 L1082.9 1032.0 L1087.0 1035.8 L1091.1 1038.5 L1095.2 1041.4 L1099.3 1043.8 L1103.4 1045.4 L1107.5 1046.8 L1111.6 1048.0 L1115.7 1048.6 L1119.8 1049.0 L1123.9 1049.2 L1128.0 1049.6 L1132.1 1049.6 L1136.2 1049.8 L1140.2 1049.8 L1144.3 1049.9 L1148.4 1049.9 L1152.5 1050.0 L1156.6 1050.0 L1160.7 1050.0 L1164.8 1050.1 L1168.9 1050.1 L1173.0 1050.1 L1177.1 1050.1 L1181.2 1050.1 L1185.3 1050.1 L1189.4 1050.1 L1193.5 1050.1 L1197.6 1050.1 L1201.7 1050.1 L1205.8 1050.1 L1209.9 1050.1 L1214.0 1050.1 L1218.1 1050.1 L1222.2 1050.1 L1226.3 1050.1 L1230.3 1050.1 L1234.4 1050.1 L1238.5 1050.1 L1242.6 1050.1 L1246.7 1050.1 L1250.8 1050.1 L1254.9 1050.2 L1259.0 1050.1 L1263.1 1050.1 L1267.2 1050.2 L1271.3 1050.2 L1275.4 1050.1 L1279.5 1050.1 L1283.6 1050.1 L1287.7 1050.1 L1291.8 1050.1 L1295.9 1050.2 L1300.0 1050.2 L1304.1 1050.2 L1308.2 1050.1 L1312.3 1050.2 L1316.4 1050.1 L1320.4 1050.2 L1324.5 1050.2 L1328.6 1050.2 L1332.7 1050.2 L1336.8 1050.2 L1340.9 1050.2 L1345.0 1050.2 L1349.1 1050.2 L1353.2 1050.2 L1357.3 1050.2 L1361.4 1050.2 L1365.5 1050.2" style="fill:none;stroke:var(--s3);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:5 3"/>
+<text x="1365.5" y="979.8" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:end">solid: next word · dashed: after next</text>
+<text y="1096.0" xml:space="preserve" class="g41s0"><tspan x="969.0" class="g41s6" textLength="27.6" lengthAdjust="spacing">v2.5</tspan><tspan x="996.6" textLength="312.6" lengthAdjust="spacing"> learns from one question per position: what comes next? </tspan><tspan x="1309.2" class="g41s6" textLength="13.8" lengthAdjust="spacing">v3</tspan><tspan x="1323.0" textLength="40.0" lengthAdjust="spacing"> adds a</tspan></text>
+<text y="1113.7" xml:space="preserve" class="g41s0"><tspan x="969.0" textLength="366.2" lengthAdjust="spacing">small head that also guesses the word after next, and trains on both</tspan></text>
+<text y="1131.4" xml:space="preserve" class="g41s0"><tspan x="969.0" textLength="356.0" lengthAdjust="spacing">answers. Looking further ahead is a second lesson from the same</tspan></text>
+<text y="1149.1" xml:space="preserve" class="g41s0"><tspan x="969.0" textLength="316.6" lengthAdjust="spacing">sentence — and the head’s guesses are the ones picture </tspan><tspan x="1285.6" class="g41s3">3</tspan><tspan x="1292.8" textLength="44.7" lengthAdjust="spacing"> checks.</tspan></text>
+<rect x="1425.5" y="765.8" width="28.0" height="28.0" rx="14" class="g41s17"/>
+<text x="1439.5" y="784.8" class="g41s18">8</text>
+<text x="1463.5" y="784.8" class="g41s19">Every direction learns</text>
+<text x="1463.5" y="803.8" class="g41s4">the Muon optimizer · cells 7, 8 · deep dive 24</text>
+<text x="1427.5" y="831.8" class="g41s4">a real update of the tiny model (8×8, step 300):</text>
+<text x="1427.5" y="851.8" class="g41s4">how strongly it moves along each of its 8 directions</text>
+<line x1="1427.5" y1="971.8" x2="1613.8" y2="971.8" class="g41s49"/>
+<rect x="1429.5" y="895.1" width="19.3" height="76.7" rx="2" class="g41s10"/>
+<rect x="1452.8" y="938.2" width="19.3" height="33.6" rx="2" class="g41s10"/>
+<rect x="1476.1" y="948.6" width="19.3" height="23.2" rx="2" class="g41s10"/>
+<rect x="1499.3" y="962.3" width="19.3" height="9.5" rx="2" class="g41s10"/>
+<rect x="1522.6" y="965.7" width="19.3" height="6.1" rx="2" class="g41s10"/>
+<rect x="1545.9" y="966.1" width="19.3" height="5.7" rx="2" class="g41s10"/>
+<rect x="1569.2" y="969.1" width="19.3" height="2.7" rx="2" class="g41s10"/>
+<rect x="1592.5" y="971.4" width="19.3" height="1.0" rx="2" class="g41s10"/>
+<line x1="1427.5" y1="883.8" x2="1613.8" y2="883.8" class="g41s50"/>
+<text x="1520.6" y="987.8" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">the raw update</text>
+<text x="1520.6" y="1003.8" class="g41s51">strongest ÷ weakest: 181.1×</text>
+<line x1="1641.8" y1="971.8" x2="1828.0" y2="971.8" class="g41s49"/>
+<rect x="1643.8" y="868.7" width="19.3" height="103.1" rx="2" class="g41s8"/>
+<rect x="1667.0" y="872.1" width="19.3" height="99.8" rx="2" class="g41s8"/>
+<rect x="1690.3" y="872.2" width="19.3" height="99.6" rx="2" class="g41s8"/>
+<rect x="1713.6" y="874.2" width="19.3" height="97.6" rx="2" class="g41s8"/>
+<rect x="1736.9" y="879.2" width="19.3" height="92.6" rx="2" class="g41s8"/>
+<rect x="1760.2" y="898.8" width="19.3" height="73.0" rx="2" class="g41s8"/>
+<rect x="1783.4" y="905.7" width="19.3" height="66.1" rx="2" class="g41s8"/>
+<rect x="1806.7" y="911.6" width="19.3" height="60.3" rx="2" class="g41s8"/>
+<line x1="1641.8" y1="883.8" x2="1828.0" y2="883.8" class="g41s50"/>
+<text x="1734.9" y="987.8" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">after Muon (5 steps)</text>
+<text x="1734.9" y="1003.8" class="g41s51">strongest ÷ weakest: 1.7×</text>
+<text x="1427.5" y="1025.8" style="fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start">dashed line: strength 1</text>
+<text y="1050.0" xml:space="preserve" class="g41s0"><tspan x="1427.5" textLength="398.7" lengthAdjust="spacing">Training moves each weight matrix along a few strong directions while the</tspan></text>
+<text y="1067.7" xml:space="preserve" class="g41s0"><tspan x="1427.5" textLength="381.8" lengthAdjust="spacing">rest barely move. Muon reshapes every update so that all its directions</tspan></text>
+<text y="1085.4" xml:space="preserve" class="g41s0"><tspan x="1427.5" textLength="381.7" lengthAdjust="spacing">move by about the same amount, with five cheap matrix multiplications</tspan></text>
+<text y="1103.1" xml:space="preserve" class="g41s0"><tspan x="1427.5" textLength="176.9" lengthAdjust="spacing">(Newton–Schulz). It trained Kimi </tspan><tspan x="1604.4" class="g41s6" textLength="13.8" lengthAdjust="spacing">K2</tspan><tspan x="1618.3" textLength="124.1" lengthAdjust="spacing"> and set records in the </tspan><tspan x="1742.4" class="g41s6" textLength="48.3" lengthAdjust="spacing">nanoGPT</tspan></text>
+<text y="1120.8" xml:space="preserve" class="g41s0"><tspan x="1427.5" textLength="63.7" lengthAdjust="spacing">speedruns. </tspan><tspan x="1491.2" class="g41s6" textLength="13.8" lengthAdjust="spacing">v3</tspan><tspan x="1505.1" textLength="259.7" lengthAdjust="spacing"> uses it for the weight matrices inside the layers.</tspan></text>
+<rect x="34.0" y="1198.6" width="1812.0" height="30.0" rx="6" style="fill:var(--thead);stroke:var(--panelbd);stroke-width:1"/>
+<path d="M38.50 1199.30 A5.50 5.50 0 0 0 34.50 1204.59 V1222.59 A5.50 5.50 0 0 0 38.50 1227.88 Z" style="fill:var(--accent);stroke:none"/>
+<text y="1218.6" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600"><tspan x="50.0" class="g41s27" textLength="283.4" lengthAdjust="spacing">Map · The notebook, cell by cell — and where </tspan><tspan x="333.4" class="g41s14" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="348.1" class="g41s27" textLength="67.4" lengthAdjust="spacing"> changed it</tspan></text>
+<text y="1218.6" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="433.5" textLength="129.1" lengthAdjust="spacing">the same eleven cells as </tspan><tspan x="562.6" class="g41s39" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="588.7" textLength="113.1" lengthAdjust="spacing">; five of them changed</tspan></text>
+<rect x="34.0" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s28"/>
+<text x="46.0" y="1268.6" class="g41s12">CELL 0</text>
+<text x="46.0" y="1288.6" class="g41s13">the word list</text>
+<rect x="199.6" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s32"/>
+<text x="211.6" y="1268.6" class="g41s12">CELL 1</text>
+<text x="211.6" y="1288.6" class="g41s13">settings</text>
+<text x="211.6" y="1354.6" class="g41s25">v3: six new knobs</text>
+<rect x="365.3" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s32"/>
+<text x="377.3" y="1268.6" class="g41s12">CELL 2</text>
+<text x="377.3" y="1288.6" class="g41s13">the model</text>
+<text x="377.3" y="1332.6" class="g41s34">pictures 1 · 2 · 3 · 5 · 6 · 7</text>
+<text x="377.3" y="1354.6" class="g41s25">v3: GQA · QK-Norm ·</text>
+<text x="377.3" y="1367.6" class="g41s25">experts · head · cap ·</text>
+<text x="377.3" y="1380.6" class="g41s25">speculative</text>
+<rect x="530.9" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s28"/>
+<text x="542.9" y="1268.6" class="g41s12">CELL 3</text>
+<text x="542.9" y="1288.6" class="g41s13">the tokenizer</text>
+<rect x="696.5" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s28"/>
+<text x="708.5" y="1268.6" class="g41s12">CELL 4</text>
+<text x="708.5" y="1288.6" class="g41s13">the data</text>
+<rect x="862.2" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s28"/>
+<text x="874.2" y="1268.6" class="g41s12">CELL 5</text>
+<text x="874.2" y="1288.6" class="g41s13">train the tokenizer</text>
+<rect x="1027.8" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s28"/>
+<text x="1039.8" y="1268.6" class="g41s12">CELL 6</text>
+<text x="1039.8" y="1288.6" class="g41s13">batches</text>
+<rect x="1193.5" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s32"/>
+<text x="1205.5" y="1268.6" class="g41s12">CELL 7</text>
+<text x="1205.5" y="1288.6" class="g41s13">model, optimizers</text>
+<text x="1205.5" y="1332.6" class="g41s34">picture 8</text>
+<text x="1205.5" y="1354.6" class="g41s25">v3: Muon + AdamW</text>
+<rect x="1359.1" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s32"/>
+<text x="1371.1" y="1268.6" class="g41s12">CELL 8</text>
+<text x="1371.1" y="1288.6" class="g41s13">training</text>
+<text x="1371.1" y="1332.6" class="g41s34">pictures 6 · 7 · 8</text>
+<text x="1371.1" y="1354.6" class="g41s25">v3: two more losses</text>
+<rect x="1524.7" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s32"/>
+<text x="1536.7" y="1268.6" class="g41s12">CELL 9</text>
+<text x="1536.7" y="1288.6" class="g41s13">evaluation</text>
+<text x="1536.7" y="1332.6" class="g41s34">pictures 3 · 4</text>
+<text x="1536.7" y="1354.6" class="g41s25">v3: speculative · 8 bits</text>
+<rect x="1690.4" y="1244.6" width="155.6" height="156.0" rx="8" class="g41s28"/>
+<text x="1702.4" y="1268.6" class="g41s12">CELL 10</text>
+<text x="1702.4" y="1288.6" class="g41s13">attention map</text>
+<rect x="34.0" y="1418.6" width="1812.0" height="72.6" rx="6" class="g41s40"/>
+<path d="M38.50 1419.30 A5.50 5.50 0 0 0 34.50 1424.59 V1485.15 A5.50 5.50 0 0 0 38.50 1490.44 Z" class="g41s41"/>
+<text y="1444.6" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600"><tspan x="50.0" class="g41s27" textLength="96.9" lengthAdjust="spacing">Where to go next</tspan></text>
+<text y="1462.1" xml:space="preserve" class="g41s52"><tspan x="50.0" textLength="122.0" lengthAdjust="spacing">Purple cells are where </tspan><tspan x="172.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="185.6" textLength="1643.6" lengthAdjust="spacing"> changed the code. The next page lists every change, what it costs and what it did here; each changed cell then gets its own page, and the deep dives at the end take each technique apart step by step, with a walkthrough you can click through. Honest warning: some of these techniques pay off only at scale —</tspan></text>
+<text y="1479.6" xml:space="preserve" class="g41s52"><tspan x="50.0" textLength="718.3" lengthAdjust="spacing">long texts, billions of numbers, a GPU — and on this small model on a CPU some cost time. The pages say which, with measurements.</tspan></text>
+<line x1="28.0" y1="1517.1" x2="1852.0" y2="1517.1" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1534.1" xml:space="preserve" class="g41s53"><tspan x="28.0" textLength="341.7" lengthAdjust="spacing">Numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="369.7" class="g41s26" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="382.2" textLength="105.2" lengthAdjust="spacing"> notebook (written by </tspan><tspan x="487.3" class="g41s26" textLength="37.3" lengthAdjust="spacing">nb3.py</tspan><tspan x="524.7" textLength="28.1" lengthAdjust="spacing"> from </tspan><tspan x="552.8" class="g41s26" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="577.7" textLength="195.1" lengthAdjust="spacing">; your notebooks are only read) and the </tspan><tspan x="772.7" class="g41s26" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="797.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="940.7" class="g41s3" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="956.9" textLength="280.0" lengthAdjust="spacing">.0 on their own two sentence pairs (CPU, seeded). Every </tspan><tspan x="1236.9" class="g41s26" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1249.4" textLength="234.1" lengthAdjust="spacing"> change is tested on the notebook’s own code (</tspan><tspan x="1483.4" class="g41s26" textLength="56.0" lengthAdjust="spacing">check3.py</tspan><tspan x="1539.5" textLength="199.9" lengthAdjust="spacing">). TINY-MODEL numbers come from the </tspan><tspan x="1739.3" class="g41s26" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1751.8" textLength="85.6" lengthAdjust="spacing"> classes built with</tspan></text>
+<text y="1549.1" xml:space="preserve" class="g41s53"><tspan x="28.0" class="g41s3" textLength="55.1" lengthAdjust="spacing">8 numbers</tspan><tspan x="83.1" textLength="472.6" lengthAdjust="spacing"> a token and trained on five sentences; a pure-Python copy of that model agrees with PyTorch to </tspan><tspan x="555.7" class="g41s3" textLength="29.8" lengthAdjust="spacing">1e-04</tspan><tspan x="585.5">.</tspan></text>
+</svg>

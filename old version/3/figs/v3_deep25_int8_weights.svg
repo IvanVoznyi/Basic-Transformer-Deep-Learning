@@ -1,0 +1,875 @@
+<svg data-src="v3_deep25_int8_weights.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="3609" viewBox="0 0 1880 3609">
+<style>.txfig .g115s0{stroke:var(--ink3);stroke-width:0.6;stroke-linecap:round}.txfig .g115s1{font-weight:600}.txfig .g115s2{font-weight:600;fill:var(--ink)}.txfig .g115s3{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g115s4{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g115s5{fill:var(--op)}.txfig .g115s6{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g115s7{fill:var(--code)}.txfig .g115s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g115s9{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g115s10{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g115s11{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g115s12{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g115s13{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g115s14{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g115s15{fill:var(--fn)}.txfig .g115s16{fill:var(--accent);stroke:none}.txfig .g115s17{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g115s18{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g115s19{fill:var(--cellbg);stroke:var(--hair);stroke-width:1}.txfig .g115s20{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g115s21{stroke:var(--ink3);stroke-width:1.2;stroke-linecap:round}.txfig .g115s22{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g115s23{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g115s24{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g115s25{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g115s26{fill:var(--s2);stroke:var(--s2);stroke-width:1.2}.txfig .g115s27{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g115s28{font-weight:600;fill:var(--ink2)}.txfig .g115s29{fill:var(--keep);stroke:none;stroke-width:1}.txfig .g115s30{fill:var(--drop);stroke:none;stroke-width:1}.txfig .g115s31{fill:var(--kw)}.txfig .g115s32{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g115s33{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g115s34{stroke:var(--s2);stroke-width:1;stroke-linecap:round}.txfig .g115s35{fill:none;stroke:var(--keep);stroke-width:1.6}.txfig .g115s36{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g115s37{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g115s38{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g115s39{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g115s40{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g115s41{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:middle}.txfig .g115s42{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g115s43{fill:var(--num)}.txfig .g115s44{fill:var(--attr)}.txfig .g115s45{fill:var(--infobg);stroke:var(--infobd);stroke-width:1}.txfig .g115s46{fill:none;stroke:var(--ink3);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round}.txfig .g115s47{fill:var(--cmt)}.txfig .g115s48{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:end}.txfig .g115s49{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g115s50{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g115s51{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)}.txfig .g115s52{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start}.txfig .g115s53{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g115s54{fill:var(--keep);stroke:none}.txfig .g115s55{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g115s56{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g115s57{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g115s58{fill:var(--s2);stroke:none;stroke-width:1;opacity:0.5}.txfig .g115s59{fill:var(--s6);stroke:none;stroke-width:1;opacity:0.5}.txfig .g115s60{fill:var(--keep);stroke:none;stroke-width:1;opacity:0.5}.txfig .g115s61{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch115" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash115" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="3609" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v3 · DEEP DIVE 25 / 27</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="191.7" style="font-weight:600;fill:var(--hdfg)" textLength="43.3" lengthAdjust="spacing">8-bit</tspan><tspan x="235.0" class="g115s1" textLength="546.8" lengthAdjust="spacing"> weights — a quarter of the memory, the same answers</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="719.7" lengthAdjust="spacing">one row, step by step · why a scale per row · what is stored · what it changes · the experiment · honest about speed · against </tspan><tspan x="753.7" class="g115s40" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="783.1" textLength="88.9" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="44.1" lengthAdjust="spacing">The tiny </tspan><tspan x="78.1" class="g115s9" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="91.1" textLength="287.5" lengthAdjust="spacing"> model in pure Python (checked against the notebook’s </tspan><tspan x="378.6" class="g115s9" textLength="84.6" lengthAdjust="spacing">quantize_int8</tspan><tspan x="463.2" textLength="296.0" lengthAdjust="spacing">: every stored integer equal), the trained notebook model (</tspan><tspan x="759.2" class="g115s9" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="817.8">, </tspan><tspan x="824.2" class="g115s9" textLength="58.6" lengthAdjust="spacing">run3.json</tspan><tspan x="882.7" textLength="274.1" lengthAdjust="spacing">), and the experiment’s models scored in float and in </tspan><tspan x="1156.8" class="g115s2">8</tspan><tspan x="1163.6" textLength="24.3" lengthAdjust="spacing"> bits.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g115s53"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g115s54"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g115s1" textLength="141.0" lengthAdjust="spacing">Fewer bits per weight</tspan></text>
+<text y="169.0" xml:space="preserve" class="g115s55"><tspan x="54.0">A</tspan><tspan x="62.7"> </tspan><tspan x="66.6" textLength="39.7" lengthAdjust="spacing">trained</tspan><tspan x="106.3"> </tspan><tspan x="110.2" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="145.6"> </tspan><tspan x="149.5" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="158.9"> </tspan><tspan x="162.8" textLength="37.6" lengthAdjust="spacing">mostly</tspan><tspan x="200.3"> </tspan><tspan x="204.2" textLength="37.6" lengthAdjust="spacing">weight</tspan><tspan x="241.8"> </tspan><tspan x="245.7" textLength="52.7" lengthAdjust="spacing">matrices,</tspan><tspan x="298.4"> </tspan><tspan x="302.3" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="330.5"> </tspan><tspan x="334.4" textLength="44.1" lengthAdjust="spacing">number</tspan><tspan x="378.5"> </tspan><tspan x="382.3">a</tspan><tspan x="389.6"> </tspan><tspan x="393.5" class="g115s40" textLength="51.5" lengthAdjust="spacing">float32</tspan><tspan x="445.0">:</tspan><tspan x="448.6"> </tspan><tspan x="452.5" class="g115s2" textLength="44.4" lengthAdjust="spacing">4 bytes</tspan><tspan x="496.9">,</tspan><tspan x="500.5"> </tspan><tspan x="504.4" textLength="32.5" lengthAdjust="spacing">about</tspan><tspan x="536.9"> </tspan><tspan x="540.8" textLength="34.7" lengthAdjust="spacing">seven</tspan><tspan x="575.5"> </tspan><tspan x="579.4" textLength="57.8" lengthAdjust="spacing">significant</tspan><tspan x="637.2"> </tspan><tspan x="641.1" textLength="30.3" lengthAdjust="spacing">digits</tspan><tspan x="671.4"> </tspan><tspan x="675.3">—</tspan><tspan x="688.3"> </tspan><tspan x="692.2" textLength="29.6" lengthAdjust="spacing">more</tspan><tspan x="721.8"> </tspan><tspan x="725.7" textLength="52.0" lengthAdjust="spacing">precision</tspan><tspan x="777.7"> </tspan><tspan x="781.6" textLength="25.3" lengthAdjust="spacing">than</tspan><tspan x="806.9"> </tspan><tspan x="810.8">a</tspan><tspan x="818.0"> </tspan><tspan x="821.9" textLength="37.6" lengthAdjust="spacing">weight</tspan><tspan x="859.5"> </tspan><tspan x="863.4" textLength="39.0" lengthAdjust="spacing">needs.</tspan><tspan x="902.4"> </tspan><tspan x="906.3" class="g115s40" textLength="95.6" lengthAdjust="spacing">quantize_int8</tspan><tspan x="1002.0"> </tspan><tspan x="1005.9" textLength="34.7" lengthAdjust="spacing">keeps</tspan><tspan x="1040.5"> </tspan><tspan x="1044.4">a</tspan><tspan x="1051.7"> </tspan><tspan x="1055.5" textLength="27.5" lengthAdjust="spacing">copy</tspan><tspan x="1083.0"> </tspan><tspan x="1086.9" textLength="35.4" lengthAdjust="spacing">where</tspan><tspan x="1122.3"> </tspan><tspan x="1126.2" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="1158.0"> </tspan><tspan x="1161.9" textLength="37.6" lengthAdjust="spacing">weight</tspan><tspan x="1199.4"> </tspan><tspan x="1203.3" textLength="35.4" lengthAdjust="spacing">matrix</tspan><tspan x="1238.7"> </tspan><tspan x="1242.6" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1252.0"> </tspan><tspan x="1255.9" textLength="36.1" lengthAdjust="spacing">stored</tspan><tspan x="1292.0"> </tspan><tspan x="1295.9" textLength="13.7" lengthAdjust="spacing">as</tspan><tspan x="1309.6"> </tspan><tspan x="1313.5" textLength="34.0" lengthAdjust="spacing">whole</tspan><tspan x="1347.5"> </tspan><tspan x="1351.4" textLength="50.6" lengthAdjust="spacing">numbers</tspan><tspan x="1402.0"> </tspan><tspan x="1405.8" textLength="26.0" lengthAdjust="spacing">from</tspan><tspan x="1431.8"> </tspan><tspan x="1435.7" class="g115s2" textLength="31.3" lengthAdjust="spacing">−127</tspan><tspan x="1467.0"> </tspan><tspan x="1470.9" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1481.7"> </tspan><tspan x="1485.6" class="g115s2" textLength="23.0" lengthAdjust="spacing">127</tspan><tspan x="1508.6">,</tspan><tspan x="1512.2"> </tspan><tspan x="1516.1" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1537.8"> </tspan><tspan x="1541.7" textLength="24.6" lengthAdjust="spacing">byte</tspan><tspan x="1566.3"> </tspan><tspan x="1570.2" textLength="31.8" lengthAdjust="spacing">each,</tspan><tspan x="1601.9"> </tspan><tspan x="1605.8" textLength="23.1" lengthAdjust="spacing">with</tspan><tspan x="1629.0"> </tspan><tspan x="1632.8" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1654.5"> </tspan><tspan x="1658.4" textLength="24.6" lengthAdjust="spacing">float</tspan><tspan x="1683.0"> </tspan><tspan x="1686.9" textLength="30.3" lengthAdjust="spacing">scale</tspan><tspan x="1717.2"> </tspan><tspan x="1721.1" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="1739.9"> </tspan><tspan x="1743.8" textLength="24.6" lengthAdjust="spacing">row.</tspan><tspan x="1768.4"> </tspan><tspan x="1772.3" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="1794.7"> </tspan><tspan x="1798.5" textLength="27.5" lengthAdjust="spacing">copy</tspan></text>
+<text y="188.0" xml:space="preserve" class="g115s55"><tspan x="54.0" textLength="411.1" lengthAdjust="spacing">takes about a quarter of the memory and gives the same answers here.</tspan></text>
+<text x="34.0" y="268.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">WHERE IT LIVES</text>
+<text y="290.5" xml:space="preserve" class="g115s50"><tspan x="34.0" textLength="128.4" lengthAdjust="spacing">how the trained weights are</tspan></text>
+<text y="305.7" xml:space="preserve" class="g115s50"><tspan x="34.0" textLength="40.3" lengthAdjust="spacing">kept: an </tspan><tspan x="74.3" class="g115s2" textLength="21.6" lengthAdjust="spacing">8-bit</tspan><tspan x="95.9" textLength="85.8" lengthAdjust="spacing"> copy, turned back</tspan></text>
+<text y="321.0" xml:space="preserve" class="g115s50"><tspan x="34.0" textLength="98.6" lengthAdjust="spacing">into floats when used</tspan></text>
+<rect x="204.0" y="254.0" width="120.0" height="40.0" rx="6" class="g115s19"/>
+<text x="264.0" y="278.0" class="g115s20">source words</text>
+<line x1="327.0" y1="274.0" x2="347.0" y2="274.0" class="g115s21"/>
+<path d="M341.0 270.0 L347.0 274.0 L341.0 278.0" class="g115s46"/>
+<rect x="350.0" y="234.0" width="396.0" height="72.0" rx="8" class="g115s23"/>
+<text x="360.0" y="247.0" class="g115s56">encoder × 2</text>
+<rect x="360.0" y="254.0" width="182.0" height="40.0" rx="6" class="g115s19"/>
+<text x="451.0" y="278.0" class="g115s20">self-attention</text>
+<rect x="554.0" y="254.0" width="182.0" height="40.0" rx="6" class="g115s19"/>
+<text x="645.0" y="278.0" class="g115s20">feed-forward</text>
+<line x1="749.0" y1="274.0" x2="769.0" y2="274.0" class="g115s21"/>
+<path d="M763.0 270.0 L769.0 274.0 L763.0 278.0" class="g115s46"/>
+<rect x="772.0" y="234.0" width="588.0" height="72.0" rx="8" class="g115s23"/>
+<text x="782.0" y="247.0" class="g115s56">decoder × 2</text>
+<rect x="782.0" y="254.0" width="182.0" height="40.0" rx="6" class="g115s19"/>
+<text x="873.0" y="278.0" class="g115s20">self-attention</text>
+<rect x="976.0" y="254.0" width="182.0" height="40.0" rx="6" class="g115s19"/>
+<text x="1067.0" y="278.0" class="g115s20">cross-attention</text>
+<rect x="1170.0" y="254.0" width="182.0" height="40.0" rx="6" class="g115s19"/>
+<text x="1261.0" y="278.0" class="g115s20">feed-forward</text>
+<line x1="1363.0" y1="274.0" x2="1383.0" y2="274.0" class="g115s21"/>
+<path d="M1377.0 270.0 L1383.0 274.0 L1377.0 278.0" class="g115s46"/>
+<rect x="1386.0" y="254.0" width="200.0" height="40.0" rx="6" class="g115s19"/>
+<text x="1486.0" y="271.0" class="g115s20">output layer</text>
+<text x="1486.0" y="286.0" class="g115s41">a score for every word</text>
+<line x1="1589.0" y1="274.0" x2="1609.0" y2="274.0" class="g115s21"/>
+<path d="M1603.0 270.0 L1609.0 274.0 L1603.0 278.0" class="g115s46"/>
+<rect x="1612.0" y="254.0" width="120.0" height="40.0" rx="6" class="g115s19"/>
+<text x="1672.0" y="278.0" class="g115s20">next word</text>
+<rect x="350.0" y="316.0" width="196.0" height="40.0" rx="6" class="g115s19"/>
+<text x="448.0" y="333.0" class="g115s20">optimizer</text>
+<text x="448.0" y="348.0" class="g115s41">how training updates</text>
+<rect x="554.0" y="316.0" width="182.0" height="40.0" rx="6" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:1.8"/>
+<text x="645.0" y="340.0" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle">stored weights</text>
+<rect x="782.0" y="316.0" width="182.0" height="40.0" rx="6" class="g115s19"/>
+<text x="873.0" y="333.0" class="g115s20">KV cache</text>
+<text x="873.0" y="348.0" class="g115s41">kept while writing</text>
+<rect x="976.0" y="316.0" width="376.0" height="40.0" rx="6" class="g115s19"/>
+<text x="1164.0" y="333.0" class="g115s20">writing loop</text>
+<text x="1164.0" y="348.0" class="g115s41">one word per pass of the model</text>
+<rect x="1386.0" y="316.0" width="200.0" height="40.0" rx="6" class="g115s19"/>
+<text x="1486.0" y="333.0" class="g115s20">multi-token head</text>
+<text x="1486.0" y="348.0" class="g115s41">guesses the word after next</text>
+<text y="393.2" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px"><tspan x="34.0" class="g115s51" textLength="97.1" lengthAdjust="spacing">quantize_rows</tspan><tspan x="131.1">, </tspan><tspan x="138.4" class="g115s51" textLength="82.2" lengthAdjust="spacing">QuantLinear</tspan><tspan x="220.6" textLength="29.4" lengthAdjust="spacing"> and </tspan><tspan x="250.0" class="g115s51" textLength="97.1" lengthAdjust="spacing">quantize_int8</tspan><tspan x="347.1" textLength="24.9" lengthAdjust="spacing">, as </tspan><tspan x="372.0" class="g115s2" textLength="32.7" lengthAdjust="spacing">cell 9</tspan><tspan x="404.7" textLength="74.8" lengthAdjust="spacing"> writes them:</tspan></text>
+<rect x="846.0" y="380.0" width="1000.0" height="133.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="398.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="856.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="867.9" class="g115s1"> · </tspan><tspan x="877.2" style="font-weight:600;fill:var(--ink3)" textLength="21.6" lengthAdjust="spacing">8-bit</tspan><tspan x="898.8" class="g115s1" textLength="40.8" lengthAdjust="spacing"> weights</tspan></text>
+<text x="856.0" y="421.0" xml:space="preserve" class="g115s42"><tspan class="g115s7">scale</tspan><tspan class="g115s7"> </tspan><tspan class="g115s5">=</tspan><tspan class="g115s7"> </tspan><tspan class="g115s7">w</tspan><tspan class="g115s5">.</tspan><tspan class="g115s15">abs</tspan><tspan class="g115s5">(</tspan><tspan class="g115s5">)</tspan><tspan class="g115s5">.</tspan><tspan class="g115s15">amax</tspan><tspan class="g115s5">(</tspan><tspan class="g115s7">dim</tspan><tspan class="g115s5">=</tspan><tspan class="g115s43">1</tspan><tspan class="g115s5">,</tspan><tspan class="g115s7"> </tspan><tspan class="g115s7">keepdim</tspan><tspan class="g115s5">=</tspan><tspan class="g115s31">True</tspan><tspan class="g115s5">)</tspan><tspan class="g115s5">.</tspan><tspan class="g115s15">clamp</tspan><tspan class="g115s5">(</tspan><tspan class="g115s7">min</tspan><tspan class="g115s5">=</tspan><tspan class="g115s43">1e-12</tspan><tspan class="g115s5">)</tspan><tspan class="g115s7"> </tspan><tspan class="g115s5">/</tspan><tspan class="g115s7"> </tspan><tspan class="g115s43">127</tspan><tspan class="g115s7">       </tspan><tspan class="g115s47"># one scale per row</tspan></text>
+<text x="856.0" y="440.5" xml:space="preserve" class="g115s42"><tspan class="g115s7">q</tspan><tspan class="g115s7"> </tspan><tspan class="g115s5">=</tspan><tspan class="g115s7"> </tspan><tspan class="g115s7">torch</tspan><tspan class="g115s5">.</tspan><tspan class="g115s15">round</tspan><tspan class="g115s5">(</tspan><tspan class="g115s7">w</tspan><tspan class="g115s7"> </tspan><tspan class="g115s5">/</tspan><tspan class="g115s7"> </tspan><tspan class="g115s7">scale</tspan><tspan class="g115s5">)</tspan><tspan class="g115s5">.</tspan><tspan class="g115s15">clamp</tspan><tspan class="g115s5">(</tspan><tspan class="g115s5">-</tspan><tspan class="g115s43">127</tspan><tspan class="g115s5">,</tspan><tspan class="g115s7"> </tspan><tspan class="g115s43">127</tspan><tspan class="g115s5">)</tspan><tspan class="g115s5">.</tspan><tspan class="g115s15">to</tspan><tspan class="g115s5">(</tspan><tspan class="g115s7">torch</tspan><tspan class="g115s5">.</tspan><tspan class="g115s44">int8</tspan><tspan class="g115s5">)</tspan><tspan class="g115s7">             </tspan><tspan class="g115s47"># whole steps, one byte each</tspan></text>
+<text x="856.0" y="460.0" xml:space="preserve" class="g115s42"><tspan class="g115s31">def</tspan><tspan class="g115s7"> </tspan><tspan class="g115s15">weight</tspan><tspan class="g115s5">(</tspan><tspan class="g115s31">self</tspan><tspan class="g115s5">)</tspan><tspan class="g115s5">:</tspan><tspan class="g115s7"> </tspan><tspan class="g115s31">return</tspan><tspan class="g115s7"> </tspan><tspan class="g115s31">self</tspan><tspan class="g115s5">.</tspan><tspan class="g115s44">q</tspan><tspan class="g115s5">.</tspan><tspan class="g115s15">float</tspan><tspan class="g115s5">(</tspan><tspan class="g115s5">)</tspan><tspan class="g115s7"> </tspan><tspan class="g115s5">*</tspan><tspan class="g115s7"> </tspan><tspan class="g115s31">self</tspan><tspan class="g115s5">.</tspan><tspan class="g115s44">scale</tspan><tspan class="g115s7">                    </tspan><tspan class="g115s47"># QuantLinear: back to floats when used</tspan></text>
+<text x="856.0" y="479.5" xml:space="preserve" class="g115s42"><tspan class="g115s31">for</tspan><tspan class="g115s7"> </tspan><tspan class="g115s7">module</tspan><tspan class="g115s7"> </tspan><tspan class="g115s31">in</tspan><tspan class="g115s7"> </tspan><tspan class="g115s15">list</tspan><tspan class="g115s5">(</tspan><tspan class="g115s7">qm</tspan><tspan class="g115s5">.</tspan><tspan class="g115s15">modules</tspan><tspan class="g115s5">(</tspan><tspan class="g115s5">)</tspan><tspan class="g115s5">)</tspan><tspan class="g115s5">:</tspan><tspan class="g115s7">                                       </tspan><tspan class="g115s47"># every nn.Linear → QuantLinear</tspan></text>
+<text x="856.0" y="499.0" xml:space="preserve" class="g115s42"><tspan class="g115s7">    </tspan><tspan class="g115s5">.</tspan><tspan class="g115s5">.</tspan><tspan class="g115s5">.</tspan><tspan class="g115s7"> </tspan><tspan class="g115s15">setattr</tspan><tspan class="g115s5">(</tspan><tspan class="g115s7">module</tspan><tspan class="g115s5">,</tspan><tspan class="g115s7"> </tspan><tspan class="g115s7">name</tspan><tspan class="g115s5">,</tspan><tspan class="g115s7"> </tspan><tspan class="g115s15">QuantLinear</tspan><tspan class="g115s5">(</tspan><tspan class="g115s5">*</tspan><tspan class="g115s15">quantize_rows</tspan><tspan class="g115s5">(</tspan><tspan class="g115s7">child</tspan><tspan class="g115s5">.</tspan><tspan class="g115s44">weight</tspan><tspan class="g115s5">)</tspan><tspan class="g115s5">,</tspan><tspan class="g115s7"> </tspan><tspan class="g115s7">child</tspan><tspan class="g115s5">.</tspan><tspan class="g115s44">bias</tspan><tspan class="g115s5">)</tspan><tspan class="g115s5">)</tspan></text>
+<rect x="34.0" y="535.5" width="1812.0" height="30.0" rx="6" class="g115s13"/>
+<path d="M38.50 536.21 A5.50 5.50 0 0 0 34.50 541.50 V559.50 A5.50 5.50 0 0 0 38.50 564.79 Z" class="g115s16"/>
+<text y="555.5" xml:space="preserve" class="g115s32"><tspan x="50.0" class="g115s1" textLength="154.7" lengthAdjust="spacing">A · One row, step by step</tspan></text>
+<text y="555.5" xml:space="preserve" class="g115s33"><tspan x="222.7" textLength="44.7" lengthAdjust="spacing">decoder </tspan><tspan x="267.5" class="g115s2" textLength="36.6" lengthAdjust="spacing">layer 1</tspan><tspan x="304.1"> · </tspan><tspan x="313.6" class="g115s9" textLength="130.2" lengthAdjust="spacing">masked_self_attn.W_k</tspan><tspan x="443.8">, </tspan><tspan x="450.2" class="g115s2" textLength="29.8" lengthAdjust="spacing">row 3</tspan><tspan x="480.0">: </tspan><tspan x="486.4" class="g115s9" textLength="91.1" lengthAdjust="spacing">scale = 3.8051</tspan><tspan x="577.5"> ÷ </tspan><tspan x="590.8" class="g115s9" textLength="84.6" lengthAdjust="spacing">127 = 0.02996</tspan></text>
+<text y="583.5" xml:space="preserve" class="g115s24"><tspan x="38.0" class="g115s1" textLength="99.0" lengthAdjust="spacing">Reading the rows</tspan></text>
+<text y="601.5" xml:space="preserve" class="g115s22"><tspan x="38.0" textLength="1176.6" lengthAdjust="spacing">Divided by the scale, a weight becomes a number of steps. Rounding keeps the whole number of steps, and that integer is stored. When used, it is multiplied back by the scale. The difference is never more than half a step.</tspan></text>
+<text x="34.0" y="634.9" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start">the row’s 255 levels, one tick each, from −127 × scale to +127 × scale · dots: the 8 weights · rings: the level each one is rounded to</text>
+<line x1="34.0" y1="686.9" x2="1846.0" y2="686.9" style="stroke:var(--ink3);stroke-width:1;stroke-linecap:round"/>
+<line x1="34.0" y1="678.9" x2="34.0" y2="694.9" class="g115s0"/>
+<line x1="41.1" y1="684.4" x2="41.1" y2="689.4" class="g115s0"/>
+<line x1="48.3" y1="684.4" x2="48.3" y2="689.4" class="g115s0"/>
+<line x1="55.4" y1="684.4" x2="55.4" y2="689.4" class="g115s0"/>
+<line x1="62.5" y1="684.4" x2="62.5" y2="689.4" class="g115s0"/>
+<line x1="69.7" y1="684.4" x2="69.7" y2="689.4" class="g115s0"/>
+<line x1="76.8" y1="684.4" x2="76.8" y2="689.4" class="g115s0"/>
+<line x1="83.9" y1="681.9" x2="83.9" y2="691.9" class="g115s0"/>
+<line x1="91.1" y1="684.4" x2="91.1" y2="689.4" class="g115s0"/>
+<line x1="98.2" y1="684.4" x2="98.2" y2="689.4" class="g115s0"/>
+<line x1="105.3" y1="684.4" x2="105.3" y2="689.4" class="g115s0"/>
+<line x1="112.5" y1="684.4" x2="112.5" y2="689.4" class="g115s0"/>
+<line x1="119.6" y1="684.4" x2="119.6" y2="689.4" class="g115s0"/>
+<line x1="126.7" y1="684.4" x2="126.7" y2="689.4" class="g115s0"/>
+<line x1="133.9" y1="684.4" x2="133.9" y2="689.4" class="g115s0"/>
+<line x1="141.0" y1="684.4" x2="141.0" y2="689.4" class="g115s0"/>
+<line x1="148.1" y1="684.4" x2="148.1" y2="689.4" class="g115s0"/>
+<line x1="155.3" y1="681.9" x2="155.3" y2="691.9" class="g115s0"/>
+<line x1="162.4" y1="684.4" x2="162.4" y2="689.4" class="g115s0"/>
+<line x1="169.5" y1="684.4" x2="169.5" y2="689.4" class="g115s0"/>
+<line x1="176.7" y1="684.4" x2="176.7" y2="689.4" class="g115s0"/>
+<line x1="183.8" y1="684.4" x2="183.8" y2="689.4" class="g115s0"/>
+<line x1="190.9" y1="684.4" x2="190.9" y2="689.4" class="g115s0"/>
+<line x1="198.1" y1="684.4" x2="198.1" y2="689.4" class="g115s0"/>
+<line x1="205.2" y1="684.4" x2="205.2" y2="689.4" class="g115s0"/>
+<line x1="212.3" y1="684.4" x2="212.3" y2="689.4" class="g115s0"/>
+<line x1="219.5" y1="684.4" x2="219.5" y2="689.4" class="g115s0"/>
+<line x1="226.6" y1="681.9" x2="226.6" y2="691.9" class="g115s0"/>
+<line x1="233.7" y1="684.4" x2="233.7" y2="689.4" class="g115s0"/>
+<line x1="240.9" y1="684.4" x2="240.9" y2="689.4" class="g115s0"/>
+<line x1="248.0" y1="684.4" x2="248.0" y2="689.4" class="g115s0"/>
+<line x1="255.1" y1="684.4" x2="255.1" y2="689.4" class="g115s0"/>
+<line x1="262.3" y1="684.4" x2="262.3" y2="689.4" class="g115s0"/>
+<line x1="269.4" y1="684.4" x2="269.4" y2="689.4" class="g115s0"/>
+<line x1="276.6" y1="684.4" x2="276.6" y2="689.4" class="g115s0"/>
+<line x1="283.7" y1="684.4" x2="283.7" y2="689.4" class="g115s0"/>
+<line x1="290.8" y1="684.4" x2="290.8" y2="689.4" class="g115s0"/>
+<line x1="298.0" y1="681.9" x2="298.0" y2="691.9" class="g115s0"/>
+<line x1="305.1" y1="684.4" x2="305.1" y2="689.4" class="g115s0"/>
+<line x1="312.2" y1="684.4" x2="312.2" y2="689.4" class="g115s0"/>
+<line x1="319.4" y1="684.4" x2="319.4" y2="689.4" class="g115s0"/>
+<line x1="326.5" y1="684.4" x2="326.5" y2="689.4" class="g115s0"/>
+<line x1="333.6" y1="684.4" x2="333.6" y2="689.4" class="g115s0"/>
+<line x1="340.8" y1="684.4" x2="340.8" y2="689.4" class="g115s0"/>
+<line x1="347.9" y1="684.4" x2="347.9" y2="689.4" class="g115s0"/>
+<line x1="355.0" y1="684.4" x2="355.0" y2="689.4" class="g115s0"/>
+<line x1="362.2" y1="684.4" x2="362.2" y2="689.4" class="g115s0"/>
+<line x1="369.3" y1="681.9" x2="369.3" y2="691.9" class="g115s0"/>
+<line x1="376.4" y1="684.4" x2="376.4" y2="689.4" class="g115s0"/>
+<line x1="383.6" y1="684.4" x2="383.6" y2="689.4" class="g115s0"/>
+<line x1="390.7" y1="684.4" x2="390.7" y2="689.4" class="g115s0"/>
+<line x1="397.8" y1="684.4" x2="397.8" y2="689.4" class="g115s0"/>
+<line x1="405.0" y1="684.4" x2="405.0" y2="689.4" class="g115s0"/>
+<line x1="412.1" y1="684.4" x2="412.1" y2="689.4" class="g115s0"/>
+<line x1="419.2" y1="684.4" x2="419.2" y2="689.4" class="g115s0"/>
+<line x1="426.4" y1="684.4" x2="426.4" y2="689.4" class="g115s0"/>
+<line x1="433.5" y1="684.4" x2="433.5" y2="689.4" class="g115s0"/>
+<line x1="440.6" y1="681.9" x2="440.6" y2="691.9" class="g115s0"/>
+<line x1="447.8" y1="684.4" x2="447.8" y2="689.4" class="g115s0"/>
+<line x1="454.9" y1="684.4" x2="454.9" y2="689.4" class="g115s0"/>
+<line x1="462.0" y1="684.4" x2="462.0" y2="689.4" class="g115s0"/>
+<line x1="469.2" y1="684.4" x2="469.2" y2="689.4" class="g115s0"/>
+<line x1="476.3" y1="684.4" x2="476.3" y2="689.4" class="g115s0"/>
+<line x1="483.4" y1="684.4" x2="483.4" y2="689.4" class="g115s0"/>
+<line x1="490.6" y1="684.4" x2="490.6" y2="689.4" class="g115s0"/>
+<line x1="497.7" y1="684.4" x2="497.7" y2="689.4" class="g115s0"/>
+<line x1="504.8" y1="684.4" x2="504.8" y2="689.4" class="g115s0"/>
+<line x1="512.0" y1="681.9" x2="512.0" y2="691.9" class="g115s0"/>
+<line x1="519.1" y1="684.4" x2="519.1" y2="689.4" class="g115s0"/>
+<line x1="526.2" y1="684.4" x2="526.2" y2="689.4" class="g115s0"/>
+<line x1="533.4" y1="684.4" x2="533.4" y2="689.4" class="g115s0"/>
+<line x1="540.5" y1="684.4" x2="540.5" y2="689.4" class="g115s0"/>
+<line x1="547.6" y1="684.4" x2="547.6" y2="689.4" class="g115s0"/>
+<line x1="554.8" y1="684.4" x2="554.8" y2="689.4" class="g115s0"/>
+<line x1="561.9" y1="684.4" x2="561.9" y2="689.4" class="g115s0"/>
+<line x1="569.0" y1="684.4" x2="569.0" y2="689.4" class="g115s0"/>
+<line x1="576.2" y1="684.4" x2="576.2" y2="689.4" class="g115s0"/>
+<line x1="583.3" y1="681.9" x2="583.3" y2="691.9" class="g115s0"/>
+<line x1="590.4" y1="684.4" x2="590.4" y2="689.4" class="g115s0"/>
+<line x1="597.6" y1="684.4" x2="597.6" y2="689.4" class="g115s0"/>
+<line x1="604.7" y1="684.4" x2="604.7" y2="689.4" class="g115s0"/>
+<line x1="611.8" y1="684.4" x2="611.8" y2="689.4" class="g115s0"/>
+<line x1="619.0" y1="684.4" x2="619.0" y2="689.4" class="g115s0"/>
+<line x1="626.1" y1="684.4" x2="626.1" y2="689.4" class="g115s0"/>
+<line x1="633.2" y1="684.4" x2="633.2" y2="689.4" class="g115s0"/>
+<line x1="640.4" y1="684.4" x2="640.4" y2="689.4" class="g115s0"/>
+<line x1="647.5" y1="684.4" x2="647.5" y2="689.4" class="g115s0"/>
+<line x1="654.6" y1="681.9" x2="654.6" y2="691.9" class="g115s0"/>
+<line x1="661.8" y1="684.4" x2="661.8" y2="689.4" class="g115s0"/>
+<line x1="668.9" y1="684.4" x2="668.9" y2="689.4" class="g115s0"/>
+<line x1="676.0" y1="684.4" x2="676.0" y2="689.4" class="g115s0"/>
+<line x1="683.2" y1="684.4" x2="683.2" y2="689.4" class="g115s0"/>
+<line x1="690.3" y1="684.4" x2="690.3" y2="689.4" class="g115s0"/>
+<line x1="697.4" y1="684.4" x2="697.4" y2="689.4" class="g115s0"/>
+<line x1="704.6" y1="684.4" x2="704.6" y2="689.4" class="g115s0"/>
+<line x1="711.7" y1="684.4" x2="711.7" y2="689.4" class="g115s0"/>
+<line x1="718.9" y1="684.4" x2="718.9" y2="689.4" class="g115s0"/>
+<line x1="726.0" y1="681.9" x2="726.0" y2="691.9" class="g115s0"/>
+<line x1="733.1" y1="684.4" x2="733.1" y2="689.4" class="g115s0"/>
+<line x1="740.3" y1="684.4" x2="740.3" y2="689.4" class="g115s0"/>
+<line x1="747.4" y1="684.4" x2="747.4" y2="689.4" class="g115s0"/>
+<line x1="754.5" y1="684.4" x2="754.5" y2="689.4" class="g115s0"/>
+<line x1="761.7" y1="684.4" x2="761.7" y2="689.4" class="g115s0"/>
+<line x1="768.8" y1="684.4" x2="768.8" y2="689.4" class="g115s0"/>
+<line x1="775.9" y1="684.4" x2="775.9" y2="689.4" class="g115s0"/>
+<line x1="783.1" y1="684.4" x2="783.1" y2="689.4" class="g115s0"/>
+<line x1="790.2" y1="684.4" x2="790.2" y2="689.4" class="g115s0"/>
+<line x1="797.3" y1="681.9" x2="797.3" y2="691.9" class="g115s0"/>
+<line x1="804.5" y1="684.4" x2="804.5" y2="689.4" class="g115s0"/>
+<line x1="811.6" y1="684.4" x2="811.6" y2="689.4" class="g115s0"/>
+<line x1="818.7" y1="684.4" x2="818.7" y2="689.4" class="g115s0"/>
+<line x1="825.9" y1="684.4" x2="825.9" y2="689.4" class="g115s0"/>
+<line x1="833.0" y1="684.4" x2="833.0" y2="689.4" class="g115s0"/>
+<line x1="840.1" y1="684.4" x2="840.1" y2="689.4" class="g115s0"/>
+<line x1="847.3" y1="684.4" x2="847.3" y2="689.4" class="g115s0"/>
+<line x1="854.4" y1="684.4" x2="854.4" y2="689.4" class="g115s0"/>
+<line x1="861.5" y1="684.4" x2="861.5" y2="689.4" class="g115s0"/>
+<line x1="868.7" y1="681.9" x2="868.7" y2="691.9" class="g115s0"/>
+<line x1="875.8" y1="684.4" x2="875.8" y2="689.4" class="g115s0"/>
+<line x1="882.9" y1="684.4" x2="882.9" y2="689.4" class="g115s0"/>
+<line x1="890.1" y1="684.4" x2="890.1" y2="689.4" class="g115s0"/>
+<line x1="897.2" y1="684.4" x2="897.2" y2="689.4" class="g115s0"/>
+<line x1="904.3" y1="684.4" x2="904.3" y2="689.4" class="g115s0"/>
+<line x1="911.5" y1="684.4" x2="911.5" y2="689.4" class="g115s0"/>
+<line x1="918.6" y1="684.4" x2="918.6" y2="689.4" class="g115s0"/>
+<line x1="925.7" y1="684.4" x2="925.7" y2="689.4" class="g115s0"/>
+<line x1="932.9" y1="684.4" x2="932.9" y2="689.4" class="g115s0"/>
+<line x1="940.0" y1="678.9" x2="940.0" y2="694.9" class="g115s0"/>
+<line x1="947.1" y1="684.4" x2="947.1" y2="689.4" class="g115s0"/>
+<line x1="954.3" y1="684.4" x2="954.3" y2="689.4" class="g115s0"/>
+<line x1="961.4" y1="684.4" x2="961.4" y2="689.4" class="g115s0"/>
+<line x1="968.5" y1="684.4" x2="968.5" y2="689.4" class="g115s0"/>
+<line x1="975.7" y1="684.4" x2="975.7" y2="689.4" class="g115s0"/>
+<line x1="982.8" y1="684.4" x2="982.8" y2="689.4" class="g115s0"/>
+<line x1="989.9" y1="684.4" x2="989.9" y2="689.4" class="g115s0"/>
+<line x1="997.1" y1="684.4" x2="997.1" y2="689.4" class="g115s0"/>
+<line x1="1004.2" y1="684.4" x2="1004.2" y2="689.4" class="g115s0"/>
+<line x1="1011.3" y1="681.9" x2="1011.3" y2="691.9" class="g115s0"/>
+<line x1="1018.5" y1="684.4" x2="1018.5" y2="689.4" class="g115s0"/>
+<line x1="1025.6" y1="684.4" x2="1025.6" y2="689.4" class="g115s0"/>
+<line x1="1032.7" y1="684.4" x2="1032.7" y2="689.4" class="g115s0"/>
+<line x1="1039.9" y1="684.4" x2="1039.9" y2="689.4" class="g115s0"/>
+<line x1="1047.0" y1="684.4" x2="1047.0" y2="689.4" class="g115s0"/>
+<line x1="1054.1" y1="684.4" x2="1054.1" y2="689.4" class="g115s0"/>
+<line x1="1061.3" y1="684.4" x2="1061.3" y2="689.4" class="g115s0"/>
+<line x1="1068.4" y1="684.4" x2="1068.4" y2="689.4" class="g115s0"/>
+<line x1="1075.5" y1="684.4" x2="1075.5" y2="689.4" class="g115s0"/>
+<line x1="1082.7" y1="681.9" x2="1082.7" y2="691.9" class="g115s0"/>
+<line x1="1089.8" y1="684.4" x2="1089.8" y2="689.4" class="g115s0"/>
+<line x1="1096.9" y1="684.4" x2="1096.9" y2="689.4" class="g115s0"/>
+<line x1="1104.1" y1="684.4" x2="1104.1" y2="689.4" class="g115s0"/>
+<line x1="1111.2" y1="684.4" x2="1111.2" y2="689.4" class="g115s0"/>
+<line x1="1118.3" y1="684.4" x2="1118.3" y2="689.4" class="g115s0"/>
+<line x1="1125.5" y1="684.4" x2="1125.5" y2="689.4" class="g115s0"/>
+<line x1="1132.6" y1="684.4" x2="1132.6" y2="689.4" class="g115s0"/>
+<line x1="1139.7" y1="684.4" x2="1139.7" y2="689.4" class="g115s0"/>
+<line x1="1146.9" y1="684.4" x2="1146.9" y2="689.4" class="g115s0"/>
+<line x1="1154.0" y1="681.9" x2="1154.0" y2="691.9" class="g115s0"/>
+<line x1="1161.1" y1="684.4" x2="1161.1" y2="689.4" class="g115s0"/>
+<line x1="1168.3" y1="684.4" x2="1168.3" y2="689.4" class="g115s0"/>
+<line x1="1175.4" y1="684.4" x2="1175.4" y2="689.4" class="g115s0"/>
+<line x1="1182.6" y1="684.4" x2="1182.6" y2="689.4" class="g115s0"/>
+<line x1="1189.7" y1="684.4" x2="1189.7" y2="689.4" class="g115s0"/>
+<line x1="1196.8" y1="684.4" x2="1196.8" y2="689.4" class="g115s0"/>
+<line x1="1204.0" y1="684.4" x2="1204.0" y2="689.4" class="g115s0"/>
+<line x1="1211.1" y1="684.4" x2="1211.1" y2="689.4" class="g115s0"/>
+<line x1="1218.2" y1="684.4" x2="1218.2" y2="689.4" class="g115s0"/>
+<line x1="1225.4" y1="681.9" x2="1225.4" y2="691.9" class="g115s0"/>
+<line x1="1232.5" y1="684.4" x2="1232.5" y2="689.4" class="g115s0"/>
+<line x1="1239.6" y1="684.4" x2="1239.6" y2="689.4" class="g115s0"/>
+<line x1="1246.8" y1="684.4" x2="1246.8" y2="689.4" class="g115s0"/>
+<line x1="1253.9" y1="684.4" x2="1253.9" y2="689.4" class="g115s0"/>
+<line x1="1261.0" y1="684.4" x2="1261.0" y2="689.4" class="g115s0"/>
+<line x1="1268.2" y1="684.4" x2="1268.2" y2="689.4" class="g115s0"/>
+<line x1="1275.3" y1="684.4" x2="1275.3" y2="689.4" class="g115s0"/>
+<line x1="1282.4" y1="684.4" x2="1282.4" y2="689.4" class="g115s0"/>
+<line x1="1289.6" y1="684.4" x2="1289.6" y2="689.4" class="g115s0"/>
+<line x1="1296.7" y1="681.9" x2="1296.7" y2="691.9" class="g115s0"/>
+<line x1="1303.8" y1="684.4" x2="1303.8" y2="689.4" class="g115s0"/>
+<line x1="1311.0" y1="684.4" x2="1311.0" y2="689.4" class="g115s0"/>
+<line x1="1318.1" y1="684.4" x2="1318.1" y2="689.4" class="g115s0"/>
+<line x1="1325.2" y1="684.4" x2="1325.2" y2="689.4" class="g115s0"/>
+<line x1="1332.4" y1="684.4" x2="1332.4" y2="689.4" class="g115s0"/>
+<line x1="1339.5" y1="684.4" x2="1339.5" y2="689.4" class="g115s0"/>
+<line x1="1346.6" y1="684.4" x2="1346.6" y2="689.4" class="g115s0"/>
+<line x1="1353.8" y1="684.4" x2="1353.8" y2="689.4" class="g115s0"/>
+<line x1="1360.9" y1="684.4" x2="1360.9" y2="689.4" class="g115s0"/>
+<line x1="1368.0" y1="681.9" x2="1368.0" y2="691.9" class="g115s0"/>
+<line x1="1375.2" y1="684.4" x2="1375.2" y2="689.4" class="g115s0"/>
+<line x1="1382.3" y1="684.4" x2="1382.3" y2="689.4" class="g115s0"/>
+<line x1="1389.4" y1="684.4" x2="1389.4" y2="689.4" class="g115s0"/>
+<line x1="1396.6" y1="684.4" x2="1396.6" y2="689.4" class="g115s0"/>
+<line x1="1403.7" y1="684.4" x2="1403.7" y2="689.4" class="g115s0"/>
+<line x1="1410.8" y1="684.4" x2="1410.8" y2="689.4" class="g115s0"/>
+<line x1="1418.0" y1="684.4" x2="1418.0" y2="689.4" class="g115s0"/>
+<line x1="1425.1" y1="684.4" x2="1425.1" y2="689.4" class="g115s0"/>
+<line x1="1432.2" y1="684.4" x2="1432.2" y2="689.4" class="g115s0"/>
+<line x1="1439.4" y1="681.9" x2="1439.4" y2="691.9" class="g115s0"/>
+<line x1="1446.5" y1="684.4" x2="1446.5" y2="689.4" class="g115s0"/>
+<line x1="1453.6" y1="684.4" x2="1453.6" y2="689.4" class="g115s0"/>
+<line x1="1460.8" y1="684.4" x2="1460.8" y2="689.4" class="g115s0"/>
+<line x1="1467.9" y1="684.4" x2="1467.9" y2="689.4" class="g115s0"/>
+<line x1="1475.0" y1="684.4" x2="1475.0" y2="689.4" class="g115s0"/>
+<line x1="1482.2" y1="684.4" x2="1482.2" y2="689.4" class="g115s0"/>
+<line x1="1489.3" y1="684.4" x2="1489.3" y2="689.4" class="g115s0"/>
+<line x1="1496.4" y1="684.4" x2="1496.4" y2="689.4" class="g115s0"/>
+<line x1="1503.6" y1="684.4" x2="1503.6" y2="689.4" class="g115s0"/>
+<line x1="1510.7" y1="681.9" x2="1510.7" y2="691.9" class="g115s0"/>
+<line x1="1517.8" y1="684.4" x2="1517.8" y2="689.4" class="g115s0"/>
+<line x1="1525.0" y1="684.4" x2="1525.0" y2="689.4" class="g115s0"/>
+<line x1="1532.1" y1="684.4" x2="1532.1" y2="689.4" class="g115s0"/>
+<line x1="1539.2" y1="684.4" x2="1539.2" y2="689.4" class="g115s0"/>
+<line x1="1546.4" y1="684.4" x2="1546.4" y2="689.4" class="g115s0"/>
+<line x1="1553.5" y1="684.4" x2="1553.5" y2="689.4" class="g115s0"/>
+<line x1="1560.6" y1="684.4" x2="1560.6" y2="689.4" class="g115s0"/>
+<line x1="1567.8" y1="684.4" x2="1567.8" y2="689.4" class="g115s0"/>
+<line x1="1574.9" y1="684.4" x2="1574.9" y2="689.4" class="g115s0"/>
+<line x1="1582.0" y1="681.9" x2="1582.0" y2="691.9" class="g115s0"/>
+<line x1="1589.2" y1="684.4" x2="1589.2" y2="689.4" class="g115s0"/>
+<line x1="1596.3" y1="684.4" x2="1596.3" y2="689.4" class="g115s0"/>
+<line x1="1603.4" y1="684.4" x2="1603.4" y2="689.4" class="g115s0"/>
+<line x1="1610.6" y1="684.4" x2="1610.6" y2="689.4" class="g115s0"/>
+<line x1="1617.7" y1="684.4" x2="1617.7" y2="689.4" class="g115s0"/>
+<line x1="1624.9" y1="684.4" x2="1624.9" y2="689.4" class="g115s0"/>
+<line x1="1632.0" y1="684.4" x2="1632.0" y2="689.4" class="g115s0"/>
+<line x1="1639.1" y1="684.4" x2="1639.1" y2="689.4" class="g115s0"/>
+<line x1="1646.3" y1="684.4" x2="1646.3" y2="689.4" class="g115s0"/>
+<line x1="1653.4" y1="681.9" x2="1653.4" y2="691.9" class="g115s0"/>
+<line x1="1660.5" y1="684.4" x2="1660.5" y2="689.4" class="g115s0"/>
+<line x1="1667.7" y1="684.4" x2="1667.7" y2="689.4" class="g115s0"/>
+<line x1="1674.8" y1="684.4" x2="1674.8" y2="689.4" class="g115s0"/>
+<line x1="1681.9" y1="684.4" x2="1681.9" y2="689.4" class="g115s0"/>
+<line x1="1689.1" y1="684.4" x2="1689.1" y2="689.4" class="g115s0"/>
+<line x1="1696.2" y1="684.4" x2="1696.2" y2="689.4" class="g115s0"/>
+<line x1="1703.3" y1="684.4" x2="1703.3" y2="689.4" class="g115s0"/>
+<line x1="1710.5" y1="684.4" x2="1710.5" y2="689.4" class="g115s0"/>
+<line x1="1717.6" y1="684.4" x2="1717.6" y2="689.4" class="g115s0"/>
+<line x1="1724.7" y1="681.9" x2="1724.7" y2="691.9" class="g115s0"/>
+<line x1="1731.9" y1="684.4" x2="1731.9" y2="689.4" class="g115s0"/>
+<line x1="1739.0" y1="684.4" x2="1739.0" y2="689.4" class="g115s0"/>
+<line x1="1746.1" y1="684.4" x2="1746.1" y2="689.4" class="g115s0"/>
+<line x1="1753.3" y1="684.4" x2="1753.3" y2="689.4" class="g115s0"/>
+<line x1="1760.4" y1="684.4" x2="1760.4" y2="689.4" class="g115s0"/>
+<line x1="1767.5" y1="684.4" x2="1767.5" y2="689.4" class="g115s0"/>
+<line x1="1774.7" y1="684.4" x2="1774.7" y2="689.4" class="g115s0"/>
+<line x1="1781.8" y1="684.4" x2="1781.8" y2="689.4" class="g115s0"/>
+<line x1="1788.9" y1="684.4" x2="1788.9" y2="689.4" class="g115s0"/>
+<line x1="1796.1" y1="681.9" x2="1796.1" y2="691.9" class="g115s0"/>
+<line x1="1803.2" y1="684.4" x2="1803.2" y2="689.4" class="g115s0"/>
+<line x1="1810.3" y1="684.4" x2="1810.3" y2="689.4" class="g115s0"/>
+<line x1="1817.5" y1="684.4" x2="1817.5" y2="689.4" class="g115s0"/>
+<line x1="1824.6" y1="684.4" x2="1824.6" y2="689.4" class="g115s0"/>
+<line x1="1831.7" y1="684.4" x2="1831.7" y2="689.4" class="g115s0"/>
+<line x1="1838.9" y1="684.4" x2="1838.9" y2="689.4" class="g115s0"/>
+<line x1="1846.0" y1="678.9" x2="1846.0" y2="694.9" class="g115s0"/>
+<text x="34.0" y="708.9" class="g115s17">-127</text>
+<text x="226.6" y="708.9" class="g115s17">-100</text>
+<text x="583.3" y="708.9" class="g115s17">-50</text>
+<text x="940.0" y="708.9" class="g115s17">0</text>
+<text x="1296.7" y="708.9" class="g115s17">50</text>
+<text x="1653.4" y="708.9" class="g115s17">100</text>
+<text x="1846.0" y="708.9" class="g115s17">127</text>
+<line x1="1146.5" y1="670.9" x2="1146.9" y2="682.9" class="g115s34"/>
+<circle cx="1146.5" cy="668.9" r="4.5" class="g115s26"/>
+<text x="1146.5" y="658.9" class="g115s11">0</text>
+<circle cx="1146.9" cy="686.9" r="4.0" class="g115s35"/>
+<line x1="672.8" y1="670.9" x2="676.0" y2="682.9" class="g115s34"/>
+<circle cx="672.8" cy="668.9" r="4.5" class="g115s26"/>
+<text x="672.8" y="658.9" class="g115s11">1</text>
+<circle cx="676.0" cy="686.9" r="4.0" class="g115s35"/>
+<line x1="806.3" y1="670.9" x2="804.5" y2="682.9" class="g115s34"/>
+<circle cx="806.3" cy="668.9" r="4.5" class="g115s26"/>
+<text x="806.3" y="658.9" class="g115s11">2</text>
+<circle cx="804.5" cy="686.9" r="4.0" class="g115s35"/>
+<line x1="1232.0" y1="670.9" x2="1232.5" y2="682.9" class="g115s34"/>
+<circle cx="1232.0" cy="668.9" r="4.5" class="g115s26"/>
+<text x="1232.0" y="658.9" class="g115s11">3</text>
+<circle cx="1232.5" cy="686.9" r="4.0" class="g115s35"/>
+<line x1="999.6" y1="670.9" x2="997.1" y2="682.9" class="g115s34"/>
+<circle cx="999.6" cy="668.9" r="4.5" class="g115s26"/>
+<text x="999.6" y="658.9" class="g115s11">4</text>
+<circle cx="997.1" cy="686.9" r="4.0" class="g115s35"/>
+<line x1="1846.0" y1="670.9" x2="1846.0" y2="682.9" class="g115s34"/>
+<circle cx="1846.0" cy="668.9" r="4.5" class="g115s26"/>
+<text x="1846.0" y="658.9" class="g115s11">5</text>
+<circle cx="1846.0" cy="686.9" r="4.0" class="g115s35"/>
+<line x1="1091.1" y1="670.9" x2="1089.8" y2="682.9" class="g115s34"/>
+<circle cx="1091.1" cy="668.9" r="4.5" class="g115s26"/>
+<text x="1091.1" y="658.9" class="g115s11">6</text>
+<circle cx="1089.8" cy="686.9" r="4.0" class="g115s35"/>
+<line x1="1218.1" y1="670.9" x2="1218.2" y2="682.9" class="g115s34"/>
+<circle cx="1218.1" cy="668.9" r="4.5" class="g115s26"/>
+<text x="1218.1" y="658.9" class="g115s11">7</text>
+<circle cx="1218.2" cy="686.9" r="4.0" class="g115s35"/>
+<text x="34.0" y="744.9" class="g115s52">zoom on weight 4: w = 0.2502 is 8.35 steps — it is stored as 8</text>
+<rect x="419.7" y="762.9" width="128.6" height="32.0" rx="0" style="fill:var(--keepbg);stroke:none;stroke-width:1"/>
+<line x1="34.0" y1="778.9" x2="934.0" y2="778.9" class="g115s21"/>
+<line x1="98.3" y1="771.9" x2="98.3" y2="785.9" class="g115s21"/>
+<text x="98.3" y="802.9" class="g115s17">level 5</text>
+<line x1="226.9" y1="771.9" x2="226.9" y2="785.9" class="g115s21"/>
+<text x="226.9" y="802.9" class="g115s17">level 6</text>
+<line x1="355.4" y1="771.9" x2="355.4" y2="785.9" class="g115s21"/>
+<text x="355.4" y="802.9" class="g115s17">level 7</text>
+<line x1="484.0" y1="771.9" x2="484.0" y2="785.9" class="g115s21"/>
+<text x="484.0" y="802.9" style="fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle">level 8</text>
+<line x1="612.6" y1="771.9" x2="612.6" y2="785.9" class="g115s21"/>
+<text x="612.6" y="802.9" class="g115s17">level 9</text>
+<line x1="741.1" y1="771.9" x2="741.1" y2="785.9" class="g115s21"/>
+<text x="741.1" y="802.9" class="g115s17">level 10</text>
+<line x1="869.7" y1="771.9" x2="869.7" y2="785.9" class="g115s21"/>
+<text x="869.7" y="802.9" class="g115s17">level 11</text>
+<line x1="529.1" y1="768.9" x2="491.9" y2="775.1" style="stroke:var(--s2);stroke-width:1.4;stroke-linecap:round"/>
+<path d="M487.0 775.9 L493.3 771.8 L494.3 777.8 Z" style="fill:var(--s2)"/>
+<circle cx="529.1" cy="766.9" r="5.0" class="g115s26"/>
+<circle cx="484.0" cy="778.9" r="5.0" style="fill:none;stroke:var(--keep);stroke-width:2"/>
+<text y="769.9" xml:space="preserve" class="g115s27"><tspan x="974.0" textLength="189.6" lengthAdjust="spacing">Shaded: half a step either side of level </tspan><tspan x="1163.6" class="g115s2">8</tspan><tspan x="1170.0" textLength="161.4" lengthAdjust="spacing"> — every weight in it is stored as </tspan><tspan x="1331.4" class="g115s2">8</tspan><tspan x="1337.9" textLength="127.2" lengthAdjust="spacing">. Here the weight is off by </tspan><tspan x="1465.1" class="g115s2" textLength="42.1" lengthAdjust="spacing">0.01051</tspan><tspan x="1507.2">, </tspan><tspan x="1513.3" class="g115s2" textLength="22.7" lengthAdjust="spacing">0.70</tspan><tspan x="1536.0" textLength="69.1" lengthAdjust="spacing"> of half a step.</tspan></text>
+<rect x="34.0" y="822.9" width="1812.0" height="24.0" rx="4" class="g115s13"/>
+<text y="838.9" xml:space="preserve" class="g115s8"><tspan x="43.0" class="g115s1" textLength="32.2" lengthAdjust="spacing">weight</tspan></text>
+<text y="838.9" xml:space="preserve" class="g115s8"><tspan x="495.0" class="g115s28">0</tspan></text>
+<text y="838.9" xml:space="preserve" class="g115s8"><tspan x="665.0" class="g115s28">1</tspan></text>
+<text y="838.9" xml:space="preserve" class="g115s8"><tspan x="835.0" class="g115s28">2</tspan></text>
+<text y="838.9" xml:space="preserve" class="g115s8"><tspan x="1005.0" class="g115s28">3</tspan></text>
+<text y="838.9" xml:space="preserve" class="g115s8"><tspan x="1175.0" class="g115s28">4</tspan></text>
+<text y="838.9" xml:space="preserve" class="g115s8"><tspan x="1345.0" class="g115s28">5</tspan></text>
+<text y="838.9" xml:space="preserve" class="g115s8"><tspan x="1515.0" class="g115s28">6</tspan></text>
+<text y="838.9" xml:space="preserve" class="g115s8"><tspan x="1685.0" class="g115s28">7</tspan></text>
+<text y="863.8" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="16.2" lengthAdjust="spacing">w (</tspan><tspan x="59.2" class="g115s9" textLength="45.6" lengthAdjust="spacing">float32</tspan><tspan x="104.8" class="g115s1">)</tspan></text>
+<text x="495.0" y="863.8" class="g115s3">0.8672</text>
+<text x="665.0" y="863.8" class="g115s3">-1.1223</text>
+<text x="835.0" y="863.8" class="g115s3">-0.5617</text>
+<text x="1005.0" y="863.8" class="g115s3">1.2265</text>
+<text x="1175.0" y="863.8" class="g115s3">0.2502</text>
+<text x="1345.0" y="863.8" class="g115s3">3.8051</text>
+<text x="1515.0" y="863.8" class="g115s3">0.6345</text>
+<text x="1685.0" y="863.8" class="g115s3">1.1681</text>
+<line x1="34.0" y1="872.9" x2="1846.0" y2="872.9" class="g115s4"/>
+<rect x="34.0" y="872.9" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="889.8" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="51.3" lengthAdjust="spacing">w ÷ scale</tspan></text>
+<text x="495.0" y="889.8" class="g115s3">28.9439</text>
+<text x="665.0" y="889.8" class="g115s3">-37.4582</text>
+<text x="835.0" y="889.8" class="g115s3">-18.7474</text>
+<text x="1005.0" y="889.8" class="g115s3">40.9360</text>
+<text x="1175.0" y="889.8" class="g115s3">8.3507</text>
+<text x="1345.0" y="889.8" class="g115s3">127.0000</text>
+<text x="1515.0" y="889.8" class="g115s3">21.1772</text>
+<text x="1685.0" y="889.8" class="g115s3">38.9868</text>
+<line x1="34.0" y1="898.9" x2="1846.0" y2="898.9" class="g115s4"/>
+<text y="915.8" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s9" textLength="78.1" lengthAdjust="spacing">q = round(·)</tspan><tspan x="121.1" class="g115s1" textLength="60.3" lengthAdjust="spacing">, stored as </tspan><tspan x="181.4" class="g115s9" textLength="26.0" lengthAdjust="spacing">int8</tspan></text>
+<text x="495.0" y="915.8" class="g115s3">29</text>
+<text x="665.0" y="915.8" class="g115s3">-37</text>
+<text x="835.0" y="915.8" class="g115s3">-19</text>
+<text x="1005.0" y="915.8" class="g115s3">41</text>
+<text x="1175.0" y="915.8" class="g115s3">8</text>
+<text x="1345.0" y="915.8" class="g115s3">127</text>
+<text x="1515.0" y="915.8" class="g115s3">21</text>
+<text x="1685.0" y="915.8" class="g115s3">39</text>
+<line x1="34.0" y1="924.9" x2="1846.0" y2="924.9" class="g115s4"/>
+<rect x="34.0" y="924.9" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="941.8" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="49.3" lengthAdjust="spacing">q × scale</tspan></text>
+<text x="495.0" y="941.8" class="g115s3">0.8689</text>
+<text x="665.0" y="941.8" class="g115s3">-1.1086</text>
+<text x="835.0" y="941.8" class="g115s3">-0.5693</text>
+<text x="1005.0" y="941.8" class="g115s3">1.2284</text>
+<text x="1175.0" y="941.8" class="g115s3">0.2397</text>
+<text x="1345.0" y="941.8" class="g115s3">3.8051</text>
+<text x="1515.0" y="941.8" class="g115s3">0.6292</text>
+<text x="1685.0" y="941.8" class="g115s3">1.1685</text>
+<line x1="34.0" y1="950.9" x2="1846.0" y2="950.9" class="g115s4"/>
+<text y="967.8" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="32.1" lengthAdjust="spacing">|error|</tspan></text>
+<text x="495.0" y="967.8" class="g115s3">0.00168</text>
+<text x="665.0" y="967.8" class="g115s3">0.01373</text>
+<text x="835.0" y="967.8" class="g115s3">0.00757</text>
+<text x="1005.0" y="967.8" class="g115s3">0.00192</text>
+<text x="1175.0" y="967.8" class="g115s3">0.01051</text>
+<text x="1345.0" y="967.8" class="g115s3">0.00000</text>
+<text x="1515.0" y="967.8" class="g115s3">0.00531</text>
+<text x="1685.0" y="967.8" class="g115s3">0.00040</text>
+<line x1="34.0" y1="976.9" x2="1846.0" y2="976.9" class="g115s4"/>
+<rect x="34.0" y="976.9" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="993.8" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="102.4" lengthAdjust="spacing">|error| ÷ half a step</tspan></text>
+<text x="495.0" y="993.8" class="g115s3">0.11</text>
+<text x="665.0" y="993.8" class="g115s3">0.92</text>
+<text x="835.0" y="993.8" class="g115s3">0.51</text>
+<text x="1005.0" y="993.8" class="g115s3">0.13</text>
+<text x="1175.0" y="993.8" class="g115s3">0.70</text>
+<text x="1345.0" y="993.8" class="g115s3">0.00</text>
+<text x="1515.0" y="993.8" class="g115s3">0.35</text>
+<text x="1685.0" y="993.8" class="g115s3">0.03</text>
+<line x1="34.0" y1="1002.9" x2="1846.0" y2="1002.9" class="g115s4"/>
+<rect x="34.0" y="846.9" width="1812.0" height="156.0" rx="0" class="g115s23"/>
+<line x1="486.0" y1="846.9" x2="486.0" y2="1002.9" class="g115s4"/>
+<line x1="656.0" y1="846.9" x2="656.0" y2="1002.9" class="g115s4"/>
+<line x1="826.0" y1="846.9" x2="826.0" y2="1002.9" class="g115s4"/>
+<line x1="996.0" y1="846.9" x2="996.0" y2="1002.9" class="g115s4"/>
+<line x1="1166.0" y1="846.9" x2="1166.0" y2="1002.9" class="g115s4"/>
+<line x1="1336.0" y1="846.9" x2="1336.0" y2="1002.9" class="g115s4"/>
+<line x1="1506.0" y1="846.9" x2="1506.0" y2="1002.9" class="g115s4"/>
+<line x1="1676.0" y1="846.9" x2="1676.0" y2="1002.9" class="g115s4"/>
+<rect x="34.0" y="1014.9" width="1812.0" height="55.0" rx="6" class="g115s45"/>
+<path d="M38.50 1015.61 A5.50 5.50 0 0 0 34.50 1020.90 V1063.94 A5.50 5.50 0 0 0 38.50 1069.23 Z" class="g115s16"/>
+<text y="1040.9" xml:space="preserve" class="g115s24"><tspan x="50.0" class="g115s1" textLength="105.3" lengthAdjust="spacing">At most half a step</tspan></text>
+<text y="1058.4" xml:space="preserve" class="g115s22"><tspan x="50.0" textLength="40.7" lengthAdjust="spacing">Weight </tspan><tspan x="90.7" class="g115s2">5</tspan><tspan x="97.8" textLength="659.6" lengthAdjust="spacing">, the largest, defines the scale and comes back exactly. The small weights are measured with the same coarse ruler: weight </tspan><tspan x="757.4" class="g115s2">4</tspan><tspan x="764.4" textLength="58.0" lengthAdjust="spacing"> moves by </tspan><tspan x="822.4" class="g115s2" textLength="38.9" lengthAdjust="spacing">0.0105</tspan><tspan x="861.3">, </tspan><tspan x="868.0" class="g115s2" textLength="18.4" lengthAdjust="spacing">4%</tspan><tspan x="886.4" textLength="92.7" lengthAdjust="spacing"> of itself. Over all </tspan><tspan x="979.1" class="g115s2" textLength="78.5" lengthAdjust="spacing">4,984 weights</tspan><tspan x="1057.6" textLength="187.4" lengthAdjust="spacing"> of the tiny model the worst error is </tspan><tspan x="1245.0" class="g115s2" textLength="31.8" lengthAdjust="spacing">0.998</tspan><tspan x="1276.8" textLength="78.7" lengthAdjust="spacing"> of a half step; </tspan><tspan x="1355.5" class="g115s25" textLength="61.1" lengthAdjust="spacing">check3.py</tspan><tspan x="1416.6" textLength="233.4" lengthAdjust="spacing">, on a random matrix through the real code: </tspan><tspan x="1650.1" class="g115s2" textLength="38.9" lengthAdjust="spacing">0.9996</tspan><tspan x="1689.0">.</tspan></text>
+<rect x="34.0" y="1089.9" width="1812.0" height="30.0" rx="6" class="g115s13"/>
+<path d="M38.50 1090.65 A5.50 5.50 0 0 0 34.50 1095.94 V1113.94 A5.50 5.50 0 0 0 38.50 1119.23 Z" class="g115s16"/>
+<text y="1109.9" xml:space="preserve" class="g115s32"><tspan x="50.0" class="g115s1" textLength="145.5" lengthAdjust="spacing">B · Why a scale per row</tspan></text>
+<text y="1109.9" xml:space="preserve" class="g115s33"><tspan x="213.5" textLength="44.7" lengthAdjust="spacing">decoder </tspan><tspan x="258.2" class="g115s2" textLength="36.6" lengthAdjust="spacing">layer 1</tspan><tspan x="294.8"> · </tspan><tspan x="304.4" class="g115s9" textLength="91.1" lengthAdjust="spacing">cross_attn.W_o</tspan><tspan x="395.5" textLength="319.4" lengthAdjust="spacing">: each row’s own scale, against one scale for the whole matrix</tspan></text>
+<text y="1137.9" xml:space="preserve" class="g115s24"><tspan x="38.0" class="g115s1" textLength="99.0" lengthAdjust="spacing">One ruler per row</tspan></text>
+<text y="1155.9" xml:space="preserve" class="g115s22"><tspan x="38.0" textLength="903.7" lengthAdjust="spacing">The scale is set by the largest weight it has to cover. Shared by a whole matrix, it is set by the largest weight anywhere, and rows of smaller weights reach only part of the </tspan><tspan x="941.7" class="g115s2" textLength="21.2" lengthAdjust="spacing">255</tspan><tspan x="962.9" textLength="190.7" lengthAdjust="spacing"> levels: coarser steps, bigger errors.</tspan></text>
+<text x="34.0" y="1189.3" class="g115s52">how many of the 255 levels each row can reach</text>
+<rect x="34.0" y="1199.3" width="14.0" height="10.0" rx="2" class="g115s29"/>
+<text x="54.0" y="1208.3" class="g115s57">its own scale</text>
+<rect x="142.5" y="1199.3" width="14.0" height="10.0" rx="2" class="g115s30"/>
+<text x="162.5" y="1208.3" class="g115s57">one scale for the whole matrix</text>
+<line x1="34.0" y1="1385.3" x2="1846.0" y2="1385.3" style="stroke:var(--grid);stroke-width:1;stroke-linecap:round"/>
+<rect x="94.2" y="1245.3" width="50.0" height="140.0" rx="2" class="g115s29"/>
+<text x="119.2" y="1240.3" class="g115s11">255</text>
+<rect x="150.2" y="1335.4" width="50.0" height="50.0" rx="2" class="g115s30"/>
+<text x="175.2" y="1330.4" class="g115s11">91</text>
+<text x="147.2" y="1401.3" class="g115s36">row 0</text>
+<rect x="320.8" y="1245.3" width="50.0" height="140.0" rx="2" class="g115s29"/>
+<text x="345.8" y="1240.3" class="g115s11">255</text>
+<rect x="376.8" y="1316.7" width="50.0" height="68.6" rx="2" class="g115s30"/>
+<text x="401.8" y="1311.7" class="g115s11">125</text>
+<text x="373.8" y="1401.3" class="g115s36">row 1</text>
+<rect x="547.2" y="1245.3" width="50.0" height="140.0" rx="2" class="g115s29"/>
+<text x="572.2" y="1240.3" class="g115s11">255</text>
+<rect x="603.2" y="1339.8" width="50.0" height="45.6" rx="2" class="g115s30"/>
+<text x="628.2" y="1334.8" class="g115s11">83</text>
+<text x="600.2" y="1401.3" class="g115s36">row 2</text>
+<rect x="773.8" y="1245.3" width="50.0" height="140.0" rx="2" class="g115s29"/>
+<text x="798.8" y="1240.3" class="g115s11">255</text>
+<rect x="829.8" y="1332.1" width="50.0" height="53.3" rx="2" class="g115s30"/>
+<text x="854.8" y="1327.1" class="g115s11">97</text>
+<text x="826.8" y="1401.3" class="g115s36">row 3</text>
+<rect x="1000.2" y="1245.3" width="50.0" height="140.0" rx="2" class="g115s29"/>
+<text x="1025.2" y="1240.3" class="g115s11">255</text>
+<rect x="1056.2" y="1314.5" width="50.0" height="70.8" rx="2" class="g115s30"/>
+<text x="1081.2" y="1309.5" class="g115s11">129</text>
+<text x="1053.2" y="1401.3" class="g115s36">row 4</text>
+<rect x="1226.8" y="1245.3" width="50.0" height="140.0" rx="2" class="g115s29"/>
+<text x="1251.8" y="1240.3" class="g115s11">255</text>
+<rect x="1282.8" y="1334.3" width="50.0" height="51.1" rx="2" class="g115s30"/>
+<text x="1307.8" y="1329.3" class="g115s11">93</text>
+<text x="1279.8" y="1401.3" class="g115s36">row 5</text>
+<rect x="1453.2" y="1245.3" width="50.0" height="140.0" rx="2" class="g115s29"/>
+<text x="1478.2" y="1240.3" class="g115s11">255</text>
+<rect x="1509.2" y="1245.3" width="50.0" height="140.0" rx="2" class="g115s30"/>
+<text x="1534.2" y="1240.3" class="g115s11">255</text>
+<text x="1506.2" y="1401.3" class="g115s36">row 6</text>
+<rect x="1679.8" y="1245.3" width="50.0" height="140.0" rx="2" class="g115s29"/>
+<text x="1704.8" y="1240.3" class="g115s11">255</text>
+<rect x="1735.8" y="1343.1" width="50.0" height="42.3" rx="2" class="g115s30"/>
+<text x="1760.8" y="1338.1" class="g115s11">77</text>
+<text x="1732.8" y="1401.3" class="g115s36">row 7</text>
+<rect x="34.0" y="1431.3" width="1812.0" height="24.0" rx="4" class="g115s13"/>
+<text y="1447.3" xml:space="preserve" class="g115s8"><tspan x="43.0" class="g115s1" textLength="17.9" lengthAdjust="spacing">row</tspan></text>
+<text y="1447.3" xml:space="preserve" class="g115s8"><tspan x="343.0" class="g115s1" textLength="50.3" lengthAdjust="spacing">largest |w|</tspan></text>
+<text y="1447.3" xml:space="preserve" class="g115s8"><tspan x="703.0" class="g115s1" textLength="63.7" lengthAdjust="spacing">its own scale</tspan></text>
+<text y="1447.3" xml:space="preserve" class="g115s8"><tspan x="1083.0" class="g115s1" textLength="84.8" lengthAdjust="spacing">one shared scale</tspan></text>
+<text y="1447.3" xml:space="preserve" class="g115s8"><tspan x="1463.0" class="g115s1" textLength="100.2" lengthAdjust="spacing">shared is coarser by</tspan></text>
+<text y="1471.1" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2" textLength="28.5" lengthAdjust="spacing">row 0</tspan></text>
+<text x="343.0" y="1471.1" class="g115s6">1.6042</text>
+<text x="703.0" y="1471.1" class="g115s6">0.01263</text>
+<text x="1083.0" y="1471.1" class="g115s6">0.03536</text>
+<text x="1463.0" y="1471.1" class="g115s6">2.80×</text>
+<line x1="34.0" y1="1479.3" x2="1846.0" y2="1479.3" class="g115s4"/>
+<rect x="34.0" y="1479.3" width="1812.0" height="24.0" rx="0" class="g115s12"/>
+<text y="1495.1" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2" textLength="28.5" lengthAdjust="spacing">row 1</tspan></text>
+<text x="343.0" y="1495.1" class="g115s6">2.2064</text>
+<text x="703.0" y="1495.1" class="g115s6">0.01737</text>
+<text x="1083.0" y="1495.1" class="g115s6">0.03536</text>
+<text x="1463.0" y="1495.1" class="g115s6">2.04×</text>
+<line x1="34.0" y1="1503.3" x2="1846.0" y2="1503.3" class="g115s4"/>
+<text y="1519.1" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2" textLength="28.5" lengthAdjust="spacing">row 2</tspan></text>
+<text x="343.0" y="1519.1" class="g115s6">1.4564</text>
+<text x="703.0" y="1519.1" class="g115s6">0.01147</text>
+<text x="1083.0" y="1519.1" class="g115s6">0.03536</text>
+<text x="1463.0" y="1519.1" class="g115s6">3.08×</text>
+<line x1="34.0" y1="1527.3" x2="1846.0" y2="1527.3" class="g115s4"/>
+<rect x="34.0" y="1527.3" width="1812.0" height="24.0" rx="0" class="g115s12"/>
+<text y="1543.1" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2" textLength="28.5" lengthAdjust="spacing">row 3</tspan></text>
+<text x="343.0" y="1543.1" class="g115s6">1.7147</text>
+<text x="703.0" y="1543.1" class="g115s6">0.01350</text>
+<text x="1083.0" y="1543.1" class="g115s6">0.03536</text>
+<text x="1463.0" y="1543.1" class="g115s6">2.62×</text>
+<line x1="34.0" y1="1551.3" x2="1846.0" y2="1551.3" class="g115s4"/>
+<text y="1567.1" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2" textLength="28.5" lengthAdjust="spacing">row 4</tspan></text>
+<text x="343.0" y="1567.1" class="g115s6">2.2635</text>
+<text x="703.0" y="1567.1" class="g115s6">0.01782</text>
+<text x="1083.0" y="1567.1" class="g115s6">0.03536</text>
+<text x="1463.0" y="1567.1" class="g115s6">1.98×</text>
+<line x1="34.0" y1="1575.3" x2="1846.0" y2="1575.3" class="g115s4"/>
+<rect x="34.0" y="1575.3" width="1812.0" height="24.0" rx="0" class="g115s12"/>
+<text y="1591.1" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2" textLength="28.5" lengthAdjust="spacing">row 5</tspan></text>
+<text x="343.0" y="1591.1" class="g115s6">1.6376</text>
+<text x="703.0" y="1591.1" class="g115s6">0.01289</text>
+<text x="1083.0" y="1591.1" class="g115s6">0.03536</text>
+<text x="1463.0" y="1591.1" class="g115s6">2.74×</text>
+<line x1="34.0" y1="1599.3" x2="1846.0" y2="1599.3" class="g115s4"/>
+<text y="1615.1" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2" textLength="28.5" lengthAdjust="spacing">row 6</tspan></text>
+<text x="343.0" y="1615.1" class="g115s6">4.4906</text>
+<text x="703.0" y="1615.1" class="g115s6">0.03536</text>
+<text x="1083.0" y="1615.1" class="g115s6">0.03536</text>
+<text x="1463.0" y="1615.1" class="g115s6">1.00×</text>
+<line x1="34.0" y1="1623.3" x2="1846.0" y2="1623.3" class="g115s4"/>
+<rect x="34.0" y="1623.3" width="1812.0" height="24.0" rx="0" class="g115s12"/>
+<text y="1639.1" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2" textLength="28.5" lengthAdjust="spacing">row 7</tspan></text>
+<text x="343.0" y="1639.1" class="g115s6">1.3466</text>
+<text x="703.0" y="1639.1" class="g115s6">0.01060</text>
+<text x="1083.0" y="1639.1" class="g115s6">0.03536</text>
+<text x="1463.0" y="1639.1" class="g115s6">3.33×</text>
+<line x1="34.0" y1="1647.3" x2="1846.0" y2="1647.3" class="g115s4"/>
+<rect x="34.0" y="1455.3" width="1812.0" height="192.0" rx="0" class="g115s23"/>
+<line x1="334.0" y1="1455.3" x2="334.0" y2="1647.3" class="g115s4"/>
+<line x1="694.0" y1="1455.3" x2="694.0" y2="1647.3" class="g115s4"/>
+<line x1="1074.0" y1="1455.3" x2="1074.0" y2="1647.3" class="g115s4"/>
+<line x1="1454.0" y1="1455.3" x2="1454.0" y2="1647.3" class="g115s4"/>
+<rect x="34.0" y="1659.3" width="1812.0" height="55.0" rx="6" class="g115s45"/>
+<path d="M38.50 1660.05 A5.50 5.50 0 0 0 34.50 1665.34 V1708.38 A5.50 5.50 0 0 0 38.50 1713.67 Z" class="g115s16"/>
+<text y="1685.3" xml:space="preserve" class="g115s24"><tspan x="50.0" class="g115s1" textLength="119.5" lengthAdjust="spacing">Coarser for everyone</tspan></text>
+<text y="1702.9" xml:space="preserve" class="g115s22"><tspan x="50.0" class="g115s2" textLength="36.0" lengthAdjust="spacing">Row 7</tspan><tspan x="86.0" textLength="74.7" lengthAdjust="spacing"> reaches only </tspan><tspan x="160.7" class="g115s2" textLength="14.1" lengthAdjust="spacing">77</tspan><tspan x="174.9" textLength="32.0" lengthAdjust="spacing"> of its </tspan><tspan x="206.9" class="g115s2" textLength="21.2" lengthAdjust="spacing">255</tspan><tspan x="228.1" textLength="302.1" lengthAdjust="spacing"> levels under the shared scale. Mean error in this matrix: </tspan><tspan x="530.2" class="g115s2" textLength="84.8" lengthAdjust="spacing">0.0032 per row</tspan><tspan x="615.1">, </tspan><tspan x="621.8" class="g115s2" textLength="38.9" lengthAdjust="spacing">0.0084</tspan><tspan x="660.7" textLength="86.7" lengthAdjust="spacing"> with one scale (</tspan><tspan x="747.4" class="g115s2" textLength="25.3" lengthAdjust="spacing">2.6×</tspan><tspan x="772.7" textLength="153.4" lengthAdjust="spacing">); over the whole tiny model: </tspan><tspan x="926.1" class="g115s2" textLength="38.9" lengthAdjust="spacing">0.0040</tspan><tspan x="965.0" textLength="45.4" lengthAdjust="spacing"> against </tspan><tspan x="1010.3" class="g115s2" textLength="38.9" lengthAdjust="spacing">0.0069</tspan><tspan x="1049.2" textLength="161.4" lengthAdjust="spacing">. The price of a scale per row: </tspan><tspan x="1210.6" class="g115s2" textLength="41.0" lengthAdjust="spacing">4 bytes</tspan><tspan x="1251.6" textLength="46.7" lengthAdjust="spacing"> per row.</tspan></text>
+<rect x="34.0" y="1734.4" width="1812.0" height="30.0" rx="6" class="g115s13"/>
+<path d="M38.50 1735.09 A5.50 5.50 0 0 0 34.50 1740.38 V1758.38 A5.50 5.50 0 0 0 38.50 1763.67 Z" class="g115s16"/>
+<text y="1754.4" xml:space="preserve" class="g115s32"><tspan x="50.0" class="g115s1" textLength="109.5" lengthAdjust="spacing">C · What is stored</tspan></text>
+<text y="1754.4" xml:space="preserve" class="g115s33"><tspan x="177.5" textLength="161.7" lengthAdjust="spacing">the tiny model counted the way </tspan><tspan x="339.2" class="g115s9" textLength="45.6" lengthAdjust="spacing">size_mb</tspan><tspan x="384.8" textLength="145.7" lengthAdjust="spacing"> counts, and the real model (</tspan><tspan x="530.5" class="g115s9" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="589.1">)</tspan></text>
+<text x="34.0" y="1792.4" class="g115s52">the bytes, each bar a share of its model’s float32 size (the real model measured as a whole by check3.py)</text>
+<text x="232.0" y="1821.4" class="g115s48">tiny model, float32</text>
+<rect x="244.0" y="1804.4" width="1331.1" height="26.0" rx="3" class="g115s58"/>
+<text x="909.5" y="1821.4" class="g115s38">matrices</text>
+<rect x="1575.1" y="1804.4" width="80.9" height="26.0" rx="3" class="g115s59"/>
+<text x="1615.5" y="1821.4" class="g115s38">gains</text>
+<text x="1666.0" y="1821.4" class="g115s49">21,148 bytes</text>
+<text x="232.0" y="1857.4" class="g115s48">tiny model, int8 copy</text>
+<rect x="244.0" y="1840.4" width="332.8" height="26.0" rx="3" class="g115s60"/>
+<text x="410.4" y="1857.4" class="g115s38">q</text>
+<rect x="576.8" y="1840.4" width="162.1" height="26.0" rx="3" style="fill:var(--s3);stroke:none;stroke-width:1;opacity:0.5"/>
+<text x="657.8" y="1857.4" class="g115s38">scales</text>
+<rect x="738.9" y="1840.4" width="80.9" height="26.0" rx="3" class="g115s59"/>
+<text x="779.3" y="1857.4" class="g115s38">gains</text>
+<text x="829.8" y="1857.4" class="g115s49">8,624 bytes  (÷ 2.45)</text>
+<text x="232.0" y="1893.4" class="g115s48">real model, float32</text>
+<rect x="244.0" y="1876.4" width="1412.0" height="26.0" rx="3" class="g115s58"/>
+<text x="950.0" y="1893.4" class="g115s38">everything</text>
+<text x="1666.0" y="1893.4" class="g115s49">130.2 MB</text>
+<text x="232.0" y="1929.4" class="g115s48">real model, int8 copy</text>
+<rect x="244.0" y="1912.4" width="356.8" height="26.0" rx="3" class="g115s60"/>
+<text x="422.4" y="1929.4" class="g115s38">everything</text>
+<text x="610.8" y="1929.4" class="g115s49">32.9 MB  (÷ 3.96)</text>
+<rect x="34.0" y="1962.4" width="1812.0" height="24.0" rx="4" class="g115s13"/>
+<text y="1978.4" xml:space="preserve" class="g115s8"><tspan x="743.0" class="g115s1" textLength="43.3" lengthAdjust="spacing">numbers</tspan></text>
+<text y="1978.4" xml:space="preserve" class="g115s8"><tspan x="1043.0" class="g115s1" textLength="44.5" lengthAdjust="spacing">bytes as </tspan><tspan x="1087.5" class="g115s39" textLength="41.6" lengthAdjust="spacing">float32</tspan></text>
+<text y="1978.4" xml:space="preserve" class="g115s8"><tspan x="1403.0" class="g115s1" textLength="60.0" lengthAdjust="spacing">bytes in the </tspan><tspan x="1463.0" class="g115s39" textLength="23.8" lengthAdjust="spacing">int8</tspan><tspan x="1486.8" class="g115s1" textLength="26.6" lengthAdjust="spacing"> copy</tspan></text>
+<text y="2003.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s2" textLength="101.6" lengthAdjust="spacing">81 weight matrices</tspan><tspan x="144.6" class="g115s1" textLength="277.8" lengthAdjust="spacing"> (attention, experts, routers, head, the shared table)</tspan></text>
+<text x="743.0" y="2003.3" class="g115s3">4,984</text>
+<text x="1043.0" y="2003.3" class="g115s3">19,936</text>
+<text x="1403.0" y="2003.3" class="g115s3">4,984 + 607 scales × 4 = 7,412</text>
+<line x1="34.0" y1="2012.4" x2="1846.0" y2="2012.4" class="g115s4"/>
+<rect x="34.0" y="2012.4" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="2029.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s2" textLength="13.6" lengthAdjust="spacing">52</tspan><tspan x="56.6" class="g115s1"> </tspan><tspan x="59.9" class="g115s9" textLength="45.6" lengthAdjust="spacing">RMSNorm</tspan><tspan x="105.5" class="g115s1" textLength="94.9" lengthAdjust="spacing"> gains and biases</tspan></text>
+<text x="743.0" y="2029.3" class="g115s3">303</text>
+<text x="1043.0" y="2029.3" class="g115s3">1,212</text>
+<text x="1403.0" y="2029.3" class="g115s3">1,212 (kept float)</text>
+<line x1="34.0" y1="2038.4" x2="1846.0" y2="2038.4" class="g115s4"/>
+<text y="2055.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="75.9" lengthAdjust="spacing">the tiny model</tspan></text>
+<text x="743.0" y="2055.3" class="g115s3">5,287</text>
+<text x="1043.0" y="2055.3" class="g115s3">21,148</text>
+<text x="1403.0" y="2055.3" class="g115s3">8,624  (÷ 2.45)</text>
+<line x1="34.0" y1="2064.4" x2="1846.0" y2="2064.4" class="g115s4"/>
+<rect x="34.0" y="2064.4" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="2081.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="107.0" lengthAdjust="spacing">the real model (MB)</tspan></text>
+<text x="743.0" y="2081.3" class="g115s3">32,543,983</text>
+<text x="1043.0" y="2081.3" class="g115s3">130.2</text>
+<text x="1403.0" y="2081.3" class="g115s3">32.9  (÷ 3.96)</text>
+<line x1="34.0" y1="2090.4" x2="1846.0" y2="2090.4" class="g115s4"/>
+<rect x="34.0" y="1986.4" width="1812.0" height="104.0" rx="0" class="g115s23"/>
+<line x1="734.0" y1="1986.4" x2="734.0" y2="2090.4" class="g115s4"/>
+<line x1="1034.0" y1="1986.4" x2="1034.0" y2="2090.4" class="g115s4"/>
+<line x1="1394.0" y1="1986.4" x2="1394.0" y2="2090.4" class="g115s4"/>
+<rect x="34.0" y="2102.4" width="1812.0" height="55.0" rx="6" class="g115s45"/>
+<path d="M38.50 2103.09 A5.50 5.50 0 0 0 34.50 2108.38 V2151.42 A5.50 5.50 0 0 0 38.50 2156.71 Z" class="g115s16"/>
+<text y="2128.4" xml:space="preserve" class="g115s24"><tspan x="50.0" class="g115s1" textLength="42.4" lengthAdjust="spacing">Almost </tspan><tspan x="92.4" class="g115s2" textLength="14.7" lengthAdjust="spacing">4×</tspan></text>
+<text y="2145.9" xml:space="preserve" class="g115s22"><tspan x="50.0" textLength="172.1" lengthAdjust="spacing">Why the tiny model only shrinks </tspan><tspan x="222.1" class="g115s2" textLength="32.4" lengthAdjust="spacing">2.45×</tspan><tspan x="254.4" textLength="76.7" lengthAdjust="spacing">: its rows hold </tspan><tspan x="331.1" class="g115s2" textLength="53.7" lengthAdjust="spacing">8 weights</tspan><tspan x="384.9" textLength="87.9" lengthAdjust="spacing">, so each row’s </tspan><tspan x="472.8" class="g115s2" textLength="35.3" lengthAdjust="spacing">4-byte</tspan><tspan x="508.1" textLength="465.6" lengthAdjust="spacing"> scale adds half a byte per weight, and its gains and biases are a larger share. A row of </tspan><tspan x="973.7" class="g115s2" textLength="67.9" lengthAdjust="spacing">512 weights</tspan><tspan x="1041.5" textLength="35.4" lengthAdjust="spacing"> takes </tspan><tspan x="1076.9" class="g115s2" textLength="65.8" lengthAdjust="spacing">2,048 bytes</tspan><tspan x="1142.7" textLength="74.7" lengthAdjust="spacing"> as floats and </tspan><tspan x="1217.4" class="g115s2" textLength="21.2" lengthAdjust="spacing">516</tspan><tspan x="1238.6" textLength="16.0" lengthAdjust="spacing"> in </tspan><tspan x="1254.6" class="g115s2">8</tspan><tspan x="1261.7" textLength="39.9" lengthAdjust="spacing"> bits (÷ </tspan><tspan x="1301.5" class="g115s2" textLength="24.8" lengthAdjust="spacing">3.97</tspan><tspan x="1326.3" textLength="233.4" lengthAdjust="spacing">); the real model, mostly such rows, shrinks </tspan><tspan x="1559.7" class="g115s2" textLength="32.4" lengthAdjust="spacing">3.96×</tspan><tspan x="1592.1">.</tspan></text>
+<rect x="34.0" y="2177.4" width="1812.0" height="30.0" rx="6" class="g115s13"/>
+<path d="M38.50 2178.13 A5.50 5.50 0 0 0 34.50 2183.42 V2201.42 A5.50 5.50 0 0 0 38.50 2206.71 Z" class="g115s16"/>
+<text y="2197.4" xml:space="preserve" class="g115s32"><tspan x="50.0" class="g115s1" textLength="212.9" lengthAdjust="spacing">D · What it changes in the answers</tspan></text>
+<text y="2197.4" xml:space="preserve" class="g115s33"><tspan x="280.9" textLength="192.4" lengthAdjust="spacing">the tiny model, every weight matrix in </tspan><tspan x="473.3" class="g115s2">8</tspan><tspan x="480.1" textLength="207.7" lengthAdjust="spacing"> bits — and the trained notebook model (</tspan><tspan x="687.8" class="g115s9" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="746.4">, </tspan><tspan x="752.8" class="g115s9" textLength="58.6" lengthAdjust="spacing">run3.json</tspan><tspan x="811.3">)</tspan></text>
+<rect x="34.0" y="2223.4" width="1812.0" height="24.0" rx="4" class="g115s13"/>
+<text y="2239.4" xml:space="preserve" class="g115s8"><tspan x="943.0" class="g115s39" textLength="41.6" lengthAdjust="spacing">float32</tspan></text>
+<text y="2239.4" xml:space="preserve" class="g115s8"><tspan x="1243.0" class="g115s39" textLength="23.8" lengthAdjust="spacing">int8</tspan><tspan x="1266.8" class="g115s1" textLength="26.6" lengthAdjust="spacing"> copy</tspan></text>
+<text y="2239.4" xml:space="preserve" class="g115s8"><tspan x="1543.0" class="g115s1" textLength="48.9" lengthAdjust="spacing">difference</tspan></text>
+<text y="2264.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s9" textLength="52.1" lengthAdjust="spacing">p(&lt;EOS&gt;)</tspan><tspan x="95.1" class="g115s1" textLength="74.2" lengthAdjust="spacing"> after “efully”</tspan></text>
+<text x="943.0" y="2264.3" class="g115s3">0.9060</text>
+<text x="1243.0" y="2264.3" class="g115s3">0.9064</text>
+<text x="1543.0" y="2264.3" class="g115s3">0.0064</text>
+<line x1="34.0" y1="2273.4" x2="1846.0" y2="2273.4" class="g115s4"/>
+<rect x="34.0" y="2273.4" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="2290.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s9" textLength="71.6" lengthAdjust="spacing">p(sleeping)</tspan><tspan x="114.6" class="g115s1" textLength="74.2" lengthAdjust="spacing"> after “efully”</tspan></text>
+<text x="943.0" y="2290.3" class="g115s3">0.0082</text>
+<text x="1243.0" y="2290.3" class="g115s3">0.0083</text>
+<text x="1543.0" y="2290.3" class="g115s3">0.0117</text>
+<line x1="34.0" y1="2299.4" x2="1846.0" y2="2299.4" class="g115s4"/>
+<text y="2316.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s9" textLength="39.0" lengthAdjust="spacing">p(sof)</tspan><tspan x="82.0" class="g115s1" textLength="74.2" lengthAdjust="spacing"> after “efully”</tspan></text>
+<text x="943.0" y="2316.3" class="g115s3">0.0076</text>
+<text x="1243.0" y="2316.3" class="g115s3">0.0076</text>
+<text x="1543.0" y="2316.3" class="g115s3">0.0015</text>
+<line x1="34.0" y1="2325.4" x2="1846.0" y2="2325.4" class="g115s4"/>
+<rect x="34.0" y="2325.4" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="2342.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s9" textLength="39.0" lengthAdjust="spacing">p(dog)</tspan><tspan x="82.0" class="g115s1" textLength="74.2" lengthAdjust="spacing"> after “efully”</tspan></text>
+<text x="943.0" y="2342.3" class="g115s3">0.0073</text>
+<text x="1243.0" y="2342.3" class="g115s3">0.0073</text>
+<text x="1543.0" y="2342.3" class="g115s3">0.0001</text>
+<line x1="34.0" y1="2351.4" x2="1846.0" y2="2351.4" class="g115s4"/>
+<text y="2368.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="243.9" lengthAdjust="spacing">the largest change to any logit of sequence B</tspan></text>
+<text x="943.0" y="2368.3" class="g115s3">—</text>
+<text x="1243.0" y="2368.3" class="g115s3">—</text>
+<text x="1543.0" y="2368.3" class="g115s3">0.0216</text>
+<line x1="34.0" y1="2377.4" x2="1846.0" y2="2377.4" class="g115s4"/>
+<rect x="34.0" y="2377.4" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="2394.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="171.4" lengthAdjust="spacing">the same answer when writing (</tspan><tspan x="214.4" class="g115s2">5</tspan><tspan x="221.2" class="g115s1" textLength="52.5" lengthAdjust="spacing"> known + </tspan><tspan x="273.7" class="g115s2" textLength="109.1" lengthAdjust="spacing">8 unseen sentences</tspan><tspan x="382.8" class="g115s1">)</tspan></text>
+<text x="943.0" y="2394.3" class="g115s3">—</text>
+<text x="1243.0" y="2394.3" class="g115s3">—</text>
+<text x="1543.0" y="2394.3" class="g115s3">13 of 13</text>
+<line x1="34.0" y1="2403.4" x2="1846.0" y2="2403.4" class="g115s4"/>
+<text y="2420.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="320.5" lengthAdjust="spacing">the real model: the largest logit change on a test sentence (</tspan><tspan x="363.5" class="g115s9" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="422.1" class="g115s1">)</tspan></text>
+<text x="943.0" y="2420.3" class="g115s3">—</text>
+<text x="1243.0" y="2420.3" class="g115s3">—</text>
+<text x="1543.0" y="2420.3" class="g115s3">0.0218</text>
+<line x1="34.0" y1="2429.4" x2="1846.0" y2="2429.4" class="g115s4"/>
+<rect x="34.0" y="2429.4" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="2446.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="261.5" lengthAdjust="spacing">the real model: the same top token everywhere (</tspan><tspan x="304.5" class="g115s9" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="363.1" class="g115s1">)</tspan></text>
+<text x="943.0" y="2446.3" class="g115s3">—</text>
+<text x="1243.0" y="2446.3" class="g115s3">—</text>
+<text x="1543.0" y="2446.3" class="g115s3">yes</text>
+<line x1="34.0" y1="2455.4" x2="1846.0" y2="2455.4" class="g115s4"/>
+<rect x="34.0" y="2247.4" width="1812.0" height="208.0" rx="0" class="g115s23"/>
+<line x1="934.0" y1="2247.4" x2="934.0" y2="2455.4" class="g115s4"/>
+<line x1="1234.0" y1="2247.4" x2="1234.0" y2="2455.4" class="g115s4"/>
+<line x1="1534.0" y1="2247.4" x2="1534.0" y2="2455.4" class="g115s4"/>
+<rect x="34.0" y="2467.4" width="1812.0" height="55.0" rx="6" class="g115s45"/>
+<path d="M38.50 2468.13 A5.50 5.50 0 0 0 34.50 2473.42 V2516.46 A5.50 5.50 0 0 0 38.50 2521.75 Z" class="g115s16"/>
+<text y="2493.4" xml:space="preserve" class="g115s24"><tspan x="50.0" class="g115s1" textLength="50.2" lengthAdjust="spacing">Checked</tspan></text>
+<text y="2510.9" xml:space="preserve" class="g115s22"><tspan x="50.0" textLength="139.9" lengthAdjust="spacing">The notebook’s own run (</tspan><tspan x="189.9" class="g115s2" textLength="29.7" lengthAdjust="spacing">cell 9</tspan><tspan x="219.6" textLength="17.9" lengthAdjust="spacing">): “</tspan><tspan x="237.5" class="g115s25" textLength="27.2" lengthAdjust="spacing">int8</tspan><tspan x="264.7">: </tspan><tspan x="271.3" class="g115s2" textLength="54.4" lengthAdjust="spacing">130.2 MB</tspan><tspan x="325.8" textLength="17.7" lengthAdjust="spacing"> -&gt; </tspan><tspan x="343.4" class="g115s2" textLength="47.4" lengthAdjust="spacing">32.9 MB</tspan><tspan x="390.8" textLength="77.8" lengthAdjust="spacing"> | exact match </tspan><tspan x="468.6" class="g115s2" textLength="43.1" lengthAdjust="spacing">100.0%</tspan><tspan x="511.8" textLength="17.7" lengthAdjust="spacing"> -&gt; </tspan><tspan x="529.4" class="g115s2" textLength="43.1" lengthAdjust="spacing">100.0%</tspan><tspan x="572.6" textLength="44.5" lengthAdjust="spacing"> | BLEU </tspan><tspan x="617.0" class="g115s2" textLength="31.8" lengthAdjust="spacing">100.0</tspan><tspan x="648.9" textLength="17.7" lengthAdjust="spacing"> -&gt; </tspan><tspan x="666.5" class="g115s2" textLength="31.8" lengthAdjust="spacing">100.0</tspan><tspan x="698.4" textLength="13.9" lengthAdjust="spacing">”. </tspan><tspan x="712.2" class="g115s25" textLength="122.2" lengthAdjust="spacing">crosscheck_toy3.py</tspan><tspan x="834.5" textLength="22.0" lengthAdjust="spacing">: all </tspan><tspan x="856.5" class="g115s2" textLength="31.8" lengthAdjust="spacing">4,984</tspan><tspan x="888.3" textLength="296.0" lengthAdjust="spacing"> stored integers of the tiny model equal the notebook’s </tspan><tspan x="1184.3" class="g115s25" textLength="88.3" lengthAdjust="spacing">quantize_int8</tspan><tspan x="1272.6" textLength="45.4" lengthAdjust="spacing">, and its </tspan><tspan x="1318.0" class="g115s25" textLength="40.7" lengthAdjust="spacing">logits</tspan><tspan x="1358.7" textLength="123.4" lengthAdjust="spacing"> agree with PyTorch to </tspan><tspan x="1482.1" class="g115s2" textLength="32.5" lengthAdjust="spacing">6e-07</tspan><tspan x="1514.6">.</tspan></text>
+<rect x="34.0" y="2542.5" width="1812.0" height="30.0" rx="6" class="g115s13"/>
+<path d="M38.50 2543.17 A5.50 5.50 0 0 0 34.50 2548.46 V2566.46 A5.50 5.50 0 0 0 38.50 2571.75 Z" class="g115s16"/>
+<text y="2562.5" xml:space="preserve" class="g115s32"><tspan x="50.0" class="g115s1" textLength="225.2" lengthAdjust="spacing">E · The experiment: float against the </tspan><tspan x="275.2" class="g115s2" textLength="26.8" lengthAdjust="spacing">8-bit</tspan><tspan x="302.0" class="g115s1" textLength="32.9" lengthAdjust="spacing"> copy</tspan></text>
+<text y="2562.5" xml:space="preserve" class="g115s33"><tspan x="352.9" class="g115s9" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="365.9" textLength="113.8" lengthAdjust="spacing"> trained on each task (</tspan><tspan x="479.7" class="g115s2">3</tspan><tspan x="486.5" textLength="205.2" lengthAdjust="spacing"> seeds), its averaged weights scored as </tspan><tspan x="691.7" class="g115s9" textLength="45.6" lengthAdjust="spacing">float32</tspan><tspan x="737.2" textLength="40.9" lengthAdjust="spacing"> and as </tspan><tspan x="778.1" class="g115s9" textLength="84.6" lengthAdjust="spacing">quantize_int8</tspan><tspan x="862.7" textLength="58.0" lengthAdjust="spacing">’s copy — </tspan><tspan x="920.8" class="g115s2" textLength="122.7" lengthAdjust="spacing">500 unseen sentences</tspan></text>
+<text y="2590.5" xml:space="preserve" class="g115s24"><tspan x="38.0" class="g115s1" textLength="113.8" lengthAdjust="spacing">Honest about speed</tspan></text>
+<text y="2608.5" xml:space="preserve" class="g115s22"><tspan x="38.0" textLength="26.0" lengthAdjust="spacing">This </tspan><tspan x="64.0" class="g115s25" textLength="74.7" lengthAdjust="spacing">QuantLinear</tspan><tspan x="138.7" textLength="744.3" lengthAdjust="spacing"> turns q back into floats every time a layer runs: float arithmetic plus one extra step. Smaller, not faster. Speed needs kernels that multiply in </tspan><tspan x="883.0" class="g115s2">8</tspan><tspan x="890.1" textLength="258.7" lengthAdjust="spacing"> bits directly (on GPUs, or CPU libraries such as </tspan><tspan x="1148.8" class="g115s25" textLength="61.1" lengthAdjust="spacing">llama.cpp</tspan><tspan x="1209.9" textLength="99.4" lengthAdjust="spacing">) — not used here.</tspan></text>
+<rect x="34.0" y="2629.9" width="1812.0" height="24.0" rx="4" class="g115s13"/>
+<text y="2645.9" xml:space="preserve" class="g115s8"><tspan x="43.0" class="g115s1" textLength="20.4" lengthAdjust="spacing">task</tspan></text>
+<text y="2645.9" xml:space="preserve" class="g115s8"><tspan x="193.0" class="g115s1" textLength="69.3" lengthAdjust="spacing">exact, unseen</tspan></text>
+<text y="2645.9" xml:space="preserve" class="g115s8"><tspan x="453.0" class="g115s1" textLength="29.1" lengthAdjust="spacing">BLEU</tspan></text>
+<text y="2645.9" xml:space="preserve" class="g115s8"><tspan x="653.0" class="g115s1" textLength="92.8" lengthAdjust="spacing">longer than trained</tspan></text>
+<text y="2645.9" xml:space="preserve" class="g115s8"><tspan x="913.0" class="g115s1" textLength="16.7" lengthAdjust="spacing">MB</tspan></text>
+<text y="2645.9" xml:space="preserve" class="g115s8"><tspan x="1133.0" class="g115s1" textLength="136.7" lengthAdjust="spacing">logit change: largest / mean</tspan></text>
+<text y="2645.9" xml:space="preserve" class="g115s8"><tspan x="1433.0" class="g115s1" textLength="76.1" lengthAdjust="spacing">same top token</tspan></text>
+<text y="2645.9" xml:space="preserve" class="g115s8"><tspan x="1633.0" class="g115s1" textLength="35.2" lengthAdjust="spacing">writing </tspan><tspan x="1668.2" class="g115s28" textLength="18.6" lengthAdjust="spacing">500</tspan></text>
+<text y="2670.6" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s1" textLength="44.7" lengthAdjust="spacing">translate</tspan></text>
+<text x="193.0" y="2670.6" class="g115s6">100.0% → 100.0%</text>
+<text x="453.0" y="2670.6" class="g115s6">100.0 → 100.0</text>
+<text x="653.0" y="2670.6" class="g115s6">—</text>
+<text x="913.0" y="2670.6" class="g115s6">6.22 → 1.61</text>
+<text x="1133.0" y="2670.6" class="g115s6">0.063 / 0.0040</text>
+<text x="1433.0" y="2670.6" class="g115s6">100.00%</text>
+<text x="1633.0" y="2670.6" class="g115s6">117 → 122 ms</text>
+<line x1="34.0" y1="2679.9" x2="1846.0" y2="2679.9" class="g115s4"/>
+<rect x="34.0" y="2679.9" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="2696.6" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s1" textLength="38.9" lengthAdjust="spacing">reverse</tspan></text>
+<text x="193.0" y="2696.6" class="g115s6">96.6% → 96.6%</text>
+<text x="453.0" y="2696.6" class="g115s6">99.3 → 99.3</text>
+<text x="653.0" y="2696.6" class="g115s6">71.7% → 71.7%</text>
+<text x="913.0" y="2696.6" class="g115s6">6.21 → 1.61</text>
+<text x="1133.0" y="2696.6" class="g115s6">0.516 / 0.0075</text>
+<text x="1433.0" y="2696.6" class="g115s6">100.00%</text>
+<text x="1633.0" y="2696.6" class="g115s6">196 → 210 ms</text>
+<line x1="34.0" y1="2705.9" x2="1846.0" y2="2705.9" class="g115s4"/>
+<rect x="34.0" y="2653.9" width="1812.0" height="52.0" rx="0" class="g115s23"/>
+<line x1="184.0" y1="2653.9" x2="184.0" y2="2705.9" class="g115s4"/>
+<line x1="444.0" y1="2653.9" x2="444.0" y2="2705.9" class="g115s4"/>
+<line x1="644.0" y1="2653.9" x2="644.0" y2="2705.9" class="g115s4"/>
+<line x1="904.0" y1="2653.9" x2="904.0" y2="2705.9" class="g115s4"/>
+<line x1="1124.0" y1="2653.9" x2="1124.0" y2="2705.9" class="g115s4"/>
+<line x1="1424.0" y1="2653.9" x2="1424.0" y2="2705.9" class="g115s4"/>
+<line x1="1624.0" y1="2653.9" x2="1624.0" y2="2705.9" class="g115s4"/>
+<rect x="34.0" y="2717.9" width="1812.0" height="72.6" rx="6" class="g115s45"/>
+<path d="M38.50 2718.57 A5.50 5.50 0 0 0 34.50 2723.86 V2784.42 A5.50 5.50 0 0 0 38.50 2789.71 Z" class="g115s16"/>
+<text y="2743.9" xml:space="preserve" class="g115s24"><tspan x="50.0" class="g115s1" textLength="121.6" lengthAdjust="spacing">Reading the numbers</tspan></text>
+<text y="2761.4" xml:space="preserve" class="g115s22"><tspan x="50.0" textLength="46.7" lengthAdjust="spacing">Mean of </tspan><tspan x="96.7" class="g115s2">3</tspan><tspan x="103.8" textLength="66.0" lengthAdjust="spacing"> seeds. The </tspan><tspan x="169.8" class="g115s25" textLength="40.7" lengthAdjust="spacing">logits</tspan><tspan x="210.5" textLength="282.1" lengthAdjust="spacing"> are compared at every real (not padding) position of </tspan><tspan x="492.7" class="g115s2" textLength="106.8" lengthAdjust="spacing">250 test sentences</tspan><tspan x="599.4" textLength="466.2" lengthAdjust="spacing">, the model reading the right answer as in training. Exact match and BLEU are what the </tspan><tspan x="1065.7" class="g115s2" textLength="24.7" lengthAdjust="spacing">8-bit</tspan><tspan x="1090.4" textLength="404.2" lengthAdjust="spacing"> copy writes on its own: on unseen sentences, identical in every run. On the </tspan><tspan x="1494.6" class="g115s2" textLength="82.7" lengthAdjust="spacing">500 sentences</tspan><tspan x="1577.3" textLength="169.4" lengthAdjust="spacing"> longer than any trained on, the </tspan><tspan x="1746.8" class="g115s2" textLength="24.7" lengthAdjust="spacing">8-bit</tspan><tspan x="1771.5" textLength="61.4" lengthAdjust="spacing"> copy wrote</tspan></text>
+<text y="2778.9" xml:space="preserve" class="g115s22"><tspan x="50.0" textLength="500.9" lengthAdjust="spacing">one sentence fewer right and one sentence more right — the averages hide it, the runs do not.</tspan></text>
+<rect x="34.0" y="2810.4" width="1812.0" height="30.0" rx="6" class="g115s13"/>
+<path d="M38.50 2811.13 A5.50 5.50 0 0 0 34.50 2816.42 V2834.42 A5.50 5.50 0 0 0 38.50 2839.71 Z" class="g115s16"/>
+<text y="2830.4" xml:space="preserve" class="g115s32"><tspan x="50.0" class="g115s1" textLength="152.4" lengthAdjust="spacing">F · Beyond this notebook</tspan></text>
+<text y="2830.4" xml:space="preserve" class="g115s33"><tspan x="220.4" textLength="386.7" lengthAdjust="spacing">what the same idea becomes in large models — named, not measured here</tspan></text>
+<rect x="34.0" y="2856.4" width="1812.0" height="24.0" rx="4" class="g115s13"/>
+<text y="2872.4" xml:space="preserve" class="g115s8"><tspan x="43.0" class="g115s1" textLength="39.0" lengthAdjust="spacing">scheme</tspan></text>
+<text y="2872.4" xml:space="preserve" class="g115s8"><tspan x="543.0" class="g115s1" textLength="59.4" lengthAdjust="spacing">what it adds</tspan></text>
+<text y="2872.4" xml:space="preserve" class="g115s8"><tspan x="1183.0" class="g115s1" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
+<text y="2897.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="44.7" lengthAdjust="spacing">per-row </tspan><tspan x="87.7" class="g115s9" textLength="26.0" lengthAdjust="spacing">int8</tspan><tspan x="113.7" class="g115s1" textLength="84.0" lengthAdjust="spacing"> (this notebook)</tspan></text>
+<text y="2897.3" xml:space="preserve" class="g115s18"><tspan x="543.0" textLength="180.9" lengthAdjust="spacing">one scale per row, round to nearest</tspan></text>
+<text y="2897.3" xml:space="preserve" class="g115s18"><tspan x="1183.0" textLength="179.3" lengthAdjust="spacing">the simplest weight-only scheme; ~</tspan><tspan x="1362.3" class="g115s2" textLength="14.1" lengthAdjust="spacing">4×</tspan><tspan x="1376.4" textLength="40.2" lengthAdjust="spacing"> smaller</tspan></text>
+<line x1="34.0" y1="2906.4" x2="1846.0" y2="2906.4" class="g115s4"/>
+<rect x="34.0" y="2906.4" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="2923.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s9" textLength="65.1" lengthAdjust="spacing">LLM.int8()</tspan><tspan x="108.1" class="g115s1" textLength="93.5" lengthAdjust="spacing"> (Dettmers et al., </tspan><tspan x="201.6" class="g115s2" textLength="27.1" lengthAdjust="spacing">2022</tspan><tspan x="228.7" class="g115s1">)</tspan></text>
+<text y="2923.3" xml:space="preserve" class="g115s18"><tspan x="543.0" textLength="147.0" lengthAdjust="spacing">a few outlier features kept in </tspan><tspan x="690.0" class="g115s2" textLength="13.6" lengthAdjust="spacing">16</tspan><tspan x="703.6" textLength="21.1" lengthAdjust="spacing"> bits</tspan></text>
+<text y="2923.3" xml:space="preserve" class="g115s18"><tspan x="1183.0" textLength="280.6" lengthAdjust="spacing">large models grow outliers that wreck one shared scale</tspan></text>
+<line x1="34.0" y1="2932.4" x2="1846.0" y2="2932.4" class="g115s4"/>
+<text y="2949.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="77.9" lengthAdjust="spacing">GPTQ, AWQ (</tspan><tspan x="120.9" class="g115s2" textLength="27.1" lengthAdjust="spacing">2023</tspan><tspan x="148.0" class="g115s1">)</tspan></text>
+<text y="2949.3" xml:space="preserve" class="g115s18"><tspan x="543.0" class="g115s2" textLength="23.7" lengthAdjust="spacing">4-bit</tspan><tspan x="566.7" textLength="237.1" lengthAdjust="spacing"> weights, rounding chosen with real activations</tspan></text>
+<text y="2949.3" xml:space="preserve" class="g115s18"><tspan x="1183.0" class="g115s2" textLength="14.1" lengthAdjust="spacing">8×</tspan><tspan x="1197.1" textLength="69.0" lengthAdjust="spacing"> smaller than </tspan><tspan x="1266.1" class="g115s9" textLength="45.6" lengthAdjust="spacing">float32</tspan><tspan x="1311.7" textLength="184.7" lengthAdjust="spacing">; the usual way to run models locally</tspan></text>
+<line x1="34.0" y1="2958.4" x2="1846.0" y2="2958.4" class="g115s4"/>
+<rect x="34.0" y="2958.4" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="2975.3" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s9" textLength="19.5" lengthAdjust="spacing">FP8</tspan><tspan x="62.5" class="g115s1"> </tspan><tspan x="65.9" class="g115s9" textLength="123.6" lengthAdjust="spacing">(DeepSeek-V3, 2024)</tspan></text>
+<text y="2975.3" xml:space="preserve" class="g115s18"><tspan x="543.0" class="g115s2" textLength="23.7" lengthAdjust="spacing">8-bit</tspan><tspan x="566.7" textLength="131.0" lengthAdjust="spacing"> floats also during training</tspan></text>
+<text y="2975.3" xml:space="preserve" class="g115s18"><tspan x="1183.0" textLength="109.3" lengthAdjust="spacing">needs hardware with </tspan><tspan x="1292.3" class="g115s9" textLength="19.5" lengthAdjust="spacing">FP8</tspan><tspan x="1311.8" textLength="53.0" lengthAdjust="spacing"> arithmetic</tspan></text>
+<line x1="34.0" y1="2984.4" x2="1846.0" y2="2984.4" class="g115s4"/>
+<rect x="34.0" y="2880.4" width="1812.0" height="104.0" rx="0" class="g115s23"/>
+<line x1="534.0" y1="2880.4" x2="534.0" y2="2984.4" class="g115s4"/>
+<line x1="1174.0" y1="2880.4" x2="1174.0" y2="2984.4" class="g115s4"/>
+<rect x="34.0" y="3008.4" width="1812.0" height="30.0" rx="6" class="g115s13"/>
+<path d="M38.50 3009.13 A5.50 5.50 0 0 0 34.50 3014.42 V3032.42 A5.50 5.50 0 0 0 38.50 3037.71 Z" class="g115s16"/>
+<text y="3028.4" xml:space="preserve" class="g115s32"><tspan x="50.0" class="g115s1" textLength="22.2" lengthAdjust="spacing">G · </tspan><tspan x="72.2" class="g115s40" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="101.6" class="g115s1" textLength="52.1" lengthAdjust="spacing"> against </tspan><tspan x="153.7" class="g115s40" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="168.4" class="g115s1" textLength="94.2" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="3028.4" xml:space="preserve" class="g115s33"><tspan x="280.7" textLength="494.1" lengthAdjust="spacing">the answers stay the same, so the rows compare what it costs and saves, measured on this CPU</tspan></text>
+<text y="3056.4" xml:space="preserve" class="g115s24"><tspan x="38.0" class="g115s1" textLength="69.3" lengthAdjust="spacing">What it fixes</tspan></text>
+<text y="3074.4" xml:space="preserve" class="g115s22"><tspan x="38.0" class="g115s25" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="65.2" textLength="44.5" lengthAdjust="spacing">’s way: </tspan><tspan x="109.7" class="g115s2" textLength="41.0" lengthAdjust="spacing">4 bytes</tspan><tspan x="150.7" textLength="65.4" lengthAdjust="spacing"> per weight. </tspan><tspan x="216.1" class="g115s25" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="229.7" textLength="131.9" lengthAdjust="spacing">’s: whole numbers from </tspan><tspan x="361.6" class="g115s2" textLength="28.8" lengthAdjust="spacing">−127</tspan><tspan x="390.4" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="407.1" class="g115s2" textLength="21.2" lengthAdjust="spacing">127</tspan><tspan x="428.3" textLength="278.2" lengthAdjust="spacing"> and one scale per row: about a quarter of the bytes.</tspan></text>
+<rect x="34.0" y="3095.8" width="1812.0" height="24.0" rx="4" class="g115s13"/>
+<text y="3111.8" xml:space="preserve" class="g115s8"><tspan x="743.0" class="g115s39" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="766.8" class="g115s1" textLength="89.6" lengthAdjust="spacing">’s way (without it)</tspan></text>
+<text y="3111.8" xml:space="preserve" class="g115s8"><tspan x="1133.0" class="g115s39" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="1144.9" class="g115s1" textLength="39.0" lengthAdjust="spacing"> (with it)</tspan></text>
+<text y="3111.8" xml:space="preserve" class="g115s8"><tspan x="1523.0" class="g115s1" textLength="71.1" lengthAdjust="spacing">which is better</tspan></text>
+<text y="3136.7" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="238.3" lengthAdjust="spacing">size of the trained model (the experiment’s)</tspan></text>
+<text x="743.0" y="3136.7" class="g115s3">6.21 MB</text>
+<text x="1133.0" y="3136.7" class="g115s3">1.61 MB</text>
+<text y="3136.7" xml:space="preserve" class="g115s18"><tspan x="1523.0" class="g115s2" textLength="24.3" lengthAdjust="spacing">3.9×</tspan><tspan x="1547.3" textLength="72.8" lengthAdjust="spacing"> smaller with it</tspan></text>
+<line x1="34.0" y1="3145.8" x2="1846.0" y2="3145.8" class="g115s4"/>
+<rect x="34.0" y="3145.8" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="3162.7" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="105.7" lengthAdjust="spacing">unseen sentences, </tspan><tspan x="148.7" class="g115s2">3</tspan><tspan x="155.5" class="g115s1" textLength="35.9" lengthAdjust="spacing"> seeds</tspan></text>
+<text x="743.0" y="3162.7" class="g115s3">96.6%</text>
+<text x="1133.0" y="3162.7" class="g115s3">96.6%</text>
+<text y="3162.7" xml:space="preserve" class="g115s18"><tspan x="1523.0" textLength="47.3" lengthAdjust="spacing">the same</tspan></text>
+<line x1="34.0" y1="3171.8" x2="1846.0" y2="3171.8" class="g115s4"/>
+<text y="3188.7" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="200.6" lengthAdjust="spacing">sentences longer than any trained on</tspan></text>
+<text x="743.0" y="3188.7" class="g115s3">71.7%</text>
+<text x="1133.0" y="3188.7" class="g115s3">71.7%</text>
+<text y="3188.7" xml:space="preserve" class="g115s18"><tspan x="1523.0" textLength="79.3" lengthAdjust="spacing">about the same</tspan></text>
+<line x1="34.0" y1="3197.8" x2="1846.0" y2="3197.8" class="g115s4"/>
+<rect x="34.0" y="3197.8" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="3214.7" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="183.6" lengthAdjust="spacing">time to write the test set, this CPU</tspan></text>
+<text x="743.0" y="3214.7" class="g115s3">0.20 s</text>
+<text x="1133.0" y="3214.7" class="g115s3">0.21 s</text>
+<text y="3214.7" xml:space="preserve" class="g115s18"><tspan x="1523.0" textLength="65.8" lengthAdjust="spacing">slower with it</tspan></text>
+<line x1="34.0" y1="3223.8" x2="1846.0" y2="3223.8" class="g115s4"/>
+<text y="3240.7" xml:space="preserve" class="g115s10"><tspan x="43.0" class="g115s1" textLength="84.7" lengthAdjust="spacing">when it is made</tspan></text>
+<text x="743.0" y="3240.7" class="g115s3">—</text>
+<text x="1133.0" y="3240.7" class="g115s3">after training: it does not change learning</text>
+<text y="3240.7" xml:space="preserve" class="g115s18"><tspan x="1523.0">—</tspan></text>
+<line x1="34.0" y1="3249.8" x2="1846.0" y2="3249.8" class="g115s4"/>
+<rect x="34.0" y="3119.8" width="1812.0" height="130.0" rx="0" class="g115s23"/>
+<line x1="734.0" y1="3119.8" x2="734.0" y2="3249.8" class="g115s4"/>
+<line x1="1124.0" y1="3119.8" x2="1124.0" y2="3249.8" class="g115s4"/>
+<line x1="1514.0" y1="3119.8" x2="1514.0" y2="3249.8" class="g115s4"/>
+<rect x="34.0" y="3261.8" width="1812.0" height="55.0" rx="6" class="g115s53"/>
+<path d="M38.50 3262.53 A5.50 5.50 0 0 0 34.50 3267.82 V3310.86 A5.50 5.50 0 0 0 38.50 3316.15 Z" class="g115s54"/>
+<text y="3287.8" xml:space="preserve" class="g115s24"><tspan x="50.0" class="g115s1" textLength="57.3" lengthAdjust="spacing">Reading it</tspan></text>
+<text y="3305.3" xml:space="preserve" class="g115s22"><tspan x="50.0" textLength="1183.3" lengthAdjust="spacing">It changes no answer, so whether it helps is a question of what it costs and saves — and that depends on the hardware and the length of the text more than on training. The overview page puts all eight changes side by side.</tspan></text>
+<rect x="34.0" y="3336.9" width="1812.0" height="30.0" rx="6" class="g115s13"/>
+<path d="M38.50 3337.57 A5.50 5.50 0 0 0 34.50 3342.86 V3360.86 A5.50 5.50 0 0 0 38.50 3366.15 Z" class="g115s16"/>
+<text y="3356.9" xml:space="preserve" class="g115s32"><tspan x="50.0" class="g115s1" textLength="211.3" lengthAdjust="spacing">Claims · Common claims, checked</tspan></text>
+<text y="3356.9" xml:space="preserve" class="g115s33"><tspan x="279.3" textLength="147.5" lengthAdjust="spacing">against this page’s numbers</tspan></text>
+<rect x="34.0" y="3382.9" width="1812.0" height="24.0" rx="4" class="g115s13"/>
+<text y="3398.9" xml:space="preserve" class="g115s8"><tspan x="43.0" class="g115s1" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="3398.9" xml:space="preserve" class="g115s8"><tspan x="603.0" class="g115s1" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="3398.9" xml:space="preserve" class="g115s8"><tspan x="713.0" class="g115s1" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
+<text y="3423.6" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s1" textLength="17.5" lengthAdjust="spacing">An </tspan><tspan x="60.5" class="g115s37" textLength="24.9" lengthAdjust="spacing">int8</tspan><tspan x="85.4" class="g115s1" textLength="49.9" lengthAdjust="spacing"> model is </tspan><tspan x="135.3" class="g115s2" textLength="37.6" lengthAdjust="spacing">4 times</tspan><tspan x="172.9" class="g115s1" textLength="44.1" lengthAdjust="spacing"> smaller.</tspan></text>
+<text y="3423.6" xml:space="preserve" class="g115s27"><tspan x="603.0" textLength="32.4" lengthAdjust="spacing">almost</tspan></text>
+<text y="3423.6" xml:space="preserve" class="g115s27"><tspan x="713.0" class="g115s2" textLength="29.7" lengthAdjust="spacing">3.96×</tspan><tspan x="742.7" textLength="94.8" lengthAdjust="spacing"> for the real model; </tspan><tspan x="837.5" class="g115s2" textLength="29.7" lengthAdjust="spacing">2.45×</tspan><tspan x="867.1" textLength="116.8" lengthAdjust="spacing"> for the tiny one, whose </tspan><tspan x="983.9" class="g115s2" textLength="44.1" lengthAdjust="spacing">8-weight</tspan><tspan x="1028.0" textLength="59.3" lengthAdjust="spacing"> rows pay a </tspan><tspan x="1087.3" class="g115s2" textLength="32.4" lengthAdjust="spacing">4-byte</tspan><tspan x="1119.7" textLength="114.9" lengthAdjust="spacing"> scale each (section C).</tspan></text>
+<line x1="34.0" y1="3432.9" x2="1846.0" y2="3432.9" class="g115s4"/>
+<rect x="34.0" y="3432.9" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="3449.6" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2">8</tspan><tspan x="49.5" class="g115s1" textLength="156.8" lengthAdjust="spacing"> bits make the answers worse.</tspan></text>
+<text y="3449.6" xml:space="preserve" class="g115s27"><tspan x="603.0" textLength="40.4" lengthAdjust="spacing">not here</tspan></text>
+<text y="3449.6" xml:space="preserve" class="g115s27"><tspan x="713.0" textLength="250.1" lengthAdjust="spacing">the same answers on every unseen sentence in all </tspan><tspan x="963.1" class="g115s2">6</tspan><tspan x="969.5" textLength="121.7" lengthAdjust="spacing"> experiment runs; on the </tspan><tspan x="1091.2" class="g115s2" textLength="19.4" lengthAdjust="spacing">500</tspan><tspan x="1110.7" textLength="414.0" lengthAdjust="spacing"> longer ones, one run lost a sentence and one run gained a sentence (sections D, E).</tspan></text>
+<line x1="34.0" y1="3458.9" x2="1846.0" y2="3458.9" class="g115s4"/>
+<text y="3475.6" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s2">8</tspan><tspan x="49.5" class="g115s1" textLength="97.9" lengthAdjust="spacing"> bits make it faster.</tspan></text>
+<text y="3475.6" xml:space="preserve" class="g115s27"><tspan x="603.0" textLength="74.0" lengthAdjust="spacing">not this version</tspan></text>
+<text y="3475.6" xml:space="preserve" class="g115s27"><tspan x="713.0" textLength="386.4" lengthAdjust="spacing">it turns the weights back into floats on every use: smaller, not faster (section E).</tspan></text>
+<line x1="34.0" y1="3484.9" x2="1846.0" y2="3484.9" class="g115s4"/>
+<rect x="34.0" y="3484.9" width="1812.0" height="26.0" rx="0" class="g115s12"/>
+<text y="3501.6" xml:space="preserve" class="g115s14"><tspan x="43.0" class="g115s1" textLength="210.6" lengthAdjust="spacing">One scale for the whole matrix would do.</tspan></text>
+<text y="3501.6" xml:space="preserve" class="g115s27"><tspan x="603.0" textLength="29.3" lengthAdjust="spacing">worse</tspan></text>
+<text y="3501.6" xml:space="preserve" class="g115s27"><tspan x="713.0" class="g115s2" textLength="23.2" lengthAdjust="spacing">1.7×</tspan><tspan x="736.2" textLength="347.2" lengthAdjust="spacing"> the error in the tiny model; rows of small weights lose most (section B).</tspan></text>
+<line x1="34.0" y1="3510.9" x2="1846.0" y2="3510.9" class="g115s4"/>
+<rect x="34.0" y="3406.9" width="1812.0" height="104.0" rx="0" class="g115s23"/>
+<line x1="594.0" y1="3406.9" x2="594.0" y2="3510.9" class="g115s4"/>
+<line x1="704.0" y1="3406.9" x2="704.0" y2="3510.9" class="g115s4"/>
+<line x1="28.0" y1="3536.9" x2="1852.0" y2="3536.9" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="3553.9" xml:space="preserve" class="g115s61"><tspan x="28.0" textLength="341.7" lengthAdjust="spacing">Numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="369.7" class="g115s37" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="382.2" textLength="105.2" lengthAdjust="spacing"> notebook (written by </tspan><tspan x="487.3" class="g115s37" textLength="37.3" lengthAdjust="spacing">nb3.py</tspan><tspan x="524.7" textLength="28.1" lengthAdjust="spacing"> from </tspan><tspan x="552.8" class="g115s37" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="577.7" textLength="195.1" lengthAdjust="spacing">; your notebooks are only read) and the </tspan><tspan x="772.7" class="g115s37" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="797.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="940.7" class="g115s2" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="956.9" textLength="280.0" lengthAdjust="spacing">.0 on their own two sentence pairs (CPU, seeded). Every </tspan><tspan x="1236.9" class="g115s37" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1249.4" textLength="234.1" lengthAdjust="spacing"> change is tested on the notebook’s own code (</tspan><tspan x="1483.4" class="g115s37" textLength="56.0" lengthAdjust="spacing">check3.py</tspan><tspan x="1539.5" textLength="199.9" lengthAdjust="spacing">). TINY-MODEL numbers come from the </tspan><tspan x="1739.3" class="g115s37" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1751.8" textLength="85.6" lengthAdjust="spacing"> classes built with</tspan></text>
+<text y="3568.9" xml:space="preserve" class="g115s61"><tspan x="28.0" class="g115s2" textLength="55.1" lengthAdjust="spacing">8 numbers</tspan><tspan x="83.1" textLength="472.6" lengthAdjust="spacing"> a token and trained on five sentences; a pure-Python copy of that model agrees with PyTorch to </tspan><tspan x="555.7" class="g115s2" textLength="29.8" lengthAdjust="spacing">1e-04</tspan><tspan x="585.5">.</tspan></text>
+</svg>

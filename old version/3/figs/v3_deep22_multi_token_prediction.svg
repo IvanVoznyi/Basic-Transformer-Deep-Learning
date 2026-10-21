@@ -1,0 +1,491 @@
+<svg data-src="v3_deep22_multi_token_prediction.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="2622" viewBox="0 0 1880 2622">
+<style>.txfig .g112s0{font-weight:600}.txfig .g112s1{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g112s2{font-weight:600;fill:var(--ink)}.txfig .g112s3{fill:var(--op)}.txfig .g112s4{fill:var(--code)}.txfig .g112s5{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g112s6{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g112s7{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g112s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g112s9{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g112s10{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g112s11{fill:var(--fn)}.txfig .g112s12{fill:var(--cellbg);stroke:var(--hair);stroke-width:1}.txfig .g112s13{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g112s14{fill:var(--kw)}.txfig .g112s15{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g112s16{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g112s17{font-weight:600;fill:var(--ink2)}.txfig .g112s18{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g112s19{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:middle}.txfig .g112s20{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g112s21{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g112s22{fill:var(--accent);stroke:none}.txfig .g112s23{fill:none;stroke:var(--drop);stroke-width:1.60;stroke-linecap:round}.txfig .g112s24{fill:none;stroke:var(--drop);stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}.txfig .g112s25{fill:var(--drop);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g112s26{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g112s27{fill:var(--num)}.txfig .g112s28{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g112s29{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g112s30{fill:none;stroke:var(--keep);stroke-width:1.60;stroke-linecap:round;stroke-dasharray:5 3}.txfig .g112s31{fill:none;stroke:var(--keep);stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}.txfig .g112s32{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g112s33{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g112s34{stroke:var(--gridline);stroke-width:1;stroke-linecap:round}.txfig .g112s35{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:end}.txfig .g112s36{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g112s37{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:middle}.txfig .g112s38{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g112s39{stroke:var(--ink3);stroke-width:1.2;stroke-linecap:round}.txfig .g112s40{fill:none;stroke:var(--ink3);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round}.txfig .g112s41{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g112s42{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g112s43{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g112s44{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g112s45{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g112s46{fill:var(--keep);stroke:none}.txfig .g112s47{fill:var(--cmt)}.txfig .g112s48{fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8}.txfig .g112s49{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--accent)}.txfig .g112s50{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g112s51{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g112s52{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g112s53{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:end}.txfig .g112s54{fill:none;stroke:var(--drop);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.txfig .g112s55{stroke:var(--drop);stroke-width:2;stroke-linecap:round}.txfig .g112s56{fill:none;stroke:var(--keep);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:5 4}.txfig .g112s57{stroke:var(--keep);stroke-width:2;stroke-dasharray:5 4;stroke-linecap:round}.txfig .g112s58{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g112s59{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch112" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash112" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="2622" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v3 · DEEP DIVE 22 / 27</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="191.7" class="g112s0" textLength="503.5" lengthAdjust="spacing">Multi-token prediction — thinking two tokens ahead</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="599.8" lengthAdjust="spacing">two lessons per position · the head, step by step · its guesses · the two losses · the experiment · against </tspan><tspan x="633.8" class="g112s36" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="663.2" textLength="88.9" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="44.1" lengthAdjust="spacing">The tiny </tspan><tspan x="78.1" class="g112s9" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="91.1" textLength="240.8" lengthAdjust="spacing"> model (sequence B), the real notebook’s run (</tspan><tspan x="332.0" class="g112s9" textLength="58.6" lengthAdjust="spacing">run3.json</tspan><tspan x="390.5" textLength="32.6" lengthAdjust="spacing">), and </tspan><tspan x="423.1" class="g112s9" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="436.1" textLength="277.4" lengthAdjust="spacing"> with and without the head on thousands of sentences.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g112s45"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g112s46"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g112s0" textLength="238.4" lengthAdjust="spacing">A second lesson from every position</tspan></text>
+<text y="169.0" xml:space="preserve" class="g112s50"><tspan x="54.0" class="g112s36" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="83.4" textLength="484.1" lengthAdjust="spacing"> learns one thing per position: the next token. Multi-token prediction (Gloeckle et al., </tspan><tspan x="567.5" class="g112s2" textLength="30.6" lengthAdjust="spacing">2024</tspan><tspan x="598.2">; </tspan><tspan x="605.4" class="g112s2" textLength="85.8" lengthAdjust="spacing">DeepSeek-V3</tspan><tspan x="691.2" textLength="591.0" lengthAdjust="spacing">) adds a small head that also learns the token after that, from the decoder’s state at t and the token at </tspan><tspan x="1282.2" class="g112s2" textLength="27.2" lengthAdjust="spacing">t + 1</tspan><tspan x="1309.4" textLength="515.2" lengthAdjust="spacing">. It is a second, harder lesson from the same sentences. While writing, its guesses can be</tspan></text>
+<text y="188.0" xml:space="preserve" class="g112s50"><tspan x="54.0" textLength="203.0" lengthAdjust="spacing">checked almost for free (deep dive </tspan><tspan x="257.0" class="g112s2" textLength="15.3" lengthAdjust="spacing">23</tspan><tspan x="272.4" textLength="161.9" lengthAdjust="spacing">). It shares the output layer: </tspan><tspan x="434.2" class="g112s2" textLength="147.8" lengthAdjust="spacing">2,627,072 new numbers</tspan><tspan x="582.1" textLength="103.3" lengthAdjust="spacing"> in the real model.</tspan></text>
+<text x="34.0" y="268.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">WHERE IT LIVES</text>
+<text y="290.5" xml:space="preserve" class="g112s38"><tspan x="34.0" textLength="137.2" lengthAdjust="spacing">a small extra head beside the</tspan></text>
+<text y="305.7" xml:space="preserve" class="g112s38"><tspan x="34.0" textLength="131.9" lengthAdjust="spacing">output layer: trained with the</tspan></text>
+<text y="321.0" xml:space="preserve" class="g112s38"><tspan x="34.0" textLength="126.6" lengthAdjust="spacing">model, used by speculative</tspan></text>
+<text y="336.2" xml:space="preserve" class="g112s38"><tspan x="34.0" textLength="42.6" lengthAdjust="spacing">decoding</tspan></text>
+<rect x="204.0" y="254.0" width="120.0" height="40.0" rx="6" class="g112s12"/>
+<text x="264.0" y="278.0" class="g112s13">source words</text>
+<line x1="327.0" y1="274.0" x2="347.0" y2="274.0" class="g112s39"/>
+<path d="M341.0 270.0 L347.0 274.0 L341.0 278.0" class="g112s40"/>
+<rect x="350.0" y="234.0" width="396.0" height="72.0" rx="8" class="g112s21"/>
+<text x="360.0" y="247.0" class="g112s51">encoder × 2</text>
+<rect x="360.0" y="254.0" width="182.0" height="40.0" rx="6" class="g112s12"/>
+<text x="451.0" y="278.0" class="g112s13">self-attention</text>
+<rect x="554.0" y="254.0" width="182.0" height="40.0" rx="6" class="g112s12"/>
+<text x="645.0" y="278.0" class="g112s13">feed-forward</text>
+<line x1="749.0" y1="274.0" x2="769.0" y2="274.0" class="g112s39"/>
+<path d="M763.0 270.0 L769.0 274.0 L763.0 278.0" class="g112s40"/>
+<rect x="772.0" y="234.0" width="588.0" height="72.0" rx="8" class="g112s21"/>
+<text x="782.0" y="247.0" class="g112s51">decoder × 2</text>
+<rect x="782.0" y="254.0" width="182.0" height="40.0" rx="6" class="g112s12"/>
+<text x="873.0" y="278.0" class="g112s13">self-attention</text>
+<rect x="976.0" y="254.0" width="182.0" height="40.0" rx="6" class="g112s12"/>
+<text x="1067.0" y="278.0" class="g112s13">cross-attention</text>
+<rect x="1170.0" y="254.0" width="182.0" height="40.0" rx="6" class="g112s12"/>
+<text x="1261.0" y="278.0" class="g112s13">feed-forward</text>
+<line x1="1363.0" y1="274.0" x2="1383.0" y2="274.0" class="g112s39"/>
+<path d="M1377.0 270.0 L1383.0 274.0 L1377.0 278.0" class="g112s40"/>
+<rect x="1386.0" y="254.0" width="200.0" height="40.0" rx="6" class="g112s12"/>
+<text x="1486.0" y="271.0" class="g112s13">output layer</text>
+<text x="1486.0" y="286.0" class="g112s37">a score for every word</text>
+<line x1="1589.0" y1="274.0" x2="1609.0" y2="274.0" class="g112s39"/>
+<path d="M1603.0 270.0 L1609.0 274.0 L1603.0 278.0" class="g112s40"/>
+<rect x="1612.0" y="254.0" width="120.0" height="40.0" rx="6" class="g112s12"/>
+<text x="1672.0" y="278.0" class="g112s13">next word</text>
+<rect x="350.0" y="316.0" width="196.0" height="40.0" rx="6" class="g112s12"/>
+<text x="448.0" y="333.0" class="g112s13">optimizer</text>
+<text x="448.0" y="348.0" class="g112s37">how training updates</text>
+<rect x="554.0" y="316.0" width="182.0" height="40.0" rx="6" class="g112s12"/>
+<text x="645.0" y="340.0" class="g112s13">stored weights</text>
+<rect x="782.0" y="316.0" width="182.0" height="40.0" rx="6" class="g112s12"/>
+<text x="873.0" y="333.0" class="g112s13">KV cache</text>
+<text x="873.0" y="348.0" class="g112s37">kept while writing</text>
+<rect x="976.0" y="316.0" width="376.0" height="40.0" rx="6" class="g112s12"/>
+<text x="1164.0" y="333.0" class="g112s13">writing loop</text>
+<text x="1164.0" y="348.0" class="g112s37">one word per pass of the model</text>
+<rect x="1386.0" y="316.0" width="200.0" height="40.0" rx="6" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:1.8"/>
+<text x="1486.0" y="333.0" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle">multi-token head</text>
+<text x="1486.0" y="348.0" class="g112s37">guesses the word after next</text>
+<text y="393.2" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px"><tspan x="34.0" textLength="193.7" lengthAdjust="spacing">The head and the two losses, as </tspan><tspan x="227.7" class="g112s2" textLength="78.6" lengthAdjust="spacing">cells 2 and 8</tspan><tspan x="306.3" textLength="68.2" lengthAdjust="spacing"> write them:</tspan></text>
+<rect x="926.0" y="380.0" width="920.0" height="153.0" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="398.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="936.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="947.9" class="g112s0" textLength="115.1" lengthAdjust="spacing"> · multi-token prediction</tspan></text>
+<text x="936.0" y="421.0" xml:space="preserve" class="g112s26"><tspan class="g112s4">x</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">=</tspan><tspan class="g112s4"> </tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">proj</tspan><tspan class="g112s3">(</tspan><tspan class="g112s4">torch</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">cat</tspan><tspan class="g112s3">(</tspan><tspan class="g112s3">[</tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">norm_h</tspan><tspan class="g112s3">(</tspan><tspan class="g112s4">h</tspan><tspan class="g112s3">)</tspan><tspan class="g112s3">,</tspan><tspan class="g112s4"> </tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">norm_e</tspan><tspan class="g112s3">(</tspan><tspan class="g112s4">next_emb</tspan><tspan class="g112s3">)</tspan><tspan class="g112s3">]</tspan><tspan class="g112s3">,</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">dim</tspan><tspan class="g112s3">=</tspan><tspan class="g112s3">-</tspan><tspan class="g112s27">1</tspan><tspan class="g112s3">)</tspan><tspan class="g112s3">)</tspan></text>
+<text x="936.0" y="440.5" xml:space="preserve" class="g112s26"><tspan class="g112s14">return</tspan><tspan class="g112s4"> </tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">norm_out</tspan><tspan class="g112s3">(</tspan><tspan class="g112s4">x</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">+</tspan><tspan class="g112s4"> </tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">ffn</tspan><tspan class="g112s3">(</tspan><tspan class="g112s4">x</tspan><tspan class="g112s3">)</tspan><tspan class="g112s3">)</tspan><tspan class="g112s4">                                   </tspan><tspan class="g112s47"># MTPHead.forward</tspan></text>
+<text x="936.0" y="460.0" xml:space="preserve" class="g112s26"><tspan class="g112s4">nxt</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">=</tspan><tspan class="g112s4"> </tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">tgt_embedding</tspan><tspan class="g112s3">(</tspan><tspan class="g112s4">tgt</tspan><tspan class="g112s3">[</tspan><tspan class="g112s3">:</tspan><tspan class="g112s3">,</tspan><tspan class="g112s4"> </tspan><tspan class="g112s27">1</tspan><tspan class="g112s3">:</tspan><tspan class="g112s3">]</tspan><tspan class="g112s3">)</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">*</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">math</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">sqrt</tspan><tspan class="g112s3">(</tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan style="fill:var(--attr)">d_model</tspan><tspan class="g112s3">)</tspan><tspan class="g112s4">          </tspan><tspan class="g112s47"># Transformer.forward</tspan></text>
+<text x="936.0" y="479.5" xml:space="preserve" class="g112s26"><tspan class="g112s14">return</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">logits</tspan><tspan class="g112s3">,</tspan><tspan class="g112s4"> </tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">_cap</tspan><tspan class="g112s3">(</tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">linear</tspan><tspan class="g112s3">(</tspan><tspan class="g112s14">self</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">mtp</tspan><tspan class="g112s3">(</tspan><tspan class="g112s4">hidden</tspan><tspan class="g112s3">[</tspan><tspan class="g112s3">:</tspan><tspan class="g112s3">,</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">:</tspan><tspan class="g112s3">-</tspan><tspan class="g112s27">1</tspan><tspan class="g112s3">]</tspan><tspan class="g112s3">,</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">nxt</tspan><tspan class="g112s3">)</tspan><tspan class="g112s3">)</tspan><tspan class="g112s3">)</tspan></text>
+<text x="936.0" y="499.0" xml:space="preserve" class="g112s26"><tspan class="g112s4">mtp_loss</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">=</tspan><tspan class="g112s4"> </tspan><tspan class="g112s11">criterion</tspan><tspan class="g112s3">(</tspan><tspan class="g112s4">mtp_logits</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">reshape</tspan><tspan class="g112s3">(</tspan><tspan class="g112s3">-</tspan><tspan class="g112s27">1</tspan><tspan class="g112s3">,</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">V</tspan><tspan class="g112s3">)</tspan><tspan class="g112s3">,</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">expected</tspan><tspan class="g112s3">[</tspan><tspan class="g112s3">:</tspan><tspan class="g112s3">,</tspan><tspan class="g112s4"> </tspan><tspan class="g112s27">1</tspan><tspan class="g112s3">:</tspan><tspan class="g112s3">]</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">reshape</tspan><tspan class="g112s3">(</tspan><tspan class="g112s3">-</tspan><tspan class="g112s27">1</tspan><tspan class="g112s3">)</tspan><tspan class="g112s3">)</tspan><tspan class="g112s4">     </tspan><tspan class="g112s47"># cell 8</tspan></text>
+<text x="936.0" y="518.5" xml:space="preserve" class="g112s26"><tspan class="g112s4">total</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">=</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">loss</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">+</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">MTP_WEIGHT</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">*</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">mtp_loss</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">+</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">BALANCE_WEIGHT</tspan><tspan class="g112s4"> </tspan><tspan class="g112s3">*</tspan><tspan class="g112s4"> </tspan><tspan class="g112s4">model</tspan><tspan class="g112s3">.</tspan><tspan class="g112s11">balance_loss</tspan><tspan class="g112s3">(</tspan><tspan class="g112s3">)</tspan></text>
+<rect x="34.0" y="555.0" width="1812.0" height="30.0" rx="6" class="g112s15"/>
+<path d="M38.50 555.71 A5.50 5.50 0 0 0 34.50 561.00 V579.00 A5.50 5.50 0 0 0 38.50 584.29 Z" class="g112s22"/>
+<text y="575.0" xml:space="preserve" class="g112s28"><tspan x="50.0" class="g112s0" textLength="172.3" lengthAdjust="spacing">A · Two lessons per position</tspan></text>
+<text y="575.0" xml:space="preserve" class="g112s29"><tspan x="240.3" textLength="469.8" lengthAdjust="spacing">sequence B through the tiny model: what each position is taught, and how sure each head is</tspan></text>
+<text x="34.0" y="613.0" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start">above: position t learns the token at t + 1 (the main head)  ·  below: the token at t + 2 (the extra head)  ·  the numbers: p of the right token</text>
+<path d="M147.2 661.0C147.2 625.0 373.8 625.0 373.8 661.0" class="g112s23"/>
+<path d="M369.8 654.0 L373.8 661.0 L377.8 654.0" class="g112s24"/>
+<text x="260.5" y="631.0" class="g112s25">0.905</text>
+<path d="M373.8 661.0C373.8 625.0 600.2 625.0 600.2 661.0" class="g112s23"/>
+<path d="M596.2 654.0 L600.2 661.0 L604.2 654.0" class="g112s24"/>
+<text x="487.0" y="631.0" class="g112s25">0.908</text>
+<path d="M600.2 661.0C600.2 625.0 826.8 625.0 826.8 661.0" class="g112s23"/>
+<path d="M822.8 654.0 L826.8 661.0 L830.8 654.0" class="g112s24"/>
+<text x="713.5" y="631.0" class="g112s25">0.908</text>
+<path d="M826.8 661.0C826.8 625.0 1053.2 625.0 1053.2 661.0" class="g112s23"/>
+<path d="M1049.2 654.0 L1053.2 661.0 L1057.2 654.0" class="g112s24"/>
+<text x="940.0" y="631.0" class="g112s25">0.898</text>
+<path d="M1053.2 661.0C1053.2 625.0 1279.8 625.0 1279.8 661.0" class="g112s23"/>
+<path d="M1275.8 654.0 L1279.8 661.0 L1283.8 654.0" class="g112s24"/>
+<text x="1166.5" y="631.0" class="g112s25">0.904</text>
+<path d="M1279.8 661.0C1279.8 625.0 1506.2 625.0 1506.2 661.0" class="g112s23"/>
+<path d="M1502.2 654.0 L1506.2 661.0 L1510.2 654.0" class="g112s24"/>
+<text x="1393.0" y="631.0" class="g112s25">0.900</text>
+<path d="M1506.2 661.0C1506.2 625.0 1732.8 625.0 1732.8 661.0" class="g112s23"/>
+<path d="M1728.8 654.0 L1732.8 661.0 L1736.8 654.0" class="g112s24"/>
+<text x="1619.5" y="631.0" class="g112s25">0.906</text>
+<path d="M147.2 689.0C215.2 753.0 532.3 753.0 600.2 689.0" class="g112s30"/>
+<path d="M596.2 696.0 L600.2 689.0 L604.2 696.0" class="g112s31"/>
+<text x="373.8" y="749.0" class="g112s32">0.882</text>
+<path d="M373.8 689.0C441.7 753.0 758.8 753.0 826.8 689.0" class="g112s30"/>
+<path d="M822.8 696.0 L826.8 689.0 L830.8 696.0" class="g112s31"/>
+<text x="600.2" y="762.0" class="g112s32">0.898</text>
+<path d="M600.2 689.0C668.2 753.0 985.3 753.0 1053.2 689.0" class="g112s30"/>
+<path d="M1049.2 696.0 L1053.2 689.0 L1057.2 696.0" class="g112s31"/>
+<text x="826.8" y="749.0" class="g112s32">0.907</text>
+<path d="M826.8 689.0C894.7 753.0 1211.8 753.0 1279.8 689.0" class="g112s30"/>
+<path d="M1275.8 696.0 L1279.8 689.0 L1283.8 696.0" class="g112s31"/>
+<text x="1053.2" y="762.0" class="g112s32">0.906</text>
+<path d="M1053.2 689.0C1121.2 753.0 1438.3 753.0 1506.2 689.0" class="g112s30"/>
+<path d="M1502.2 696.0 L1506.2 689.0 L1510.2 696.0" class="g112s31"/>
+<text x="1279.8" y="749.0" class="g112s32">0.897</text>
+<path d="M1279.8 689.0C1347.7 753.0 1664.8 753.0 1732.8 689.0" class="g112s30"/>
+<path d="M1728.8 696.0 L1732.8 689.0 L1736.8 696.0" class="g112s31"/>
+<text x="1506.2" y="762.0" class="g112s32">0.905</text>
+<rect x="121.9" y="663.0" width="50.6" height="24.0" rx="5" class="g112s18"/>
+<text x="147.2" y="679.3" class="g112s19">&lt;SOS&gt;</text>
+<rect x="355.4" y="663.0" width="36.8" height="24.0" rx="5" class="g112s18"/>
+<text x="373.8" y="679.3" class="g112s19">the</text>
+<rect x="581.9" y="663.0" width="36.8" height="24.0" rx="5" class="g112s18"/>
+<text x="600.2" y="679.3" class="g112s19">cat</text>
+<rect x="811.8" y="663.0" width="29.8" height="24.0" rx="5" class="g112s18"/>
+<text x="826.8" y="679.3" class="g112s19">is</text>
+<rect x="1017.6" y="663.0" width="71.4" height="24.0" rx="5" class="g112s18"/>
+<text x="1053.2" y="679.3" class="g112s19">sleeping</text>
+<rect x="1257.9" y="663.0" width="43.7" height="24.0" rx="5" class="g112s18"/>
+<text x="1279.8" y="679.3" class="g112s19">peac</text>
+<rect x="1477.5" y="663.0" width="57.5" height="24.0" rx="5" class="g112s18"/>
+<text x="1506.2" y="679.3" class="g112s19">efully</text>
+<rect x="1707.4" y="663.0" width="50.6" height="24.0" rx="5" class="g112s18"/>
+<text x="1732.8" y="679.3" class="g112s19">&lt;EOS&gt;</text>
+<rect x="34.0" y="779.0" width="1812.0" height="24.0" rx="4" class="g112s15"/>
+<text y="795.0" xml:space="preserve" class="g112s8"><tspan x="43.0" class="g112s0">t</tspan></text>
+<text y="795.0" xml:space="preserve" class="g112s8"><tspan x="123.0" class="g112s0" textLength="54.4" lengthAdjust="spacing">input token</tspan></text>
+<text y="795.0" xml:space="preserve" class="g112s8"><tspan x="363.0" class="g112s0" textLength="83.5" lengthAdjust="spacing">next (main head)</tspan></text>
+<text y="795.0" xml:space="preserve" class="g112s8"><tspan x="663.0" class="g112s0" textLength="27.2" lengthAdjust="spacing">p of it</tspan></text>
+<text y="795.0" xml:space="preserve" class="g112s8"><tspan x="883.0" class="g112s0" textLength="109.5" lengthAdjust="spacing">after next (extra head)</tspan></text>
+<text y="795.0" xml:space="preserve" class="g112s8"><tspan x="1203.0" class="g112s0" textLength="88.3" lengthAdjust="spacing">the head’s guess</tspan></text>
+<text y="795.0" xml:space="preserve" class="g112s8"><tspan x="1523.0" class="g112s0" textLength="62.5" lengthAdjust="spacing">p of the truth</tspan></text>
+<text y="819.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s2">0</tspan></text>
+<rect x="123.0" y="809.1" width="37.5" height="14.0" rx="3" class="g112s48"/>
+<text y="819.4" xml:space="preserve" class="g112s5"><tspan x="125.5" class="g112s49" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan></text>
+<text y="819.4" xml:space="preserve" class="g112s5"><tspan x="363.0" textLength="16.0" lengthAdjust="spacing">the</tspan></text>
+<text x="663.0" y="819.4" class="g112s1">0.9049</text>
+<text y="819.4" xml:space="preserve" class="g112s5"><tspan x="883.0" textLength="15.3" lengthAdjust="spacing">cat</tspan></text>
+<text y="819.4" xml:space="preserve" class="g112s5"><tspan x="1203.0" textLength="15.3" lengthAdjust="spacing">cat</tspan></text>
+<text x="1523.0" y="819.4" class="g112s1">0.8820</text>
+<line x1="34.0" y1="828.0" x2="1846.0" y2="828.0" class="g112s6"/>
+<rect x="34.0" y="828.0" width="1812.0" height="25.0" rx="0" class="g112s10"/>
+<text y="844.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s2">1</tspan></text>
+<text y="844.4" xml:space="preserve" class="g112s5"><tspan x="123.0" textLength="16.0" lengthAdjust="spacing">the</tspan></text>
+<text y="844.4" xml:space="preserve" class="g112s5"><tspan x="363.0" textLength="15.3" lengthAdjust="spacing">cat</tspan></text>
+<text x="663.0" y="844.4" class="g112s1">0.9082</text>
+<text y="844.4" xml:space="preserve" class="g112s5"><tspan x="883.0" textLength="8.3" lengthAdjust="spacing">is</tspan></text>
+<text y="844.4" xml:space="preserve" class="g112s5"><tspan x="1203.0" textLength="8.3" lengthAdjust="spacing">is</tspan></text>
+<text x="1523.0" y="844.4" class="g112s1">0.8982</text>
+<line x1="34.0" y1="853.0" x2="1846.0" y2="853.0" class="g112s6"/>
+<text y="869.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s2">2</tspan></text>
+<text y="869.4" xml:space="preserve" class="g112s5"><tspan x="123.0" textLength="15.3" lengthAdjust="spacing">cat</tspan></text>
+<text y="869.4" xml:space="preserve" class="g112s5"><tspan x="363.0" textLength="8.3" lengthAdjust="spacing">is</tspan></text>
+<text x="663.0" y="869.4" class="g112s1">0.9077</text>
+<text y="869.4" xml:space="preserve" class="g112s5"><tspan x="883.0" textLength="42.8" lengthAdjust="spacing">sleeping</tspan></text>
+<text y="869.4" xml:space="preserve" class="g112s5"><tspan x="1203.0" textLength="42.8" lengthAdjust="spacing">sleeping</tspan></text>
+<text x="1523.0" y="869.4" class="g112s1">0.9074</text>
+<line x1="34.0" y1="878.0" x2="1846.0" y2="878.0" class="g112s6"/>
+<rect x="34.0" y="878.0" width="1812.0" height="25.0" rx="0" class="g112s10"/>
+<text y="894.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s2">3</tspan></text>
+<text y="894.4" xml:space="preserve" class="g112s5"><tspan x="123.0" textLength="8.3" lengthAdjust="spacing">is</tspan></text>
+<text y="894.4" xml:space="preserve" class="g112s5"><tspan x="363.0" textLength="42.8" lengthAdjust="spacing">sleeping</tspan></text>
+<text x="663.0" y="894.4" class="g112s1">0.8977</text>
+<text y="894.4" xml:space="preserve" class="g112s5"><tspan x="883.0" textLength="24.9" lengthAdjust="spacing">peac</tspan></text>
+<text y="894.4" xml:space="preserve" class="g112s5"><tspan x="1203.0" textLength="24.9" lengthAdjust="spacing">peac</tspan></text>
+<text x="1523.0" y="894.4" class="g112s1">0.9056</text>
+<line x1="34.0" y1="903.0" x2="1846.0" y2="903.0" class="g112s6"/>
+<text y="919.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s2">4</tspan></text>
+<text y="919.4" xml:space="preserve" class="g112s5"><tspan x="123.0" textLength="42.8" lengthAdjust="spacing">sleeping</tspan></text>
+<text y="919.4" xml:space="preserve" class="g112s5"><tspan x="363.0" textLength="24.9" lengthAdjust="spacing">peac</tspan></text>
+<text x="663.0" y="919.4" class="g112s1">0.9038</text>
+<text y="919.4" xml:space="preserve" class="g112s5"><tspan x="883.0" textLength="26.8" lengthAdjust="spacing">efully</tspan></text>
+<text y="919.4" xml:space="preserve" class="g112s5"><tspan x="1203.0" textLength="26.8" lengthAdjust="spacing">efully</tspan></text>
+<text x="1523.0" y="919.4" class="g112s1">0.8973</text>
+<line x1="34.0" y1="928.0" x2="1846.0" y2="928.0" class="g112s6"/>
+<rect x="34.0" y="928.0" width="1812.0" height="25.0" rx="0" class="g112s10"/>
+<text y="944.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s2">5</tspan></text>
+<text y="944.4" xml:space="preserve" class="g112s5"><tspan x="123.0" textLength="24.9" lengthAdjust="spacing">peac</tspan></text>
+<text y="944.4" xml:space="preserve" class="g112s5"><tspan x="363.0" textLength="26.8" lengthAdjust="spacing">efully</tspan></text>
+<text x="663.0" y="944.4" class="g112s1">0.8999</text>
+<rect x="883.0" y="934.1" width="37.5" height="14.0" rx="3" class="g112s48"/>
+<text y="944.4" xml:space="preserve" class="g112s5"><tspan x="885.5" class="g112s49" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<rect x="1203.0" y="934.1" width="37.5" height="14.0" rx="3" class="g112s48"/>
+<text y="944.4" xml:space="preserve" class="g112s5"><tspan x="1205.5" class="g112s49" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan></text>
+<text x="1523.0" y="944.4" class="g112s1">0.9053</text>
+<line x1="34.0" y1="953.0" x2="1846.0" y2="953.0" class="g112s6"/>
+<rect x="34.0" y="803.0" width="1812.0" height="150.0" rx="0" class="g112s21"/>
+<line x1="114.0" y1="803.0" x2="114.0" y2="953.0" class="g112s6"/>
+<line x1="354.0" y1="803.0" x2="354.0" y2="953.0" class="g112s6"/>
+<line x1="654.0" y1="803.0" x2="654.0" y2="953.0" class="g112s6"/>
+<line x1="874.0" y1="803.0" x2="874.0" y2="953.0" class="g112s6"/>
+<line x1="1194.0" y1="803.0" x2="1194.0" y2="953.0" class="g112s6"/>
+<line x1="1514.0" y1="803.0" x2="1514.0" y2="953.0" class="g112s6"/>
+<rect x="34.0" y="965.0" width="1812.0" height="55.0" rx="6" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:1"/>
+<path d="M38.50 965.71 A5.50 5.50 0 0 0 34.50 971.00 V1014.04 A5.50 5.50 0 0 0 38.50 1019.33 Z" class="g112s22"/>
+<text y="991.0" xml:space="preserve" class="g112s41"><tspan x="50.0" class="g112s0" textLength="96.2" lengthAdjust="spacing">Learned by heart</tspan></text>
+<text y="1008.5" xml:space="preserve" class="g112s42"><tspan x="50.0" textLength="317.3" lengthAdjust="spacing">On its five training sentences the tiny model’s head is right </tspan><tspan x="367.3" class="g112s2" textLength="48.1" lengthAdjust="spacing">27 times</tspan><tspan x="415.4" textLength="16.0" lengthAdjust="spacing"> in </tspan><tspan x="431.4" class="g112s2" textLength="14.1" lengthAdjust="spacing">27</tspan><tspan x="445.6" textLength="174.1" lengthAdjust="spacing"> — it has learned them by heart. </tspan><tspan x="619.6" class="g112s33" textLength="61.1" lengthAdjust="spacing">check3.py</tspan><tspan x="680.8" textLength="294.2" lengthAdjust="spacing"> confirms the head at position t only reads tokens up to </tspan><tspan x="974.9" class="g112s2" textLength="25.1" lengthAdjust="spacing">t + 1</tspan><tspan x="1000.0" textLength="124.8" lengthAdjust="spacing">: changing the token at </tspan><tspan x="1124.8" class="g112s2" textLength="25.1" lengthAdjust="spacing">t + 2</tspan><tspan x="1149.9" textLength="215.4" lengthAdjust="spacing"> or later leaves its guess at t unchanged.</tspan></text>
+<rect x="34.0" y="1040.0" width="1812.0" height="30.0" rx="6" class="g112s15"/>
+<path d="M38.50 1040.75 A5.50 5.50 0 0 0 34.50 1046.04 V1064.04 A5.50 5.50 0 0 0 38.50 1069.33 Z" class="g112s22"/>
+<text y="1060.0" xml:space="preserve" class="g112s28"><tspan x="50.0" class="g112s0" textLength="160.9" lengthAdjust="spacing">B · The head, step by step</tspan></text>
+<text y="1060.0" xml:space="preserve" class="g112s29"><tspan x="228.9" class="g112s2" textLength="52.2" lengthAdjust="spacing">position 2</tspan><tspan x="281.0" textLength="240.7" lengthAdjust="spacing"> (“cat”), the tiny model: every intermediate row</tspan></text>
+<rect x="34.0" y="1086.0" width="1812.0" height="24.0" rx="4" class="g112s15"/>
+<text y="1102.0" xml:space="preserve" class="g112s8"><tspan x="463.0" class="g112s0">[</tspan><tspan x="466.1" class="g112s17">0</tspan><tspan x="472.3" class="g112s0">]</tspan></text>
+<text y="1102.0" xml:space="preserve" class="g112s8"><tspan x="637.0" class="g112s0">[</tspan><tspan x="640.1" class="g112s17">1</tspan><tspan x="646.3" class="g112s0">]</tspan></text>
+<text y="1102.0" xml:space="preserve" class="g112s8"><tspan x="811.0" class="g112s0">[</tspan><tspan x="814.1" class="g112s17">2</tspan><tspan x="820.3" class="g112s0">]</tspan></text>
+<text y="1102.0" xml:space="preserve" class="g112s8"><tspan x="985.0" class="g112s0">[</tspan><tspan x="988.1" class="g112s17">3</tspan><tspan x="994.3" class="g112s0">]</tspan></text>
+<text y="1102.0" xml:space="preserve" class="g112s8"><tspan x="1159.0" class="g112s0">[</tspan><tspan x="1162.1" class="g112s17">4</tspan><tspan x="1168.3" class="g112s0">]</tspan></text>
+<text y="1102.0" xml:space="preserve" class="g112s8"><tspan x="1333.0" class="g112s0">[</tspan><tspan x="1336.1" class="g112s17">5</tspan><tspan x="1342.3" class="g112s0">]</tspan></text>
+<text y="1102.0" xml:space="preserve" class="g112s8"><tspan x="1507.0" class="g112s0">[</tspan><tspan x="1510.1" class="g112s17">6</tspan><tspan x="1516.3" class="g112s0">]</tspan></text>
+<text y="1102.0" xml:space="preserve" class="g112s8"><tspan x="1681.0" class="g112s0">[</tspan><tspan x="1684.1" class="g112s17">7</tspan><tspan x="1690.3" class="g112s0">]</tspan></text>
+<text y="1126.5" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s9" textLength="19.5" lengthAdjust="spacing">h_t</tspan><tspan x="62.5" class="g112s0" textLength="114.4" lengthAdjust="spacing">: the decoder’s state</tspan></text>
+<text x="463.0" y="1126.5" class="g112s1">1385.410</text>
+<text x="637.0" y="1126.5" class="g112s1">-918.578</text>
+<text x="811.0" y="1126.5" class="g112s1">912.772</text>
+<text x="985.0" y="1126.5" class="g112s1">68.566</text>
+<text x="1159.0" y="1126.5" class="g112s1">-330.845</text>
+<text x="1333.0" y="1126.5" class="g112s1">1545.532</text>
+<text x="1507.0" y="1126.5" class="g112s1">-1402.240</text>
+<text x="1681.0" y="1126.5" class="g112s1">8.144</text>
+<line x1="34.0" y1="1135.0" x2="1846.0" y2="1135.0" class="g112s6"/>
+<rect x="34.0" y="1135.0" width="1812.0" height="25.0" rx="0" class="g112s10"/>
+<text y="1151.5" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s9" textLength="71.6" lengthAdjust="spacing">norm_h(h_t)</tspan></text>
+<text x="463.0" y="1151.5" class="g112s1">1.352</text>
+<text x="637.0" y="1151.5" class="g112s1">-1.126</text>
+<text x="811.0" y="1151.5" class="g112s1">0.856</text>
+<text x="985.0" y="1151.5" class="g112s1">0.065</text>
+<text x="1159.0" y="1151.5" class="g112s1">-0.496</text>
+<text x="1333.0" y="1151.5" class="g112s1">1.411</text>
+<text x="1507.0" y="1151.5" class="g112s1">-1.093</text>
+<text x="1681.0" y="1151.5" class="g112s1">0.009</text>
+<line x1="34.0" y1="1160.0" x2="1846.0" y2="1160.0" class="g112s6"/>
+<text y="1176.5" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="17.6" lengthAdjust="spacing">e_{</tspan><tspan x="60.6" class="g112s2" textLength="17.3" lengthAdjust="spacing">t+1</tspan><tspan x="77.9" class="g112s0" textLength="58.3" lengthAdjust="spacing">}: “is”, × √</tspan><tspan x="136.2" class="g112s2">8</tspan></text>
+<text x="463.0" y="1176.5" class="g112s1">3.217</text>
+<text x="637.0" y="1176.5" class="g112s1">-0.073</text>
+<text x="811.0" y="1176.5" class="g112s1">2.427</text>
+<text x="985.0" y="1176.5" class="g112s1">0.548</text>
+<text x="1159.0" y="1176.5" class="g112s1">0.062</text>
+<text x="1333.0" y="1176.5" class="g112s1">1.149</text>
+<text x="1507.0" y="1176.5" class="g112s1">-1.097</text>
+<text x="1681.0" y="1176.5" class="g112s1">0.621</text>
+<line x1="34.0" y1="1185.0" x2="1846.0" y2="1185.0" class="g112s6"/>
+<rect x="34.0" y="1185.0" width="1812.0" height="25.0" rx="0" class="g112s10"/>
+<text y="1201.5" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s9" textLength="97.6" lengthAdjust="spacing">norm_e(e_{t+1})</tspan></text>
+<text x="463.0" y="1201.5" class="g112s1">1.781</text>
+<text x="637.0" y="1201.5" class="g112s1">-0.050</text>
+<text x="811.0" y="1201.5" class="g112s1">1.972</text>
+<text x="985.0" y="1201.5" class="g112s1">0.414</text>
+<text x="1159.0" y="1201.5" class="g112s1">0.030</text>
+<text x="1333.0" y="1201.5" class="g112s1">0.840</text>
+<text x="1507.0" y="1201.5" class="g112s1">-0.559</text>
+<text x="1681.0" y="1201.5" class="g112s1">0.345</text>
+<line x1="34.0" y1="1210.0" x2="1846.0" y2="1210.0" class="g112s6"/>
+<text y="1226.5" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s9" textLength="110.6" lengthAdjust="spacing">z = proj([· ; ·])</tspan></text>
+<text x="463.0" y="1226.5" class="g112s1">0.143</text>
+<text x="637.0" y="1226.5" class="g112s1">3.106</text>
+<text x="811.0" y="1226.5" class="g112s1">-1.733</text>
+<text x="985.0" y="1226.5" class="g112s1">0.830</text>
+<text x="1159.0" y="1226.5" class="g112s1">-3.265</text>
+<text x="1333.0" y="1226.5" class="g112s1">-2.870</text>
+<text x="1507.0" y="1226.5" class="g112s1">-0.956</text>
+<text x="1681.0" y="1226.5" class="g112s1">5.919</text>
+<line x1="34.0" y1="1235.0" x2="1846.0" y2="1235.0" class="g112s6"/>
+<rect x="34.0" y="1235.0" width="1812.0" height="25.0" rx="0" class="g112s10"/>
+<text y="1251.5" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s9" textLength="156.2" lengthAdjust="spacing">u = norm_out(z + ffn(z))</tspan></text>
+<text x="463.0" y="1251.5" class="g112s1">0.804</text>
+<text x="637.0" y="1251.5" class="g112s1">0.216</text>
+<text x="811.0" y="1251.5" class="g112s1">-2.310</text>
+<text x="985.0" y="1251.5" class="g112s1">1.749</text>
+<text x="1159.0" y="1251.5" class="g112s1">-1.275</text>
+<text x="1333.0" y="1251.5" class="g112s1">-0.018</text>
+<text x="1507.0" y="1251.5" class="g112s1">-0.409</text>
+<text x="1681.0" y="1251.5" class="g112s1">1.127</text>
+<line x1="34.0" y1="1260.0" x2="1846.0" y2="1260.0" class="g112s6"/>
+<rect x="34.0" y="1110.0" width="1812.0" height="150.0" rx="0" class="g112s21"/>
+<line x1="454.0" y1="1110.0" x2="454.0" y2="1260.0" class="g112s6"/>
+<line x1="628.0" y1="1110.0" x2="628.0" y2="1260.0" class="g112s6"/>
+<line x1="802.0" y1="1110.0" x2="802.0" y2="1260.0" class="g112s6"/>
+<line x1="976.0" y1="1110.0" x2="976.0" y2="1260.0" class="g112s6"/>
+<line x1="1150.0" y1="1110.0" x2="1150.0" y2="1260.0" class="g112s6"/>
+<line x1="1324.0" y1="1110.0" x2="1324.0" y2="1260.0" class="g112s6"/>
+<line x1="1498.0" y1="1110.0" x2="1498.0" y2="1260.0" class="g112s6"/>
+<line x1="1672.0" y1="1110.0" x2="1672.0" y2="1260.0" class="g112s6"/>
+<rect x="34.0" y="1284.0" width="1812.0" height="30.0" rx="6" class="g112s15"/>
+<path d="M38.50 1284.75 A5.50 5.50 0 0 0 34.50 1290.04 V1308.04 A5.50 5.50 0 0 0 38.50 1313.33 Z" class="g112s22"/>
+<text y="1304.0" xml:space="preserve" class="g112s28"><tspan x="50.0" class="g112s0" textLength="197.6" lengthAdjust="spacing">C · The two losses while training</tspan></text>
+<text y="1304.0" xml:space="preserve" class="g112s29"><tspan x="265.6" textLength="131.0" lengthAdjust="spacing">left: the tiny model, every </tspan><tspan x="396.6" class="g112s2" textLength="46.1" lengthAdjust="spacing">25 steps</tspan><tspan x="442.7" textLength="184.7" lengthAdjust="spacing"> · right: the real notebook run, every </tspan><tspan x="627.4" class="g112s9" textLength="32.5" lengthAdjust="spacing">epoch</tspan><tspan x="660.0"> (</tspan><tspan x="667.0" class="g112s9" textLength="58.6" lengthAdjust="spacing">run3.json</tspan><tspan x="725.6">)</tspan></text>
+<line x1="68.0" y1="1528.0" x2="910.0" y2="1528.0" class="g112s34"/>
+<text x="62.0" y="1532.0" class="g112s35">0</text>
+<line x1="68.0" y1="1433.0" x2="910.0" y2="1433.0" class="g112s34"/>
+<text x="62.0" y="1437.0" class="g112s35">1.54</text>
+<line x1="68.0" y1="1338.0" x2="910.0" y2="1338.0" class="g112s34"/>
+<text x="62.0" y="1342.0" class="g112s35">3.08</text>
+<text x="68.0" y="1544.0" class="g112s52">step 0</text>
+<text x="910.0" y="1544.0" class="g112s53">step 1499</text>
+<path d="M68.0 1338.0 L82.0 1464.5 L96.1 1481.9 L110.1 1488.8 L124.2 1491.3 L138.2 1491.8 L152.3 1492.2 L166.3 1492.5 L180.3 1492.8 L194.4 1492.7 L208.4 1492.9 L222.5 1493.1 L236.5 1493.0 L250.6 1493.1 L264.6 1492.9 L278.6 1493.0 L292.7 1492.8 L306.7 1493.0 L320.8 1492.9 L334.8 1493.0 L348.9 1493.1 L362.9 1493.1 L376.9 1493.1 L391.0 1493.1 L405.0 1493.1 L419.1 1493.1 L433.1 1493.0 L447.2 1492.9 L461.2 1493.0 L475.2 1493.0 L489.3 1493.0 L503.3 1492.9 L517.4 1493.0 L531.4 1493.0 L545.5 1492.9 L559.5 1493.0 L573.5 1493.1 L587.6 1493.1 L601.6 1493.2 L615.7 1493.2 L629.7 1493.2 L643.8 1493.2 L657.8 1493.1 L671.8 1493.2 L685.9 1493.2 L699.9 1493.2 L714.0 1493.2 L728.0 1493.2 L742.0 1492.9 L756.1 1493.1 L770.1 1490.8 L784.2 1487.3 L798.2 1482.2 L812.3 1492.8 L826.3 1493.0 L840.3 1493.1 L854.4 1493.1 L868.4 1493.0 L882.5 1493.1 L896.5 1493.1 L910.0 1493.1" class="g112s54"/>
+<line x1="78.0" y1="1344.0" x2="96.0" y2="1344.0" class="g112s55"/>
+<text x="102.0" y="1348.0" class="g112s43">main loss</text>
+<path d="M68.0 1363.4 L82.0 1458.4 L96.1 1478.1 L110.1 1488.0 L124.2 1490.8 L138.2 1491.5 L152.3 1492.0 L166.3 1492.3 L180.3 1492.6 L194.4 1491.8 L208.4 1492.9 L222.5 1493.0 L236.5 1493.0 L250.6 1493.1 L264.6 1492.8 L278.6 1492.8 L292.7 1493.0 L306.7 1493.0 L320.8 1492.9 L334.8 1493.0 L348.9 1493.0 L362.9 1493.1 L376.9 1493.1 L391.0 1493.1 L405.0 1484.8 L419.1 1493.0 L433.1 1493.0 L447.2 1490.7 L461.2 1493.0 L475.2 1493.1 L489.3 1493.0 L503.3 1493.0 L517.4 1493.0 L531.4 1487.9 L545.5 1488.6 L559.5 1492.0 L573.5 1492.8 L587.6 1493.0 L601.6 1493.1 L615.7 1493.0 L629.7 1493.1 L643.8 1493.1 L657.8 1492.4 L671.8 1493.1 L685.9 1493.1 L699.9 1493.1 L714.0 1493.1 L728.0 1493.1 L742.0 1493.0 L756.1 1493.1 L770.1 1493.1 L784.2 1474.8 L798.2 1489.5 L812.3 1492.7 L826.3 1493.0 L840.3 1493.1 L854.4 1493.1 L868.4 1488.2 L882.5 1490.2 L896.5 1489.0 L910.0 1492.9" class="g112s56"/>
+<line x1="181.9" y1="1344.0" x2="199.9" y2="1344.0" class="g112s57"/>
+<text x="205.9" y="1348.0" class="g112s43">the head’s loss</text>
+<line x1="994.0" y1="1528.0" x2="1836.0" y2="1528.0" class="g112s34"/>
+<text x="988.0" y="1532.0" class="g112s35">0</text>
+<line x1="994.0" y1="1433.0" x2="1836.0" y2="1433.0" class="g112s34"/>
+<text x="988.0" y="1437.0" class="g112s35">4.84</text>
+<line x1="994.0" y1="1338.0" x2="1836.0" y2="1338.0" class="g112s34"/>
+<text x="988.0" y="1342.0" class="g112s35">9.68</text>
+<text x="994.0" y="1544.0" class="g112s52">epoch 0</text>
+<text x="1836.0" y="1544.0" class="g112s53">epoch 89</text>
+<path d="M994.0 1338.9 L1003.5 1339.4 L1012.9 1341.6 L1022.4 1346.3 L1031.8 1351.0 L1041.3 1356.0 L1050.8 1360.9 L1060.2 1366.8 L1069.7 1372.6 L1079.1 1380.3 L1088.6 1387.7 L1098.1 1394.8 L1107.5 1402.5 L1117.0 1410.5 L1126.4 1417.9 L1135.9 1425.0 L1145.4 1433.7 L1154.8 1439.8 L1164.3 1447.3 L1173.8 1453.9 L1183.2 1459.5 L1192.7 1467.4 L1202.1 1469.7 L1211.6 1478.3 L1221.1 1482.4 L1230.5 1486.8 L1240.0 1488.6 L1249.4 1493.5 L1258.9 1494.8 L1268.4 1494.7 L1277.8 1496.8 L1287.3 1499.2 L1296.7 1500.0 L1306.2 1500.1 L1315.7 1501.1 L1325.1 1501.5 L1334.6 1501.8 L1344.0 1501.6 L1353.5 1502.1 L1363.0 1502.1 L1372.4 1502.1 L1381.9 1502.3 L1391.3 1502.3 L1400.8 1497.3 L1410.3 1502.3 L1419.7 1502.4 L1429.2 1502.3 L1438.7 1502.3 L1448.1 1502.1 L1457.6 1496.3 L1467.0 1502.4 L1476.5 1502.4 L1486.0 1502.3 L1495.4 1502.4 L1504.9 1502.4 L1514.3 1502.4 L1523.8 1502.5 L1533.3 1502.5 L1542.7 1502.5 L1552.2 1497.5 L1561.6 1502.5 L1571.1 1502.5 L1580.6 1502.5 L1590.0 1502.5 L1599.5 1502.5 L1608.9 1502.5 L1618.4 1502.5 L1627.9 1502.5 L1637.3 1502.5 L1646.8 1502.5 L1656.2 1502.5 L1665.7 1502.5 L1675.2 1502.5 L1684.6 1502.5 L1694.1 1502.5 L1703.6 1502.5 L1713.0 1502.6 L1722.5 1502.5 L1731.9 1502.5 L1741.4 1502.6 L1750.9 1502.4 L1760.3 1502.5 L1769.8 1502.5 L1779.2 1502.6 L1788.7 1502.6 L1798.2 1502.5 L1807.6 1502.6 L1817.1 1502.5 L1826.5 1502.5 L1836.0 1502.6" class="g112s54"/>
+<line x1="1004.0" y1="1344.0" x2="1022.0" y2="1344.0" class="g112s55"/>
+<text x="1028.0" y="1348.0" class="g112s43">main loss</text>
+<path d="M994.0 1338.0 L1003.5 1338.7 L1012.9 1339.6 L1022.4 1342.5 L1031.8 1347.2 L1041.3 1350.7 L1050.8 1355.3 L1060.2 1360.5 L1069.7 1365.4 L1079.1 1373.8 L1088.6 1380.8 L1098.1 1389.3 L1107.5 1397.6 L1117.0 1405.3 L1126.4 1415.0 L1135.9 1422.9 L1145.4 1429.8 L1154.8 1439.3 L1164.3 1447.9 L1173.8 1455.8 L1183.2 1463.0 L1192.7 1471.2 L1202.1 1477.1 L1211.6 1483.4 L1221.1 1488.8 L1230.5 1492.3 L1240.0 1495.4 L1249.4 1498.0 L1258.9 1499.1 L1268.4 1500.1 L1277.8 1500.5 L1287.3 1501.3 L1296.7 1501.3 L1306.2 1501.7 L1315.7 1501.9 L1325.1 1502.1 L1334.6 1502.1 L1344.0 1502.2 L1353.5 1502.2 L1363.0 1502.2 L1372.4 1502.4 L1381.9 1502.4 L1391.3 1502.4 L1400.8 1502.4 L1410.3 1502.5 L1419.7 1502.4 L1429.2 1502.5 L1438.7 1502.5 L1448.1 1502.5 L1457.6 1502.4 L1467.0 1502.4 L1476.5 1502.4 L1486.0 1502.5 L1495.4 1502.6 L1504.9 1502.5 L1514.3 1502.5 L1523.8 1502.6 L1533.3 1502.5 L1542.7 1502.6 L1552.2 1502.6 L1561.6 1502.5 L1571.1 1502.5 L1580.6 1502.6 L1590.0 1502.6 L1599.5 1502.5 L1608.9 1502.6 L1618.4 1502.6 L1627.9 1502.6 L1637.3 1502.6 L1646.8 1502.5 L1656.2 1502.6 L1665.7 1502.6 L1675.2 1502.6 L1684.6 1502.6 L1694.1 1502.6 L1703.6 1502.6 L1713.0 1502.6 L1722.5 1502.6 L1731.9 1502.6 L1741.4 1502.6 L1750.9 1502.6 L1760.3 1502.6 L1769.8 1502.6 L1779.2 1502.6 L1788.7 1502.6 L1798.2 1502.6 L1807.6 1502.6 L1817.1 1502.6 L1826.5 1502.6 L1836.0 1502.6" class="g112s56"/>
+<line x1="1107.9" y1="1344.0" x2="1125.9" y2="1344.0" class="g112s57"/>
+<text x="1131.9" y="1348.0" class="g112s43">the head’s loss</text>
+<rect x="34.0" y="1574.0" width="1812.0" height="30.0" rx="6" class="g112s15"/>
+<path d="M38.50 1574.75 A5.50 5.50 0 0 0 34.50 1580.04 V1598.04 A5.50 5.50 0 0 0 38.50 1603.33 Z" class="g112s22"/>
+<text y="1594.0" xml:space="preserve" class="g112s28"><tspan x="50.0" class="g112s0" textLength="135.6" lengthAdjust="spacing">D · In the experiment: </tspan><tspan x="185.6" class="g112s36" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="200.3" class="g112s0" textLength="160.1" lengthAdjust="spacing"> with and without the head</tspan></text>
+<text y="1594.0" xml:space="preserve" class="g112s29"><tspan x="378.4" class="g112s2">3</tspan><tspan x="385.2" textLength="640.5" lengthAdjust="spacing"> seeds each — and, for the models that have the head, how many passes speculative decoding needed for the same answers</tspan></text>
+<rect x="34.0" y="1620.0" width="1812.0" height="24.0" rx="4" class="g112s15"/>
+<text y="1636.0" xml:space="preserve" class="g112s8"><tspan x="43.0" class="g112s0" textLength="20.4" lengthAdjust="spacing">task</tspan></text>
+<text y="1636.0" xml:space="preserve" class="g112s8"><tspan x="223.0" class="g112s0" textLength="30.3" lengthAdjust="spacing">model</tspan></text>
+<text y="1636.0" xml:space="preserve" class="g112s8"><tspan x="543.0" class="g112s0" textLength="69.9" lengthAdjust="spacing">validation loss</tspan></text>
+<text y="1636.0" xml:space="preserve" class="g112s8"><tspan x="863.0" class="g112s0" textLength="102.7" lengthAdjust="spacing">exact match, unseen</tspan></text>
+<text y="1636.0" xml:space="preserve" class="g112s8"><tspan x="1183.0" class="g112s0" textLength="92.8" lengthAdjust="spacing">longer than trained</tspan></text>
+<text y="1636.0" xml:space="preserve" class="g112s8"><tspan x="1483.0" class="g112s0" textLength="110.1" lengthAdjust="spacing">speculative decoding, </tspan><tspan x="1593.1" class="g112s17" textLength="72.4" lengthAdjust="spacing">100 sentences</tspan></text>
+<text y="1661.0" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="1661.0" xml:space="preserve" class="g112s5"><tspan x="223.0" class="g112s9" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="236.0" textLength="79.3" lengthAdjust="spacing"> (with the head)</tspan></text>
+<text y="1661.0" xml:space="preserve" class="g112s5"><tspan x="543.0" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7136</tspan><tspan x="580.3"> (</tspan><tspan x="587.3" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7136</tspan><tspan x="624.6">–</tspan><tspan x="630.3" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7137</tspan><tspan x="667.6">)</tspan></text>
+<text y="1661.0" xml:space="preserve" class="g112s5"><tspan x="863.0" class="g112s2" textLength="41.3" lengthAdjust="spacing">100.0%</tspan><tspan x="904.3"> (</tspan><tspan x="911.4" class="g112s2" textLength="41.3" lengthAdjust="spacing">100.0%</tspan><tspan x="952.7">–</tspan><tspan x="958.4" class="g112s2" textLength="41.3" lengthAdjust="spacing">100.0%</tspan><tspan x="999.8">)</tspan></text>
+<text y="1661.0" xml:space="preserve" class="g112s5"><tspan x="1183.0">—</tspan></text>
+<text y="1661.0" xml:space="preserve" class="g112s5"><tspan x="1483.0" class="g112s2" textLength="59.6" lengthAdjust="spacing">650 tokens</tspan><tspan x="1542.6">, </tspan><tspan x="1549.0" class="g112s2" textLength="62.3" lengthAdjust="spacing">404 passes</tspan></text>
+<line x1="34.0" y1="1670.0" x2="1846.0" y2="1670.0" class="g112s6"/>
+<rect x="34.0" y="1670.0" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="1687.0" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="1687.0" xml:space="preserve" class="g112s5"><tspan x="223.0" class="g112s9" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="236.0" textLength="87.6" lengthAdjust="spacing"> without the head</tspan></text>
+<text y="1687.0" xml:space="preserve" class="g112s5"><tspan x="543.0" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7138</tspan><tspan x="580.3"> (</tspan><tspan x="587.3" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7137</tspan><tspan x="624.6">–</tspan><tspan x="630.3" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7140</tspan><tspan x="667.6">)</tspan></text>
+<text y="1687.0" xml:space="preserve" class="g112s5"><tspan x="863.0" class="g112s2" textLength="41.3" lengthAdjust="spacing">100.0%</tspan><tspan x="904.3"> (</tspan><tspan x="911.4" class="g112s2" textLength="41.3" lengthAdjust="spacing">100.0%</tspan><tspan x="952.7">–</tspan><tspan x="958.4" class="g112s2" textLength="41.3" lengthAdjust="spacing">100.0%</tspan><tspan x="999.8">)</tspan></text>
+<text y="1687.0" xml:space="preserve" class="g112s5"><tspan x="1183.0">—</tspan></text>
+<text y="1687.0" xml:space="preserve" class="g112s5"><tspan x="1483.0" textLength="61.4" lengthAdjust="spacing">not possible</tspan></text>
+<line x1="34.0" y1="1696.0" x2="1846.0" y2="1696.0" class="g112s6"/>
+<text y="1713.0" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="1713.0" xml:space="preserve" class="g112s5"><tspan x="223.0" class="g112s9" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="236.0" textLength="79.3" lengthAdjust="spacing"> (with the head)</tspan></text>
+<text y="1713.0" xml:space="preserve" class="g112s5"><tspan x="543.0" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7178</tspan><tspan x="580.3"> (</tspan><tspan x="587.3" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7093</tspan><tspan x="624.6">–</tspan><tspan x="630.3" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7303</tspan><tspan x="667.6">)</tspan></text>
+<text y="1713.0" xml:space="preserve" class="g112s5"><tspan x="863.0" class="g112s2" textLength="34.6" lengthAdjust="spacing">96.5%</tspan><tspan x="897.6"> (</tspan><tspan x="904.6" class="g112s2" textLength="34.6" lengthAdjust="spacing">95.6%</tspan><tspan x="939.1">–</tspan><tspan x="944.9" class="g112s2" textLength="34.6" lengthAdjust="spacing">97.4%</tspan><tspan x="979.5">)</tspan></text>
+<text y="1713.0" xml:space="preserve" class="g112s5"><tspan x="1183.0" class="g112s2" textLength="34.6" lengthAdjust="spacing">73.4%</tspan><tspan x="1217.6"> (</tspan><tspan x="1224.6" class="g112s2" textLength="34.6" lengthAdjust="spacing">51.6%</tspan><tspan x="1259.1">–</tspan><tspan x="1264.9" class="g112s2" textLength="34.6" lengthAdjust="spacing">93.0%</tspan><tspan x="1299.5">)</tspan></text>
+<text y="1713.0" xml:space="preserve" class="g112s5"><tspan x="1483.0" class="g112s2" textLength="59.6" lengthAdjust="spacing">923 tokens</tspan><tspan x="1542.6">, </tspan><tspan x="1549.0" class="g112s2" textLength="62.3" lengthAdjust="spacing">542 passes</tspan></text>
+<line x1="34.0" y1="1722.0" x2="1846.0" y2="1722.0" class="g112s6"/>
+<rect x="34.0" y="1722.0" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="1739.0" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="1739.0" xml:space="preserve" class="g112s5"><tspan x="223.0" class="g112s9" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="236.0" textLength="87.6" lengthAdjust="spacing"> without the head</tspan></text>
+<text y="1739.0" xml:space="preserve" class="g112s5"><tspan x="543.0" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7063</tspan><tspan x="580.3"> (</tspan><tspan x="587.3" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7035</tspan><tspan x="624.6">–</tspan><tspan x="630.3" class="g112s2" textLength="37.3" lengthAdjust="spacing">0.7078</tspan><tspan x="667.6">)</tspan></text>
+<text y="1739.0" xml:space="preserve" class="g112s5"><tspan x="863.0" class="g112s2" textLength="34.6" lengthAdjust="spacing">95.0%</tspan><tspan x="897.6"> (</tspan><tspan x="904.6" class="g112s2" textLength="34.6" lengthAdjust="spacing">93.8%</tspan><tspan x="939.1">–</tspan><tspan x="944.9" class="g112s2" textLength="34.6" lengthAdjust="spacing">96.2%</tspan><tspan x="979.5">)</tspan></text>
+<text y="1739.0" xml:space="preserve" class="g112s5"><tspan x="1183.0" class="g112s2" textLength="34.6" lengthAdjust="spacing">76.3%</tspan><tspan x="1217.6"> (</tspan><tspan x="1224.6" class="g112s2" textLength="34.6" lengthAdjust="spacing">74.8%</tspan><tspan x="1259.1">–</tspan><tspan x="1264.9" class="g112s2" textLength="34.6" lengthAdjust="spacing">77.4%</tspan><tspan x="1299.5">)</tspan></text>
+<text y="1739.0" xml:space="preserve" class="g112s5"><tspan x="1483.0" textLength="61.4" lengthAdjust="spacing">not possible</tspan></text>
+<line x1="34.0" y1="1748.0" x2="1846.0" y2="1748.0" class="g112s6"/>
+<rect x="34.0" y="1644.0" width="1812.0" height="104.0" rx="0" class="g112s21"/>
+<line x1="214.0" y1="1644.0" x2="214.0" y2="1748.0" class="g112s6"/>
+<line x1="534.0" y1="1644.0" x2="534.0" y2="1748.0" class="g112s6"/>
+<line x1="854.0" y1="1644.0" x2="854.0" y2="1748.0" class="g112s6"/>
+<line x1="1174.0" y1="1644.0" x2="1174.0" y2="1748.0" class="g112s6"/>
+<line x1="1474.0" y1="1644.0" x2="1474.0" y2="1748.0" class="g112s6"/>
+<rect x="34.0" y="1764.0" width="1812.0" height="55.0" rx="6" class="g112s45"/>
+<path d="M38.50 1764.75 A5.50 5.50 0 0 0 34.50 1770.04 V1813.08 A5.50 5.50 0 0 0 38.50 1818.37 Z" class="g112s46"/>
+<text y="1790.0" xml:space="preserve" class="g112s41"><tspan x="50.0" class="g112s0" textLength="121.6" lengthAdjust="spacing">Reading the numbers</tspan></text>
+<text y="1807.6" xml:space="preserve" class="g112s42"><tspan x="50.0" textLength="46.7" lengthAdjust="spacing">Mean of </tspan><tspan x="96.7" class="g112s2">3</tspan><tspan x="103.8" textLength="1512.0" lengthAdjust="spacing"> seeds, the range in brackets; the averaged weights (EMA) are scored. On these small tasks the extra lesson moved the accuracy little; its clear pay-off here is the last column: without the head there is nothing to draft with, and with it the same answers take far fewer passes (deep dive </tspan><tspan x="1615.8" class="g112s2" textLength="14.1" lengthAdjust="spacing">23</tspan><tspan x="1629.9" textLength="7.3" lengthAdjust="spacing">).</tspan></text>
+<rect x="34.0" y="1839.1" width="1812.0" height="30.0" rx="6" class="g112s15"/>
+<path d="M38.50 1839.79 A5.50 5.50 0 0 0 34.50 1845.08 V1863.08 A5.50 5.50 0 0 0 38.50 1868.37 Z" class="g112s22"/>
+<text y="1859.1" xml:space="preserve" class="g112s28"><tspan x="50.0" class="g112s0" textLength="20.7" lengthAdjust="spacing">E · </tspan><tspan x="70.7" class="g112s36" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="100.1" class="g112s0" textLength="52.1" lengthAdjust="spacing"> against </tspan><tspan x="152.2" class="g112s36" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="166.9" class="g112s0" textLength="94.2" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="1859.1" xml:space="preserve" class="g112s29"><tspan x="279.1" textLength="72.9" lengthAdjust="spacing">with it against </tspan><tspan x="352.0" class="g112s9" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="378.0" textLength="43.3" lengthAdjust="spacing">’s way (</tspan><tspan x="421.3" class="g112s9" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="434.4" textLength="352.2" lengthAdjust="spacing"> with only this part taken out), in every condition of the experiment — </tspan><tspan x="786.5" class="g112s2">3</tspan><tspan x="793.3" textLength="62.0" lengthAdjust="spacing"> seeds each</tspan></text>
+<text y="1887.1" xml:space="preserve" class="g112s41"><tspan x="38.0" class="g112s0" textLength="69.3" lengthAdjust="spacing">What it fixes</tspan></text>
+<text y="1905.1" xml:space="preserve" class="g112s42"><tspan x="38.0" class="g112s33" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="65.2" textLength="262.0" lengthAdjust="spacing">’s way: each position learns only the next token. </tspan><tspan x="327.2" class="g112s33" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="340.7" textLength="697.4" lengthAdjust="spacing">’s: a small head also learns the token after next. A difference counts only when the three seeds’ ranges do not overlap (deep dive </tspan><tspan x="1038.2" class="g112s2" textLength="14.1" lengthAdjust="spacing">26</tspan><tspan x="1052.3" textLength="232.8" lengthAdjust="spacing">); each cell shows the mean and that range.</tspan></text>
+<rect x="34.0" y="1926.5" width="1812.0" height="24.0" rx="4" class="g112s15"/>
+<text y="1942.5" xml:space="preserve" class="g112s8"><tspan x="743.0" class="g112s58" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="766.8" class="g112s0" textLength="89.6" lengthAdjust="spacing">’s way (without it)</tspan></text>
+<text y="1942.5" xml:space="preserve" class="g112s8"><tspan x="1133.0" class="g112s58" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="1144.9" class="g112s0" textLength="39.0" lengthAdjust="spacing"> (with it)</tspan></text>
+<text y="1942.5" xml:space="preserve" class="g112s8"><tspan x="1523.0" class="g112s0" textLength="71.1" lengthAdjust="spacing">which is better</tspan></text>
+<text y="1967.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="183.6" lengthAdjust="spacing">unseen sentences, the usual run (</tspan><tspan x="226.6" class="g112s2" textLength="63.0" lengthAdjust="spacing">2,000 steps</tspan><tspan x="289.7" class="g112s0"> · </tspan><tspan x="299.8" class="g112s2" textLength="89.5" lengthAdjust="spacing">5,000 sentences</tspan><tspan x="389.3" class="g112s0"> · </tspan><tspan x="399.4" class="g112s2" textLength="66.4" lengthAdjust="spacing">25.6 epochs</tspan><tspan x="465.8" class="g112s0">)</tspan></text>
+<text x="743.0" y="1967.4" class="g112s1">95.0% (93.8–96.2)</text>
+<text x="1133.0" y="1967.4" class="g112s1">96.5% (95.6–97.4)</text>
+<text y="1967.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="94.6" lengthAdjust="spacing">no clear difference</tspan></text>
+<line x1="34.0" y1="1976.5" x2="1846.0" y2="1976.5" class="g112s6"/>
+<rect x="34.0" y="1976.5" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="1993.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="184.3" lengthAdjust="spacing">early in that run: validation loss at </tspan><tspan x="227.3" class="g112s2" textLength="46.8" lengthAdjust="spacing">step 500</tspan><tspan x="274.0" class="g112s0" textLength="87.4" lengthAdjust="spacing"> (lower is better)</tspan></text>
+<text x="743.0" y="1993.4" class="g112s1">0.844 (0.815–0.860)</text>
+<text x="1133.0" y="1993.4" class="g112s1">0.906 (0.871–0.928)</text>
+<text y="1993.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="55.5" lengthAdjust="spacing">without it ▲</tspan></text>
+<line x1="34.0" y1="2002.5" x2="1846.0" y2="2002.5" class="g112s6"/>
+<text y="2019.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="167.4" lengthAdjust="spacing">unseen sentences, a long run (</tspan><tspan x="210.4" class="g112s2" textLength="63.0" lengthAdjust="spacing">8,000 steps</tspan><tspan x="273.4" class="g112s0"> · </tspan><tspan x="283.6" class="g112s2" textLength="89.5" lengthAdjust="spacing">5,000 sentences</tspan><tspan x="373.0" class="g112s0"> · </tspan><tspan x="383.2" class="g112s2" textLength="73.2" lengthAdjust="spacing">102.4 epochs</tspan><tspan x="456.4" class="g112s0">)</tspan></text>
+<text x="743.0" y="2019.4" class="g112s1">99.3% (98.8–100.0)</text>
+<text x="1133.0" y="2019.4" class="g112s1">99.7% (99.6–99.8)</text>
+<text y="2019.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="94.6" lengthAdjust="spacing">no clear difference</tspan></text>
+<line x1="34.0" y1="2028.5" x2="1846.0" y2="2028.5" class="g112s6"/>
+<rect x="34.0" y="2028.5" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="2045.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="195.1" lengthAdjust="spacing">unseen sentences, a small dataset (</tspan><tspan x="238.1" class="g112s2" textLength="63.0" lengthAdjust="spacing">2,000 steps</tspan><tspan x="301.2" class="g112s0"> · </tspan><tspan x="311.3" class="g112s2" textLength="89.5" lengthAdjust="spacing">1,000 sentences</tspan><tspan x="400.8" class="g112s0"> · </tspan><tspan x="410.9" class="g112s2" textLength="73.2" lengthAdjust="spacing">128.0 epochs</tspan><tspan x="484.1" class="g112s0">)</tspan></text>
+<text x="743.0" y="2045.4" class="g112s1">74.2% (72.0–77.6)</text>
+<text x="1133.0" y="2045.4" class="g112s1">36.5% (31.6–44.0)</text>
+<text y="2045.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="55.5" lengthAdjust="spacing">without it ▲</tspan></text>
+<line x1="34.0" y1="2054.5" x2="1846.0" y2="2054.5" class="g112s6"/>
+<text y="2071.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="183.0" lengthAdjust="spacing">unseen sentences, a big dataset (</tspan><tspan x="226.0" class="g112s2" textLength="63.0" lengthAdjust="spacing">2,000 steps</tspan><tspan x="289.0" class="g112s0"> · </tspan><tspan x="299.1" class="g112s2" textLength="96.2" lengthAdjust="spacing">20,000 sentences</tspan><tspan x="395.4" class="g112s0"> · </tspan><tspan x="405.5" class="g112s2" textLength="59.6" lengthAdjust="spacing">6.4 epochs</tspan><tspan x="465.2" class="g112s0">)</tspan></text>
+<text x="743.0" y="2071.4" class="g112s1">97.1% (96.6–97.6)</text>
+<text x="1133.0" y="2071.4" class="g112s1">98.1% (97.6–98.6)</text>
+<text y="2071.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="94.6" lengthAdjust="spacing">no clear difference</tspan></text>
+<line x1="34.0" y1="2080.5" x2="1846.0" y2="2080.5" class="g112s6"/>
+<rect x="34.0" y="2080.5" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="2097.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="277.8" lengthAdjust="spacing">sentences longer than any trained on, the usual run</tspan></text>
+<text x="743.0" y="2097.4" class="g112s1">76.3% (74.8–77.4)</text>
+<text x="1133.0" y="2097.4" class="g112s1">73.4% (51.6–93.0)</text>
+<text y="2097.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="94.6" lengthAdjust="spacing">no clear difference</tspan></text>
+<line x1="34.0" y1="2106.5" x2="1846.0" y2="2106.5" class="g112s6"/>
+<text y="2123.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="164.0" lengthAdjust="spacing">longer sentences, the long run</tspan></text>
+<text x="743.0" y="2123.4" class="g112s1">68.1% (50.6–84.0)</text>
+<text x="1133.0" y="2123.4" class="g112s1">68.5% (50.8–77.4)</text>
+<text y="2123.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="94.6" lengthAdjust="spacing">no clear difference</tspan></text>
+<line x1="34.0" y1="2132.5" x2="1846.0" y2="2132.5" class="g112s6"/>
+<rect x="34.0" y="2132.5" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="2149.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="235.8" lengthAdjust="spacing">the easy task (translate), unseen sentences</tspan></text>
+<text x="743.0" y="2149.4" class="g112s1">100.0% (100.0–100.0)</text>
+<text x="1133.0" y="2149.4" class="g112s1">100.0% (100.0–100.0)</text>
+<text y="2149.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="94.6" lengthAdjust="spacing">no clear difference</tspan></text>
+<line x1="34.0" y1="2158.5" x2="1846.0" y2="2158.5" class="g112s6"/>
+<text y="2175.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="233.6" lengthAdjust="spacing">learned numbers (the experiment’s model)</tspan></text>
+<text x="743.0" y="2175.4" class="g112s1">1,388,204</text>
+<text x="1133.0" y="2175.4" class="g112s1">1,553,452</text>
+<text y="2175.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="58.8" lengthAdjust="spacing">more with it</tspan></text>
+<line x1="34.0" y1="2184.5" x2="1846.0" y2="2184.5" class="g112s6"/>
+<rect x="34.0" y="2184.5" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="2201.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="250.7" lengthAdjust="spacing">time per training step, this CPU (the usual run)</tspan></text>
+<text x="743.0" y="2201.4" class="g112s1">97 ms</text>
+<text x="1133.0" y="2201.4" class="g112s1">105 ms</text>
+<text y="2201.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="65.8" lengthAdjust="spacing">slower with it</tspan></text>
+<line x1="34.0" y1="2210.5" x2="1846.0" y2="2210.5" class="g112s6"/>
+<text y="2227.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="166.7" lengthAdjust="spacing">the extra head (the real model)</tspan></text>
+<text x="743.0" y="2227.4" class="g112s1">0</text>
+<text x="1133.0" y="2227.4" class="g112s1">2,627,072</text>
+<text y="2227.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="106.7" lengthAdjust="spacing">more numbers with it</tspan></text>
+<line x1="34.0" y1="2236.5" x2="1846.0" y2="2236.5" class="g112s6"/>
+<rect x="34.0" y="2236.5" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="2253.4" xml:space="preserve" class="g112s7"><tspan x="43.0" class="g112s0" textLength="81.3" lengthAdjust="spacing">what it enables</tspan></text>
+<text x="743.0" y="2253.4" class="g112s1">nothing</text>
+<text x="1133.0" y="2253.4" class="g112s1">speculative decoding (deep dive 23)</text>
+<text y="2253.4" xml:space="preserve" class="g112s5"><tspan x="1523.0" textLength="39.5" lengthAdjust="spacing">with it ▲</tspan></text>
+<line x1="34.0" y1="2262.5" x2="1846.0" y2="2262.5" class="g112s6"/>
+<rect x="34.0" y="1950.5" width="1812.0" height="312.0" rx="0" class="g112s21"/>
+<line x1="734.0" y1="1950.5" x2="734.0" y2="2262.5" class="g112s6"/>
+<line x1="1124.0" y1="1950.5" x2="1124.0" y2="2262.5" class="g112s6"/>
+<line x1="1514.0" y1="1950.5" x2="1514.0" y2="2262.5" class="g112s6"/>
+<rect x="34.0" y="2274.5" width="1812.0" height="55.0" rx="6" class="g112s45"/>
+<path d="M38.50 2275.19 A5.50 5.50 0 0 0 34.50 2280.48 V2323.52 A5.50 5.50 0 0 0 38.50 2328.81 Z" class="g112s46"/>
+<text y="2300.5" xml:space="preserve" class="g112s41"><tspan x="50.0" class="g112s0" textLength="57.3" lengthAdjust="spacing">Reading it</tspan></text>
+<text y="2318.0" xml:space="preserve" class="g112s42"><tspan x="50.0" textLength="212.1" lengthAdjust="spacing">Measured so far: with it clearly better in </tspan><tspan x="262.1" class="g112s2">0</tspan><tspan x="269.1" textLength="36.7" lengthAdjust="spacing"> of the </tspan><tspan x="305.8" class="g112s2">8</tspan><tspan x="312.9" textLength="220.7" lengthAdjust="spacing"> measured comparisons, clearly worse in </tspan><tspan x="533.6" class="g112s2">2</tspan><tspan x="540.7" textLength="121.4" lengthAdjust="spacing">, no clear difference in </tspan><tspan x="662.1" class="g112s2">6</tspan><tspan x="669.2" textLength="385.9" lengthAdjust="spacing">. Its costs are in the last rows. “Without it” changes only this one part of </tspan><tspan x="1055.1" class="g112s33" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="1068.7">; </tspan><tspan x="1075.3" class="g112s33" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="1102.5" textLength="106.1" lengthAdjust="spacing"> as a whole against </tspan><tspan x="1208.6" class="g112s33" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="1222.1" textLength="83.4" lengthAdjust="spacing"> is in deep dive </tspan><tspan x="1305.5" class="g112s2" textLength="14.1" lengthAdjust="spacing">26</tspan><tspan x="1319.7" textLength="144.1" lengthAdjust="spacing"> and on the overview page.</tspan></text>
+<rect x="34.0" y="2349.5" width="1812.0" height="30.0" rx="6" class="g112s15"/>
+<path d="M38.50 2350.23 A5.50 5.50 0 0 0 34.50 2355.52 V2373.52 A5.50 5.50 0 0 0 38.50 2378.81 Z" class="g112s22"/>
+<text y="2369.5" xml:space="preserve" class="g112s28"><tspan x="50.0" class="g112s0" textLength="211.3" lengthAdjust="spacing">Claims · Common claims, checked</tspan></text>
+<text y="2369.5" xml:space="preserve" class="g112s29"><tspan x="279.3" textLength="147.5" lengthAdjust="spacing">against this page’s numbers</tspan></text>
+<rect x="34.0" y="2395.5" width="1812.0" height="24.0" rx="4" class="g112s15"/>
+<text y="2411.5" xml:space="preserve" class="g112s8"><tspan x="43.0" class="g112s0" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="2411.5" xml:space="preserve" class="g112s8"><tspan x="603.0" class="g112s0" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="2411.5" xml:space="preserve" class="g112s8"><tspan x="713.0" class="g112s0" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
+<text y="2436.3" xml:space="preserve" class="g112s44"><tspan x="43.0" class="g112s0" textLength="223.6" lengthAdjust="spacing">The model now writes two tokens at a time.</tspan></text>
+<text y="2436.3" xml:space="preserve" class="g112s20"><tspan x="603.0" textLength="55.6" lengthAdjust="spacing">not by itself</tspan></text>
+<text y="2436.3" xml:space="preserve" class="g112s20"><tspan x="713.0" class="g112s16" textLength="62.2" lengthAdjust="spacing">generate()</tspan><tspan x="775.2" textLength="78.2" lengthAdjust="spacing"> still writes one; </tspan><tspan x="853.5" class="g112s16" textLength="136.9" lengthAdjust="spacing">speculative_generate()</tspan><tspan x="990.4" textLength="343.6" lengthAdjust="spacing"> uses the head to write two when its guess is checked right (deep dive </tspan><tspan x="1334.0" class="g112s2" textLength="13.0" lengthAdjust="spacing">23</tspan><tspan x="1347.0" textLength="6.7" lengthAdjust="spacing">).</tspan></text>
+<line x1="34.0" y1="2445.5" x2="1846.0" y2="2445.5" class="g112s6"/>
+<rect x="34.0" y="2445.5" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="2462.3" xml:space="preserve" class="g112s44"><tspan x="43.0" class="g112s0" textLength="191.2" lengthAdjust="spacing">The head needs its own output layer.</tspan></text>
+<text y="2462.3" xml:space="preserve" class="g112s20"><tspan x="603.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="2462.3" xml:space="preserve" class="g112s20"><tspan x="713.0" textLength="408.3" lengthAdjust="spacing">it reuses the model’s (the embedding table) and its cap; only its small body is new (</tspan><tspan x="1121.3" class="g112s2" textLength="100.5" lengthAdjust="spacing">2,627,072 numbers</tspan><tspan x="1221.7" textLength="91.1" lengthAdjust="spacing"> in the real model).</tspan></text>
+<line x1="34.0" y1="2471.5" x2="1846.0" y2="2471.5" class="g112s6"/>
+<text y="2488.3" xml:space="preserve" class="g112s44"><tspan x="43.0" class="g112s0" textLength="220.4" lengthAdjust="spacing">At position t the head may see the answer.</tspan></text>
+<text y="2488.3" xml:space="preserve" class="g112s20"><tspan x="603.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="2488.3" xml:space="preserve" class="g112s20"><tspan x="713.0" textLength="116.2" lengthAdjust="spacing">it sees the tokens up to </tspan><tspan x="829.2" class="g112s2" textLength="23.0" lengthAdjust="spacing">t + 1</tspan><tspan x="852.2" textLength="228.7" lengthAdjust="spacing"> only — checked by changing the later tokens (</tspan><tspan x="1080.9" class="g112s16" textLength="56.0" lengthAdjust="spacing">check3.py</tspan><tspan x="1136.9" textLength="6.7" lengthAdjust="spacing">).</tspan></text>
+<line x1="34.0" y1="2497.5" x2="1846.0" y2="2497.5" class="g112s6"/>
+<rect x="34.0" y="2497.5" width="1812.0" height="26.0" rx="0" class="g112s10"/>
+<text y="2514.3" xml:space="preserve" class="g112s44"><tspan x="43.0" class="g112s0" textLength="197.7" lengthAdjust="spacing">Predicting further ahead always helps.</tspan></text>
+<text y="2514.3" xml:space="preserve" class="g112s20"><tspan x="603.0" textLength="40.4" lengthAdjust="spacing">not here</tspan></text>
+<text y="2514.3" xml:space="preserve" class="g112s20"><tspan x="713.0" textLength="522.1" lengthAdjust="spacing">its accuracy effect on these tasks was small (section D); Gloeckle et al. find the gains grow with model size.</tspan></text>
+<line x1="34.0" y1="2523.5" x2="1846.0" y2="2523.5" class="g112s6"/>
+<rect x="34.0" y="2419.5" width="1812.0" height="104.0" rx="0" class="g112s21"/>
+<line x1="594.0" y1="2419.5" x2="594.0" y2="2523.5" class="g112s6"/>
+<line x1="704.0" y1="2419.5" x2="704.0" y2="2523.5" class="g112s6"/>
+<line x1="28.0" y1="2549.5" x2="1852.0" y2="2549.5" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="2566.5" xml:space="preserve" class="g112s59"><tspan x="28.0" textLength="341.7" lengthAdjust="spacing">Numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="369.7" class="g112s16" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="382.2" textLength="105.2" lengthAdjust="spacing"> notebook (written by </tspan><tspan x="487.3" class="g112s16" textLength="37.3" lengthAdjust="spacing">nb3.py</tspan><tspan x="524.7" textLength="28.1" lengthAdjust="spacing"> from </tspan><tspan x="552.8" class="g112s16" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="577.7" textLength="195.1" lengthAdjust="spacing">; your notebooks are only read) and the </tspan><tspan x="772.7" class="g112s16" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="797.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="940.7" class="g112s2" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="956.9" textLength="280.0" lengthAdjust="spacing">.0 on their own two sentence pairs (CPU, seeded). Every </tspan><tspan x="1236.9" class="g112s16" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1249.4" textLength="234.1" lengthAdjust="spacing"> change is tested on the notebook’s own code (</tspan><tspan x="1483.4" class="g112s16" textLength="56.0" lengthAdjust="spacing">check3.py</tspan><tspan x="1539.5" textLength="199.9" lengthAdjust="spacing">). TINY-MODEL numbers come from the </tspan><tspan x="1739.3" class="g112s16" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1751.8" textLength="85.6" lengthAdjust="spacing"> classes built with</tspan></text>
+<text y="2581.5" xml:space="preserve" class="g112s59"><tspan x="28.0" class="g112s2" textLength="55.1" lengthAdjust="spacing">8 numbers</tspan><tspan x="83.1" textLength="472.6" lengthAdjust="spacing"> a token and trained on five sentences; a pure-Python copy of that model agrees with PyTorch to </tspan><tspan x="555.7" class="g112s2" textLength="29.8" lengthAdjust="spacing">1e-04</tspan><tspan x="585.5">.</tspan></text>
+</svg>
