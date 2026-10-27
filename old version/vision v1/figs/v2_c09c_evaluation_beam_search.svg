@@ -1,0 +1,575 @@
+<svg data-src="v2_c09c_evaluation_beam_search.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="3675" viewBox="0 0 1880 3675">
+<style>.txfig .g83s0{fill:var(--code)}.txfig .g83s1{fill:var(--op)}.txfig .g83s2{font-weight:600;fill:var(--ink)}.txfig .g83s3{font-weight:600}.txfig .g83s4{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g83s5{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g83s6{fill:var(--kw)}.txfig .g83s7{fill:var(--fn)}.txfig .g83s8{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px}.txfig .g83s9{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:start}.txfig .g83s10{fill:var(--num)}.txfig .g83s11{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g83s12{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g83s13{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.8px;text-anchor:start}.txfig .g83s14{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g83s15{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:start}.txfig .g83s16{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g83s17{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g83s18{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g83s19{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g83s20{stroke:var(--panelbd);stroke-width:1;stroke-dasharray:3 4;stroke-linecap:round}.txfig .g83s21{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g83s22{stroke:var(--grid);stroke-width:1.0;stroke-linecap:round}.txfig .g83s23{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1.0}.txfig .g83s24{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g83s25{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g83s26{fill:var(--s2);stroke:none}.txfig .g83s27{fill:var(--s2);stroke:none;stroke-width:1;opacity:0.22}.txfig .g83s28{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g83s29{stroke:var(--grid);stroke-width:0.8;stroke-dasharray:3 3;stroke-linecap:round}.txfig .g83s30{fill:var(--soft);stroke:var(--grid);stroke-width:0.9}.txfig .g83s31{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g83s32{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g83s33{fill:var(--keepbg);stroke:var(--keep);stroke-width:2.2}.txfig .g83s34{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:middle}.txfig .g83s35{fill:var(--cmt)}.txfig .g83s36{fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600}.txfig .g83s37{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g83s38{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.8px;font-weight:600}.txfig .g83s39{stroke:var(--drop);stroke-width:2.4;stroke-linecap:round}.txfig .g83s40{stroke:var(--keep);stroke-width:2.4;stroke-linecap:round}.txfig .g83s41{fill:var(--warnbg);stroke:var(--drop);stroke-width:2.2}.txfig .g83s42{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g83s43{fill:var(--keep);stroke:none}.txfig .g83s44{fill:var(--attr)}.txfig .g83s45{fill:var(--accent);stroke:none}.txfig .g83s46{fill:var(--panel);stroke:var(--panelbd);stroke-width:1.1}.txfig .g83s47{fill:var(--infobg);stroke:var(--s2);stroke-width:1.5}.txfig .g83s48{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18}.txfig .g83s49{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink)}.txfig .g83s50{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g83s51{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g83s52{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g83s53{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g83s54{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11}.txfig .g83s55{fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8}.txfig .g83s56{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--accent)}.txfig .g83s57{fill:var(--code);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:start}.txfig .g83s58{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g83s59{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g83s60{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g83s61{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g83s62{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g83s63{fill:var(--codebg);stroke:var(--codebd);stroke-width:1}.txfig .g83s64{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g83s65{fill:var(--s1);stroke:none}.txfig .g83s66{fill:var(--s1);stroke:none;stroke-width:1;opacity:0.22}.txfig .g83s67{stroke:var(--ink3);stroke-width:1.3;stroke-linecap:round}.txfig .g83s68{fill:var(--ink3)}.txfig .g83s69{fill:var(--s3);stroke:none}.txfig .g83s70{fill:var(--s3);stroke:none;stroke-width:1;opacity:0.22}.txfig .g83s71{fill:var(--soft);stroke:var(--hair);stroke-width:1}.txfig .g83s72{fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1}.txfig .g83s73{fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1}.txfig .g83s74{font-weight:600;fill:var(--accent)}.txfig .g83s75{fill:var(--keepbg);stroke:var(--keybd);stroke-width:1.1}.txfig .g83s76{fill:var(--keep);stroke:none;stroke-width:1;opacity:0.22}.txfig .g83s77{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:middle}.txfig .g83s78{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g83s79{fill:var(--keep);stroke:none;stroke-width:1}.txfig .g83s80{fill:var(--cellbg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9px;font-weight:600;text-anchor:middle}.txfig .g83s81{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600}.txfig .g83s82{fill:var(--soft);stroke:var(--hair);stroke-width:0.9}.txfig .g83s83{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g83s84{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8px;text-anchor:start;opacity:0.75}.txfig .g83s85{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g83s86{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8px;text-anchor:start;opacity:0.8}.txfig .g83s87{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch83" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash83" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="3675" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">CELL 9 · 3 / 3</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="150.0" class="g83s3" textLength="160.9" lengthAdjust="spacing">Evaluation, part </tspan><tspan x="310.9" style="font-weight:600;fill:var(--hdfg)">3</tspan><tspan x="323.2" class="g83s3" textLength="481.3" lengthAdjust="spacing"> — beam search, drawn as a tree against greedy</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g83s42" textLength="80.9" lengthAdjust="spacing">beam_search</tspan><tspan x="114.9">: </tspan><tspan x="122.1" class="g83s2">4</tspan><tspan x="129.8" textLength="62.9" lengthAdjust="spacing"> beams → </tspan><tspan x="192.7" class="g83s2" textLength="15.3" lengthAdjust="spacing">16</tspan><tspan x="208.0" textLength="118.5" lengthAdjust="spacing"> candidates → keep </tspan><tspan x="326.5" class="g83s2">4</tspan><tspan x="334.2"> → </tspan><tspan x="354.4" class="g83s42" textLength="103.0" lengthAdjust="spacing">_reorder_cache</tspan><tspan x="457.4" textLength="268.1" lengthAdjust="spacing"> → … → length penalty · then the cache check</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="145.1" lengthAdjust="spacing">Sequence A alone. The first </tspan><tspan x="179.1" class="g83s2">5</tspan><tspan x="185.9" textLength="44.8" lengthAdjust="spacing"> of up to </tspan><tspan x="230.6" class="g83s2" textLength="46.1" lengthAdjust="spacing">63 steps</tspan><tspan x="276.7">.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="107.0" rx="8" class="g83s61"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V219.00 A7.50 7.50 0 0 0 39.50 226.07 Z" class="g83s43"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g83s3" textLength="275.5" lengthAdjust="spacing">Keeping four answers alive instead of one</tspan></text>
+<text y="169.0" xml:space="preserve" class="g83s50"><tspan x="54.0" textLength="575.2" lengthAdjust="spacing">Greedy commits to the best token at every step and can never take it back. Beam search keeps the </tspan><tspan x="629.2" class="g83s2">4</tspan><tspan x="636.8" textLength="367.8" lengthAdjust="spacing"> best partial answers: each step every one of them proposes its </tspan><tspan x="1004.6" class="g83s2">4</tspan><tspan x="1012.3" textLength="122.1" lengthAdjust="spacing"> best next tokens, all </tspan><tspan x="1134.4" class="g83s2" textLength="15.3" lengthAdjust="spacing">16</tspan><tspan x="1149.7" textLength="390.9" lengthAdjust="spacing"> candidates are ranked by their TOTAL log-probability, and the best </tspan><tspan x="1540.6" class="g83s2">4</tspan><tspan x="1548.3" textLength="276.8" lengthAdjust="spacing"> go on. A token that looked second-best can win</tspan></text>
+<text y="188.0" xml:space="preserve" class="g83s50"><tspan x="54.0" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="64.1"> </tspan><tspan x="68.1" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="86.2"> </tspan><tspan x="90.2" textLength="21.7" lengthAdjust="spacing">end</tspan><tspan x="111.9"> </tspan><tspan x="115.9">—</tspan><tspan x="128.9"> </tspan><tspan x="132.9" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="154.6"> </tspan><tspan x="158.6" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="173.0"> </tspan><tspan x="177.1" textLength="20.2" lengthAdjust="spacing">this</tspan><tspan x="197.3"> </tspan><tspan x="201.3" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="236.7"> </tspan><tspan x="240.7" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="247.2"> </tspan><tspan x="251.2" textLength="31.8" lengthAdjust="spacing">does.</tspan><tspan x="283.0"> </tspan><tspan x="287.0" class="g83s2" textLength="35.2" lengthAdjust="spacing">Cell 9</tspan><tspan x="322.2"> </tspan><tspan x="326.2" textLength="42.6" lengthAdjust="spacing">reloads</tspan><tspan x="368.9"> </tspan><tspan x="372.9" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="390.9"> </tspan><tspan x="394.9" textLength="24.6" lengthAdjust="spacing">best</tspan><tspan x="419.5"> </tspan><tspan x="423.5" textLength="62.1" lengthAdjust="spacing">checkpoint</tspan><tspan x="485.7"> </tspan><tspan x="489.7" textLength="26.0" lengthAdjust="spacing">from</tspan><tspan x="515.7"> </tspan><tspan x="519.7" textLength="46.2" lengthAdjust="spacing">training.</tspan><tspan x="565.9"> </tspan><tspan x="569.9" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="592.3"> </tspan><tspan x="596.3" textLength="53.5" lengthAdjust="spacing">notebook</tspan><tspan x="649.8"> </tspan><tspan x="653.8" textLength="21.0" lengthAdjust="spacing">has</tspan><tspan x="674.8"> </tspan><tspan x="678.8" textLength="32.5" lengthAdjust="spacing">never</tspan><tspan x="711.3"> </tspan><tspan x="715.3" textLength="28.9" lengthAdjust="spacing">been</tspan><tspan x="744.2"> </tspan><tspan x="748.2" textLength="22.4" lengthAdjust="spacing">run,</tspan><tspan x="770.6"> </tspan><tspan x="774.6" textLength="13.7" lengthAdjust="spacing">so</tspan><tspan x="788.4"> </tspan><tspan x="792.4" textLength="29.6" lengthAdjust="spacing">there</tspan><tspan x="822.0"> </tspan><tspan x="826.0" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="835.4"> </tspan><tspan x="839.4" textLength="14.5" lengthAdjust="spacing">no</tspan><tspan x="853.8"> </tspan><tspan x="857.9" textLength="62.1" lengthAdjust="spacing">checkpoint</tspan><tspan x="920.0"> </tspan><tspan x="924.0" textLength="29.6" lengthAdjust="spacing">here:</tspan><tspan x="953.6"> </tspan><tspan x="957.6" textLength="31.8" lengthAdjust="spacing">these</tspan><tspan x="989.4"> </tspan><tspan x="993.4" textLength="39.7" lengthAdjust="spacing">frames</tspan><tspan x="1033.2"> </tspan><tspan x="1037.2" textLength="18.8" lengthAdjust="spacing">run</tspan><tspan x="1056.0"> </tspan><tspan x="1060.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1078.0"> </tspan><tspan x="1082.0" textLength="31.8" lengthAdjust="spacing">same</tspan><tspan x="1113.8"> </tspan><tspan x="1117.8" textLength="28.2" lengthAdjust="spacing">code</tspan><tspan x="1146.0"> </tspan><tspan x="1150.0" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="1164.5"> </tspan><tspan x="1168.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1186.6"> </tspan><tspan x="1190.6" textLength="54.2" lengthAdjust="spacing">untrained</tspan><tspan x="1244.8"> </tspan><tspan x="1248.8" textLength="29.6" lengthAdjust="spacing">initial</tspan><tspan x="1278.4"> </tspan><tspan x="1282.4" textLength="47.7" lengthAdjust="spacing">weights.</tspan><tspan x="1330.1"> </tspan><tspan x="1334.1" textLength="33.2" lengthAdjust="spacing">Every</tspan><tspan x="1367.3"> </tspan><tspan x="1371.3" textLength="24.6" lengthAdjust="spacing">step</tspan><tspan x="1395.9"> </tspan><tspan x="1399.9" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="1410.7"> </tspan><tspan x="1414.8" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1432.8"> </tspan><tspan x="1436.8" textLength="66.5" lengthAdjust="spacing">mechanism</tspan><tspan x="1503.3"> </tspan><tspan x="1507.3" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1516.7"> </tspan><tspan x="1520.7" textLength="21.7" lengthAdjust="spacing">real</tspan><tspan x="1542.4"> </tspan><tspan x="1546.4">—</tspan><tspan x="1559.4"> </tspan><tspan x="1563.4" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1581.4"> </tspan><tspan x="1585.4" textLength="38.3" lengthAdjust="spacing">cache,</tspan><tspan x="1623.7"> </tspan><tspan x="1627.8" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1645.8"> </tspan><tspan x="1649.8" textLength="41.2" lengthAdjust="spacing">masks,</tspan><tspan x="1691.0"> </tspan><tspan x="1695.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1713.1"> </tspan><tspan x="1717.1" class="g83s42" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="1761.2"> </tspan><tspan x="1765.2">—</tspan><tspan x="1778.2"> </tspan><tspan x="1782.2" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1803.9"> </tspan><tspan x="1807.9" textLength="18.1" lengthAdjust="spacing">the</tspan></text>
+<text y="207.0" xml:space="preserve" class="g83s50"><tspan x="54.0" textLength="451.6" lengthAdjust="spacing">words repeat, because an untrained model has no preference worth the name.</tspan></text>
+<text y="260.2" xml:space="preserve" class="g83s62"><tspan x="34.0" textLength="22.7" lengthAdjust="spacing">The</tspan><tspan x="56.7"> </tspan><tspan x="61.8" textLength="40.3" lengthAdjust="spacing">frames</tspan><tspan x="102.2"> </tspan><tspan x="107.3" textLength="29.3" lengthAdjust="spacing">trace</tspan><tspan x="136.6"> </tspan><tspan x="141.7" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="160.1"> </tspan><tspan x="165.2" textLength="24.9" lengthAdjust="spacing">loop</tspan><tspan x="190.1"> </tspan><tspan x="195.2" textLength="20.5" lengthAdjust="spacing">line</tspan><tspan x="215.8"> </tspan><tspan x="220.8" textLength="13.9" lengthAdjust="spacing">by</tspan><tspan x="234.8"> </tspan><tspan x="239.9" textLength="20.5" lengthAdjust="spacing">line</tspan><tspan x="260.4"> </tspan><tspan x="265.5" textLength="15.4" lengthAdjust="spacing">for</tspan><tspan x="280.9"> </tspan><tspan x="286.0" class="g83s2" textLength="84.0" lengthAdjust="spacing">steps 0 and 1</tspan><tspan x="370.0">;</tspan><tspan x="373.7"> </tspan><tspan x="378.8" class="g83s2" textLength="72.3" lengthAdjust="spacing">steps 2 to 4</tspan><tspan x="451.1"> </tspan><tspan x="456.2" textLength="19.1" lengthAdjust="spacing">are</tspan><tspan x="475.3"> </tspan><tspan x="480.4" textLength="75.5" lengthAdjust="spacing">summarised.</tspan><tspan x="556.0"> </tspan><tspan x="561.1" textLength="44.0" lengthAdjust="spacing">Section</tspan><tspan x="605.1"> </tspan><tspan x="610.2">B</tspan><tspan x="619.0"> </tspan><tspan x="624.1" textLength="35.2" lengthAdjust="spacing">draws</tspan><tspan x="659.3"> </tspan><tspan x="664.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="682.7"> </tspan><tspan x="687.8" textLength="34.5" lengthAdjust="spacing">whole</tspan><tspan x="722.3"> </tspan><tspan x="727.4" textLength="39.6" lengthAdjust="spacing">search</tspan><tspan x="767.0"> </tspan><tspan x="772.1" textLength="13.9" lengthAdjust="spacing">as</tspan><tspan x="786.1"> </tspan><tspan x="791.1">a</tspan><tspan x="798.5"> </tspan><tspan x="803.6" textLength="26.4" lengthAdjust="spacing">tree,</tspan><tspan x="830.0"> </tspan><tspan x="835.1" textLength="23.5" lengthAdjust="spacing">with</tspan><tspan x="858.6"> </tspan><tspan x="863.7" textLength="54.9" lengthAdjust="spacing">greedy’s</tspan><tspan x="918.5"> </tspan><tspan x="923.6" textLength="25.7" lengthAdjust="spacing">path</tspan><tspan x="949.3"> </tspan><tspan x="954.4" textLength="44.8" lengthAdjust="spacing">through</tspan><tspan x="999.2"> </tspan><tspan x="1004.3" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="1022.6"> </tspan><tspan x="1027.7" textLength="32.3" lengthAdjust="spacing">same</tspan></text>
+<text y="280.0" xml:space="preserve" class="g83s62"><tspan x="34.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)" textLength="44.8" lengthAdjust="spacing">scores</tspan><tspan x="78.8" textLength="245.8" lengthAdjust="spacing">, so you can see where the two part ways.</tspan></text>
+<rect x="1086.0" y="247.0" width="760.0" height="250.5" rx="6" class="g83s63"/>
+<text y="265.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="1096.0" class="g83s64" textLength="11.9" lengthAdjust="spacing">v2</tspan><tspan x="1107.9" class="g83s3"> · </tspan><tspan x="1117.2" class="g83s64" textLength="136.7" lengthAdjust="spacing">Transformer.beam_search</tspan><tspan x="1253.8" class="g83s3" textLength="60.6" lengthAdjust="spacing">, condensed</tspan></text>
+<text x="1096.0" y="288.0" xml:space="preserve" class="g83s18"><tspan class="g83s0">beams</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">(</tspan><tspan class="g83s1">[</tspan><tspan class="g83s0">sos_idx</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s10">0.0</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">]</tspan></text>
+<text x="1096.0" y="307.5" xml:space="preserve" class="g83s18"><tspan class="g83s6">for</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">step</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">in</tspan><tspan class="g83s0"> </tspan><tspan class="g83s7">range</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">max_len</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">-</tspan><tspan class="g83s0"> </tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">:</tspan></text>
+<text x="1096.0" y="327.0" xml:space="preserve" class="g83s18"><tspan class="g83s0">    </tspan><tspan class="g83s0">logits</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">self</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">decode</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">seqs</tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">:</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">-</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">:</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">enc_n</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">mask_n</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">None</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">cache</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">cache</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">start_pos</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">step</tspan><tspan class="g83s1">)</tspan></text>
+<text x="1096.0" y="346.5" xml:space="preserve" class="g83s18"><tspan class="g83s0">    </tspan><tspan class="g83s0">log_probs</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">torch</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">log_softmax</tspan><tspan class="g83s1">(</tspan><tspan class="g83s6">self</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">_block_special</tspan><tspan class="g83s1">(</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">dim</tspan><tspan class="g83s1">=</tspan><tspan class="g83s1">-</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">)</tspan></text>
+<text x="1096.0" y="366.0" xml:space="preserve" class="g83s18"><tspan class="g83s0">    </tspan><tspan class="g83s6">for</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">i</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">seq</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">score</tspan><tspan class="g83s1">)</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">in</tspan><tspan class="g83s0"> </tspan><tspan class="g83s7">enumerate</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">beams</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">:</tspan></text>
+<text x="1096.0" y="385.5" xml:space="preserve" class="g83s18"><tspan class="g83s0">        </tspan><tspan class="g83s0">top_lp</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">top_ids</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">log_probs</tspan><tspan class="g83s1">[</tspan><tspan class="g83s0">i</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">topk</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">beam_size</tspan><tspan class="g83s1">)</tspan></text>
+<text x="1096.0" y="405.0" xml:space="preserve" class="g83s18"><tspan class="g83s0">        </tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s0"> </tspan><tspan class="g83s44">candidates</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">append</tspan><tspan class="g83s1">(</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">seq</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">+</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">[</tspan><tspan class="g83s0">idx</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">score</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">+</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">lp</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">i</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">)</tspan></text>
+<text x="1096.0" y="424.5" xml:space="preserve" class="g83s18"><tspan class="g83s0">    </tspan><tspan class="g83s0">candidates</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">sort</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">key</tspan><tspan class="g83s1">=</tspan><tspan class="g83s6">lambda</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">c</tspan><tspan class="g83s1">:</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">c</tspan><tspan class="g83s1">[</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">reverse</tspan><tspan class="g83s1">=</tspan><tspan class="g83s6">True</tspan><tspan class="g83s1">)</tspan></text>
+<text x="1096.0" y="444.0" xml:space="preserve" class="g83s18"><tspan class="g83s0">    </tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s0"> </tspan><tspan class="g83s44">keep</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">the</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">best</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">beam_size</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">remember</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">their</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">parents</tspan></text>
+<text x="1096.0" y="463.5" xml:space="preserve" class="g83s18"><tspan class="g83s0">    </tspan><tspan class="g83s6">self</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">_reorder_cache</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">cache</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">torch</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">tensor</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">parents</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">)</tspan></text>
+<text x="1096.0" y="483.0" xml:space="preserve" class="g83s18"><tspan class="g83s0">best</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s7">max</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">completed</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">or</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">beams</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">key</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">normalized</tspan><tspan class="g83s1">)</tspan></text>
+<rect x="34.0" y="519.5" width="1812.0" height="30.0" rx="6" class="g83s25"/>
+<path d="M38.50 520.21 A5.50 5.50 0 0 0 34.50 525.50 V543.50 A5.50 5.50 0 0 0 38.50 548.79 Z" class="g83s45"/>
+<text y="539.5" xml:space="preserve" class="g83s51"><tspan x="50.0" class="g83s3" textLength="126.4" lengthAdjust="spacing">A · The call stack — </tspan><tspan x="176.4" class="g83s2" textLength="32.2" lengthAdjust="spacing">cell 9</tspan><tspan x="208.5" class="g83s3" textLength="29.9" lengthAdjust="spacing"> into </tspan><tspan x="238.4" class="g83s2" textLength="32.2" lengthAdjust="spacing">cell 2</tspan></text>
+<text y="539.5" xml:space="preserve" class="g83s52"><tspan x="288.6" class="g83s2" textLength="73.2" lengthAdjust="spacing">steps 0 and 1</tspan><tspan x="361.8" textLength="57.5" lengthAdjust="spacing"> line by line</tspan></text>
+<text y="576.5" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600"><tspan x="34.0" class="g83s3" textLength="535.2" lengthAdjust="spacing">Order of execution — where the stack goes, cell by cell · each colour continues in the frames below</tspan></text>
+<rect x="34.0" y="585.5" width="589.3" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s1);stroke-width:1.4"/>
+<path d="M35.13 590.20 A6.30 6.30 0 0 1 41.00 586.20 H616.33 A6.30 6.30 0 0 1 622.20 590.20 Z" class="g83s65"/>
+<rect x="43.0" y="597.5" width="19.0" height="16.0" rx="4" class="g83s66"/>
+<text x="52.5" y="609.5" style="fill:var(--s1);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">1</text>
+<text x="68.0" y="609.5" class="g83s11">cell 9 · &lt;module&gt;</text>
+<text x="45.0" y="639.5" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 31</text>
+<line x1="626.3" y1="616.5" x2="637.3" y2="616.5" class="g83s67"/>
+<path d="M642.3 616.5 L635.5 619.6 L635.5 613.4 Z" class="g83s68"/>
+<rect x="645.3" y="585.5" width="589.3" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s2);stroke-width:1.4"/>
+<path d="M646.47 590.20 A6.30 6.30 0 0 1 652.33 586.20 H1227.67 A6.30 6.30 0 0 1 1233.53 590.20 Z" class="g83s26"/>
+<rect x="654.3" y="597.5" width="19.0" height="16.0" rx="4" class="g83s27"/>
+<text x="663.8" y="609.5" style="fill:var(--s2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">2</text>
+<text x="679.3" y="609.5" class="g83s11">cell 2 · beam_search</text>
+<text x="656.3" y="639.5" style="fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frames 32–38</text>
+<line x1="1237.7" y1="616.5" x2="1248.7" y2="616.5" class="g83s67"/>
+<path d="M1253.7 616.5 L1246.8 619.6 L1246.8 613.4 Z" class="g83s68"/>
+<rect x="1256.7" y="585.5" width="589.3" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s3);stroke-width:1.4"/>
+<path d="M1257.80 590.20 A6.30 6.30 0 0 1 1263.67 586.20 H1839.00 A6.30 6.30 0 0 1 1844.87 590.20 Z" class="g83s69"/>
+<rect x="1265.7" y="597.5" width="19.0" height="16.0" rx="4" class="g83s70"/>
+<text x="1275.2" y="609.5" style="fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">3</text>
+<text x="1290.7" y="609.5" class="g83s11">cell 9 · &lt;module&gt;</text>
+<text x="1267.7" y="639.5" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 39</text>
+<rect x="34.0" y="669.5" width="1812.0" height="118.0" rx="8" class="g83s71"/>
+<path d="M38.50 670.87 A7.50 7.50 0 0 0 34.50 677.50 V779.50 A7.50 7.50 0 0 0 38.50 786.13 Z" class="g83s45"/>
+<text x="52.0" y="689.5" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">How to read a frame</text>
+<text y="689.5" xml:space="preserve" class="g83s53"><tspan x="187.8" textLength="184.6" lengthAdjust="spacing">every frame below has these six parts</tspan></text>
+<rect x="52.0" y="699.0" width="22.0" height="17.0" rx="4" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.22"/>
+<text x="63.0" y="711.5" class="g83s21">7</text>
+<text x="52.0" y="745.0" class="g83s19">the order this line ran, counting from the top of the page</text>
+<text x="350.7" y="711.5" style="fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:start">cell 2 · EncoderLayer.forward</text>
+<text x="350.7" y="745.0" class="g83s19">the cell the line lives in and the function it sits inside — a stack</text>
+<text x="350.7" y="757.5" class="g83s19">moves from cell to cell. &lt;module&gt; means no function at all</text>
+<text x="649.3" y="711.5" xml:space="preserve" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px"><tspan class="g83s0">x</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">self</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">norm1</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">x</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">+</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">)</tspan></text>
+<text x="649.3" y="745.0" class="g83s19">the line of Python that actually ran, in the order it ran</text>
+<text x="948.0" y="711.5" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start">the similarity table</text>
+<text x="948.0" y="745.0" class="g83s19">the note on the right edge — a plain-language name for what</text>
+<text x="948.0" y="757.5" class="g83s19">this line achieves. Only the frames that matter most carry one</text>
+<rect x="1246.7" y="698.5" width="89.0" height="18.0" rx="4" style="fill:var(--cellbg);stroke:var(--grid);stroke-width:1"/>
+<text x="1291.2" y="711.3" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">(2, 4, 7, 7)</text>
+<rect x="1341.7" y="698.5" width="95.2" height="18.0" rx="4" style="fill:var(--codebg);stroke:none;stroke-width:1"/>
+<text x="1389.3" y="711.3" style="fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">torch.float32</text>
+<text x="1246.7" y="745.0" class="g83s19">the size of the tensor that line produced, and the kind of number</text>
+<text x="1246.7" y="757.5" class="g83s19">it holds</text>
+<rect x="1545.3" y="698.5" width="44.0" height="18.0" rx="4" class="g83s72"/>
+<text x="1567.3" y="711.5" style="fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ A</text>
+<rect x="1595.3" y="698.5" width="44.0" height="18.0" rx="4" class="g83s73"/>
+<text x="1617.3" y="711.5" style="fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ B</text>
+<text x="1545.3" y="745.0" class="g83s19">right of the dashed line: that tensor&#x27;s real values, both sentences</text>
+<text x="1545.3" y="757.5" class="g83s19">at once</text>
+<rect x="34.0" y="801.5" width="1812.0" height="65.0" rx="8" class="g83s46"/>
+<path d="M39.55 802.46 A7.45 7.45 0 0 0 34.55 809.50 V858.50 A7.45 7.45 0 0 0 39.55 865.54 Z" class="g83s65"/>
+<rect x="44.0" y="811.0" width="22.0" height="17.0" rx="4" class="g83s66"/>
+<text x="55.0" y="823.5" class="g83s21">31</text>
+<text x="72.0" y="823.5" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">cell 9 · &lt;module&gt;</text>
+<text x="720.0" y="852.0" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">31</text>
+<text x="72.0" y="841.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">beam</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">model</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">beam_search</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">src</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">SOS</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">EOS</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">beam_size</tspan><tspan class="g83s1">=</tspan><tspan class="g83s10">4</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">max_len</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">MAX_SEQ_LEN</tspan><tspan class="g83s1">)</tspan></text>
+<line x1="736.0" y1="811.5" x2="736.0" y2="856.5" class="g83s20"/>
+<rect x="60.0" y="876.5" width="1786.0" height="98.0" rx="8" class="g83s46"/>
+<path d="M65.55 877.46 A7.45 7.45 0 0 0 60.55 884.50 V966.50 A7.45 7.45 0 0 0 65.55 973.54 Z" class="g83s26"/>
+<rect x="70.0" y="886.0" width="22.0" height="17.0" rx="4" class="g83s27"/>
+<text x="81.0" y="898.5" class="g83s21">32</text>
+<text x="98.0" y="898.5" class="g83s31">cell 2 · Transformer.beam_search</text>
+<text x="720.0" y="943.5" class="g83s54">32</text>
+<text x="98.0" y="916.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">beams</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">(</tspan><tspan class="g83s1">[</tspan><tspan class="g83s0">sos_idx</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s10">0.0</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">]</tspan><tspan class="g83s0">        </tspan><tspan class="g83s35"># (token ids, total log-prob)</tspan></text>
+<text x="98.0" y="933.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">cache</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">{</tspan><tspan class="g83s1">}</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">for</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">_</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">in</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">self</tspan><tspan class="g83s1">.</tspan><tspan class="g83s44">decoder_layers</tspan><tspan class="g83s1">]</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">if</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">use_cache</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">else</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">None</tspan></text>
+<rect x="196.4" y="945.1" width="37.5" height="14.0" rx="3" class="g83s55"/>
+<text y="955.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="98.4" lengthAdjust="spacing">One beam to start: </tspan><tspan x="198.9" class="g83s56" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="234.0" textLength="101.6" lengthAdjust="spacing"> with log-probability </tspan><tspan x="335.6" class="g83s2">0</tspan><tspan x="342.4">.</tspan></text>
+<line x1="736.0" y1="886.5" x2="736.0" y2="964.5" class="g83s20"/>
+<rect x="60.0" y="984.5" width="1786.0" height="148.0" rx="8" class="g83s47"/>
+<path d="M65.75 985.61 A7.25 7.25 0 0 0 60.75 992.50 V1124.50 A7.25 7.25 0 0 0 65.75 1131.39 Z" class="g83s26"/>
+<rect x="70.0" y="994.0" width="22.0" height="17.0" rx="4" class="g83s27"/>
+<text x="81.0" y="1006.5" class="g83s21">33</text>
+<text x="98.0" y="1006.5" class="g83s31">cell 2 · Transformer.beam_search</text>
+<text y="1006.5" xml:space="preserve" class="g83s36"><tspan x="691.1" class="g83s74" textLength="28.9" lengthAdjust="spacing">step 0</tspan></text>
+<text x="720.0" y="1076.5" class="g83s48">33</text>
+<text x="98.0" y="1024.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">logits</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">self</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">decode</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">seqs</tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">:</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">-</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">:</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">enc_n</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">mask_n</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">None</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">cache</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">cache</tspan><tspan class="g83s1">,</tspan></text>
+<text x="98.0" y="1041.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">    </tspan><tspan class="g83s0">start_pos</tspan><tspan class="g83s1">=</tspan><tspan class="g83s10">0</tspan><tspan class="g83s1">)</tspan></text>
+<text x="98.0" y="1058.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">log_probs</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">torch</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">log_softmax</tspan><tspan class="g83s1">(</tspan><tspan class="g83s6">self</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">_block_special</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">logits</tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">:</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">-</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">,</tspan></text>
+<text x="98.0" y="1075.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">    </tspan><tspan class="g83s1">:</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">float</tspan><tspan class="g83s1">(</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">sos_idx</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">dim</tspan><tspan class="g83s1">=</tspan><tspan class="g83s1">-</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">)</tspan></text>
+<text y="1097.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="132.3" lengthAdjust="spacing">One beam, so one row of </tspan><tspan x="230.3" class="g83s2" textLength="37.3" lengthAdjust="spacing">16,111</tspan><tspan x="267.6" textLength="354.1" lengthAdjust="spacing"> log-probabilities. Its four best tokens become the four beams — each</tspan></text>
+<text y="1113.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="76.1" lengthAdjust="spacing">carrying about </tspan><tspan x="174.1" class="g83s28" textLength="78.1" lengthAdjust="spacing">ln(1/16,111)</tspan><tspan x="252.2"> ≈ </tspan><tspan x="265.4" class="g83s2" textLength="24.3" lengthAdjust="spacing">−9.7</tspan><tspan x="289.7" textLength="60.7" lengthAdjust="spacing"> plus a little.</tspan></text>
+<line x1="736.0" y1="994.5" x2="736.0" y2="1122.5" class="g83s20"/>
+<rect x="750.0" y="998.5" width="1082.0" height="24.0" rx="4" class="g83s25"/>
+<text y="1014.5" xml:space="preserve" class="g83s14"><tspan x="759.0" class="g83s3" textLength="51.3" lengthAdjust="spacing">new beam</tspan></text>
+<text y="1014.5" xml:space="preserve" class="g83s14"><tspan x="975.4" class="g83s3" textLength="27.2" lengthAdjust="spacing">token</tspan></text>
+<text y="1014.5" xml:space="preserve" class="g83s14"><tspan x="1408.2" class="g83s3" textLength="40.8" lengthAdjust="spacing">log-prob</tspan></text>
+<text y="1014.5" xml:space="preserve" class="g83s14"><tspan x="1624.6" class="g83s3" textLength="31.6" lengthAdjust="spacing">parent</tspan></text>
+<text y="1037.4" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">0</tspan></text>
+<text x="975.4" y="1037.4" class="g83s15">rences_</text>
+<text y="1037.4" xml:space="preserve" class="g83s4"><tspan x="1408.2" class="g83s2" textLength="31.6" lengthAdjust="spacing">-8.726</tspan></text>
+<text y="1037.4" xml:space="preserve" class="g83s4"><tspan x="1624.6" class="g83s2">0</tspan></text>
+<line x1="750.0" y1="1045.2" x2="1832.0" y2="1045.2" class="g83s5"/>
+<rect x="750.0" y="1045.2" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text y="1060.1" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">1</tspan></text>
+<text x="975.4" y="1060.1" class="g83s15">moreover_</text>
+<text y="1060.1" xml:space="preserve" class="g83s4"><tspan x="1408.2" class="g83s2" textLength="31.6" lengthAdjust="spacing">-8.796</tspan></text>
+<text y="1060.1" xml:space="preserve" class="g83s4"><tspan x="1624.6" class="g83s2">0</tspan></text>
+<line x1="750.0" y1="1067.9" x2="1832.0" y2="1067.9" class="g83s5"/>
+<text y="1082.8" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">2</tspan></text>
+<text x="975.4" y="1082.8" class="g83s15">reform</text>
+<text y="1082.8" xml:space="preserve" class="g83s4"><tspan x="1408.2" class="g83s2" textLength="31.6" lengthAdjust="spacing">-8.832</tspan></text>
+<text y="1082.8" xml:space="preserve" class="g83s4"><tspan x="1624.6" class="g83s2">0</tspan></text>
+<line x1="750.0" y1="1090.6" x2="1832.0" y2="1090.6" class="g83s5"/>
+<rect x="750.0" y="1090.6" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text y="1105.5" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">3</tspan></text>
+<text x="975.4" y="1105.5" class="g83s15">rationale_</text>
+<text y="1105.5" xml:space="preserve" class="g83s4"><tspan x="1408.2" class="g83s2" textLength="31.6" lengthAdjust="spacing">-8.853</tspan></text>
+<text y="1105.5" xml:space="preserve" class="g83s4"><tspan x="1624.6" class="g83s2">0</tspan></text>
+<line x1="750.0" y1="1113.3" x2="1832.0" y2="1113.3" class="g83s5"/>
+<rect x="750.0" y="1022.5" width="1082.0" height="90.8" rx="0" class="g83s37"/>
+<line x1="966.4" y1="1022.5" x2="966.4" y2="1113.3" class="g83s5"/>
+<line x1="1399.2" y1="1022.5" x2="1399.2" y2="1113.3" class="g83s5"/>
+<line x1="1615.6" y1="1022.5" x2="1615.6" y2="1113.3" class="g83s5"/>
+<rect x="60.0" y="1142.5" width="1786.0" height="114.0" rx="8" class="g83s47"/>
+<path d="M65.75 1143.61 A7.25 7.25 0 0 0 60.75 1150.50 V1248.50 A7.25 7.25 0 0 0 65.75 1255.39 Z" class="g83s26"/>
+<rect x="70.0" y="1152.0" width="22.0" height="17.0" rx="4" class="g83s27"/>
+<text x="81.0" y="1164.5" class="g83s21">34</text>
+<text x="98.0" y="1164.5" class="g83s31">cell 2 · Transformer.beam_search</text>
+<text y="1164.5" xml:space="preserve" class="g83s36"><tspan x="586.3" class="g83s3" textLength="133.7" lengthAdjust="spacing">the cache follows the beams</tspan></text>
+<text x="720.0" y="1217.5" class="g83s48">34</text>
+<text x="98.0" y="1182.5" xml:space="preserve" class="g83s8"><tspan class="g83s6">self</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">_reorder_cache</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">cache</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">torch</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">tensor</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">parents</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">)</tspan><tspan class="g83s0">        </tspan><tspan class="g83s35"># parents = [0,</tspan></text>
+<text x="98.0" y="1199.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">    </tspan><tspan class="g83s10">0</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s10">0</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s10">0</tspan><tspan class="g83s1">]</tspan></text>
+<text y="1221.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="205.8" lengthAdjust="spacing">All four new beams grew from old beam </tspan><tspan x="303.8" class="g83s2">0</tspan><tspan x="310.6" textLength="21.7" lengthAdjust="spacing">, so </tspan><tspan x="332.3" class="g83s28" textLength="188.7" lengthAdjust="spacing">index_select(0, [0, 0, 0, 0])</tspan><tspan x="521.0" textLength="118.9" lengthAdjust="spacing"> copies its cached rows</tspan></text>
+<text y="1237.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="53.7" lengthAdjust="spacing">four times.</tspan></text>
+<line x1="736.0" y1="1152.5" x2="736.0" y2="1246.5" class="g83s20"/>
+<rect x="750.0" y="1156.5" width="1082.0" height="24.0" rx="4" class="g83s25"/>
+<text y="1172.5" xml:space="preserve" class="g83s14"><tspan x="759.0" class="g83s3" textLength="29.7" lengthAdjust="spacing">cache</tspan></text>
+<text y="1172.5" xml:space="preserve" class="g83s14"><tspan x="1191.8" class="g83s3" textLength="31.6" lengthAdjust="spacing">before</tspan></text>
+<text y="1172.5" xml:space="preserve" class="g83s14"><tspan x="1462.3" class="g83s3" textLength="25.4" lengthAdjust="spacing">after </tspan><tspan x="1487.7" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)" textLength="172.3" lengthAdjust="spacing">index_select(0, [0, 0, 0, 0])</tspan></text>
+<text y="1195.4" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s3" textLength="66.8" lengthAdjust="spacing">self-attention </tspan><tspan x="825.8" class="g83s49">K</tspan><tspan x="831.8" class="g83s3">, </tspan><tspan x="837.9" class="g83s49">V</tspan><tspan x="843.9" class="g83s3" textLength="61.8" lengthAdjust="spacing"> (each layer)</tspan></text>
+<text y="1195.4" xml:space="preserve" class="g83s4"><tspan x="1191.8" class="g83s2">1</tspan><tspan x="1198.0" textLength="41.3" lengthAdjust="spacing"> beam × </tspan><tspan x="1239.3" class="g83s2" textLength="47.6" lengthAdjust="spacing">1 position</tspan></text>
+<text y="1195.4" xml:space="preserve" class="g83s4"><tspan x="1462.3" class="g83s2">4</tspan><tspan x="1468.5" textLength="46.6" lengthAdjust="spacing"> beams × </tspan><tspan x="1515.1" class="g83s2" textLength="47.6" lengthAdjust="spacing">1 position</tspan></text>
+<line x1="750.0" y1="1203.2" x2="1832.0" y2="1203.2" class="g83s5"/>
+<rect x="750.0" y="1203.2" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text y="1218.1" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s3" textLength="76.1" lengthAdjust="spacing">cross-attention </tspan><tspan x="835.1" class="g83s49">K</tspan><tspan x="841.0" class="g83s3">, </tspan><tspan x="847.2" class="g83s49">V</tspan><tspan x="853.2" class="g83s3" textLength="61.8" lengthAdjust="spacing"> (each layer)</tspan></text>
+<text y="1218.1" xml:space="preserve" class="g83s4"><tspan x="1191.8" class="g83s2">1</tspan><tspan x="1198.0" textLength="41.3" lengthAdjust="spacing"> beam × </tspan><tspan x="1239.3" class="g83s2" textLength="53.2" lengthAdjust="spacing">6 positions</tspan></text>
+<text y="1218.1" xml:space="preserve" class="g83s4"><tspan x="1462.3" class="g83s2">4</tspan><tspan x="1468.5" textLength="46.6" lengthAdjust="spacing"> beams × </tspan><tspan x="1515.1" class="g83s2" textLength="53.2" lengthAdjust="spacing">6 positions</tspan></text>
+<line x1="750.0" y1="1225.9" x2="1832.0" y2="1225.9" class="g83s5"/>
+<rect x="750.0" y="1180.5" width="1082.0" height="45.4" rx="0" class="g83s37"/>
+<line x1="1182.8" y1="1180.5" x2="1182.8" y2="1225.9" class="g83s5"/>
+<line x1="1453.3" y1="1180.5" x2="1453.3" y2="1225.9" class="g83s5"/>
+<rect x="60.0" y="1266.5" width="1786.0" height="277.0" rx="8" class="g83s47"/>
+<path d="M65.75 1267.61 A7.25 7.25 0 0 0 60.75 1274.50 V1535.50 A7.25 7.25 0 0 0 65.75 1542.39 Z" class="g83s26"/>
+<rect x="70.0" y="1276.0" width="22.0" height="17.0" rx="4" class="g83s27"/>
+<text x="81.0" y="1288.5" class="g83s21">35</text>
+<text x="98.0" y="1288.5" class="g83s31">cell 2 · Transformer.beam_search</text>
+<text y="1288.5" xml:space="preserve" class="g83s36"><tspan x="691.1" class="g83s74" textLength="28.9" lengthAdjust="spacing">step 1</tspan></text>
+<text x="720.0" y="1423.0" class="g83s48">35</text>
+<text x="98.0" y="1306.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">logits</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">self</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">decode</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">seqs</tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">:</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">-</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">:</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">enc_n</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">mask_n</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">None</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">cache</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">cache</tspan><tspan class="g83s1">,</tspan></text>
+<text x="98.0" y="1323.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">    </tspan><tspan class="g83s0">start_pos</tspan><tspan class="g83s1">=</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">)</tspan></text>
+<text x="98.0" y="1340.5" xml:space="preserve" class="g83s8"><tspan class="g83s6">for</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">i</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">seq</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">score</tspan><tspan class="g83s1">)</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">in</tspan><tspan class="g83s0"> </tspan><tspan class="g83s7">enumerate</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">beams</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">:</tspan></text>
+<text x="98.0" y="1357.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">    </tspan><tspan class="g83s0">top_lp</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">top_ids</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">log_probs</tspan><tspan class="g83s1">[</tspan><tspan class="g83s0">i</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">topk</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">beam_size</tspan><tspan class="g83s1">)</tspan></text>
+<text y="1379.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="344.5" lengthAdjust="spacing">Four beams, each feeding only its newest token. Each proposes its </tspan><tspan x="442.5" class="g83s2" textLength="72.5" lengthAdjust="spacing">4 best tokens</tspan><tspan x="515.0">: </tspan><tspan x="521.4" class="g83s2" textLength="13.6" lengthAdjust="spacing">16</tspan><tspan x="535.0" textLength="99.7" lengthAdjust="spacing"> candidates, scored</tspan></text>
+<text y="1395.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="366.6" lengthAdjust="spacing">by TOTAL log-probability (its beam’s score plus the new token’s). The </tspan><tspan x="464.6" class="g83s2" textLength="13.6" lengthAdjust="spacing">10</tspan><tspan x="478.2" textLength="28.1" lengthAdjust="spacing"> best:</tspan></text>
+<line x1="736.0" y1="1276.5" x2="736.0" y2="1533.5" class="g83s20"/>
+<rect x="750.0" y="1280.5" width="1082.0" height="24.0" rx="4" class="g83s25"/>
+<text y="1296.5" xml:space="preserve" class="g83s14"><tspan x="759.0" class="g83s3" textLength="31.6" lengthAdjust="spacing">parent</tspan></text>
+<text y="1296.5" xml:space="preserve" class="g83s14"><tspan x="932.1" class="g83s3" textLength="61.3" lengthAdjust="spacing">token added</tspan></text>
+<text y="1296.5" xml:space="preserve" class="g83s14"><tspan x="1386.6" class="g83s3" textLength="65.0" lengthAdjust="spacing">total log-prob</tspan></text>
+<text y="1319.4" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">0</tspan></text>
+<text x="932.1" y="1319.4" class="g83s15">rences_</text>
+<text y="1319.4" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-16.914</tspan></text>
+<text y="1319.4" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="19.8" lengthAdjust="spacing">kept</tspan></text>
+<line x1="750.0" y1="1327.2" x2="1832.0" y2="1327.2" class="g83s5"/>
+<rect x="750.0" y="1327.2" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text y="1342.1" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">1</tspan></text>
+<text x="932.1" y="1342.1" class="g83s15">moreover_</text>
+<text y="1342.1" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-16.980</tspan></text>
+<text y="1342.1" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="19.8" lengthAdjust="spacing">kept</tspan></text>
+<line x1="750.0" y1="1349.9" x2="1832.0" y2="1349.9" class="g83s5"/>
+<text y="1364.8" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">2</tspan></text>
+<text x="932.1" y="1364.8" class="g83s15">reform</text>
+<text y="1364.8" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-17.074</tspan></text>
+<text y="1364.8" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="19.8" lengthAdjust="spacing">kept</tspan></text>
+<line x1="750.0" y1="1372.6" x2="1832.0" y2="1372.6" class="g83s5"/>
+<rect x="750.0" y="1372.6" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text y="1387.5" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">3</tspan></text>
+<text x="932.1" y="1387.5" class="g83s15">rationale_</text>
+<text y="1387.5" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-17.114</tspan></text>
+<text y="1387.5" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="19.8" lengthAdjust="spacing">kept</tspan></text>
+<line x1="750.0" y1="1395.3" x2="1832.0" y2="1395.3" class="g83s5"/>
+<text y="1410.2" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">2</tspan></text>
+<text x="932.1" y="1410.2" class="g83s15">rences_</text>
+<text y="1410.2" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-17.491</tspan></text>
+<text y="1410.2" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="32.7" lengthAdjust="spacing">pruned</tspan></text>
+<line x1="750.0" y1="1418.0" x2="1832.0" y2="1418.0" class="g83s5"/>
+<rect x="750.0" y="1418.0" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text y="1432.9" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">0</tspan></text>
+<text x="932.1" y="1432.9" class="g83s15">else_</text>
+<text y="1432.9" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-17.534</tspan></text>
+<text y="1432.9" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="32.7" lengthAdjust="spacing">pruned</tspan></text>
+<line x1="750.0" y1="1440.7" x2="1832.0" y2="1440.7" class="g83s5"/>
+<text y="1455.6" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">1</tspan></text>
+<text x="932.1" y="1455.6" class="g83s15">rences_</text>
+<text y="1455.6" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-17.547</tspan></text>
+<text y="1455.6" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="32.7" lengthAdjust="spacing">pruned</tspan></text>
+<line x1="750.0" y1="1463.4" x2="1832.0" y2="1463.4" class="g83s5"/>
+<rect x="750.0" y="1463.4" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text y="1478.3" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">0</tspan></text>
+<text x="932.1" y="1478.3" class="g83s15">moreover_</text>
+<text y="1478.3" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-17.565</tspan></text>
+<text y="1478.3" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="32.7" lengthAdjust="spacing">pruned</tspan></text>
+<line x1="750.0" y1="1486.1" x2="1832.0" y2="1486.1" class="g83s5"/>
+<text y="1501.0" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">0</tspan></text>
+<text x="932.1" y="1501.0" class="g83s15">organisms_</text>
+<text y="1501.0" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-17.572</tspan></text>
+<text y="1501.0" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="32.7" lengthAdjust="spacing">pruned</tspan></text>
+<line x1="750.0" y1="1508.8" x2="1832.0" y2="1508.8" class="g83s5"/>
+<rect x="750.0" y="1508.8" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text y="1523.7" xml:space="preserve" class="g83s16"><tspan x="759.0" class="g83s2">2</tspan></text>
+<text x="932.1" y="1523.7" class="g83s15">else_</text>
+<text y="1523.7" xml:space="preserve" class="g83s4"><tspan x="1386.6" class="g83s2" textLength="37.7" lengthAdjust="spacing">-17.594</tspan></text>
+<text y="1523.7" xml:space="preserve" class="g83s4"><tspan x="1646.2" textLength="32.7" lengthAdjust="spacing">pruned</tspan></text>
+<line x1="750.0" y1="1531.5" x2="1832.0" y2="1531.5" class="g83s5"/>
+<rect x="750.0" y="1304.5" width="1082.0" height="227.0" rx="0" class="g83s37"/>
+<line x1="923.1" y1="1304.5" x2="923.1" y2="1531.5" class="g83s5"/>
+<line x1="1377.6" y1="1304.5" x2="1377.6" y2="1531.5" class="g83s5"/>
+<line x1="1637.2" y1="1304.5" x2="1637.2" y2="1531.5" class="g83s5"/>
+<rect x="60.0" y="1553.5" width="1786.0" height="114.0" rx="8" class="g83s46"/>
+<path d="M65.55 1554.46 A7.45 7.45 0 0 0 60.55 1561.50 V1659.50 A7.45 7.45 0 0 0 65.55 1666.54 Z" class="g83s26"/>
+<rect x="70.0" y="1563.0" width="22.0" height="17.0" rx="4" class="g83s27"/>
+<text x="81.0" y="1575.5" class="g83s21">36</text>
+<text x="98.0" y="1575.5" class="g83s31">cell 2 · Transformer.beam_search</text>
+<text x="720.0" y="1628.5" class="g83s54">36</text>
+<text x="98.0" y="1593.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">candidates</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">sort</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">key</tspan><tspan class="g83s1">=</tspan><tspan class="g83s6">lambda</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">c</tspan><tspan class="g83s1">:</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">c</tspan><tspan class="g83s1">[</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">reverse</tspan><tspan class="g83s1">=</tspan><tspan class="g83s6">True</tspan><tspan class="g83s1">)</tspan></text>
+<text x="98.0" y="1610.5" xml:space="preserve" class="g83s8"><tspan class="g83s0">beams</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">parents</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">]</tspan><tspan class="g83s0">   </tspan><tspan class="g83s35"># … the best 4 that are not &lt;EOS&gt;</tspan></text>
+<text y="1632.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="47.9" lengthAdjust="spacing">The best </tspan><tspan x="145.9" class="g83s2">4</tspan><tspan x="152.7" textLength="46.0" lengthAdjust="spacing"> survive, </tspan><tspan x="198.7" class="g83s2" textLength="13.6" lengthAdjust="spacing">12</tspan><tspan x="212.3" textLength="412.8" lengthAdjust="spacing"> are pruned. Untrained, each beam’s best continuation is its own token again, so</tspan></text>
+<text y="1648.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="83.7" lengthAdjust="spacing">the parents are [</tspan><tspan x="181.7" class="g83s2">0</tspan><tspan x="188.5">, </tspan><tspan x="194.9" class="g83s2">1</tspan><tspan x="201.7">, </tspan><tspan x="208.1" class="g83s2">2</tspan><tspan x="214.9">, </tspan><tspan x="221.3" class="g83s2">3</tspan><tspan x="228.0" textLength="257.6" lengthAdjust="spacing">] and the reorder copies nothing new — deep dive </tspan><tspan x="485.6" class="g83s2">2</tspan><tspan x="492.4" textLength="143.2" lengthAdjust="spacing"> draws a step where it does.</tspan></text>
+<line x1="736.0" y1="1563.5" x2="736.0" y2="1657.5" class="g83s20"/>
+<rect x="60.0" y="1677.5" width="1786.0" height="158.6" rx="8" class="g83s47"/>
+<path d="M65.75 1678.61 A7.25 7.25 0 0 0 60.75 1685.50 V1828.10 A7.25 7.25 0 0 0 65.75 1834.99 Z" class="g83s26"/>
+<rect x="70.0" y="1687.0" width="22.0" height="17.0" rx="4" class="g83s27"/>
+<text x="81.0" y="1699.5" class="g83s21">37</text>
+<text x="98.0" y="1699.5" class="g83s31">cell 2 · Transformer.beam_search</text>
+<text y="1699.5" xml:space="preserve" class="g83s36"><tspan x="661.7" class="g83s3" textLength="58.3" lengthAdjust="spacing">the overtake</tspan></text>
+<text x="720.0" y="1774.8" class="g83s48">37</text>
+<text x="98.0" y="1717.5" xml:space="preserve" class="g83s8"><tspan class="g83s35"># steps 2, 3, 4: the same, four beams at a time</tspan></text>
+<text y="1739.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="265.3" lengthAdjust="spacing">The four beams after each traced step, best first. At </tspan><tspan x="363.3" class="g83s2" textLength="33.2" lengthAdjust="spacing">step 4</tspan><tspan x="396.5" textLength="174.7" lengthAdjust="spacing"> the order changes: “moreover” ×</tspan><tspan x="571.2" class="g83s2">5</tspan><tspan x="578.0" textLength="59.5" lengthAdjust="spacing"> edges past</tspan></text>
+<text y="1755.5" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="58.4" lengthAdjust="spacing">“rences” ×</tspan><tspan x="156.4" class="g83s2">5</tspan><tspan x="163.2" textLength="150.2" lengthAdjust="spacing">, the path greedy takes — by </tspan><tspan x="313.4" class="g83s2" textLength="30.5" lengthAdjust="spacing">0.030</tspan><tspan x="343.9" textLength="90.1" lengthAdjust="spacing"> in log-probability.</tspan></text>
+<line x1="736.0" y1="1687.5" x2="736.0" y2="1826.1" class="g83s20"/>
+<rect x="750.0" y="1691.5" width="1082.0" height="24.0" rx="4" class="g83s25"/>
+<text y="1707.5" xml:space="preserve" class="g83s14"><tspan x="759.0" class="g83s3" textLength="21.0" lengthAdjust="spacing">step</tspan></text>
+<text y="1707.5" xml:space="preserve" class="g83s14"><tspan x="845.6" class="g83s3" textLength="14.8" lengthAdjust="spacing">1st</tspan></text>
+<text y="1707.5" xml:space="preserve" class="g83s14"><tspan x="1094.4" class="g83s3" textLength="18.6" lengthAdjust="spacing">2nd</tspan></text>
+<text y="1707.5" xml:space="preserve" class="g83s14"><tspan x="1343.3" class="g83s3" textLength="16.1" lengthAdjust="spacing">3rd</tspan></text>
+<text y="1707.5" xml:space="preserve" class="g83s14"><tspan x="1592.1" class="g83s3" textLength="15.5" lengthAdjust="spacing">4th</tspan></text>
+<text y="1729.7" xml:space="preserve" class="g83s38"><tspan x="759.0" class="g83s2">0</tspan></text>
+<text x="845.6" y="1729.7" class="g83s13">rences_ -8.726</text>
+<text x="1094.4" y="1729.7" class="g83s13">moreover_ -8.796</text>
+<text x="1343.3" y="1729.7" class="g83s13">reform -8.832</text>
+<text x="1592.1" y="1729.7" class="g83s13">rationale_ -8.853</text>
+<line x1="750.0" y1="1737.2" x2="1832.0" y2="1737.2" class="g83s5"/>
+<rect x="750.0" y="1737.2" width="1082.0" height="21.7" rx="0" class="g83s17"/>
+<text y="1751.4" xml:space="preserve" class="g83s38"><tspan x="759.0" class="g83s2">1</tspan></text>
+<text x="845.6" y="1751.4" class="g83s13">rences_ -16.914</text>
+<text x="1094.4" y="1751.4" class="g83s13">moreover_ -16.980</text>
+<text x="1343.3" y="1751.4" class="g83s13">reform -17.074</text>
+<text x="1592.1" y="1751.4" class="g83s13">rationale_ -17.114</text>
+<line x1="750.0" y1="1758.9" x2="1832.0" y2="1758.9" class="g83s5"/>
+<text y="1773.1" xml:space="preserve" class="g83s38"><tspan x="759.0" class="g83s2">2</tspan></text>
+<text x="845.6" y="1773.1" class="g83s13">rences_ -25.136</text>
+<text x="1094.4" y="1773.1" class="g83s13">moreover_ -25.188</text>
+<text x="1343.3" y="1773.1" class="g83s13">reform -25.322</text>
+<text x="1592.1" y="1773.1" class="g83s13">rationale_ -25.399</text>
+<line x1="750.0" y1="1780.7" x2="1832.0" y2="1780.7" class="g83s5"/>
+<rect x="750.0" y="1780.7" width="1082.0" height="21.7" rx="0" class="g83s17"/>
+<text y="1794.9" xml:space="preserve" class="g83s38"><tspan x="759.0" class="g83s2">3</tspan></text>
+<text x="845.6" y="1794.9" class="g83s13">rences_ -33.389</text>
+<text x="1094.4" y="1794.9" class="g83s13">moreover_ -33.407</text>
+<text x="1343.3" y="1794.9" class="g83s13">reform -33.574</text>
+<text x="1592.1" y="1794.9" class="g83s13">rationale_ -33.690</text>
+<line x1="750.0" y1="1802.4" x2="1832.0" y2="1802.4" class="g83s5"/>
+<text y="1816.6" xml:space="preserve" class="g83s38"><tspan x="759.0" class="g83s2">4</tspan></text>
+<text x="845.6" y="1816.6" class="g83s13">moreover_ -41.632</text>
+<text x="1094.4" y="1816.6" class="g83s13">rences_ -41.662</text>
+<text x="1343.3" y="1816.6" class="g83s13">reform -41.837</text>
+<text x="1592.1" y="1816.6" class="g83s13">rationale_ -41.977</text>
+<line x1="750.0" y1="1824.1" x2="1832.0" y2="1824.1" class="g83s5"/>
+<rect x="750.0" y="1715.5" width="1082.0" height="108.6" rx="0" class="g83s37"/>
+<line x1="836.6" y1="1715.5" x2="836.6" y2="1824.1" class="g83s5"/>
+<line x1="1085.4" y1="1715.5" x2="1085.4" y2="1824.1" class="g83s5"/>
+<line x1="1334.3" y1="1715.5" x2="1334.3" y2="1824.1" class="g83s5"/>
+<line x1="1583.1" y1="1715.5" x2="1583.1" y2="1824.1" class="g83s5"/>
+<rect x="60.0" y="1846.1" width="1786.0" height="164.0" rx="8" class="g83s46"/>
+<path d="M65.55 1847.06 A7.45 7.45 0 0 0 60.55 1854.10 V2002.10 A7.45 7.45 0 0 0 65.55 2009.14 Z" class="g83s26"/>
+<rect x="70.0" y="1855.6" width="22.0" height="17.0" rx="4" class="g83s27"/>
+<text x="81.0" y="1868.1" class="g83s21">38</text>
+<text x="98.0" y="1868.1" class="g83s31">cell 2 · Transformer.beam_search</text>
+<text x="720.0" y="1946.1" class="g83s54">38</text>
+<text x="98.0" y="1886.1" xml:space="preserve" class="g83s8"><tspan class="g83s0">completed</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">completed</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">or</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">beams</tspan></text>
+<text x="98.0" y="1903.1" xml:space="preserve" class="g83s8"><tspan class="g83s6">def</tspan><tspan class="g83s0"> </tspan><tspan class="g83s7">normalized</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">c</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">:</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">return</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">c</tspan><tspan class="g83s1">[</tspan><tspan class="g83s10">1</tspan><tspan class="g83s1">]</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">/</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">(</tspan><tspan class="g83s1">(</tspan><tspan class="g83s1">(</tspan><tspan class="g83s10">5</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">+</tspan><tspan class="g83s0"> </tspan><tspan class="g83s7">len</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">c</tspan><tspan class="g83s1">[</tspan><tspan class="g83s10">0</tspan><tspan class="g83s1">]</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">)</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">/</tspan><tspan class="g83s0"> </tspan><tspan class="g83s10">6</tspan><tspan class="g83s1">)</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">*</tspan><tspan class="g83s1">*</tspan></text>
+<text x="98.0" y="1920.1" xml:space="preserve" class="g83s8"><tspan class="g83s0">    </tspan><tspan class="g83s0">length_penalty</tspan><tspan class="g83s1">)</tspan></text>
+<text x="98.0" y="1937.1" xml:space="preserve" class="g83s8"><tspan class="g83s0">best</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s7">max</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">completed</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">key</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">normalized</tspan><tspan class="g83s1">)</tspan></text>
+<rect x="193.9" y="1948.8" width="37.5" height="14.0" rx="3" class="g83s55"/>
+<text y="1959.1" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="95.9" lengthAdjust="spacing">No beam has said </tspan><tspan x="196.4" class="g83s56" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="231.4" textLength="381.6" lengthAdjust="spacing">, so if the search stopped here the four live beams would be ranked. All are</tspan></text>
+<rect x="199.7" y="1964.8" width="37.5" height="14.0" rx="3" class="g83s55"/>
+<text y="1975.1" xml:space="preserve" class="g83s12"><tspan x="98.0" class="g83s2" textLength="46.1" lengthAdjust="spacing">6 tokens</tspan><tspan x="144.1" textLength="55.6" lengthAdjust="spacing"> long (with </tspan><tspan x="202.2" class="g83s56" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="237.2" textLength="287.0" lengthAdjust="spacing">), so the length penalty divides every score by the same </tspan><tspan x="524.2" class="g83s2" textLength="37.3" lengthAdjust="spacing">1.4386</tspan><tspan x="561.5" textLength="71.6" lengthAdjust="spacing"> and the order</tspan></text>
+<text y="1991.1" xml:space="preserve" class="g83s12"><tspan x="98.0" textLength="99.1" lengthAdjust="spacing">stands. (Deep dive </tspan><tspan x="197.1" class="g83s2">2</tspan><tspan x="203.9" textLength="242.9" lengthAdjust="spacing"> shows it reordering beams of different lengths.)</tspan></text>
+<line x1="736.0" y1="1856.1" x2="736.0" y2="2000.1" class="g83s20"/>
+<rect x="750.0" y="1860.1" width="1082.0" height="24.0" rx="4" class="g83s25"/>
+<text y="1876.1" xml:space="preserve" class="g83s14"><tspan x="759.0" class="g83s3" textLength="27.8" lengthAdjust="spacing">beam</tspan></text>
+<text y="1876.1" xml:space="preserve" class="g83s14"><tspan x="1191.8" class="g83s3" textLength="65.0" lengthAdjust="spacing">total log-prob</tspan></text>
+<text y="1876.1" xml:space="preserve" class="g83s14"><tspan x="1429.8" class="g83s3" textLength="30.3" lengthAdjust="spacing">length</tspan></text>
+<text y="1876.1" xml:space="preserve" class="g83s14"><tspan x="1581.3" class="g83s3" textLength="54.4" lengthAdjust="spacing">normalised</tspan></text>
+<text x="759.0" y="1899.0" class="g83s15">moreover_ moreover_ …</text>
+<text y="1899.0" xml:space="preserve" class="g83s4"><tspan x="1191.8" class="g83s2" textLength="37.7" lengthAdjust="spacing">-41.632</tspan></text>
+<text y="1899.0" xml:space="preserve" class="g83s4"><tspan x="1429.8" class="g83s2">6</tspan></text>
+<text y="1899.0" xml:space="preserve" class="g83s4"><tspan x="1581.3" class="g83s2" textLength="37.7" lengthAdjust="spacing">-28.939</tspan></text>
+<line x1="750.0" y1="1906.8" x2="1832.0" y2="1906.8" class="g83s5"/>
+<rect x="750.0" y="1906.8" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text x="759.0" y="1921.7" class="g83s15">rences_ rences_ …</text>
+<text y="1921.7" xml:space="preserve" class="g83s4"><tspan x="1191.8" class="g83s2" textLength="37.7" lengthAdjust="spacing">-41.662</tspan></text>
+<text y="1921.7" xml:space="preserve" class="g83s4"><tspan x="1429.8" class="g83s2">6</tspan></text>
+<text y="1921.7" xml:space="preserve" class="g83s4"><tspan x="1581.3" class="g83s2" textLength="37.7" lengthAdjust="spacing">-28.960</tspan></text>
+<line x1="750.0" y1="1929.5" x2="1832.0" y2="1929.5" class="g83s5"/>
+<text x="759.0" y="1944.4" class="g83s15">reform reform …</text>
+<text y="1944.4" xml:space="preserve" class="g83s4"><tspan x="1191.8" class="g83s2" textLength="37.7" lengthAdjust="spacing">-41.837</tspan></text>
+<text y="1944.4" xml:space="preserve" class="g83s4"><tspan x="1429.8" class="g83s2">6</tspan></text>
+<text y="1944.4" xml:space="preserve" class="g83s4"><tspan x="1581.3" class="g83s2" textLength="37.7" lengthAdjust="spacing">-29.081</tspan></text>
+<line x1="750.0" y1="1952.2" x2="1832.0" y2="1952.2" class="g83s5"/>
+<rect x="750.0" y="1952.2" width="1082.0" height="22.7" rx="0" class="g83s17"/>
+<text x="759.0" y="1967.1" class="g83s15">rationale_ rationale_ …</text>
+<text y="1967.1" xml:space="preserve" class="g83s4"><tspan x="1191.8" class="g83s2" textLength="37.7" lengthAdjust="spacing">-41.977</tspan></text>
+<text y="1967.1" xml:space="preserve" class="g83s4"><tspan x="1429.8" class="g83s2">6</tspan></text>
+<text y="1967.1" xml:space="preserve" class="g83s4"><tspan x="1581.3" class="g83s2" textLength="37.7" lengthAdjust="spacing">-29.179</tspan></text>
+<line x1="750.0" y1="1974.9" x2="1832.0" y2="1974.9" class="g83s5"/>
+<rect x="750.0" y="1884.1" width="1082.0" height="90.8" rx="0" class="g83s37"/>
+<line x1="1182.8" y1="1884.1" x2="1182.8" y2="1974.9" class="g83s5"/>
+<line x1="1420.8" y1="1884.1" x2="1420.8" y2="1974.9" class="g83s5"/>
+<line x1="1572.3" y1="1884.1" x2="1572.3" y2="1974.9" class="g83s5"/>
+<rect x="34.0" y="2020.1" width="1812.0" height="130.0" rx="8" style="fill:var(--infobg);stroke:var(--s3);stroke-width:1.5"/>
+<path d="M39.75 2021.21 A7.25 7.25 0 0 0 34.75 2028.10 V2142.10 A7.25 7.25 0 0 0 39.75 2148.99 Z" class="g83s69"/>
+<rect x="44.0" y="2029.6" width="22.0" height="17.0" rx="4" class="g83s70"/>
+<text x="55.0" y="2042.1" class="g83s21">39</text>
+<text x="72.0" y="2042.1" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">cell 9 · &lt;module&gt;</text>
+<text y="2042.1" xml:space="preserve" class="g83s36"><tspan x="572.7" class="g83s3" textLength="147.3" lengthAdjust="spacing">the cache must change nothing</tspan></text>
+<text x="720.0" y="2103.1" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18">39</text>
+<text x="72.0" y="2060.1" xml:space="preserve" class="g83s8"><tspan class="g83s6">for</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">use_cache</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">in</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">(</tspan><tspan class="g83s6">False</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">True</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">:</tspan></text>
+<text x="72.0" y="2077.1" xml:space="preserve" class="g83s8"><tspan class="g83s0">    </tspan><tspan class="g83s0">outs</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">[</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s0"> </tspan><tspan class="g83s44">model</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">beam_search</tspan><tspan class="g83s1">(</tspan><tspan class="g83s7">to_src</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">s</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">use_cache</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">use_cache</tspan><tspan class="g83s1">)</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">]</tspan></text>
+<text y="2099.1" xml:space="preserve" class="g83s12"><tspan x="72.0" class="g83s28" textLength="97.6" lengthAdjust="spacing">use_cache=False</tspan><tspan x="169.6" textLength="460.7" lengthAdjust="spacing"> runs the old way: every step, every beam’s whole sequence through the decoder with the</tspan></text>
+<text y="2115.1" xml:space="preserve" class="g83s12"><tspan x="72.0" textLength="117.6" lengthAdjust="spacing">causal mask. Over the </tspan><tspan x="189.6" class="g83s2" textLength="76.6" lengthAdjust="spacing">5 traced steps</tspan><tspan x="266.2" textLength="60.7" lengthAdjust="spacing"> of A that is </tspan><tspan x="326.9" class="g83s2" textLength="101.0" lengthAdjust="spacing">57 position passes</tspan><tspan x="427.9" textLength="43.5" lengthAdjust="spacing"> against </tspan><tspan x="471.3" class="g83s2" textLength="13.6" lengthAdjust="spacing">17</tspan><tspan x="484.9" textLength="121.5" lengthAdjust="spacing"> with the cache, and the</tspan></text>
+<text y="2131.1" xml:space="preserve" class="g83s12"><tspan x="72.0" textLength="280.0" lengthAdjust="spacing">log-probabilities agree to the last bit (largest difference </tspan><tspan x="352.0" class="g83s2">0</tspan><tspan x="358.7" textLength="216.7" lengthAdjust="spacing">) — so both runs choose the same beams.</tspan></text>
+<line x1="736.0" y1="2030.1" x2="736.0" y2="2140.1" class="g83s20"/>
+<rect x="750.0" y="2040.1" width="1082.0" height="54.0" rx="5" class="g83s63"/>
+<text x="759.0" y="2056.1" class="g83s57">beam search, use_cache=False: …s</text>
+<text x="759.0" y="2070.1" class="g83s57">beam search, use_cache=True : …s</text>
+<text x="759.0" y="2084.1" class="g83s57">identical results: True</text>
+<rect x="34.0" y="2164.1" width="1812.0" height="30.0" rx="6" class="g83s25"/>
+<path d="M38.50 2164.81 A5.50 5.50 0 0 0 34.50 2170.10 V2188.10 A5.50 5.50 0 0 0 38.50 2193.39 Z" class="g83s45"/>
+<text y="2184.1" xml:space="preserve" class="g83s51"><tspan x="50.0" class="g83s3" textLength="342.4" lengthAdjust="spacing">B · The search as a tree — beam search against greedy</tspan></text>
+<text y="2184.1" xml:space="preserve" class="g83s52"><tspan x="410.4" textLength="19.2" lengthAdjust="spacing">the </tspan><tspan x="429.5" class="g83s28" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="442.6" textLength="72.7" lengthAdjust="spacing"> model’s real </tspan><tspan x="515.3" class="g83s28" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="554.3" textLength="86.9" lengthAdjust="spacing"> for sequence A, </tspan><tspan x="641.3" class="g83s2" textLength="63.0" lengthAdjust="spacing">steps 0 to 4</tspan></text>
+<text y="2212.1" xml:space="preserve" class="g83s58"><tspan x="38.0" class="g83s3" textLength="115.2" lengthAdjust="spacing">How to read the tree</tspan></text>
+<text y="2230.1" xml:space="preserve" class="g83s32"><tspan x="38.0" textLength="725.5" lengthAdjust="spacing">Each column is a step; each box is a surviving beam’s newest token and the total log-probability of its whole sequence (higher is better, </tspan><tspan x="763.5" class="g83s2">0</tspan><tspan x="770.6" textLength="249.4" lengthAdjust="spacing"> is certain). Lines follow the parent pointers. At </tspan><tspan x="1020.0" class="g83s2" textLength="34.6" lengthAdjust="spacing">step 1</tspan><tspan x="1054.7" textLength="771.1" lengthAdjust="spacing"> the best of the pruned candidates are drawn grey. Orange is greedy: the single best token at every step. Green is the beam that is best when the</tspan></text>
+<text y="2247.5" xml:space="preserve" class="g83s32"><tspan x="38.0" textLength="483.5" lengthAdjust="spacing">trace ends — it started from the SECOND-best first token, which greedy discarded at once.</tspan></text>
+<rect x="38.0" y="2274.9" width="14.0" height="14.0" rx="3" style="fill:var(--cellbg);stroke:var(--drop);stroke-width:2.2"/>
+<text x="58.0" y="2286.4" class="g83s59">greedy’s path: the best token at every step</text>
+<rect x="295.9" y="2274.9" width="14.0" height="14.0" rx="3" style="fill:var(--cellbg);stroke:var(--keep);stroke-width:2.2"/>
+<text x="315.9" y="2286.4" class="g83s59">the best beam when the trace ends</text>
+<rect x="514.5" y="2274.9" width="14.0" height="14.0" rx="3" style="fill:var(--cellbg);stroke:var(--grid);stroke-width:2.2"/>
+<text x="534.5" y="2286.4" class="g83s59">scored, then pruned</text>
+<rect x="44.0" y="2324.9" width="176.0" height="38.0" rx="6" class="g83s33"/>
+<text x="54.0" y="2340.9" class="g83s11">&lt;SOS&gt;</text>
+<text x="54.0" y="2355.9" class="g83s9">start · log-prob 0</text>
+<line x1="220.0" y1="2343.9" x2="365.2" y2="2343.9" class="g83s39"/>
+<line x1="220.0" y1="2343.9" x2="365.2" y2="2399.9" class="g83s40"/>
+<line x1="220.0" y1="2343.9" x2="365.2" y2="2455.9" class="g83s22"/>
+<line x1="220.0" y1="2343.9" x2="365.2" y2="2511.9" class="g83s22"/>
+<rect x="365.2" y="2324.9" width="176.0" height="38.0" rx="6" class="g83s41"/>
+<text x="375.2" y="2340.9" class="g83s11">rences_</text>
+<text x="375.2" y="2355.9" class="g83s9">log-prob -8.726</text>
+<rect x="365.2" y="2380.9" width="176.0" height="38.0" rx="6" class="g83s33"/>
+<text x="375.2" y="2396.9" class="g83s11">moreover_</text>
+<text x="375.2" y="2411.9" class="g83s9">log-prob -8.796</text>
+<rect x="365.2" y="2436.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="375.2" y="2452.9" class="g83s11">reform</text>
+<text x="375.2" y="2467.9" class="g83s9">log-prob -8.832</text>
+<rect x="365.2" y="2492.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="375.2" y="2508.9" class="g83s11">rationale_</text>
+<text x="375.2" y="2523.9" class="g83s9">log-prob -8.853</text>
+<line x1="541.2" y1="2343.9" x2="686.4" y2="2343.9" class="g83s39"/>
+<line x1="541.2" y1="2399.9" x2="686.4" y2="2399.9" class="g83s40"/>
+<line x1="541.2" y1="2455.9" x2="686.4" y2="2455.9" class="g83s22"/>
+<line x1="541.2" y1="2511.9" x2="686.4" y2="2511.9" class="g83s22"/>
+<rect x="686.4" y="2324.9" width="176.0" height="38.0" rx="6" class="g83s41"/>
+<text x="696.4" y="2340.9" class="g83s11">rences_</text>
+<text x="696.4" y="2355.9" class="g83s9">log-prob -16.914</text>
+<rect x="686.4" y="2380.9" width="176.0" height="38.0" rx="6" class="g83s33"/>
+<text x="696.4" y="2396.9" class="g83s11">moreover_</text>
+<text x="696.4" y="2411.9" class="g83s9">log-prob -16.980</text>
+<rect x="686.4" y="2436.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="696.4" y="2452.9" class="g83s11">reform</text>
+<text x="696.4" y="2467.9" class="g83s9">log-prob -17.074</text>
+<rect x="686.4" y="2492.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="696.4" y="2508.9" class="g83s11">rationale_</text>
+<text x="696.4" y="2523.9" class="g83s9">log-prob -17.114</text>
+<line x1="541.2" y1="2455.9" x2="686.4" y2="2581.5" class="g83s29"/>
+<rect x="686.4" y="2568.5" width="176.0" height="26.0" rx="5" class="g83s30"/>
+<text x="695.4" y="2585.5" class="g83s9">rences_  -17.491</text>
+<line x1="541.2" y1="2343.9" x2="686.4" y2="2616.2" class="g83s29"/>
+<rect x="686.4" y="2603.2" width="176.0" height="26.0" rx="5" class="g83s30"/>
+<text x="695.4" y="2620.2" class="g83s9">else_  -17.534</text>
+<line x1="541.2" y1="2399.9" x2="686.4" y2="2650.9" class="g83s29"/>
+<rect x="686.4" y="2637.9" width="176.0" height="26.0" rx="5" class="g83s30"/>
+<text x="695.4" y="2654.9" class="g83s9">rences_  -17.547</text>
+<line x1="541.2" y1="2343.9" x2="686.4" y2="2685.7" class="g83s29"/>
+<rect x="686.4" y="2672.7" width="176.0" height="26.0" rx="5" class="g83s30"/>
+<text x="695.4" y="2689.7" class="g83s9">moreover_  -17.565</text>
+<line x1="541.2" y1="2343.9" x2="686.4" y2="2720.4" class="g83s29"/>
+<rect x="686.4" y="2707.4" width="176.0" height="26.0" rx="5" class="g83s30"/>
+<text x="695.4" y="2724.4" class="g83s9">organisms_  -17.572</text>
+<line x1="541.2" y1="2455.9" x2="686.4" y2="2755.1" class="g83s29"/>
+<rect x="686.4" y="2742.1" width="176.0" height="26.0" rx="5" class="g83s30"/>
+<text x="695.4" y="2759.1" class="g83s9">else_  -17.594</text>
+<line x1="541.2" y1="2399.9" x2="686.4" y2="2789.8" class="g83s29"/>
+<rect x="686.4" y="2776.8" width="176.0" height="26.0" rx="5" class="g83s30"/>
+<text x="695.4" y="2793.8" class="g83s9">supplem  -17.626</text>
+<line x1="541.2" y1="2511.9" x2="686.4" y2="2824.5" class="g83s29"/>
+<rect x="686.4" y="2811.5" width="176.0" height="26.0" rx="5" class="g83s30"/>
+<text x="695.4" y="2828.5" class="g83s9">rences_  -17.636</text>
+<text x="686.4" y="2858.3" class="g83s19">… 4 more of the 16 pruned</text>
+<line x1="862.4" y1="2343.9" x2="1007.6" y2="2343.9" class="g83s39"/>
+<line x1="862.4" y1="2399.9" x2="1007.6" y2="2399.9" class="g83s40"/>
+<line x1="862.4" y1="2455.9" x2="1007.6" y2="2455.9" class="g83s22"/>
+<line x1="862.4" y1="2511.9" x2="1007.6" y2="2511.9" class="g83s22"/>
+<rect x="1007.6" y="2324.9" width="176.0" height="38.0" rx="6" class="g83s41"/>
+<text x="1017.6" y="2340.9" class="g83s11">rences_</text>
+<text x="1017.6" y="2355.9" class="g83s9">log-prob -25.136</text>
+<rect x="1007.6" y="2380.9" width="176.0" height="38.0" rx="6" class="g83s33"/>
+<text x="1017.6" y="2396.9" class="g83s11">moreover_</text>
+<text x="1017.6" y="2411.9" class="g83s9">log-prob -25.188</text>
+<rect x="1007.6" y="2436.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="1017.6" y="2452.9" class="g83s11">reform</text>
+<text x="1017.6" y="2467.9" class="g83s9">log-prob -25.322</text>
+<rect x="1007.6" y="2492.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="1017.6" y="2508.9" class="g83s11">rationale_</text>
+<text x="1017.6" y="2523.9" class="g83s9">log-prob -25.399</text>
+<line x1="1183.6" y1="2343.9" x2="1328.8" y2="2343.9" class="g83s39"/>
+<line x1="1183.6" y1="2399.9" x2="1328.8" y2="2399.9" class="g83s40"/>
+<line x1="1183.6" y1="2455.9" x2="1328.8" y2="2455.9" class="g83s22"/>
+<line x1="1183.6" y1="2511.9" x2="1328.8" y2="2511.9" class="g83s22"/>
+<rect x="1328.8" y="2324.9" width="176.0" height="38.0" rx="6" class="g83s41"/>
+<text x="1338.8" y="2340.9" class="g83s11">rences_</text>
+<text x="1338.8" y="2355.9" class="g83s9">log-prob -33.389</text>
+<rect x="1328.8" y="2380.9" width="176.0" height="38.0" rx="6" class="g83s33"/>
+<text x="1338.8" y="2396.9" class="g83s11">moreover_</text>
+<text x="1338.8" y="2411.9" class="g83s9">log-prob -33.407</text>
+<rect x="1328.8" y="2436.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="1338.8" y="2452.9" class="g83s11">reform</text>
+<text x="1338.8" y="2467.9" class="g83s9">log-prob -33.574</text>
+<rect x="1328.8" y="2492.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="1338.8" y="2508.9" class="g83s11">rationale_</text>
+<text x="1338.8" y="2523.9" class="g83s9">log-prob -33.690</text>
+<line x1="1504.8" y1="2399.9" x2="1650.0" y2="2343.9" class="g83s40"/>
+<line x1="1504.8" y1="2343.9" x2="1650.0" y2="2399.9" class="g83s39"/>
+<line x1="1504.8" y1="2455.9" x2="1650.0" y2="2455.9" class="g83s22"/>
+<line x1="1504.8" y1="2511.9" x2="1650.0" y2="2511.9" class="g83s22"/>
+<rect x="1650.0" y="2324.9" width="176.0" height="38.0" rx="6" class="g83s33"/>
+<text x="1660.0" y="2340.9" class="g83s11">moreover_</text>
+<text x="1660.0" y="2355.9" class="g83s9">log-prob -41.632</text>
+<rect x="1650.0" y="2380.9" width="176.0" height="38.0" rx="6" class="g83s41"/>
+<text x="1660.0" y="2396.9" class="g83s11">rences_</text>
+<text x="1660.0" y="2411.9" class="g83s9">log-prob -41.662</text>
+<rect x="1650.0" y="2436.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="1660.0" y="2452.9" class="g83s11">reform</text>
+<text x="1660.0" y="2467.9" class="g83s9">log-prob -41.837</text>
+<rect x="1650.0" y="2492.9" width="176.0" height="38.0" rx="6" class="g83s23"/>
+<text x="1660.0" y="2508.9" class="g83s11">rationale_</text>
+<text x="1660.0" y="2523.9" class="g83s9">log-prob -41.977</text>
+<text x="132.0" y="2314.9" class="g83s34">start</text>
+<text x="453.2" y="2314.9" class="g83s34">step 0</text>
+<text x="774.4" y="2314.9" class="g83s34">step 1</text>
+<text x="1095.6" y="2314.9" class="g83s34">step 2</text>
+<text x="1416.8" y="2314.9" class="g83s34">step 3</text>
+<text x="1738.0" y="2314.9" class="g83s34">step 4</text>
+<rect x="34.0" y="2892.3" width="1812.0" height="30.0" rx="6" class="g83s25"/>
+<path d="M38.50 2892.97 A5.50 5.50 0 0 0 34.50 2898.26 V2916.26 A5.50 5.50 0 0 0 38.50 2921.55 Z" class="g83s45"/>
+<text y="2912.3" xml:space="preserve" class="g83s51"><tspan x="50.0" class="g83s3" textLength="145.5" lengthAdjust="spacing">C · What changed from </tspan><tspan x="195.5" class="g83s42" textLength="29.4" lengthAdjust="spacing">v1.5</tspan></text>
+<text y="2912.3" xml:space="preserve" class="g83s52"><tspan x="242.9" textLength="230.1" lengthAdjust="spacing">a search, and a check that the cache is exact</tspan></text>
+<rect x="52.0" y="2938.3" width="1794.0" height="195.9" rx="8" class="g83s75"/>
+<path d="M57.55 2939.22 A7.45 7.45 0 0 0 52.55 2946.26 V3126.16 A7.45 7.45 0 0 0 57.55 3133.20 Z" class="g83s43"/>
+<rect x="62.0" y="2947.8" width="32.0" height="17.0" rx="4" class="g83s76"/>
+<text x="78.0" y="2960.3" class="g83s77">v2</text>
+<text x="102.0" y="2960.3" class="g83s78">cell 9 · &lt;module&gt;</text>
+<rect x="618.0" y="2947.8" width="102.0" height="17.0" rx="8.5" class="g83s79"/>
+<text x="669.0" y="2959.8" class="g83s80">OUTPUT QUALITY</text>
+<text y="2960.3" xml:space="preserve" class="g83s81"><tspan x="389.4" class="g83s3" textLength="218.6" lengthAdjust="spacing">greedy, sampling and beam search, compared</tspan></text>
+<rect x="80.0" y="2972.3" width="640.0" height="48.1" rx="6" class="g83s82"/>
+<text x="90.0" y="2990.9" class="g83s83">v1.5</text>
+<text x="90.0" y="3003.9" class="g83s84">was</text>
+<text x="130.0" y="2990.9" xml:space="preserve" class="g83s8"><tspan class="g83s0">generated</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">attention</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">model</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">generate</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">src</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">sos_idx</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">SOS</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">eos_idx</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">EOS</tspan><tspan class="g83s1">,</tspan></text>
+<text x="130.0" y="3007.9" xml:space="preserve" class="g83s8"><tspan class="g83s0">    </tspan><tspan class="g83s0">max_len</tspan><tspan class="g83s1">=</tspan><tspan class="g83s10">15</tspan><tspan class="g83s1">)</tspan></text>
+<text x="90.0" y="3043.2" class="g83s85">v2</text>
+<text x="90.0" y="3056.2" class="g83s86">now</text>
+<text x="130.0" y="3043.2" xml:space="preserve" class="g83s8"><tspan class="g83s0">greedy</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">_</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">model</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">generate</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">src</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">SOS</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">EOS</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">max_len</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">MAX_SEQ_LEN</tspan><tspan class="g83s1">)</tspan></text>
+<text x="130.0" y="3060.2" xml:space="preserve" class="g83s8"><tspan class="g83s0">sampled</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">_</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">model</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">generate</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">src</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">temperature</tspan><tspan class="g83s1">=</tspan><tspan class="g83s10">0.8</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">top_k</tspan><tspan class="g83s1">=</tspan><tspan class="g83s10">5</tspan><tspan class="g83s1">)</tspan></text>
+<text x="130.0" y="3077.2" xml:space="preserve" class="g83s8"><tspan class="g83s0">beam</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">model</tspan><tspan class="g83s1">.</tspan><tspan class="g83s7">beam_search</tspan><tspan class="g83s1">(</tspan><tspan class="g83s0">src</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">SOS</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">EOS</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">beam_size</tspan><tspan class="g83s1">=</tspan><tspan class="g83s10">4</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">max_len</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0">MAX_SEQ_LEN</tspan><tspan class="g83s1">)</tspan></text>
+<text y="3099.2" xml:space="preserve" class="g83s12"><tspan x="130.0" class="g83s28" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="156.0" textLength="145.7" lengthAdjust="spacing"> could only decode greedily. </tspan><tspan x="301.8" class="g83s28" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="314.8" textLength="379.7" lengthAdjust="spacing"> compares three strategies on the same sentences, so the effect of each is</tspan></text>
+<text y="3115.2" xml:space="preserve" class="g83s12"><tspan x="130.0" textLength="321.5" lengthAdjust="spacing">visible side by side. The deep dives at the end take them apart.</tspan></text>
+<line x1="736.0" y1="2948.3" x2="736.0" y2="3124.2" class="g83s20"/>
+<rect x="52.0" y="3144.2" width="1794.0" height="191.1" rx="8" class="g83s75"/>
+<path d="M57.55 3145.12 A7.45 7.45 0 0 0 52.55 3152.16 V3327.26 A7.45 7.45 0 0 0 57.55 3334.30 Z" class="g83s43"/>
+<rect x="62.0" y="3153.7" width="32.0" height="17.0" rx="4" class="g83s76"/>
+<text x="78.0" y="3166.2" class="g83s77">v2</text>
+<text x="102.0" y="3166.2" class="g83s78">cell 9 · &lt;module&gt;</text>
+<rect x="627.9" y="3153.7" width="92.1" height="17.0" rx="8.5" class="g83s79"/>
+<text x="674.0" y="3165.7" class="g83s80">CORRECTNESS</text>
+<text y="3166.2" xml:space="preserve" class="g83s81"><tspan x="438.8" class="g83s3" textLength="179.1" lengthAdjust="spacing">a built-in check that the cache is exact</tspan></text>
+<rect x="80.0" y="3178.2" width="640.0" height="43.3" rx="6" class="g83s82"/>
+<text x="90.0" y="3196.8" class="g83s83">v1.5</text>
+<text x="90.0" y="3209.8" class="g83s84">was</text>
+<text x="130.0" y="3196.8" xml:space="preserve" class="g83s8"><tspan class="g83s35"># no check: the cache did not exist</tspan></text>
+<text x="90.0" y="3244.3" class="g83s85">v2</text>
+<text x="90.0" y="3257.3" class="g83s86">now</text>
+<text x="130.0" y="3244.3" xml:space="preserve" class="g83s8"><tspan class="g83s6">for</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">use_cache</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">in</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">(</tspan><tspan class="g83s6">False</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s6">True</tspan><tspan class="g83s1">)</tspan><tspan class="g83s1">:</tspan></text>
+<text x="130.0" y="3261.3" xml:space="preserve" class="g83s8"><tspan class="g83s0">    </tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan><tspan class="g83s1">.</tspan></text>
+<text x="130.0" y="3278.3" xml:space="preserve" class="g83s8"><tspan class="g83s7">print</tspan><tspan class="g83s1">(</tspan><tspan style="fill:var(--str)">&quot;identical results:&quot;</tspan><tspan class="g83s1">,</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">outs</tspan><tspan class="g83s0"> </tspan><tspan class="g83s1">=</tspan><tspan class="g83s1">=</tspan><tspan class="g83s0"> </tspan><tspan class="g83s0">reference</tspan><tspan class="g83s1">)</tspan></text>
+<text y="3300.3" xml:space="preserve" class="g83s12"><tspan x="130.0" textLength="565.7" lengthAdjust="spacing">A cache is an optimisation, and an optimisation must not change the answer. The notebook proves it on its own</tspan></text>
+<text y="3316.3" xml:space="preserve" class="g83s12"><tspan x="130.0" textLength="339.9" lengthAdjust="spacing">sentences every run; this page proves it on the untrained model’s </tspan><tspan x="469.9" class="g83s28" textLength="39.0" lengthAdjust="spacing">logits</tspan><tspan x="509.0">.</tspan></text>
+<line x1="736.0" y1="3154.2" x2="736.0" y2="3325.3" class="g83s20"/>
+<rect x="34.0" y="3349.3" width="1812.0" height="72.6" rx="6" style="fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1"/>
+<path d="M38.50 3349.97 A5.50 5.50 0 0 0 34.50 3355.26 V3415.82 A5.50 5.50 0 0 0 38.50 3421.11 Z" style="fill:var(--drop);stroke:none"/>
+<text y="3375.3" xml:space="preserve" class="g83s58"><tspan x="50.0" class="g83s3" textLength="164.7" lengthAdjust="spacing">A trained run dropped a word</tspan></text>
+<text y="3392.8" xml:space="preserve" class="g83s32"><tspan x="50.0" textLength="175.4" lengthAdjust="spacing">In a trained run of this notebook, </tspan><tspan x="225.4" class="g83s60" textLength="47.5" lengthAdjust="spacing">Beam(4)</tspan><tspan x="273.0" textLength="844.1" lengthAdjust="spacing"> decoded sequence B as &quot;the is sleeping peacefully&quot; — &quot;cat&quot; missing — while greedy and sampling were right. The cause is most likely the line if not beams or </tspan><tspan x="1117.0" class="g83s60" textLength="183.3" lengthAdjust="spacing">len(completed) &gt;= beam_size</tspan><tspan x="1300.4" textLength="406.8" lengthAdjust="spacing">: break, which can stop before the longest (right) answer finishes. Deep dive </tspan><tspan x="1707.2" class="g83s2">2</tspan><tspan x="1714.3" textLength="60.7" lengthAdjust="spacing">, section G,</tspan></text>
+<text y="3410.3" xml:space="preserve" class="g83s32"><tspan x="50.0" textLength="133.4" lengthAdjust="spacing">reproduces it and fixes it.</tspan></text>
+<rect x="34.0" y="3447.8" width="1812.0" height="72.6" rx="6" class="g83s61"/>
+<path d="M38.50 3448.53 A5.50 5.50 0 0 0 34.50 3453.82 V3514.38 A5.50 5.50 0 0 0 38.50 3519.67 Z" class="g83s43"/>
+<text y="3473.8" xml:space="preserve" class="g83s58"><tspan x="50.0" class="g83s3" textLength="33.2" lengthAdjust="spacing">What </tspan><tspan x="83.2" class="g83s60" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="96.8" class="g83s3" textLength="62.9" lengthAdjust="spacing"> gains here</tspan></text>
+<text y="3491.3" xml:space="preserve" class="g83s32"><tspan x="50.0" textLength="534.3" lengthAdjust="spacing">Better sentences from the same model: by keeping four candidates, beam search found a sequence </tspan><tspan x="584.3" class="g83s2" textLength="31.8" lengthAdjust="spacing">0.030</tspan><tspan x="616.1" textLength="1083.0" lengthAdjust="spacing"> more likely (in log-probability) than greedy’s after only five steps — here in an untrained model, and by much more in a trained one, where one early word decides the rest. The cache makes it affordable: </tspan><tspan x="1699.1" class="g83s2" textLength="105.3" lengthAdjust="spacing">17 position passes</tspan></text>
+<text y="3508.9" xml:space="preserve" class="g83s32"><tspan x="50.0" textLength="55.4" lengthAdjust="spacing">instead of </tspan><tspan x="105.4" class="g83s2" textLength="14.1" lengthAdjust="spacing">57</tspan><tspan x="119.5" textLength="318.1" lengthAdjust="spacing">, with a reorder that keeps every beam reading its own past.</tspan></text>
+<rect x="34.0" y="3542.4" width="1812.0" height="34.0" rx="6" class="g83s71"/>
+<rect x="48.0" y="3551.4" width="15.0" height="15.0" rx="3" class="g83s72"/>
+<text y="3562.4" xml:space="preserve" class="g83s87"><tspan x="70.0" textLength="256.7" lengthAdjust="spacing">sequence A — &quot;the dog sat on the floor&quot; (padded by </tspan><tspan x="326.7" class="g83s2">2</tspan><tspan x="333.2">)</tspan></text>
+<rect x="373.1" y="3551.4" width="15.0" height="15.0" rx="3" class="g83s73"/>
+<text y="3562.4" xml:space="preserve" class="g83s87"><tspan x="395.1" textLength="386.3" lengthAdjust="spacing">sequence B — &quot;the cat is sleeping on the sofa&quot; (no padding — it sets the width)</tspan></text>
+<line x1="28.0" y1="3602.4" x2="1852.0" y2="3602.4" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="3619.4" xml:space="preserve" class="g83s53"><tspan x="28.0" textLength="250.0" lengthAdjust="spacing">Every token id is the real one: the notebook’s own </tspan><tspan x="278.0" class="g83s24" textLength="74.7" lengthAdjust="spacing">BPETokenizer</tspan><tspan x="352.6"> (</tspan><tspan x="359.4" class="g83s2" textLength="27.2" lengthAdjust="spacing">cell 3</tspan><tspan x="386.6" textLength="86.8" lengthAdjust="spacing">), trained here on </tspan><tspan x="473.4" class="g83s2" textLength="27.2" lengthAdjust="spacing">cell 0</tspan><tspan x="500.6" textLength="81.2" lengthAdjust="spacing">’s word list with </tspan><tspan x="581.8" class="g83s2" textLength="27.2" lengthAdjust="spacing">cell 5</tspan><tspan x="609.0" textLength="707.9" lengthAdjust="spacing">’s counts. The notebook has never been run, so every weight is a seeded draw from its own initialisers — these are the numbers of an untrained </tspan><tspan x="1316.9" class="g83s24" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1329.3" textLength="205.4" lengthAdjust="spacing"> model, computed exactly in pure Python (</tspan><tspan x="1534.8" class="g83s24" textLength="68.5" lengthAdjust="spacing">d_model=512</tspan><tspan x="1603.2">, </tspan><tspan x="1609.3" class="g83s24" textLength="43.6" lengthAdjust="spacing">heads=4</tspan><tspan x="1652.9">, </tspan><tspan x="1659.0" class="g83s24" textLength="49.8" lengthAdjust="spacing">layers=2</tspan><tspan x="1708.8">, </tspan><tspan x="1714.9" class="g83s24" textLength="56.0" lengthAdjust="spacing">d_ff=2048</tspan><tspan x="1771.0">,</tspan></text>
+<text y="3634.4" xml:space="preserve" class="g83s53"><tspan x="28.0" class="g83s24" textLength="68.5" lengthAdjust="spacing">dropout=0.1</tspan><tspan x="96.5">, </tspan><tspan x="102.6" class="g83s24" textLength="62.2" lengthAdjust="spacing">vocabulary</tspan><tspan x="164.8"> </tspan><tspan x="167.9" class="g83s2" textLength="35.7" lengthAdjust="spacing">16,111</tspan><tspan x="203.5" textLength="9.8" lengthAdjust="spacing">). </tspan><tspan x="213.3" class="g83s24" textLength="24.9" lengthAdjust="spacing">v1.5</tspan><tspan x="238.2" textLength="137.0" lengthAdjust="spacing"> values are quoted from the </tspan><tspan x="375.2" class="g83s24" textLength="24.9" lengthAdjust="spacing">v1.5</tspan><tspan x="400.1" textLength="113.6" lengthAdjust="spacing"> notebook’s own code.</tspan></text>
+</svg>

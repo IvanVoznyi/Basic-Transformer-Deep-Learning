@@ -9,6 +9,7 @@ labelling tool built in, so you can trace your own photos and train on them.
 | | |
 |---|---|
 | `Vision_Transformer_V1.ipynb` | the notebook: 10 cells, from the settings to the attention map |
+| `Vision_Transformer_V1_5.ipynb` | Vision v1.5, the same notebook with an encoder and a decoder — see *Vision v1.5* below |
 | `vision_people_data/` | the dataset — `people_1.jpg`, `people_2.jpg` and `outlines.json` (every person traced as polygons). The notebook reads this folder **next to it**, so keep the two together. |
 | `requirements.txt` | the Python packages it needs |
 
@@ -57,6 +58,18 @@ this folder.
   `segment_photo("my_photo.jpg")`, or pick a colour: `segment_photo("my_photo.jpg", color="#00c853")`.
 * **Cell 10** shows where one patch on a person looks (attention).
 * The trained model is saved as `people_vit.pt` in this folder.
+
+## Vision v1.5 — an encoder and a decoder
+
+`Vision_Transformer_V1_5.ipynb` is the same notebook with three changes to the model, each marked `[NEW v1.5]` in the
+code: a **convolutional stem** (overlapping 3 x 3 windows instead of hard 8 x 8 squares), **2-D rotary positions**
+(instead of one learned vector per place) and a **decoder** in which every 4 x 4-pixel cell asks the encoder's patches
+what it is (cross-attention, as in the text Transformer). Cells 2, 3, 4, 7, 8 and 9 are v1's, line for line. Run it the
+same way; it reads the same `vision_people_data/` folder and saves its model as `people_vit_v15.pt`.
+
+In the tutorial's runs (person IoU, averaged over the scored photos; v1 in brackets): the photos it learned
+97.4% (93.0%); a photo it never saw 59.8% (56.4%); people it never saw 82.5% (82.2%). Training took 28 minutes on an Apple-silicon Mac’s
+GPU — the decoder scores 3,456 cells against 864 patches for every picture. It needs much more memory than v1: a training step with `BATCH_SIZE = 32` used about 23 GB of the GPU’s memory here (12 GB with 16). On a GPU with less memory, lower `BATCH_SIZE` in cell 1.
 
 ## The labelling tool (cell 3)
 

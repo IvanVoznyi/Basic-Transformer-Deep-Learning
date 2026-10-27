@@ -1,0 +1,496 @@
+<svg data-src="v3_c02c_model_decoding.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="2671" viewBox="0 0 1880 2671">
+<style>.txfig .g57s0{fill:var(--op)}.txfig .g57s1{fill:var(--code)}.txfig .g57s2{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g57s3{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9px;text-anchor:middle}.txfig .g57s4{fill:var(--keepbg);stroke:var(--keep);stroke-width:0.7}.txfig .g57s5{fill:var(--kw)}.txfig .g57s6{font-weight:600;fill:var(--ink)}.txfig .g57s7{fill:var(--fn)}.txfig .g57s8{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px}.txfig .g57s9{fill:var(--num)}.txfig .g57s10{fill:var(--cellbg);stroke:var(--hair);stroke-width:0.7}.txfig .g57s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g57s12{font-weight:600}.txfig .g57s13{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g57s14{fill:var(--cmt)}.txfig .g57s15{stroke:var(--panelbd);stroke-width:1;stroke-dasharray:3 4;stroke-linecap:round}.txfig .g57s16{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g57s17{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g57s18{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g57s19{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:start}.txfig .g57s20{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g57s21{fill:var(--s2);stroke:none}.txfig .g57s22{fill:var(--s2);stroke:none;stroke-width:1;opacity:0.22}.txfig .g57s23{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g57s24{fill:var(--infobg);stroke:var(--s2);stroke-width:1.5}.txfig .g57s25{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g57s26{fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600}.txfig .g57s27{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18}.txfig .g57s28{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;font-weight:600;text-anchor:start}.txfig .g57s29{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)}.txfig .g57s30{fill:var(--str)}.txfig .g57s31{fill:var(--keep);stroke:none}.txfig .g57s32{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g57s33{fill:var(--warnbg);stroke:var(--warnbd);stroke-width:0.7}.txfig .g57s34{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g57s35{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.9px;font-weight:600;fill:var(--ink)}.txfig .g57s36{font-weight:600;fill:var(--accent)}.txfig .g57s37{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g57s38{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g57s39{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g57s40{fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8}.txfig .g57s41{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g57s42{fill:var(--accent);stroke:none}.txfig .g57s43{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g57s44{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g57s45{fill:var(--s1);stroke:none}.txfig .g57s46{fill:var(--s1);stroke:none;stroke-width:1;opacity:0.22}.txfig .g57s47{stroke:var(--ink3);stroke-width:1.3;stroke-linecap:round}.txfig .g57s48{fill:var(--ink3)}.txfig .g57s49{fill:var(--s3);stroke:none}.txfig .g57s50{fill:var(--s3);stroke:none;stroke-width:1;opacity:0.22}.txfig .g57s51{fill:var(--panel);stroke:var(--panelbd);stroke-width:1.1}.txfig .g57s52{fill:var(--keepbg);stroke:var(--keybd);stroke-width:1.1}.txfig .g57s53{fill:var(--keep);stroke:none;stroke-width:1;opacity:0.22}.txfig .g57s54{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:middle}.txfig .g57s55{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g57s56{fill:var(--keep);stroke:none;stroke-width:1}.txfig .g57s57{fill:var(--cellbg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9px;font-weight:600;text-anchor:middle}.txfig .g57s58{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600}.txfig .g57s59{fill:var(--soft);stroke:var(--hair);stroke-width:0.9}.txfig .g57s60{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g57s61{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8px;text-anchor:start;opacity:0.75}.txfig .g57s62{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g57s63{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8px;text-anchor:start;opacity:0.8}.txfig .g57s64{fill:var(--cellbg);stroke:var(--hair);stroke-width:0.9}.txfig .g57s65{fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:start}.txfig .g57s66{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:start}.txfig .g57s67{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g57s68{fill:var(--drop);stroke:none;stroke-width:1;opacity:0.85}.txfig .g57s69{fill:var(--keep);stroke:none;stroke-width:1;opacity:0.85}.txfig .g57s70{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch57" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash57" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="2671" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v3 · CELL 2 · 3 / 3</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="157.9" class="g57s12" textLength="162.1" lengthAdjust="spacing">The model, part </tspan><tspan x="320.0" style="font-weight:600;fill:var(--hdfg)">3</tspan><tspan x="332.3" class="g57s12" textLength="303.1" lengthAdjust="spacing"> — writing two tokens per pass</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="654.6" lengthAdjust="spacing">the decoding rules in one place · the head’s guess · one pass checks it · a wrong guess undone · a right one kept</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="95.2" lengthAdjust="spacing">Traced on the tiny </tspan><tspan x="129.2" class="g57s13" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="142.3" textLength="601.9" lengthAdjust="spacing"> model writing for “the cat is running on the sof a”, a sentence it never saw — greedy decoding, every number shown.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g57s37"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g57s31"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g57s12" textLength="282.9" lengthAdjust="spacing">Two tokens for one pass, the same answer</tspan></text>
+<text y="169.0" xml:space="preserve" class="g57s38"><tspan x="54.0">A</tspan><tspan x="62.7"> </tspan><tspan x="66.6" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="102.0"> </tspan><tspan x="105.9" textLength="33.9" lengthAdjust="spacing">writes</tspan><tspan x="139.8"> </tspan><tspan x="143.7" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="165.4"> </tspan><tspan x="169.3" textLength="31.8" lengthAdjust="spacing">token</tspan><tspan x="201.1"> </tspan><tspan x="205.0" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="223.8"> </tspan><tspan x="227.7" textLength="27.5" lengthAdjust="spacing">pass</tspan><tspan x="255.1"> </tspan><tspan x="259.0" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="269.9"> </tspan><tspan x="273.8" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="291.8"> </tspan><tspan x="295.7" textLength="50.6" lengthAdjust="spacing">decoder.</tspan><tspan x="346.3"> </tspan><tspan x="350.2" class="g57s32" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="364.9"> </tspan><tspan x="368.8" textLength="20.2" lengthAdjust="spacing">lets</tspan><tspan x="389.1"> </tspan><tspan x="393.0" textLength="13.0" lengthAdjust="spacing">its</tspan><tspan x="406.0"> </tspan><tspan x="409.9" textLength="63.6" lengthAdjust="spacing">multi-token</tspan><tspan x="473.4"> </tspan><tspan x="477.3" textLength="28.9" lengthAdjust="spacing">head</tspan><tspan x="506.2"> </tspan><tspan x="510.1" textLength="34.7" lengthAdjust="spacing">guess</tspan><tspan x="544.8"> </tspan><tspan x="548.7" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="566.8"> </tspan><tspan x="570.7" textLength="31.8" lengthAdjust="spacing">token</tspan><tspan x="602.5"> </tspan><tspan x="606.4" textLength="26.0" lengthAdjust="spacing">after</tspan><tspan x="632.4"> </tspan><tspan x="636.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="654.4"> </tspan><tspan x="658.3" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="680.0"> </tspan><tspan x="683.9" textLength="31.8" lengthAdjust="spacing">being</tspan><tspan x="715.7"> </tspan><tspan x="719.5" textLength="41.9" lengthAdjust="spacing">written;</tspan><tspan x="761.4"> </tspan><tspan x="765.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="783.4"> </tspan><tspan x="787.3" textLength="24.6" lengthAdjust="spacing">next</tspan><tspan x="811.9"> </tspan><tspan x="815.8" textLength="27.5" lengthAdjust="spacing">pass</tspan><tspan x="843.2"> </tspan><tspan x="847.1" textLength="32.5" lengthAdjust="spacing">reads</tspan><tspan x="879.7"> </tspan><tspan x="883.6" textLength="28.9" lengthAdjust="spacing">both,</tspan><tspan x="912.5"> </tspan><tspan x="916.4" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="938.0"> </tspan><tspan x="941.9" textLength="13.0" lengthAdjust="spacing">its</tspan><tspan x="954.9"> </tspan><tspan x="958.8" textLength="20.9" lengthAdjust="spacing">first</tspan><tspan x="979.8"> </tspan><tspan x="983.7" textLength="20.9" lengthAdjust="spacing">row</tspan><tspan x="1004.6"> </tspan><tspan x="1008.5" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="1019.4"> </tspan><tspan x="1023.3" class="g57s32" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="1067.4"> </tspan><tspan x="1071.3">—</tspan><tspan x="1084.3"> </tspan><tspan x="1088.2" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1106.3"> </tspan><tspan x="1110.2" textLength="31.1" lengthAdjust="spacing">place</tspan><tspan x="1141.2"> </tspan><tspan x="1145.1" textLength="35.4" lengthAdjust="spacing">where</tspan><tspan x="1180.5"> </tspan><tspan x="1184.4" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1202.5"> </tspan><tspan x="1206.4" textLength="34.7" lengthAdjust="spacing">guess</tspan><tspan x="1241.1"> </tspan><tspan x="1245.0" textLength="28.2" lengthAdjust="spacing">goes</tspan><tspan x="1273.2"> </tspan><tspan x="1277.1">—</tspan><tspan x="1290.1"> </tspan><tspan x="1294.0" textLength="26.7" lengthAdjust="spacing">says</tspan><tspan x="1320.7"> </tspan><tspan x="1324.6" textLength="46.2" lengthAdjust="spacing">whether</tspan><tspan x="1370.8"> </tspan><tspan x="1374.7" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1392.8"> </tspan><tspan x="1396.7" textLength="34.7" lengthAdjust="spacing">guess</tspan><tspan x="1431.4"> </tspan><tspan x="1435.3" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1444.7"> </tspan><tspan x="1448.6" textLength="27.5" lengthAdjust="spacing">what</tspan><tspan x="1476.0"> </tspan><tspan x="1479.9" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1498.0"> </tspan><tspan x="1501.9" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="1537.3"> </tspan><tspan x="1541.2" textLength="34.0" lengthAdjust="spacing">would</tspan><tspan x="1575.2"> </tspan><tspan x="1579.1" textLength="28.2" lengthAdjust="spacing">have</tspan><tspan x="1607.2"> </tspan><tspan x="1611.1" textLength="38.3" lengthAdjust="spacing">written</tspan><tspan x="1649.4"> </tspan><tspan x="1653.3" textLength="47.7" lengthAdjust="spacing">anyway.</tspan><tspan x="1701.0"> </tspan><tspan x="1704.9" textLength="7.2" lengthAdjust="spacing">If</tspan><tspan x="1712.1"> </tspan><tspan x="1716.0" textLength="17.3" lengthAdjust="spacing">so,</tspan><tspan x="1733.4"> </tspan><tspan x="1737.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1755.3"> </tspan><tspan x="1759.2" textLength="41.9" lengthAdjust="spacing">second</tspan><tspan x="1801.2"> </tspan><tspan x="1805.1" textLength="20.9" lengthAdjust="spacing">row</tspan></text>
+<text y="188.0" xml:space="preserve" class="g57s38"><tspan x="54.0" textLength="823.6" lengthAdjust="spacing">gives the token after it: two tokens for one pass. If not, the model’s own token is written and the guess forgotten. The answer is always exactly </tspan><tspan x="877.6" class="g57s32" textLength="73.6" lengthAdjust="spacing">generate()</tspan><tspan x="951.2" textLength="17.9" lengthAdjust="spacing">’s.</tspan></text>
+<rect x="771.5" y="229.3" width="42.3" height="16.1" rx="3" style="fill:var(--padbg);stroke:var(--pad);stroke-width:0.8"/>
+<text y="241.2" xml:space="preserve" class="g57s39"><tspan x="34.0" class="g57s29" textLength="164.3" lengthAdjust="spacing">speculative_generate()</tspan><tspan x="198.3"> </tspan><tspan x="202.5" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="224.5"> </tspan><tspan x="228.6" class="g57s29" textLength="97.1" lengthAdjust="spacing">_trim_cache()</tspan><tspan x="325.8"> </tspan><tspan x="329.9" textLength="19.1" lengthAdjust="spacing">are</tspan><tspan x="349.0"> </tspan><tspan x="353.1" textLength="27.9" lengthAdjust="spacing">new.</tspan><tspan x="381.0"> </tspan><tspan x="385.2" textLength="22.7" lengthAdjust="spacing">The</tspan><tspan x="407.9"> </tspan><tspan x="412.0" textLength="28.6" lengthAdjust="spacing">rules</tspan><tspan x="440.7"> </tspan><tspan x="444.8" class="g57s29" textLength="74.7" lengthAdjust="spacing">generate()</tspan><tspan x="519.5"> </tspan><tspan x="523.6" textLength="42.6" lengthAdjust="spacing">applied</tspan><tspan x="566.2"> </tspan><tspan x="570.4" textLength="11.0" lengthAdjust="spacing">to</tspan><tspan x="581.4"> </tspan><tspan x="585.5" textLength="32.3" lengthAdjust="spacing">every</tspan><tspan x="617.8"> </tspan><tspan x="621.9" textLength="39.5" lengthAdjust="spacing">step’s</tspan><tspan x="661.4"> </tspan><tspan x="665.6" class="g57s29" textLength="44.8" lengthAdjust="spacing">scores</tspan><tspan x="710.4"> </tspan><tspan x="714.5" textLength="52.8" lengthAdjust="spacing">(blocking</tspan><tspan x="767.3"> </tspan><tspan x="774.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--pad)" textLength="37.3" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="813.8"> </tspan><tspan x="818.0" textLength="22.0" lengthAdjust="spacing">and</tspan></text>
+<rect x="34.0" y="249.1" width="42.3" height="16.1" rx="3" class="g57s40"/>
+<text y="261.0" xml:space="preserve" class="g57s39"><tspan x="36.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--accent)" textLength="37.3" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="76.3" textLength="355.8" lengthAdjust="spacing">, the repetition penalty, temperature, top-k, top-p) now live in </tspan><tspan x="432.2" class="g57s29" textLength="59.8" lengthAdjust="spacing">_rules()</tspan><tspan x="491.9" textLength="286.9" lengthAdjust="spacing">, unchanged, so both use exactly the same ones.</tspan></text>
+<rect x="866.0" y="228.0" width="980.0" height="153.0" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="876.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="887.9" class="g57s12" textLength="113.2" lengthAdjust="spacing"> · speculative decoding</tspan></text>
+<text x="876.0" y="269.0" xml:space="preserve" class="g57s23"><tspan class="g57s5">def</tspan><tspan class="g57s1"> </tspan><tspan class="g57s7">_rules</tspan><tspan class="g57s0">(</tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">logits</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">sos_idx</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">temperature</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">0.0</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">top_k</tspan><tspan class="g57s0">=</tspan><tspan class="g57s5">None</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">top_p</tspan><tspan class="g57s0">=</tspan><tspan class="g57s5">None</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">repetition_penalty</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">1.0</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">:</tspan></text>
+<text x="876.0" y="288.5" xml:space="preserve" class="g57s23"><tspan class="g57s5">def</tspan><tspan class="g57s1"> </tspan><tspan class="g57s7">speculative_generate</tspan><tspan class="g57s0">(</tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">src</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">sos_idx</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">eos_idx</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">max_len</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">20</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">temperature</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">0.0</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">:</tspan></text>
+<text x="876.0" y="308.0" xml:space="preserve" class="g57s23"><tspan class="g57s1">    </tspan><tspan class="g57s1">feed</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">torch</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">cat</tspan><tspan class="g57s0">(</tspan><tspan class="g57s0">[</tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">guess</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">dim</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">)</tspan><tspan class="g57s1">          </tspan><tspan class="g57s14"># the last token + the guess</tspan></text>
+<text x="876.0" y="327.5" xml:space="preserve" class="g57s23"><tspan class="g57s1">    </tspan><tspan class="g57s1">logits</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">h</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">decode</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">feed</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">enc_out</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">src_mask</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">None</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">cache</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1">cache</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">return_hidden</tspan><tspan class="g57s0">=</tspan><tspan class="g57s5">True</tspan><tspan class="g57s0">)</tspan></text>
+<text x="876.0" y="347.0" xml:space="preserve" class="g57s23"><tspan class="g57s1">    </tspan><tspan class="g57s1">token</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s7">pick</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">p</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">;</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">keep</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">token</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">guess</tspan><tspan class="g57s1">                  </tspan><tspan class="g57s14"># p: row 0, where the guess goes</tspan></text>
+<text x="876.0" y="366.5" xml:space="preserve" class="g57s23"><tspan class="g57s5">def</tspan><tspan class="g57s1"> </tspan><tspan class="g57s7">_trim_cache</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">cache</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">n</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">:</tspan><tspan class="g57s1">                                  </tspan><tspan class="g57s14"># forget a rejected guess</tspan></text>
+<rect x="34.0" y="403.0" width="1812.0" height="30.0" rx="6" class="g57s41"/>
+<path d="M38.50 403.71 A5.50 5.50 0 0 0 34.50 409.00 V427.00 A5.50 5.50 0 0 0 38.50 432.29 Z" class="g57s42"/>
+<text y="423.0" xml:space="preserve" class="g57s43"><tspan x="50.0" class="g57s12" textLength="173.8" lengthAdjust="spacing">A · The call stack — passes </tspan><tspan x="223.8" class="g57s6">1</tspan><tspan x="231.5" class="g57s12" textLength="19.2" lengthAdjust="spacing"> to </tspan><tspan x="250.7" class="g57s6">3</tspan><tspan x="258.3" class="g57s12" textLength="90.4" lengthAdjust="spacing"> of one answer</tspan></text>
+<text y="423.0" xml:space="preserve" class="g57s44"><tspan x="366.7" textLength="403.1" lengthAdjust="spacing">“the cat is running on the sof a” · the tiny trained model · probabilities over the </tspan><tspan x="769.8" class="g57s6" textLength="52.9" lengthAdjust="spacing">13 tokens</tspan><tspan x="822.7" textLength="61.3" lengthAdjust="spacing"> it may write</tspan></text>
+<text y="460.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600"><tspan x="34.0" class="g57s12" textLength="535.2" lengthAdjust="spacing">Order of execution — where the stack goes, cell by cell · each colour continues in the frames below</tspan></text>
+<rect x="34.0" y="469.0" width="589.3" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s1);stroke-width:1.4"/>
+<path d="M35.13 473.70 A6.30 6.30 0 0 1 41.00 469.70 H616.33 A6.30 6.30 0 0 1 622.20 473.70 Z" class="g57s45"/>
+<rect x="43.0" y="481.0" width="19.0" height="16.0" rx="4" class="g57s46"/>
+<text x="52.5" y="493.0" style="fill:var(--s1);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">1</text>
+<text x="68.0" y="493.0" class="g57s20">cell 9</text>
+<text x="45.0" y="523.0" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 1</text>
+<line x1="626.3" y1="500.0" x2="637.3" y2="500.0" class="g57s47"/>
+<path d="M642.3 500.0 L635.5 503.1 L635.5 496.9 Z" class="g57s48"/>
+<rect x="645.3" y="469.0" width="589.3" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s2);stroke-width:1.4"/>
+<path d="M646.47 473.70 A6.30 6.30 0 0 1 652.33 469.70 H1227.67 A6.30 6.30 0 0 1 1233.53 473.70 Z" class="g57s21"/>
+<rect x="654.3" y="481.0" width="19.0" height="16.0" rx="4" class="g57s22"/>
+<text x="663.8" y="493.0" style="fill:var(--s2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">2</text>
+<text x="679.3" y="493.0" class="g57s20">cell 2</text>
+<text y="509.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px"><tspan x="656.3" class="g57s35" textLength="107.5" lengthAdjust="spacing">speculative_generate</tspan><tspan x="763.9"> → </tspan><tspan x="778.6" class="g57s35" textLength="59.1" lengthAdjust="spacing">guess_after</tspan><tspan x="837.8"> → </tspan><tspan x="852.5" class="g57s35" textLength="59.1" lengthAdjust="spacing">_trim_cache</tspan></text>
+<text x="656.3" y="523.0" style="fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frames 2–7</text>
+<line x1="1237.7" y1="500.0" x2="1248.7" y2="500.0" class="g57s47"/>
+<path d="M1253.7 500.0 L1246.8 503.1 L1246.8 496.9 Z" class="g57s48"/>
+<rect x="1256.7" y="469.0" width="589.3" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s3);stroke-width:1.4"/>
+<path d="M1257.80 473.70 A6.30 6.30 0 0 1 1263.67 469.70 H1839.00 A6.30 6.30 0 0 1 1844.87 473.70 Z" class="g57s49"/>
+<rect x="1265.7" y="481.0" width="19.0" height="16.0" rx="4" class="g57s50"/>
+<text x="1275.2" y="493.0" style="fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">3</text>
+<text x="1290.7" y="493.0" class="g57s20">cell 9</text>
+<text x="1267.7" y="523.0" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 8</text>
+<rect x="34.0" y="553.0" width="1812.0" height="114.0" rx="8" class="g57s51"/>
+<path d="M39.55 553.96 A7.45 7.45 0 0 0 34.55 561.00 V659.00 A7.45 7.45 0 0 0 39.55 666.04 Z" class="g57s45"/>
+<rect x="44.0" y="562.5" width="22.0" height="17.0" rx="4" class="g57s46"/>
+<text x="55.0" y="575.0" class="g57s18">1</text>
+<text x="72.0" y="575.0" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">cell 9</text>
+<text x="720.0" y="628.0" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">01</text>
+<text x="72.0" y="593.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">out</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">n</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">model</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">speculative_generate</tspan><tspan class="g57s0">(</tspan><tspan class="g57s7">to_src</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">s</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">SOS</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">EOS</tspan><tspan class="g57s0">,</tspan></text>
+<text x="72.0" y="610.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">max_len</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1">MAX_SEQ_LEN</tspan><tspan class="g57s0">)</tspan></text>
+<text y="632.0" xml:space="preserve" class="g57s11"><tspan x="72.0" class="g57s6" textLength="31.2" lengthAdjust="spacing">Cell 9</tspan><tspan x="103.2" textLength="227.5" lengthAdjust="spacing"> writes every validation answer twice — with </tspan><tspan x="330.7" class="g57s13" textLength="65.1" lengthAdjust="spacing">generate()</tspan><tspan x="395.7" textLength="49.2" lengthAdjust="spacing"> and with </tspan><tspan x="445.0" class="g57s13" textLength="143.2" lengthAdjust="spacing">speculative_generate()</tspan><tspan x="588.1" textLength="37.1" lengthAdjust="spacing"> — and</tspan></text>
+<text y="648.0" xml:space="preserve" class="g57s11"><tspan x="72.0" textLength="409.1" lengthAdjust="spacing">checks they are identical. Here the tiny model writes for a sentence it never saw.</tspan></text>
+<line x1="736.0" y1="563.0" x2="736.0" y2="657.0" class="g57s15"/>
+<rect x="60.0" y="677.0" width="1786.0" height="131.0" rx="8" class="g57s24"/>
+<path d="M65.75 678.11 A7.25 7.25 0 0 0 60.75 685.00 V800.00 A7.25 7.25 0 0 0 65.75 806.89 Z" class="g57s21"/>
+<rect x="70.0" y="686.5" width="22.0" height="17.0" rx="4" class="g57s22"/>
+<text x="81.0" y="699.0" class="g57s18">2</text>
+<text x="98.0" y="699.0" class="g57s25">cell 2 · Transformer.speculative_generate</text>
+<text y="699.0" xml:space="preserve" class="g57s26"><tspan x="688.8" class="g57s12" textLength="25.3" lengthAdjust="spacing">pass </tspan><tspan x="714.1" class="g57s36">1</tspan></text>
+<text x="720.0" y="760.5" class="g57s27">02</text>
+<text x="98.0" y="717.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">logits</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">h</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">decode</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">enc_out</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">src_mask</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">None</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">cache</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1">cache</tspan><tspan class="g57s0">,</tspan></text>
+<text x="98.0" y="734.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">start_pos</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">0</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">return_hidden</tspan><tspan class="g57s0">=</tspan><tspan class="g57s5">True</tspan><tspan class="g57s0">)</tspan></text>
+<text x="98.0" y="751.0" xml:space="preserve" class="g57s8"><tspan class="g57s7">write</tspan><tspan class="g57s0">(</tspan><tspan class="g57s7">pick</tspan><tspan class="g57s0">(</tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">_rules</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">logits</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">*</tspan><tspan class="g57s0">*</tspan><tspan class="g57s1">rules</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">)</tspan></text>
+<rect x="202.2" y="762.6" width="37.5" height="14.0" rx="3" class="g57s40"/>
+<text y="773.0" xml:space="preserve" class="g57s11"><tspan x="98.0" textLength="104.2" lengthAdjust="spacing">The first pass reads </tspan><tspan x="204.7" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--accent)" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="239.7" textLength="311.5" lengthAdjust="spacing"> and has nothing to check: it writes greedy’s token, “the” (p </tspan><tspan x="551.3" class="g57s6" textLength="30.5" lengthAdjust="spacing">0.915</tspan><tspan x="581.8" textLength="29.4" lengthAdjust="spacing">), and</tspan></text>
+<text y="789.0" xml:space="preserve" class="g57s11"><tspan x="98.0" textLength="200.6" lengthAdjust="spacing">hands back h, the decoder’s last state.</tspan></text>
+<line x1="736.0" y1="687.0" x2="736.0" y2="798.0" class="g57s15"/>
+<text x="977.4" y="701.0" class="g57s3">&lt;EOS&gt;</text>
+<text x="1032.2" y="701.0" class="g57s3">a</text>
+<text x="1086.9" y="701.0" class="g57s3">cat</text>
+<text x="1141.7" y="701.0" class="g57s3">dog</text>
+<text x="1196.5" y="701.0" class="g57s3">efully</text>
+<text x="1251.2" y="701.0" class="g57s3">fast</text>
+<text x="1306.0" y="701.0" class="g57s3">is</text>
+<text x="1360.8" y="701.0" class="g57s3">on</text>
+<text x="1415.5" y="701.0" class="g57s3">peac</text>
+<text x="1470.3" y="701.0" class="g57s3">running</text>
+<text x="1525.1" y="701.0" class="g57s3">sleeping</text>
+<text x="1579.8" y="701.0" class="g57s3">sof</text>
+<text x="1634.6" y="701.0" class="g57s3">the</text>
+<text x="750.0" y="722.0" class="g57s19">p: position 1</text>
+<rect x="950.0" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="977.4" y="721.4" class="g57s2">0.007</text>
+<rect x="1004.8" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1032.2" y="721.4" class="g57s2">0.004</text>
+<rect x="1059.5" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1086.9" y="721.4" class="g57s2">0.009</text>
+<rect x="1114.3" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1141.7" y="721.4" class="g57s2">0.010</text>
+<rect x="1169.1" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1196.5" y="721.4" class="g57s2">0.008</text>
+<rect x="1223.8" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1251.2" y="721.4" class="g57s2">0.007</text>
+<rect x="1278.6" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1306.0" y="721.4" class="g57s2">0.007</text>
+<rect x="1333.4" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1360.8" y="721.4" class="g57s2">0.008</text>
+<rect x="1388.2" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1415.5" y="721.4" class="g57s2">0.004</text>
+<rect x="1442.9" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1470.3" y="721.4" class="g57s2">0.006</text>
+<rect x="1497.7" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1525.1" y="721.4" class="g57s2">0.009</text>
+<rect x="1552.5" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1579.8" y="721.4" class="g57s2">0.006</text>
+<rect x="1607.2" y="706.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1634.6" y="721.4" class="g57s2">0.915</text>
+<text x="1672.0" y="722.0" class="g57s28">best “the”</text>
+<rect x="86.0" y="818.0" width="1760.0" height="131.0" rx="8" class="g57s24"/>
+<path d="M91.75 819.11 A7.25 7.25 0 0 0 86.75 826.00 V941.00 A7.25 7.25 0 0 0 91.75 947.89 Z" class="g57s21"/>
+<rect x="96.0" y="827.5" width="22.0" height="17.0" rx="4" class="g57s22"/>
+<text x="107.0" y="840.0" class="g57s18">3</text>
+<text x="124.0" y="840.0" class="g57s25">cell 2 · speculative_generate.guess_after</text>
+<text y="840.0" xml:space="preserve" class="g57s26"><tspan x="635.9" class="g57s12" textLength="84.1" lengthAdjust="spacing">the head’s guess</tspan></text>
+<text x="720.0" y="901.5" class="g57s27">03</text>
+<text x="124.0" y="858.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">nxt</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">tgt_embedding</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">)</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">*</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">math</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">sqrt</tspan><tspan class="g57s0">(</tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan style="fill:var(--attr)">d_model</tspan><tspan class="g57s0">)</tspan></text>
+<text x="124.0" y="875.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">q</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">_rules</tspan><tspan class="g57s0">(</tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">_cap</tspan><tspan class="g57s0">(</tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">linear</tspan><tspan class="g57s0">(</tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">mtp</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">h</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">nxt</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">,</tspan></text>
+<text x="124.0" y="892.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s0">*</tspan><tspan class="g57s0">*</tspan><tspan class="g57s1">rules</tspan><tspan class="g57s0">)</tspan></text>
+<text y="914.0" xml:space="preserve" class="g57s11"><tspan x="124.0" textLength="345.6" lengthAdjust="spacing">The multi-token head reads h and the token just written, “the”, and </tspan><tspan x="469.6" class="g57s13" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="508.6" textLength="127.8" lengthAdjust="spacing"> the place after it with the</tspan></text>
+<text y="930.0" xml:space="preserve" class="g57s11"><tspan x="124.0" textLength="180.6" lengthAdjust="spacing">shared output layer. Unsure: “cat” </tspan><tspan x="304.6" class="g57s6" textLength="30.5" lengthAdjust="spacing">0.682</tspan><tspan x="335.1" textLength="42.6" lengthAdjust="spacing">, “dog” </tspan><tspan x="377.7" class="g57s6" textLength="30.5" lengthAdjust="spacing">0.204</tspan><tspan x="408.2" textLength="91.1" lengthAdjust="spacing">. Its guess: “cat”.</tspan></text>
+<line x1="736.0" y1="828.0" x2="736.0" y2="939.0" class="g57s15"/>
+<text x="977.4" y="842.0" class="g57s3">&lt;EOS&gt;</text>
+<text x="1032.2" y="842.0" class="g57s3">a</text>
+<text x="1086.9" y="842.0" class="g57s3">cat</text>
+<text x="1141.7" y="842.0" class="g57s3">dog</text>
+<text x="1196.5" y="842.0" class="g57s3">efully</text>
+<text x="1251.2" y="842.0" class="g57s3">fast</text>
+<text x="1306.0" y="842.0" class="g57s3">is</text>
+<text x="1360.8" y="842.0" class="g57s3">on</text>
+<text x="1415.5" y="842.0" class="g57s3">peac</text>
+<text x="1470.3" y="842.0" class="g57s3">running</text>
+<text x="1525.1" y="842.0" class="g57s3">sleeping</text>
+<text x="1579.8" y="842.0" class="g57s3">sof</text>
+<text x="1634.6" y="842.0" class="g57s3">the</text>
+<text x="750.0" y="863.0" class="g57s19">q: position 2</text>
+<rect x="950.0" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="977.4" y="862.4" class="g57s2">0.005</text>
+<rect x="1004.8" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1032.2" y="862.4" class="g57s2">0.010</text>
+<rect x="1059.5" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1086.9" y="862.4" class="g57s2">0.682</text>
+<rect x="1114.3" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1141.7" y="862.4" class="g57s2">0.204</text>
+<rect x="1169.1" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1196.5" y="862.4" class="g57s2">0.001</text>
+<rect x="1223.8" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1251.2" y="862.4" class="g57s2">0.012</text>
+<rect x="1278.6" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1306.0" y="862.4" class="g57s2">0.002</text>
+<rect x="1333.4" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1360.8" y="862.4" class="g57s2">0.009</text>
+<rect x="1388.2" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1415.5" y="862.4" class="g57s2">0.013</text>
+<rect x="1442.9" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1470.3" y="862.4" class="g57s2">0.018</text>
+<rect x="1497.7" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1525.1" y="862.4" class="g57s2">0.021</text>
+<rect x="1552.5" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1579.8" y="862.4" class="g57s2">0.015</text>
+<rect x="1607.2" y="847.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1634.6" y="862.4" class="g57s2">0.007</text>
+<text x="1672.0" y="863.0" class="g57s28">best “cat”</text>
+<rect x="60.0" y="959.0" width="1786.0" height="131.0" rx="8" class="g57s24"/>
+<path d="M65.75 960.11 A7.25 7.25 0 0 0 60.75 967.00 V1082.00 A7.25 7.25 0 0 0 65.75 1088.89 Z" class="g57s21"/>
+<rect x="70.0" y="968.5" width="22.0" height="17.0" rx="4" class="g57s22"/>
+<text x="81.0" y="981.0" class="g57s18">4</text>
+<text x="98.0" y="981.0" class="g57s25">cell 2 · Transformer.speculative_generate</text>
+<text y="981.0" xml:space="preserve" class="g57s26"><tspan x="688.8" class="g57s12" textLength="25.3" lengthAdjust="spacing">pass </tspan><tspan x="714.1" class="g57s36">2</tspan></text>
+<text x="720.0" y="1042.5" class="g57s27">04</text>
+<text x="98.0" y="999.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">feed</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">torch</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">cat</tspan><tspan class="g57s0">(</tspan><tspan class="g57s0">[</tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">guess</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">dim</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">)</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">if</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">two</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">else</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">]</tspan></text>
+<text x="98.0" y="1016.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">logits</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">h</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">decode</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">feed</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">enc_out</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">src_mask</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">None</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">cache</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1">cache</tspan><tspan class="g57s0">,</tspan></text>
+<text x="98.0" y="1033.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">start_pos</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">size</tspan><tspan class="g57s0">(</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">)</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s1"> </tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">return_hidden</tspan><tspan class="g57s0">=</tspan><tspan class="g57s5">True</tspan><tspan class="g57s0">)</tspan></text>
+<text y="1055.0" xml:space="preserve" class="g57s11"><tspan x="98.0" textLength="191.5" lengthAdjust="spacing">One pass reads two tokens: “the” at </tspan><tspan x="289.5" class="g57s6" textLength="52.2" lengthAdjust="spacing">position 1</tspan><tspan x="341.7" textLength="123.8" lengthAdjust="spacing"> and the guess “cat” at </tspan><tspan x="465.4" class="g57s6" textLength="52.2" lengthAdjust="spacing">position 2</tspan><tspan x="517.6" textLength="95.9" lengthAdjust="spacing">. It returns a row of</tspan></text>
+<text y="1071.0" xml:space="preserve" class="g57s11"><tspan x="98.0" class="g57s13" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="137.0" textLength="44.1" lengthAdjust="spacing"> at each.</tspan></text>
+<line x1="736.0" y1="969.0" x2="736.0" y2="1080.0" class="g57s15"/>
+<text x="977.4" y="983.0" class="g57s3">&lt;EOS&gt;</text>
+<text x="1032.2" y="983.0" class="g57s3">a</text>
+<text x="1086.9" y="983.0" class="g57s3">cat</text>
+<text x="1141.7" y="983.0" class="g57s3">dog</text>
+<text x="1196.5" y="983.0" class="g57s3">efully</text>
+<text x="1251.2" y="983.0" class="g57s3">fast</text>
+<text x="1306.0" y="983.0" class="g57s3">is</text>
+<text x="1360.8" y="983.0" class="g57s3">on</text>
+<text x="1415.5" y="983.0" class="g57s3">peac</text>
+<text x="1470.3" y="983.0" class="g57s3">running</text>
+<text x="1525.1" y="983.0" class="g57s3">sleeping</text>
+<text x="1579.8" y="983.0" class="g57s3">sof</text>
+<text x="1634.6" y="983.0" class="g57s3">the</text>
+<text x="750.0" y="1004.0" class="g57s19">row 0: after “the”</text>
+<rect x="950.0" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="977.4" y="1003.4" class="g57s2">0.007</text>
+<rect x="1004.8" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1032.2" y="1003.4" class="g57s2">0.007</text>
+<rect x="1059.5" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1086.9" y="1003.4" class="g57s2">0.011</text>
+<rect x="1114.3" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1141.7" y="1003.4" class="g57s2">0.923</text>
+<rect x="1169.1" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1196.5" y="1003.4" class="g57s2">0.000</text>
+<rect x="1223.8" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1251.2" y="1003.4" class="g57s2">0.005</text>
+<rect x="1278.6" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1306.0" y="1003.4" class="g57s2">0.005</text>
+<rect x="1333.4" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1360.8" y="1003.4" class="g57s2">0.003</text>
+<rect x="1388.2" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1415.5" y="1003.4" class="g57s2">0.007</text>
+<rect x="1442.9" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1470.3" y="1003.4" class="g57s2">0.008</text>
+<rect x="1497.7" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1525.1" y="1003.4" class="g57s2">0.008</text>
+<rect x="1552.5" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1579.8" y="1003.4" class="g57s2">0.006</text>
+<rect x="1607.2" y="988.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1634.6" y="1003.4" class="g57s2">0.010</text>
+<text x="1672.0" y="1004.0" class="g57s28">best “dog”</text>
+<text x="750.0" y="1031.0" class="g57s19">row 1: after “cat”</text>
+<rect x="950.0" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="977.4" y="1030.4" class="g57s2">0.005</text>
+<rect x="1004.8" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1032.2" y="1030.4" class="g57s2">0.009</text>
+<rect x="1059.5" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1086.9" y="1030.4" class="g57s2">0.007</text>
+<rect x="1114.3" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1141.7" y="1030.4" class="g57s2">0.004</text>
+<rect x="1169.1" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1196.5" y="1030.4" class="g57s2">0.005</text>
+<rect x="1223.8" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1251.2" y="1030.4" class="g57s2">0.007</text>
+<rect x="1278.6" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1306.0" y="1030.4" class="g57s2">0.920</text>
+<rect x="1333.4" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1360.8" y="1030.4" class="g57s2">0.006</text>
+<rect x="1388.2" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1415.5" y="1030.4" class="g57s2">0.007</text>
+<rect x="1442.9" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1470.3" y="1030.4" class="g57s2">0.008</text>
+<rect x="1497.7" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1525.1" y="1030.4" class="g57s2">0.008</text>
+<rect x="1552.5" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1579.8" y="1030.4" class="g57s2">0.006</text>
+<rect x="1607.2" y="1015.0" width="54.8" height="22.0" rx="0" class="g57s10"/>
+<text x="1634.6" y="1030.4" class="g57s2">0.007</text>
+<text x="1672.0" y="1031.0" class="g57s28">best “is”</text>
+<rect x="60.0" y="1100.0" width="1786.0" height="164.0" rx="8" class="g57s24"/>
+<path d="M65.75 1101.11 A7.25 7.25 0 0 0 60.75 1108.00 V1256.00 A7.25 7.25 0 0 0 65.75 1262.89 Z" class="g57s21"/>
+<rect x="70.0" y="1109.5" width="22.0" height="17.0" rx="4" class="g57s22"/>
+<text x="81.0" y="1122.0" class="g57s18">5</text>
+<text x="98.0" y="1122.0" class="g57s25">cell 2 · Transformer.speculative_generate</text>
+<text y="1122.0" xml:space="preserve" class="g57s26"><tspan x="674.6" class="g57s12" textLength="45.4" lengthAdjust="spacing">the check</tspan></text>
+<text x="720.0" y="1200.0" class="g57s27">05</text>
+<text x="98.0" y="1140.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">p</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">_rules</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">logits</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s9">0</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">*</tspan><tspan class="g57s0">*</tspan><tspan class="g57s1">rules</tspan><tspan class="g57s0">)</tspan></text>
+<text x="98.0" y="1157.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">token</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s7">pick</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">p</tspan><tspan class="g57s0">)</tspan></text>
+<text x="98.0" y="1174.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">keep</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">token</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">guess</tspan></text>
+<text x="98.0" y="1191.0" xml:space="preserve" class="g57s8"><tspan class="g57s7">write</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">token</tspan><tspan class="g57s0">)</tspan></text>
+<text y="1213.0" xml:space="preserve" class="g57s11"><tspan x="98.0" class="g57s6" textLength="34.5" lengthAdjust="spacing">Row 0</tspan><tspan x="132.5" textLength="421.8" lengthAdjust="spacing"> sits where the guess goes, and cannot see the guess: these are exactly greedy’s </tspan><tspan x="554.3" class="g57s13" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="593.4" textLength="42.2" lengthAdjust="spacing">. Its pick</tspan></text>
+<text y="1229.0" xml:space="preserve" class="g57s11"><tspan x="98.0" textLength="51.5" lengthAdjust="spacing">is “dog” (</tspan><tspan x="149.5" class="g57s6" textLength="30.5" lengthAdjust="spacing">0.923</tspan><tspan x="180.0" textLength="452.0" lengthAdjust="spacing">), not the guess “cat”: rejected. “dog” is written — what a plain pass would have written</tspan></text>
+<text y="1245.0" xml:space="preserve" class="g57s11"><tspan x="98.0" textLength="37.1" lengthAdjust="spacing">— and </tspan><tspan x="135.1" class="g57s6" textLength="29.8" lengthAdjust="spacing">row 1</tspan><tspan x="164.9" textLength="256.3" lengthAdjust="spacing">, computed after the wrong guess, is thrown away.</tspan></text>
+<line x1="736.0" y1="1110.0" x2="736.0" y2="1254.0" class="g57s15"/>
+<rect x="86.0" y="1274.0" width="1760.0" height="147.0" rx="8" class="g57s24"/>
+<path d="M91.75 1275.11 A7.25 7.25 0 0 0 86.75 1282.00 V1413.00 A7.25 7.25 0 0 0 91.75 1419.89 Z" class="g57s21"/>
+<rect x="96.0" y="1283.5" width="22.0" height="17.0" rx="4" class="g57s22"/>
+<text x="107.0" y="1296.0" class="g57s18">6</text>
+<text x="124.0" y="1296.0" class="g57s25">cell 2 · Transformer._trim_cache</text>
+<text y="1296.0" xml:space="preserve" class="g57s26"><tspan x="647.5" class="g57s12" textLength="72.5" lengthAdjust="spacing">undo the guess</tspan></text>
+<text x="720.0" y="1365.5" class="g57s27">06</text>
+<text x="124.0" y="1314.0" xml:space="preserve" class="g57s8"><tspan class="g57s5">for</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">layer_cache</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">in</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">cache</tspan><tspan class="g57s0">:</tspan></text>
+<text x="124.0" y="1331.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">part</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">layer_cache</tspan><tspan class="g57s0">[</tspan><tspan class="g57s30">&quot;self&quot;</tspan><tspan class="g57s0">]</tspan></text>
+<text x="124.0" y="1348.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">part</tspan><tspan class="g57s0">[</tspan><tspan class="g57s30">&quot;k&quot;</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">part</tspan><tspan class="g57s0">[</tspan><tspan class="g57s30">&quot;v&quot;</tspan><tspan class="g57s0">]</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">part</tspan><tspan class="g57s0">[</tspan><tspan class="g57s30">&quot;k&quot;</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">-</tspan><tspan class="g57s1">n</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">part</tspan><tspan class="g57s0">[</tspan><tspan class="g57s30">&quot;v&quot;</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">-</tspan><tspan class="g57s1">n</tspan><tspan class="g57s0">]</tspan></text>
+<text y="1370.0" xml:space="preserve" class="g57s11"><tspan x="124.0" textLength="495.7" lengthAdjust="spacing">The pass also stored the guess’s keys and values. They are cut from every layer’s self-attention</tspan></text>
+<text y="1386.0" xml:space="preserve" class="g57s11"><tspan x="124.0" textLength="141.9" lengthAdjust="spacing">cache; the next pass writes </tspan><tspan x="265.9" class="g57s6" textLength="52.2" lengthAdjust="spacing">position 2</tspan><tspan x="318.1" textLength="147.4" lengthAdjust="spacing"> again, with “dog”. Decoder </tspan><tspan x="465.5" class="g57s6" textLength="36.6" lengthAdjust="spacing">layer 0</tspan><tspan x="502.0" textLength="120.7" lengthAdjust="spacing">’s keys at that position,</tspan></text>
+<text y="1402.0" xml:space="preserve" class="g57s11"><tspan x="124.0" class="g57s6" textLength="65.7" lengthAdjust="spacing">2 key heads</tspan><tspan x="189.7"> × </tspan><tspan x="203.0" class="g57s6" textLength="57.6" lengthAdjust="spacing">2 numbers</tspan><tspan x="260.6">:</tspan></text>
+<line x1="736.0" y1="1284.0" x2="736.0" y2="1411.0" class="g57s15"/>
+<text x="982.0" y="1298.0" class="g57s3">k₀[0]</text>
+<text x="1046.0" y="1298.0" class="g57s3">k₀[1]</text>
+<text x="1110.0" y="1298.0" class="g57s3">k₁[0]</text>
+<text x="1174.0" y="1298.0" class="g57s3">k₁[1]</text>
+<text x="750.0" y="1319.0" class="g57s19">“cat” (cut)</text>
+<rect x="950.0" y="1303.0" width="64.0" height="22.0" rx="0" class="g57s33"/>
+<text x="982.0" y="1318.4" class="g57s2">-1.368</text>
+<rect x="1014.0" y="1303.0" width="64.0" height="22.0" rx="0" class="g57s33"/>
+<text x="1046.0" y="1318.4" class="g57s2">1.143</text>
+<rect x="1078.0" y="1303.0" width="64.0" height="22.0" rx="0" class="g57s33"/>
+<text x="1110.0" y="1318.4" class="g57s2">-1.045</text>
+<rect x="1142.0" y="1303.0" width="64.0" height="22.0" rx="0" class="g57s33"/>
+<text x="1174.0" y="1318.4" class="g57s2">1.563</text>
+<text x="750.0" y="1346.0" class="g57s19">“dog” (next pass)</text>
+<rect x="950.0" y="1330.0" width="64.0" height="22.0" rx="0" class="g57s4"/>
+<text x="982.0" y="1345.4" class="g57s2">-0.184</text>
+<rect x="1014.0" y="1330.0" width="64.0" height="22.0" rx="0" class="g57s4"/>
+<text x="1046.0" y="1345.4" class="g57s2">1.821</text>
+<rect x="1078.0" y="1330.0" width="64.0" height="22.0" rx="0" class="g57s4"/>
+<text x="1110.0" y="1345.4" class="g57s2">1.478</text>
+<rect x="1142.0" y="1330.0" width="64.0" height="22.0" rx="0" class="g57s4"/>
+<text x="1174.0" y="1345.4" class="g57s2">-0.842</text>
+<rect x="60.0" y="1431.0" width="1786.0" height="164.0" rx="8" class="g57s24"/>
+<path d="M65.75 1432.11 A7.25 7.25 0 0 0 60.75 1439.00 V1587.00 A7.25 7.25 0 0 0 65.75 1593.89 Z" class="g57s21"/>
+<rect x="70.0" y="1440.5" width="22.0" height="17.0" rx="4" class="g57s22"/>
+<text x="81.0" y="1453.0" class="g57s18">7</text>
+<text x="98.0" y="1453.0" class="g57s25">cell 2 · Transformer.speculative_generate</text>
+<text y="1453.0" xml:space="preserve" class="g57s26"><tspan x="662.8" class="g57s12" textLength="25.3" lengthAdjust="spacing">pass </tspan><tspan x="688.2" class="g57s36">3</tspan><tspan x="694.1" class="g57s12" textLength="25.9" lengthAdjust="spacing">: kept</tspan></text>
+<text x="720.0" y="1531.0" class="g57s27">07</text>
+<text x="98.0" y="1471.0" xml:space="preserve" class="g57s8"><tspan class="g57s5">if</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">keep</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">all</tspan><tspan class="g57s0">(</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">:</tspan><tspan class="g57s1">             </tspan><tspan class="g57s14"># the guess was right: the second position</tspan></text>
+<text x="98.0" y="1488.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">counts</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">too</tspan></text>
+<text x="98.0" y="1505.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s7">write</tspan><tspan class="g57s0">(</tspan><tspan class="g57s7">pick</tspan><tspan class="g57s0">(</tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">_rules</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">logits</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">*</tspan><tspan class="g57s0">*</tspan><tspan class="g57s1">rules</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">)</tspan></text>
+<text x="98.0" y="1522.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">guess</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">q</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s7">guess_after</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">h</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">:</tspan><tspan class="g57s9">2</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">)</tspan></text>
+<text y="1544.0" xml:space="preserve" class="g57s11"><tspan x="98.0" textLength="206.5" lengthAdjust="spacing">The head guessed again, from the state </tspan><tspan x="304.5" class="g57s6" textLength="29.8" lengthAdjust="spacing">row 0</tspan><tspan x="334.3" textLength="288.1" lengthAdjust="spacing"> came with and “dog”: “is”. This pass reads “dog” and</tspan></text>
+<text y="1560.0" xml:space="preserve" class="g57s11"><tspan x="98.0" textLength="28.5" lengthAdjust="spacing">“is”; </tspan><tspan x="126.5" class="g57s6" textLength="29.8" lengthAdjust="spacing">row 0</tspan><tspan x="156.3" textLength="190.9" lengthAdjust="spacing"> picks “is” — the guess, kept — and </tspan><tspan x="347.2" class="g57s6" textLength="29.8" lengthAdjust="spacing">row 1</tspan><tspan x="377.0" textLength="256.3" lengthAdjust="spacing">, now computed with the right token in place, picks</tspan></text>
+<text y="1576.0" xml:space="preserve" class="g57s11"><tspan x="98.0" textLength="178.1" lengthAdjust="spacing">“sleeping”. Two tokens, one pass.</tspan></text>
+<line x1="736.0" y1="1441.0" x2="736.0" y2="1585.0" class="g57s15"/>
+<text x="977.4" y="1455.0" class="g57s3">&lt;EOS&gt;</text>
+<text x="1032.2" y="1455.0" class="g57s3">a</text>
+<text x="1086.9" y="1455.0" class="g57s3">cat</text>
+<text x="1141.7" y="1455.0" class="g57s3">dog</text>
+<text x="1196.5" y="1455.0" class="g57s3">efully</text>
+<text x="1251.2" y="1455.0" class="g57s3">fast</text>
+<text x="1306.0" y="1455.0" class="g57s3">is</text>
+<text x="1360.8" y="1455.0" class="g57s3">on</text>
+<text x="1415.5" y="1455.0" class="g57s3">peac</text>
+<text x="1470.3" y="1455.0" class="g57s3">running</text>
+<text x="1525.1" y="1455.0" class="g57s3">sleeping</text>
+<text x="1579.8" y="1455.0" class="g57s3">sof</text>
+<text x="1634.6" y="1455.0" class="g57s3">the</text>
+<text x="750.0" y="1476.0" class="g57s19">row 0: after “dog”</text>
+<rect x="950.0" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="977.4" y="1475.4" class="g57s2">0.005</text>
+<rect x="1004.8" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1032.2" y="1475.4" class="g57s2">0.009</text>
+<rect x="1059.5" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1086.9" y="1475.4" class="g57s2">0.007</text>
+<rect x="1114.3" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1141.7" y="1475.4" class="g57s2">0.004</text>
+<rect x="1169.1" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1196.5" y="1475.4" class="g57s2">0.005</text>
+<rect x="1223.8" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1251.2" y="1475.4" class="g57s2">0.007</text>
+<rect x="1278.6" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1306.0" y="1475.4" class="g57s2">0.920</text>
+<rect x="1333.4" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1360.8" y="1475.4" class="g57s2">0.006</text>
+<rect x="1388.2" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1415.5" y="1475.4" class="g57s2">0.007</text>
+<rect x="1442.9" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1470.3" y="1475.4" class="g57s2">0.008</text>
+<rect x="1497.7" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1525.1" y="1475.4" class="g57s2">0.008</text>
+<rect x="1552.5" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1579.8" y="1475.4" class="g57s2">0.006</text>
+<rect x="1607.2" y="1460.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1634.6" y="1475.4" class="g57s2">0.007</text>
+<text x="1672.0" y="1476.0" class="g57s28">best “is” ✓</text>
+<text x="750.0" y="1503.0" class="g57s19">row 1: after “is”</text>
+<rect x="950.0" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="977.4" y="1502.4" class="g57s2">0.010</text>
+<rect x="1004.8" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1032.2" y="1502.4" class="g57s2">0.010</text>
+<rect x="1059.5" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1086.9" y="1502.4" class="g57s2">0.007</text>
+<rect x="1114.3" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1141.7" y="1502.4" class="g57s2">0.006</text>
+<rect x="1169.1" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1196.5" y="1502.4" class="g57s2">0.010</text>
+<rect x="1223.8" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1251.2" y="1502.4" class="g57s2">0.000</text>
+<rect x="1278.6" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1306.0" y="1502.4" class="g57s2">0.009</text>
+<rect x="1333.4" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1360.8" y="1502.4" class="g57s2">0.007</text>
+<rect x="1388.2" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1415.5" y="1502.4" class="g57s2">0.006</text>
+<rect x="1442.9" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1470.3" y="1502.4" class="g57s2">0.010</text>
+<rect x="1497.7" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1525.1" y="1502.4" class="g57s2">0.911</text>
+<rect x="1552.5" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1579.8" y="1502.4" class="g57s2">0.006</text>
+<rect x="1607.2" y="1487.0" width="54.8" height="22.0" rx="0" class="g57s4"/>
+<text x="1634.6" y="1502.4" class="g57s2">0.006</text>
+<text x="1672.0" y="1503.0" class="g57s28">best “sleeping”</text>
+<rect x="34.0" y="1605.0" width="1812.0" height="113.0" rx="8" class="g57s51"/>
+<path d="M39.55 1605.96 A7.45 7.45 0 0 0 34.55 1613.00 V1710.00 A7.45 7.45 0 0 0 39.55 1717.04 Z" class="g57s49"/>
+<rect x="44.0" y="1614.5" width="22.0" height="17.0" rx="4" class="g57s50"/>
+<text x="55.0" y="1627.0" class="g57s18">8</text>
+<text x="72.0" y="1627.0" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">cell 9</text>
+<text x="720.0" y="1679.5" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">08</text>
+<text x="72.0" y="1645.0" xml:space="preserve" class="g57s8"><tspan class="g57s1">Speculative</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">greedy</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">:</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">identical</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">to</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">greedy</tspan><tspan class="g57s0">:</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">True</tspan></text>
+<text y="1667.0" xml:space="preserve" class="g57s11"><tspan x="72.0" textLength="271.4" lengthAdjust="spacing">The answer, “the dog is sleeping peac efully”, takes </tspan><tspan x="343.4" class="g57s6" textLength="48.8" lengthAdjust="spacing">5 passes</tspan><tspan x="392.2" textLength="19.8" lengthAdjust="spacing"> for </tspan><tspan x="412.0" class="g57s6" textLength="46.1" lengthAdjust="spacing">7 tokens</tspan><tspan x="458.1" textLength="56.3" lengthAdjust="spacing"> instead of </tspan><tspan x="514.3" class="g57s6">7</tspan><tspan x="521.1" textLength="53.7" lengthAdjust="spacing"> — exactly</tspan></text>
+<text y="1683.0" xml:space="preserve" class="g57s11"><tspan x="72.0" class="g57s13" textLength="65.1" lengthAdjust="spacing">generate()</tspan><tspan x="137.1" textLength="453.7" lengthAdjust="spacing">’s answer (wrong, as it happens: the tiny model never saw this sentence). On the trained</tspan></text>
+<text y="1699.0" xml:space="preserve" class="g57s11"><tspan x="72.0" textLength="88.2" lengthAdjust="spacing">notebook model, </tspan><tspan x="160.2" class="g57s6" textLength="28.5" lengthAdjust="spacing">cell 9</tspan><tspan x="188.7" textLength="34.5" lengthAdjust="spacing"> prints </tspan><tspan x="223.2" class="g57s6" textLength="52.9" lengthAdjust="spacing">10 tokens</tspan><tspan x="276.0" textLength="15.3" lengthAdjust="spacing"> in </tspan><tspan x="291.4" class="g57s6" textLength="48.8" lengthAdjust="spacing">6 passes</tspan><tspan x="340.2">.</tspan></text>
+<line x1="736.0" y1="1615.0" x2="736.0" y2="1708.0" class="g57s15"/>
+<rect x="34.0" y="1732.0" width="1812.0" height="30.0" rx="6" class="g57s41"/>
+<path d="M38.50 1732.71 A5.50 5.50 0 0 0 34.50 1738.00 V1756.00 A5.50 5.50 0 0 0 38.50 1761.29 Z" class="g57s42"/>
+<text y="1752.0" xml:space="preserve" class="g57s43"><tspan x="50.0" class="g57s12" textLength="144.8" lengthAdjust="spacing">B · What changed from </tspan><tspan x="194.8" class="g57s32" textLength="29.4" lengthAdjust="spacing">v2.5</tspan></text>
+<text y="1752.0" xml:space="preserve" class="g57s44"><tspan x="242.2" textLength="306.8" lengthAdjust="spacing">one pass per token → a guess checked inside the next pass</tspan></text>
+<rect x="52.0" y="1778.0" width="1794.0" height="358.0" rx="8" class="g57s52"/>
+<path d="M57.55 1778.96 A7.45 7.45 0 0 0 52.55 1786.00 V2128.00 A7.45 7.45 0 0 0 57.55 2135.04 Z" class="g57s31"/>
+<rect x="62.0" y="1787.5" width="40.0" height="17.0" rx="4" class="g57s53"/>
+<text x="82.0" y="1800.0" class="g57s54">v3</text>
+<text x="110.0" y="1800.0" class="g57s55">cell 2 · Transformer.speculative_generate</text>
+<rect x="670.4" y="1787.5" width="49.6" height="17.0" rx="8.5" class="g57s56"/>
+<text x="695.2" y="1799.5" class="g57s57">SPEED</text>
+<text y="1800.0" xml:space="preserve" class="g57s58"><tspan x="440.6" class="g57s12" textLength="219.8" lengthAdjust="spacing">speculative decoding with the multi-token head</tspan></text>
+<rect x="80.0" y="1812.0" width="640.0" height="48.1" rx="6" class="g57s59"/>
+<text x="90.0" y="1830.6" class="g57s60">v2.5</text>
+<text x="90.0" y="1843.6" class="g57s61">was</text>
+<text x="130.0" y="1830.6" xml:space="preserve" class="g57s8"><tspan class="g57s1">out</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">_</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">model</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">generate</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">src</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">SOS</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">EOS</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">max_len</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1">MAX_SEQ_LEN</tspan><tspan class="g57s0">)</tspan><tspan class="g57s1">      </tspan><tspan class="g57s14"># one</tspan></text>
+<text x="130.0" y="1847.6" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s5">pass</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">of</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">the</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">model</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">per</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">token</tspan></text>
+<text x="90.0" y="1882.9" class="g57s62">v3</text>
+<text x="90.0" y="1895.9" class="g57s63">now</text>
+<text x="130.0" y="1882.9" xml:space="preserve" class="g57s8"><tspan class="g57s5">def</tspan><tspan class="g57s1"> </tspan><tspan class="g57s7">speculative_generate</tspan><tspan class="g57s0">(</tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">src</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">sos_idx</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">eos_idx</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">max_len</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">20</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">temperature</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">0.0</tspan><tspan class="g57s0">,</tspan></text>
+<text x="130.0" y="1899.9" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">:</tspan><tspan class="g57s1">   </tspan><tspan class="g57s14"># [NEW v3]</tspan></text>
+<text x="130.0" y="1916.9" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">feed</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">torch</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">cat</tspan><tspan class="g57s0">(</tspan><tspan class="g57s0">[</tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">guess</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">dim</tspan><tspan class="g57s0">=</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">)</tspan></text>
+<text x="130.0" y="1933.9" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">keep</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">token</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">guess</tspan><tspan class="g57s1">          </tspan><tspan class="g57s14"># sampling: rand &lt; min(1, p(d) / q(d))</tspan></text>
+<text x="130.0" y="1950.9" xml:space="preserve" class="g57s8"><tspan class="g57s5">def</tspan><tspan class="g57s1"> </tspan><tspan class="g57s7">_trim_cache</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">cache</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">n</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">:</tspan><tspan class="g57s1">         </tspan><tspan class="g57s14"># [NEW v3] forget a rejected guess</tspan></text>
+<rect x="120.0" y="1973.4" width="530.0" height="99.3" rx="7" class="g57s64"/>
+<text x="134.0" y="1996.4" class="g57s65">why this is weak</text>
+<text y="1996.4" xml:space="preserve" class="g57s16"><tspan x="242.0" textLength="298.4" lengthAdjust="spacing">every token cost one full pass of the model, one after another</tspan></text>
+<text x="134.0" y="2025.4" class="g57s66">why this is better</text>
+<text y="2025.4" xml:space="preserve" class="g57s16"><tspan x="242.0" textLength="378.5" lengthAdjust="spacing">a right guess writes two tokens in one pass, a wrong one costs only the check</tspan></text>
+<text y="2040.4" xml:space="preserve" class="g57s16"><tspan x="242.0" textLength="220.7" lengthAdjust="spacing">— the same answers; faster where a pass of </tspan><tspan x="462.7" class="g57s6" textLength="44.1" lengthAdjust="spacing">2 tokens</tspan><tspan x="506.8" textLength="107.6" lengthAdjust="spacing"> costs about the same</tspan></text>
+<text y="2055.4" xml:space="preserve" class="g57s16"><tspan x="242.0" textLength="14.7" lengthAdjust="spacing">as </tspan><tspan x="256.7" class="g57s6">1</tspan><tspan x="263.2" textLength="180.3" lengthAdjust="spacing"> (GPUs), not on this CPU (deep dive </tspan><tspan x="443.5" class="g57s6" textLength="13.0" lengthAdjust="spacing">23</tspan><tspan x="456.5">)</tspan></text>
+<text y="2101.0" xml:space="preserve" class="g57s11"><tspan x="130.0" class="g57s13" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="188.6" textLength="64.6" lengthAdjust="spacing">: identical to </tspan><tspan x="253.1" class="g57s13" textLength="65.1" lengthAdjust="spacing">generate()</tspan><tspan x="318.2" textLength="19.2" lengthAdjust="spacing"> on </tspan><tspan x="337.4" class="g57s6">8</tspan><tspan x="344.2" textLength="370.1" lengthAdjust="spacing"> random models of the real size and on the trained model; with sampling,</tspan></text>
+<text y="2117.0" xml:space="preserve" class="g57s11"><tspan x="130.0" textLength="134.9" lengthAdjust="spacing">the same distribution over </tspan><tspan x="264.9" class="g57s6" textLength="37.3" lengthAdjust="spacing">40,000</tspan><tspan x="302.1" textLength="86.9" lengthAdjust="spacing"> draws (distance </tspan><tspan x="389.1" class="g57s6" textLength="37.3" lengthAdjust="spacing">0.0053</tspan><tspan x="426.3" textLength="46.7" lengthAdjust="spacing">, against </tspan><tspan x="473.0" class="g57s6" textLength="37.3" lengthAdjust="spacing">0.5683</tspan><tspan x="510.3" textLength="134.2" lengthAdjust="spacing"> if every guess were kept).</tspan></text>
+<line x1="736.0" y1="1788.0" x2="736.0" y2="2126.0" class="g57s15"/>
+<text x="750.0" y="1804.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start">THE RESULT — writing 100 unseen sentences per task (experiment3.py, mean of 3 seeds): passes of the model</text>
+<rect x="750.0" y="1816.0" width="37.9" height="19.0" rx="9.5" style="fill:var(--dropbg);stroke:var(--drop);stroke-width:1"/>
+<text x="768.9" y="1829.5" style="fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">v2.5</text>
+<text y="1828.5" xml:space="preserve" class="g57s67"><tspan x="797.9" class="g57s13" textLength="65.1" lengthAdjust="spacing">generate()</tspan><tspan x="863.0" textLength="104.2" lengthAdjust="spacing">: one pass per token</tspan></text>
+<text x="756.0" y="1855.6" class="g57s34">translate</text>
+<rect x="813.9" y="1842.7" width="635.1" height="18.0" rx="3" class="g57s68"/>
+<text x="1456.9" y="1855.6" class="g57s20">650</text>
+<text x="756.0" y="1881.6" class="g57s34">reverse</text>
+<rect x="813.9" y="1868.7" width="902.1" height="18.0" rx="3" class="g57s68"/>
+<text x="1724.0" y="1881.6" class="g57s20">923</text>
+<rect x="750.0" y="1898.7" width="28.2" height="19.0" rx="9.5" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:1"/>
+<text x="764.1" y="1912.2" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">v3</text>
+<text y="1911.2" xml:space="preserve" class="g57s67"><tspan x="788.2" textLength="182.8" lengthAdjust="spacing">the head guesses, one pass checks</tspan></text>
+<text x="756.0" y="1938.3" class="g57s34">translate</text>
+<rect x="813.9" y="1925.3" width="394.7" height="18.0" rx="3" class="g57s69"/>
+<text x="1216.6" y="1938.3" class="g57s20">404</text>
+<text x="756.0" y="1964.3" class="g57s34">reverse</text>
+<rect x="813.9" y="1951.3" width="530.2" height="18.0" rx="3" class="g57s69"/>
+<text x="1352.1" y="1964.3" class="g57s20">543</text>
+<text y="1992.3" xml:space="preserve" class="g57s16"><tspan x="750.0" textLength="403.5" lengthAdjust="spacing">The same answers, token for token. Time is another matter: on this CPU a pass of </tspan><tspan x="1153.5" class="g57s6" textLength="44.1" lengthAdjust="spacing">2 tokens</tspan><tspan x="1197.6" textLength="166.3" lengthAdjust="spacing"> costs about twice one (deep dive </tspan><tspan x="1363.9" class="g57s6" textLength="13.0" lengthAdjust="spacing">23</tspan><tspan x="1376.9" textLength="6.7" lengthAdjust="spacing">).</tspan></text>
+<rect x="52.0" y="2146.0" width="1794.0" height="357.0" rx="8" class="g57s52"/>
+<path d="M57.55 2146.96 A7.45 7.45 0 0 0 52.55 2154.00 V2495.00 A7.45 7.45 0 0 0 57.55 2502.04 Z" class="g57s31"/>
+<rect x="62.0" y="2155.5" width="40.0" height="17.0" rx="4" class="g57s53"/>
+<text x="82.0" y="2168.0" class="g57s54">v3</text>
+<text x="110.0" y="2168.0" class="g57s55">cell 2 · Transformer._rules</text>
+<rect x="574.4" y="2155.5" width="145.6" height="17.0" rx="8.5" class="g57s56"/>
+<text x="647.2" y="2167.5" class="g57s57">SAME RULES, TWO USERS</text>
+<text y="2168.0" xml:space="preserve" class="g57s58"><tspan x="417.7" class="g57s12" textLength="146.7" lengthAdjust="spacing">the decoding rules in one place</tspan></text>
+<rect x="80.0" y="2180.0" width="640.0" height="82.1" rx="6" class="g57s59"/>
+<text x="90.0" y="2198.6" class="g57s60">v2.5</text>
+<text x="90.0" y="2211.6" class="g57s61">was</text>
+<text x="130.0" y="2198.6" xml:space="preserve" class="g57s8"><tspan class="g57s1">next_logits</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">_block_special</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">logits</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">float</tspan><tspan class="g57s0">(</tspan><tspan class="g57s0">)</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">sos_idx</tspan><tspan class="g57s0">)</tspan><tspan class="g57s1">     </tspan><tspan class="g57s14">#</tspan></text>
+<text x="130.0" y="2215.6" xml:space="preserve" class="g57s8"><tspan class="g57s1">    </tspan><tspan class="g57s1">inside</tspan><tspan class="g57s1"> </tspan><tspan class="g57s7">generate</tspan><tspan class="g57s0">(</tspan><tspan class="g57s0">)</tspan></text>
+<text x="130.0" y="2232.6" xml:space="preserve" class="g57s8"><tspan class="g57s5">if</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">repetition_penalty</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">!</tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s9">1.0</tspan><tspan class="g57s0">:</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan></text>
+<text x="130.0" y="2249.6" xml:space="preserve" class="g57s8"><tspan class="g57s5">if</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">temperature</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">&gt;</tspan><tspan class="g57s1"> </tspan><tspan class="g57s9">0</tspan><tspan class="g57s0">:</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan><tspan class="g57s0">.</tspan></text>
+<text x="90.0" y="2284.9" class="g57s62">v3</text>
+<text x="90.0" y="2297.9" class="g57s63">now</text>
+<text x="130.0" y="2284.9" xml:space="preserve" class="g57s8"><tspan class="g57s1">next_logits</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">=</tspan><tspan class="g57s1"> </tspan><tspan class="g57s5">self</tspan><tspan class="g57s0">.</tspan><tspan class="g57s7">_rules</tspan><tspan class="g57s0">(</tspan><tspan class="g57s1">logits</tspan><tspan class="g57s0">[</tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">-</tspan><tspan class="g57s9">1</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s0">:</tspan><tspan class="g57s0">]</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">tgt</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">sos_idx</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">temperature</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">top_k</tspan><tspan class="g57s0">,</tspan><tspan class="g57s1"> </tspan><tspan class="g57s1">top_p</tspan><tspan class="g57s0">,</tspan></text>
+<text x="130.0" y="2301.9" xml:space="preserve" class="g57s8"><tspan class="g57s1">                           </tspan><tspan class="g57s1">repetition_penalty</tspan><tspan class="g57s0">)</tspan><tspan class="g57s1">                        </tspan><tspan class="g57s14"># [NEW v3]</tspan></text>
+<rect x="120.0" y="2324.4" width="530.0" height="99.3" rx="7" class="g57s64"/>
+<text x="134.0" y="2347.4" class="g57s65">why this is weak</text>
+<text y="2347.4" xml:space="preserve" class="g57s16"><tspan x="242.0" textLength="94.8" lengthAdjust="spacing">the rules sat inside </tspan><tspan x="336.8" class="g57s17" textLength="62.2" lengthAdjust="spacing">generate()</tspan><tspan x="399.0" textLength="193.8" lengthAdjust="spacing">, so a second way of writing would have</tspan></text>
+<text y="2362.4" xml:space="preserve" class="g57s16"><tspan x="242.0" textLength="172.4" lengthAdjust="spacing">needed a copy that could drift apart</tspan></text>
+<text x="134.0" y="2391.4" class="g57s66">why this is better</text>
+<text y="2391.4" xml:space="preserve" class="g57s16"><tspan x="242.0" textLength="171.7" lengthAdjust="spacing">one copy of the rules: the model’s </tspan><tspan x="413.7" class="g57s17" textLength="37.3" lengthAdjust="spacing">scores</tspan><tspan x="451.0" textLength="142.4" lengthAdjust="spacing"> and the head’s guesses are</tspan></text>
+<text y="2406.4" xml:space="preserve" class="g57s16"><tspan x="242.0" textLength="58.7" lengthAdjust="spacing">judged alike</tspan></text>
+<text y="2452.0" xml:space="preserve" class="g57s11"><tspan x="130.0" textLength="361.8" lengthAdjust="spacing">The lines are moved as they were; only the slicing moved to the caller (</tspan><tspan x="491.8" class="g57s13" textLength="104.1" lengthAdjust="spacing">logits[:, -1, :]</tspan><tspan x="595.9" textLength="10.2" lengthAdjust="spacing">). </tspan><tspan x="606.1" class="g57s13" textLength="65.1" lengthAdjust="spacing">generate()</tspan><tspan x="671.2">,</tspan></text>
+<text y="2468.0" xml:space="preserve" class="g57s11"><tspan x="130.0" class="g57s13" textLength="143.2" lengthAdjust="spacing">speculative_generate()</tspan><tspan x="273.2" textLength="194.8" lengthAdjust="spacing"> and the head’s guesses all call it, so </tspan><tspan x="468.0" class="g57s13" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="526.6" textLength="172.6" lengthAdjust="spacing"> compares the two ways of writing</tspan></text>
+<text y="2484.0" xml:space="preserve" class="g57s11"><tspan x="130.0" textLength="136.1" lengthAdjust="spacing">under the very same rules.</tspan></text>
+<line x1="736.0" y1="2156.0" x2="736.0" y2="2493.0" class="g57s15"/>
+<rect x="34.0" y="2517.0" width="1812.0" height="55.0" rx="6" class="g57s37"/>
+<path d="M38.50 2517.71 A5.50 5.50 0 0 0 34.50 2523.00 V2566.04 A5.50 5.50 0 0 0 38.50 2571.33 Z" class="g57s31"/>
+<text y="2543.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600"><tspan x="50.0" class="g57s12" textLength="112.4" lengthAdjust="spacing">Where to go deeper</tspan></text>
+<text y="2560.5" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px"><tspan x="50.0" textLength="57.4" lengthAdjust="spacing">Deep dive </tspan><tspan x="107.4" class="g57s6" textLength="14.1" lengthAdjust="spacing">23</tspan><tspan x="121.5" textLength="657.0" lengthAdjust="spacing"> follows speculative decoding pass by pass on a sentence the tiny model knows and on this one, explains the sampling rule </tspan><tspan x="778.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)" textLength="88.3" lengthAdjust="spacing">min(1, p ÷ q)</tspan><tspan x="866.8" textLength="364.2" lengthAdjust="spacing">, and measures passes and time — with a step-by-step walkthrough.</tspan></text>
+<line x1="28.0" y1="2598.0" x2="1852.0" y2="2598.0" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="2615.0" xml:space="preserve" class="g57s70"><tspan x="28.0" textLength="341.7" lengthAdjust="spacing">Numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="369.7" class="g57s17" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="382.2" textLength="105.2" lengthAdjust="spacing"> notebook (written by </tspan><tspan x="487.3" class="g57s17" textLength="37.3" lengthAdjust="spacing">nb3.py</tspan><tspan x="524.7" textLength="28.1" lengthAdjust="spacing"> from </tspan><tspan x="552.8" class="g57s17" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="577.7" textLength="195.1" lengthAdjust="spacing">; your notebooks are only read) and the </tspan><tspan x="772.7" class="g57s17" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="797.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="940.7" class="g57s6" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="956.9" textLength="280.0" lengthAdjust="spacing">.0 on their own two sentence pairs (CPU, seeded). Every </tspan><tspan x="1236.9" class="g57s17" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1249.4" textLength="234.1" lengthAdjust="spacing"> change is tested on the notebook’s own code (</tspan><tspan x="1483.4" class="g57s17" textLength="56.0" lengthAdjust="spacing">check3.py</tspan><tspan x="1539.5" textLength="199.9" lengthAdjust="spacing">). TINY-MODEL numbers come from the </tspan><tspan x="1739.3" class="g57s17" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1751.8" textLength="85.6" lengthAdjust="spacing"> classes built with</tspan></text>
+<text y="2630.0" xml:space="preserve" class="g57s70"><tspan x="28.0" class="g57s6" textLength="55.1" lengthAdjust="spacing">8 numbers</tspan><tspan x="83.1" textLength="472.6" lengthAdjust="spacing"> a token and trained on five sentences; a pure-Python copy of that model agrees with PyTorch to </tspan><tspan x="555.7" class="g57s6" textLength="29.8" lengthAdjust="spacing">1e-04</tspan><tspan x="585.5">.</tspan></text>
+</svg>

@@ -1,0 +1,869 @@
+<svg data-src="20_deep_dive_init_and_parameters.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="5147" viewBox="0 0 1880 5147">
+<style>.txfig .g39s0{font-weight:600}.txfig .g39s1{font-weight:600;fill:var(--ink)}.txfig .g39s2{fill:var(--op)}.txfig .g39s3{fill:var(--code)}.txfig .g39s4{fill:var(--accent);stroke:none;stroke-width:1;opacity:0.85}.txfig .g39s5{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g39s6{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g39s7{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g39s8{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g39s9{fill:var(--drop);stroke:none;stroke-width:1;opacity:0.8}.txfig .g39s10{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g39s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g39s12{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g39s13{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g39s14{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g39s15{fill:var(--kw)}.txfig .g39s16{fill:var(--ink3);stroke:none;stroke-width:1;opacity:0.85}.txfig .g39s17{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g39s18{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g39s19{fill:var(--ink3);stroke:none;stroke-width:1;opacity:0.45}.txfig .g39s20{font-family:IBM Plex Mono,ui-monospace,monospace;font-size:10px;fill:var(--ink3);text-anchor:end}.txfig .g39s21{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g39s22{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g39s23{stroke:var(--gridline);stroke-width:0.8;stroke-linecap:round}.txfig .g39s24{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px}.txfig .g39s25{fill:var(--drop);stroke:none;stroke-width:1;opacity:0.85}.txfig .g39s26{fill:var(--fn)}.txfig .g39s27{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g39s28{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g39s29{fill:var(--attr)}.txfig .g39s30{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g39s31{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g39s32{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g39s33{fill:var(--padbg);stroke:var(--pad);stroke-width:0.8}.txfig .g39s34{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g39s35{stroke:var(--panelbd);stroke-width:1;stroke-linecap:round}.txfig .g39s36{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g39s37{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g39s38{fill:var(--accent);stroke:none}.txfig .g39s39{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g39s40{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1}.txfig .g39s41{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600}.txfig .g39s42{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g39s43{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g39s44{stroke:var(--panelbd);stroke-width:1.2;stroke-linecap:round}.txfig .g39s45{fill:var(--cmt)}.txfig .g39s46{fill:var(--cellbg);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g39s47{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g39s48{fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1}.txfig .g39s49{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g39s50{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.8px;font-weight:600}.txfig .g39s51{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g39s52{fill:var(--keep);stroke:none}.txfig .g39s53{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g39s54{fill:var(--mask);stroke:none;stroke-width:1;opacity:0.85}.txfig .g39s55{fill:var(--keep);stroke:none;stroke-width:1;opacity:0.85}.txfig .g39s56{stroke:var(--ink3);stroke-width:1;stroke-dasharray:3,3;stroke-linecap:round}.txfig .g39s57{fill:var(--cellbg);stroke:var(--infobd);stroke-width:1.4}.txfig .g39s58{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:middle}.txfig .g39s59{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px;font-weight:600;text-anchor:middle}.txfig .g39s60{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g39s61{stroke:var(--warnbd);stroke-width:1.2;stroke-dasharray:3,3;stroke-linecap:round}.txfig .g39s62{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:middle}.txfig .g39s63{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g39s64{fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g39s65{stroke:var(--ink3);stroke-width:1.5;stroke-linecap:round}.txfig .g39s66{fill:var(--ink3)}.txfig .g39s67{stroke:var(--ink);stroke-width:1.2;stroke-dasharray:4,3;stroke-linecap:round}.txfig .g39s68{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--pad)}.txfig .g39s69{fill:var(--num)}.txfig .g39s70{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink)}.txfig .g39s71{fill:var(--seqB);stroke:none;stroke-width:1;opacity:0.85}.txfig .g39s72{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g39s73{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--pad)}.txfig .g39s74{font-weight:600;fill:var(--ink2)}.txfig .g39s75{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)}.txfig .g39s76{fill:var(--codebg);stroke:var(--codebd);stroke-width:1}.txfig .g39s77{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g39s78{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g39s79{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;text-anchor:start}.txfig .g39s80{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px;font-weight:600;text-anchor:start}.txfig .g39s81{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600}.txfig .g39s82{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--pad)}.txfig .g39s83{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:end}.txfig .g39s84{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:start}.txfig .g39s85{font-family:IBM Plex Mono,ui-monospace,monospace;font-size:10px;fill:var(--ink);text-anchor:end}.txfig .g39s86{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--pad)}</style>
+<defs><pattern id="hatch39" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash39" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="5147" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">DEEP DIVE</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="150.0" class="g39s0" textLength="518.4" lengthAdjust="spacing">Half the parameters, and how every weight starts — </tspan><tspan x="668.4" class="g39s75" textLength="23.8" lengthAdjust="spacing">v1</tspan><tspan x="692.1" class="g39s0" textLength="84.1" lengthAdjust="spacing"> against </tspan><tspan x="776.3" class="g39s75" textLength="47.5" lengthAdjust="spacing">v1.5</tspan></text>
+<rect x="691.9" y="54.3" width="41.8" height="15.9" rx="3" class="g39s33"/>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g39s36" textLength="14.7" lengthAdjust="spacing">v1</tspan><tspan x="48.7">: </tspan><tspan x="55.9" class="g39s1" textLength="142.5" lengthAdjust="spacing">28,268,661 parameters</tspan><tspan x="198.4"> · </tspan><tspan x="209.3" class="g39s36" textLength="183.9" lengthAdjust="spacing">model.apply(init_weights)</tspan><tspan x="393.2"> · </tspan><tspan x="404.0" class="g39s36" textLength="29.4" lengthAdjust="spacing">v1.5</tspan><tspan x="433.4">: </tspan><tspan x="440.7" class="g39s1" textLength="69.0" lengthAdjust="spacing">14,728,218</tspan><tspan x="509.6"> · </tspan><tspan x="520.5" class="g39s36" textLength="132.4" lengthAdjust="spacing">_init_parameters()</tspan><tspan x="652.9" textLength="39.0" lengthAdjust="spacing"> once, </tspan><tspan x="694.4" class="g39s68" textLength="36.8" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="733.7" textLength="82.4" lengthAdjust="spacing"> zeroed, seed </tspan><tspan x="816.1" class="g39s1">0</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="489.5" lengthAdjust="spacing">Measured on both models’ own weights — every number on this page is computed, not quoted.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="107.0" rx="8" class="g39s51"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V219.00 A7.50 7.50 0 0 0 39.50 226.07 Z" class="g39s52"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g39s0" textLength="257.4" lengthAdjust="spacing">Why the starting point deserves a page</tspan></text>
+<text y="169.0" xml:space="preserve" class="g39s53"><tspan x="54.0" textLength="38.3" lengthAdjust="spacing">Before</tspan><tspan x="92.3"> </tspan><tspan x="96.7">a</tspan><tspan x="103.9"> </tspan><tspan x="108.3" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="143.7"> </tspan><tspan x="148.0" textLength="21.0" lengthAdjust="spacing">has</tspan><tspan x="169.0"> </tspan><tspan x="173.4" textLength="28.2" lengthAdjust="spacing">seen</tspan><tspan x="201.5"> </tspan><tspan x="205.9">a</tspan><tspan x="213.1"> </tspan><tspan x="217.5" textLength="34.0" lengthAdjust="spacing">single</tspan><tspan x="251.5"> </tspan><tspan x="255.8" textLength="56.4" lengthAdjust="spacing">sentence,</tspan><tspan x="312.2"> </tspan><tspan x="316.6" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="348.3"> </tspan><tspan x="352.7" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="374.4"> </tspan><tspan x="378.8" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="389.6"> </tspan><tspan x="394.0" textLength="13.0" lengthAdjust="spacing">its</tspan><tspan x="407.0"> </tspan><tspan x="411.3" textLength="44.1" lengthAdjust="spacing">weights</tspan><tspan x="455.4"> </tspan><tspan x="459.8" textLength="42.6" lengthAdjust="spacing">already</tspan><tspan x="502.4"> </tspan><tspan x="506.8" textLength="21.0" lengthAdjust="spacing">has</tspan><tspan x="527.7"> </tspan><tspan x="532.1">a</tspan><tspan x="539.3"> </tspan><tspan x="543.7" textLength="34.7" lengthAdjust="spacing">value,</tspan><tspan x="578.4"> </tspan><tspan x="582.7" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="604.4"> </tspan><tspan x="608.8" textLength="31.8" lengthAdjust="spacing">those</tspan><tspan x="640.6"> </tspan><tspan x="645.0" textLength="42.6" lengthAdjust="spacing">starting</tspan><tspan x="687.6"> </tspan><tspan x="692.0" textLength="37.6" lengthAdjust="spacing">values</tspan><tspan x="729.5"> </tspan><tspan x="733.9" textLength="38.3" lengthAdjust="spacing">decide</tspan><tspan x="772.2"> </tspan><tspan x="776.6" textLength="27.5" lengthAdjust="spacing">what</tspan><tspan x="804.0"> </tspan><tspan x="808.4" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="826.4"> </tspan><tspan x="830.8" textLength="24.6" lengthAdjust="spacing">very</tspan><tspan x="855.4"> </tspan><tspan x="859.7" textLength="20.9" lengthAdjust="spacing">first</tspan><tspan x="880.7"> </tspan><tspan x="885.1" textLength="43.3" lengthAdjust="spacing">forward</tspan><tspan x="928.4"> </tspan><tspan x="932.8" textLength="27.5" lengthAdjust="spacing">pass</tspan><tspan x="960.2"> </tspan><tspan x="964.6" textLength="60.0" lengthAdjust="spacing">computes.</tspan><tspan x="1024.6"> </tspan><tspan x="1028.9" class="g39s36" textLength="14.7" lengthAdjust="spacing">v1</tspan><tspan x="1043.6"> </tspan><tspan x="1048.0" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1069.7"> </tspan><tspan x="1074.1" class="g39s36" textLength="29.4" lengthAdjust="spacing">v1.5</tspan><tspan x="1103.5"> </tspan><tspan x="1107.8" textLength="28.9" lengthAdjust="spacing">differ</tspan><tspan x="1136.7"> </tspan><tspan x="1141.1" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="1151.2"> </tspan><tspan x="1155.6" textLength="29.6" lengthAdjust="spacing">three</tspan><tspan x="1185.2"> </tspan><tspan x="1189.6" textLength="29.6" lengthAdjust="spacing">ways</tspan><tspan x="1219.2"> </tspan><tspan x="1223.6" textLength="10.8" lengthAdjust="spacing">at</tspan><tspan x="1234.4"> </tspan><tspan x="1238.8" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="1260.5"> </tspan><tspan x="1264.8" textLength="50.6" lengthAdjust="spacing">moment.</tspan><tspan x="1315.4"> </tspan><tspan x="1319.8" textLength="26.0" lengthAdjust="spacing">How</tspan><tspan x="1345.8"> </tspan><tspan x="1350.1" textLength="37.6" lengthAdjust="spacing">MANY</tspan><tspan x="1387.7"> </tspan><tspan x="1392.1" textLength="44.1" lengthAdjust="spacing">weights</tspan><tspan x="1436.1"> </tspan><tspan x="1440.5" textLength="30.3" lengthAdjust="spacing">exist:</tspan><tspan x="1470.8"> </tspan><tspan x="1475.2" class="g39s1" textLength="69.0" lengthAdjust="spacing">28,268,661</tspan><tspan x="1544.2"> </tspan><tspan x="1548.5" textLength="41.9" lengthAdjust="spacing">against</tspan><tspan x="1590.4"> </tspan><tspan x="1594.8" class="g39s1" textLength="69.0" lengthAdjust="spacing">14,728,218</tspan><tspan x="1663.8">.</tspan><tspan x="1667.4"> </tspan><tspan x="1671.7" textLength="26.0" lengthAdjust="spacing">How</tspan><tspan x="1697.7"> </tspan><tspan x="1702.1" textLength="24.6" lengthAdjust="spacing">they</tspan><tspan x="1726.7"> </tspan><tspan x="1731.1" textLength="18.8" lengthAdjust="spacing">are</tspan><tspan x="1749.8"> </tspan><tspan x="1754.2" textLength="52.7" lengthAdjust="spacing">DRAWN:</tspan><tspan x="1806.9"> </tspan><tspan x="1811.3" class="g39s36" textLength="14.7" lengthAdjust="spacing">v1</tspan></text>
+<text y="188.0" xml:space="preserve" class="g39s53"><tspan x="54.0" textLength="34.7" lengthAdjust="spacing">draws</tspan><tspan x="88.7"> </tspan><tspan x="93.2" textLength="28.2" lengthAdjust="spacing">most</tspan><tspan x="121.4"> </tspan><tspan x="126.0" textLength="49.1" lengthAdjust="spacing">matrices</tspan><tspan x="175.1"> </tspan><tspan x="179.6" textLength="20.2" lengthAdjust="spacing">five</tspan><tspan x="199.9"> </tspan><tspan x="204.4" textLength="31.1" lengthAdjust="spacing">times</tspan><tspan x="235.5"> </tspan><tspan x="240.1" textLength="28.9" lengthAdjust="spacing">over,</tspan><tspan x="269.0"> </tspan><tspan x="273.5" class="g39s36" textLength="29.4" lengthAdjust="spacing">v1.5</tspan><tspan x="302.9"> </tspan><tspan x="307.5" textLength="34.7" lengthAdjust="spacing">draws</tspan><tspan x="342.2"> </tspan><tspan x="346.7" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="374.9"> </tspan><tspan x="379.5" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="401.2"> </tspan><tspan x="405.7" textLength="31.8" lengthAdjust="spacing">once,</tspan><tspan x="437.5"> </tspan><tspan x="442.1" textLength="39.0" lengthAdjust="spacing">zeroes</tspan><tspan x="481.1"> </tspan><tspan x="485.7" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="503.7"> </tspan><tspan x="508.3" textLength="46.3" lengthAdjust="spacing">padding</tspan><tspan x="554.6"> </tspan><tspan x="559.1" textLength="35.4" lengthAdjust="spacing">vector</tspan><tspan x="594.5"> </tspan><tspan x="599.1" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="620.8"> </tspan><tspan x="625.3" textLength="26.7" lengthAdjust="spacing">fixes</tspan><tspan x="652.1"> </tspan><tspan x="656.6" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="674.7"> </tspan><tspan x="679.2" textLength="44.1" lengthAdjust="spacing">random</tspan><tspan x="723.3"> </tspan><tspan x="727.9" textLength="31.8" lengthAdjust="spacing">seed.</tspan><tspan x="759.7"> </tspan><tspan x="764.2" textLength="23.1" lengthAdjust="spacing">And</tspan><tspan x="787.4"> </tspan><tspan x="791.9" textLength="27.5" lengthAdjust="spacing">what</tspan><tspan x="819.4"> </tspan><tspan x="824.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="842.0"> </tspan><tspan x="846.6" textLength="44.1" lengthAdjust="spacing">random</tspan><tspan x="890.7"> </tspan><tspan x="895.2" textLength="37.6" lengthAdjust="spacing">values</tspan><tspan x="932.8"> </tspan><tspan x="937.3" textLength="36.1" lengthAdjust="spacing">LOOK</tspan><tspan x="973.5"> </tspan><tspan x="978.0" textLength="23.1" lengthAdjust="spacing">like:</tspan><tspan x="1001.2"> </tspan><tspan x="1005.7" textLength="25.3" lengthAdjust="spacing">both</tspan><tspan x="1031.0"> </tspan><tspan x="1035.6" textLength="21.0" lengthAdjust="spacing">use</tspan><tspan x="1056.5"> </tspan><tspan x="1061.1" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1079.2"> </tspan><tspan x="1083.7" textLength="31.8" lengthAdjust="spacing">same</tspan><tspan x="1115.5"> </tspan><tspan x="1120.1" textLength="36.8" lengthAdjust="spacing">Xavier</tspan><tspan x="1156.9"> </tspan><tspan x="1161.5" textLength="47.0" lengthAdjust="spacing">formula,</tspan><tspan x="1208.4"> </tspan><tspan x="1213.0" textLength="18.1" lengthAdjust="spacing">but</tspan><tspan x="1231.1"> </tspan><tspan x="1235.6" textLength="49.1" lengthAdjust="spacing">because</tspan><tspan x="1284.8"> </tspan><tspan x="1289.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1307.4"> </tspan><tspan x="1312.0" textLength="49.1" lengthAdjust="spacing">matrices</tspan><tspan x="1361.1"> </tspan><tspan x="1365.6" textLength="28.2" lengthAdjust="spacing">have</tspan><tspan x="1393.8"> </tspan><tspan x="1398.4" textLength="47.0" lengthAdjust="spacing">different</tspan><tspan x="1445.4"> </tspan><tspan x="1449.9" textLength="45.5" lengthAdjust="spacing">shapes,</tspan><tspan x="1495.4"> </tspan><tspan x="1500.0" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1518.1"> </tspan><tspan x="1522.6" textLength="31.8" lengthAdjust="spacing">same</tspan><tspan x="1554.4"> </tspan><tspan x="1559.0" textLength="43.3" lengthAdjust="spacing">formula</tspan><tspan x="1602.3"> </tspan><tspan x="1606.9" textLength="30.3" lengthAdjust="spacing">gives</tspan><tspan x="1637.2"> </tspan><tspan x="1641.8" textLength="39.7" lengthAdjust="spacing">ranges</tspan><tspan x="1681.5"> </tspan><tspan x="1686.1" textLength="14.5" lengthAdjust="spacing">up</tspan><tspan x="1700.6"> </tspan><tspan x="1705.1" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1716.0"> </tspan><tspan x="1720.5" class="g39s1" textLength="15.9" lengthAdjust="spacing">5×</tspan><tspan x="1736.5"> </tspan><tspan x="1741.0" textLength="29.6" lengthAdjust="spacing">apart</tspan><tspan x="1770.6"> </tspan><tspan x="1775.2">—</tspan><tspan x="1788.2"> </tspan><tspan x="1792.8" textLength="33.2" lengthAdjust="spacing">which</tspan></text>
+<text y="207.0" xml:space="preserve" class="g39s53"><tspan x="54.0" textLength="732.0" lengthAdjust="spacing">changes what the untrained model does with its input and its output. This page measures each of these on the two real models.</tspan></text>
+<rect x="34.0" y="247.0" width="894.0" height="191.2" rx="6" class="g39s76"/>
+<text y="265.0" xml:space="preserve" class="g39s77"><tspan x="44.0" class="g39s78" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="55.9" class="g39s0" textLength="148.5" lengthAdjust="spacing"> · how the weights are created</tspan></text>
+<text x="44.0" y="286.5" xml:space="preserve" class="g39s24"><tspan class="g39s15">def</tspan><tspan class="g39s3"> </tspan><tspan class="g39s26">init_weights</tspan><tspan class="g39s2">(</tspan><tspan class="g39s3">module</tspan><tspan class="g39s2">)</tspan><tspan class="g39s2">:</tspan><tspan class="g39s3">                   </tspan><tspan class="g39s45"># v1</tspan></text>
+<text x="44.0" y="303.8" xml:space="preserve" class="g39s24"><tspan class="g39s3">    </tspan><tspan class="g39s15">for</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">p</tspan><tspan class="g39s3"> </tspan><tspan class="g39s15">in</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">module</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">parameters</tspan><tspan class="g39s2">(</tspan><tspan class="g39s2">)</tspan><tspan class="g39s2">:</tspan><tspan class="g39s3">           </tspan><tspan class="g39s45"># every parameter BELOW module</tspan></text>
+<text x="44.0" y="321.0" xml:space="preserve" class="g39s24"><tspan class="g39s3">        </tspan><tspan class="g39s15">if</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">p</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">dim</tspan><tspan class="g39s2">(</tspan><tspan class="g39s2">)</tspan><tspan class="g39s3"> </tspan><tspan class="g39s2">&gt;</tspan><tspan class="g39s3"> </tspan><tspan class="g39s69">1</tspan><tspan class="g39s2">:</tspan></text>
+<text x="44.0" y="338.2" xml:space="preserve" class="g39s24"><tspan class="g39s3">            </tspan><tspan class="g39s3">nn</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">init</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">xavier_uniform_</tspan><tspan class="g39s2">(</tspan><tspan class="g39s3">p</tspan><tspan class="g39s2">)</tspan></text>
+<text x="44.0" y="355.5" xml:space="preserve" class="g39s24"></text>
+<text x="44.0" y="372.8" xml:space="preserve" class="g39s24"><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">src_embedding</tspan><tspan class="g39s3"> </tspan><tspan class="g39s2">=</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">nn</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">Embedding</tspan><tspan class="g39s2">(</tspan><tspan class="g39s3">V</tspan><tspan class="g39s2">,</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">d_model</tspan><tspan class="g39s2">,</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">padding_idx</tspan><tspan class="g39s2">=</tspan><tspan class="g39s3">pad_idx</tspan><tspan class="g39s2">)</tspan></text>
+<text x="44.0" y="390.0" xml:space="preserve" class="g39s24"><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">tgt_embedding</tspan><tspan class="g39s3"> </tspan><tspan class="g39s2">=</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">nn</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">Embedding</tspan><tspan class="g39s2">(</tspan><tspan class="g39s3">V</tspan><tspan class="g39s2">,</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">d_model</tspan><tspan class="g39s2">,</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">padding_idx</tspan><tspan class="g39s2">=</tspan><tspan class="g39s3">pad_idx</tspan><tspan class="g39s2">)</tspan></text>
+<text x="44.0" y="407.2" xml:space="preserve" class="g39s24"><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">linear</tspan><tspan class="g39s3"> </tspan><tspan class="g39s2">=</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">nn</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">Linear</tspan><tspan class="g39s2">(</tspan><tspan class="g39s3">d_model</tspan><tspan class="g39s2">,</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">V</tspan><tspan class="g39s2">)</tspan></text>
+<text x="44.0" y="424.5" xml:space="preserve" class="g39s24"><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">apply</tspan><tspan class="g39s2">(</tspan><tspan class="g39s3">init_weights</tspan><tspan class="g39s2">)</tspan><tspan class="g39s3">                    </tspan><tspan class="g39s45"># called on EVERY module</tspan></text>
+<rect x="952.0" y="247.0" width="894.0" height="225.8" rx="6" class="g39s76"/>
+<text y="265.0" xml:space="preserve" class="g39s77"><tspan x="962.0" class="g39s78" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="985.8" class="g39s0" textLength="148.5" lengthAdjust="spacing"> · how the weights are created</tspan></text>
+<text x="962.0" y="286.5" xml:space="preserve" class="g39s24"><tspan class="g39s3">torch</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">manual_seed</tspan><tspan class="g39s2">(</tspan><tspan class="g39s69">0</tspan><tspan class="g39s2">)</tspan><tspan class="g39s3">                        </tspan><tspan class="g39s45"># v1.5</tspan></text>
+<text x="962.0" y="303.8" xml:space="preserve" class="g39s24"><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">tgt_embedding</tspan><tspan class="g39s3"> </tspan><tspan class="g39s2">=</tspan><tspan class="g39s3"> </tspan><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">src_embedding</tspan><tspan class="g39s3"> </tspan><tspan class="g39s15">if</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">share</tspan><tspan class="g39s3"> </tspan><tspan class="g39s15">else</tspan><tspan class="g39s3"> </tspan><tspan class="g39s2">.</tspan><tspan class="g39s2">.</tspan><tspan class="g39s2">.</tspan></text>
+<text x="962.0" y="321.0" xml:space="preserve" class="g39s24"><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">linear</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">weight</tspan><tspan class="g39s3"> </tspan><tspan class="g39s2">=</tspan><tspan class="g39s3"> </tspan><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">tgt_embedding</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">weight</tspan><tspan class="g39s3">    </tspan><tspan class="g39s45"># one table, three uses</tspan></text>
+<text x="962.0" y="338.2" xml:space="preserve" class="g39s24"><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">_init_parameters</tspan><tspan class="g39s2">(</tspan><tspan class="g39s2">)</tspan></text>
+<text x="962.0" y="355.5" xml:space="preserve" class="g39s24"></text>
+<text x="962.0" y="372.8" xml:space="preserve" class="g39s24"><tspan class="g39s15">def</tspan><tspan class="g39s3"> </tspan><tspan class="g39s26">_init_parameters</tspan><tspan class="g39s2">(</tspan><tspan class="g39s15">self</tspan><tspan class="g39s2">)</tspan><tspan class="g39s2">:</tspan></text>
+<text x="962.0" y="390.0" xml:space="preserve" class="g39s24"><tspan class="g39s3">    </tspan><tspan class="g39s15">for</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">p</tspan><tspan class="g39s3"> </tspan><tspan class="g39s15">in</tspan><tspan class="g39s3"> </tspan><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">parameters</tspan><tspan class="g39s2">(</tspan><tspan class="g39s2">)</tspan><tspan class="g39s2">:</tspan><tspan class="g39s3">             </tspan><tspan class="g39s45"># once, shared tensors once</tspan></text>
+<text x="962.0" y="407.2" xml:space="preserve" class="g39s24"><tspan class="g39s3">        </tspan><tspan class="g39s15">if</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">p</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">dim</tspan><tspan class="g39s2">(</tspan><tspan class="g39s2">)</tspan><tspan class="g39s3"> </tspan><tspan class="g39s2">&gt;</tspan><tspan class="g39s3"> </tspan><tspan class="g39s69">1</tspan><tspan class="g39s2">:</tspan></text>
+<text x="962.0" y="424.5" xml:space="preserve" class="g39s24"><tspan class="g39s3">            </tspan><tspan class="g39s3">nn</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">init</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">xavier_uniform_</tspan><tspan class="g39s2">(</tspan><tspan class="g39s3">p</tspan><tspan class="g39s2">)</tspan></text>
+<text x="962.0" y="441.8" xml:space="preserve" class="g39s24"><tspan class="g39s3">    </tspan><tspan class="g39s15">with</tspan><tspan class="g39s3"> </tspan><tspan class="g39s3">torch</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">no_grad</tspan><tspan class="g39s2">(</tspan><tspan class="g39s2">)</tspan><tspan class="g39s2">:</tspan></text>
+<text x="962.0" y="459.0" xml:space="preserve" class="g39s24"><tspan class="g39s3">        </tspan><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">src_embedding</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">weight</tspan><tspan class="g39s2">[</tspan><tspan class="g39s15">self</tspan><tspan class="g39s2">.</tspan><tspan class="g39s29">pad_idx</tspan><tspan class="g39s2">]</tspan><tspan class="g39s2">.</tspan><tspan class="g39s26">zero_</tspan><tspan class="g39s2">(</tspan><tspan class="g39s2">)</tspan></text>
+<text y="503.8" xml:space="preserve" class="g39s53"><tspan x="34.0" textLength="476.9" lengthAdjust="spacing">How to read this page. Section A shows where the parameters are and walks from </tspan><tspan x="510.9" class="g39s1" textLength="69.0" lengthAdjust="spacing">28,268,661</tspan><tspan x="579.8" textLength="18.1" lengthAdjust="spacing"> to </tspan><tspan x="597.9" class="g39s1" textLength="69.0" lengthAdjust="spacing">14,728,218</tspan><tspan x="666.8" textLength="1151.7" lengthAdjust="spacing"> one change at a time. Section B shows how often each version draws each matrix. Section C shows the range of random values Xavier gives every matrix, with real values drawn from both embedding</tspan></text>
+<rect x="1027.7" y="510.9" width="41.8" height="15.9" rx="3" class="g39s33"/>
+<text y="522.6" xml:space="preserve" class="g39s53"><tspan x="34.0" textLength="638.1" lengthAdjust="spacing">tables. Sections D and E follow those ranges into the model: what they do to the input, and what they do to the </tspan><tspan x="672.1" class="g39s36" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="716.2" textLength="311.4" lengthAdjust="spacing"> the untrained model produces. Section F looks at the </tspan><tspan x="1030.2" class="g39s68" textLength="36.8" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="1069.5" textLength="445.8" lengthAdjust="spacing"> vector. Sections G and H give the pros and cons and check the usual claims.</tspan></text>
+<rect x="34.0" y="550.5" width="1812.0" height="30.0" rx="6" class="g39s30"/>
+<path d="M38.50 551.16 A5.50 5.50 0 0 0 34.50 556.45 V574.45 A5.50 5.50 0 0 0 38.50 579.74 Z" class="g39s38"/>
+<text y="570.5" xml:space="preserve" class="g39s37"><tspan x="50.0" class="g39s0" textLength="362.3" lengthAdjust="spacing">A · Where the parameters are, and where half of them went</tspan></text>
+<text y="570.5" xml:space="preserve" class="g39s39"><tspan x="430.3" textLength="414.2" lengthAdjust="spacing">counted exactly from the architecture · both totals match what the notebooks print</tspan></text>
+<text y="598.5" xml:space="preserve" class="g39s32"><tspan x="38.0" class="g39s0" textLength="330.2" lengthAdjust="spacing">The count halves, but the part that does the thinking grows</tspan></text>
+<text y="616.5" xml:space="preserve" class="g39s21"><tspan x="38.0" textLength="636.1" lengthAdjust="spacing">A parameter count is easy to read as &quot;the size of the model&quot;. The two bars below show why that misleads here: most of </tspan><tspan x="674.1" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="687.7" textLength="28.0" lengthAdjust="spacing"> was </tspan><tspan x="715.7" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="783.6" textLength="113.4" lengthAdjust="spacing"> tables — one row of </tspan><tspan x="897.0" class="g39s1" textLength="74.2" lengthAdjust="spacing">512 numbers</tspan><tspan x="971.2" textLength="63.4" lengthAdjust="spacing"> for each of </tspan><tspan x="1034.6" class="g39s1" textLength="79.9" lengthAdjust="spacing">12,917 tokens</tspan><tspan x="1114.5" textLength="684.3" lengthAdjust="spacing">, three times over — and almost all of that disappears. The attention and feed-forward layers, which do the actual processing, get</tspan></text>
+<text y="633.9" xml:space="preserve" class="g39s21"><tspan x="38.0" textLength="62.7" lengthAdjust="spacing">BIGGER in </tspan><tspan x="100.7" class="g39s6" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="127.9">.</tspan></text>
+<rect x="34.0" y="655.2" width="1812.0" height="238.0" rx="8" class="g39s40"/>
+<text y="679.2" xml:space="preserve" class="g39s41"><tspan x="50.0" class="g39s0" textLength="319.6" lengthAdjust="spacing">Every parameter, by the part of the model it belongs to</tspan></text>
+<text y="697.2" xml:space="preserve" class="g39s42"><tspan x="50.0" class="g39s70" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="61.9">: </tspan><tspan x="67.7" class="g39s1" textLength="31.6" lengthAdjust="spacing">70.2%</tspan><tspan x="99.3" textLength="74.1" lengthAdjust="spacing"> of the model is </tspan><tspan x="173.4" class="g39s70" textLength="59.4" lengthAdjust="spacing">vocabulary</tspan><tspan x="232.8" textLength="39.7" lengthAdjust="spacing"> tables · </tspan><tspan x="272.5" class="g39s70" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="296.3" textLength="130.7" lengthAdjust="spacing">: the processing layers hold </tspan><tspan x="427.0" class="g39s1" textLength="30.9" lengthAdjust="spacing">14.7M</tspan><tspan x="457.9" textLength="14.6" lengthAdjust="spacing"> of </tspan><tspan x="472.5" class="g39s1" textLength="30.9" lengthAdjust="spacing">14.7M</tspan></text>
+<text x="50.0" y="744.2" class="g39s79">v1</text>
+<rect x="154.0" y="725.2" width="721.5" height="32.0" rx="0" class="g39s71"/>
+<text x="514.8" y="746.2" class="g39s46">13.2M</text>
+<rect x="875.5" y="725.2" width="361.5" height="32.0" rx="0" class="g39s54"/>
+<text x="1056.2" y="746.2" class="g39s46">6.6M</text>
+<rect x="1237.0" y="725.2" width="343.9" height="32.0" rx="0" class="g39s4"/>
+<text x="1408.9" y="746.2" class="g39s46">6.3M</text>
+<rect x="1580.8" y="725.2" width="114.6" height="32.0" rx="0" class="g39s55"/>
+<text x="1638.1" y="746.2" class="g39s46">2.1M</text>
+<rect x="1695.4" y="725.2" width="1.5" height="32.0" rx="0" class="g39s16"/>
+<text x="1706.0" y="746.2" class="g39s80">28,268,661</text>
+<text x="50.0" y="806.2" class="g39s79">v1.5</text>
+<rect x="154.0" y="787.2" width="1.5" height="32.0" rx="0" class="g39s71"/>
+<rect x="154.7" y="787.2" width="1.5" height="32.0" rx="0" class="g39s54"/>
+<rect x="154.7" y="787.2" width="343.9" height="32.0" rx="0" class="g39s4"/>
+<text x="326.7" y="808.2" class="g39s46">6.3M</text>
+<rect x="498.6" y="787.2" width="458.1" height="32.0" rx="0" class="g39s55"/>
+<text x="727.7" y="808.2" class="g39s46">8.4M</text>
+<rect x="956.7" y="787.2" width="1.5" height="32.0" rx="0" class="g39s16"/>
+<text x="967.4" y="808.2" class="g39s80">14,728,218</text>
+<rect x="50.0" y="861.2" width="14.0" height="12.0" rx="2" class="g39s71"/>
+<text x="70.0" y="871.2" class="g39s34">embedding tables</text>
+<rect x="180.8" y="861.2" width="14.0" height="12.0" rx="2" class="g39s54"/>
+<text x="200.8" y="871.2" class="g39s34">output head</text>
+<rect x="280.1" y="861.2" width="14.0" height="12.0" rx="2" class="g39s4"/>
+<text x="300.1" y="871.2" class="g39s34">attention (6 blocks)</text>
+<rect x="436.1" y="861.2" width="14.0" height="12.0" rx="2" class="g39s55"/>
+<text x="456.1" y="871.2" class="g39s34">feed-forward (4 blocks)</text>
+<rect x="611.0" y="861.2" width="14.0" height="12.0" rx="2" class="g39s16"/>
+<text x="631.0" y="871.2" class="g39s34">LayerNorms</text>
+<rect x="34.0" y="909.2" width="1812.0" height="360.0" rx="8" class="g39s40"/>
+<text y="933.2" xml:space="preserve" class="g39s41"><tspan x="50.0" class="g39s0" textLength="34.6" lengthAdjust="spacing">From </tspan><tspan x="84.6" class="g39s0" textLength="66.3" lengthAdjust="spacing">28,268,661</tspan><tspan x="150.9" class="g39s0" textLength="18.4" lengthAdjust="spacing"> to </tspan><tspan x="169.3" class="g39s0" textLength="66.3" lengthAdjust="spacing">14,728,218</tspan><tspan x="235.6" class="g39s0" textLength="131.1" lengthAdjust="spacing">, one change at a time</tspan></text>
+<text y="951.2" xml:space="preserve" class="g39s42"><tspan x="50.0" textLength="489.7" lengthAdjust="spacing">green takes parameters away, red adds them · the order changes the size of each step, not where it ends</tspan></text>
+<line x1="104.0" y1="1205.2" x2="1824.0" y2="1205.2" class="g39s23"/>
+<text x="96.0" y="1209.2" class="g39s22">0M</text>
+<line x1="104.0" y1="1167.6" x2="1824.0" y2="1167.6" class="g39s23"/>
+<text x="96.0" y="1171.6" class="g39s22">5M</text>
+<line x1="104.0" y1="1129.9" x2="1824.0" y2="1129.9" class="g39s23"/>
+<text x="96.0" y="1133.9" class="g39s22">10M</text>
+<line x1="104.0" y1="1092.2" x2="1824.0" y2="1092.2" class="g39s23"/>
+<text x="96.0" y="1096.2" class="g39s22">15M</text>
+<line x1="104.0" y1="1054.6" x2="1824.0" y2="1054.6" class="g39s23"/>
+<text x="96.0" y="1058.6" class="g39s22">20M</text>
+<line x1="104.0" y1="1016.9" x2="1824.0" y2="1016.9" class="g39s23"/>
+<text x="96.0" y="1020.9" class="g39s22">25M</text>
+<line x1="104.0" y1="979.2" x2="1824.0" y2="979.2" class="g39s23"/>
+<text x="96.0" y="983.2" class="g39s22">30M</text>
+<rect x="187.3" y="992.3" width="120.0" height="213.0" rx="3" class="g39s16"/>
+<text x="247.3" y="985.3" class="g39s47">28,268,661</text>
+<text x="247.3" y="1223.2" class="g39s14">v1 as it stands</text>
+<rect x="474.0" y="992.3" width="120.0" height="99.6" rx="3" class="g39s55"/>
+<text x="534.0" y="985.3" class="g39s47">−13,227,008</text>
+<line x1="307.3" y1="992.3" x2="474.0" y2="992.3" class="g39s56"/>
+<text x="534.0" y="1223.2" class="g39s14">tie the source, target</text>
+<text x="534.0" y="1237.2" class="g39s14">and output tables</text>
+<rect x="760.7" y="1091.9" width="120.0" height="49.8" rx="3" class="g39s55"/>
+<text x="820.7" y="1084.9" class="g39s47">−6,613,083</text>
+<line x1="594.0" y1="1091.9" x2="760.7" y2="1091.9" class="g39s56"/>
+<text x="820.7" y="1223.2" class="g39s14">vocabulary 12,917 → 26</text>
+<rect x="1047.3" y="1094.3" width="120.0" height="47.4" rx="3" class="g39s54"/>
+<text x="1107.3" y="1087.3" class="g39s47">+6,297,600</text>
+<line x1="880.7" y1="1141.8" x2="1047.3" y2="1141.8" class="g39s56"/>
+<text x="1107.3" y="1223.2" class="g39s14">d_ff 512 → 2,048 in 4</text>
+<text x="1107.3" y="1237.2" class="g39s14">blocks</text>
+<rect x="1334.0" y="1094.3" width="120.0" height="2.0" rx="3" class="g39s54"/>
+<text x="1394.0" y="1087.3" class="g39s47">+2,048</text>
+<line x1="1167.3" y1="1094.3" x2="1334.0" y2="1094.3" class="g39s56"/>
+<text x="1394.0" y="1223.2" class="g39s14">enc_norm and dec_norm</text>
+<rect x="1620.7" y="1094.3" width="120.0" height="111.0" rx="3" class="g39s16"/>
+<text x="1680.7" y="1087.3" class="g39s47">14,728,218</text>
+<line x1="1454.0" y1="1094.3" x2="1620.7" y2="1094.3" class="g39s56"/>
+<text x="1680.7" y="1223.2" class="g39s14">v1.5 as it stands</text>
+<line x1="104.0" y1="1205.2" x2="1824.0" y2="1205.2" class="g39s44"/>
+<rect x="34.0" y="1285.2" width="1812.0" height="72.6" rx="6" class="g39s51"/>
+<path d="M38.50 1285.96 A5.50 5.50 0 0 0 34.50 1291.25 V1351.81 A5.50 5.50 0 0 0 38.50 1357.10 Z" class="g39s52"/>
+<text y="1311.2" xml:space="preserve" class="g39s32"><tspan x="50.0" class="g39s0" textLength="156.2" lengthAdjust="spacing">What to take from section A</tspan></text>
+<text y="1328.8" xml:space="preserve" class="g39s21"><tspan x="50.0" textLength="153.4" lengthAdjust="spacing">Tying is applied first here, at </tspan><tspan x="203.4" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="217.0" textLength="41.9" lengthAdjust="spacing">’s own </tspan><tspan x="258.9" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="326.8" textLength="96.7" lengthAdjust="spacing">, where it is worth </tspan><tspan x="423.5" class="g39s1" textLength="63.7" lengthAdjust="spacing">13,227,008</tspan><tspan x="487.1" textLength="32.0" lengthAdjust="spacing"> — at </tspan><tspan x="519.1" class="g39s6" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="546.3" textLength="16.5" lengthAdjust="spacing">’s </tspan><tspan x="562.8" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="630.7" textLength="16.7" lengthAdjust="spacing"> of </tspan><tspan x="647.4" class="g39s1" textLength="14.1" lengthAdjust="spacing">26</tspan><tspan x="661.6" textLength="101.4" lengthAdjust="spacing"> it would save only </tspan><tspan x="762.9" class="g39s1" textLength="38.9" lengthAdjust="spacing">26,624</tspan><tspan x="801.8" textLength="30.7" lengthAdjust="spacing">. The </tspan><tspan x="832.5" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="900.4" textLength="124.7" lengthAdjust="spacing"> collapse (dropping the </tspan><tspan x="1025.1" class="g39s1" textLength="70.7" lengthAdjust="spacing">50,000-word</tspan><tspan x="1095.8" textLength="68.7" lengthAdjust="spacing"> list from the </tspan><tspan x="1164.5" class="g39s6" textLength="61.1" lengthAdjust="spacing">tokenizer</tspan><tspan x="1225.6" textLength="179.3" lengthAdjust="spacing">’s training text) removes another </tspan><tspan x="1404.9" class="g39s1" textLength="56.6" lengthAdjust="spacing">6,613,083</tspan><tspan x="1461.5" textLength="270.8" lengthAdjust="spacing">: one table row and one output bias for each of the </tspan><tspan x="1732.3" class="g39s1" textLength="79.9" lengthAdjust="spacing">12,891 tokens</tspan></text>
+<text y="1346.3" xml:space="preserve" class="g39s21"><tspan x="50.0" textLength="138.7" lengthAdjust="spacing">that no longer exist. Then </tspan><tspan x="188.7" class="g39s6" textLength="27.2" lengthAdjust="spacing">d_ff</tspan><tspan x="215.9" textLength="32.7" lengthAdjust="spacing"> adds </tspan><tspan x="248.6" class="g39s1" textLength="56.6" lengthAdjust="spacing">6,297,600</tspan><tspan x="305.2" textLength="115.4" lengthAdjust="spacing"> back. The result: the </tspan><tspan x="420.6" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="488.5" textLength="84.7" lengthAdjust="spacing"> tables fall from </tspan><tspan x="573.2" class="g39s1" textLength="36.1" lengthAdjust="spacing">70.2%</tspan><tspan x="609.2" textLength="120.1" lengthAdjust="spacing"> of the model to under </tspan><tspan x="729.3" class="g39s1" textLength="29.0" lengthAdjust="spacing">0.1%</tspan><tspan x="758.3" textLength="292.1" lengthAdjust="spacing">, and the layers that process each sentence grow from </tspan><tspan x="1050.4" class="g39s1" textLength="56.6" lengthAdjust="spacing">8,415,232</tspan><tspan x="1107.0" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="1123.7" class="g39s1" textLength="131.5" lengthAdjust="spacing">14,714,880 parameters</tspan><tspan x="1255.2">.</tspan></text>
+<rect x="34.0" y="1385.8" width="1812.0" height="30.0" rx="6" class="g39s30"/>
+<path d="M38.50 1386.52 A5.50 5.50 0 0 0 34.50 1391.81 V1409.81 A5.50 5.50 0 0 0 38.50 1415.10 Z" class="g39s38"/>
+<text y="1405.8" xml:space="preserve" class="g39s37"><tspan x="50.0" class="g39s0" textLength="296.4" lengthAdjust="spacing">B · How many times each weight matrix is drawn</tspan></text>
+<text y="1405.8" xml:space="preserve" class="g39s39"><tspan x="364.4" class="g39s7" textLength="13.0" lengthAdjust="spacing">v1</tspan><tspan x="377.4">: </tspan><tspan x="383.8" class="g39s7" textLength="162.7" lengthAdjust="spacing">model.apply(init_weights)</tspan><tspan x="546.5"> · </tspan><tspan x="556.0" class="g39s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="582.1" textLength="79.3" lengthAdjust="spacing">: one loop over </tspan><tspan x="661.3" class="g39s7" textLength="110.6" lengthAdjust="spacing">self.parameters()</tspan></text>
+<text y="1433.8" xml:space="preserve" class="g39s32"><tspan x="38.0" class="g39s0" textLength="310.4" lengthAdjust="spacing">A helper that looks like it runs once, and runs once per </tspan><tspan x="348.4" class="g39s6" textLength="40.7" lengthAdjust="spacing">module</tspan></text>
+<text y="1451.8" xml:space="preserve" class="g39s21"><tspan x="38.0" class="g39s6" textLength="101.9" lengthAdjust="spacing">model.apply(fn)</tspan><tspan x="139.9" textLength="326.2" lengthAdjust="spacing"> is a PyTorch method that calls fn on the model and on every </tspan><tspan x="466.0" class="g39s6" textLength="40.7" lengthAdjust="spacing">module</tspan><tspan x="506.8" textLength="50.7" lengthAdjust="spacing"> inside it. </tspan><tspan x="557.4" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="571.0" textLength="16.5" lengthAdjust="spacing">’s </tspan><tspan x="587.6" class="g39s6" textLength="81.5" lengthAdjust="spacing">init_weights</tspan><tspan x="669.1" textLength="127.4" lengthAdjust="spacing"> does not just touch the </tspan><tspan x="796.5" class="g39s6" textLength="40.7" lengthAdjust="spacing">module</tspan><tspan x="837.2" textLength="60.0" lengthAdjust="spacing"> it is given: </tspan><tspan x="897.2" class="g39s6" textLength="129.0" lengthAdjust="spacing">module.parameters()</tspan><tspan x="1026.3" textLength="260.1" lengthAdjust="spacing"> returns every parameter anywhere BELOW that </tspan><tspan x="1286.4" class="g39s6" textLength="40.7" lengthAdjust="spacing">module</tspan><tspan x="1327.1" textLength="500.9" lengthAdjust="spacing">. Put the two together and a matrix is drawn again for every box on the path from the top of the</tspan></text>
+<text y="1469.2" xml:space="preserve" class="g39s21"><tspan x="38.0" textLength="90.7" lengthAdjust="spacing">model down to it.</tspan></text>
+<rect x="34.0" y="1490.6" width="1812.0" height="272.4" rx="8" style="fill:var(--soft);stroke:var(--panelbd);stroke-width:1"/>
+<text y="1516.6" xml:space="preserve" class="g39s37"><tspan x="52.0" class="g39s0" textLength="31.4" lengthAdjust="spacing">How </tspan><tspan x="83.4" class="g39s81" textLength="183.9" lengthAdjust="spacing">model.apply(init_weights)</tspan><tspan x="267.3" class="g39s0" textLength="110.3" lengthAdjust="spacing"> reaches encoder </tspan><tspan x="377.6" class="g39s0" textLength="41.4" lengthAdjust="spacing">layer 0</tspan><tspan x="419.0" class="g39s0" textLength="19.0" lengthAdjust="spacing">’s </tspan><tspan x="437.9" class="g39s81" textLength="22.1" lengthAdjust="spacing">W_q</tspan><tspan x="460.0" class="g39s0" textLength="62.0" lengthAdjust="spacing"> five times</tspan></text>
+<text y="1535.6" xml:space="preserve" class="g39s72"><tspan x="52.0" class="g39s17" textLength="43.6" lengthAdjust="spacing">apply()</tspan><tspan x="95.6" textLength="28.1" lengthAdjust="spacing"> calls </tspan><tspan x="123.7" class="g39s17" textLength="74.7" lengthAdjust="spacing">init_weights</tspan><tspan x="198.4" textLength="58.7" lengthAdjust="spacing"> on EVERY </tspan><tspan x="257.1" class="g39s17" textLength="37.3" lengthAdjust="spacing">module</tspan><tspan x="294.4" textLength="262.9" lengthAdjust="spacing">; each call then walks all the parameters BELOW that </tspan><tspan x="557.3" class="g39s17" textLength="37.3" lengthAdjust="spacing">module</tspan><tspan x="594.7" textLength="20.8" lengthAdjust="spacing">, so </tspan><tspan x="615.5" class="g39s17" textLength="62.2" lengthAdjust="spacing">W_q.weight</tspan><tspan x="677.7" textLength="197.5" lengthAdjust="spacing"> is drawn once from each box on its path</tspan></text>
+<rect x="52.0" y="1556.6" width="318.4" height="56.0" rx="6" class="g39s57"/>
+<text x="211.2" y="1588.8" class="g39s58"></text>
+<text x="211.2" y="1581.2" class="g39s59">Transformer</text>
+<text x="211.2" y="1596.6" class="g39s60">the whole model</text>
+<line x1="374.4" y1="1584.6" x2="406.4" y2="1584.6" class="g39s65"/>
+<path d="M412.4 1584.6 L404.2 1588.3 L404.2 1580.9 Z" class="g39s66"/>
+<line x1="211.2" y1="1612.6" x2="211.2" y2="1628.6" class="g39s61"/>
+<rect x="94.9" y="1628.6" width="232.5" height="78.5" rx="8" class="g39s48"/>
+<text x="211.2" y="1652.2" class="g39s62">init_weights(Transformer)</text>
+<text x="211.2" y="1671.2" class="g39s63">draws W_q.weight</text>
+<text x="211.2" y="1690.2" class="g39s64">call 5 of 5 that reach it</text>
+<rect x="416.4" y="1556.6" width="318.4" height="56.0" rx="6" class="g39s57"/>
+<text x="575.6" y="1588.8" class="g39s58"></text>
+<text x="575.6" y="1581.2" class="g39s59">encoder_layers</text>
+<text x="575.6" y="1596.6" class="g39s60">nn.ModuleList</text>
+<line x1="738.8" y1="1584.6" x2="770.8" y2="1584.6" class="g39s65"/>
+<path d="M776.8 1584.6 L768.6 1588.3 L768.6 1580.9 Z" class="g39s66"/>
+<line x1="575.6" y1="1612.6" x2="575.6" y2="1628.6" class="g39s61"/>
+<rect x="459.3" y="1628.6" width="232.5" height="78.5" rx="8" class="g39s48"/>
+<text x="575.6" y="1652.2" class="g39s62">init_weights(encoder_layers)</text>
+<text x="575.6" y="1671.2" class="g39s63">draws W_q.weight</text>
+<text x="575.6" y="1690.2" class="g39s64">call 4 of 5 that reach it</text>
+<rect x="780.8" y="1556.6" width="318.4" height="56.0" rx="6" class="g39s57"/>
+<text x="940.0" y="1588.8" class="g39s58"></text>
+<text x="940.0" y="1581.2" class="g39s59">encoder_layers[0]</text>
+<text x="940.0" y="1596.6" class="g39s60">EncoderLayer</text>
+<line x1="1103.2" y1="1584.6" x2="1135.2" y2="1584.6" class="g39s65"/>
+<path d="M1141.2 1584.6 L1133.0 1588.3 L1133.0 1580.9 Z" class="g39s66"/>
+<line x1="940.0" y1="1612.6" x2="940.0" y2="1628.6" class="g39s61"/>
+<rect x="823.8" y="1628.6" width="232.5" height="78.5" rx="8" class="g39s48"/>
+<text x="940.0" y="1652.2" class="g39s62">init_weights(encoder_layers)</text>
+<text x="940.0" y="1671.2" class="g39s63">draws W_q.weight</text>
+<text x="940.0" y="1690.2" class="g39s64">call 3 of 5 that reach it</text>
+<rect x="1145.2" y="1556.6" width="318.4" height="56.0" rx="6" class="g39s57"/>
+<text x="1304.4" y="1588.8" class="g39s58"></text>
+<text x="1304.4" y="1581.2" class="g39s59">self_attn</text>
+<text x="1304.4" y="1596.6" class="g39s60">MultiHeadAttention</text>
+<line x1="1467.6" y1="1584.6" x2="1499.6" y2="1584.6" class="g39s65"/>
+<path d="M1505.6 1584.6 L1497.4 1588.3 L1497.4 1580.9 Z" class="g39s66"/>
+<line x1="1304.4" y1="1612.6" x2="1304.4" y2="1628.6" class="g39s61"/>
+<rect x="1188.1" y="1628.6" width="232.5" height="78.5" rx="8" class="g39s48"/>
+<text x="1304.4" y="1652.2" class="g39s62">init_weights(self_attn)</text>
+<text x="1304.4" y="1671.2" class="g39s63">draws W_q.weight</text>
+<text x="1304.4" y="1690.2" class="g39s64">call 2 of 5 that reach it</text>
+<rect x="1509.6" y="1556.6" width="318.4" height="56.0" rx="6" class="g39s57"/>
+<text x="1668.8" y="1588.8" class="g39s58"></text>
+<text x="1668.8" y="1581.2" class="g39s59">W_q</text>
+<text x="1668.8" y="1596.6" class="g39s60">nn.Linear</text>
+<line x1="1668.8" y1="1612.6" x2="1668.8" y2="1628.6" class="g39s61"/>
+<rect x="1552.5" y="1628.6" width="232.5" height="78.5" rx="8" class="g39s48"/>
+<text x="1668.8" y="1652.2" class="g39s62">init_weights(W_q)</text>
+<text x="1668.8" y="1671.2" class="g39s63">draws W_q.weight</text>
+<text x="1668.8" y="1690.2" class="g39s64">call 1 of 5 that reach it</text>
+<text x="52.0" y="1747.1" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;text-anchor:start">Each draw replaces the one before, so only the last survives. v1.5 walks self.parameters() once from the top: every matrix is drawn exactly once.</text>
+<text y="1790.1" xml:space="preserve" class="g39s13"><tspan x="34.0" class="g39s0" textLength="461.4" lengthAdjust="spacing">Every weight matrix, how often it is drawn, and how many random numbers that costs</tspan></text>
+<rect x="34.0" y="1799.1" width="1812.0" height="24.0" rx="4" class="g39s30"/>
+<text y="1815.1" xml:space="preserve" class="g39s18"><tspan x="43.0" class="g39s0" textLength="65.6" lengthAdjust="spacing">weight matrix</tspan></text>
+<text y="1815.1" xml:space="preserve" class="g39s18"><tspan x="563.0" class="g39s0" textLength="105.8" lengthAdjust="spacing">path below the model</tspan></text>
+<text y="1815.1" xml:space="preserve" class="g39s18"><tspan x="983.0" class="g39s0" textLength="50.7" lengthAdjust="spacing">how many</tspan></text>
+<text y="1815.1" xml:space="preserve" class="g39s18"><tspan x="1093.0" class="g39s31" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="1104.9" class="g39s0" textLength="39.6" lengthAdjust="spacing"> · drawn</tspan></text>
+<text y="1815.1" xml:space="preserve" class="g39s18"><tspan x="1213.0" class="g39s31" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="1224.9" class="g39s0" textLength="93.4" lengthAdjust="spacing"> · random numbers</tspan></text>
+<text y="1815.1" xml:space="preserve" class="g39s18"><tspan x="1433.0" class="g39s31" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="1456.8" class="g39s0" textLength="39.6" lengthAdjust="spacing"> · drawn</tspan></text>
+<text y="1815.1" xml:space="preserve" class="g39s18"><tspan x="1583.0" class="g39s31" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="1606.8" class="g39s0" textLength="93.4" lengthAdjust="spacing"> · random numbers</tspan></text>
+<text y="1839.8" xml:space="preserve" class="g39s43"><tspan x="43.0" class="g39s17" textLength="124.5" lengthAdjust="spacing">src_embedding.weight</tspan></text>
+<text x="563.0" y="1839.8" class="g39s8">src_embedding</text>
+<text x="983.0" y="1839.8" class="g39s8">1</text>
+<text x="1093.0" y="1839.8" class="g39s8">2×</text>
+<text x="1213.0" y="1839.8" class="g39s8">13,227,008</text>
+<text x="1433.0" y="1839.8" class="g39s8">1×</text>
+<text x="1583.0" y="1839.8" class="g39s8">13,312</text>
+<line x1="34.0" y1="1849.1" x2="1846.0" y2="1849.1" class="g39s5"/>
+<rect x="34.0" y="1849.1" width="1812.0" height="26.0" rx="0" class="g39s27"/>
+<text y="1865.8" xml:space="preserve" class="g39s43"><tspan x="43.0" class="g39s17" textLength="124.5" lengthAdjust="spacing">tgt_embedding.weight</tspan><tspan x="167.5" class="g39s0"> (</tspan><tspan x="174.6" class="g39s17" textLength="24.9" lengthAdjust="spacing">v1.5</tspan><tspan x="199.5" class="g39s0" textLength="108.9" lengthAdjust="spacing">: the same tensor as </tspan><tspan x="308.4" class="g39s17" textLength="80.9" lengthAdjust="spacing">src_embedding</tspan><tspan x="389.3" class="g39s0">)</tspan></text>
+<text x="563.0" y="1865.8" class="g39s8">tgt_embedding</text>
+<text x="983.0" y="1865.8" class="g39s8">1</text>
+<text x="1093.0" y="1865.8" class="g39s8">2×</text>
+<text x="1213.0" y="1865.8" class="g39s8">13,227,008</text>
+<text x="1433.0" y="1865.8" class="g39s8">with it</text>
+<text x="1583.0" y="1865.8" class="g39s8">0</text>
+<line x1="34.0" y1="1875.1" x2="1846.0" y2="1875.1" class="g39s5"/>
+<text y="1891.8" xml:space="preserve" class="g39s43"><tspan x="43.0" class="g39s17" textLength="80.9" lengthAdjust="spacing">linear.weight</tspan><tspan x="123.9" class="g39s0" textLength="79.7" lengthAdjust="spacing"> (output head) (</tspan><tspan x="203.6" class="g39s17" textLength="24.9" lengthAdjust="spacing">v1.5</tspan><tspan x="228.5" class="g39s0" textLength="108.9" lengthAdjust="spacing">: the same tensor as </tspan><tspan x="337.4" class="g39s17" textLength="80.9" lengthAdjust="spacing">src_embedding</tspan><tspan x="418.3" class="g39s0">)</tspan></text>
+<text x="563.0" y="1891.8" class="g39s8">linear</text>
+<text x="983.0" y="1891.8" class="g39s8">1</text>
+<text x="1093.0" y="1891.8" class="g39s8">2×</text>
+<text x="1213.0" y="1891.8" class="g39s8">13,227,008</text>
+<text x="1433.0" y="1891.8" class="g39s8">with it</text>
+<text x="1583.0" y="1891.8" class="g39s8">0</text>
+<line x1="34.0" y1="1901.1" x2="1846.0" y2="1901.1" class="g39s5"/>
+<rect x="34.0" y="1901.1" width="1812.0" height="26.0" rx="0" class="g39s27"/>
+<text y="1917.8" xml:space="preserve" class="g39s43"><tspan x="43.0" class="g39s17" textLength="18.7" lengthAdjust="spacing">W_q</tspan><tspan x="61.7" class="g39s0">, </tspan><tspan x="68.2" class="g39s17" textLength="18.7" lengthAdjust="spacing">W_k</tspan><tspan x="86.8" class="g39s0">, </tspan><tspan x="93.3" class="g39s17" textLength="18.7" lengthAdjust="spacing">W_v</tspan><tspan x="112.0" class="g39s0">, </tspan><tspan x="118.5" class="g39s17" textLength="18.7" lengthAdjust="spacing">W_o</tspan><tspan x="137.1" class="g39s0" textLength="127.7" lengthAdjust="spacing"> in encoder self-attention</tspan></text>
+<text x="563.0" y="1917.8" class="g39s8">encoder_layers → EncoderLayer → self_attn → W_q</text>
+<text x="983.0" y="1917.8" class="g39s8">8</text>
+<text x="1093.0" y="1917.8" class="g39s8">5×</text>
+<text x="1213.0" y="1917.8" class="g39s8">10,485,760</text>
+<text x="1433.0" y="1917.8" class="g39s8">1×</text>
+<text x="1583.0" y="1917.8" class="g39s8">2,097,152</text>
+<line x1="34.0" y1="1927.1" x2="1846.0" y2="1927.1" class="g39s5"/>
+<text y="1943.8" xml:space="preserve" class="g39s43"><tspan x="43.0" class="g39s17" textLength="18.7" lengthAdjust="spacing">fc1</tspan><tspan x="61.7" class="g39s0">, </tspan><tspan x="68.2" class="g39s17" textLength="18.7" lengthAdjust="spacing">fc2</tspan><tspan x="86.8" class="g39s0" textLength="145.8" lengthAdjust="spacing"> in the encoder feed-forward</tspan></text>
+<text x="563.0" y="1943.8" class="g39s8">encoder_layers → EncoderLayer → ffn → fc1</text>
+<text x="983.0" y="1943.8" class="g39s8">4</text>
+<text x="1093.0" y="1943.8" class="g39s8">5×</text>
+<text x="1213.0" y="1943.8" class="g39s8">5,242,880</text>
+<text x="1433.0" y="1943.8" class="g39s8">1×</text>
+<text x="1583.0" y="1943.8" class="g39s8">4,194,304</text>
+<line x1="34.0" y1="1953.1" x2="1846.0" y2="1953.1" class="g39s5"/>
+<rect x="34.0" y="1953.1" width="1812.0" height="26.0" rx="0" class="g39s27"/>
+<text y="1969.8" xml:space="preserve" class="g39s43"><tspan x="43.0" class="g39s17" textLength="18.7" lengthAdjust="spacing">W_q</tspan><tspan x="61.7" class="g39s0"> … </tspan><tspan x="79.8" class="g39s17" textLength="18.7" lengthAdjust="spacing">W_o</tspan><tspan x="98.5" class="g39s0" textLength="274.1" lengthAdjust="spacing"> in decoder masked self-attention and cross-attention</tspan></text>
+<text x="563.0" y="1969.8" class="g39s8">decoder_layers → DecoderLayer → cross_attn → W_q</text>
+<text x="983.0" y="1969.8" class="g39s8">16</text>
+<text x="1093.0" y="1969.8" class="g39s8">5×</text>
+<text x="1213.0" y="1969.8" class="g39s8">20,971,520</text>
+<text x="1433.0" y="1969.8" class="g39s8">1×</text>
+<text x="1583.0" y="1969.8" class="g39s8">4,194,304</text>
+<line x1="34.0" y1="1979.1" x2="1846.0" y2="1979.1" class="g39s5"/>
+<text y="1995.8" xml:space="preserve" class="g39s43"><tspan x="43.0" class="g39s17" textLength="18.7" lengthAdjust="spacing">fc1</tspan><tspan x="61.7" class="g39s0">, </tspan><tspan x="68.2" class="g39s17" textLength="18.7" lengthAdjust="spacing">fc2</tspan><tspan x="86.8" class="g39s0" textLength="145.8" lengthAdjust="spacing"> in the decoder feed-forward</tspan></text>
+<text x="563.0" y="1995.8" class="g39s8">decoder_layers → DecoderLayer → ffn → fc1</text>
+<text x="983.0" y="1995.8" class="g39s8">4</text>
+<text x="1093.0" y="1995.8" class="g39s8">5×</text>
+<text x="1213.0" y="1995.8" class="g39s8">5,242,880</text>
+<text x="1433.0" y="1995.8" class="g39s8">1×</text>
+<text x="1583.0" y="1995.8" class="g39s8">4,194,304</text>
+<line x1="34.0" y1="2005.1" x2="1846.0" y2="2005.1" class="g39s5"/>
+<rect x="34.0" y="2005.1" width="1812.0" height="26.0" rx="0" class="g39s27"/>
+<text y="2021.8" xml:space="preserve" class="g39s43"><tspan x="43.0" class="g39s0" textLength="95.9" lengthAdjust="spacing">all weight matrices</tspan></text>
+<text x="1213.0" y="2021.8" class="g39s8">81,624,064</text>
+<text x="1583.0" y="2021.8" class="g39s8">14,693,376</text>
+<line x1="34.0" y1="2031.1" x2="1846.0" y2="2031.1" class="g39s5"/>
+<rect x="34.0" y="1823.1" width="1812.0" height="208.0" rx="0" class="g39s49"/>
+<line x1="554.0" y1="1823.1" x2="554.0" y2="2031.1" class="g39s5"/>
+<line x1="974.0" y1="1823.1" x2="974.0" y2="2031.1" class="g39s5"/>
+<line x1="1084.0" y1="1823.1" x2="1084.0" y2="2031.1" class="g39s5"/>
+<line x1="1204.0" y1="1823.1" x2="1204.0" y2="2031.1" class="g39s5"/>
+<line x1="1424.0" y1="1823.1" x2="1424.0" y2="2031.1" class="g39s5"/>
+<line x1="1574.0" y1="1823.1" x2="1574.0" y2="2031.1" class="g39s5"/>
+<rect x="34.0" y="2047.1" width="1812.0" height="72.6" rx="6" class="g39s51"/>
+<path d="M38.50 2047.77 A5.50 5.50 0 0 0 34.50 2053.06 V2113.62 A5.50 5.50 0 0 0 38.50 2118.91 Z" class="g39s52"/>
+<text y="2073.1" xml:space="preserve" class="g39s32"><tspan x="50.0" class="g39s0" textLength="156.2" lengthAdjust="spacing">What to take from section B</tspan></text>
+<text y="2090.6" xml:space="preserve" class="g39s21"><tspan x="50.0" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="63.6" textLength="38.7" lengthAdjust="spacing"> draws </tspan><tspan x="102.3" class="g39s1" textLength="163.3" lengthAdjust="spacing">81,624,064 random numbers</tspan><tspan x="265.6" textLength="31.3" lengthAdjust="spacing"> to fill </tspan><tspan x="296.9" class="g39s1" textLength="143.5" lengthAdjust="spacing">28,229,120 matrix entries</tspan><tspan x="440.4"> — </tspan><tspan x="459.1" class="g39s1" textLength="25.3" lengthAdjust="spacing">2.9×</tspan><tspan x="484.4" textLength="1335.9" lengthAdjust="spacing"> the work. It does no harm to the result: each draw completely replaces the one before, so the final values come from exactly the same distribution as a single draw. It only costs time when the model is created. Two things it is often blamed for are not its</tspan></text>
+<rect x="200.7" y="2097.3" width="39.0" height="14.6" rx="3" class="g39s33"/>
+<text y="2108.1" xml:space="preserve" class="g39s21"><tspan x="50.0" textLength="150.7" lengthAdjust="spacing">fault: it did NOT un-zero the </tspan><tspan x="203.2" class="g39s82" textLength="34.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="239.7" textLength="707.0" lengthAdjust="spacing"> vector (a single Xavier pass over the table would overwrite that row too — section F), and the results were not reproducible because </tspan><tspan x="946.7" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="960.2" textLength="244.2" lengthAdjust="spacing"> never set a seed, not because of the repeats.</tspan></text>
+<rect x="34.0" y="2147.6" width="1812.0" height="30.0" rx="6" class="g39s30"/>
+<path d="M38.50 2148.33 A5.50 5.50 0 0 0 34.50 2153.62 V2171.62 A5.50 5.50 0 0 0 38.50 2176.91 Z" class="g39s38"/>
+<text y="2167.6" xml:space="preserve" class="g39s37"><tspan x="50.0" class="g39s0" textLength="298.7" lengthAdjust="spacing">C · The range of random values each matrix gets</tspan></text>
+<text y="2167.6" xml:space="preserve" class="g39s39"><tspan x="366.7" textLength="299.9" lengthAdjust="spacing">Xavier uniform: every number drawn evenly from −a to +a, </tspan><tspan x="666.6" class="g39s7" textLength="188.7" lengthAdjust="spacing">a = √(6 / (fan_in + fan_out))</tspan></text>
+<text y="2195.6" xml:space="preserve" class="g39s32"><tspan x="38.0" class="g39s0" textLength="272.2" lengthAdjust="spacing">Same formula, different shapes, different ranges</tspan></text>
+<text y="2213.6" xml:space="preserve" class="g39s21"><tspan x="38.0" textLength="1408.2" lengthAdjust="spacing">Xavier picks a range from a matrix’s two dimensions, so that at the start a layer’s outputs are roughly the same size as its inputs. It works well for a matrix that multiplies vectors. For an embedding table, one of the &quot;dimensions&quot; is simply the number of tokens in the </tspan><tspan x="1446.2" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="1514.1" textLength="260.2" lengthAdjust="spacing">, so the range ends up depending on how big the</tspan></text>
+<text y="2231.0" xml:space="preserve" class="g39s21"><tspan x="38.0" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="105.9" textLength="54.0" lengthAdjust="spacing"> is — and </tspan><tspan x="159.9" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="173.5" textLength="16.5" lengthAdjust="spacing">’s </tspan><tspan x="190.0" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="258.0" textLength="15.3" lengthAdjust="spacing"> is </tspan><tspan x="273.3" class="g39s1" textLength="55.1" lengthAdjust="spacing">500 times</tspan><tspan x="328.4" textLength="66.7" lengthAdjust="spacing"> bigger than </tspan><tspan x="395.1" class="g39s6" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="422.3" textLength="16.5" lengthAdjust="spacing">’s.</tspan></text>
+<text y="2263.4" xml:space="preserve" class="g39s13"><tspan x="34.0" class="g39s0" textLength="346.9" lengthAdjust="spacing">The Xavier range of every kind of weight matrix, in both versions</tspan></text>
+<rect x="34.0" y="2272.4" width="1812.0" height="24.0" rx="4" class="g39s30"/>
+<text y="2288.4" xml:space="preserve" class="g39s18"><tspan x="43.0" class="g39s0" textLength="30.3" lengthAdjust="spacing">matrix</tspan></text>
+<text y="2288.4" xml:space="preserve" class="g39s18"><tspan x="463.0" class="g39s31" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="474.9" class="g39s0" textLength="39.6" lengthAdjust="spacing"> · shape</tspan></text>
+<text y="2288.4" xml:space="preserve" class="g39s18"><tspan x="763.0" class="g39s31" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="774.9" class="g39s0" textLength="37.7" lengthAdjust="spacing"> · range</tspan></text>
+<text y="2288.4" xml:space="preserve" class="g39s18"><tspan x="983.0" class="g39s31" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="1006.8" class="g39s0" textLength="39.6" lengthAdjust="spacing"> · shape</tspan></text>
+<text y="2288.4" xml:space="preserve" class="g39s18"><tspan x="1363.0" class="g39s31" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="1386.8" class="g39s0" textLength="37.7" lengthAdjust="spacing"> · range</tspan></text>
+<text y="2288.4" xml:space="preserve" class="g39s18"><tspan x="1583.0" class="g39s31" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="1606.8" class="g39s0"> ÷ </tspan><tspan x="1619.6" class="g39s31" textLength="11.9" lengthAdjust="spacing">v1</tspan></text>
+<text y="2313.3" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="90.1" lengthAdjust="spacing">embedding table</tspan></text>
+<text x="463.0" y="2313.3" class="g39s10">(12,917, 512)</text>
+<text x="763.0" y="2313.3" class="g39s10">±0.0211</text>
+<text x="983.0" y="2313.3" class="g39s10">(26, 512)</text>
+<text x="1363.0" y="2313.3" class="g39s10">±0.1056</text>
+<text x="1583.0" y="2313.3" class="g39s10">5.0×</text>
+<line x1="34.0" y1="2322.4" x2="1846.0" y2="2322.4" class="g39s5"/>
+<rect x="34.0" y="2322.4" width="1812.0" height="26.0" rx="0" class="g39s27"/>
+<text y="2339.3" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="103.0" lengthAdjust="spacing">output head weight</tspan></text>
+<text x="463.0" y="2339.3" class="g39s10">(12,917, 512)</text>
+<text x="763.0" y="2339.3" class="g39s10">±0.0211</text>
+<text x="983.0" y="2339.3" class="g39s10">(26, 512) — the same tensor</text>
+<text x="1363.0" y="2339.3" class="g39s10">±0.1056</text>
+<text x="1583.0" y="2339.3" class="g39s10">5.0×</text>
+<line x1="34.0" y1="2348.4" x2="1846.0" y2="2348.4" class="g39s5"/>
+<text y="2365.3" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="50.1" lengthAdjust="spacing">attention </tspan><tspan x="93.1" class="g39s7" textLength="19.5" lengthAdjust="spacing">W_q</tspan><tspan x="112.7" class="g39s0">, </tspan><tspan x="119.5" class="g39s7" textLength="19.5" lengthAdjust="spacing">W_k</tspan><tspan x="139.0" class="g39s0">, </tspan><tspan x="145.8" class="g39s7" textLength="19.5" lengthAdjust="spacing">W_v</tspan><tspan x="165.3" class="g39s0">, </tspan><tspan x="172.1" class="g39s7" textLength="19.5" lengthAdjust="spacing">W_o</tspan></text>
+<text x="463.0" y="2365.3" class="g39s10">(512, 512)</text>
+<text x="763.0" y="2365.3" class="g39s10">±0.0765</text>
+<text x="983.0" y="2365.3" class="g39s10">(512, 512)</text>
+<text x="1363.0" y="2365.3" class="g39s10">±0.0765</text>
+<text x="1583.0" y="2365.3" class="g39s10">1.0×</text>
+<line x1="34.0" y1="2374.4" x2="1846.0" y2="2374.4" class="g39s5"/>
+<rect x="34.0" y="2374.4" width="1812.0" height="26.0" rx="0" class="g39s27"/>
+<text y="2391.3" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="71.8" lengthAdjust="spacing">feed-forward </tspan><tspan x="114.8" class="g39s7" textLength="19.5" lengthAdjust="spacing">fc1</tspan></text>
+<text x="463.0" y="2391.3" class="g39s10">(512, 512)</text>
+<text x="763.0" y="2391.3" class="g39s10">±0.0765</text>
+<text x="983.0" y="2391.3" class="g39s10">(2,048, 512)</text>
+<text x="1363.0" y="2391.3" class="g39s10">±0.0484</text>
+<text x="1583.0" y="2391.3" class="g39s10">0.6×</text>
+<line x1="34.0" y1="2400.4" x2="1846.0" y2="2400.4" class="g39s5"/>
+<text y="2417.3" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="71.8" lengthAdjust="spacing">feed-forward </tspan><tspan x="114.8" class="g39s7" textLength="19.5" lengthAdjust="spacing">fc2</tspan></text>
+<text x="463.0" y="2417.3" class="g39s10">(512, 512)</text>
+<text x="763.0" y="2417.3" class="g39s10">±0.0765</text>
+<text x="983.0" y="2417.3" class="g39s10">(512, 2,048)</text>
+<text x="1363.0" y="2417.3" class="g39s10">±0.0484</text>
+<text x="1583.0" y="2417.3" class="g39s10">0.6×</text>
+<line x1="34.0" y1="2426.4" x2="1846.0" y2="2426.4" class="g39s5"/>
+<rect x="34.0" y="2296.4" width="1812.0" height="130.0" rx="0" class="g39s49"/>
+<line x1="454.0" y1="2296.4" x2="454.0" y2="2426.4" class="g39s5"/>
+<line x1="754.0" y1="2296.4" x2="754.0" y2="2426.4" class="g39s5"/>
+<line x1="974.0" y1="2296.4" x2="974.0" y2="2426.4" class="g39s5"/>
+<line x1="1354.0" y1="2296.4" x2="1354.0" y2="2426.4" class="g39s5"/>
+<line x1="1574.0" y1="2296.4" x2="1574.0" y2="2426.4" class="g39s5"/>
+<rect x="34.0" y="2442.4" width="894.0" height="290.0" rx="8" class="g39s40"/>
+<text y="2466.4" xml:space="preserve" class="g39s41"><tspan x="50.0" class="g39s50" textLength="14.1" lengthAdjust="spacing">v1</tspan><tspan x="64.1" class="g39s0"> · </tspan><tspan x="75.2" class="g39s0" textLength="72.2" lengthAdjust="spacing">13 real rows</tspan><tspan x="147.4" class="g39s0" textLength="146.6" lengthAdjust="spacing"> of the embedding table (</tspan><tspan x="293.9" class="g39s0" textLength="88.4" lengthAdjust="spacing">6,656 numbers</tspan><tspan x="382.3" class="g39s0">)</tspan></text>
+<text y="2484.4" xml:space="preserve" class="g39s42"><tspan x="50.0" textLength="114.8" lengthAdjust="spacing">every value falls inside ±</tspan><tspan x="164.8" class="g39s1" textLength="34.0" lengthAdjust="spacing">0.0211</tspan><tspan x="198.9" textLength="120.2" lengthAdjust="spacing"> — a thin sliver of the axis</tspan></text>
+<rect x="395.1" y="2656.7" width="15.4" height="35.7" rx="1.5" class="g39s25"/>
+<rect x="412.5" y="2546.9" width="15.4" height="145.5" rx="1.5" class="g39s25"/>
+<rect x="429.9" y="2537.4" width="15.4" height="155.0" rx="1.5" class="g39s25"/>
+<rect x="447.2" y="2524.6" width="15.4" height="167.8" rx="1.5" class="g39s25"/>
+<rect x="464.6" y="2535.2" width="15.4" height="157.2" rx="1.5" class="g39s25"/>
+<rect x="482.0" y="2535.6" width="15.4" height="156.8" rx="1.5" class="g39s25"/>
+<rect x="499.4" y="2535.8" width="15.4" height="156.6" rx="1.5" class="g39s25"/>
+<rect x="516.8" y="2539.8" width="15.4" height="152.6" rx="1.5" class="g39s25"/>
+<rect x="534.1" y="2546.3" width="15.4" height="146.1" rx="1.5" class="g39s25"/>
+<rect x="551.5" y="2651.5" width="15.4" height="40.9" rx="1.5" class="g39s25"/>
+<line x1="64.0" y1="2692.4" x2="898.0" y2="2692.4" class="g39s44"/>
+<line x1="133.5" y1="2692.4" x2="133.5" y2="2696.4" class="g39s35"/>
+<text x="133.5" y="2709.4" class="g39s28">-0.10</text>
+<line x1="307.2" y1="2692.4" x2="307.2" y2="2696.4" class="g39s35"/>
+<text x="307.2" y="2709.4" class="g39s28">-0.05</text>
+<line x1="481.0" y1="2692.4" x2="481.0" y2="2696.4" class="g39s35"/>
+<text x="481.0" y="2709.4" class="g39s28">0</text>
+<line x1="654.7" y1="2692.4" x2="654.7" y2="2696.4" class="g39s35"/>
+<text x="654.7" y="2709.4" class="g39s28">+0.05</text>
+<line x1="828.5" y1="2692.4" x2="828.5" y2="2696.4" class="g39s35"/>
+<text x="828.5" y="2709.4" class="g39s28">+0.10</text>
+<line x1="407.5" y1="2502.4" x2="407.5" y2="2692.4" class="g39s67"/>
+<text x="401.5" y="2514.4" class="g39s83">-0.0211</text>
+<line x1="554.5" y1="2502.4" x2="554.5" y2="2692.4" class="g39s67"/>
+<text x="560.5" y="2514.4" class="g39s84">+0.0211</text>
+<rect x="952.0" y="2442.4" width="894.0" height="290.0" rx="8" class="g39s40"/>
+<text y="2466.4" xml:space="preserve" class="g39s41"><tspan x="968.0" class="g39s50" textLength="28.3" lengthAdjust="spacing">v1.5</tspan><tspan x="996.3" class="g39s0" textLength="28.0" lengthAdjust="spacing"> · all </tspan><tspan x="1024.3" class="g39s0" textLength="72.2" lengthAdjust="spacing">25 real rows</tspan><tspan x="1096.4" class="g39s0" textLength="146.6" lengthAdjust="spacing"> of the embedding table (</tspan><tspan x="1243.0" class="g39s0" textLength="95.7" lengthAdjust="spacing">12,800 numbers</tspan><tspan x="1338.8" class="g39s0">)</tspan></text>
+<text y="2484.4" xml:space="preserve" class="g39s42"><tspan x="968.0" textLength="150.6" lengthAdjust="spacing">the same formula spreads them </tspan><tspan x="1118.6" class="g39s1" textLength="12.9" lengthAdjust="spacing">5×</tspan><tspan x="1131.4" textLength="40.1" lengthAdjust="spacing"> wider: ±</tspan><tspan x="1171.6" class="g39s1" textLength="34.0" lengthAdjust="spacing">0.1056</tspan></text>
+<rect x="1017.8" y="2689.4" width="15.4" height="3.0" rx="1.5" class="g39s4"/>
+<rect x="1035.1" y="2660.7" width="15.4" height="31.7" rx="1.5" class="g39s4"/>
+<rect x="1052.5" y="2660.8" width="15.4" height="31.6" rx="1.5" class="g39s4"/>
+<rect x="1069.9" y="2664.3" width="15.4" height="28.1" rx="1.5" class="g39s4"/>
+<rect x="1087.2" y="2659.6" width="15.4" height="32.9" rx="1.5" class="g39s4"/>
+<rect x="1104.6" y="2661.1" width="15.4" height="31.3" rx="1.5" class="g39s4"/>
+<rect x="1122.0" y="2659.5" width="15.4" height="33.0" rx="1.5" class="g39s4"/>
+<rect x="1139.4" y="2663.4" width="15.4" height="29.1" rx="1.5" class="g39s4"/>
+<rect x="1156.8" y="2662.3" width="15.4" height="30.1" rx="1.5" class="g39s4"/>
+<rect x="1174.1" y="2661.1" width="15.4" height="31.3" rx="1.5" class="g39s4"/>
+<rect x="1191.5" y="2659.5" width="15.4" height="33.0" rx="1.5" class="g39s4"/>
+<rect x="1208.9" y="2662.2" width="15.4" height="30.2" rx="1.5" class="g39s4"/>
+<rect x="1226.2" y="2660.9" width="15.4" height="31.5" rx="1.5" class="g39s4"/>
+<rect x="1243.6" y="2660.5" width="15.4" height="31.9" rx="1.5" class="g39s4"/>
+<rect x="1261.0" y="2660.5" width="15.4" height="31.9" rx="1.5" class="g39s4"/>
+<rect x="1278.4" y="2662.6" width="15.4" height="29.8" rx="1.5" class="g39s4"/>
+<rect x="1295.8" y="2658.2" width="15.4" height="34.2" rx="1.5" class="g39s4"/>
+<rect x="1313.1" y="2659.8" width="15.4" height="32.7" rx="1.5" class="g39s4"/>
+<rect x="1330.5" y="2659.4" width="15.4" height="33.1" rx="1.5" class="g39s4"/>
+<rect x="1347.9" y="2659.8" width="15.4" height="32.7" rx="1.5" class="g39s4"/>
+<rect x="1365.2" y="2661.7" width="15.4" height="30.7" rx="1.5" class="g39s4"/>
+<rect x="1382.6" y="2663.4" width="15.4" height="29.1" rx="1.5" class="g39s4"/>
+<rect x="1400.0" y="2659.8" width="15.4" height="32.7" rx="1.5" class="g39s4"/>
+<rect x="1417.4" y="2660.5" width="15.4" height="31.9" rx="1.5" class="g39s4"/>
+<rect x="1434.8" y="2662.8" width="15.4" height="29.6" rx="1.5" class="g39s4"/>
+<rect x="1452.1" y="2659.8" width="15.4" height="32.7" rx="1.5" class="g39s4"/>
+<rect x="1469.5" y="2661.6" width="15.4" height="30.8" rx="1.5" class="g39s4"/>
+<rect x="1486.9" y="2660.4" width="15.4" height="32.0" rx="1.5" class="g39s4"/>
+<rect x="1504.2" y="2662.4" width="15.4" height="30.0" rx="1.5" class="g39s4"/>
+<rect x="1521.6" y="2661.3" width="15.4" height="31.1" rx="1.5" class="g39s4"/>
+<rect x="1539.0" y="2663.4" width="15.4" height="29.1" rx="1.5" class="g39s4"/>
+<rect x="1556.4" y="2662.3" width="15.4" height="30.1" rx="1.5" class="g39s4"/>
+<rect x="1573.8" y="2662.3" width="15.4" height="30.1" rx="1.5" class="g39s4"/>
+<rect x="1591.1" y="2662.5" width="15.4" height="29.9" rx="1.5" class="g39s4"/>
+<rect x="1608.5" y="2662.3" width="15.4" height="30.1" rx="1.5" class="g39s4"/>
+<rect x="1625.9" y="2660.5" width="15.4" height="31.9" rx="1.5" class="g39s4"/>
+<rect x="1643.2" y="2662.4" width="15.4" height="30.0" rx="1.5" class="g39s4"/>
+<rect x="1660.6" y="2658.0" width="15.4" height="34.4" rx="1.5" class="g39s4"/>
+<rect x="1678.0" y="2660.9" width="15.4" height="31.5" rx="1.5" class="g39s4"/>
+<rect x="1695.4" y="2663.7" width="15.4" height="28.7" rx="1.5" class="g39s4"/>
+<rect x="1712.8" y="2661.3" width="15.4" height="31.1" rx="1.5" class="g39s4"/>
+<rect x="1730.1" y="2664.3" width="15.4" height="28.1" rx="1.5" class="g39s4"/>
+<rect x="1747.5" y="2660.3" width="15.4" height="32.1" rx="1.5" class="g39s4"/>
+<rect x="1764.9" y="2688.7" width="15.4" height="3.7" rx="1.5" class="g39s4"/>
+<line x1="982.0" y1="2692.4" x2="1816.0" y2="2692.4" class="g39s44"/>
+<line x1="1051.5" y1="2692.4" x2="1051.5" y2="2696.4" class="g39s35"/>
+<text x="1051.5" y="2709.4" class="g39s28">-0.10</text>
+<line x1="1225.2" y1="2692.4" x2="1225.2" y2="2696.4" class="g39s35"/>
+<text x="1225.2" y="2709.4" class="g39s28">-0.05</text>
+<line x1="1399.0" y1="2692.4" x2="1399.0" y2="2696.4" class="g39s35"/>
+<text x="1399.0" y="2709.4" class="g39s28">0</text>
+<line x1="1572.8" y1="2692.4" x2="1572.8" y2="2696.4" class="g39s35"/>
+<text x="1572.8" y="2709.4" class="g39s28">+0.05</text>
+<line x1="1746.5" y1="2692.4" x2="1746.5" y2="2696.4" class="g39s35"/>
+<text x="1746.5" y="2709.4" class="g39s28">+0.10</text>
+<line x1="1032.0" y1="2502.4" x2="1032.0" y2="2692.4" class="g39s67"/>
+<text x="1026.0" y="2514.4" class="g39s83">-0.1056</text>
+<line x1="1766.0" y1="2502.4" x2="1766.0" y2="2692.4" class="g39s67"/>
+<text x="1772.0" y="2514.4" class="g39s84">+0.1056</text>
+<rect x="34.0" y="2760.4" width="1812.0" height="30.0" rx="6" class="g39s30"/>
+<path d="M38.50 2761.13 A5.50 5.50 0 0 0 34.50 2766.42 V2784.42 A5.50 5.50 0 0 0 38.50 2789.71 Z" class="g39s38"/>
+<text y="2780.4" xml:space="preserve" class="g39s37"><tspan x="50.0" class="g39s0" textLength="221.4" lengthAdjust="spacing">D · What the range does at the input</tspan></text>
+<text y="2780.4" xml:space="preserve" class="g39s39"><tspan x="289.4" textLength="195.0" lengthAdjust="spacing">sequence A · length of the token part (</tspan><tspan x="484.4" class="g39s7" textLength="104.1" lengthAdjust="spacing">embedding × √512</tspan><tspan x="588.5" textLength="150.2" lengthAdjust="spacing">) and of the position part (PE)</tspan></text>
+<text y="2808.4" xml:space="preserve" class="g39s32"><tspan x="38.0" class="g39s0" textLength="215.6" lengthAdjust="spacing">Which half of the input vector is louder</tspan></text>
+<text y="2826.4" xml:space="preserve" class="g39s21"><tspan x="38.0" textLength="457.2" lengthAdjust="spacing">Every input vector is the sum of two parts: the token’s embedding row, multiplied by √</tspan><tspan x="495.2" class="g39s1" textLength="21.2" lengthAdjust="spacing">512</tspan><tspan x="516.4"> (</tspan><tspan x="523.7" class="g39s1" textLength="34.6" lengthAdjust="spacing">step 7</tspan><tspan x="558.4" textLength="237.5" lengthAdjust="spacing">), and the positional encoding of its position (</tspan><tspan x="795.8" class="g39s1" textLength="34.6" lengthAdjust="spacing">step 8</tspan><tspan x="830.5" textLength="239.4" lengthAdjust="spacing">). The positional encoding always has length </tspan><tspan x="1069.9" class="g39s1" textLength="14.1" lengthAdjust="spacing">16</tspan><tspan x="1084.0" textLength="725.6" lengthAdjust="spacing">, in both versions. The token part’s length depends on the embedding range from section C — so the two versions start with the balance</tspan></text>
+<text y="2843.8" xml:space="preserve" class="g39s21"><tspan x="38.0" textLength="340.5" lengthAdjust="spacing">between &quot;which word&quot; and &quot;which position&quot; the other way round.</tspan></text>
+<rect x="34.0" y="2865.2" width="894.0" height="300.0" rx="8" class="g39s40"/>
+<text y="2889.2" xml:space="preserve" class="g39s41"><tspan x="50.0" class="g39s50" textLength="14.1" lengthAdjust="spacing">v1</tspan><tspan x="64.1" class="g39s0" textLength="122.3" lengthAdjust="spacing"> · the position part is </tspan><tspan x="186.4" class="g39s0" textLength="26.4" lengthAdjust="spacing">2.6×</tspan><tspan x="212.8" class="g39s0" textLength="40.5" lengthAdjust="spacing"> louder</tspan></text>
+<text y="2907.2" xml:space="preserve" class="g39s42"><tspan x="50.0" textLength="58.8" lengthAdjust="spacing">token part ≈ </tspan><tspan x="108.8" class="g39s1" textLength="15.5" lengthAdjust="spacing">6.2</tspan><tspan x="124.3" textLength="121.4" lengthAdjust="spacing"> on average, position part </tspan><tspan x="245.7" class="g39s1" textLength="21.7" lengthAdjust="spacing">16.0</tspan></text>
+<line x1="96.0" y1="3119.2" x2="906.0" y2="3119.2" class="g39s23"/>
+<text x="88.0" y="3123.2" class="g39s22">0</text>
+<line x1="96.0" y1="3072.2" x2="906.0" y2="3072.2" class="g39s23"/>
+<text x="88.0" y="3076.2" class="g39s22">10</text>
+<line x1="96.0" y1="3025.2" x2="906.0" y2="3025.2" class="g39s23"/>
+<text x="88.0" y="3029.2" class="g39s22">20</text>
+<line x1="96.0" y1="2978.2" x2="906.0" y2="2978.2" class="g39s23"/>
+<text x="88.0" y="2982.2" class="g39s22">30</text>
+<line x1="96.0" y1="2931.2" x2="906.0" y2="2931.2" class="g39s23"/>
+<text x="88.0" y="2935.2" class="g39s22">40</text>
+<rect x="123.3" y="3090.3" width="38.2" height="28.9" rx="3" class="g39s25"/>
+<text x="142.4" y="3084.3" class="g39s12">6.1</text>
+<rect x="165.5" y="3044.0" width="38.2" height="75.2" rx="3" class="g39s16"/>
+<text x="184.6" y="3038.0" class="g39s12">16.0</text>
+<text x="163.5" y="3137.2" class="g39s14">the</text>
+<rect x="258.3" y="3090.2" width="38.2" height="29.0" rx="3" class="g39s25"/>
+<text x="277.4" y="3084.2" class="g39s12">6.2</text>
+<rect x="300.5" y="3044.0" width="38.2" height="75.2" rx="3" class="g39s16"/>
+<text x="319.6" y="3038.0" class="g39s12">16.0</text>
+<text x="298.5" y="3137.2" class="g39s14">dog</text>
+<rect x="393.3" y="3089.9" width="38.2" height="29.3" rx="3" class="g39s25"/>
+<text x="412.4" y="3083.9" class="g39s12">6.2</text>
+<rect x="435.5" y="3044.0" width="38.2" height="75.2" rx="3" class="g39s16"/>
+<text x="454.6" y="3038.0" class="g39s12">16.0</text>
+<text x="433.5" y="3137.2" class="g39s14">sat</text>
+<rect x="528.3" y="3090.5" width="38.2" height="28.7" rx="3" class="g39s25"/>
+<text x="547.4" y="3084.5" class="g39s12">6.1</text>
+<rect x="570.5" y="3044.0" width="38.2" height="75.2" rx="3" class="g39s16"/>
+<text x="589.6" y="3038.0" class="g39s12">16.0</text>
+<text x="568.5" y="3137.2" class="g39s14">on</text>
+<rect x="663.3" y="3090.3" width="38.2" height="28.9" rx="3" class="g39s25"/>
+<text x="682.4" y="3084.3" class="g39s12">6.1</text>
+<rect x="705.5" y="3044.0" width="38.2" height="75.2" rx="3" class="g39s16"/>
+<text x="724.6" y="3038.0" class="g39s12">16.0</text>
+<text x="703.5" y="3137.2" class="g39s14">the</text>
+<rect x="798.3" y="3090.1" width="38.2" height="29.2" rx="3" class="g39s25"/>
+<text x="817.4" y="3084.1" class="g39s12">6.2</text>
+<rect x="840.5" y="3044.0" width="38.2" height="75.2" rx="3" class="g39s16"/>
+<text x="859.6" y="3038.0" class="g39s12">16.0</text>
+<text x="838.5" y="3137.2" class="g39s14">floor</text>
+<line x1="96.0" y1="3119.2" x2="906.0" y2="3119.2" class="g39s44"/>
+<rect x="791.4" y="2881.2" width="16.0" height="12.0" rx="2" class="g39s16"/>
+<text x="813.4" y="2891.2" class="g39s34">position part</text>
+<rect x="695.4" y="2881.2" width="16.0" height="12.0" rx="2" class="g39s25"/>
+<text x="717.4" y="2891.2" class="g39s34">token part</text>
+<rect x="952.0" y="2865.2" width="894.0" height="300.0" rx="8" class="g39s40"/>
+<text y="2889.2" xml:space="preserve" class="g39s41"><tspan x="968.0" class="g39s50" textLength="28.3" lengthAdjust="spacing">v1.5</tspan><tspan x="996.3" class="g39s0" textLength="109.0" lengthAdjust="spacing"> · the token part is </tspan><tspan x="1105.3" class="g39s0" textLength="26.4" lengthAdjust="spacing">1.9×</tspan><tspan x="1131.7" class="g39s0" textLength="40.5" lengthAdjust="spacing"> louder</tspan></text>
+<text y="2907.2" xml:space="preserve" class="g39s42"><tspan x="968.0" textLength="58.8" lengthAdjust="spacing">token part ≈ </tspan><tspan x="1026.8" class="g39s1" textLength="21.7" lengthAdjust="spacing">30.8</tspan><tspan x="1048.5" textLength="121.4" lengthAdjust="spacing"> on average, position part </tspan><tspan x="1169.9" class="g39s1" textLength="21.7" lengthAdjust="spacing">16.0</tspan></text>
+<line x1="1014.0" y1="3119.2" x2="1824.0" y2="3119.2" class="g39s23"/>
+<text x="1006.0" y="3123.2" class="g39s22">0</text>
+<line x1="1014.0" y1="3072.2" x2="1824.0" y2="3072.2" class="g39s23"/>
+<text x="1006.0" y="3076.2" class="g39s22">10</text>
+<line x1="1014.0" y1="3025.2" x2="1824.0" y2="3025.2" class="g39s23"/>
+<text x="1006.0" y="3029.2" class="g39s22">20</text>
+<line x1="1014.0" y1="2978.2" x2="1824.0" y2="2978.2" class="g39s23"/>
+<text x="1006.0" y="2982.2" class="g39s22">30</text>
+<line x1="1014.0" y1="2931.2" x2="1824.0" y2="2931.2" class="g39s23"/>
+<text x="1006.0" y="2935.2" class="g39s22">40</text>
+<rect x="1029.8" y="2976.0" width="19.0" height="143.2" rx="3" class="g39s4"/>
+<text x="1039.3" y="2970.0" class="g39s12">30.5</text>
+<rect x="1052.8" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1062.3" y="3038.0" class="g39s12">16.0</text>
+<text x="1050.8" y="3137.2" class="g39s14">the_</text>
+<rect x="1103.4" y="2976.2" width="19.0" height="143.1" rx="3" class="g39s4"/>
+<text x="1112.9" y="2970.2" class="g39s12">30.4</text>
+<rect x="1126.5" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1136.0" y="3038.0" class="g39s12">16.0</text>
+<text x="1124.5" y="3137.2" class="g39s14">dog_</text>
+<rect x="1177.1" y="2973.3" width="19.0" height="145.9" rx="3" class="g39s4"/>
+<text x="1186.6" y="2967.3" class="g39s12">31.0</text>
+<rect x="1200.1" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1209.6" y="3038.0" class="g39s12">16.0</text>
+<text x="1198.1" y="3137.2" class="g39s14">s</text>
+<rect x="1250.7" y="2975.6" width="19.0" height="143.7" rx="3" class="g39s4"/>
+<text x="1260.2" y="2969.6" class="g39s12">30.6</text>
+<rect x="1273.7" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1283.2" y="3038.0" class="g39s12">16.0</text>
+<text x="1271.7" y="3137.2" class="g39s14">at_</text>
+<rect x="1324.4" y="2972.7" width="19.0" height="146.5" rx="3" class="g39s4"/>
+<text x="1333.9" y="2966.7" class="g39s12">31.2</text>
+<rect x="1347.4" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1356.9" y="3038.0" class="g39s12">16.0</text>
+<text x="1345.4" y="3137.2" class="g39s14">on_</text>
+<rect x="1398.0" y="2976.0" width="19.0" height="143.2" rx="3" class="g39s4"/>
+<text x="1407.5" y="2970.0" class="g39s12">30.5</text>
+<rect x="1421.0" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1430.5" y="3038.0" class="g39s12">16.0</text>
+<text x="1419.0" y="3137.2" class="g39s14">the_</text>
+<rect x="1471.6" y="2971.1" width="19.0" height="148.1" rx="3" class="g39s4"/>
+<text x="1481.1" y="2965.1" class="g39s12">31.5</text>
+<rect x="1494.6" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1504.1" y="3038.0" class="g39s12">16.0</text>
+<text x="1492.6" y="3137.2" class="g39s14">f</text>
+<rect x="1545.3" y="2977.8" width="19.0" height="141.4" rx="3" class="g39s4"/>
+<text x="1554.8" y="2971.8" class="g39s12">30.1</text>
+<rect x="1568.3" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1577.8" y="3038.0" class="g39s12">16.0</text>
+<text x="1566.3" y="3137.2" class="g39s14">l</text>
+<rect x="1618.9" y="2976.1" width="19.0" height="143.1" rx="3" class="g39s4"/>
+<text x="1628.4" y="2970.1" class="g39s12">30.4</text>
+<rect x="1641.9" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1651.4" y="3038.0" class="g39s12">16.0</text>
+<text x="1639.9" y="3137.2" class="g39s14">o</text>
+<rect x="1692.5" y="2976.1" width="19.0" height="143.1" rx="3" class="g39s4"/>
+<text x="1702.0" y="2970.1" class="g39s12">30.4</text>
+<rect x="1715.5" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1725.1" y="3038.0" class="g39s12">16.0</text>
+<text x="1713.5" y="3137.2" class="g39s14">o</text>
+<rect x="1766.2" y="2966.9" width="19.0" height="152.4" rx="3" class="g39s4"/>
+<text x="1775.7" y="2960.9" class="g39s12">32.4</text>
+<rect x="1789.2" y="3044.0" width="19.0" height="75.2" rx="3" class="g39s16"/>
+<text x="1798.7" y="3038.0" class="g39s12">16.0</text>
+<text x="1787.2" y="3137.2" class="g39s14">r_</text>
+<line x1="1014.0" y1="3119.2" x2="1824.0" y2="3119.2" class="g39s44"/>
+<rect x="1709.4" y="2881.2" width="16.0" height="12.0" rx="2" class="g39s16"/>
+<text x="1731.4" y="2891.2" class="g39s34">position part</text>
+<rect x="1613.4" y="2881.2" width="16.0" height="12.0" rx="2" class="g39s4"/>
+<text x="1635.4" y="2891.2" class="g39s34">token part</text>
+<rect x="34.0" y="3181.2" width="1812.0" height="72.6" rx="6" class="g39s51"/>
+<path d="M38.50 3181.93 A5.50 5.50 0 0 0 34.50 3187.22 V3247.78 A5.50 5.50 0 0 0 38.50 3253.07 Z" class="g39s52"/>
+<text y="3207.2" xml:space="preserve" class="g39s32"><tspan x="50.0" class="g39s0" textLength="156.9" lengthAdjust="spacing">What to take from section D</tspan></text>
+<text y="3224.7" xml:space="preserve" class="g39s21"><tspan x="50.0" textLength="13.3" lengthAdjust="spacing">In </tspan><tspan x="63.3" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="76.9" textLength="387.4" lengthAdjust="spacing"> the untrained model mostly &quot;hears&quot; where a token is: the position part is </tspan><tspan x="464.3" class="g39s1" textLength="25.3" lengthAdjust="spacing">2.6×</tspan><tspan x="489.6" textLength="600.9" lengthAdjust="spacing"> longer than the token part, so two different words at the same position start out with very similar input vectors. In </tspan><tspan x="1090.5" class="g39s6" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="1117.7" textLength="689.0" lengthAdjust="spacing"> it mostly hears which token it is: the token part is about twice the position part. Neither is wrong — training adjusts the embedding</tspan></text>
+<text y="3242.3" xml:space="preserve" class="g39s21"><tspan x="50.0" textLength="616.3" lengthAdjust="spacing">table either way — but it is a real difference in the first forward pass that nobody chose on purpose: it falls out of the </tspan><tspan x="666.3" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="734.2" textLength="28.0" lengthAdjust="spacing"> size.</tspan></text>
+<rect x="34.0" y="3281.8" width="1812.0" height="30.0" rx="6" class="g39s30"/>
+<path d="M38.50 3282.49 A5.50 5.50 0 0 0 34.50 3287.78 V3305.78 A5.50 5.50 0 0 0 38.50 3311.07 Z" class="g39s38"/>
+<text y="3301.8" xml:space="preserve" class="g39s37"><tspan x="50.0" class="g39s0" textLength="229.1" lengthAdjust="spacing">E · What the range does at the output</tspan></text>
+<text y="3301.8" xml:space="preserve" class="g39s39"><tspan x="297.1" textLength="19.2" lengthAdjust="spacing">the </tspan><tspan x="316.2" class="g39s7" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="355.3"> (</tspan><tspan x="362.3" class="g39s7" textLength="39.0" lengthAdjust="spacing">logits</tspan><tspan x="401.4" textLength="252.5" lengthAdjust="spacing">) the untrained model gives every token, decoder </tspan><tspan x="653.8" class="g39s1" textLength="52.2" lengthAdjust="spacing">position 1</tspan><tspan x="706.0" textLength="76.7" lengthAdjust="spacing"> of sequence A</tspan></text>
+<text y="3329.8" xml:space="preserve" class="g39s32"><tspan x="38.0" class="g39s0" textLength="308.0" lengthAdjust="spacing">A fair &quot;I don’t know&quot; against a confident wrong answer</tspan></text>
+<text y="3347.8" xml:space="preserve" class="g39s21"><tspan x="38.0" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="51.6" textLength="289.8" lengthAdjust="spacing">’s output head is its own random matrix with the tiny ±</tspan><tspan x="341.4" class="g39s1" textLength="38.9" lengthAdjust="spacing">0.0211</tspan><tspan x="380.3" textLength="285.5" lengthAdjust="spacing"> range, and it has nothing to do with the embeddings. </tspan><tspan x="665.8" class="g39s6" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="693.0" textLength="367.9" lengthAdjust="spacing">’s output head IS the embedding table (weight tying), with the wide ±</tspan><tspan x="1060.9" class="g39s1" textLength="38.9" lengthAdjust="spacing">0.1056</tspan><tspan x="1099.8" textLength="359.3" lengthAdjust="spacing"> range. The score of a token is then the decoder’s output (length ≈ </tspan><tspan x="1459.1" class="g39s1" textLength="24.8" lengthAdjust="spacing">22.6</tspan><tspan x="1483.8" textLength="30.7" lengthAdjust="spacing"> after </tspan><tspan x="1514.5" class="g39s6" textLength="54.3" lengthAdjust="spacing">dec_norm</tspan><tspan x="1568.8" textLength="266.0" lengthAdjust="spacing">) multiplied with that token’s own embedding row.</tspan></text>
+<text y="3365.2" xml:space="preserve" class="g39s21"><tspan x="38.0" textLength="791.0" lengthAdjust="spacing">Before any training, the decoder’s output at a position still looks a lot like the embedding of the token it is reading — so that token gets a huge score.</tspan></text>
+<rect x="34.0" y="3386.6" width="894.0" height="300.0" rx="8" class="g39s40"/>
+<text y="3410.6" xml:space="preserve" class="g39s41"><tspan x="50.0" class="g39s50" textLength="14.1" lengthAdjust="spacing">v1</tspan><tspan x="64.1" class="g39s0" textLength="28.0" lengthAdjust="spacing"> · all </tspan><tspan x="92.1" class="g39s0" textLength="83.2" lengthAdjust="spacing">12,917 scores</tspan><tspan x="175.4" class="g39s0" textLength="22.8" lengthAdjust="spacing"> for </tspan><tspan x="198.2" class="g39s0" textLength="56.7" lengthAdjust="spacing">position 1</tspan><tspan x="254.9" class="g39s0" textLength="80.8" lengthAdjust="spacing"> (reads &quot;dog&quot;)</tspan></text>
+<text y="3428.6" xml:space="preserve" class="g39s42"><tspan x="50.0" textLength="121.4" lengthAdjust="spacing">every score falls between </tspan><tspan x="171.4" class="g39s1" textLength="25.4" lengthAdjust="spacing">-1.09</tspan><tspan x="196.7" textLength="23.4" lengthAdjust="spacing"> and </tspan><tspan x="220.1" class="g39s1" textLength="21.7" lengthAdjust="spacing">1.09</tspan><tspan x="241.8" textLength="108.0" lengthAdjust="spacing"> — no token stands out</tspan></text>
+<rect x="65.0" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="85.8" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="106.7" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="127.6" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="148.4" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="169.2" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="190.1" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="211.0" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="231.8" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="252.7" y="3628.2" width="18.9" height="0.4" rx="1.5" class="g39s9"/>
+<rect x="273.5" y="3628.2" width="18.9" height="0.4" rx="1.5" class="g39s9"/>
+<rect x="294.4" y="3627.1" width="18.9" height="1.5" rx="1.5" class="g39s9"/>
+<rect x="315.2" y="3623.2" width="18.9" height="5.4" rx="1.5" class="g39s9"/>
+<rect x="336.1" y="3618.1" width="18.9" height="10.5" rx="1.5" class="g39s9"/>
+<rect x="356.9" y="3602.7" width="18.9" height="25.9" rx="1.5" class="g39s9"/>
+<rect x="377.8" y="3581.9" width="18.9" height="46.7" rx="1.5" class="g39s9"/>
+<rect x="398.6" y="3550.3" width="18.9" height="78.3" rx="1.5" class="g39s9"/>
+<rect x="419.5" y="3518.9" width="18.9" height="109.7" rx="1.5" class="g39s9"/>
+<rect x="440.3" y="3482.4" width="18.9" height="146.1" rx="1.5" class="g39s9"/>
+<rect x="461.2" y="3467.6" width="18.9" height="160.9" rx="1.5" class="g39s9"/>
+<rect x="482.0" y="3456.6" width="18.9" height="172.0" rx="1.5" class="g39s9"/>
+<rect x="502.9" y="3482.3" width="18.9" height="146.3" rx="1.5" class="g39s9"/>
+<rect x="523.7" y="3516.4" width="18.9" height="112.1" rx="1.5" class="g39s9"/>
+<rect x="544.5" y="3554.3" width="18.9" height="74.3" rx="1.5" class="g39s9"/>
+<rect x="565.4" y="3579.8" width="18.9" height="48.8" rx="1.5" class="g39s9"/>
+<rect x="586.2" y="3604.6" width="18.9" height="23.9" rx="1.5" class="g39s9"/>
+<rect x="607.1" y="3617.8" width="18.9" height="10.8" rx="1.5" class="g39s9"/>
+<rect x="628.0" y="3624.3" width="18.9" height="4.3" rx="1.5" class="g39s9"/>
+<rect x="648.8" y="3627.3" width="18.9" height="1.3" rx="1.5" class="g39s9"/>
+<rect x="669.7" y="3628.0" width="18.9" height="0.5" rx="1.5" class="g39s9"/>
+<rect x="690.5" y="3628.2" width="18.9" height="0.4" rx="1.5" class="g39s9"/>
+<rect x="711.4" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="732.2" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="753.1" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="773.9" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="794.8" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="815.6" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="836.5" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="857.3" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<rect x="878.2" y="3628.6" width="18.9" height="0.0" rx="1.5" class="g39s9"/>
+<line x1="64.0" y1="3628.6" x2="898.0" y2="3628.6" class="g39s44"/>
+<text x="64.0" y="3645.6" class="g39s28">-2</text>
+<text x="272.5" y="3645.6" class="g39s28">-1</text>
+<text x="481.0" y="3645.6" class="g39s28">0</text>
+<text x="689.5" y="3645.6" class="g39s28">1</text>
+<text x="898.0" y="3645.6" class="g39s28">2</text>
+<line x1="462.3" y1="3448.6" x2="462.3" y2="3628.6" style="stroke:var(--drop);stroke-width:2;stroke-dasharray:4,3;stroke-linecap:round"/>
+<line x1="408.8" y1="3448.6" x2="408.8" y2="3628.6" style="stroke:var(--keep);stroke-width:2;stroke-dasharray:4,3;stroke-linecap:round"/>
+<text x="64.0" y="3666.6" class="g39s34">the score of &quot;dog&quot; (the token being read) is -0.09; the score of &quot;resting&quot; (the right answer) is -0.35</text>
+<rect x="952.0" y="3386.6" width="894.0" height="300.0" rx="8" class="g39s40"/>
+<text y="3410.6" xml:space="preserve" class="g39s41"><tspan x="968.0" class="g39s50" textLength="28.3" lengthAdjust="spacing">v1.5</tspan><tspan x="996.3" class="g39s0" textLength="28.0" lengthAdjust="spacing"> · all </tspan><tspan x="1024.3" class="g39s0" textLength="57.4" lengthAdjust="spacing">26 scores</tspan><tspan x="1081.7" class="g39s0" textLength="22.8" lengthAdjust="spacing"> for </tspan><tspan x="1104.5" class="g39s0" textLength="56.7" lengthAdjust="spacing">position 1</tspan><tspan x="1161.3" class="g39s0" textLength="193.3" lengthAdjust="spacing"> (reads &quot;dog_&quot;, must produce &quot;r&quot;)</tspan></text>
+<text y="3428.6" xml:space="preserve" class="g39s42"><tspan x="968.0" textLength="127.8" lengthAdjust="spacing">blue: the token being read (</tspan><tspan x="1095.8" class="g39s1" textLength="27.8" lengthAdjust="spacing">15.51</tspan><tspan x="1123.7" textLength="126.1" lengthAdjust="spacing">) · green: the right answer (</tspan><tspan x="1249.7" class="g39s1" textLength="25.4" lengthAdjust="spacing">-0.17</tspan><tspan x="1275.1">)</tspan></text>
+<line x1="1008.0" y1="3628.6" x2="1830.0" y2="3628.6" class="g39s23"/>
+<text x="1000.0" y="3632.6" class="g39s22">-5</text>
+<line x1="1008.0" y1="3594.2" x2="1830.0" y2="3594.2" class="g39s44"/>
+<text x="1000.0" y="3598.2" class="g39s22">0</text>
+<line x1="1008.0" y1="3559.8" x2="1830.0" y2="3559.8" class="g39s23"/>
+<text x="1000.0" y="3563.8" class="g39s22">5</text>
+<line x1="1008.0" y1="3525.4" x2="1830.0" y2="3525.4" class="g39s23"/>
+<text x="1000.0" y="3529.4" class="g39s22">10</text>
+<line x1="1008.0" y1="3491.0" x2="1830.0" y2="3491.0" class="g39s23"/>
+<text x="1000.0" y="3495.0" class="g39s22">15</text>
+<line x1="1008.0" y1="3456.6" x2="1830.0" y2="3456.6" class="g39s23"/>
+<text x="1000.0" y="3460.6" class="g39s22">20</text>
+<rect x="1011.0" y="3593.9" width="25.6" height="1.5" rx="2" class="g39s19"/>
+<text x="1027.8" y="3644.6" transform="rotate(-50 1027.8 3644.6)" class="g39s20">&lt;PAD&gt;</text>
+<rect x="1042.6" y="3590.5" width="25.6" height="3.7" rx="2" class="g39s19"/>
+<text x="1059.4" y="3644.6" transform="rotate(-50 1059.4 3644.6)" class="g39s20">&lt;SOS&gt;</text>
+<rect x="1074.2" y="3590.8" width="25.6" height="3.4" rx="2" class="g39s19"/>
+<text x="1091.0" y="3644.6" transform="rotate(-50 1091.0 3644.6)" class="g39s20">&lt;EOS&gt;</text>
+<rect x="1105.8" y="3582.0" width="25.6" height="12.2" rx="2" class="g39s19"/>
+<text x="1122.7" y="3644.6" transform="rotate(-50 1122.7 3644.6)" class="g39s20">&lt;UNK&gt;</text>
+<rect x="1137.5" y="3593.2" width="25.6" height="1.5" rx="2" class="g39s19"/>
+<text x="1154.3" y="3644.6" transform="rotate(-50 1154.3 3644.6)" class="g39s20">a</text>
+<rect x="1169.1" y="3580.8" width="25.6" height="13.4" rx="2" class="g39s19"/>
+<text x="1185.9" y="3644.6" transform="rotate(-50 1185.9 3644.6)" class="g39s20">a_</text>
+<rect x="1200.7" y="3594.2" width="25.6" height="1.5" rx="2" class="g39s19"/>
+<text x="1217.5" y="3644.6" transform="rotate(-50 1217.5 3644.6)" class="g39s20">at_</text>
+<rect x="1232.3" y="3594.2" width="25.6" height="2.2" rx="2" class="g39s19"/>
+<text x="1249.1" y="3644.6" transform="rotate(-50 1249.1 3644.6)" class="g39s20">c</text>
+<rect x="1263.9" y="3594.2" width="25.6" height="4.0" rx="2" class="g39s19"/>
+<text x="1280.7" y="3644.6" transform="rotate(-50 1280.7 3644.6)" class="g39s20">cat_</text>
+<rect x="1295.5" y="3487.4" width="25.6" height="106.7" rx="2" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.9"/>
+<text x="1312.3" y="3644.6" transform="rotate(-50 1312.3 3644.6)" class="g39s85">dog_</text>
+<text x="1308.3" y="3480.4" style="fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle">15.51</text>
+<rect x="1327.2" y="3592.8" width="25.6" height="1.5" rx="2" class="g39s19"/>
+<text x="1344.0" y="3644.6" transform="rotate(-50 1344.0 3644.6)" class="g39s20">e</text>
+<rect x="1358.8" y="3583.6" width="25.6" height="10.5" rx="2" class="g39s19"/>
+<text x="1375.6" y="3644.6" transform="rotate(-50 1375.6 3644.6)" class="g39s20">f</text>
+<rect x="1390.4" y="3594.2" width="25.6" height="1.5" rx="2" class="g39s19"/>
+<text x="1407.2" y="3644.6" transform="rotate(-50 1407.2 3644.6)" class="g39s20">ing_</text>
+<rect x="1422.0" y="3594.2" width="25.6" height="2.7" rx="2" class="g39s19"/>
+<text x="1438.8" y="3644.6" transform="rotate(-50 1438.8 3644.6)" class="g39s20">is_</text>
+<rect x="1453.6" y="3579.0" width="25.6" height="15.1" rx="2" class="g39s19"/>
+<text x="1470.4" y="3644.6" transform="rotate(-50 1470.4 3644.6)" class="g39s20">l</text>
+<rect x="1485.2" y="3585.7" width="25.6" height="8.4" rx="2" class="g39s19"/>
+<text x="1502.0" y="3644.6" transform="rotate(-50 1502.0 3644.6)" class="g39s20">o</text>
+<rect x="1516.8" y="3594.2" width="25.6" height="1.7" rx="2" class="g39s19"/>
+<text x="1533.7" y="3644.6" transform="rotate(-50 1533.7 3644.6)" class="g39s20">on_</text>
+<rect x="1548.5" y="3594.2" width="25.6" height="4.8" rx="2" class="g39s19"/>
+<text x="1565.3" y="3644.6" transform="rotate(-50 1565.3 3644.6)" class="g39s20">p</text>
+<rect x="1580.1" y="3594.2" width="25.6" height="1.5" rx="2" style="fill:var(--keep);stroke:none;stroke-width:1;opacity:0.9"/>
+<text x="1596.9" y="3644.6" transform="rotate(-50 1596.9 3644.6)" class="g39s85">r</text>
+<text x="1592.9" y="3611.4" style="fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle">-0.17</text>
+<rect x="1611.7" y="3594.2" width="25.6" height="8.1" rx="2" class="g39s19"/>
+<text x="1628.5" y="3644.6" transform="rotate(-50 1628.5 3644.6)" class="g39s20">r_</text>
+<rect x="1643.3" y="3588.7" width="25.6" height="5.5" rx="2" class="g39s19"/>
+<text x="1660.1" y="3644.6" transform="rotate(-50 1660.1 3644.6)" class="g39s20">s</text>
+<rect x="1674.9" y="3592.4" width="25.6" height="1.8" rx="2" class="g39s19"/>
+<text x="1691.7" y="3644.6" transform="rotate(-50 1691.7 3644.6)" class="g39s20">sleeping_</text>
+<rect x="1706.5" y="3591.9" width="25.6" height="2.3" rx="2" class="g39s19"/>
+<text x="1723.3" y="3644.6" transform="rotate(-50 1723.3 3644.6)" class="g39s20">t</text>
+<rect x="1738.2" y="3589.6" width="25.6" height="4.6" rx="2" class="g39s19"/>
+<text x="1755.0" y="3644.6" transform="rotate(-50 1755.0 3644.6)" class="g39s20">the_</text>
+<rect x="1769.8" y="3594.2" width="25.6" height="21.4" rx="2" class="g39s19"/>
+<text x="1786.6" y="3644.6" transform="rotate(-50 1786.6 3644.6)" class="g39s20">u</text>
+<rect x="1801.4" y="3575.4" width="25.6" height="18.7" rx="2" class="g39s19"/>
+<text x="1818.2" y="3644.6" transform="rotate(-50 1818.2 3644.6)" class="g39s20">y_</text>
+<text y="3713.6" xml:space="preserve" class="g39s13"><tspan x="34.0" class="g39s0" textLength="233.6" lengthAdjust="spacing">The untrained models’ output, side by side</tspan></text>
+<rect x="34.0" y="3722.6" width="1812.0" height="24.0" rx="4" class="g39s30"/>
+<text y="3738.6" xml:space="preserve" class="g39s18"><tspan x="743.0" class="g39s31" textLength="11.9" lengthAdjust="spacing">v1</tspan></text>
+<text y="3738.6" xml:space="preserve" class="g39s18"><tspan x="1243.0" class="g39s31" textLength="23.8" lengthAdjust="spacing">v1.5</tspan></text>
+<text y="3763.5" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="225.6" lengthAdjust="spacing">largest score, over every counted position</tspan></text>
+<text x="743.0" y="3763.5" class="g39s10">±1.23</text>
+<text x="1243.0" y="3763.5" class="g39s10">±20.6</text>
+<line x1="34.0" y1="3772.6" x2="1846.0" y2="3772.6" class="g39s5"/>
+<rect x="34.0" y="3772.6" width="1812.0" height="26.0" rx="0" class="g39s27"/>
+<text y="3789.5" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="182.1" lengthAdjust="spacing">loss before training (mean −log p)</tspan></text>
+<text x="743.0" y="3789.5" class="g39s10">9.57</text>
+<text x="1243.0" y="3789.5" class="g39s10">17.91</text>
+<line x1="34.0" y1="3798.6" x2="1846.0" y2="3798.6" class="g39s5"/>
+<text y="3815.5" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="159.2" lengthAdjust="spacing">what an even guess over the </tspan><tspan x="202.2" class="g39s7" textLength="65.1" lengthAdjust="spacing">vocabulary</tspan><tspan x="267.3" class="g39s0" textLength="88.1" lengthAdjust="spacing"> would score, ln </tspan><tspan x="355.4" class="g39s7">V</tspan></text>
+<text x="743.0" y="3815.5" class="g39s10">9.47</text>
+<text x="1243.0" y="3815.5" class="g39s10">3.26</text>
+<line x1="34.0" y1="3824.6" x2="1846.0" y2="3824.6" class="g39s5"/>
+<rect x="34.0" y="3824.6" width="1812.0" height="26.0" rx="0" class="g39s27"/>
+<text y="3841.5" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="315.1" lengthAdjust="spacing">positions where the favourite token is the token being read</tspan></text>
+<text x="743.0" y="3841.5" class="g39s10">0 of 9</text>
+<text x="1243.0" y="3841.5" class="g39s10">22 of 22</text>
+<line x1="34.0" y1="3850.6" x2="1846.0" y2="3850.6" class="g39s5"/>
+<text y="3867.5" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="197.7" lengthAdjust="spacing">the notebook’s own first logged loss</tspan></text>
+<text x="743.0" y="3867.5" class="g39s10">9.465688 (epoch 0)</text>
+<text x="1243.0" y="3867.5" class="g39s10">18.6929 (epoch 0) → 2.0760 by epoch 20</text>
+<line x1="34.0" y1="3876.6" x2="1846.0" y2="3876.6" class="g39s5"/>
+<rect x="34.0" y="3746.6" width="1812.0" height="130.0" rx="0" class="g39s49"/>
+<line x1="734.0" y1="3746.6" x2="734.0" y2="3876.6" class="g39s5"/>
+<line x1="1234.0" y1="3746.6" x2="1234.0" y2="3876.6" class="g39s5"/>
+<rect x="34.0" y="3892.6" width="1812.0" height="72.6" rx="6" class="g39s48"/>
+<path d="M38.50 3893.29 A5.50 5.50 0 0 0 34.50 3898.58 V3959.14 A5.50 5.50 0 0 0 38.50 3964.43 Z" style="fill:var(--drop);stroke:none"/>
+<text y="3918.6" xml:space="preserve" class="g39s32"><tspan x="50.0" class="g39s0" textLength="156.2" lengthAdjust="spacing">What to take from section E</tspan></text>
+<text y="3936.1" xml:space="preserve" class="g39s21"><tspan x="50.0" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="63.6" textLength="350.8" lengthAdjust="spacing"> starts where textbooks say an untrained classifier should: its loss </tspan><tspan x="414.4" class="g39s1" textLength="24.8" lengthAdjust="spacing">9.57</tspan><tspan x="439.1" textLength="94.7" lengthAdjust="spacing"> is almost exactly </tspan><tspan x="533.8" class="g39s6" textLength="115.4" lengthAdjust="spacing">ln(12,917) = 9.47</tspan><tspan x="649.3" textLength="199.4" lengthAdjust="spacing">, the score of a perfectly even guess. </tspan><tspan x="848.7" class="g39s6" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="875.9" textLength="182.1" lengthAdjust="spacing"> starts far worse than guessing — </tspan><tspan x="1058.0" class="g39s1" textLength="31.8" lengthAdjust="spacing">17.91</tspan><tspan x="1089.8" textLength="45.4" lengthAdjust="spacing"> against </tspan><tspan x="1135.1" class="g39s6" textLength="88.3" lengthAdjust="spacing">ln(26) = 3.26</tspan><tspan x="1223.4" textLength="165.4" lengthAdjust="spacing"> — because at every one of its </tspan><tspan x="1388.8" class="g39s1" textLength="116.7" lengthAdjust="spacing">22 counted positions</tspan><tspan x="1505.5" textLength="310.8" lengthAdjust="spacing"> it confidently predicts the token it is reading. That is a side</tspan></text>
+<text y="3953.6" xml:space="preserve" class="g39s21"><tspan x="50.0" textLength="711.0" lengthAdjust="spacing">effect of tying the output head to a table with a wide range, not a bug, and it does not last: the notebook’s log shows the loss down to </tspan><tspan x="761.0" class="g39s1" textLength="24.8" lengthAdjust="spacing">2.08</tspan><tspan x="785.7" textLength="19.3" lengthAdjust="spacing"> by </tspan><tspan x="805.1" class="g39s1" textLength="52.3" lengthAdjust="spacing">epoch 20</tspan><tspan x="857.4" textLength="431.5" lengthAdjust="spacing">. It is still worth knowing if you ever see a tied model start with a loss far above ln </tspan><tspan x="1288.9" class="g39s6">V</tspan><tspan x="1295.7">.</tspan></text>
+<rect x="34.0" y="3993.1" width="1812.0" height="30.0" rx="6" class="g39s30"/>
+<path d="M38.50 3993.85 A5.50 5.50 0 0 0 34.50 3999.14 V4017.14 A5.50 5.50 0 0 0 38.50 4022.43 Z" class="g39s38"/>
+<rect x="97.5" y="4001.4" width="41.8" height="15.9" rx="3" class="g39s33"/>
+<text y="4013.1" xml:space="preserve" class="g39s37"><tspan x="50.0" class="g39s0" textLength="47.5" lengthAdjust="spacing">F · The </tspan><tspan x="100.0" class="g39s68" textLength="36.8" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="139.3" class="g39s0" textLength="41.4" lengthAdjust="spacing"> vector</tspan></text>
+<text y="4013.1" xml:space="preserve" class="g39s39"><tspan x="198.6" class="g39s1" textLength="29.8" lengthAdjust="spacing">row 0</tspan><tspan x="228.4" textLength="166.2" lengthAdjust="spacing"> of the embedding table · its first </tspan><tspan x="394.6" class="g39s1" textLength="57.6" lengthAdjust="spacing">6 numbers</tspan><tspan x="452.2" textLength="234.6" lengthAdjust="spacing">, its length, and whether training can change it</tspan></text>
+<text y="4041.1" xml:space="preserve" class="g39s32"><tspan x="38.0" class="g39s6" textLength="74.7" lengthAdjust="spacing">padding_idx</tspan><tspan x="112.7" class="g39s0" textLength="113.1" lengthAdjust="spacing"> does two jobs, and </tspan><tspan x="225.8" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="239.4" class="g39s0" textLength="105.4" lengthAdjust="spacing"> undid one of them</tspan></text>
+<rect x="624.5" y="4048.3" width="39.0" height="14.6" rx="3" class="g39s33"/>
+<text y="4059.1" xml:space="preserve" class="g39s21"><tspan x="38.0" class="g39s6" textLength="217.3" lengthAdjust="spacing">nn.Embedding(..., padding_idx=0)</tspan><tspan x="255.3" textLength="28.7" lengthAdjust="spacing"> sets </tspan><tspan x="284.0" class="g39s1" textLength="31.1" lengthAdjust="spacing">row 0</tspan><tspan x="315.1" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="331.8" class="g39s6" textLength="34.0" lengthAdjust="spacing">zeros</tspan><tspan x="365.7" textLength="258.8" lengthAdjust="spacing"> when the table is built, and stops the lookups of </tspan><tspan x="627.0" class="g39s82" textLength="34.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="663.5" textLength="172.1" lengthAdjust="spacing"> from ever changing that row. In </tspan><tspan x="835.6" class="g39s6" textLength="13.6" lengthAdjust="spacing">v1</tspan><tspan x="849.1" textLength="227.4" lengthAdjust="spacing"> the Xavier pass ran AFTER that and filled </tspan><tspan x="1076.6" class="g39s1" textLength="31.1" lengthAdjust="spacing">row 0</tspan><tspan x="1107.7" textLength="390.9" lengthAdjust="spacing"> with random numbers — which the second job then froze there for good. </tspan><tspan x="1498.5" class="g39s6" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="1525.7" textLength="248.8" lengthAdjust="spacing"> sets the row back to zero after its Xavier pass.</tspan></text>
+<rect x="58.4" y="4081.2" width="37.5" height="14.0" rx="3" class="g39s33"/>
+<text y="4091.5" xml:space="preserve" class="g39s13"><tspan x="34.0" class="g39s0" textLength="24.4" lengthAdjust="spacing">The </tspan><tspan x="60.9" class="g39s73" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="95.9" class="g39s0" textLength="152.4" lengthAdjust="spacing"> embedding in both versions</tspan></text>
+<rect x="34.0" y="4100.5" width="1812.0" height="24.0" rx="4" class="g39s30"/>
+<text y="4116.5" xml:space="preserve" class="g39s18"><tspan x="133.0" class="g39s74" textLength="27.2" lengthAdjust="spacing">row 0</tspan><tspan x="160.2" class="g39s0" textLength="27.2" lengthAdjust="spacing">, first </tspan><tspan x="187.4" class="g39s74">6</tspan><tspan x="193.6" class="g39s0" textLength="15.5" lengthAdjust="spacing"> of </tspan><tspan x="209.1" class="g39s74" textLength="65.0" lengthAdjust="spacing">512 numbers</tspan></text>
+<text y="4116.5" xml:space="preserve" class="g39s18"><tspan x="653.0" class="g39s0" textLength="30.3" lengthAdjust="spacing">length</tspan></text>
+<text y="4116.5" xml:space="preserve" class="g39s18"><tspan x="763.0" class="g39s0" textLength="116.3" lengthAdjust="spacing">can a gradient reach it?</tspan></text>
+<text y="4116.5" xml:space="preserve" class="g39s18"><tspan x="1383.0" class="g39s0" textLength="107.0" lengthAdjust="spacing">so over training it is…</tspan></text>
+<text y="4143.5" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s7" textLength="13.0" lengthAdjust="spacing">v1</tspan></text>
+<text x="133.0" y="4143.5" class="g39s10">+0.0107, -0.0143, -0.0046, +0.0015, -0.0037, +0.0055 …</text>
+<text x="653.0" y="4143.5" class="g39s10">0.28</text>
+<text y="4143.5" xml:space="preserve" class="g39s11"><tspan x="763.0" textLength="30.7" lengthAdjust="spacing">no — </tspan><tspan x="793.7" class="g39s7" textLength="71.6" lengthAdjust="spacing">padding_idx</tspan><tspan x="865.3" textLength="257.0" lengthAdjust="spacing"> blocks it, and the output head is a separate matrix</tspan></text>
+<text y="4143.5" xml:space="preserve" class="g39s11"><tspan x="1383.0" textLength="248.0" lengthAdjust="spacing">random numbers, frozen for the whole of training</tspan></text>
+<line x1="34.0" y1="4154.5" x2="1846.0" y2="4154.5" class="g39s5"/>
+<rect x="34.0" y="4154.5" width="1812.0" height="40.2" rx="0" class="g39s27"/>
+<text y="4178.6" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan></text>
+<text x="133.0" y="4178.6" class="g39s10">+0.0000, +0.0000, +0.0000, +0.0000, +0.0000, +0.0000 …</text>
+<text x="653.0" y="4178.6" class="g39s10">0.00</text>
+<text y="4170.5" xml:space="preserve" class="g39s11"><tspan x="763.0" textLength="284.5" lengthAdjust="spacing">from the lookups: no. From the tied output head: yes — </tspan><tspan x="1047.5" class="g39s1" textLength="30.5" lengthAdjust="spacing">0.049</tspan><tspan x="1078.0" textLength="125.3" lengthAdjust="spacing"> at the first step, against </tspan><tspan x="1203.2" class="g39s1" textLength="23.7" lengthAdjust="spacing">1.04</tspan><tspan x="1227.0" textLength="120.0" lengthAdjust="spacing"> for the row of &quot;dog_&quot;, a</tspan></text>
+<text y="4186.6" xml:space="preserve" class="g39s11"><tspan x="763.0" textLength="51.8" lengthAdjust="spacing">real target</tspan></text>
+<text y="4170.5" xml:space="preserve" class="g39s11"><tspan x="1383.0" textLength="448.1" lengthAdjust="spacing">starts at zero; the head can move it a little during training, and weight decay pulls it back</tspan></text>
+<text y="4186.6" xml:space="preserve" class="g39s11"><tspan x="1383.0" textLength="65.8" lengthAdjust="spacing">towards zero</tspan></text>
+<line x1="34.0" y1="4194.7" x2="1846.0" y2="4194.7" class="g39s5"/>
+<rect x="34.0" y="4124.5" width="1812.0" height="70.2" rx="0" class="g39s49"/>
+<line x1="124.0" y1="4124.5" x2="124.0" y2="4194.7" class="g39s5"/>
+<line x1="644.0" y1="4124.5" x2="644.0" y2="4194.7" class="g39s5"/>
+<line x1="754.0" y1="4124.5" x2="754.0" y2="4194.7" class="g39s5"/>
+<line x1="1374.0" y1="4124.5" x2="1374.0" y2="4194.7" class="g39s5"/>
+<rect x="34.0" y="4222.7" width="1812.0" height="30.0" rx="6" class="g39s30"/>
+<path d="M38.50 4223.45 A5.50 5.50 0 0 0 34.50 4228.74 V4246.74 A5.50 5.50 0 0 0 38.50 4252.03 Z" class="g39s38"/>
+<text y="4242.7" xml:space="preserve" class="g39s37"><tspan x="50.0" class="g39s0" textLength="190.7" lengthAdjust="spacing">G · Pros and cons, side by side</tspan></text>
+<text y="4242.7" xml:space="preserve" class="g39s39"><tspan x="258.7" textLength="184.7" lengthAdjust="spacing">everything on this page, in one table</tspan></text>
+<text y="4270.7" xml:space="preserve" class="g39s32"><tspan x="38.0" class="g39s6" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="65.2" class="g39s0" textLength="320.9" lengthAdjust="spacing"> is cleaner almost everywhere — with one surprising cost</tspan></text>
+<text y="4288.7" xml:space="preserve" class="g39s21"><tspan x="38.0" textLength="1111.2" lengthAdjust="spacing">Most of the differences are straightforward improvements. The one that is not is section E: the tied head with a wide range makes the untrained model confidently wrong, which training fixes within a few epochs.</tspan></text>
+<text y="4321.1" xml:space="preserve" class="g39s13"><tspan x="34.0" class="g39s0" textLength="182.3" lengthAdjust="spacing">Creating the model, point by point</tspan></text>
+<rect x="34.0" y="4330.1" width="1812.0" height="24.0" rx="4" class="g39s30"/>
+<text y="4346.1" xml:space="preserve" class="g39s18"><tspan x="443.0" class="g39s31" textLength="11.9" lengthAdjust="spacing">v1</tspan></text>
+<text y="4346.1" xml:space="preserve" class="g39s18"><tspan x="1143.0" class="g39s31" textLength="23.8" lengthAdjust="spacing">v1.5</tspan></text>
+<text y="4372.1" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="63.0" lengthAdjust="spacing">Parameters</tspan></text>
+<text y="4372.1" xml:space="preserve" class="g39s11"><tspan x="443.0" class="g39s1" textLength="61.0" lengthAdjust="spacing">28,268,661</tspan><tspan x="504.0"> — </tspan><tspan x="521.9" class="g39s1" textLength="34.6" lengthAdjust="spacing">70.2%</tspan><tspan x="556.5" textLength="44.7" lengthAdjust="spacing"> of them </tspan><tspan x="601.2" class="g39s7" textLength="65.1" lengthAdjust="spacing">vocabulary</tspan><tspan x="666.3" textLength="33.9" lengthAdjust="spacing"> tables</tspan></text>
+<text y="4372.1" xml:space="preserve" class="g39s11"><tspan x="1143.0" class="g39s1" textLength="61.0" lengthAdjust="spacing">14,728,218</tspan><tspan x="1204.0" textLength="50.5" lengthAdjust="spacing"> — under </tspan><tspan x="1254.5" class="g39s1" textLength="27.8" lengthAdjust="spacing">0.1%</tspan><tspan x="1282.3" textLength="59.5" lengthAdjust="spacing"> in the table</tspan></text>
+<line x1="34.0" y1="4382.1" x2="1846.0" y2="4382.1" class="g39s5"/>
+<rect x="34.0" y="4382.1" width="1812.0" height="28.0" rx="0" class="g39s27"/>
+<text y="4400.1" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="189.7" lengthAdjust="spacing">The layers that process a sentence</tspan></text>
+<text y="4400.1" xml:space="preserve" class="g39s11"><tspan x="443.0" class="g39s1" textLength="119.3" lengthAdjust="spacing">8,415,232 parameters</tspan></text>
+<text y="4400.1" xml:space="preserve" class="g39s11"><tspan x="1143.0" class="g39s1" textLength="126.0" lengthAdjust="spacing">14,714,880 parameters</tspan><tspan x="1269.0" textLength="91.4" lengthAdjust="spacing">: bigger, because </tspan><tspan x="1360.4" class="g39s7" textLength="26.0" lengthAdjust="spacing">d_ff</tspan><tspan x="1386.5" textLength="14.7" lengthAdjust="spacing"> is </tspan><tspan x="1401.2" class="g39s1" textLength="14.1" lengthAdjust="spacing">4×</tspan><tspan x="1415.3" textLength="30.7" lengthAdjust="spacing"> wider</tspan></text>
+<line x1="34.0" y1="4410.1" x2="1846.0" y2="4410.1" class="g39s5"/>
+<text y="4428.1" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="88.7" lengthAdjust="spacing">Work to initialise</tspan></text>
+<text y="4428.1" xml:space="preserve" class="g39s11"><tspan x="443.0" class="g39s1" textLength="156.5" lengthAdjust="spacing">81,624,064 random numbers</tspan><tspan x="599.5" textLength="19.8" lengthAdjust="spacing"> for </tspan><tspan x="619.3" class="g39s1" textLength="137.5" lengthAdjust="spacing">28,229,120 matrix entries</tspan><tspan x="756.9"> (</tspan><tspan x="763.9" class="g39s1" textLength="24.3" lengthAdjust="spacing">2.9×</tspan><tspan x="788.2">)</tspan></text>
+<text y="4428.1" xml:space="preserve" class="g39s11"><tspan x="1143.0" textLength="122.1" lengthAdjust="spacing">each matrix drawn once</tspan></text>
+<line x1="34.0" y1="4438.1" x2="1846.0" y2="4438.1" class="g39s5"/>
+<rect x="34.0" y="4438.1" width="1812.0" height="28.0" rx="0" class="g39s27"/>
+<text y="4456.1" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="98.9" lengthAdjust="spacing">Reproducible runs</tspan></text>
+<text y="4456.1" xml:space="preserve" class="g39s11"><tspan x="443.0" textLength="239.7" lengthAdjust="spacing">no seed: every run starts from different weights</tspan></text>
+<text y="4456.1" xml:space="preserve" class="g39s11"><tspan x="1143.0" class="g39s7" textLength="130.2" lengthAdjust="spacing">torch.manual_seed(0)</tspan><tspan x="1273.2" textLength="244.8" lengthAdjust="spacing">: the same weights every run on the same setup</tspan></text>
+<line x1="34.0" y1="4466.1" x2="1846.0" y2="4466.1" class="g39s5"/>
+<rect x="67.4" y="4473.7" width="37.5" height="14.0" rx="3" class="g39s33"/>
+<text y="4484.1" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="24.4" lengthAdjust="spacing">The </tspan><tspan x="69.9" class="g39s73" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="104.9" class="g39s0" textLength="36.6" lengthAdjust="spacing"> vector</tspan></text>
+<text y="4484.1" xml:space="preserve" class="g39s11"><tspan x="443.0" textLength="80.5" lengthAdjust="spacing">random (length </tspan><tspan x="523.5" class="g39s1" textLength="23.7" lengthAdjust="spacing">0.28</tspan><tspan x="547.3" textLength="100.3" lengthAdjust="spacing">) and frozen forever</tspan></text>
+<text y="4484.1" xml:space="preserve" class="g39s11"><tspan x="1143.0" textLength="79.9" lengthAdjust="spacing">zero at the start</tspan></text>
+<line x1="34.0" y1="4494.1" x2="1846.0" y2="4494.1" class="g39s5"/>
+<rect x="34.0" y="4494.1" width="1812.0" height="28.0" rx="0" class="g39s27"/>
+<text y="4512.1" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s7" textLength="58.6" lengthAdjust="spacing">Embedding</tspan><tspan x="101.6" class="g39s0" textLength="34.6" lengthAdjust="spacing"> range</tspan></text>
+<text y="4512.1" xml:space="preserve" class="g39s11"><tspan x="443.0">±</tspan><tspan x="449.9" class="g39s1" textLength="37.3" lengthAdjust="spacing">0.0211</tspan><tspan x="487.2" textLength="114.4" lengthAdjust="spacing"> — the position part is </tspan><tspan x="601.6" class="g39s1" textLength="24.3" lengthAdjust="spacing">2.6×</tspan><tspan x="625.8" textLength="134.3" lengthAdjust="spacing"> louder than the token part</tspan></text>
+<text y="4512.1" xml:space="preserve" class="g39s11"><tspan x="1143.0">±</tspan><tspan x="1149.9" class="g39s1" textLength="37.3" lengthAdjust="spacing">0.1056</tspan><tspan x="1187.2" textLength="102.9" lengthAdjust="spacing"> — the token part is </tspan><tspan x="1290.1" class="g39s1" textLength="24.3" lengthAdjust="spacing">1.9×</tspan><tspan x="1314.3" textLength="145.8" lengthAdjust="spacing"> louder than the position part</tspan></text>
+<line x1="34.0" y1="4522.1" x2="1846.0" y2="4522.1" class="g39s5"/>
+<text y="4540.1" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="90.1" lengthAdjust="spacing">Untrained output</tspan></text>
+<text y="4540.1" xml:space="preserve" class="g39s11"><tspan x="443.0" class="g39s7" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="482.0" textLength="42.7" lengthAdjust="spacing"> within ±</tspan><tspan x="524.7" class="g39s1" textLength="23.7" lengthAdjust="spacing">1.23</tspan><tspan x="548.5" textLength="30.0" lengthAdjust="spacing">; loss </tspan><tspan x="578.5" class="g39s1" textLength="23.7" lengthAdjust="spacing">9.57</tspan><tspan x="602.2" textLength="25.4" lengthAdjust="spacing"> ≈ ln </tspan><tspan x="627.7" class="g39s7">V</tspan><tspan x="634.2" textLength="127.6" lengthAdjust="spacing">: an honest &quot;don’t know&quot;</tspan></text>
+<text y="4540.1" xml:space="preserve" class="g39s11"><tspan x="1143.0" class="g39s7" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="1182.0" textLength="38.9" lengthAdjust="spacing"> up to ±</tspan><tspan x="1220.9" class="g39s1" textLength="23.7" lengthAdjust="spacing">20.6</tspan><tspan x="1244.6" textLength="30.0" lengthAdjust="spacing">; loss </tspan><tspan x="1274.7" class="g39s1" textLength="30.5" lengthAdjust="spacing">17.91</tspan><tspan x="1305.2" textLength="25.4" lengthAdjust="spacing"> ≫ ln </tspan><tspan x="1330.6" class="g39s7">V</tspan><tspan x="1337.1" textLength="183.5" lengthAdjust="spacing">: confidently predicts the input token</tspan></text>
+<line x1="34.0" y1="4550.1" x2="1846.0" y2="4550.1" class="g39s5"/>
+<rect x="34.0" y="4550.1" width="1812.0" height="28.0" rx="0" class="g39s27"/>
+<text y="4568.1" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="162.2" lengthAdjust="spacing">Optimiser memory (weights + </tspan><tspan x="205.2" class="g39s1" textLength="97.6" lengthAdjust="spacing">2 moment tensors</tspan><tspan x="302.8" class="g39s0">, </tspan><tspan x="309.6" class="g39s7" textLength="45.6" lengthAdjust="spacing">float32</tspan><tspan x="355.1" class="g39s0">)</tspan></text>
+<text y="4568.1" xml:space="preserve" class="g39s11"><tspan x="443.0">≈ </tspan><tspan x="453.1" class="g39s1" textLength="42.0" lengthAdjust="spacing">339 MB</tspan></text>
+<text y="4568.1" xml:space="preserve" class="g39s11"><tspan x="1143.0">≈ </tspan><tspan x="1153.1" class="g39s1" textLength="42.0" lengthAdjust="spacing">177 MB</tspan></text>
+<line x1="34.0" y1="4578.1" x2="1846.0" y2="4578.1" class="g39s5"/>
+<rect x="34.0" y="4354.1" width="1812.0" height="224.0" rx="0" class="g39s49"/>
+<line x1="434.0" y1="4354.1" x2="434.0" y2="4578.1" class="g39s5"/>
+<line x1="1134.0" y1="4354.1" x2="1134.0" y2="4578.1" class="g39s5"/>
+<rect x="34.0" y="4606.1" width="1812.0" height="30.0" rx="6" class="g39s30"/>
+<path d="M38.50 4606.85 A5.50 5.50 0 0 0 34.50 4612.14 V4630.14 A5.50 5.50 0 0 0 38.50 4635.43 Z" class="g39s38"/>
+<text y="4626.1" xml:space="preserve" class="g39s37"><tspan x="50.0" class="g39s0" textLength="203.7" lengthAdjust="spacing">H · The common claims, checked</tspan></text>
+<text y="4626.1" xml:space="preserve" class="g39s39"><tspan x="271.7" textLength="117.0" lengthAdjust="spacing">measured on this page</tspan></text>
+<text y="4654.1" xml:space="preserve" class="g39s32"><tspan x="38.0" class="g39s0" textLength="282.8" lengthAdjust="spacing">Short explanations of initialisation get these wrong</tspan></text>
+<text y="4672.1" xml:space="preserve" class="g39s21"><tspan x="38.0" textLength="498.9" lengthAdjust="spacing">Each row is a sentence you are likely to read or think, and what the two models actually show.</tspan></text>
+<text y="4704.5" xml:space="preserve" class="g39s13"><tspan x="34.0" class="g39s0" textLength="152.4" lengthAdjust="spacing">Seven claims, one row each</tspan></text>
+<rect x="34.0" y="4713.5" width="1812.0" height="24.0" rx="4" class="g39s30"/>
+<text y="4729.5" xml:space="preserve" class="g39s18"><tspan x="43.0" class="g39s0" textLength="44.5" lengthAdjust="spacing">the claim</tspan></text>
+<text y="4729.5" xml:space="preserve" class="g39s18"><tspan x="603.0" class="g39s0" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="4729.5" xml:space="preserve" class="g39s18"><tspan x="793.0" class="g39s0" textLength="130.5" lengthAdjust="spacing">what the two models show</tspan></text>
+<text y="4756.4" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0">&quot;</tspan><tspan x="47.3" class="g39s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="73.4" class="g39s0" textLength="269.9" lengthAdjust="spacing"> has half the parameters because of weight tying.&quot;</tspan></text>
+<text y="4756.4" xml:space="preserve" class="g39s11"><tspan x="603.0" textLength="60.7" lengthAdjust="spacing">Mostly false</tspan></text>
+<text y="4756.4" xml:space="preserve" class="g39s11"><tspan x="793.0" textLength="14.1" lengthAdjust="spacing">At </tspan><tspan x="807.1" class="g39s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="833.1" textLength="15.8" lengthAdjust="spacing">’s </tspan><tspan x="848.9" class="g39s7" textLength="65.1" lengthAdjust="spacing">vocabulary</tspan><tspan x="914.0" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="930.0" class="g39s1" textLength="13.6" lengthAdjust="spacing">26</tspan><tspan x="943.6" textLength="91.4" lengthAdjust="spacing">, tying saves only </tspan><tspan x="1035.0" class="g39s1" textLength="102.3" lengthAdjust="spacing">26,624 parameters</tspan><tspan x="1137.3" textLength="151.5" lengthAdjust="spacing">. The halving comes from the </tspan><tspan x="1288.7" class="g39s7" textLength="65.1" lengthAdjust="spacing">vocabulary</tspan><tspan x="1353.8" textLength="78.6" lengthAdjust="spacing"> shrinking from </tspan><tspan x="1432.4" class="g39s1" textLength="37.3" lengthAdjust="spacing">12,917</tspan><tspan x="1469.7" textLength="16.0" lengthAdjust="spacing"> to </tspan><tspan x="1485.7" class="g39s1" textLength="13.6" lengthAdjust="spacing">26</tspan><tspan x="1499.2" textLength="61.4" lengthAdjust="spacing"> (section A).</tspan></text>
+<line x1="34.0" y1="4767.5" x2="1846.0" y2="4767.5" class="g39s5"/>
+<rect x="34.0" y="4767.5" width="1812.0" height="30.0" rx="0" class="g39s27"/>
+<text y="4786.4" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="240.3" lengthAdjust="spacing">&quot;Fewer parameters means a smaller model.&quot;</tspan></text>
+<text y="4786.4" xml:space="preserve" class="g39s11"><tspan x="603.0" class="g39s7" textLength="32.5" lengthAdjust="spacing">False</tspan><tspan x="635.5" textLength="26.2" lengthAdjust="spacing"> here</tspan></text>
+<text y="4786.4" xml:space="preserve" class="g39s11"><tspan x="793.0" textLength="170.0" lengthAdjust="spacing">The processing layers grew from </tspan><tspan x="963.0" class="g39s1" textLength="54.2" lengthAdjust="spacing">8,415,232</tspan><tspan x="1017.2" textLength="16.0" lengthAdjust="spacing"> to </tspan><tspan x="1033.2" class="g39s1" textLength="61.0" lengthAdjust="spacing">14,714,880</tspan><tspan x="1094.2" textLength="126.6" lengthAdjust="spacing">. What disappeared was </tspan><tspan x="1220.8" class="g39s7" textLength="65.1" lengthAdjust="spacing">vocabulary</tspan><tspan x="1285.8" textLength="37.1" lengthAdjust="spacing"> tables.</tspan></text>
+<line x1="34.0" y1="4797.5" x2="1846.0" y2="4797.5" class="g39s5"/>
+<text y="4816.4" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0">&quot;</tspan><tspan x="47.3" class="g39s7" textLength="123.6" lengthAdjust="spacing">apply(init_weights)</tspan><tspan x="171.0" class="g39s0" textLength="162.2" lengthAdjust="spacing"> initialises every weight once.&quot;</tspan></text>
+<text y="4816.4" xml:space="preserve" class="g39s11"><tspan x="603.0" class="g39s7" textLength="32.5" lengthAdjust="spacing">False</tspan></text>
+<text y="4816.4" xml:space="preserve" class="g39s11"><tspan x="793.0" textLength="239.7" lengthAdjust="spacing">Attention and feed-forward matrices are drawn </tspan><tspan x="1032.7" class="g39s1" textLength="39.3" lengthAdjust="spacing">5 times</tspan><tspan x="1072.0" textLength="411.0" lengthAdjust="spacing">, the tables and head twice (section B). Harmless for the values, wasteful in time.</tspan></text>
+<line x1="34.0" y1="4827.5" x2="1846.0" y2="4827.5" class="g39s5"/>
+<rect x="34.0" y="4827.5" width="1812.0" height="30.0" rx="0" class="g39s27"/>
+<rect x="178.5" y="4836.1" width="37.5" height="14.0" rx="3" class="g39s33"/>
+<text y="4846.4" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0">&quot;</tspan><tspan x="47.3" class="g39s7" textLength="71.6" lengthAdjust="spacing">padding_idx</tspan><tspan x="118.9" class="g39s0" textLength="59.6" lengthAdjust="spacing"> keeps the </tspan><tspan x="181.0" class="g39s73" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="216.1" class="g39s0" textLength="85.0" lengthAdjust="spacing"> vector at zero.&quot;</tspan></text>
+<text y="4846.4" xml:space="preserve" class="g39s11"><tspan x="603.0" textLength="33.2" lengthAdjust="spacing">Not in </tspan><tspan x="636.2" class="g39s7" textLength="13.0" lengthAdjust="spacing">v1</tspan></text>
+<text y="4846.4" xml:space="preserve" class="g39s11"><tspan x="793.0" textLength="212.2" lengthAdjust="spacing">Only until the Xavier pass overwrote it. In </tspan><tspan x="1005.2" class="g39s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="1031.2" textLength="421.2" lengthAdjust="spacing"> it is zero at the start, and the tied head can still nudge it during training (section F).</tspan></text>
+<line x1="34.0" y1="4857.5" x2="1846.0" y2="4857.5" class="g39s5"/>
+<text y="4881.6" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="235.6" lengthAdjust="spacing">&quot;Xavier starts every layer at the right scale.&quot;</tspan></text>
+<text y="4881.6" xml:space="preserve" class="g39s11"><tspan x="603.0" textLength="75.4" lengthAdjust="spacing">For layers, yes</tspan></text>
+<text y="4873.5" xml:space="preserve" class="g39s11"><tspan x="793.0" textLength="536.9" lengthAdjust="spacing">For a matrix that transforms vectors it keeps sizes steady. For an embedding table the range depends on </tspan><tspan x="1329.9" class="g39s7" textLength="65.1" lengthAdjust="spacing">vocabulary</tspan><tspan x="1395.0" textLength="30.0" lengthAdjust="spacing"> size: </tspan><tspan x="1425.0" class="g39s1" textLength="14.1" lengthAdjust="spacing">5×</tspan><tspan x="1439.1" textLength="375.2" lengthAdjust="spacing"> apart here, which flips the input balance (D) and, with tying, the untrained</tspan></text>
+<text y="4889.6" xml:space="preserve" class="g39s11"><tspan x="793.0" textLength="53.7" lengthAdjust="spacing">output (E).</tspan></text>
+<line x1="34.0" y1="4897.7" x2="1846.0" y2="4897.7" class="g39s5"/>
+<rect x="34.0" y="4897.7" width="1812.0" height="30.0" rx="0" class="g39s27"/>
+<text y="4916.6" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="220.7" lengthAdjust="spacing">&quot;A fixed seed makes every run identical.&quot;</tspan></text>
+<text y="4916.6" xml:space="preserve" class="g39s11"><tspan x="603.0" textLength="33.2" lengthAdjust="spacing">Mostly</tspan></text>
+<text y="4916.6" xml:space="preserve" class="g39s11"><tspan x="793.0" textLength="761.8" lengthAdjust="spacing">On the same hardware and library versions, yes. Some GPU operations are non-deterministic unless deterministic algorithms are switched on as well.</tspan></text>
+<line x1="34.0" y1="4927.7" x2="1846.0" y2="4927.7" class="g39s5"/>
+<text y="4946.6" xml:space="preserve" class="g39s13"><tspan x="43.0" class="g39s0" textLength="251.5" lengthAdjust="spacing">&quot;An untrained model’s loss is always about ln </tspan><tspan x="294.5" class="g39s7">V</tspan><tspan x="301.0" class="g39s0" textLength="7.7" lengthAdjust="spacing">.&quot;</tspan></text>
+<text y="4946.6" xml:space="preserve" class="g39s11"><tspan x="603.0" textLength="69.0" lengthAdjust="spacing">Not with tying</tspan></text>
+<text y="4946.6" xml:space="preserve" class="g39s11"><tspan x="793.0" class="g39s7" textLength="13.0" lengthAdjust="spacing">v1</tspan><tspan x="806.0">: </tspan><tspan x="812.4" class="g39s1" textLength="23.7" lengthAdjust="spacing">9.57</tspan><tspan x="836.1" textLength="55.6" lengthAdjust="spacing"> against ln </tspan><tspan x="891.7" class="g39s7" textLength="52.1" lengthAdjust="spacing">V = 9.47</tspan><tspan x="943.8">. </tspan><tspan x="950.2" class="g39s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="976.2">: </tspan><tspan x="982.6" class="g39s1" textLength="30.5" lengthAdjust="spacing">17.91</tspan><tspan x="1013.1" textLength="55.6" lengthAdjust="spacing"> against ln </tspan><tspan x="1068.7" class="g39s7" textLength="52.1" lengthAdjust="spacing">V = 3.26</tspan><tspan x="1120.8" textLength="61.4" lengthAdjust="spacing"> (section E).</tspan></text>
+<line x1="34.0" y1="4957.7" x2="1846.0" y2="4957.7" class="g39s5"/>
+<rect x="34.0" y="4737.5" width="1812.0" height="220.2" rx="0" class="g39s49"/>
+<line x1="594.0" y1="4737.5" x2="594.0" y2="4957.7" class="g39s5"/>
+<line x1="784.0" y1="4737.5" x2="784.0" y2="4957.7" class="g39s5"/>
+<rect x="34.0" y="4975.7" width="1812.0" height="72.6" rx="6" class="g39s51"/>
+<path d="M38.50 4976.45 A5.50 5.50 0 0 0 34.50 4981.74 V5042.30 A5.50 5.50 0 0 0 38.50 5047.59 Z" class="g39s52"/>
+<text y="5001.7" xml:space="preserve" class="g39s32"><tspan x="50.0" class="g39s0" textLength="87.7" lengthAdjust="spacing">The bottom line</tspan></text>
+<text y="5019.3" xml:space="preserve" class="g39s21"><tspan x="50.0" class="g39s6" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="77.2" textLength="213.4" lengthAdjust="spacing"> halves the parameter count by deleting </tspan><tspan x="290.6" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="358.5" textLength="1335.9" lengthAdjust="spacing"> tables, not by shrinking the model: the layers that process a sentence actually grow. It creates its weights more carefully — each matrix drawn once, the padding vector really zero, the same weights on every run. The one side effect is that, with a small </tspan><tspan x="1694.4" class="g39s6" textLength="67.9" lengthAdjust="spacing">vocabulary</tspan><tspan x="1762.3" textLength="56.0" lengthAdjust="spacing"> and a tied</tspan></text>
+<text y="5036.8" xml:space="preserve" class="g39s21"><tspan x="50.0" textLength="551.6" lengthAdjust="spacing">output head, the untrained model starts out confidently predicting the token it is reading, so its first loss (</tspan><tspan x="601.6" class="g39s1" textLength="31.8" lengthAdjust="spacing">17.91</tspan><tspan x="633.4" textLength="464.9" lengthAdjust="spacing">) is far above an even guess — and training removes that within the first twenty epochs.</tspan></text>
+<line x1="28.0" y1="5074.3" x2="1852.0" y2="5074.3" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<rect x="1092.5" y="5081.4" width="36.1" height="13.4" rx="3" class="g39s33"/>
+<text y="5091.3" xml:space="preserve" class="g39s72"><tspan x="28.0" textLength="947.0" lengthAdjust="spacing">All numbers come from the two traces: parameter counts from the architecture (matching the totals each notebook prints), Xavier ranges from the matrix shapes, embedding values, input lengths, </tspan><tspan x="975.0" class="g39s17" textLength="37.3" lengthAdjust="spacing">logits</tspan><tspan x="1012.4" textLength="80.1" lengthAdjust="spacing">, losses and the </tspan><tspan x="1095.0" class="g39s86" textLength="31.1" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="1128.6" textLength="690.8" lengthAdjust="spacing"> gradient from the seeded draws of each notebook’s own initialisers, computed exactly in pure Python. The logged losses are copied from the</tspan></text>
+<rect x="183.8" y="5096.4" width="36.1" height="13.4" rx="3" class="g39s33"/>
+<text y="5106.3" xml:space="preserve" class="g39s72"><tspan x="28.0" textLength="155.8" lengthAdjust="spacing">notebooks’ printed output. The </tspan><tspan x="186.3" class="g39s86" textLength="31.1" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="219.9" textLength="503.7" lengthAdjust="spacing"> gradient is the output head’s contribution for the first training step: the mean over counted positions of </tspan><tspan x="723.6" class="g39s17" textLength="155.6" lengthAdjust="spacing">(p(&lt;PAD&gt;) − 0.1/26) × the</tspan><tspan x="879.2" textLength="79.5" lengthAdjust="spacing"> decoder output.</tspan></text>
+</svg>

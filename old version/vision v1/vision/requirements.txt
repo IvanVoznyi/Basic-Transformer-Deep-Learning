@@ -1,0 +1,7 @@
+# The vision notebook (Vision_Transformer_V1.ipynb): pip install -r requirements.txt
+torch>=2.3
+numpy
+pillow
+matplotlib
+jupyterlab>=4
+anywidget

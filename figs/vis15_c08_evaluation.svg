@@ -1,0 +1,216 @@
+<svg data-src="vis15_c08_evaluation.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1100" viewBox="0 0 1880 1100">
+<style>.txfig .g135s0{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:end}.txfig .g135s1{font-weight:600;fill:var(--ink)}.txfig .g135s2{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g135s3{fill:var(--grid);stroke:none;stroke-width:1}.txfig .g135s4{fill:var(--seqB);stroke:none;stroke-width:1}.txfig .g135s5{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px}.txfig .g135s6{font-weight:600}.txfig .g135s7{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g135s8{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g135s9{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.8px;font-weight:600;fill:var(--ink)}.txfig .g135s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g135s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g135s12{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600}.txfig .g135s13{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;text-anchor:start}.txfig .g135s14{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g135s15{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;fill:var(--ink)}.txfig .g135s16{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g135s17{fill:var(--accent);stroke:none}.txfig .g135s18{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g135s19{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g135s20{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g135s21{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g135s22{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.2px}</style>
+<defs><pattern id="hatch135" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash135" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1100" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">VISION v1.5 · CELL 8 / 10</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="206.4" class="g135s6" textLength="103.9" lengthAdjust="spacing">Evaluation</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="43.4" lengthAdjust="spacing">person </tspan><tspan x="77.4" class="g135s14" textLength="22.1" lengthAdjust="spacing">IoU</tspan><tspan x="99.4" textLength="315.8" lengthAdjust="spacing"> on what it learned and on what it never saw — beside </tspan><tspan x="415.2" class="g135s14" textLength="14.7" lengthAdjust="spacing">v1</tspan><tspan x="429.9" textLength="14.3" lengthAdjust="spacing">’s</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" class="g135s1" textLength="31.2" lengthAdjust="spacing">Cell 8</tspan><tspan x="65.2" textLength="50.5" lengthAdjust="spacing"> of Vision </tspan><tspan x="115.7" class="g135s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="141.7" textLength="14.7" lengthAdjust="spacing"> is </tspan><tspan x="156.4" class="g135s7" textLength="13.0" lengthAdjust="spacing">v1</tspan><tspan x="169.4" textLength="491.3" lengthAdjust="spacing">’s line for line: the three tests, scored at each photo’s full size with the same functions — every </tspan><tspan x="660.7" class="g135s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="686.7" textLength="82.5" lengthAdjust="spacing"> number beside </tspan><tspan x="769.2" class="g135s7" textLength="13.0" lengthAdjust="spacing">v1</tspan><tspan x="782.2" textLength="15.8" lengthAdjust="spacing">’s.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="69.0" rx="8" style="fill:var(--keybg);stroke:var(--keybd);stroke-width:1"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V181.00 A7.50 7.50 0 0 0 39.50 188.07 Z" style="fill:var(--keep);stroke:none"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g135s6" textLength="139.4" lengthAdjust="spacing">The same three tests</tspan></text>
+<text y="169.0" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="54.0" textLength="455.9" lengthAdjust="spacing">Test (c): the final model on the two photos it learned. Test (a): trained on photo </tspan><tspan x="509.9" class="g135s1">1</tspan><tspan x="517.6" textLength="139.5" lengthAdjust="spacing"> alone, scored on photo </tspan><tspan x="657.1" class="g135s1">2</tspan><tspan x="664.7" textLength="587.5" lengthAdjust="spacing">. Test (b): trained with the two people at the right of each photo hidden, scored on them. On the three, </tspan><tspan x="1252.2" class="g135s14" textLength="29.4" lengthAdjust="spacing">v1.5</tspan><tspan x="1281.7"> </tspan><tspan x="1285.3" class="g135s14" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="1329.4" textLength="142.3" lengthAdjust="spacing"> higher on all three tests.</tspan></text>
+<rect x="34.0" y="209.0" width="1812.0" height="30.0" rx="6" class="g135s16"/>
+<path d="M38.50 209.71 A5.50 5.50 0 0 0 34.50 215.00 V233.00 A5.50 5.50 0 0 0 38.50 238.29 Z" class="g135s17"/>
+<text y="229.0" xml:space="preserve" class="g135s18"><tspan x="50.0" class="g135s6" textLength="139.4" lengthAdjust="spacing">A · Every scored photo</tspan></text>
+<text y="229.0" xml:space="preserve" class="g135s19"><tspan x="207.4" textLength="38.4" lengthAdjust="spacing">person </tspan><tspan x="245.8" class="g135s7" textLength="19.5" lengthAdjust="spacing">IoU</tspan><tspan x="265.3" textLength="69.7" lengthAdjust="spacing">, background </tspan><tspan x="335.0" class="g135s7" textLength="19.5" lengthAdjust="spacing">IoU</tspan><tspan x="354.5" textLength="104.8" lengthAdjust="spacing"> and pixel accuracy, </tspan><tspan x="459.3" class="g135s7" textLength="13.0" lengthAdjust="spacing">v1</tspan><tspan x="472.3"> → </tspan><tspan x="490.2" class="g135s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan></text>
+<rect x="34.0" y="269.0" width="1812.0" height="24.0" rx="4" class="g135s16"/>
+<text y="285.0" xml:space="preserve" class="g135s11"><tspan x="43.0" class="g135s6" textLength="17.9" lengthAdjust="spacing">test</tspan></text>
+<text y="285.0" xml:space="preserve" class="g135s11"><tspan x="423.0" class="g135s6" textLength="27.8" lengthAdjust="spacing">photo</tspan></text>
+<text y="285.0" xml:space="preserve" class="g135s11"><tspan x="843.0" class="g135s6" textLength="37.1" lengthAdjust="spacing">person </tspan><tspan x="880.1" class="g135s20" textLength="17.8" lengthAdjust="spacing">IoU</tspan></text>
+<text y="285.0" xml:space="preserve" class="g135s11"><tspan x="1183.0" class="g135s6" textLength="61.2" lengthAdjust="spacing">background </tspan><tspan x="1244.2" class="g135s20" textLength="17.8" lengthAdjust="spacing">IoU</tspan></text>
+<text y="285.0" xml:space="preserve" class="g135s11"><tspan x="1523.0" class="g135s6" textLength="70.5" lengthAdjust="spacing">pixel accuracy</tspan></text>
+<text y="312.2" xml:space="preserve" class="g135s12"><tspan x="43.0" class="g135s6" textLength="139.2" lengthAdjust="spacing">(c) the photos it learned</tspan></text>
+<text y="312.2" xml:space="preserve" class="g135s5"><tspan x="423.0" class="g135s9" textLength="84.9" lengthAdjust="spacing">people_1.jpg</tspan><tspan x="507.9" textLength="77.8" lengthAdjust="spacing"> · whole photo</tspan></text>
+<text y="312.2" xml:space="preserve" class="g135s5"><tspan x="843.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">93.2%</tspan><tspan x="880.6"> → </tspan><tspan x="900.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">97.5%</tspan></text>
+<text y="312.2" xml:space="preserve" class="g135s5"><tspan x="1183.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">94.5%</tspan><tspan x="1220.6"> → </tspan><tspan x="1240.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">98.0%</tspan></text>
+<text y="312.2" xml:space="preserve" class="g135s5"><tspan x="1523.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">96.9%</tspan><tspan x="1560.6"> → </tspan><tspan x="1580.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">98.9%</tspan></text>
+<line x1="34.0" y1="323.0" x2="1846.0" y2="323.0" class="g135s8"/>
+<rect x="34.0" y="323.0" width="1812.0" height="30.0" rx="0" class="g135s21"/>
+<text y="342.2" xml:space="preserve" class="g135s12"><tspan x="43.0" class="g135s6" textLength="139.2" lengthAdjust="spacing">(c) the photos it learned</tspan></text>
+<text y="342.2" xml:space="preserve" class="g135s5"><tspan x="423.0" class="g135s9" textLength="84.9" lengthAdjust="spacing">people_2.jpg</tspan><tspan x="507.9" textLength="77.8" lengthAdjust="spacing"> · whole photo</tspan></text>
+<text y="342.2" xml:space="preserve" class="g135s5"><tspan x="843.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">92.8%</tspan><tspan x="880.6"> → </tspan><tspan x="900.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">97.2%</tspan></text>
+<text y="342.2" xml:space="preserve" class="g135s5"><tspan x="1183.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">94.6%</tspan><tspan x="1220.6"> → </tspan><tspan x="1240.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">97.9%</tspan></text>
+<text y="342.2" xml:space="preserve" class="g135s5"><tspan x="1523.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">96.8%</tspan><tspan x="1560.6"> → </tspan><tspan x="1580.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">98.8%</tspan></text>
+<line x1="34.0" y1="353.0" x2="1846.0" y2="353.0" class="g135s8"/>
+<text y="372.2" xml:space="preserve" class="g135s12"><tspan x="43.0" class="g135s6" textLength="138.4" lengthAdjust="spacing">(a) a photo it never saw</tspan></text>
+<text y="372.2" xml:space="preserve" class="g135s5"><tspan x="423.0" class="g135s9" textLength="84.9" lengthAdjust="spacing">people_2.jpg</tspan><tspan x="507.9" textLength="77.8" lengthAdjust="spacing"> · whole photo</tspan></text>
+<text y="372.2" xml:space="preserve" class="g135s5"><tspan x="843.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">56.4%</tspan><tspan x="880.6"> → </tspan><tspan x="900.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">59.8%</tspan></text>
+<text y="372.2" xml:space="preserve" class="g135s5"><tspan x="1183.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">52.6%</tspan><tspan x="1220.6"> → </tspan><tspan x="1240.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">56.0%</tspan></text>
+<text y="372.2" xml:space="preserve" class="g135s5"><tspan x="1523.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">70.6%</tspan><tspan x="1560.6"> → </tspan><tspan x="1580.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">73.4%</tspan></text>
+<line x1="34.0" y1="383.0" x2="1846.0" y2="383.0" class="g135s8"/>
+<rect x="34.0" y="383.0" width="1812.0" height="30.0" rx="0" class="g135s21"/>
+<text y="402.2" xml:space="preserve" class="g135s12"><tspan x="43.0" class="g135s6" textLength="134.0" lengthAdjust="spacing">(b) people it never saw</tspan></text>
+<text y="402.2" xml:space="preserve" class="g135s5"><tspan x="423.0" class="g135s9" textLength="84.9" lengthAdjust="spacing">people_1.jpg</tspan><tspan x="507.9" textLength="52.1" lengthAdjust="spacing"> · right of </tspan><tspan x="560.0" class="g135s9" textLength="56.6" lengthAdjust="spacing">x = 1330</tspan></text>
+<text y="402.2" xml:space="preserve" class="g135s5"><tspan x="843.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">88.3%</tspan><tspan x="880.6"> → </tspan><tspan x="900.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">87.0%</tspan></text>
+<text y="402.2" xml:space="preserve" class="g135s5"><tspan x="1183.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">92.4%</tspan><tspan x="1220.6"> → </tspan><tspan x="1240.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">91.2%</tspan></text>
+<text y="402.2" xml:space="preserve" class="g135s5"><tspan x="1523.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">95.2%</tspan><tspan x="1560.6"> → </tspan><tspan x="1580.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">94.5%</tspan></text>
+<line x1="34.0" y1="413.0" x2="1846.0" y2="413.0" class="g135s8"/>
+<text y="432.2" xml:space="preserve" class="g135s12"><tspan x="43.0" class="g135s6" textLength="134.0" lengthAdjust="spacing">(b) people it never saw</tspan></text>
+<text y="432.2" xml:space="preserve" class="g135s5"><tspan x="423.0" class="g135s9" textLength="84.9" lengthAdjust="spacing">people_2.jpg</tspan><tspan x="507.9" textLength="52.1" lengthAdjust="spacing"> · right of </tspan><tspan x="560.0" class="g135s9" textLength="56.6" lengthAdjust="spacing">x = 1352</tspan></text>
+<text y="432.2" xml:space="preserve" class="g135s5"><tspan x="843.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">76.1%</tspan><tspan x="880.6"> → </tspan><tspan x="900.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">78.0%</tspan></text>
+<text y="432.2" xml:space="preserve" class="g135s5"><tspan x="1183.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">84.0%</tspan><tspan x="1220.6"> → </tspan><tspan x="1240.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">83.0%</tspan></text>
+<text y="432.2" xml:space="preserve" class="g135s5"><tspan x="1523.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">89.4%</tspan><tspan x="1560.6"> → </tspan><tspan x="1580.0" class="g135s1" textLength="37.6" lengthAdjust="spacing">89.4%</tspan></text>
+<line x1="34.0" y1="443.0" x2="1846.0" y2="443.0" class="g135s8"/>
+<rect x="34.0" y="293.0" width="1812.0" height="150.0" rx="0" style="fill:none;stroke:var(--panelbd);stroke-width:1"/>
+<line x1="414.0" y1="293.0" x2="414.0" y2="443.0" class="g135s8"/>
+<line x1="834.0" y1="293.0" x2="834.0" y2="443.0" class="g135s8"/>
+<line x1="1174.0" y1="293.0" x2="1174.0" y2="443.0" class="g135s8"/>
+<line x1="1514.0" y1="293.0" x2="1514.0" y2="443.0" class="g135s8"/>
+<rect x="34.0" y="465.0" width="1812.0" height="30.0" rx="6" class="g135s16"/>
+<path d="M38.50 465.71 A5.50 5.50 0 0 0 34.50 471.00 V489.00 A5.50 5.50 0 0 0 38.50 494.29 Z" class="g135s17"/>
+<text y="485.0" xml:space="preserve" class="g135s18"><tspan x="50.0" class="g135s6" textLength="247.4" lengthAdjust="spacing">B · How much of each person was found</tspan></text>
+<text y="485.0" xml:space="preserve" class="g135s19"><tspan x="315.4" textLength="297.1" lengthAdjust="spacing">the share of each person’s pixels labelled person — grey </tspan><tspan x="612.5" class="g135s7" textLength="13.0" lengthAdjust="spacing">v1</tspan><tspan x="625.5" textLength="40.9" lengthAdjust="spacing">, colour </tspan><tspan x="666.4" class="g135s7" textLength="26.0" lengthAdjust="spacing">v1.5</tspan></text>
+<text x="34.0" y="539.0" class="g135s13">(c) the photos it learned · people_1.jpg</text>
+<text x="34.0" y="562.0" class="g135s2">person 1</text>
+<rect x="34.0" y="569.0" width="161.7" height="13.0" rx="3" class="g135s3"/>
+<text x="278.9" y="580.0" class="g135s0">96%</text>
+<rect x="34.0" y="587.0" width="166.7" height="13.0" rx="3" class="g135s4"/>
+<text x="278.9" y="598.0" class="g135s0">99%</text>
+<text x="292.9" y="562.0" class="g135s2">person 2</text>
+<rect x="292.9" y="569.0" width="165.3" height="13.0" rx="3" class="g135s3"/>
+<text x="537.7" y="580.0" class="g135s0">98%</text>
+<rect x="292.9" y="587.0" width="167.8" height="13.0" rx="3" class="g135s4"/>
+<text x="537.7" y="598.0" class="g135s0">99%</text>
+<text x="551.7" y="562.0" class="g135s2">person 3</text>
+<rect x="551.7" y="569.0" width="160.0" height="13.0" rx="3" class="g135s3"/>
+<text x="796.6" y="580.0" class="g135s0">95%</text>
+<rect x="551.7" y="587.0" width="166.5" height="13.0" rx="3" class="g135s4"/>
+<text x="796.6" y="598.0" class="g135s0">99%</text>
+<text x="810.6" y="562.0" class="g135s2">person 4</text>
+<rect x="810.6" y="569.0" width="163.4" height="13.0" rx="3" class="g135s3"/>
+<text x="1055.4" y="580.0" class="g135s0">97%</text>
+<rect x="810.6" y="587.0" width="166.6" height="13.0" rx="3" class="g135s4"/>
+<text x="1055.4" y="598.0" class="g135s0">99%</text>
+<text x="1069.4" y="562.0" class="g135s2">person 5</text>
+<rect x="1069.4" y="569.0" width="163.6" height="13.0" rx="3" class="g135s3"/>
+<text x="1314.3" y="580.0" class="g135s0">97%</text>
+<rect x="1069.4" y="587.0" width="166.6" height="13.0" rx="3" class="g135s4"/>
+<text x="1314.3" y="598.0" class="g135s0">99%</text>
+<text x="1328.3" y="562.0" class="g135s2">person 6</text>
+<rect x="1328.3" y="569.0" width="159.4" height="13.0" rx="3" class="g135s3"/>
+<text x="1573.1" y="580.0" class="g135s0">94%</text>
+<rect x="1328.3" y="587.0" width="165.7" height="13.0" rx="3" class="g135s4"/>
+<text x="1573.1" y="598.0" class="g135s0">98%</text>
+<text x="1587.1" y="562.0" class="g135s2">person 7</text>
+<rect x="1587.1" y="569.0" width="162.5" height="13.0" rx="3" class="g135s3"/>
+<text x="1832.0" y="580.0" class="g135s0">96%</text>
+<rect x="1587.1" y="587.0" width="167.1" height="13.0" rx="3" class="g135s4"/>
+<text x="1832.0" y="598.0" class="g135s0">99%</text>
+<text x="34.0" y="629.0" class="g135s13">(c) the photos it learned · people_2.jpg</text>
+<text x="34.0" y="652.0" class="g135s2">person 1</text>
+<rect x="34.0" y="659.0" width="163.0" height="13.0" rx="3" class="g135s3"/>
+<text x="278.9" y="670.0" class="g135s0">97%</text>
+<rect x="34.0" y="677.0" width="165.7" height="13.0" rx="3" class="g135s4"/>
+<text x="278.9" y="688.0" class="g135s0">98%</text>
+<text x="292.9" y="652.0" class="g135s2">person 2</text>
+<rect x="292.9" y="659.0" width="165.1" height="13.0" rx="3" class="g135s3"/>
+<text x="537.7" y="670.0" class="g135s0">98%</text>
+<rect x="292.9" y="677.0" width="167.3" height="13.0" rx="3" class="g135s4"/>
+<text x="537.7" y="688.0" class="g135s0">99%</text>
+<text x="551.7" y="652.0" class="g135s2">person 3</text>
+<rect x="551.7" y="659.0" width="160.7" height="13.0" rx="3" class="g135s3"/>
+<text x="796.6" y="670.0" class="g135s0">95%</text>
+<rect x="551.7" y="677.0" width="166.8" height="13.0" rx="3" class="g135s4"/>
+<text x="796.6" y="688.0" class="g135s0">99%</text>
+<text x="810.6" y="652.0" class="g135s2">person 4</text>
+<rect x="810.6" y="659.0" width="164.8" height="13.0" rx="3" class="g135s3"/>
+<text x="1055.4" y="670.0" class="g135s0">98%</text>
+<rect x="810.6" y="677.0" width="166.9" height="13.0" rx="3" class="g135s4"/>
+<text x="1055.4" y="688.0" class="g135s0">99%</text>
+<text x="1069.4" y="652.0" class="g135s2">person 5</text>
+<rect x="1069.4" y="659.0" width="160.7" height="13.0" rx="3" class="g135s3"/>
+<text x="1314.3" y="670.0" class="g135s0">95%</text>
+<rect x="1069.4" y="677.0" width="166.0" height="13.0" rx="3" class="g135s4"/>
+<text x="1314.3" y="688.0" class="g135s0">98%</text>
+<text x="1328.3" y="652.0" class="g135s2">person 6</text>
+<rect x="1328.3" y="659.0" width="161.4" height="13.0" rx="3" class="g135s3"/>
+<text x="1573.1" y="670.0" class="g135s0">96%</text>
+<rect x="1328.3" y="677.0" width="165.8" height="13.0" rx="3" class="g135s4"/>
+<text x="1573.1" y="688.0" class="g135s0">98%</text>
+<text x="1587.1" y="652.0" class="g135s2">person 7</text>
+<rect x="1587.1" y="659.0" width="159.0" height="13.0" rx="3" class="g135s3"/>
+<text x="1832.0" y="670.0" class="g135s0">94%</text>
+<rect x="1587.1" y="677.0" width="165.8" height="13.0" rx="3" class="g135s4"/>
+<text x="1832.0" y="688.0" class="g135s0">98%</text>
+<text x="34.0" y="719.0" class="g135s13">(a) a photo it never saw · people_2.jpg</text>
+<text x="34.0" y="742.0" class="g135s2">person 1</text>
+<rect x="34.0" y="749.0" width="167.0" height="13.0" rx="3" class="g135s3"/>
+<text x="278.9" y="760.0" class="g135s0">99%</text>
+<rect x="34.0" y="767.0" width="168.7" height="13.0" rx="3" class="g135s4"/>
+<text x="278.9" y="778.0" class="g135s0">100%</text>
+<text x="292.9" y="742.0" class="g135s2">person 2</text>
+<rect x="292.9" y="749.0" width="107.9" height="13.0" rx="3" class="g135s3"/>
+<text x="537.7" y="760.0" class="g135s0">64%</text>
+<rect x="292.9" y="767.0" width="145.7" height="13.0" rx="3" class="g135s4"/>
+<text x="537.7" y="778.0" class="g135s0">86%</text>
+<text x="551.7" y="742.0" class="g135s2">person 3</text>
+<rect x="551.7" y="749.0" width="167.5" height="13.0" rx="3" class="g135s3"/>
+<text x="796.6" y="760.0" class="g135s0">99%</text>
+<rect x="551.7" y="767.0" width="168.7" height="13.0" rx="3" class="g135s4"/>
+<text x="796.6" y="778.0" class="g135s0">100%</text>
+<text x="810.6" y="742.0" class="g135s2">person 4</text>
+<rect x="810.6" y="749.0" width="121.3" height="13.0" rx="3" class="g135s3"/>
+<text x="1055.4" y="760.0" class="g135s0">72%</text>
+<rect x="810.6" y="767.0" width="125.2" height="13.0" rx="3" class="g135s4"/>
+<text x="1055.4" y="778.0" class="g135s0">74%</text>
+<text x="1069.4" y="742.0" class="g135s2">person 5</text>
+<rect x="1069.4" y="749.0" width="166.9" height="13.0" rx="3" class="g135s3"/>
+<text x="1314.3" y="760.0" class="g135s0">99%</text>
+<rect x="1069.4" y="767.0" width="163.5" height="13.0" rx="3" class="g135s4"/>
+<text x="1314.3" y="778.0" class="g135s0">97%</text>
+<text x="1328.3" y="742.0" class="g135s2">person 6</text>
+<rect x="1328.3" y="749.0" width="146.2" height="13.0" rx="3" class="g135s3"/>
+<text x="1573.1" y="760.0" class="g135s0">87%</text>
+<rect x="1328.3" y="767.0" width="151.3" height="13.0" rx="3" class="g135s4"/>
+<text x="1573.1" y="778.0" class="g135s0">90%</text>
+<text x="1587.1" y="742.0" class="g135s2">person 7</text>
+<rect x="1587.1" y="749.0" width="168.9" height="13.0" rx="3" class="g135s3"/>
+<text x="1832.0" y="760.0" class="g135s0">100%</text>
+<rect x="1587.1" y="767.0" width="168.9" height="13.0" rx="3" class="g135s4"/>
+<text x="1832.0" y="778.0" class="g135s0">100%</text>
+<text x="34.0" y="809.0" class="g135s13">(b) people it never saw · people_1.jpg</text>
+<text x="34.0" y="832.0" class="g135s2">person 4</text>
+<rect x="34.0" y="839.0" width="168.9" height="13.0" rx="3" class="g135s3"/>
+<text x="278.9" y="850.0" class="g135s0">100%</text>
+<rect x="34.0" y="857.0" width="168.9" height="13.0" rx="3" class="g135s4"/>
+<text x="278.9" y="868.0" class="g135s0">100%</text>
+<text x="292.9" y="832.0" class="g135s2">person 5</text>
+<rect x="292.9" y="839.0" width="168.9" height="13.0" rx="3" class="g135s3"/>
+<text x="537.7" y="850.0" class="g135s0">100%</text>
+<rect x="292.9" y="857.0" width="148.0" height="13.0" rx="3" class="g135s4"/>
+<text x="537.7" y="868.0" class="g135s0">88%</text>
+<text x="551.7" y="832.0" class="g135s2">person 6</text>
+<rect x="551.7" y="839.0" width="149.7" height="13.0" rx="3" class="g135s3"/>
+<text x="796.6" y="850.0" class="g135s0">89%</text>
+<rect x="551.7" y="857.0" width="149.0" height="13.0" rx="3" class="g135s4"/>
+<text x="796.6" y="868.0" class="g135s0">88%</text>
+<text x="810.6" y="832.0" class="g135s2">person 7</text>
+<rect x="810.6" y="839.0" width="162.1" height="13.0" rx="3" class="g135s3"/>
+<text x="1055.4" y="850.0" class="g135s0">96%</text>
+<rect x="810.6" y="857.0" width="166.9" height="13.0" rx="3" class="g135s4"/>
+<text x="1055.4" y="868.0" class="g135s0">99%</text>
+<text x="34.0" y="899.0" class="g135s13">(b) people it never saw · people_2.jpg</text>
+<text x="34.0" y="922.0" class="g135s2">person 5</text>
+<rect x="34.0" y="929.0" width="125.0" height="13.0" rx="3" class="g135s3"/>
+<text x="278.9" y="940.0" class="g135s0">74%</text>
+<rect x="34.0" y="947.0" width="168.9" height="13.0" rx="3" class="g135s4"/>
+<text x="278.9" y="958.0" class="g135s0">100%</text>
+<text x="292.9" y="922.0" class="g135s2">person 6</text>
+<rect x="292.9" y="929.0" width="163.0" height="13.0" rx="3" class="g135s3"/>
+<text x="537.7" y="940.0" class="g135s0">97%</text>
+<rect x="292.9" y="947.0" width="166.1" height="13.0" rx="3" class="g135s4"/>
+<text x="537.7" y="958.0" class="g135s0">98%</text>
+<text x="551.7" y="922.0" class="g135s2">person 7</text>
+<rect x="551.7" y="929.0" width="122.3" height="13.0" rx="3" class="g135s3"/>
+<text x="796.6" y="940.0" class="g135s0">72%</text>
+<rect x="551.7" y="947.0" width="153.8" height="13.0" rx="3" class="g135s4"/>
+<text x="796.6" y="958.0" class="g135s0">91%</text>
+<text y="995.2" xml:space="preserve" class="g135s22"><tspan x="34.0" textLength="349.2" lengthAdjust="spacing">Test (c) shows how well each model learned what it was shown: </tspan><tspan x="383.2" class="g135s15" textLength="27.6" lengthAdjust="spacing">v1.5</tspan><tspan x="410.8" textLength="764.2" lengthAdjust="spacing"> fits the traced outlines more closely. Tests (a) and (b) are the honest ones — photos and people never seen — and there the gain is smaller: </tspan><tspan x="1175.0" class="g135s15" textLength="27.6" lengthAdjust="spacing">v1.5</tspan><tspan x="1202.6"> </tspan><tspan x="1206.0" class="g135s15" textLength="41.4" lengthAdjust="spacing">scores</tspan><tspan x="1247.4"> </tspan><tspan x="1250.8" class="g135s1" textLength="36.7" lengthAdjust="spacing">59.8%</tspan><tspan x="1287.5" textLength="54.3" lengthAdjust="spacing"> on photo </tspan><tspan x="1341.8" class="g135s1">2</tspan><tspan x="1348.9" textLength="111.9" lengthAdjust="spacing"> after learning photo </tspan><tspan x="1460.8" class="g135s1">1</tspan><tspan x="1468.0" textLength="82.7" lengthAdjust="spacing"> alone, against </tspan><tspan x="1550.8" class="g135s15" textLength="13.8" lengthAdjust="spacing">v1</tspan><tspan x="1564.6" textLength="16.8" lengthAdjust="spacing">’s </tspan><tspan x="1581.4" class="g135s1" textLength="36.7" lengthAdjust="spacing">56.4%</tspan><tspan x="1618.1" textLength="226.5" lengthAdjust="spacing">. Two photos teach a model these photos;</tspan></text>
+<text y="1012.9" xml:space="preserve" class="g135s22"><tspan x="34.0" textLength="351.9" lengthAdjust="spacing">the section on building a bigger dataset is still the way to the rest.</tspan></text>
+<line x1="28.0" y1="1042.6" x2="1852.0" y2="1042.6" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1059.6" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px"><tspan x="28.0" textLength="361.3" lengthAdjust="spacing">Numbers, always labelled. Everything on this page comes from the Vision </tspan><tspan x="389.3" class="g135s10" textLength="24.9" lengthAdjust="spacing">v1.5</tspan><tspan x="414.2" textLength="105.2" lengthAdjust="spacing"> notebook (written by </tspan><tspan x="519.4" class="g135s10" textLength="62.2" lengthAdjust="spacing">nbvis15.py</tspan><tspan x="581.6" textLength="265.9" lengthAdjust="spacing">; your notebooks are only read) run here with PyTorch </tspan><tspan x="847.6" class="g135s1" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="863.8" textLength="196.7" lengthAdjust="spacing">.0 on this Mac’s GPU: its recorded run (</tspan><tspan x="1060.5" class="g135s10" textLength="68.5" lengthAdjust="spacing">runvis15.py</tspan><tspan x="1129.0" textLength="207.3" lengthAdjust="spacing">), and the two tests trained the same way (</tspan><tspan x="1336.2" class="g135s10" textLength="68.5" lengthAdjust="spacing">expvis15.py</tspan><tspan x="1404.7" textLength="28.1" lengthAdjust="spacing">); the </tspan><tspan x="1432.8" class="g135s10" textLength="12.4" lengthAdjust="spacing">v1</tspan><tspan x="1445.3" textLength="136.9" lengthAdjust="spacing"> numbers beside them from </tspan><tspan x="1582.2" class="g135s10" textLength="12.4" lengthAdjust="spacing">v1</tspan><tspan x="1594.7" textLength="62.8" lengthAdjust="spacing">’s own runs.</tspan></text>
+</svg>

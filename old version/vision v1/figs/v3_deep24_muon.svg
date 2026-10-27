@@ -1,0 +1,939 @@
+<svg data-src="v3_deep24_muon.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="4873" viewBox="0 0 1880 4873">
+<style>.txfig .g114s0{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g114s1{font-weight:600}.txfig .g114s2{font-weight:600;fill:var(--ink)}.txfig .g114s3{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g114s4{fill:var(--code)}.txfig .g114s5{fill:var(--op)}.txfig .g114s6{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g114s7{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g114s8{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g114s9{font-weight:600;fill:var(--ink2)}.txfig .g114s10{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g114s11{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g114s12{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g114s13{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g114s14{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g114s15{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g114s16{fill:var(--drop);stroke:none;stroke-width:1}.txfig .g114s17{fill:var(--keep);stroke:none;stroke-width:1}.txfig .g114s18{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g114s19{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g114s20{fill:var(--accent);stroke:none}.txfig .g114s21{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g114s22{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g114s23{fill:var(--cellbg);stroke:var(--hair);stroke-width:1}.txfig .g114s24{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g114s25{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g114s26{fill:var(--fn)}.txfig .g114s27{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:end}.txfig .g114s28{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g114s29{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g114s30{fill:var(--num)}.txfig .g114s31{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g114s32{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g114s33{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g114s34{fill:var(--s3);stroke:none;stroke-width:1}.txfig .g114s35{stroke:var(--drop);stroke-width:1.4;stroke-linecap:round}.txfig .g114s36{fill:var(--drop);stroke:var(--drop);stroke-width:1.2}.txfig .g114s37{fill:var(--drop);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:start}.txfig .g114s38{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g114s39{fill:var(--str)}.txfig .g114s40{fill:var(--infobg);stroke:var(--infobd);stroke-width:1}.txfig .g114s41{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g114s42{stroke:var(--gridline);stroke-width:1;stroke-linecap:round}.txfig .g114s43{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g114s44{stroke:var(--grid);stroke-width:0.8;stroke-linecap:round}.txfig .g114s45{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:middle}.txfig .g114s46{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g114s47{stroke:var(--ink3);stroke-width:1.2;stroke-linecap:round}.txfig .g114s48{fill:none;stroke:var(--ink3);stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round}.txfig .g114s49{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start}.txfig .g114s50{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g114s51{fill:var(--keep);stroke:none}.txfig .g114s52{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g114s53{fill:var(--cmt)}.txfig .g114s54{fill:var(--attr)}.txfig .g114s55{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:end}.txfig .g114s56{fill:none;stroke:var(--drop);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.txfig .g114s57{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g114s58{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g114s59{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)}.txfig .g114s60{fill:var(--kw)}.txfig .g114s61{stroke:var(--grid);stroke-width:1;stroke-linecap:round}.txfig .g114s62{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g114s63{fill:none;stroke:var(--keep);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.txfig .g114s64{stroke:var(--keep);stroke-width:2;stroke-linecap:round}.txfig .g114s65{stroke:var(--drop);stroke-width:2.2;stroke-linecap:round}.txfig .g114s66{fill:var(--keep);stroke:none;stroke-width:1;opacity:0.22}.txfig .g114s67{fill:var(--keep);opacity:0.16}.txfig .g114s68{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch114" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash114" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="4873" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v3 · DEEP DIVE 24 / 27</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="191.7" class="g114s1" textLength="381.0" lengthAdjust="spacing">Muon — every direction the same step</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="718.2" lengthAdjust="spacing">how a gradient splits its step · momentum · Newton–Schulz, step by step · why the polynomial works · one real step · against </tspan><tspan x="752.2" class="g114s28" textLength="29.4" lengthAdjust="spacing">Adam</tspan><tspan x="781.6" textLength="325.2" lengthAdjust="spacing"> · Muon, or just a bigger step? · the experiment · against </tspan><tspan x="1106.8" class="g114s28" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="1136.2" textLength="88.9" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="138.7" lengthAdjust="spacing">One real update of the tiny </tspan><tspan x="172.7" class="g114s11" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="185.7" textLength="41.5" lengthAdjust="spacing"> model (</tspan><tspan x="227.3" class="g114s11" textLength="45.6" lengthAdjust="spacing">toy3.py</tspan><tspan x="272.8">, </tspan><tspan x="279.2" class="g114s2" textLength="46.8" lengthAdjust="spacing">step 300</tspan><tspan x="326.0">, </tspan><tspan x="332.4" class="g114s11" textLength="91.1" lengthAdjust="spacing">decoder_layers</tspan><tspan x="423.5" textLength="12.8" lengthAdjust="spacing">.0.</tspan><tspan x="436.3" class="g114s11" textLength="175.7" lengthAdjust="spacing">masked_self_attn.W_q.weight</tspan><tspan x="612.0" textLength="175.1" lengthAdjust="spacing">), the real code on large matrices (</tspan><tspan x="787.1" class="g114s11" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="845.7" textLength="338.8" lengthAdjust="spacing">), and the experiment, with a learning-rate sweep run for this page.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g114s50"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g114s51"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g114s1" textLength="22.3" lengthAdjust="spacing">An </tspan><tspan x="76.3" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.2px;font-weight:600;fill:var(--ink)" textLength="71.3" lengthAdjust="spacing">optimizer</tspan><tspan x="147.6" class="g114s1" textLength="81.6" lengthAdjust="spacing"> for matrices</tspan></text>
+<text y="169.0" xml:space="preserve" class="g114s57"><tspan x="54.0" class="g114s28" textLength="29.4" lengthAdjust="spacing">Adam</tspan><tspan x="83.4"> </tspan><tspan x="87.4" textLength="32.5" lengthAdjust="spacing">treats</tspan><tspan x="119.9"> </tspan><tspan x="123.8">a</tspan><tspan x="131.0"> </tspan><tspan x="135.0" textLength="37.6" lengthAdjust="spacing">weight</tspan><tspan x="172.5"> </tspan><tspan x="176.5" textLength="35.4" lengthAdjust="spacing">matrix</tspan><tspan x="211.9"> </tspan><tspan x="215.8" textLength="13.7" lengthAdjust="spacing">as</tspan><tspan x="229.5"> </tspan><tspan x="233.5">a</tspan><tspan x="240.7"> </tspan><tspan x="244.6" textLength="21.7" lengthAdjust="spacing">bag</tspan><tspan x="266.3"> </tspan><tspan x="270.3" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="281.1"> </tspan><tspan x="285.0" textLength="50.6" lengthAdjust="spacing">separate</tspan><tspan x="335.6"> </tspan><tspan x="339.6" textLength="54.2" lengthAdjust="spacing">numbers.</tspan><tspan x="393.7"> </tspan><tspan x="397.7" textLength="19.5" lengthAdjust="spacing">But</tspan><tspan x="417.2"> </tspan><tspan x="421.1">a</tspan><tspan x="428.4"> </tspan><tspan x="432.3" textLength="35.4" lengthAdjust="spacing">matrix</tspan><tspan x="467.7"> </tspan><tspan x="471.6" textLength="31.8" lengthAdjust="spacing">maps</tspan><tspan x="503.4"> </tspan><tspan x="507.3" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="529.0"> </tspan><tspan x="533.0" textLength="35.4" lengthAdjust="spacing">vector</tspan><tspan x="568.4"> </tspan><tspan x="572.3" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="583.1"> </tspan><tspan x="587.1" textLength="47.7" lengthAdjust="spacing">another,</tspan><tspan x="634.8"> </tspan><tspan x="638.7" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="660.4"> </tspan><tspan x="664.3" textLength="13.0" lengthAdjust="spacing">its</tspan><tspan x="677.3"> </tspan><tspan x="681.3" textLength="47.0" lengthAdjust="spacing">gradient</tspan><tspan x="728.3"> </tspan><tspan x="732.2" textLength="41.9" lengthAdjust="spacing">pushes</tspan><tspan x="774.1"> </tspan><tspan x="778.0" textLength="31.8" lengthAdjust="spacing">along</tspan><tspan x="809.8"> </tspan><tspan x="813.8">a</tspan><tspan x="821.0"> </tspan><tspan x="824.9" textLength="20.2" lengthAdjust="spacing">few</tspan><tspan x="845.2"> </tspan><tspan x="849.1" textLength="28.2" lengthAdjust="spacing">main</tspan><tspan x="877.3"> </tspan><tspan x="881.2" textLength="55.6" lengthAdjust="spacing">directions</tspan><tspan x="936.8"> </tspan><tspan x="940.8" textLength="23.1" lengthAdjust="spacing">with</tspan><tspan x="963.9"> </tspan><tspan x="967.8" textLength="24.6" lengthAdjust="spacing">very</tspan><tspan x="992.4"> </tspan><tspan x="996.3" textLength="47.0" lengthAdjust="spacing">different</tspan><tspan x="1043.3"> </tspan><tspan x="1047.2" textLength="57.1" lengthAdjust="spacing">strengths:</tspan><tspan x="1104.3"> </tspan><tspan x="1108.3" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1129.9"> </tspan><tspan x="1133.9" textLength="21.0" lengthAdjust="spacing">can</tspan><tspan x="1154.8"> </tspan><tspan x="1158.8" textLength="24.6" lengthAdjust="spacing">take</tspan><tspan x="1183.3"> </tspan><tspan x="1187.3" textLength="38.3" lengthAdjust="spacing">almost</tspan><tspan x="1225.6"> </tspan><tspan x="1229.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1247.6"> </tspan><tspan x="1251.5" textLength="34.0" lengthAdjust="spacing">whole</tspan><tspan x="1285.5"> </tspan><tspan x="1289.4" textLength="24.6" lengthAdjust="spacing">step</tspan><tspan x="1314.0"> </tspan><tspan x="1317.9" textLength="29.6" lengthAdjust="spacing">while</tspan><tspan x="1347.5"> </tspan><tspan x="1351.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1369.5"> </tspan><tspan x="1373.5" textLength="21.7" lengthAdjust="spacing">rest</tspan><tspan x="1395.1"> </tspan><tspan x="1399.1" textLength="35.4" lengthAdjust="spacing">barely</tspan><tspan x="1434.5"> </tspan><tspan x="1438.4" textLength="35.4" lengthAdjust="spacing">move.</tspan><tspan x="1473.8"> </tspan><tspan x="1477.7" textLength="32.5" lengthAdjust="spacing">Muon</tspan><tspan x="1510.3"> </tspan><tspan x="1514.2" textLength="37.6" lengthAdjust="spacing">(Keller</tspan><tspan x="1551.8"> </tspan><tspan x="1555.7" textLength="43.4" lengthAdjust="spacing">Jordan,</tspan><tspan x="1599.0"> </tspan><tspan x="1603.0" class="g114s2" textLength="30.6" lengthAdjust="spacing">2024</tspan><tspan x="1633.6">)</tspan><tspan x="1638.0"> </tspan><tspan x="1641.9" textLength="34.7" lengthAdjust="spacing">keeps</tspan><tspan x="1676.6"> </tspan><tspan x="1680.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1698.6"> </tspan><tspan x="1702.5" textLength="55.6" lengthAdjust="spacing">directions</tspan><tspan x="1758.2"> </tspan><tspan x="1762.1" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1783.8"> </tspan><tspan x="1787.7" textLength="38.3" lengthAdjust="spacing">makes</tspan></text>
+<text y="188.0" xml:space="preserve" class="g114s57"><tspan x="54.0" textLength="346.8" lengthAdjust="spacing">their strengths about equal, with five cheap matrix products. </tspan><tspan x="400.8" class="g114s28" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="415.5" textLength="85.3" lengthAdjust="spacing"> uses it for the </tspan><tspan x="500.8" class="g114s2" textLength="126.4" lengthAdjust="spacing">24,252,416 numbers</tspan><tspan x="627.2" textLength="141.5" lengthAdjust="spacing"> in the layers’ matrices; </tspan><tspan x="768.7" class="g114s28" textLength="36.8" lengthAdjust="spacing">AdamW</tspan><tspan x="805.4" textLength="88.9" lengthAdjust="spacing"> keeps the rest.</tspan></text>
+<text x="34.0" y="268.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">WHERE IT LIVES</text>
+<text y="290.5" xml:space="preserve" class="g114s52"><tspan x="34.0" textLength="17.5" lengthAdjust="spacing">the </tspan><tspan x="51.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink)" textLength="53.5" lengthAdjust="spacing">optimizer</tspan><tspan x="105.0" textLength="62.4" lengthAdjust="spacing">: how training</tspan></text>
+<text y="305.7" xml:space="preserve" class="g114s52"><tspan x="34.0" textLength="124.3" lengthAdjust="spacing">turns each gradient into an</tspan></text>
+<text y="321.0" xml:space="preserve" class="g114s52"><tspan x="34.0" textLength="144.6" lengthAdjust="spacing">update for the layers’ matrices</tspan></text>
+<rect x="204.0" y="254.0" width="120.0" height="40.0" rx="6" class="g114s23"/>
+<text x="264.0" y="278.0" class="g114s24">source words</text>
+<line x1="327.0" y1="274.0" x2="347.0" y2="274.0" class="g114s47"/>
+<path d="M341.0 270.0 L347.0 274.0 L341.0 278.0" class="g114s48"/>
+<rect x="350.0" y="234.0" width="396.0" height="72.0" rx="8" class="g114s25"/>
+<text x="360.0" y="247.0" class="g114s58">encoder × 2</text>
+<rect x="360.0" y="254.0" width="182.0" height="40.0" rx="6" class="g114s23"/>
+<text x="451.0" y="278.0" class="g114s24">self-attention</text>
+<rect x="554.0" y="254.0" width="182.0" height="40.0" rx="6" class="g114s23"/>
+<text x="645.0" y="278.0" class="g114s24">feed-forward</text>
+<line x1="749.0" y1="274.0" x2="769.0" y2="274.0" class="g114s47"/>
+<path d="M763.0 270.0 L769.0 274.0 L763.0 278.0" class="g114s48"/>
+<rect x="772.0" y="234.0" width="588.0" height="72.0" rx="8" class="g114s25"/>
+<text x="782.0" y="247.0" class="g114s58">decoder × 2</text>
+<rect x="782.0" y="254.0" width="182.0" height="40.0" rx="6" class="g114s23"/>
+<text x="873.0" y="278.0" class="g114s24">self-attention</text>
+<rect x="976.0" y="254.0" width="182.0" height="40.0" rx="6" class="g114s23"/>
+<text x="1067.0" y="278.0" class="g114s24">cross-attention</text>
+<rect x="1170.0" y="254.0" width="182.0" height="40.0" rx="6" class="g114s23"/>
+<text x="1261.0" y="278.0" class="g114s24">feed-forward</text>
+<line x1="1363.0" y1="274.0" x2="1383.0" y2="274.0" class="g114s47"/>
+<path d="M1377.0 270.0 L1383.0 274.0 L1377.0 278.0" class="g114s48"/>
+<rect x="1386.0" y="254.0" width="200.0" height="40.0" rx="6" class="g114s23"/>
+<text x="1486.0" y="271.0" class="g114s24">output layer</text>
+<text x="1486.0" y="286.0" class="g114s45">a score for every word</text>
+<line x1="1589.0" y1="274.0" x2="1609.0" y2="274.0" class="g114s47"/>
+<path d="M1603.0 270.0 L1609.0 274.0 L1603.0 278.0" class="g114s48"/>
+<rect x="1612.0" y="254.0" width="120.0" height="40.0" rx="6" class="g114s23"/>
+<text x="1672.0" y="278.0" class="g114s24">next word</text>
+<rect x="350.0" y="316.0" width="196.0" height="40.0" rx="6" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:1.8"/>
+<text x="448.0" y="333.0" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:middle">optimizer</text>
+<text x="448.0" y="348.0" class="g114s45">how training updates</text>
+<rect x="554.0" y="316.0" width="182.0" height="40.0" rx="6" class="g114s23"/>
+<text x="645.0" y="340.0" class="g114s24">stored weights</text>
+<rect x="782.0" y="316.0" width="182.0" height="40.0" rx="6" class="g114s23"/>
+<text x="873.0" y="333.0" class="g114s24">KV cache</text>
+<text x="873.0" y="348.0" class="g114s45">kept while writing</text>
+<rect x="976.0" y="316.0" width="376.0" height="40.0" rx="6" class="g114s23"/>
+<text x="1164.0" y="333.0" class="g114s24">writing loop</text>
+<text x="1164.0" y="348.0" class="g114s45">one word per pass of the model</text>
+<rect x="1386.0" y="316.0" width="200.0" height="40.0" rx="6" class="g114s23"/>
+<text x="1486.0" y="333.0" class="g114s24">multi-token head</text>
+<text x="1486.0" y="348.0" class="g114s45">guesses the word after next</text>
+<text y="393.2" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px"><tspan x="34.0" class="g114s59" textLength="97.1" lengthAdjust="spacing">newton_schulz</tspan><tspan x="131.1" textLength="29.4" lengthAdjust="spacing"> and </tspan><tspan x="160.5" class="g114s59" textLength="67.2" lengthAdjust="spacing">Muon.step</tspan><tspan x="227.7" textLength="24.9" lengthAdjust="spacing">, as </tspan><tspan x="252.6" class="g114s2" textLength="32.7" lengthAdjust="spacing">cell 7</tspan><tspan x="285.3" textLength="74.8" lengthAdjust="spacing"> writes them:</tspan></text>
+<rect x="846.0" y="380.0" width="1000.0" height="172.5" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="398.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="856.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="867.9" class="g114s1" textLength="37.1" lengthAdjust="spacing"> · Muon</tspan></text>
+<text x="856.0" y="421.0" xml:space="preserve" class="g114s38"><tspan class="g114s4">a</tspan><tspan class="g114s5">,</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">b</tspan><tspan class="g114s5">,</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">c</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">=</tspan><tspan class="g114s4"> </tspan><tspan class="g114s30">3.4445</tspan><tspan class="g114s5">,</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">-</tspan><tspan class="g114s30">4.7750</tspan><tspan class="g114s5">,</tspan><tspan class="g114s4"> </tspan><tspan class="g114s30">2.0315</tspan></text>
+<text x="856.0" y="440.5" xml:space="preserve" class="g114s38"><tspan class="g114s4">X</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">=</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">G</tspan><tspan class="g114s5">.</tspan><tspan class="g114s26">float</tspan><tspan class="g114s5">(</tspan><tspan class="g114s5">)</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">/</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">(</tspan><tspan class="g114s4">G</tspan><tspan class="g114s5">.</tspan><tspan class="g114s26">float</tspan><tspan class="g114s5">(</tspan><tspan class="g114s5">)</tspan><tspan class="g114s5">.</tspan><tspan class="g114s26">norm</tspan><tspan class="g114s5">(</tspan><tspan class="g114s5">)</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">+</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">eps</tspan><tspan class="g114s5">)</tspan><tspan class="g114s4">                    </tspan><tspan class="g114s53"># every singular value below 1</tspan></text>
+<text x="856.0" y="460.0" xml:space="preserve" class="g114s38"><tspan class="g114s60">for</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">_</tspan><tspan class="g114s4"> </tspan><tspan class="g114s60">in</tspan><tspan class="g114s4"> </tspan><tspan class="g114s26">range</tspan><tspan class="g114s5">(</tspan><tspan class="g114s4">steps</tspan><tspan class="g114s5">)</tspan><tspan class="g114s5">:</tspan><tspan class="g114s4">  </tspan><tspan class="g114s4">A</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">=</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">X</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">@</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">X</tspan><tspan class="g114s5">.</tspan><tspan class="g114s54">T</tspan><tspan class="g114s5">;</tspan><tspan class="g114s4">  </tspan><tspan class="g114s4">X</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">=</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">a</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">*</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">X</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">+</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">(</tspan><tspan class="g114s4">b</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">*</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">A</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">+</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">c</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">*</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">A</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">@</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">A</tspan><tspan class="g114s5">)</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">@</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">X</tspan></text>
+<text x="856.0" y="479.5" xml:space="preserve" class="g114s38"><tspan class="g114s4">buf</tspan><tspan class="g114s5">.</tspan><tspan class="g114s26">lerp_</tspan><tspan class="g114s5">(</tspan><tspan class="g114s4">p</tspan><tspan class="g114s5">.</tspan><tspan class="g114s54">grad</tspan><tspan class="g114s5">,</tspan><tspan class="g114s4"> </tspan><tspan class="g114s30">1</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">-</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">group</tspan><tspan class="g114s5">[</tspan><tspan class="g114s39">&quot;momentum&quot;</tspan><tspan class="g114s5">]</tspan><tspan class="g114s5">)</tspan><tspan class="g114s4">                    </tspan><tspan class="g114s53"># momentum 0.95</tspan></text>
+<text x="856.0" y="499.0" xml:space="preserve" class="g114s38"><tspan class="g114s4">g</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">=</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">p</tspan><tspan class="g114s5">.</tspan><tspan class="g114s54">grad</tspan><tspan class="g114s5">.</tspan><tspan class="g114s26">lerp</tspan><tspan class="g114s5">(</tspan><tspan class="g114s4">buf</tspan><tspan class="g114s5">,</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">group</tspan><tspan class="g114s5">[</tspan><tspan class="g114s39">&quot;momentum&quot;</tspan><tspan class="g114s5">]</tspan><tspan class="g114s5">)</tspan><tspan class="g114s4">                     </tspan><tspan class="g114s53"># Nesterov</tspan></text>
+<text x="856.0" y="518.5" xml:space="preserve" class="g114s38"><tspan class="g114s4">update</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">=</tspan><tspan class="g114s4"> </tspan><tspan class="g114s26">newton_schulz</tspan><tspan class="g114s5">(</tspan><tspan class="g114s4">g</tspan><tspan class="g114s5">,</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">group</tspan><tspan class="g114s5">[</tspan><tspan class="g114s39">&quot;ns_steps&quot;</tspan><tspan class="g114s5">]</tspan><tspan class="g114s5">)</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">*</tspan><tspan class="g114s4"> </tspan><tspan class="g114s26">max</tspan><tspan class="g114s5">(</tspan><tspan class="g114s30">1</tspan><tspan class="g114s5">,</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">p</tspan><tspan class="g114s5">.</tspan><tspan class="g114s26">size</tspan><tspan class="g114s5">(</tspan><tspan class="g114s30">0</tspan><tspan class="g114s5">)</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">/</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">p</tspan><tspan class="g114s5">.</tspan><tspan class="g114s26">size</tspan><tspan class="g114s5">(</tspan><tspan class="g114s30">1</tspan><tspan class="g114s5">)</tspan><tspan class="g114s5">)</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">*</tspan><tspan class="g114s5">*</tspan><tspan class="g114s4"> </tspan><tspan class="g114s30">0.5</tspan></text>
+<text x="856.0" y="538.0" xml:space="preserve" class="g114s38"><tspan class="g114s4">p</tspan><tspan class="g114s5">.</tspan><tspan class="g114s26">mul_</tspan><tspan class="g114s5">(</tspan><tspan class="g114s30">1</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">-</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">group</tspan><tspan class="g114s5">[</tspan><tspan class="g114s39">&quot;lr&quot;</tspan><tspan class="g114s5">]</tspan><tspan class="g114s4"> </tspan><tspan class="g114s5">*</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">group</tspan><tspan class="g114s5">[</tspan><tspan class="g114s39">&quot;weight_decay&quot;</tspan><tspan class="g114s5">]</tspan><tspan class="g114s5">)</tspan><tspan class="g114s5">;</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">p</tspan><tspan class="g114s5">.</tspan><tspan class="g114s26">add_</tspan><tspan class="g114s5">(</tspan><tspan class="g114s4">update</tspan><tspan class="g114s5">,</tspan><tspan class="g114s4"> </tspan><tspan class="g114s4">alpha</tspan><tspan class="g114s5">=</tspan><tspan class="g114s5">-</tspan><tspan class="g114s4">group</tspan><tspan class="g114s5">[</tspan><tspan class="g114s39">&quot;lr&quot;</tspan><tspan class="g114s5">]</tspan><tspan class="g114s5">)</tspan></text>
+<rect x="34.0" y="574.5" width="1812.0" height="30.0" rx="6" class="g114s15"/>
+<path d="M38.50 575.21 A5.50 5.50 0 0 0 34.50 580.50 V598.50 A5.50 5.50 0 0 0 38.50 603.79 Z" class="g114s20"/>
+<text y="594.5" xml:space="preserve" class="g114s31"><tspan x="50.0" class="g114s1" textLength="196.1" lengthAdjust="spacing">A · How a gradient splits its step</tspan></text>
+<text y="594.5" xml:space="preserve" class="g114s32"><tspan x="264.1" textLength="407.0" lengthAdjust="spacing">the tiny model’s real update, and large random matrices through the real code (</tspan><tspan x="671.1" class="g114s11" textLength="58.6" lengthAdjust="spacing">check3.py</tspan><tspan x="729.7">)</tspan></text>
+<text y="622.5" xml:space="preserve" class="g114s21"><tspan x="38.0" class="g114s1" textLength="120.9" lengthAdjust="spacing">Strengths and shares</tspan></text>
+<text y="640.5" xml:space="preserve" class="g114s19"><tspan x="38.0" textLength="1435.0" lengthAdjust="spacing">A matrix’s singular values are the strengths of its main directions. A direction’s share of the step is its strength squared over the sum of all strengths squared. The raw gradient gives one direction most of the step; after Newton–Schulz every direction gets a similar share.</tspan></text>
+<text x="34.0" y="673.9" class="g114s49">the 8 strengths of the tiny model’s update, before and after</text>
+<rect x="34.0" y="683.9" width="14.0" height="10.0" rx="2" class="g114s16"/>
+<text x="54.0" y="692.9" class="g114s33">the gradient, scaled: X = g ÷ ‖g‖</text>
+<rect x="235.3" y="683.9" width="14.0" height="10.0" rx="2" class="g114s17"/>
+<text x="255.3" y="692.9" class="g114s33">after 5 Newton–Schulz steps</text>
+<text x="1846.0" y="692.9" class="g114s55">log scale: each step up is ×10</text>
+<line x1="34.0" y1="889.9" x2="1846.0" y2="889.9" class="g114s61"/>
+<rect x="94.2" y="736.0" width="50.0" height="153.9" rx="2" class="g114s16"/>
+<text x="119.2" y="731.0" class="g114s10">0.872</text>
+<rect x="150.2" y="729.9" width="50.0" height="160.0" rx="2" class="g114s17"/>
+<text x="175.2" y="724.9" class="g114s10">1.171</text>
+<text x="147.2" y="905.9" class="g114s14">direction 0</text>
+<rect x="320.8" y="753.0" width="50.0" height="136.9" rx="2" class="g114s16"/>
+<text x="345.8" y="748.0" class="g114s10">0.382</text>
+<rect x="376.8" y="730.6" width="50.0" height="159.3" rx="2" class="g114s17"/>
+<text x="401.8" y="725.6" class="g114s10">1.134</text>
+<text x="373.8" y="905.9" class="g114s14">direction 1</text>
+<rect x="547.2" y="760.7" width="50.0" height="129.2" rx="2" class="g114s16"/>
+<text x="572.2" y="755.7" class="g114s10">0.264</text>
+<rect x="603.2" y="730.6" width="50.0" height="159.3" rx="2" class="g114s17"/>
+<text x="628.2" y="725.6" class="g114s10">1.132</text>
+<text x="600.2" y="905.9" class="g114s14">direction 2</text>
+<rect x="773.8" y="779.1" width="50.0" height="110.8" rx="2" class="g114s16"/>
+<text x="798.8" y="774.1" class="g114s10">0.108</text>
+<rect x="829.8" y="731.0" width="50.0" height="158.9" rx="2" class="g114s17"/>
+<text x="854.8" y="726.0" class="g114s10">1.109</text>
+<text x="826.8" y="905.9" class="g114s14">direction 3</text>
+<rect x="1000.2" y="788.1" width="50.0" height="101.8" rx="2" class="g114s16"/>
+<text x="1025.2" y="783.1" class="g114s10">0.070</text>
+<rect x="1056.2" y="732.1" width="50.0" height="157.8" rx="2" class="g114s17"/>
+<text x="1081.2" y="727.1" class="g114s10">1.053</text>
+<text x="1053.2" y="905.9" class="g114s14">direction 4</text>
+<rect x="1226.8" y="789.6" width="50.0" height="100.3" rx="2" class="g114s16"/>
+<text x="1251.8" y="784.6" class="g114s10">0.065</text>
+<rect x="1282.8" y="737.0" width="50.0" height="152.9" rx="2" class="g114s17"/>
+<text x="1307.8" y="732.0" class="g114s10">0.830</text>
+<text x="1279.8" y="905.9" class="g114s14">direction 5</text>
+<rect x="1453.2" y="804.8" width="50.0" height="85.1" rx="2" class="g114s16"/>
+<text x="1478.2" y="799.8" class="g114s10">0.031</text>
+<rect x="1509.2" y="739.1" width="50.0" height="150.8" rx="2" class="g114s17"/>
+<text x="1534.2" y="734.1" class="g114s10">0.751</text>
+<text x="1506.2" y="905.9" class="g114s14">direction 6</text>
+<rect x="1679.8" y="843.3" width="50.0" height="46.6" rx="2" class="g114s16"/>
+<text x="1704.8" y="838.3" class="g114s10">0.005</text>
+<rect x="1735.8" y="741.0" width="50.0" height="148.9" rx="2" class="g114s17"/>
+<text x="1760.8" y="736.0" class="g114s10">0.685</text>
+<text x="1732.8" y="905.9" class="g114s14">direction 7</text>
+<rect x="34.0" y="919.9" width="1812.0" height="55.0" rx="6" class="g114s40"/>
+<path d="M38.50 920.61 A5.50 5.50 0 0 0 34.50 925.90 V968.94 A5.50 5.50 0 0 0 38.50 974.23 Z" class="g114s20"/>
+<text y="945.9" xml:space="preserve" class="g114s21"><tspan x="50.0" class="g114s1" textLength="78.5" lengthAdjust="spacing">How to read it</tspan></text>
+<text y="963.4" xml:space="preserve" class="g114s19"><tspan x="50.0" textLength="175.4" lengthAdjust="spacing">Before: the strongest direction is </tspan><tspan x="225.4" class="g114s2" textLength="28.8" lengthAdjust="spacing">182×</tspan><tspan x="254.3" textLength="258.8" lengthAdjust="spacing"> the weakest. After five steps every bar sits near </tspan><tspan x="513.0" class="g114s2">1</tspan><tspan x="520.1" textLength="115.4" lengthAdjust="spacing"> — the weakest grew </tspan><tspan x="635.5" class="g114s2" textLength="28.8" lengthAdjust="spacing">244×</tspan><tspan x="664.3" textLength="426.7" lengthAdjust="spacing">, the strongest barely moved. The directions themselves are the gradient’s own.</tspan></text>
+<rect x="34.0" y="986.9" width="1812.0" height="24.0" rx="4" class="g114s15"/>
+<text y="1002.9" xml:space="preserve" class="g114s6"><tspan x="43.0" class="g114s9" textLength="33.4" lengthAdjust="spacing">layer 0</tspan><tspan x="76.4" class="g114s1"> · </tspan><tspan x="85.7" class="g114s41" textLength="160.4" lengthAdjust="spacing">masked_self_attn.W_q.weight</tspan><tspan x="246.1" class="g114s1">, </tspan><tspan x="252.3" class="g114s9">8</tspan><tspan x="258.5" class="g114s1" textLength="50.7" lengthAdjust="spacing"> directions</tspan></text>
+<text y="1002.9" xml:space="preserve" class="g114s6"><tspan x="495.0" class="g114s9">0</tspan></text>
+<text y="1002.9" xml:space="preserve" class="g114s6"><tspan x="665.0" class="g114s9">1</tspan></text>
+<text y="1002.9" xml:space="preserve" class="g114s6"><tspan x="835.0" class="g114s9">2</tspan></text>
+<text y="1002.9" xml:space="preserve" class="g114s6"><tspan x="1005.0" class="g114s9">3</tspan></text>
+<text y="1002.9" xml:space="preserve" class="g114s6"><tspan x="1175.0" class="g114s9">4</tspan></text>
+<text y="1002.9" xml:space="preserve" class="g114s6"><tspan x="1345.0" class="g114s9">5</tspan></text>
+<text y="1002.9" xml:space="preserve" class="g114s6"><tspan x="1515.0" class="g114s9">6</tspan></text>
+<text y="1002.9" xml:space="preserve" class="g114s6"><tspan x="1685.0" class="g114s9">7</tspan></text>
+<text y="1027.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="220.2" lengthAdjust="spacing">the gradient (momentum mix g), strength</tspan></text>
+<text x="495.0" y="1027.8" class="g114s0">6.86 × 10⁻⁵</text>
+<text x="665.0" y="1027.8" class="g114s0">3.00 × 10⁻⁵</text>
+<text x="835.0" y="1027.8" class="g114s0">2.07 × 10⁻⁵</text>
+<text x="1005.0" y="1027.8" class="g114s0">8.47 × 10⁻⁶</text>
+<text x="1175.0" y="1027.8" class="g114s0">5.47 × 10⁻⁶</text>
+<text x="1345.0" y="1027.8" class="g114s0">5.10 × 10⁻⁶</text>
+<text x="1515.0" y="1027.8" class="g114s0">2.45 × 10⁻⁶</text>
+<text x="1685.0" y="1027.8" class="g114s0">3.77 × 10⁻⁷</text>
+<line x1="34.0" y1="1036.9" x2="1846.0" y2="1036.9" class="g114s3"/>
+<rect x="34.0" y="1036.9" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="1053.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="106.4" lengthAdjust="spacing">its share of the step</tspan></text>
+<text x="495.0" y="1053.9" class="g114s0">76.2%</text>
+<text x="665.0" y="1053.9" class="g114s0">14.6%</text>
+<text x="835.0" y="1053.9" class="g114s0">7.0%</text>
+<text x="1005.0" y="1053.9" class="g114s0">1.2%</text>
+<text x="1175.0" y="1053.9" class="g114s0">0.5%</text>
+<text x="1345.0" y="1053.9" class="g114s0">0.4%</text>
+<text x="1515.0" y="1053.9" class="g114s0">0.1%</text>
+<text x="1685.0" y="1053.9" class="g114s0">0.0%</text>
+<line x1="34.0" y1="1062.9" x2="1846.0" y2="1062.9" class="g114s3"/>
+<text y="1079.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="162.6" lengthAdjust="spacing">after Newton–Schulz, strength</tspan></text>
+<text x="495.0" y="1079.9" class="g114s0">1.1715</text>
+<text x="665.0" y="1079.9" class="g114s0">1.1336</text>
+<text x="835.0" y="1079.9" class="g114s0">1.1321</text>
+<text x="1005.0" y="1079.9" class="g114s0">1.1095</text>
+<text x="1175.0" y="1079.9" class="g114s0">1.0526</text>
+<text x="1345.0" y="1079.9" class="g114s0">0.8300</text>
+<text x="1515.0" y="1079.9" class="g114s0">0.7510</text>
+<text x="1685.0" y="1079.9" class="g114s0">0.6848</text>
+<line x1="34.0" y1="1088.9" x2="1846.0" y2="1088.9" class="g114s3"/>
+<rect x="34.0" y="1088.9" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="1105.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="106.4" lengthAdjust="spacing">its share of the step</tspan></text>
+<text x="495.0" y="1105.9" class="g114s0">17.2%</text>
+<text x="665.0" y="1105.9" class="g114s0">16.1%</text>
+<text x="835.0" y="1105.9" class="g114s0">16.0%</text>
+<text x="1005.0" y="1105.9" class="g114s0">15.4%</text>
+<text x="1175.0" y="1105.9" class="g114s0">13.9%</text>
+<text x="1345.0" y="1105.9" class="g114s0">8.6%</text>
+<text x="1515.0" y="1105.9" class="g114s0">7.0%</text>
+<text x="1685.0" y="1105.9" class="g114s0">5.9%</text>
+<line x1="34.0" y1="1114.9" x2="1846.0" y2="1114.9" class="g114s3"/>
+<rect x="34.0" y="1010.9" width="1812.0" height="104.0" rx="0" class="g114s25"/>
+<line x1="486.0" y1="1010.9" x2="486.0" y2="1114.9" class="g114s3"/>
+<line x1="656.0" y1="1010.9" x2="656.0" y2="1114.9" class="g114s3"/>
+<line x1="826.0" y1="1010.9" x2="826.0" y2="1114.9" class="g114s3"/>
+<line x1="996.0" y1="1010.9" x2="996.0" y2="1114.9" class="g114s3"/>
+<line x1="1166.0" y1="1010.9" x2="1166.0" y2="1114.9" class="g114s3"/>
+<line x1="1336.0" y1="1010.9" x2="1336.0" y2="1114.9" class="g114s3"/>
+<line x1="1506.0" y1="1010.9" x2="1506.0" y2="1114.9" class="g114s3"/>
+<line x1="1676.0" y1="1010.9" x2="1676.0" y2="1114.9" class="g114s3"/>
+<rect x="34.0" y="1126.9" width="1812.0" height="24.0" rx="4" class="g114s15"/>
+<text y="1142.9" xml:space="preserve" class="g114s6"><tspan x="43.0" class="g114s41" textLength="53.5" lengthAdjust="spacing">check3.py</tspan><tspan x="96.5" class="g114s1">: </tspan><tspan x="102.7" class="g114s41" textLength="77.2" lengthAdjust="spacing">newton_schulz</tspan><tspan x="179.9" class="g114s1" textLength="15.5" lengthAdjust="spacing"> on</tspan></text>
+<text y="1142.9" xml:space="preserve" class="g114s6"><tspan x="463.0" class="g114s1" textLength="182.5" lengthAdjust="spacing">strengths before (largest → smallest)</tspan></text>
+<text y="1142.9" xml:space="preserve" class="g114s6"><tspan x="863.0" class="g114s1" textLength="25.4" lengthAdjust="spacing">after </tspan><tspan x="888.4" class="g114s9" textLength="35.9" lengthAdjust="spacing">5 steps</tspan></text>
+<text y="1142.9" xml:space="preserve" class="g114s6"><tspan x="1163.0" class="g114s1" textLength="45.2" lengthAdjust="spacing">between </tspan><tspan x="1208.2" class="g114s9" textLength="15.5" lengthAdjust="spacing">0.5</tspan><tspan x="1223.6" class="g114s1" textLength="24.8" lengthAdjust="spacing"> and </tspan><tspan x="1248.4" class="g114s9" textLength="21.7" lengthAdjust="spacing">1.25</tspan></text>
+<text y="1142.9" xml:space="preserve" class="g114s6"><tspan x="1483.0" class="g114s1" textLength="108.1" lengthAdjust="spacing">cosine to U Vᵀ (exact)</tspan></text>
+<text y="1167.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="91.5" lengthAdjust="spacing">random 512x688</tspan></text>
+<text x="463.0" y="1167.9" class="g114s0">48.6837 → 3.659777</text>
+<text x="863.0" y="1167.9" class="g114s0">1.1344 → 0.6818</text>
+<text x="1163.0" y="1167.9" class="g114s0">100.0%</text>
+<text x="1483.0" y="1167.9" class="g114s0">0.9876</text>
+<line x1="34.0" y1="1176.9" x2="1846.0" y2="1176.9" class="g114s3"/>
+<rect x="34.0" y="1176.9" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="1193.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="91.5" lengthAdjust="spacing">random 688x512</tspan></text>
+<text x="463.0" y="1193.9" class="g114s0">48.6147 → 3.710174</text>
+<text x="863.0" y="1193.9" class="g114s0">1.1344 → 0.6819</text>
+<text x="1163.0" y="1193.9" class="g114s0">100.0%</text>
+<text x="1483.0" y="1193.9" class="g114s0">0.9876</text>
+<line x1="34.0" y1="1202.9" x2="1846.0" y2="1202.9" class="g114s3"/>
+<text y="1219.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="91.5" lengthAdjust="spacing">random 512x512</tspan></text>
+<text x="463.0" y="1219.9" class="g114s0">44.8334 → 0.005728</text>
+<text x="863.0" y="1219.9" class="g114s0">1.2022 → 0.0054</text>
+<text x="1163.0" y="1219.9" class="g114s0">98.2%</text>
+<text x="1483.0" y="1219.9" class="g114s0">0.9824</text>
+<line x1="34.0" y1="1228.9" x2="1846.0" y2="1228.9" class="g114s3"/>
+<rect x="34.0" y="1228.9" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="1245.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="145.0" lengthAdjust="spacing">badly conditioned 512x688</tspan></text>
+<text x="463.0" y="1245.9" class="g114s0">25.9326 → 0.023939</text>
+<text x="863.0" y="1245.9" class="g114s0">1.2024 → 0.0723</text>
+<text x="1163.0" y="1245.9" class="g114s0">80.9%</text>
+<text x="1483.0" y="1245.9" class="g114s0">0.9309</text>
+<line x1="34.0" y1="1254.9" x2="1846.0" y2="1254.9" class="g114s3"/>
+<rect x="34.0" y="1150.9" width="1812.0" height="104.0" rx="0" class="g114s25"/>
+<line x1="454.0" y1="1150.9" x2="454.0" y2="1254.9" class="g114s3"/>
+<line x1="854.0" y1="1150.9" x2="854.0" y2="1254.9" class="g114s3"/>
+<line x1="1154.0" y1="1150.9" x2="1154.0" y2="1254.9" class="g114s3"/>
+<line x1="1474.0" y1="1150.9" x2="1474.0" y2="1254.9" class="g114s3"/>
+<rect x="34.0" y="1266.9" width="1812.0" height="55.0" rx="6" class="g114s40"/>
+<path d="M38.50 1267.65 A5.50 5.50 0 0 0 34.50 1272.94 V1315.98 A5.50 5.50 0 0 0 38.50 1321.27 Z" class="g114s20"/>
+<text y="1292.9" xml:space="preserve" class="g114s21"><tspan x="50.0" class="g114s1" textLength="161.9" lengthAdjust="spacing">Close, not exact, on purpose</tspan></text>
+<text y="1310.5" xml:space="preserve" class="g114s19"><tspan x="50.0" textLength="372.0" lengthAdjust="spacing">U Vᵀ is the matrix with the same directions and every strength exactly </tspan><tspan x="422.0" class="g114s2">1</tspan><tspan x="429.1" textLength="186.7" lengthAdjust="spacing">. Five steps land close to it (cosine </tspan><tspan x="615.8" class="g114s2" textLength="38.9" lengthAdjust="spacing">0.9831</tspan><tspan x="654.7" textLength="374.0" lengthAdjust="spacing"> for the tiny model’s update). The hard case — strengths spread over </tspan><tspan x="1028.8" class="g114s2" textLength="39.5" lengthAdjust="spacing">1,000×</tspan><tspan x="1068.2" textLength="740.3" lengthAdjust="spacing"> on purpose — still gets most of them into the band; its very weakest directions stay weaker, which is harmless: they carried almost nothing.</tspan></text>
+<rect x="34.0" y="1342.0" width="1812.0" height="30.0" rx="6" class="g114s15"/>
+<path d="M38.50 1342.69 A5.50 5.50 0 0 0 34.50 1347.98 V1365.98 A5.50 5.50 0 0 0 38.50 1371.27 Z" class="g114s20"/>
+<text y="1362.0" xml:space="preserve" class="g114s31"><tspan x="50.0" class="g114s1" textLength="324.0" lengthAdjust="spacing">B · Newton–Schulz, step by step, on the real gradient</tspan></text>
+<text y="1362.0" xml:space="preserve" class="g114s32"><tspan x="392.0" textLength="19.2" lengthAdjust="spacing">the </tspan><tspan x="411.2" class="g114s2">8</tspan><tspan x="418.0" textLength="431.2" lengthAdjust="spacing"> strengths after each step: this page’s pure-Python numbers, equal to PyTorch’s to </tspan><tspan x="849.2" class="g114s2">3</tspan><tspan x="855.9" textLength="48.6" lengthAdjust="spacing"> decimals</tspan></text>
+<rect x="34.0" y="1388.0" width="1812.0" height="24.0" rx="4" class="g114s15"/>
+<text y="1404.0" xml:space="preserve" class="g114s6"><tspan x="43.0" class="g114s1" textLength="91.5" lengthAdjust="spacing">sorted, largest first</tspan></text>
+<text y="1404.0" xml:space="preserve" class="g114s6"><tspan x="495.0" class="g114s9">0</tspan></text>
+<text y="1404.0" xml:space="preserve" class="g114s6"><tspan x="665.0" class="g114s9">1</tspan></text>
+<text y="1404.0" xml:space="preserve" class="g114s6"><tspan x="835.0" class="g114s9">2</tspan></text>
+<text y="1404.0" xml:space="preserve" class="g114s6"><tspan x="1005.0" class="g114s9">3</tspan></text>
+<text y="1404.0" xml:space="preserve" class="g114s6"><tspan x="1175.0" class="g114s9">4</tspan></text>
+<text y="1404.0" xml:space="preserve" class="g114s6"><tspan x="1345.0" class="g114s9">5</tspan></text>
+<text y="1404.0" xml:space="preserve" class="g114s6"><tspan x="1515.0" class="g114s9">6</tspan></text>
+<text y="1404.0" xml:space="preserve" class="g114s6"><tspan x="1685.0" class="g114s9">7</tspan></text>
+<text y="1428.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s2" textLength="33.2" lengthAdjust="spacing">step 0</tspan></text>
+<text x="495.0" y="1428.9" class="g114s0">0.8719</text>
+<text x="665.0" y="1428.9" class="g114s0">0.3821</text>
+<text x="835.0" y="1428.9" class="g114s0">0.2638</text>
+<text x="1005.0" y="1428.9" class="g114s0">0.1077</text>
+<text x="1175.0" y="1428.9" class="g114s0">0.0696</text>
+<text x="1345.0" y="1428.9" class="g114s0">0.0648</text>
+<text x="1515.0" y="1428.9" class="g114s0">0.0311</text>
+<text x="1685.0" y="1428.9" class="g114s0">0.0048</text>
+<line x1="34.0" y1="1438.0" x2="1846.0" y2="1438.0" class="g114s3"/>
+<rect x="34.0" y="1438.0" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="1454.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s2" textLength="33.2" lengthAdjust="spacing">step 1</tspan></text>
+<text x="495.0" y="1454.9" class="g114s0">1.0663</text>
+<text x="665.0" y="1454.9" class="g114s0">0.8619</text>
+<text x="835.0" y="1454.9" class="g114s0">0.8236</text>
+<text x="1005.0" y="1454.9" class="g114s0">0.3651</text>
+<text x="1175.0" y="1454.9" class="g114s0">0.2382</text>
+<text x="1345.0" y="1454.9" class="g114s0">0.2218</text>
+<text x="1515.0" y="1454.9" class="g114s0">0.1069</text>
+<text x="1685.0" y="1454.9" class="g114s0">0.0166</text>
+<line x1="34.0" y1="1464.0" x2="1846.0" y2="1464.0" class="g114s3"/>
+<text y="1480.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s2" textLength="33.2" lengthAdjust="spacing">step 2</tspan></text>
+<text x="495.0" y="1480.9" class="g114s0">1.0384</text>
+<text x="665.0" y="1480.9" class="g114s0">0.9391</text>
+<text x="835.0" y="1480.9" class="g114s0">0.8778</text>
+<text x="1005.0" y="1480.9" class="g114s0">0.7574</text>
+<text x="1175.0" y="1480.9" class="g114s0">0.7131</text>
+<text x="1345.0" y="1480.9" class="g114s0">0.6841</text>
+<text x="1515.0" y="1480.9" class="g114s0">0.3624</text>
+<text x="1685.0" y="1480.9" class="g114s0">0.0571</text>
+<line x1="34.0" y1="1490.0" x2="1846.0" y2="1490.0" class="g114s3"/>
+<rect x="34.0" y="1490.0" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="1506.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s2" textLength="33.2" lengthAdjust="spacing">step 3</tspan></text>
+<text x="495.0" y="1506.9" class="g114s0">1.1320</text>
+<text x="665.0" y="1506.9" class="g114s0">1.0994</text>
+<text x="835.0" y="1506.9" class="g114s0">1.0406</text>
+<text x="1005.0" y="1506.9" class="g114s0">1.0337</text>
+<text x="1175.0" y="1506.9" class="g114s0">0.8527</text>
+<text x="1345.0" y="1506.9" class="g114s0">0.7639</text>
+<text x="1515.0" y="1506.9" class="g114s0">0.6830</text>
+<text x="1685.0" y="1506.9" class="g114s0">0.1958</text>
+<line x1="34.0" y1="1516.0" x2="1846.0" y2="1516.0" class="g114s3"/>
+<text y="1532.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s2" textLength="33.2" lengthAdjust="spacing">step 4</tspan></text>
+<text x="495.0" y="1532.9" class="g114s0">1.1332</text>
+<text x="665.0" y="1532.9" class="g114s0">1.0311</text>
+<text x="835.0" y="1532.9" class="g114s0">0.8925</text>
+<text x="1005.0" y="1532.9" class="g114s0">0.7489</text>
+<text x="1175.0" y="1532.9" class="g114s0">0.7046</text>
+<text x="1345.0" y="1532.9" class="g114s0">0.6841</text>
+<text x="1515.0" y="1532.9" class="g114s0">0.6826</text>
+<text x="1685.0" y="1532.9" class="g114s0">0.6391</text>
+<line x1="34.0" y1="1542.0" x2="1846.0" y2="1542.0" class="g114s3"/>
+<rect x="34.0" y="1542.0" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="1558.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s2" textLength="33.2" lengthAdjust="spacing">step 5</tspan></text>
+<text x="495.0" y="1558.9" class="g114s0">1.1715</text>
+<text x="665.0" y="1558.9" class="g114s0">1.1336</text>
+<text x="835.0" y="1558.9" class="g114s0">1.1321</text>
+<text x="1005.0" y="1558.9" class="g114s0">1.1095</text>
+<text x="1175.0" y="1558.9" class="g114s0">1.0526</text>
+<text x="1345.0" y="1558.9" class="g114s0">0.8300</text>
+<text x="1515.0" y="1558.9" class="g114s0">0.7510</text>
+<text x="1685.0" y="1558.9" class="g114s0">0.6848</text>
+<line x1="34.0" y1="1568.0" x2="1846.0" y2="1568.0" class="g114s3"/>
+<rect x="34.0" y="1412.0" width="1812.0" height="156.0" rx="0" class="g114s25"/>
+<line x1="486.0" y1="1412.0" x2="486.0" y2="1568.0" class="g114s3"/>
+<line x1="656.0" y1="1412.0" x2="656.0" y2="1568.0" class="g114s3"/>
+<line x1="826.0" y1="1412.0" x2="826.0" y2="1568.0" class="g114s3"/>
+<line x1="996.0" y1="1412.0" x2="996.0" y2="1568.0" class="g114s3"/>
+<line x1="1166.0" y1="1412.0" x2="1166.0" y2="1568.0" class="g114s3"/>
+<line x1="1336.0" y1="1412.0" x2="1336.0" y2="1568.0" class="g114s3"/>
+<line x1="1506.0" y1="1412.0" x2="1506.0" y2="1568.0" class="g114s3"/>
+<line x1="1676.0" y1="1412.0" x2="1676.0" y2="1568.0" class="g114s3"/>
+<rect x="34.0" y="1580.0" width="1812.0" height="24.0" rx="4" class="g114s15"/>
+<text y="1596.0" xml:space="preserve" class="g114s6"><tspan x="43.0" class="g114s1" textLength="99.0" lengthAdjust="spacing">followed one by one</tspan></text>
+<text y="1596.0" xml:space="preserve" class="g114s6"><tspan x="495.0" class="g114s9" textLength="30.3" lengthAdjust="spacing">step 0</tspan></text>
+<text y="1596.0" xml:space="preserve" class="g114s6"><tspan x="695.0" class="g114s9" textLength="30.3" lengthAdjust="spacing">step 1</tspan></text>
+<text y="1596.0" xml:space="preserve" class="g114s6"><tspan x="895.0" class="g114s9" textLength="30.3" lengthAdjust="spacing">step 2</tspan></text>
+<text y="1596.0" xml:space="preserve" class="g114s6"><tspan x="1095.0" class="g114s9" textLength="30.3" lengthAdjust="spacing">step 3</tspan></text>
+<text y="1596.0" xml:space="preserve" class="g114s6"><tspan x="1295.0" class="g114s9" textLength="30.3" lengthAdjust="spacing">step 4</tspan></text>
+<text y="1596.0" xml:space="preserve" class="g114s6"><tspan x="1495.0" class="g114s9" textLength="30.3" lengthAdjust="spacing">step 5</tspan></text>
+<text y="1596.0" xml:space="preserve" class="g114s6"><tspan x="1695.0" class="g114s1" textLength="24.1" lengthAdjust="spacing">grew</tspan></text>
+<text y="1620.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="49.5" lengthAdjust="spacing">direction </tspan><tspan x="92.5" class="g114s2">0</tspan></text>
+<text x="495.0" y="1620.9" class="g114s0">0.8719</text>
+<text x="695.0" y="1620.9" class="g114s0">0.8619</text>
+<text x="895.0" y="1620.9" class="g114s0">0.8778</text>
+<text x="1095.0" y="1620.9" class="g114s0">0.8527</text>
+<text x="1295.0" y="1620.9" class="g114s0">0.8925</text>
+<text x="1495.0" y="1620.9" class="g114s0">0.8300</text>
+<text x="1695.0" y="1620.9" class="g114s0">×1.0</text>
+<line x1="34.0" y1="1630.0" x2="1846.0" y2="1630.0" class="g114s3"/>
+<rect x="34.0" y="1630.0" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="1646.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="49.5" lengthAdjust="spacing">direction </tspan><tspan x="92.5" class="g114s2">3</tspan></text>
+<text x="495.0" y="1646.9" class="g114s0">0.1077</text>
+<text x="695.0" y="1646.9" class="g114s0">0.3651</text>
+<text x="895.0" y="1646.9" class="g114s0">1.0384</text>
+<text x="1095.0" y="1646.9" class="g114s0">0.6830</text>
+<text x="1295.0" y="1646.9" class="g114s0">1.1332</text>
+<text x="1495.0" y="1646.9" class="g114s0">0.7510</text>
+<text x="1695.0" y="1646.9" class="g114s0">×7.0</text>
+<line x1="34.0" y1="1656.0" x2="1846.0" y2="1656.0" class="g114s3"/>
+<text y="1672.9" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="49.5" lengthAdjust="spacing">direction </tspan><tspan x="92.5" class="g114s2">7</tspan></text>
+<text x="495.0" y="1672.9" class="g114s0">0.0048</text>
+<text x="695.0" y="1672.9" class="g114s0">0.0166</text>
+<text x="895.0" y="1672.9" class="g114s0">0.0571</text>
+<text x="1095.0" y="1672.9" class="g114s0">0.1958</text>
+<text x="1295.0" y="1672.9" class="g114s0">0.6391</text>
+<text x="1495.0" y="1672.9" class="g114s0">1.1715</text>
+<text x="1695.0" y="1672.9" class="g114s0">×244.1</text>
+<line x1="34.0" y1="1682.0" x2="1846.0" y2="1682.0" class="g114s3"/>
+<rect x="34.0" y="1604.0" width="1812.0" height="78.0" rx="0" class="g114s25"/>
+<line x1="486.0" y1="1604.0" x2="486.0" y2="1682.0" class="g114s3"/>
+<line x1="686.0" y1="1604.0" x2="686.0" y2="1682.0" class="g114s3"/>
+<line x1="886.0" y1="1604.0" x2="886.0" y2="1682.0" class="g114s3"/>
+<line x1="1086.0" y1="1604.0" x2="1086.0" y2="1682.0" class="g114s3"/>
+<line x1="1286.0" y1="1604.0" x2="1286.0" y2="1682.0" class="g114s3"/>
+<line x1="1486.0" y1="1604.0" x2="1486.0" y2="1682.0" class="g114s3"/>
+<line x1="1686.0" y1="1604.0" x2="1686.0" y2="1682.0" class="g114s3"/>
+<rect x="34.0" y="1694.0" width="1812.0" height="72.6" rx="6" class="g114s40"/>
+<path d="M38.50 1694.69 A5.50 5.50 0 0 0 34.50 1699.98 V1760.54 A5.50 5.50 0 0 0 38.50 1765.83 Z" class="g114s20"/>
+<text y="1720.0" xml:space="preserve" class="g114s21"><tspan x="50.0" class="g114s1" textLength="119.5" lengthAdjust="spacing">Directions untouched</tspan></text>
+<text y="1737.5" xml:space="preserve" class="g114s19"><tspan x="50.0" textLength="993.0" lengthAdjust="spacing">Each step changes the strengths only, one by one, through the same polynomial — so the sorted rows above are just the trajectories below them, re-sorted. The weakest direction grows ×</tspan><tspan x="1043.0" class="g114s2" textLength="31.8" lengthAdjust="spacing">244.1</tspan><tspan x="1074.8" textLength="297.5" lengthAdjust="spacing"> in five steps, the strongest barely moves. On a random </tspan><tspan x="1372.3" class="g114s2" textLength="81.2" lengthAdjust="spacing">64 × 96 matrix</tspan><tspan x="1453.4"> (</tspan><tspan x="1460.8" class="g114s13" textLength="61.1" lengthAdjust="spacing">check3.py</tspan><tspan x="1521.9" textLength="150.7" lengthAdjust="spacing">) the smallest strength goes </tspan><tspan x="1672.6" class="g114s2" textLength="31.8" lengthAdjust="spacing">0.029</tspan><tspan x="1704.4"> → </tspan><tspan x="1723.1" class="g114s2" textLength="31.8" lengthAdjust="spacing">0.099</tspan><tspan x="1754.9"> → </tspan><tspan x="1773.6" class="g114s2" textLength="31.8" lengthAdjust="spacing">0.337</tspan><tspan x="1805.4"> →</tspan></text>
+<text y="1755.0" xml:space="preserve" class="g114s19"><tspan x="50.0" class="g114s2" textLength="31.8" lengthAdjust="spacing">0.682</tspan><tspan x="81.8"> → </tspan><tspan x="100.5" class="g114s2" textLength="31.8" lengthAdjust="spacing">0.683</tspan><tspan x="132.3"> → </tspan><tspan x="151.0" class="g114s2" textLength="31.8" lengthAdjust="spacing">0.682</tspan><tspan x="182.8" textLength="30.7" lengthAdjust="spacing"> after </tspan><tspan x="213.5" class="g114s2">0</tspan><tspan x="220.6">, </tspan><tspan x="227.2" class="g114s2">1</tspan><tspan x="234.3" textLength="25.3" lengthAdjust="spacing">, …, </tspan><tspan x="259.7" class="g114s2" textLength="41.0" lengthAdjust="spacing">5 steps</tspan><tspan x="300.7">.</tspan></text>
+<rect x="34.0" y="1786.5" width="1812.0" height="30.0" rx="6" class="g114s15"/>
+<path d="M38.50 1787.25 A5.50 5.50 0 0 0 34.50 1792.54 V1810.54 A5.50 5.50 0 0 0 38.50 1815.83 Z" class="g114s20"/>
+<text y="1806.5" xml:space="preserve" class="g114s31"><tspan x="50.0" class="g114s1" textLength="181.5" lengthAdjust="spacing">C · Why the polynomial works</tspan></text>
+<text y="1806.5" xml:space="preserve" class="g114s32"><tspan x="249.5" class="g114s11" textLength="136.7" lengthAdjust="spacing">f(σ) = aσ + bσ³ + cσ⁵</tspan><tspan x="386.1" textLength="26.8" lengthAdjust="spacing"> with </tspan><tspan x="413.0" class="g114s11" textLength="65.1" lengthAdjust="spacing">a = 3.4445</tspan><tspan x="478.1">, </tspan><tspan x="484.5" class="g114s11" textLength="71.6" lengthAdjust="spacing">b = −4.7750</tspan><tspan x="556.0">, </tspan><tspan x="562.4" class="g114s11" textLength="65.1" lengthAdjust="spacing">c = 2.0315</tspan><tspan x="627.5" textLength="159.2" lengthAdjust="spacing"> — what it does to one strength</tspan></text>
+<text y="1834.5" xml:space="preserve" class="g114s21"><tspan x="38.0" class="g114s1" textLength="57.3" lengthAdjust="spacing">Fast near </tspan><tspan x="95.3" class="g114s2">0</tspan><tspan x="102.3" class="g114s1" textLength="56.6" lengthAdjust="spacing">, flat near </tspan><tspan x="158.9" class="g114s2">1</tspan></text>
+<text y="1852.5" xml:space="preserve" class="g114s19"><tspan x="38.0" textLength="29.3" lengthAdjust="spacing">Near </tspan><tspan x="67.3" class="g114s2">0</tspan><tspan x="74.4" textLength="82.7" lengthAdjust="spacing">, f multiplies by </tspan><tspan x="157.1" class="g114s13" textLength="67.9" lengthAdjust="spacing">a = 3.4445</tspan><tspan x="225.0" textLength="204.1" lengthAdjust="spacing">, so five steps lift a tiny strength about </tspan><tspan x="429.1" class="g114s2" textLength="28.8" lengthAdjust="spacing">485×</tspan><tspan x="458.0" textLength="83.1" lengthAdjust="spacing">. f peaks at σ ≈ </tspan><tspan x="541.1" class="g114s2" textLength="24.8" lengthAdjust="spacing">0.55</tspan><tspan x="565.8"> (</tspan><tspan x="573.2" class="g114s2" textLength="24.8" lengthAdjust="spacing">1.20</tspan><tspan x="597.9" textLength="395.5" lengthAdjust="spacing">); past it the higher terms pull values back down, so everything from about </tspan><tspan x="993.4" class="g114s2" textLength="17.7" lengthAdjust="spacing">0.6</tspan><tspan x="1011.1" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="1027.8" class="g114s2" textLength="17.7" lengthAdjust="spacing">1.2</tspan><tspan x="1045.5" textLength="104.7" lengthAdjust="spacing"> lands in one band, </tspan><tspan x="1150.2" class="g114s2" textLength="24.8" lengthAdjust="spacing">0.68</tspan><tspan x="1175.0" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="1191.6" class="g114s2" textLength="24.8" lengthAdjust="spacing">1.19</tspan><tspan x="1216.4" textLength="137.4" lengthAdjust="spacing">. The classic coefficients (</tspan><tspan x="1353.8" class="g114s2" textLength="17.7" lengthAdjust="spacing">1.5</tspan><tspan x="1371.4">, </tspan><tspan x="1378.1" class="g114s2" textLength="25.3" lengthAdjust="spacing">−0.5</tspan><tspan x="1403.4">, </tspan><tspan x="1410.1" class="g114s2">0</tspan><tspan x="1417.2" textLength="81.4" lengthAdjust="spacing">) reach exactly </tspan><tspan x="1498.5" class="g114s2">1</tspan><tspan x="1505.6" textLength="320.2" lengthAdjust="spacing"> but need many more steps; these trade precision for speed.</tspan></text>
+<rect x="34.0" y="1873.9" width="886.0" height="24.0" rx="4" class="g114s15"/>
+<text y="1889.9" xml:space="preserve" class="g114s6"><tspan x="43.0" class="g114s1">σ</tspan></text>
+<text y="1889.9" xml:space="preserve" class="g114s6"><tspan x="163.0" class="g114s1" textLength="25.4" lengthAdjust="spacing">after </tspan><tspan x="188.4" class="g114s9">1</tspan></text>
+<text y="1889.9" xml:space="preserve" class="g114s6"><tspan x="315.0" class="g114s1" textLength="25.4" lengthAdjust="spacing">after </tspan><tspan x="340.4" class="g114s9">2</tspan></text>
+<text y="1889.9" xml:space="preserve" class="g114s6"><tspan x="467.0" class="g114s1" textLength="25.4" lengthAdjust="spacing">after </tspan><tspan x="492.4" class="g114s9">3</tspan></text>
+<text y="1889.9" xml:space="preserve" class="g114s6"><tspan x="619.0" class="g114s1" textLength="25.4" lengthAdjust="spacing">after </tspan><tspan x="644.4" class="g114s9">4</tspan></text>
+<text y="1889.9" xml:space="preserve" class="g114s6"><tspan x="771.0" class="g114s1" textLength="25.4" lengthAdjust="spacing">after </tspan><tspan x="796.4" class="g114s9">5</tspan></text>
+<text x="43.0" y="1913.7" class="g114s7">0.001</text>
+<text x="163.0" y="1913.7" class="g114s7">0.0034</text>
+<text x="315.0" y="1913.7" class="g114s7">0.0119</text>
+<text x="467.0" y="1913.7" class="g114s7">0.0409</text>
+<text x="619.0" y="1913.7" class="g114s7">0.1404</text>
+<text x="771.0" y="1913.7" class="g114s7">0.4705</text>
+<line x1="34.0" y1="1921.9" x2="920.0" y2="1921.9" class="g114s3"/>
+<rect x="34.0" y="1921.9" width="886.0" height="24.0" rx="0" class="g114s12"/>
+<text x="43.0" y="1937.7" class="g114s7">0.01</text>
+<text x="163.0" y="1937.7" class="g114s7">0.0344</text>
+<text x="315.0" y="1937.7" class="g114s7">0.1184</text>
+<text x="467.0" y="1937.7" class="g114s7">0.4001</text>
+<text x="619.0" y="1937.7" class="g114s7">1.0931</text>
+<text x="771.0" y="1937.7" class="g114s7">0.6989</text>
+<line x1="34.0" y1="1945.9" x2="920.0" y2="1945.9" class="g114s3"/>
+<text x="43.0" y="1961.7" class="g114s7">0.05</text>
+<text x="163.0" y="1961.7" class="g114s7">0.1716</text>
+<text x="315.0" y="1961.7" class="g114s7">0.5673</text>
+<text x="467.0" y="1961.7" class="g114s7">1.2016</text>
+<text x="619.0" y="1961.7" class="g114s7">0.9436</text>
+<text x="771.0" y="1961.7" class="g114s7">0.7581</text>
+<line x1="34.0" y1="1969.9" x2="920.0" y2="1969.9" class="g114s3"/>
+<rect x="34.0" y="1969.9" width="886.0" height="24.0" rx="0" class="g114s12"/>
+<text x="43.0" y="1985.7" class="g114s7">0.1</text>
+<text x="163.0" y="1985.7" class="g114s7">0.3397</text>
+<text x="315.0" y="1985.7" class="g114s7">0.9921</text>
+<text x="467.0" y="1985.7" class="g114s7">0.7071</text>
+<text x="619.0" y="1985.7" class="g114s7">1.1066</text>
+<text x="771.0" y="1985.7" class="g114s7">0.7121</text>
+<line x1="34.0" y1="1993.9" x2="920.0" y2="1993.9" class="g114s3"/>
+<text x="43.0" y="2009.7" class="g114s7">0.3</text>
+<text x="163.0" y="2009.7" class="g114s7">0.9094</text>
+<text x="315.0" y="2009.7" class="g114s7">0.8048</text>
+<text x="467.0" y="2009.7" class="g114s7">0.9689</text>
+<text x="619.0" y="2009.7" class="g114s7">0.7288</text>
+<text x="771.0" y="2009.7" class="g114s7">1.0796</text>
+<line x1="34.0" y1="2017.9" x2="920.0" y2="2017.9" class="g114s3"/>
+<rect x="34.0" y="2017.9" width="886.0" height="24.0" rx="0" class="g114s12"/>
+<text x="43.0" y="2033.7" class="g114s7">0.5</text>
+<text x="163.0" y="2033.7" class="g114s7">1.1889</text>
+<text x="315.0" y="2033.7" class="g114s7">0.8962</text>
+<text x="467.0" y="2033.7" class="g114s7">0.8244</text>
+<text x="619.0" y="2033.7" class="g114s7">0.9379</text>
+<text x="771.0" y="2033.7" class="g114s7">0.7654</text>
+<line x1="34.0" y1="2041.9" x2="920.0" y2="2041.9" class="g114s3"/>
+<text x="43.0" y="2057.7" class="g114s7">0.7</text>
+<text x="163.0" y="2057.7" class="g114s7">1.1148</text>
+<text x="315.0" y="2057.7" class="g114s7">0.7222</text>
+<text x="467.0" y="2057.7" class="g114s7">1.0881</text>
+<text x="619.0" y="2057.7" class="g114s7">0.6950</text>
+<text x="771.0" y="2057.7" class="g114s7">1.1203</text>
+<line x1="34.0" y1="2065.9" x2="920.0" y2="2065.9" class="g114s3"/>
+<rect x="34.0" y="2065.9" width="886.0" height="24.0" rx="0" class="g114s12"/>
+<text x="43.0" y="2081.7" class="g114s7">0.9</text>
+<text x="163.0" y="2081.7" class="g114s7">0.8187</text>
+<text x="315.0" y="2081.7" class="g114s7">0.9470</text>
+<text x="467.0" y="2081.7" class="g114s7">0.7539</text>
+<text x="619.0" y="2081.7" class="g114s7">1.0455</text>
+<text x="771.0" y="2081.7" class="g114s7">0.6820</text>
+<line x1="34.0" y1="2089.9" x2="920.0" y2="2089.9" class="g114s3"/>
+<text x="43.0" y="2105.7" class="g114s7">1</text>
+<text x="163.0" y="2105.7" class="g114s7">0.7010</text>
+<text x="315.0" y="2105.7" class="g114s7">1.1136</text>
+<text x="467.0" y="2105.7" class="g114s7">0.7207</text>
+<text x="619.0" y="2105.7" class="g114s7">1.0900</text>
+<text x="771.0" y="2105.7" class="g114s7">0.6964</text>
+<line x1="34.0" y1="2113.9" x2="920.0" y2="2113.9" class="g114s3"/>
+<rect x="34.0" y="2113.9" width="886.0" height="24.0" rx="0" class="g114s12"/>
+<text x="43.0" y="2129.7" class="g114s7">1.1</text>
+<text x="163.0" y="2129.7" class="g114s7">0.7052</text>
+<text x="315.0" y="2129.7" class="g114s7">1.1088</text>
+<text x="467.0" y="2129.7" class="g114s7">0.7147</text>
+<text x="619.0" y="2129.7" class="g114s7">1.0974</text>
+<text x="771.0" y="2129.7" class="g114s7">0.7027</text>
+<line x1="34.0" y1="2137.9" x2="920.0" y2="2137.9" class="g114s3"/>
+<rect x="34.0" y="1897.9" width="886.0" height="240.0" rx="0" class="g114s25"/>
+<line x1="154.0" y1="1897.9" x2="154.0" y2="2137.9" class="g114s3"/>
+<line x1="306.0" y1="1897.9" x2="306.0" y2="2137.9" class="g114s3"/>
+<line x1="458.0" y1="1897.9" x2="458.0" y2="2137.9" class="g114s3"/>
+<line x1="610.0" y1="1897.9" x2="610.0" y2="2137.9" class="g114s3"/>
+<line x1="762.0" y1="1897.9" x2="762.0" y2="2137.9" class="g114s3"/>
+<line x1="994.0" y1="2115.9" x2="1836.0" y2="2115.9" class="g114s42"/>
+<text x="988.0" y="2119.9" class="g114s27">0</text>
+<line x1="994.0" y1="1998.9" x2="1836.0" y2="1998.9" class="g114s42"/>
+<text x="988.0" y="2002.9" class="g114s27">0.65</text>
+<line x1="994.0" y1="1881.9" x2="1836.0" y2="1881.9" class="g114s42"/>
+<text x="988.0" y="1885.9" class="g114s27">1.3</text>
+<text x="994.0" y="2131.9" class="g114s62">σ 0</text>
+<text x="1836.0" y="2131.9" class="g114s55">σ 1.2</text>
+<path d="M994.0 2115.9 L1002.4 2108.5 L1010.8 2101.1 L1019.3 2093.7 L1027.7 2086.3 L1036.1 2078.9 L1044.5 2071.6 L1052.9 2064.4 L1061.4 2057.2 L1069.8 2050.1 L1078.2 2043.0 L1086.6 2036.1 L1095.0 2029.2 L1103.5 2022.4 L1111.9 2015.8 L1120.3 2009.3 L1128.7 2002.9 L1137.1 1996.6 L1145.6 1990.5 L1154.0 1984.5 L1162.4 1978.7 L1170.8 1973.1 L1179.2 1967.6 L1187.7 1962.3 L1196.1 1957.2 L1204.5 1952.3 L1212.9 1947.5 L1221.3 1943.0 L1229.8 1938.7 L1238.2 1934.5 L1246.6 1930.6 L1255.0 1926.9 L1263.4 1923.5 L1271.9 1920.2 L1280.3 1917.2 L1288.7 1914.4 L1297.1 1911.9 L1305.5 1909.6 L1314.0 1907.5 L1322.4 1905.7 L1330.8 1904.1 L1339.2 1902.7 L1347.6 1901.6 L1356.1 1900.7 L1364.5 1900.1 L1372.9 1899.7 L1381.3 1899.5 L1389.7 1899.6 L1398.2 1899.9 L1406.6 1900.4 L1415.0 1901.2 L1423.4 1902.1 L1431.8 1903.3 L1440.3 1904.7 L1448.7 1906.3 L1457.1 1908.0 L1465.5 1910.0 L1473.9 1912.2 L1482.4 1914.5 L1490.8 1917.0 L1499.2 1919.6 L1507.6 1922.4 L1516.0 1925.3 L1524.5 1928.3 L1532.9 1931.4 L1541.3 1934.6 L1549.7 1937.9 L1558.1 1941.3 L1566.6 1944.7 L1575.0 1948.2 L1583.4 1951.6 L1591.8 1955.1 L1600.2 1958.5 L1608.7 1962.0 L1617.1 1965.3 L1625.5 1968.6 L1633.9 1971.8 L1642.3 1974.8 L1650.8 1977.7 L1659.2 1980.5 L1667.6 1983.0 L1676.0 1985.3 L1684.4 1987.4 L1692.9 1989.2 L1701.3 1990.7 L1709.7 1991.9 L1718.1 1992.7 L1726.5 1993.2 L1735.0 1993.2 L1743.4 1992.7 L1751.8 1991.8 L1760.2 1990.3 L1768.6 1988.3 L1777.1 1985.6 L1785.5 1982.4 L1793.9 1978.4 L1802.3 1973.8 L1810.7 1968.4 L1819.2 1962.2 L1827.6 1955.2 L1836.0 1947.2" class="g114s63"/>
+<line x1="1004.0" y1="1887.9" x2="1022.0" y2="1887.9" class="g114s64"/>
+<text x="1028.0" y="1891.9" class="g114s43">f(σ)</text>
+<path d="M994.0 2115.9 L1836.0 1899.9" style="fill:none;stroke:var(--ink3);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:5 4"/>
+<line x1="1080.1" y1="1887.9" x2="1098.1" y2="1887.9" style="stroke:var(--ink3);stroke-width:2;stroke-dasharray:5 4;stroke-linecap:round"/>
+<text x="1104.1" y="1891.9" class="g114s43">y = σ</text>
+<rect x="34.0" y="2161.9" width="1812.0" height="30.0" rx="6" class="g114s15"/>
+<path d="M38.50 2162.65 A5.50 5.50 0 0 0 34.50 2167.94 V2185.94 A5.50 5.50 0 0 0 38.50 2191.23 Z" class="g114s20"/>
+<text y="2181.9" xml:space="preserve" class="g114s31"><tspan x="50.0" class="g114s1" textLength="209.1" lengthAdjust="spacing">D · One real step of the tiny model</tspan></text>
+<text y="2181.9" xml:space="preserve" class="g114s32"><tspan x="277.1" class="g114s2" textLength="29.8" lengthAdjust="spacing">row 0</tspan><tspan x="306.9" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="322.9" class="g114s2" textLength="36.6" lengthAdjust="spacing">layer 0</tspan><tspan x="359.5"> · </tspan><tspan x="369.1" class="g114s11" textLength="175.7" lengthAdjust="spacing">masked_self_attn.W_q.weight</tspan><tspan x="544.8" textLength="145.8" lengthAdjust="spacing">: before, the update, after (lr </tspan><tspan x="690.5" class="g114s2" textLength="23.7" lengthAdjust="spacing">0.02</tspan><tspan x="714.2" textLength="76.7" lengthAdjust="spacing">, weight decay </tspan><tspan x="790.9" class="g114s2" textLength="23.7" lengthAdjust="spacing">0.01</tspan><tspan x="814.7">)</tspan></text>
+<rect x="34.0" y="2207.9" width="1812.0" height="24.0" rx="4" class="g114s15"/>
+<text y="2223.9" xml:space="preserve" class="g114s6"><tspan x="43.0" class="g114s9" textLength="27.2" lengthAdjust="spacing">row 0</tspan></text>
+<text y="2223.9" xml:space="preserve" class="g114s6"><tspan x="495.0" class="g114s1">[</tspan><tspan x="498.1" class="g114s9">0</tspan><tspan x="504.3" class="g114s1">]</tspan></text>
+<text y="2223.9" xml:space="preserve" class="g114s6"><tspan x="665.0" class="g114s1">[</tspan><tspan x="668.1" class="g114s9">1</tspan><tspan x="674.3" class="g114s1">]</tspan></text>
+<text y="2223.9" xml:space="preserve" class="g114s6"><tspan x="835.0" class="g114s1">[</tspan><tspan x="838.1" class="g114s9">2</tspan><tspan x="844.3" class="g114s1">]</tspan></text>
+<text y="2223.9" xml:space="preserve" class="g114s6"><tspan x="1005.0" class="g114s1">[</tspan><tspan x="1008.1" class="g114s9">3</tspan><tspan x="1014.3" class="g114s1">]</tspan></text>
+<text y="2223.9" xml:space="preserve" class="g114s6"><tspan x="1175.0" class="g114s1">[</tspan><tspan x="1178.1" class="g114s9">4</tspan><tspan x="1184.3" class="g114s1">]</tspan></text>
+<text y="2223.9" xml:space="preserve" class="g114s6"><tspan x="1345.0" class="g114s1">[</tspan><tspan x="1348.1" class="g114s9">5</tspan><tspan x="1354.3" class="g114s1">]</tspan></text>
+<text y="2223.9" xml:space="preserve" class="g114s6"><tspan x="1515.0" class="g114s1">[</tspan><tspan x="1518.1" class="g114s9">6</tspan><tspan x="1524.3" class="g114s1">]</tspan></text>
+<text y="2223.9" xml:space="preserve" class="g114s6"><tspan x="1685.0" class="g114s1">[</tspan><tspan x="1688.1" class="g114s9">7</tspan><tspan x="1694.3" class="g114s1">]</tspan></text>
+<text y="2248.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="19.5" lengthAdjust="spacing">W_q</tspan><tspan x="62.5" class="g114s1" textLength="37.9" lengthAdjust="spacing"> before</tspan></text>
+<text x="495.0" y="2248.8" class="g114s0">-0.7659</text>
+<text x="665.0" y="2248.8" class="g114s0">0.0231</text>
+<text x="835.0" y="2248.8" class="g114s0">-0.1132</text>
+<text x="1005.0" y="2248.8" class="g114s0">0.0604</text>
+<text x="1175.0" y="2248.8" class="g114s0">0.7034</text>
+<text x="1345.0" y="2248.8" class="g114s0">1.6127</text>
+<text x="1515.0" y="2248.8" class="g114s0">0.8282</text>
+<text x="1685.0" y="2248.8" class="g114s0">-0.9749</text>
+<line x1="34.0" y1="2257.9" x2="1846.0" y2="2257.9" class="g114s3"/>
+<rect x="34.0" y="2257.9" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="2274.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="162.7" lengthAdjust="spacing">update = newton_schulz(g)</tspan></text>
+<text x="495.0" y="2274.8" class="g114s0">0.4199</text>
+<text x="665.0" y="2274.8" class="g114s0">-0.1830</text>
+<text x="835.0" y="2274.8" class="g114s0">-0.0777</text>
+<text x="1005.0" y="2274.8" class="g114s0">0.4351</text>
+<text x="1175.0" y="2274.8" class="g114s0">-0.4190</text>
+<text x="1345.0" y="2274.8" class="g114s0">-0.0083</text>
+<text x="1515.0" y="2274.8" class="g114s0">-0.2903</text>
+<text x="1685.0" y="2274.8" class="g114s0">-0.1403</text>
+<line x1="34.0" y1="2283.9" x2="1846.0" y2="2283.9" class="g114s3"/>
+<text y="2300.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="19.5" lengthAdjust="spacing">W_q</tspan><tspan x="62.5" class="g114s1"> </tspan><tspan x="65.9" class="g114s11" textLength="117.1" lengthAdjust="spacing">after = W × 0.9998</tspan><tspan x="183.0" class="g114s1"> − </tspan><tspan x="197.1" class="g114s2" textLength="23.7" lengthAdjust="spacing">0.02</tspan><tspan x="220.9" class="g114s1" textLength="51.4" lengthAdjust="spacing"> × update</tspan></text>
+<text x="495.0" y="2300.8" class="g114s0">-0.7741</text>
+<text x="665.0" y="2300.8" class="g114s0">0.0267</text>
+<text x="835.0" y="2300.8" class="g114s0">-0.1116</text>
+<text x="1005.0" y="2300.8" class="g114s0">0.0517</text>
+<text x="1175.0" y="2300.8" class="g114s0">0.7116</text>
+<text x="1345.0" y="2300.8" class="g114s0">1.6125</text>
+<text x="1515.0" y="2300.8" class="g114s0">0.8338</text>
+<text x="1685.0" y="2300.8" class="g114s0">-0.9719</text>
+<line x1="34.0" y1="2309.9" x2="1846.0" y2="2309.9" class="g114s3"/>
+<rect x="34.0" y="2309.9" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="2326.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="117.2" lengthAdjust="spacing">the gradient, for scale</tspan></text>
+<text x="495.0" y="2326.8" class="g114s0">−9.9 × 10⁻⁵</text>
+<text x="665.0" y="2326.8" class="g114s0">−1.2 × 10⁻⁴</text>
+<text x="835.0" y="2326.8" class="g114s0">−5.3 × 10⁻⁵</text>
+<text x="1005.0" y="2326.8" class="g114s0">1.1 × 10⁻⁴</text>
+<text x="1175.0" y="2326.8" class="g114s0">6.7 × 10⁻⁶</text>
+<text x="1345.0" y="2326.8" class="g114s0">1.7 × 10⁻⁵</text>
+<text x="1515.0" y="2326.8" class="g114s0">8.1 × 10⁻⁵</text>
+<text x="1685.0" y="2326.8" class="g114s0">−5.9 × 10⁻⁵</text>
+<line x1="34.0" y1="2335.9" x2="1846.0" y2="2335.9" class="g114s3"/>
+<rect x="34.0" y="2231.9" width="1812.0" height="104.0" rx="0" class="g114s25"/>
+<line x1="486.0" y1="2231.9" x2="486.0" y2="2335.9" class="g114s3"/>
+<line x1="656.0" y1="2231.9" x2="656.0" y2="2335.9" class="g114s3"/>
+<line x1="826.0" y1="2231.9" x2="826.0" y2="2335.9" class="g114s3"/>
+<line x1="996.0" y1="2231.9" x2="996.0" y2="2335.9" class="g114s3"/>
+<line x1="1166.0" y1="2231.9" x2="1166.0" y2="2335.9" class="g114s3"/>
+<line x1="1336.0" y1="2231.9" x2="1336.0" y2="2335.9" class="g114s3"/>
+<line x1="1506.0" y1="2231.9" x2="1506.0" y2="2335.9" class="g114s3"/>
+<line x1="1676.0" y1="2231.9" x2="1676.0" y2="2335.9" class="g114s3"/>
+<rect x="34.0" y="2347.9" width="1812.0" height="72.6" rx="6" class="g114s40"/>
+<path d="M38.50 2348.65 A5.50 5.50 0 0 0 34.50 2353.94 V2414.50 A5.50 5.50 0 0 0 38.50 2419.79 Z" class="g114s20"/>
+<text y="2373.9" xml:space="preserve" class="g114s21"><tspan x="50.0" class="g114s1" textLength="93.3" lengthAdjust="spacing">A fixed-size step</tspan></text>
+<text y="2391.5" xml:space="preserve" class="g114s19"><tspan x="50.0" textLength="218.0" lengthAdjust="spacing">The update’s numbers are tenths (RMS </tspan><tspan x="268.0" class="g114s2" textLength="31.8" lengthAdjust="spacing">0.354</tspan><tspan x="299.8" textLength="138.6" lengthAdjust="spacing">) while the gradient’s are </tspan><tspan x="438.4" class="g114s2" textLength="14.1" lengthAdjust="spacing">10</tspan><tspan x="452.5" textLength="31.1" lengthAdjust="spacing">⁻⁴ to </tspan><tspan x="483.6" class="g114s2" textLength="14.1" lengthAdjust="spacing">10</tspan><tspan x="497.7" textLength="782.6" lengthAdjust="spacing">⁻⁶: Muon’s step size is set by the learning rate, not by how loud the gradient is. These weights equal the ones PyTorch recorded after this step (to </tspan><tspan x="1280.4" class="g114s2" textLength="14.1" lengthAdjust="spacing">10</tspan><tspan x="1294.5" textLength="25.1" lengthAdjust="spacing">⁻⁵). </tspan><tspan x="1319.6" class="g114s13" textLength="61.1" lengthAdjust="spacing">check3.py</tspan><tspan x="1380.7" textLength="82.7" lengthAdjust="spacing">, one step on a </tspan><tspan x="1463.4" class="g114s2" textLength="95.3" lengthAdjust="spacing">512 × 512 matrix</tspan><tspan x="1558.7" textLength="121.9" lengthAdjust="spacing">: the update’s RMS is </tspan><tspan x="1680.7" class="g114s2" textLength="53.0" lengthAdjust="spacing">0.000830</tspan><tspan x="1733.7" textLength="45.4" lengthAdjust="spacing">, against</tspan></text>
+<text y="2409.0" xml:space="preserve" class="g114s19"><tspan x="50.0" class="g114s2" textLength="53.0" lengthAdjust="spacing">0.000884</tspan><tspan x="103.0" textLength="162.1" lengthAdjust="spacing"> if every strength were exactly </tspan><tspan x="265.1" class="g114s2">1</tspan><tspan x="272.2">.</tspan></text>
+<rect x="34.0" y="2440.5" width="1812.0" height="30.0" rx="6" class="g114s15"/>
+<path d="M38.50 2441.21 A5.50 5.50 0 0 0 34.50 2446.50 V2464.50 A5.50 5.50 0 0 0 38.50 2469.79 Z" class="g114s20"/>
+<text y="2460.5" xml:space="preserve" class="g114s31"><tspan x="50.0" class="g114s1" textLength="70.5" lengthAdjust="spacing">E · Against </tspan><tspan x="120.5" class="g114s28" textLength="29.4" lengthAdjust="spacing">Adam</tspan><tspan x="149.9" class="g114s1" textLength="215.2" lengthAdjust="spacing">: normalise numbers, or directions?</tspan></text>
+<text y="2460.5" xml:space="preserve" class="g114s32"><tspan x="383.1" textLength="402.7" lengthAdjust="spacing">the same gradient, three ways to step: the share of the step each direction gets</tspan></text>
+<text y="2488.5" xml:space="preserve" class="g114s21"><tspan x="38.0" class="g114s1" textLength="29.0" lengthAdjust="spacing">Why </tspan><tspan x="67.0" class="g114s13" textLength="47.5" lengthAdjust="spacing">sign(g)</tspan></text>
+<text y="2506.5" xml:space="preserve" class="g114s19"><tspan x="38.0" class="g114s13" textLength="27.2" lengthAdjust="spacing">Adam</tspan><tspan x="65.2" textLength="460.7" lengthAdjust="spacing"> divides every number by its own running size. On its very first step that gives exactly ±</tspan><tspan x="525.9" class="g114s2" textLength="75.6" lengthAdjust="spacing">1 per number</tspan><tspan x="601.5">: </tspan><tspan x="608.2" class="g114s13" textLength="47.5" lengthAdjust="spacing">sign(g)</tspan><tspan x="655.7" textLength="28.7" lengthAdjust="spacing">. It is </tspan><tspan x="684.4" class="g114s13" textLength="27.2" lengthAdjust="spacing">Adam</tspan><tspan x="711.6" textLength="656.7" lengthAdjust="spacing">’s idea in its purest form — every number moves the same amount. Muon’s idea: every direction moves the same amount.</tspan></text>
+<text x="34.0" y="2539.9" class="g114s49">% of the step each direction gets — the same gradient, three ways</text>
+<rect x="34.0" y="2549.9" width="14.0" height="10.0" rx="2" class="g114s16"/>
+<text x="54.0" y="2558.9" class="g114s33">SGD: the gradient as it is</text>
+<rect x="201.4" y="2549.9" width="14.0" height="10.0" rx="2" class="g114s34"/>
+<text x="221.4" y="2558.9" class="g114s33">Adam’s extreme: sign(g)</text>
+<rect x="369.8" y="2549.9" width="14.0" height="10.0" rx="2" class="g114s17"/>
+<text x="389.8" y="2558.9" class="g114s33">Muon: newton_schulz(g)</text>
+<line x1="34.0" y1="2765.9" x2="1846.0" y2="2765.9" class="g114s61"/>
+<rect x="66.2" y="2595.9" width="50.0" height="170.0" rx="2" class="g114s16"/>
+<text x="91.2" y="2590.9" class="g114s10">76</text>
+<rect x="122.2" y="2636.0" width="50.0" height="129.9" rx="2" class="g114s34"/>
+<text x="147.2" y="2631.0" class="g114s10">58</text>
+<rect x="178.2" y="2727.6" width="50.0" height="38.3" rx="2" class="g114s17"/>
+<text x="203.2" y="2722.6" class="g114s10">17</text>
+<text x="147.2" y="2781.9" class="g114s14">direction 0</text>
+<rect x="292.8" y="2733.2" width="50.0" height="32.7" rx="2" class="g114s16"/>
+<text x="317.8" y="2728.2" class="g114s10">15</text>
+<rect x="348.8" y="2722.1" width="50.0" height="43.8" rx="2" class="g114s34"/>
+<text x="373.8" y="2717.1" class="g114s10">20</text>
+<rect x="404.8" y="2730.1" width="50.0" height="35.8" rx="2" class="g114s17"/>
+<text x="429.8" y="2725.1" class="g114s10">16</text>
+<text x="373.8" y="2781.9" class="g114s14">direction 1</text>
+<rect x="519.2" y="2750.3" width="50.0" height="15.6" rx="2" class="g114s16"/>
+<text x="544.2" y="2745.3" class="g114s10">7</text>
+<rect x="575.2" y="2740.5" width="50.0" height="25.4" rx="2" class="g114s34"/>
+<text x="600.2" y="2735.5" class="g114s10">11</text>
+<rect x="631.2" y="2730.2" width="50.0" height="35.7" rx="2" class="g114s17"/>
+<text x="656.2" y="2725.2" class="g114s10">16</text>
+<text x="600.2" y="2781.9" class="g114s14">direction 2</text>
+<rect x="745.8" y="2763.3" width="50.0" height="2.6" rx="2" class="g114s16"/>
+<text x="770.8" y="2758.3" class="g114s10">1</text>
+<rect x="801.8" y="2752.0" width="50.0" height="13.9" rx="2" class="g114s34"/>
+<text x="826.8" y="2747.0" class="g114s10">6</text>
+<rect x="857.8" y="2731.6" width="50.0" height="34.3" rx="2" class="g114s17"/>
+<text x="882.8" y="2726.6" class="g114s10">15</text>
+<text x="826.8" y="2781.9" class="g114s14">direction 3</text>
+<rect x="972.2" y="2764.4" width="50.0" height="1.5" rx="2" class="g114s16"/>
+<text x="997.2" y="2759.4" class="g114s10">0.5</text>
+<rect x="1028.2" y="2757.2" width="50.0" height="8.7" rx="2" class="g114s34"/>
+<text x="1053.2" y="2752.2" class="g114s10">4</text>
+<rect x="1084.2" y="2735.0" width="50.0" height="30.9" rx="2" class="g114s17"/>
+<text x="1109.2" y="2730.0" class="g114s10">14</text>
+<text x="1053.2" y="2781.9" class="g114s14">direction 4</text>
+<rect x="1198.8" y="2764.4" width="50.0" height="1.5" rx="2" class="g114s16"/>
+<text x="1223.8" y="2759.4" class="g114s10">0.4</text>
+<rect x="1254.8" y="2764.4" width="50.0" height="1.5" rx="2" class="g114s34"/>
+<text x="1279.8" y="2759.4" class="g114s10">0.6</text>
+<rect x="1310.8" y="2746.7" width="50.0" height="19.2" rx="2" class="g114s17"/>
+<text x="1335.8" y="2741.7" class="g114s10">9</text>
+<text x="1279.8" y="2781.9" class="g114s14">direction 5</text>
+<rect x="1425.2" y="2764.4" width="50.0" height="1.5" rx="2" class="g114s16"/>
+<text x="1450.2" y="2759.4" class="g114s10">0.1</text>
+<rect x="1481.2" y="2764.4" width="50.0" height="1.5" rx="2" class="g114s34"/>
+<text x="1506.2" y="2759.4" class="g114s10">0.0</text>
+<rect x="1537.2" y="2750.2" width="50.0" height="15.7" rx="2" class="g114s17"/>
+<text x="1562.2" y="2745.2" class="g114s10">7</text>
+<text x="1506.2" y="2781.9" class="g114s14">direction 6</text>
+<rect x="1651.8" y="2764.4" width="50.0" height="1.5" rx="2" class="g114s16"/>
+<text x="1676.8" y="2759.4" class="g114s10">0.0</text>
+<rect x="1707.8" y="2764.4" width="50.0" height="1.5" rx="2" class="g114s34"/>
+<text x="1732.8" y="2759.4" class="g114s10">0.0</text>
+<rect x="1763.8" y="2752.8" width="50.0" height="13.1" rx="2" class="g114s17"/>
+<text x="1788.8" y="2747.8" class="g114s10">6</text>
+<text x="1732.8" y="2781.9" class="g114s14">direction 7</text>
+<rect x="34.0" y="2795.9" width="1812.0" height="55.0" rx="6" class="g114s40"/>
+<path d="M38.50 2796.61 A5.50 5.50 0 0 0 34.50 2801.90 V2844.94 A5.50 5.50 0 0 0 38.50 2850.23 Z" class="g114s20"/>
+<text y="2821.9" xml:space="preserve" class="g114s21"><tspan x="50.0" class="g114s1" textLength="78.5" lengthAdjust="spacing">How to read it</tspan></text>
+<text y="2839.4" xml:space="preserve" class="g114s19"><tspan x="50.0" textLength="109.4" lengthAdjust="spacing">SGD gives direction </tspan><tspan x="159.4" class="g114s2">0</tspan><tspan x="166.4"> </tspan><tspan x="169.8" class="g114s2" textLength="36.1" lengthAdjust="spacing">76.2%</tspan><tspan x="205.8" textLength="66.0" lengthAdjust="spacing"> of the step; </tspan><tspan x="271.9" class="g114s13" textLength="47.5" lengthAdjust="spacing">sign(g)</tspan><tspan x="319.4" textLength="24.0" lengthAdjust="spacing"> still </tspan><tspan x="343.4" class="g114s2" textLength="36.1" lengthAdjust="spacing">58.3%</tspan><tspan x="379.5" textLength="31.3" lengthAdjust="spacing">, with </tspan><tspan x="410.8" class="g114s2">2</tspan><tspan x="417.9" textLength="330.2" lengthAdjust="spacing"> directions getting none. Muon spreads it: every direction gets </tspan><tspan x="748.1" class="g114s2" textLength="29.0" lengthAdjust="spacing">5.9%</tspan><tspan x="777.0" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="793.7" class="g114s2" textLength="36.1" lengthAdjust="spacing">17.2%</tspan><tspan x="829.8">.</tspan></text>
+<rect x="34.0" y="2870.9" width="1812.0" height="30.0" rx="6" class="g114s15"/>
+<path d="M38.50 2871.65 A5.50 5.50 0 0 0 34.50 2876.94 V2894.94 A5.50 5.50 0 0 0 38.50 2900.23 Z" class="g114s20"/>
+<text y="2890.9" xml:space="preserve" class="g114s31"><tspan x="50.0" class="g114s1" textLength="190.7" lengthAdjust="spacing">F · Muon, or just a bigger step?</tspan></text>
+<text y="2890.9" xml:space="preserve" class="g114s32"><tspan x="258.7" textLength="88.2" lengthAdjust="spacing">the reverse task: </tspan><tspan x="346.9" class="g114s11" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="359.9" textLength="99.1" lengthAdjust="spacing"> with Muon against </tspan><tspan x="459.0" class="g114s11" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="472.0" textLength="26.8" lengthAdjust="spacing"> with </tspan><tspan x="498.9" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="531.4" textLength="88.8" lengthAdjust="spacing"> for every matrix, </tspan><tspan x="620.2" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="652.8" textLength="89.9" lengthAdjust="spacing">’s learning rate ×</tspan><tspan x="742.6" class="g114s2">1</tspan><tspan x="749.4" textLength="13.3" lengthAdjust="spacing">, ×</tspan><tspan x="762.7" class="g114s2">2</tspan><tspan x="769.5" textLength="13.3" lengthAdjust="spacing">, ×</tspan><tspan x="782.8" class="g114s2">4</tspan><tspan x="789.5" textLength="13.3" lengthAdjust="spacing">, ×</tspan><tspan x="802.8" class="g114s2" textLength="13.6" lengthAdjust="spacing">10</tspan><tspan x="816.4"> — </tspan><tspan x="834.3" class="g114s2">3</tspan><tspan x="841.1" textLength="62.0" lengthAdjust="spacing"> seeds each</tspan></text>
+<text y="2918.9" xml:space="preserve" class="g114s21"><tspan x="38.0" class="g114s1" textLength="85.5" lengthAdjust="spacing">Why this check</tspan></text>
+<text y="2936.9" xml:space="preserve" class="g114s19"><tspan x="38.0" textLength="236.7" lengthAdjust="spacing">Muon’s update has a fixed size, larger than </tspan><tspan x="274.7" class="g114s13" textLength="34.0" lengthAdjust="spacing">AdamW</tspan><tspan x="308.6" textLength="189.8" lengthAdjust="spacing">’s at the notebook’s learning rate (</tspan><tspan x="498.4" class="g114s2" textLength="35.9" lengthAdjust="spacing">5 × 10</tspan><tspan x="534.4" textLength="48.4" lengthAdjust="spacing">⁻⁴, from </tspan><tspan x="582.8" class="g114s13" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="609.9" textLength="314.2" lengthAdjust="spacing">). So “with Muon” also means “with bigger steps”. Giving </tspan><tspan x="924.2" class="g114s13" textLength="34.0" lengthAdjust="spacing">AdamW</tspan><tspan x="958.1" textLength="170.1" lengthAdjust="spacing"> bigger steps separates the two.</tspan></text>
+<rect x="34.0" y="2958.3" width="1812.0" height="24.0" rx="4" class="g114s15"/>
+<text y="2974.3" xml:space="preserve" class="g114s6"><tspan x="43.0" class="g114s41" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="54.9" class="g114s1" textLength="60.0" lengthAdjust="spacing"> trained with</tspan></text>
+<text y="2974.3" xml:space="preserve" class="g114s6"><tspan x="683.0" class="g114s1" textLength="69.9" lengthAdjust="spacing">validation loss</tspan></text>
+<text y="2974.3" xml:space="preserve" class="g114s6"><tspan x="1013.0" class="g114s1" textLength="102.7" lengthAdjust="spacing">exact match, unseen</tspan></text>
+<text y="2974.3" xml:space="preserve" class="g114s6"><tspan x="1343.0" class="g114s1" textLength="92.8" lengthAdjust="spacing">longer than trained</tspan></text>
+<text y="2974.3" xml:space="preserve" class="g114s6"><tspan x="1673.0" class="g114s1" textLength="29.7" lengthAdjust="spacing">seeds</tspan></text>
+<text y="2999.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="56.0" class="g114s1" textLength="40.7" lengthAdjust="spacing">: Muon </tspan><tspan x="96.7" class="g114s11" textLength="110.6" lengthAdjust="spacing">(lr 0.02) + AdamW</tspan><tspan x="207.3" class="g114s1"> (</tspan><tspan x="214.7" class="g114s2" textLength="34.4" lengthAdjust="spacing">5 × 10</tspan><tspan x="249.2" class="g114s1" textLength="18.7" lengthAdjust="spacing">⁻⁴)</tspan></text>
+<text x="683.0" y="2999.2" class="g114s0">0.7178 (0.7093–0.7303)</text>
+<text x="1013.0" y="2999.2" class="g114s0">96.5% (95.6%–97.4%)</text>
+<text x="1343.0" y="2999.2" class="g114s0">73.4% (51.6%–93.0%)</text>
+<text x="1673.0" y="2999.2" class="g114s0">3</text>
+<line x1="34.0" y1="3008.3" x2="1846.0" y2="3008.3" class="g114s3"/>
+<rect x="34.0" y="3008.3" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="3025.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="75.5" class="g114s1" textLength="42.7" lengthAdjust="spacing"> only, lr </tspan><tspan x="118.2" class="g114s2" textLength="34.4" lengthAdjust="spacing">5 × 10</tspan><tspan x="152.6" class="g114s1" textLength="29.4" lengthAdjust="spacing">⁻⁴ (×</tspan><tspan x="182.0" class="g114s2">1</tspan><tspan x="188.8" class="g114s1">)</tspan></text>
+<text x="683.0" y="3025.2" class="g114s0">1.0016 (0.9852–1.0263)</text>
+<text x="1013.0" y="3025.2" class="g114s0">56.9% (53.2%–59.2%)</text>
+<text x="1343.0" y="3025.2" class="g114s0">0.3% (0.2%–0.6%)</text>
+<text x="1673.0" y="3025.2" class="g114s0">3</text>
+<line x1="34.0" y1="3034.3" x2="1846.0" y2="3034.3" class="g114s3"/>
+<text y="3051.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="75.5" class="g114s1" textLength="42.7" lengthAdjust="spacing"> only, lr </tspan><tspan x="118.2" class="g114s2" textLength="30.5" lengthAdjust="spacing">0.001</tspan><tspan x="148.7" class="g114s1" textLength="14.8" lengthAdjust="spacing"> (×</tspan><tspan x="163.5" class="g114s2">2</tspan><tspan x="170.3" class="g114s1">)</tspan></text>
+<text x="683.0" y="3051.2" class="g114s0">0.8003 (0.7967–0.8030)</text>
+<text x="1013.0" y="3051.2" class="g114s0">88.0% (87.8%–88.4%)</text>
+<text x="1343.0" y="3051.2" class="g114s0">13.4% (5.8%–26.8%)</text>
+<text x="1673.0" y="3051.2" class="g114s0">3</text>
+<line x1="34.0" y1="3060.3" x2="1846.0" y2="3060.3" class="g114s3"/>
+<rect x="34.0" y="3060.3" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="3077.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="75.5" class="g114s1" textLength="42.7" lengthAdjust="spacing"> only, lr </tspan><tspan x="118.2" class="g114s2" textLength="30.5" lengthAdjust="spacing">0.002</tspan><tspan x="148.7" class="g114s1" textLength="14.8" lengthAdjust="spacing"> (×</tspan><tspan x="163.5" class="g114s2">4</tspan><tspan x="170.3" class="g114s1">)</tspan></text>
+<text x="683.0" y="3077.2" class="g114s0">0.7494 (0.7456–0.7556)</text>
+<text x="1013.0" y="3077.2" class="g114s0">94.1% (91.8%–96.4%)</text>
+<text x="1343.0" y="3077.2" class="g114s0">20.3% (13.0%–28.2%)</text>
+<text x="1673.0" y="3077.2" class="g114s0">3</text>
+<line x1="34.0" y1="3086.3" x2="1846.0" y2="3086.3" class="g114s3"/>
+<text y="3103.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="75.5" class="g114s1" textLength="42.7" lengthAdjust="spacing"> only, lr </tspan><tspan x="118.2" class="g114s2" textLength="30.5" lengthAdjust="spacing">0.005</tspan><tspan x="148.7" class="g114s1" textLength="14.8" lengthAdjust="spacing"> (×</tspan><tspan x="163.5" class="g114s2" textLength="13.6" lengthAdjust="spacing">10</tspan><tspan x="177.0" class="g114s1">)</tspan></text>
+<text x="683.0" y="3103.2" class="g114s0">0.7209 (0.7141–0.7305)</text>
+<text x="1013.0" y="3103.2" class="g114s0">97.4% (96.8%–97.8%)</text>
+<text x="1343.0" y="3103.2" class="g114s0">49.3% (19.2%–84.6%)</text>
+<text x="1673.0" y="3103.2" class="g114s0">3</text>
+<line x1="34.0" y1="3112.3" x2="1846.0" y2="3112.3" class="g114s3"/>
+<rect x="34.0" y="2982.3" width="1812.0" height="130.0" rx="0" class="g114s25"/>
+<line x1="674.0" y1="2982.3" x2="674.0" y2="3112.3" class="g114s3"/>
+<line x1="1004.0" y1="2982.3" x2="1004.0" y2="3112.3" class="g114s3"/>
+<line x1="1334.0" y1="2982.3" x2="1334.0" y2="3112.3" class="g114s3"/>
+<line x1="1664.0" y1="2982.3" x2="1664.0" y2="3112.3" class="g114s3"/>
+<text x="34.0" y="3136.3" class="g114s49">exact match on unseen sentences</text>
+<line x1="34.0" y1="3151.3" x2="52.0" y2="3151.3" class="g114s65"/>
+<text x="58.0" y="3155.3" class="g114s33">AdamW only</text>
+<rect x="149.9" y="3146.3" width="18.0" height="10.0" rx="2" class="g114s66"/>
+<text x="173.9" y="3155.3" class="g114s33">v3 with Muon: its 3 seeds</text>
+<line x1="104.0" y1="3349.6" x2="910.0" y2="3349.6" class="g114s44"/>
+<text x="96.0" y="3353.6" class="g114s27">53.2%</text>
+<line x1="104.0" y1="3275.3" x2="910.0" y2="3275.3" class="g114s44"/>
+<text x="96.0" y="3279.3" class="g114s27">75.5%</text>
+<line x1="104.0" y1="3201.1" x2="910.0" y2="3201.1" class="g114s44"/>
+<text x="96.0" y="3205.1" class="g114s27">97.8%</text>
+<rect x="104.0" y="3202.5" width="806.0" height="6.0" class="g114s67"/>
+<path d="M204.8 3337.4 L406.2 3233.7 L607.8 3213.3 L809.2 3202.5" class="g114s56"/>
+<line x1="204.8" y1="3329.6" x2="204.8" y2="3349.6" class="g114s35"/>
+<circle cx="204.8" cy="3337.4" r="4.5" class="g114s36"/>
+<text x="211.8" y="3329.4" class="g114s37">56.9%</text>
+<line x1="406.2" y1="3232.4" x2="406.2" y2="3234.4" class="g114s35"/>
+<circle cx="406.2" cy="3233.7" r="4.5" class="g114s36"/>
+<text x="413.2" y="3225.7" class="g114s37">88.0%</text>
+<line x1="607.8" y1="3205.8" x2="607.8" y2="3221.1" class="g114s35"/>
+<circle cx="607.8" cy="3213.3" r="4.5" class="g114s36"/>
+<text x="614.8" y="3205.3" class="g114s37">94.1%</text>
+<line x1="809.2" y1="3201.1" x2="809.2" y2="3204.4" class="g114s35"/>
+<circle cx="809.2" cy="3202.5" r="4.5" class="g114s36"/>
+<text x="816.2" y="3194.5" class="g114s37">97.4%</text>
+<text x="204.8" y="3388.3" class="g114s14">AdamW lr ×1</text>
+<text x="406.2" y="3388.3" class="g114s14">AdamW lr ×2</text>
+<text x="607.8" y="3388.3" class="g114s14">AdamW lr ×4</text>
+<text x="809.2" y="3388.3" class="g114s14">AdamW lr ×10</text>
+<text x="970.0" y="3136.3" class="g114s49">exact match on longer sentences</text>
+<line x1="970.0" y1="3151.3" x2="988.0" y2="3151.3" class="g114s65"/>
+<text x="994.0" y="3155.3" class="g114s33">AdamW only</text>
+<rect x="1085.9" y="3146.3" width="18.0" height="10.0" rx="2" class="g114s66"/>
+<text x="1109.9" y="3155.3" class="g114s33">v3 with Muon: its 3 seeds</text>
+<line x1="1040.0" y1="3349.6" x2="1846.0" y2="3349.6" class="g114s44"/>
+<text x="1032.0" y="3353.6" class="g114s27">0.2%</text>
+<line x1="1040.0" y1="3275.3" x2="1846.0" y2="3275.3" class="g114s44"/>
+<text x="1032.0" y="3279.3" class="g114s27">46.6%</text>
+<line x1="1040.0" y1="3201.1" x2="1846.0" y2="3201.1" class="g114s44"/>
+<text x="1032.0" y="3205.1" class="g114s27">93.0%</text>
+<rect x="1040.0" y="3201.1" width="806.0" height="66.2" class="g114s67"/>
+<path d="M1140.8 3349.3 L1342.2 3328.4 L1543.8 3317.5 L1745.2 3271.1" class="g114s56"/>
+<line x1="1140.8" y1="3348.9" x2="1140.8" y2="3349.6" class="g114s35"/>
+<circle cx="1140.8" cy="3349.3" r="4.5" class="g114s36"/>
+<text x="1147.8" y="3341.3" class="g114s37">0.3%</text>
+<line x1="1342.2" y1="3307.0" x2="1342.2" y2="3340.6" class="g114s35"/>
+<circle cx="1342.2" cy="3328.4" r="4.5" class="g114s36"/>
+<text x="1349.2" y="3320.4" class="g114s37">13.4%</text>
+<line x1="1543.8" y1="3304.8" x2="1543.8" y2="3329.1" class="g114s35"/>
+<circle cx="1543.8" cy="3317.5" r="4.5" class="g114s36"/>
+<text x="1550.8" y="3309.5" class="g114s37">20.3%</text>
+<line x1="1745.2" y1="3214.6" x2="1745.2" y2="3319.2" class="g114s35"/>
+<circle cx="1745.2" cy="3271.1" r="4.5" class="g114s36"/>
+<text x="1752.2" y="3263.1" class="g114s37">49.3%</text>
+<text x="1140.8" y="3388.3" class="g114s14">AdamW lr ×1</text>
+<text x="1342.2" y="3388.3" class="g114s14">AdamW lr ×2</text>
+<text x="1543.8" y="3388.3" class="g114s14">AdamW lr ×4</text>
+<text x="1745.2" y="3388.3" class="g114s14">AdamW lr ×10</text>
+<rect x="34.0" y="3406.3" width="1812.0" height="72.6" rx="6" class="g114s50"/>
+<path d="M38.50 3407.05 A5.50 5.50 0 0 0 34.50 3412.34 V3472.90 A5.50 5.50 0 0 0 38.50 3478.19 Z" class="g114s51"/>
+<text y="3432.3" xml:space="preserve" class="g114s21"><tspan x="50.0" class="g114s1" textLength="109.6" lengthAdjust="spacing">The honest reading</tspan></text>
+<text y="3449.9" xml:space="preserve" class="g114s19"><tspan x="50.0" textLength="103.4" lengthAdjust="spacing">Charts: each dot is </tspan><tspan x="153.4" class="g114s13" textLength="34.0" lengthAdjust="spacing">AdamW</tspan><tspan x="187.3" textLength="76.6" lengthAdjust="spacing">’s mean over </tspan><tspan x="263.9" class="g114s2">3</tspan><tspan x="271.0" textLength="289.5" lengthAdjust="spacing"> seeds, the whisker their range; the green band spans </tspan><tspan x="560.5" class="g114s13" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="574.0" textLength="209.3" lengthAdjust="spacing">’s three seeds. On unseen sentences, </tspan><tspan x="783.4" class="g114s13" textLength="34.0" lengthAdjust="spacing">AdamW</tspan><tspan x="817.3" textLength="70.7" lengthAdjust="spacing"> alone with a </tspan><tspan x="888.0" class="g114s2" textLength="21.8" lengthAdjust="spacing">10×</tspan><tspan x="909.8" textLength="153.4" lengthAdjust="spacing"> larger learning rate reaches </tspan><tspan x="1063.2" class="g114s2" textLength="36.1" lengthAdjust="spacing">97.4%</tspan><tspan x="1099.2" textLength="48.7" lengthAdjust="spacing">, against </tspan><tspan x="1147.9" class="g114s13" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="1161.5" textLength="16.5" lengthAdjust="spacing">’s </tspan><tspan x="1178.1" class="g114s2" textLength="36.1" lengthAdjust="spacing">96.5%</tspan><tspan x="1214.1" textLength="30.7" lengthAdjust="spacing"> (and </tspan><tspan x="1244.8" class="g114s2" textLength="36.1" lengthAdjust="spacing">56.9%</tspan><tspan x="1280.9" textLength="326.6" lengthAdjust="spacing"> at the notebook’s rate): the experiment’s headline gap was </tspan><tspan x="1607.4" class="g114s13" textLength="34.0" lengthAdjust="spacing">AdamW</tspan><tspan x="1641.4" textLength="174.6" lengthAdjust="spacing">’s small learning rate, not Muon.</tspan></text>
+<text y="3467.4" xml:space="preserve" class="g114s19"><tspan x="50.0" textLength="223.5" lengthAdjust="spacing">On sentences longer than any trained on, </tspan><tspan x="273.5" class="g114s13" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="287.0" textLength="118.7" lengthAdjust="spacing"> is ahead on average, </tspan><tspan x="405.8" class="g114s2" textLength="36.1" lengthAdjust="spacing">73.4%</tspan><tspan x="441.8" textLength="45.4" lengthAdjust="spacing"> against </tspan><tspan x="487.2" class="g114s2" textLength="36.1" lengthAdjust="spacing">49.3%</tspan><tspan x="523.3" textLength="173.4" lengthAdjust="spacing">, but the seeds scatter widely — </tspan><tspan x="696.7" class="g114s13" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="710.3"> </tspan><tspan x="713.6" class="g114s2" textLength="36.1" lengthAdjust="spacing">51.6%</tspan><tspan x="749.7">–</tspan><tspan x="755.7" class="g114s2" textLength="36.1" lengthAdjust="spacing">93.0%</tspan><tspan x="791.7">, </tspan><tspan x="798.4" class="g114s13" textLength="34.0" lengthAdjust="spacing">AdamW</tspan><tspan x="832.3"> ×</tspan><tspan x="842.9" class="g114s2" textLength="14.1" lengthAdjust="spacing">10</tspan><tspan x="857.0"> </tspan><tspan x="860.4" class="g114s2" textLength="36.1" lengthAdjust="spacing">19.2%</tspan><tspan x="896.4">–</tspan><tspan x="902.4" class="g114s2" textLength="36.1" lengthAdjust="spacing">84.6%</tspan><tspan x="938.5" textLength="234.1" lengthAdjust="spacing"> — and three seeds cannot settle it. Neither </tspan><tspan x="1172.6" class="g114s13" textLength="61.1" lengthAdjust="spacing">optimizer</tspan><tspan x="1233.7" textLength="176.0" lengthAdjust="spacing"> was tuned beyond this: Muon’s </tspan><tspan x="1409.7" class="g114s2" textLength="24.8" lengthAdjust="spacing">0.02</tspan><tspan x="1434.4" textLength="152.7" lengthAdjust="spacing"> is its usual default, and four </tspan><tspan x="1587.2" class="g114s13" textLength="34.0" lengthAdjust="spacing">AdamW</tspan><tspan x="1621.1" textLength="142.1" lengthAdjust="spacing"> rates are not a full search.</tspan></text>
+<rect x="34.0" y="3498.9" width="1812.0" height="30.0" rx="6" class="g114s15"/>
+<path d="M38.50 3499.61 A5.50 5.50 0 0 0 34.50 3504.90 V3522.90 A5.50 5.50 0 0 0 38.50 3528.19 Z" class="g114s20"/>
+<text y="3518.9" xml:space="preserve" class="g114s31"><tspan x="50.0" class="g114s1" textLength="125.6" lengthAdjust="spacing">G · The experiment: </tspan><tspan x="175.6" class="g114s28" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="205.0" class="g114s1">, </tspan><tspan x="212.7" class="g114s28" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="227.4" class="g114s1">, </tspan><tspan x="235.1" class="g114s28" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="249.8" class="g114s1" textLength="85.8" lengthAdjust="spacing"> without Muon</tspan></text>
+<text y="3518.9" xml:space="preserve" class="g114s32"><tspan x="353.6" textLength="58.8" lengthAdjust="spacing">both tasks, </tspan><tspan x="412.4" class="g114s2">3</tspan><tspan x="419.1" textLength="291.4" lengthAdjust="spacing"> seeds each, the notebook’s learning rates — deep dive </tspan><tspan x="710.5" class="g114s2" textLength="13.6" lengthAdjust="spacing">26</tspan><tspan x="724.1" textLength="134.2" lengthAdjust="spacing"> has the whole experiment</tspan></text>
+<rect x="34.0" y="3544.9" width="1812.0" height="24.0" rx="4" class="g114s15"/>
+<text y="3560.9" xml:space="preserve" class="g114s6"><tspan x="43.0" class="g114s1" textLength="20.4" lengthAdjust="spacing">task</tspan></text>
+<text y="3560.9" xml:space="preserve" class="g114s6"><tspan x="223.0" class="g114s1" textLength="30.3" lengthAdjust="spacing">model</tspan></text>
+<text y="3560.9" xml:space="preserve" class="g114s6"><tspan x="643.0" class="g114s1" textLength="69.9" lengthAdjust="spacing">validation loss</tspan></text>
+<text y="3560.9" xml:space="preserve" class="g114s6"><tspan x="963.0" class="g114s1" textLength="102.7" lengthAdjust="spacing">exact match, unseen</tspan></text>
+<text y="3560.9" xml:space="preserve" class="g114s6"><tspan x="1283.0" class="g114s1" textLength="92.8" lengthAdjust="spacing">longer than trained</tspan></text>
+<text y="3560.9" xml:space="preserve" class="g114s6"><tspan x="1603.0" class="g114s1" textLength="69.9" lengthAdjust="spacing">a training step</tspan></text>
+<text y="3585.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="3585.8" xml:space="preserve" class="g114s18"><tspan x="223.0" class="g114s11" textLength="26.0" lengthAdjust="spacing">v2.5</tspan></text>
+<text x="643.0" y="3585.8" class="g114s0">0.7161 (0.7158–0.7167)</text>
+<text x="963.0" y="3585.8" class="g114s0">100.0% (100.0%–100.0%)</text>
+<text x="1283.0" y="3585.8" class="g114s0">—</text>
+<text x="1603.0" y="3585.8" class="g114s0">52 ms</text>
+<line x1="34.0" y1="3594.9" x2="1846.0" y2="3594.9" class="g114s3"/>
+<rect x="34.0" y="3594.9" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="3611.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="3611.8" xml:space="preserve" class="g114s18"><tspan x="223.0" class="g114s11" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="236.0" textLength="48.9" lengthAdjust="spacing"> (Muon + </tspan><tspan x="284.9" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="317.5">)</tspan></text>
+<text x="643.0" y="3611.8" class="g114s0">0.7136 (0.7136–0.7137)</text>
+<text x="963.0" y="3611.8" class="g114s0">100.0% (100.0%–100.0%)</text>
+<text x="1283.0" y="3611.8" class="g114s0">—</text>
+<text x="1603.0" y="3611.8" class="g114s0">91 ms</text>
+<line x1="34.0" y1="3620.9" x2="1846.0" y2="3620.9" class="g114s3"/>
+<text y="3637.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="46.7" lengthAdjust="spacing">translate</tspan></text>
+<text y="3637.8" xml:space="preserve" class="g114s18"><tspan x="223.0" class="g114s11" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="236.0" textLength="26.8" lengthAdjust="spacing"> with </tspan><tspan x="262.9" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="295.4" textLength="24.3" lengthAdjust="spacing"> only</tspan></text>
+<text x="643.0" y="3637.8" class="g114s0">0.7184 (0.7182–0.7188)</text>
+<text x="963.0" y="3637.8" class="g114s0">100.0% (100.0%–100.0%)</text>
+<text x="1283.0" y="3637.8" class="g114s0">—</text>
+<text x="1603.0" y="3637.8" class="g114s0">74 ms</text>
+<line x1="34.0" y1="3646.9" x2="1846.0" y2="3646.9" class="g114s3"/>
+<rect x="34.0" y="3646.9" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="3663.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="3663.8" xml:space="preserve" class="g114s18"><tspan x="223.0" class="g114s11" textLength="26.0" lengthAdjust="spacing">v2.5</tspan></text>
+<text x="643.0" y="3663.8" class="g114s0">0.8274 (0.8213–0.8320)</text>
+<text x="963.0" y="3663.8" class="g114s0">81.7% (81.4%–82.0%)</text>
+<text x="1283.0" y="3663.8" class="g114s0">50.4% (47.4%–55.0%)</text>
+<text x="1603.0" y="3663.8" class="g114s0">64 ms</text>
+<line x1="34.0" y1="3672.9" x2="1846.0" y2="3672.9" class="g114s3"/>
+<text y="3689.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="3689.8" xml:space="preserve" class="g114s18"><tspan x="223.0" class="g114s11" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="236.0" textLength="48.9" lengthAdjust="spacing"> (Muon + </tspan><tspan x="284.9" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="317.5">)</tspan></text>
+<text x="643.0" y="3689.8" class="g114s0">0.7178 (0.7093–0.7303)</text>
+<text x="963.0" y="3689.8" class="g114s0">96.5% (95.6%–97.4%)</text>
+<text x="1283.0" y="3689.8" class="g114s0">73.4% (51.6%–93.0%)</text>
+<text x="1603.0" y="3689.8" class="g114s0">105 ms</text>
+<line x1="34.0" y1="3698.9" x2="1846.0" y2="3698.9" class="g114s3"/>
+<rect x="34.0" y="3698.9" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="3715.8" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="40.6" lengthAdjust="spacing">reverse</tspan></text>
+<text y="3715.8" xml:space="preserve" class="g114s18"><tspan x="223.0" class="g114s11" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="236.0" textLength="26.8" lengthAdjust="spacing"> with </tspan><tspan x="262.9" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="295.4" textLength="24.3" lengthAdjust="spacing"> only</tspan></text>
+<text x="643.0" y="3715.8" class="g114s0">1.0016 (0.9852–1.0263)</text>
+<text x="963.0" y="3715.8" class="g114s0">56.9% (53.2%–59.2%)</text>
+<text x="1283.0" y="3715.8" class="g114s0">0.3% (0.2%–0.6%)</text>
+<text x="1603.0" y="3715.8" class="g114s0">82 ms</text>
+<line x1="34.0" y1="3724.9" x2="1846.0" y2="3724.9" class="g114s3"/>
+<rect x="34.0" y="3568.9" width="1812.0" height="156.0" rx="0" class="g114s25"/>
+<line x1="214.0" y1="3568.9" x2="214.0" y2="3724.9" class="g114s3"/>
+<line x1="634.0" y1="3568.9" x2="634.0" y2="3724.9" class="g114s3"/>
+<line x1="954.0" y1="3568.9" x2="954.0" y2="3724.9" class="g114s3"/>
+<line x1="1274.0" y1="3568.9" x2="1274.0" y2="3724.9" class="g114s3"/>
+<line x1="1594.0" y1="3568.9" x2="1594.0" y2="3724.9" class="g114s3"/>
+<line x1="68.0" y1="3954.9" x2="1836.0" y2="3954.9" class="g114s42"/>
+<text x="62.0" y="3958.9" class="g114s27">0</text>
+<line x1="68.0" y1="3849.9" x2="1836.0" y2="3849.9" class="g114s42"/>
+<text x="62.0" y="3853.9" class="g114s27">2.04</text>
+<line x1="68.0" y1="3744.9" x2="1836.0" y2="3744.9" class="g114s42"/>
+<text x="62.0" y="3748.9" class="g114s27">4.08</text>
+<text x="68.0" y="3970.9" class="g114s62">step 0</text>
+<text x="1836.0" y="3970.9" class="g114s55">step 2000</text>
+<path d="M156.4 3820.5 L244.8 3850.0 L333.2 3888.4 L421.6 3901.8 L510.0 3908.2 L598.4 3910.8 L686.8 3912.4 L775.2 3913.5 L863.6 3914.4 L952.0 3915.0 L1040.4 3915.6 L1128.8 3916.1 L1217.2 3916.6 L1305.6 3916.9 L1394.0 3917.2 L1482.4 3917.5 L1570.8 3917.6 L1659.2 3917.8 L1747.6 3917.9 L1836.0 3917.9" class="g114s63"/>
+<line x1="78.0" y1="3750.9" x2="96.0" y2="3750.9" class="g114s64"/>
+<text x="102.0" y="3754.9" class="g114s43">v3</text>
+<path d="M156.4 3772.7 L244.8 3810.4 L333.2 3827.1 L421.6 3836.2 L510.0 3849.4 L598.4 3864.7 L686.8 3876.9 L775.2 3883.8 L863.6 3888.6 L952.0 3892.4 L1040.4 3895.3 L1128.8 3897.5 L1217.2 3899.1 L1305.6 3900.4 L1394.0 3901.3 L1482.4 3902.0 L1570.8 3902.5 L1659.2 3902.9 L1747.6 3903.1 L1836.0 3903.3" class="g114s56"/>
+<line x1="149.0" y1="3750.9" x2="167.0" y2="3750.9" style="stroke:var(--drop);stroke-width:2;stroke-linecap:round"/>
+<text x="173.0" y="3754.9" class="g114s43">v3, AdamW only</text>
+<path d="M156.4 3772.3 L244.8 3816.9 L333.2 3832.9 L421.6 3848.6 L510.0 3869.5 L598.4 3879.8 L686.8 3887.9 L775.2 3897.2 L863.6 3903.5 L952.0 3907.0 L1040.4 3908.7 L1128.8 3909.6 L1217.2 3910.3 L1305.6 3910.8 L1394.0 3911.3 L1482.4 3911.6 L1570.8 3911.9 L1659.2 3912.0 L1747.6 3912.2 L1836.0 3912.3" style="fill:none;stroke:var(--drop);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:5 4"/>
+<line x1="284.7" y1="3750.9" x2="302.7" y2="3750.9" style="stroke:var(--drop);stroke-width:2;stroke-dasharray:5 4;stroke-linecap:round"/>
+<text x="308.7" y="3754.9" class="g114s43">v2.5</text>
+<path d="M156.4 3822.1 L244.8 3869.0 L333.2 3897.3 L421.6 3906.6 L510.0 3911.0 L598.4 3912.8 L686.8 3913.8 L775.2 3914.6 L863.6 3915.1 L952.0 3915.6 L1040.4 3916.1 L1128.8 3916.5 L1217.2 3916.8 L1305.6 3917.0 L1394.0 3917.2 L1482.4 3917.4 L1570.8 3917.5 L1659.2 3917.6 L1747.6 3917.7 L1836.0 3917.8" style="fill:none;stroke:var(--s3);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:5 4"/>
+<line x1="364.4" y1="3750.9" x2="382.4" y2="3750.9" style="stroke:var(--s3);stroke-width:2;stroke-dasharray:5 4;stroke-linecap:round"/>
+<text x="388.4" y="3754.9" class="g114s43">AdamW only ×10</text>
+<rect x="34.0" y="3988.9" width="1812.0" height="55.0" rx="6" class="g114s40"/>
+<path d="M38.50 3989.61 A5.50 5.50 0 0 0 34.50 3994.90 V4037.94 A5.50 5.50 0 0 0 38.50 4043.23 Z" class="g114s20"/>
+<text y="4014.9" xml:space="preserve" class="g114s21"><tspan x="50.0" class="g114s1" textLength="109.6" lengthAdjust="spacing">Reading the curves</tspan></text>
+<text y="4032.4" xml:space="preserve" class="g114s19"><tspan x="50.0" textLength="234.6" lengthAdjust="spacing">The reverse task’s validation loss, mean of </tspan><tspan x="284.6" class="g114s2">3</tspan><tspan x="291.7" textLength="538.2" lengthAdjust="spacing"> seeds, the averaged weights (EMA). Muon costs time: five extra matrix products per matrix per step, </tspan><tspan x="829.9" class="g114s2" textLength="25.5" lengthAdjust="spacing">28%</tspan><tspan x="855.3" textLength="216.1" lengthAdjust="spacing"> more per training step here on the CPU.</tspan></text>
+<rect x="34.0" y="4063.9" width="1812.0" height="30.0" rx="6" class="g114s15"/>
+<path d="M38.50 4064.65 A5.50 5.50 0 0 0 34.50 4069.94 V4087.94 A5.50 5.50 0 0 0 38.50 4093.23 Z" class="g114s20"/>
+<text y="4083.9" xml:space="preserve" class="g114s31"><tspan x="50.0" class="g114s1" textLength="21.4" lengthAdjust="spacing">H · </tspan><tspan x="71.4" class="g114s28" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="100.9" class="g114s1" textLength="52.1" lengthAdjust="spacing"> against </tspan><tspan x="153.0" class="g114s28" textLength="14.7" lengthAdjust="spacing">v3</tspan><tspan x="167.7" class="g114s1" textLength="94.2" lengthAdjust="spacing">: pros and cons</tspan></text>
+<text y="4083.9" xml:space="preserve" class="g114s32"><tspan x="279.9" textLength="72.9" lengthAdjust="spacing">with it against </tspan><tspan x="352.7" class="g114s11" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="378.8" textLength="43.3" lengthAdjust="spacing">’s way (</tspan><tspan x="422.1" class="g114s11" textLength="13.0" lengthAdjust="spacing">v3</tspan><tspan x="435.1" textLength="352.2" lengthAdjust="spacing"> with only this part taken out), in every condition of the experiment — </tspan><tspan x="787.3" class="g114s2">3</tspan><tspan x="794.1" textLength="62.0" lengthAdjust="spacing"> seeds each</tspan></text>
+<text y="4111.9" xml:space="preserve" class="g114s21"><tspan x="38.0" class="g114s1" textLength="69.3" lengthAdjust="spacing">What it fixes</tspan></text>
+<text y="4129.9" xml:space="preserve" class="g114s19"><tspan x="38.0" class="g114s13" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="65.2" textLength="44.5" lengthAdjust="spacing">’s way: </tspan><tspan x="109.7" class="g114s13" textLength="34.0" lengthAdjust="spacing">AdamW</tspan><tspan x="143.7" textLength="428.1" lengthAdjust="spacing"> sizes each number’s step; one direction of a matrix can take the whole update. </tspan><tspan x="571.7" class="g114s13" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="585.3" textLength="850.0" lengthAdjust="spacing">’s: Muon gives every direction of a matrix’s update about the same strength. A difference counts only when the three seeds’ ranges do not overlap (deep dive </tspan><tspan x="1435.3" class="g114s2" textLength="14.1" lengthAdjust="spacing">26</tspan><tspan x="1449.5" textLength="232.8" lengthAdjust="spacing">); each cell shows the mean and that range.</tspan></text>
+<rect x="34.0" y="4151.3" width="1812.0" height="24.0" rx="4" class="g114s15"/>
+<text y="4167.3" xml:space="preserve" class="g114s6"><tspan x="743.0" class="g114s41" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="766.8" class="g114s1" textLength="89.6" lengthAdjust="spacing">’s way (without it)</tspan></text>
+<text y="4167.3" xml:space="preserve" class="g114s6"><tspan x="1133.0" class="g114s41" textLength="11.9" lengthAdjust="spacing">v3</tspan><tspan x="1144.9" class="g114s1" textLength="39.0" lengthAdjust="spacing"> (with it)</tspan></text>
+<text y="4167.3" xml:space="preserve" class="g114s6"><tspan x="1523.0" class="g114s1" textLength="71.1" lengthAdjust="spacing">which is better</tspan></text>
+<text y="4192.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="183.6" lengthAdjust="spacing">unseen sentences, the usual run (</tspan><tspan x="226.6" class="g114s2" textLength="63.0" lengthAdjust="spacing">2,000 steps</tspan><tspan x="289.7" class="g114s1"> · </tspan><tspan x="299.8" class="g114s2" textLength="89.5" lengthAdjust="spacing">5,000 sentences</tspan><tspan x="389.3" class="g114s1"> · </tspan><tspan x="399.4" class="g114s2" textLength="66.4" lengthAdjust="spacing">25.6 epochs</tspan><tspan x="465.8" class="g114s1">)</tspan></text>
+<text x="743.0" y="4192.2" class="g114s0">56.9% (53.2–59.2)</text>
+<text x="1133.0" y="4192.2" class="g114s0">96.5% (95.6–97.4)</text>
+<text y="4192.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="39.5" lengthAdjust="spacing">with it ▲</tspan></text>
+<line x1="34.0" y1="4201.3" x2="1846.0" y2="4201.3" class="g114s3"/>
+<rect x="34.0" y="4201.3" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="4218.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="184.3" lengthAdjust="spacing">early in that run: validation loss at </tspan><tspan x="227.3" class="g114s2" textLength="46.8" lengthAdjust="spacing">step 500</tspan><tspan x="274.0" class="g114s1" textLength="87.4" lengthAdjust="spacing"> (lower is better)</tspan></text>
+<text x="743.0" y="4218.2" class="g114s0">2.048 (1.937–2.211)</text>
+<text x="1133.0" y="4218.2" class="g114s0">0.906 (0.871–0.928)</text>
+<text y="4218.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="39.5" lengthAdjust="spacing">with it ▲</tspan></text>
+<line x1="34.0" y1="4227.3" x2="1846.0" y2="4227.3" class="g114s3"/>
+<text y="4244.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="167.4" lengthAdjust="spacing">unseen sentences, a long run (</tspan><tspan x="210.4" class="g114s2" textLength="63.0" lengthAdjust="spacing">8,000 steps</tspan><tspan x="273.4" class="g114s1"> · </tspan><tspan x="283.6" class="g114s2" textLength="89.5" lengthAdjust="spacing">5,000 sentences</tspan><tspan x="373.0" class="g114s1"> · </tspan><tspan x="383.2" class="g114s2" textLength="73.2" lengthAdjust="spacing">102.4 epochs</tspan><tspan x="456.4" class="g114s1">)</tspan></text>
+<text x="743.0" y="4244.2" class="g114s0">97.1% (96.4–97.6)</text>
+<text x="1133.0" y="4244.2" class="g114s0">99.7% (99.6–99.8)</text>
+<text y="4244.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="39.5" lengthAdjust="spacing">with it ▲</tspan></text>
+<line x1="34.0" y1="4253.3" x2="1846.0" y2="4253.3" class="g114s3"/>
+<rect x="34.0" y="4253.3" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="4270.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="195.1" lengthAdjust="spacing">unseen sentences, a small dataset (</tspan><tspan x="238.1" class="g114s2" textLength="63.0" lengthAdjust="spacing">2,000 steps</tspan><tspan x="301.2" class="g114s1"> · </tspan><tspan x="311.3" class="g114s2" textLength="89.5" lengthAdjust="spacing">1,000 sentences</tspan><tspan x="400.8" class="g114s1"> · </tspan><tspan x="410.9" class="g114s2" textLength="73.2" lengthAdjust="spacing">128.0 epochs</tspan><tspan x="484.1" class="g114s1">)</tspan></text>
+<text x="743.0" y="4270.2" class="g114s0">9.9% (6.4–14.0)</text>
+<text x="1133.0" y="4270.2" class="g114s0">36.5% (31.6–44.0)</text>
+<text y="4270.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="39.5" lengthAdjust="spacing">with it ▲</tspan></text>
+<line x1="34.0" y1="4279.3" x2="1846.0" y2="4279.3" class="g114s3"/>
+<text y="4296.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="183.0" lengthAdjust="spacing">unseen sentences, a big dataset (</tspan><tspan x="226.0" class="g114s2" textLength="63.0" lengthAdjust="spacing">2,000 steps</tspan><tspan x="289.0" class="g114s1"> · </tspan><tspan x="299.1" class="g114s2" textLength="96.2" lengthAdjust="spacing">20,000 sentences</tspan><tspan x="395.4" class="g114s1"> · </tspan><tspan x="405.5" class="g114s2" textLength="59.6" lengthAdjust="spacing">6.4 epochs</tspan><tspan x="465.2" class="g114s1">)</tspan></text>
+<text x="743.0" y="4296.2" class="g114s0">66.3% (64.2–69.6)</text>
+<text x="1133.0" y="4296.2" class="g114s0">98.1% (97.6–98.6)</text>
+<text y="4296.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="39.5" lengthAdjust="spacing">with it ▲</tspan></text>
+<line x1="34.0" y1="4305.3" x2="1846.0" y2="4305.3" class="g114s3"/>
+<rect x="34.0" y="4305.3" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="4322.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="277.8" lengthAdjust="spacing">sentences longer than any trained on, the usual run</tspan></text>
+<text x="743.0" y="4322.2" class="g114s0">0.3% (0.2–0.6)</text>
+<text x="1133.0" y="4322.2" class="g114s0">73.4% (51.6–93.0)</text>
+<text y="4322.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="39.5" lengthAdjust="spacing">with it ▲</tspan></text>
+<line x1="34.0" y1="4331.3" x2="1846.0" y2="4331.3" class="g114s3"/>
+<text y="4348.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="164.0" lengthAdjust="spacing">longer sentences, the long run</tspan></text>
+<text x="743.0" y="4348.2" class="g114s0">33.7% (19.0–42.6)</text>
+<text x="1133.0" y="4348.2" class="g114s0">68.5% (50.8–77.4)</text>
+<text y="4348.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="39.5" lengthAdjust="spacing">with it ▲</tspan></text>
+<line x1="34.0" y1="4357.3" x2="1846.0" y2="4357.3" class="g114s3"/>
+<rect x="34.0" y="4357.3" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="4374.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="235.8" lengthAdjust="spacing">the easy task (translate), unseen sentences</tspan></text>
+<text x="743.0" y="4374.2" class="g114s0">100.0% (100.0–100.0)</text>
+<text x="1133.0" y="4374.2" class="g114s0">100.0% (100.0–100.0)</text>
+<text y="4374.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="94.6" lengthAdjust="spacing">no clear difference</tspan></text>
+<line x1="34.0" y1="4383.3" x2="1846.0" y2="4383.3" class="g114s3"/>
+<text y="4400.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="233.6" lengthAdjust="spacing">learned numbers (the experiment’s model)</tspan></text>
+<text x="743.0" y="4400.2" class="g114s0">1,553,452</text>
+<text x="1133.0" y="4400.2" class="g114s0">1,553,452</text>
+<text y="4400.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="47.3" lengthAdjust="spacing">the same</tspan></text>
+<line x1="34.0" y1="4409.3" x2="1846.0" y2="4409.3" class="g114s3"/>
+<rect x="34.0" y="4409.3" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="4426.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s1" textLength="250.7" lengthAdjust="spacing">time per training step, this CPU (the usual run)</tspan></text>
+<text x="743.0" y="4426.2" class="g114s0">82 ms</text>
+<text x="1133.0" y="4426.2" class="g114s0">105 ms</text>
+<text y="4426.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="65.8" lengthAdjust="spacing">slower with it</tspan></text>
+<line x1="34.0" y1="4435.3" x2="1846.0" y2="4435.3" class="g114s3"/>
+<text y="4452.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="32.5" lengthAdjust="spacing">AdamW</tspan><tspan x="75.5" class="g114s1" textLength="71.8" lengthAdjust="spacing"> alone with a </tspan><tspan x="147.4" class="g114s2" textLength="20.9" lengthAdjust="spacing">10×</tspan><tspan x="168.2" class="g114s1" textLength="167.3" lengthAdjust="spacing"> larger learning rate (usual run)</tspan></text>
+<text x="743.0" y="4452.2" class="g114s0">97.4% (96.8–97.8)</text>
+<text x="1133.0" y="4452.2" class="g114s0">96.5% (95.6–97.4)</text>
+<text y="4452.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="94.6" lengthAdjust="spacing">no clear difference</tspan></text>
+<line x1="34.0" y1="4461.3" x2="1846.0" y2="4461.3" class="g114s3"/>
+<rect x="34.0" y="4461.3" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="4478.2" xml:space="preserve" class="g114s8"><tspan x="43.0" class="g114s11" textLength="58.6" lengthAdjust="spacing">optimizer</tspan><tspan x="101.6" class="g114s1" textLength="327.2" lengthAdjust="spacing"> memory (the real model, numbers kept besides the weights)</tspan></text>
+<text x="743.0" y="4478.2" class="g114s0">65,087,966</text>
+<text x="1133.0" y="4478.2" class="g114s0">40,835,550</text>
+<text y="4478.2" xml:space="preserve" class="g114s18"><tspan x="1523.0" textLength="53.0" lengthAdjust="spacing">less with it</tspan></text>
+<line x1="34.0" y1="4487.3" x2="1846.0" y2="4487.3" class="g114s3"/>
+<rect x="34.0" y="4175.3" width="1812.0" height="312.0" rx="0" class="g114s25"/>
+<line x1="734.0" y1="4175.3" x2="734.0" y2="4487.3" class="g114s3"/>
+<line x1="1124.0" y1="4175.3" x2="1124.0" y2="4487.3" class="g114s3"/>
+<line x1="1514.0" y1="4175.3" x2="1514.0" y2="4487.3" class="g114s3"/>
+<rect x="34.0" y="4499.3" width="1812.0" height="55.0" rx="6" class="g114s50"/>
+<path d="M38.50 4500.05 A5.50 5.50 0 0 0 34.50 4505.34 V4548.38 A5.50 5.50 0 0 0 38.50 4553.67 Z" class="g114s51"/>
+<text y="4525.3" xml:space="preserve" class="g114s21"><tspan x="50.0" class="g114s1" textLength="57.3" lengthAdjust="spacing">Reading it</tspan></text>
+<text y="4542.9" xml:space="preserve" class="g114s19"><tspan x="50.0" textLength="212.1" lengthAdjust="spacing">Measured so far: with it clearly better in </tspan><tspan x="262.1" class="g114s2">7</tspan><tspan x="269.1" textLength="36.7" lengthAdjust="spacing"> of the </tspan><tspan x="305.8" class="g114s2">8</tspan><tspan x="312.9" textLength="220.7" lengthAdjust="spacing"> measured comparisons, clearly worse in </tspan><tspan x="533.6" class="g114s2">0</tspan><tspan x="540.7" textLength="121.4" lengthAdjust="spacing">, no clear difference in </tspan><tspan x="662.1" class="g114s2">1</tspan><tspan x="669.2" textLength="385.9" lengthAdjust="spacing">. Its costs are in the last rows. “Without it” changes only this one part of </tspan><tspan x="1055.1" class="g114s13" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="1068.7">; </tspan><tspan x="1075.3" class="g114s13" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="1102.5" textLength="106.1" lengthAdjust="spacing"> as a whole against </tspan><tspan x="1208.6" class="g114s13" textLength="13.6" lengthAdjust="spacing">v3</tspan><tspan x="1222.1" textLength="83.4" lengthAdjust="spacing"> is in deep dive </tspan><tspan x="1305.5" class="g114s2" textLength="14.1" lengthAdjust="spacing">26</tspan><tspan x="1319.7" textLength="144.1" lengthAdjust="spacing"> and on the overview page.</tspan></text>
+<rect x="34.0" y="4574.4" width="1812.0" height="30.0" rx="6" class="g114s15"/>
+<path d="M38.50 4575.09 A5.50 5.50 0 0 0 34.50 4580.38 V4598.38 A5.50 5.50 0 0 0 38.50 4603.67 Z" class="g114s20"/>
+<text y="4594.4" xml:space="preserve" class="g114s31"><tspan x="50.0" class="g114s1" textLength="211.3" lengthAdjust="spacing">Claims · Common claims, checked</tspan></text>
+<text y="4594.4" xml:space="preserve" class="g114s32"><tspan x="279.3" textLength="147.5" lengthAdjust="spacing">against this page’s numbers</tspan></text>
+<rect x="34.0" y="4620.4" width="1812.0" height="24.0" rx="4" class="g114s15"/>
+<text y="4636.4" xml:space="preserve" class="g114s6"><tspan x="43.0" class="g114s1" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="4636.4" xml:space="preserve" class="g114s6"><tspan x="603.0" class="g114s1" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="4636.4" xml:space="preserve" class="g114s6"><tspan x="713.0" class="g114s1" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
+<text y="4661.1" xml:space="preserve" class="g114s46"><tspan x="43.0" class="g114s1" textLength="79.7" lengthAdjust="spacing">Muon replaces </tspan><tspan x="122.7" class="g114s22" textLength="24.9" lengthAdjust="spacing">Adam</tspan><tspan x="147.6" class="g114s1">.</tspan></text>
+<text y="4661.1" xml:space="preserve" class="g114s29"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="4661.1" xml:space="preserve" class="g114s29"><tspan x="713.0" class="g114s22" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="725.4" textLength="119.8" lengthAdjust="spacing"> runs both: Muon for the </tspan><tspan x="845.3" class="g114s2" textLength="106.9" lengthAdjust="spacing">24,252,416 numbers</tspan><tspan x="952.2" textLength="119.7" lengthAdjust="spacing"> in the layers’ matrices, </tspan><tspan x="1071.9" class="g114s22" textLength="31.1" lengthAdjust="spacing">AdamW</tspan><tspan x="1103.1" textLength="305.7" lengthAdjust="spacing"> for the embedding table, the routers, the gains and the biases.</tspan></text>
+<line x1="34.0" y1="4670.4" x2="1846.0" y2="4670.4" class="g114s3"/>
+<rect x="34.0" y="4670.4" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="4687.1" xml:space="preserve" class="g114s46"><tspan x="43.0" class="g114s1" textLength="237.8" lengthAdjust="spacing">Newton–Schulz makes every strength exactly </tspan><tspan x="280.8" class="g114s2">1</tspan><tspan x="287.3" class="g114s1">.</tspan></text>
+<text y="4687.1" xml:space="preserve" class="g114s29"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="4687.1" xml:space="preserve" class="g114s29"><tspan x="713.0" textLength="30.6" lengthAdjust="spacing">about </tspan><tspan x="743.6" class="g114s2">1</tspan><tspan x="750.1" textLength="31.2" lengthAdjust="spacing">: after </tspan><tspan x="781.2" class="g114s2" textLength="37.6" lengthAdjust="spacing">5 steps</tspan><tspan x="818.8" textLength="85.6" lengthAdjust="spacing"> they lie between </tspan><tspan x="904.4" class="g114s2" textLength="22.7" lengthAdjust="spacing">0.68</tspan><tspan x="927.1" textLength="24.5" lengthAdjust="spacing"> and </tspan><tspan x="951.6" class="g114s2" textLength="22.7" lengthAdjust="spacing">1.17</tspan><tspan x="974.3" textLength="254.3" lengthAdjust="spacing"> here (section B) — fast coefficients, not exact ones.</tspan></text>
+<line x1="34.0" y1="4696.4" x2="1846.0" y2="4696.4" class="g114s3"/>
+<text y="4713.1" xml:space="preserve" class="g114s46"><tspan x="43.0" class="g114s1" textLength="272.2" lengthAdjust="spacing">Muon changes which directions the weights move in.</tspan></text>
+<text y="4713.1" xml:space="preserve" class="g114s29"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="4713.1" xml:space="preserve" class="g114s29"><tspan x="713.0" textLength="377.7" lengthAdjust="spacing">the directions are the gradient’s own; only their strengths change (section B).</tspan></text>
+<line x1="34.0" y1="4722.4" x2="1846.0" y2="4722.4" class="g114s3"/>
+<rect x="34.0" y="4722.4" width="1812.0" height="26.0" rx="0" class="g114s12"/>
+<text y="4739.1" xml:space="preserve" class="g114s46"><tspan x="43.0" class="g114s1" textLength="68.0" lengthAdjust="spacing">Muon is why </tspan><tspan x="111.0" class="g114s22" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="123.5" class="g114s1" textLength="29.2" lengthAdjust="spacing"> beat </tspan><tspan x="152.7" class="g114s22" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="177.6" class="g114s1" textLength="105.6" lengthAdjust="spacing"> on the reverse task.</tspan></text>
+<text y="4739.1" xml:space="preserve" class="g114s29"><tspan x="603.0" textLength="40.4" lengthAdjust="spacing">not here</tspan></text>
+<text y="4739.1" xml:space="preserve" class="g114s29"><tspan x="713.0" textLength="329.4" lengthAdjust="spacing">it made the biggest difference at the notebook’s learning rates, but </tspan><tspan x="1042.4" class="g114s22" textLength="31.1" lengthAdjust="spacing">AdamW</tspan><tspan x="1073.6" textLength="34.8" lengthAdjust="spacing"> with a </tspan><tspan x="1108.4" class="g114s2" textLength="20.0" lengthAdjust="spacing">10×</tspan><tspan x="1128.4" textLength="406.0" lengthAdjust="spacing"> larger one matches it on unseen sentences; longer ones stay unsettled (section F).</tspan></text>
+<line x1="34.0" y1="4748.4" x2="1846.0" y2="4748.4" class="g114s3"/>
+<text y="4765.1" xml:space="preserve" class="g114s46"><tspan x="43.0" class="g114s1" textLength="67.4" lengthAdjust="spacing">Muon is free.</tspan></text>
+<text y="4765.1" xml:space="preserve" class="g114s29"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="4765.1" xml:space="preserve" class="g114s29"><tspan x="713.0" textLength="277.5" lengthAdjust="spacing">five extra matrix products per matrix per step (section G).</tspan></text>
+<line x1="34.0" y1="4774.4" x2="1846.0" y2="4774.4" class="g114s3"/>
+<rect x="34.0" y="4644.4" width="1812.0" height="130.0" rx="0" class="g114s25"/>
+<line x1="594.0" y1="4644.4" x2="594.0" y2="4774.4" class="g114s3"/>
+<line x1="704.0" y1="4644.4" x2="704.0" y2="4774.4" class="g114s3"/>
+<line x1="28.0" y1="4800.4" x2="1852.0" y2="4800.4" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="4817.4" xml:space="preserve" class="g114s68"><tspan x="28.0" textLength="341.7" lengthAdjust="spacing">Numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="369.7" class="g114s22" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="382.2" textLength="105.2" lengthAdjust="spacing"> notebook (written by </tspan><tspan x="487.3" class="g114s22" textLength="37.3" lengthAdjust="spacing">nb3.py</tspan><tspan x="524.7" textLength="28.1" lengthAdjust="spacing"> from </tspan><tspan x="552.8" class="g114s22" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="577.7" textLength="195.1" lengthAdjust="spacing">; your notebooks are only read) and the </tspan><tspan x="772.7" class="g114s22" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="797.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="940.7" class="g114s2" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="956.9" textLength="280.0" lengthAdjust="spacing">.0 on their own two sentence pairs (CPU, seeded). Every </tspan><tspan x="1236.9" class="g114s22" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1249.4" textLength="234.1" lengthAdjust="spacing"> change is tested on the notebook’s own code (</tspan><tspan x="1483.4" class="g114s22" textLength="56.0" lengthAdjust="spacing">check3.py</tspan><tspan x="1539.5" textLength="199.9" lengthAdjust="spacing">). TINY-MODEL numbers come from the </tspan><tspan x="1739.3" class="g114s22" textLength="12.4" lengthAdjust="spacing">v3</tspan><tspan x="1751.8" textLength="85.6" lengthAdjust="spacing"> classes built with</tspan></text>
+<text y="4832.4" xml:space="preserve" class="g114s68"><tspan x="28.0" class="g114s2" textLength="55.1" lengthAdjust="spacing">8 numbers</tspan><tspan x="83.1" textLength="472.6" lengthAdjust="spacing"> a token and trained on five sentences; a pure-Python copy of that model agrees with PyTorch to </tspan><tspan x="555.7" class="g114s2" textLength="29.8" lengthAdjust="spacing">1e-04</tspan><tspan x="585.5">.</tspan></text>
+</svg>

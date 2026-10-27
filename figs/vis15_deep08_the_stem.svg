@@ -1,0 +1,201 @@
+<svg data-src="vis15_deep08_the_stem.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="2015" viewBox="0 0 1880 2015">
+<style>.txfig .g154s0{font-weight:600}.txfig .g154s1{font-weight:600;fill:var(--ink)}.txfig .g154s2{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g154s3{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.3px;text-anchor:start}.txfig .g154s4{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px;text-anchor:start}.txfig .g154s5{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g154s6{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.5px;text-anchor:start}.txfig .g154s7{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g154s8{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.7px;font-weight:600;fill:var(--ink)}.txfig .g154s9{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g154s10{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g154s11{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g154s12{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g154s13{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.4px}.txfig .g154s14{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g154s15{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.3px;font-weight:600}.txfig .g154s16{fill:var(--accent);stroke:none}.txfig .g154s17{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g154s18{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g154s19{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g154s20{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g154s21{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g154s22{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600}.txfig .g154s23{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g154s24{fill:var(--keep);stroke:none}.txfig .g154s25{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g154s26{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start}.txfig .g154s27{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.8px;font-weight:600;fill:var(--ink)}.txfig .g154s28{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g154s29{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}</style>
+<defs><pattern id="hatch154" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash154" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="2015" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">VISION v1.5 · DEEP DIVES · Q8</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="244.6" class="g154s0" textLength="532.0" lengthAdjust="spacing">The convolutional stem: do overlapping patches help?</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g154s11" textLength="29.4" lengthAdjust="spacing">v1.5</tspan><tspan x="63.4" textLength="109.1" lengthAdjust="spacing"> trained again with </tspan><tspan x="172.5" class="g154s11" textLength="14.7" lengthAdjust="spacing">v1</tspan><tspan x="187.2" textLength="101.0" lengthAdjust="spacing">’s hard squares: </tspan><tspan x="288.3" class="g154s1" textLength="31.3" lengthAdjust="spacing">8 × 8</tspan><tspan x="319.5" textLength="96.8" lengthAdjust="spacing"> for the patches, </tspan><tspan x="416.3" class="g154s1" textLength="31.3" lengthAdjust="spacing">4 × 4</tspan><tspan x="447.6" textLength="70.1" lengthAdjust="spacing"> for the cells</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="93.3" lengthAdjust="spacing">Everything else is </tspan><tspan x="127.3" class="g154s20" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="153.3" textLength="518.9" lengthAdjust="spacing">’s — the rotary positions, the decoder, the training. Only the first step changes: two convolutions with </tspan><tspan x="672.2" class="g154s20" textLength="84.6" lengthAdjust="spacing">window = step</tspan><tspan x="756.8" textLength="180.3" lengthAdjust="spacing">, which cut the picture into squares.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g154s23"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g154s24"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g154s0" textLength="261.5" lengthAdjust="spacing">Overlapping windows, or hard squares?</tspan></text>
+<text y="169.0" xml:space="preserve" class="g154s25"><tspan x="54.0" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="76.4"> </tspan><tspan x="80.4" textLength="28.2" lengthAdjust="spacing">stem</tspan><tspan x="108.6"> </tspan><tspan x="112.6" textLength="46.2" lengthAdjust="spacing">reaches</tspan><tspan x="158.8"> </tspan><tspan x="162.8" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="191.0"> </tspan><tspan x="195.0" textLength="31.8" lengthAdjust="spacing">patch</tspan><tspan x="226.8"> </tspan><tspan x="230.8" textLength="44.1" lengthAdjust="spacing">through</tspan><tspan x="274.8"> </tspan><tspan x="278.8" textLength="29.6" lengthAdjust="spacing">three</tspan><tspan x="308.5"> </tspan><tspan x="312.5" textLength="30.3" lengthAdjust="spacing">small</tspan><tspan x="342.8"> </tspan><tspan x="346.8" class="g154s1" textLength="31.3" lengthAdjust="spacing">3 × 3</tspan><tspan x="378.0"> </tspan><tspan x="382.0" textLength="72.3" lengthAdjust="spacing">convolutions</tspan><tspan x="454.3"> </tspan><tspan x="458.3" textLength="37.6" lengthAdjust="spacing">whose</tspan><tspan x="495.8"> </tspan><tspan x="499.8" textLength="49.8" lengthAdjust="spacing">windows</tspan><tspan x="549.7"> </tspan><tspan x="553.7" textLength="46.2" lengthAdjust="spacing">overlap,</tspan><tspan x="599.9"> </tspan><tspan x="603.9" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="632.1"> </tspan><tspan x="636.1" textLength="47.7" lengthAdjust="spacing">followed</tspan><tspan x="683.8"> </tspan><tspan x="687.8" textLength="13.7" lengthAdjust="spacing">by</tspan><tspan x="701.5"> </tspan><tspan x="705.5" class="g154s11" textLength="66.2" lengthAdjust="spacing">BatchNorm</tspan><tspan x="771.7"> </tspan><tspan x="775.7" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="797.4"> </tspan><tspan x="801.3" class="g154s11" textLength="29.4" lengthAdjust="spacing">GELU</tspan><tspan x="830.8">.</tspan><tspan x="834.4"> </tspan><tspan x="838.4" textLength="44.1" lengthAdjust="spacing">Without</tspan><tspan x="882.5"> </tspan><tspan x="886.4" textLength="10.1" lengthAdjust="spacing">it,</tspan><tspan x="896.6"> </tspan><tspan x="900.6" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="922.2"> </tspan><tspan x="926.2" textLength="65.8" lengthAdjust="spacing">convolution</tspan><tspan x="992.0"> </tspan><tspan x="996.0" textLength="23.8" lengthAdjust="spacing">cuts</tspan><tspan x="1019.8"> </tspan><tspan x="1023.8" textLength="26.0" lengthAdjust="spacing">hard</tspan><tspan x="1049.8"> </tspan><tspan x="1053.8" class="g154s1" textLength="31.3" lengthAdjust="spacing">8 × 8</tspan><tspan x="1085.1"> </tspan><tspan x="1089.1" textLength="46.2" lengthAdjust="spacing">squares</tspan><tspan x="1135.3"> </tspan><tspan x="1139.3">(</tspan><tspan x="1143.6" class="g154s11" textLength="14.7" lengthAdjust="spacing">v1</tspan><tspan x="1158.3" textLength="14.3" lengthAdjust="spacing">’s</tspan><tspan x="1172.6"> </tspan><tspan x="1176.6" class="g154s11" textLength="103.0" lengthAdjust="spacing">PatchEmbedding</tspan><tspan x="1279.6">)</tspan><tspan x="1283.9"> </tspan><tspan x="1287.9" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1309.6"> </tspan><tspan x="1313.6" textLength="44.1" lengthAdjust="spacing">another</tspan><tspan x="1357.7"> </tspan><tspan x="1361.7" textLength="26.0" lengthAdjust="spacing">hard</tspan><tspan x="1387.7"> </tspan><tspan x="1391.7" class="g154s1" textLength="31.3" lengthAdjust="spacing">4 × 4</tspan><tspan x="1423.0"> </tspan><tspan x="1426.9" textLength="46.2" lengthAdjust="spacing">squares</tspan><tspan x="1473.2"> </tspan><tspan x="1477.2" textLength="15.2" lengthAdjust="spacing">for</tspan><tspan x="1492.3"> </tspan><tspan x="1496.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1514.4"> </tspan><tspan x="1518.4" textLength="29.6" lengthAdjust="spacing">cells.</tspan><tspan x="1548.0"> </tspan><tspan x="1552.0" textLength="26.7" lengthAdjust="spacing">Both</tspan><tspan x="1578.8"> </tspan><tspan x="1582.7" textLength="41.9" lengthAdjust="spacing">models</tspan><tspan x="1624.6"> </tspan><tspan x="1628.6" textLength="28.2" lengthAdjust="spacing">were</tspan><tspan x="1656.8"> </tspan><tspan x="1660.8" textLength="39.7" lengthAdjust="spacing">trained</tspan><tspan x="1700.5"> </tspan><tspan x="1704.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1722.6"> </tspan><tspan x="1726.6" textLength="31.8" lengthAdjust="spacing">same</tspan><tspan x="1758.4"> </tspan><tspan x="1762.4" textLength="23.1" lengthAdjust="spacing">way</tspan><tspan x="1785.5"> </tspan><tspan x="1789.5" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="1803.9"> </tspan><tspan x="1807.9" textLength="18.1" lengthAdjust="spacing">the</tspan></text>
+<text y="188.0" xml:space="preserve" class="g154s25"><tspan x="54.0" textLength="99.7" lengthAdjust="spacing">same three tests.</tspan></text>
+<rect x="34.0" y="242.0" width="1812.0" height="30.0" rx="6" class="g154s9"/>
+<path d="M38.50 242.71 A5.50 5.50 0 0 0 34.50 248.00 V266.00 A5.50 5.50 0 0 0 38.50 271.29 Z" class="g154s16"/>
+<text y="262.0" xml:space="preserve" class="g154s17"><tspan x="50.0" class="g154s0" textLength="229.8" lengthAdjust="spacing">A · The three tests, with it and without</tspan></text>
+<text y="262.0" xml:space="preserve" class="g154s18"><tspan x="297.8" textLength="38.4" lengthAdjust="spacing">person </tspan><tspan x="336.1" class="g154s20" textLength="19.5" lengthAdjust="spacing">IoU</tspan><tspan x="355.7" textLength="110.6" lengthAdjust="spacing">, and accuracy within </tspan><tspan x="466.2" class="g154s1">4</tspan><tspan x="473.0" textLength="276.8" lengthAdjust="spacing"> photo pixels of an outline — where the two differ most</tspan></text>
+<rect x="34.0" y="298.0" width="1812.0" height="24.0" rx="4" class="g154s9"/>
+<text y="314.0" xml:space="preserve" class="g154s5"><tspan x="43.0" class="g154s0" textLength="17.9" lengthAdjust="spacing">test</tspan></text>
+<text y="314.0" xml:space="preserve" class="g154s5"><tspan x="403.0" class="g154s7" textLength="17.8" lengthAdjust="spacing">IoU</tspan><tspan x="420.8" class="g154s0" textLength="74.2" lengthAdjust="spacing"> · hard squares</tspan></text>
+<text y="314.0" xml:space="preserve" class="g154s5"><tspan x="653.0" class="g154s7" textLength="17.8" lengthAdjust="spacing">IoU</tspan><tspan x="670.8" class="g154s0"> · </tspan><tspan x="680.1" class="g154s7" textLength="23.8" lengthAdjust="spacing">v1.5</tspan></text>
+<text y="314.0" xml:space="preserve" class="g154s5"><tspan x="853.0" class="g154s0" textLength="36.5" lengthAdjust="spacing">change</tspan></text>
+<text y="314.0" xml:space="preserve" class="g154s5"><tspan x="1023.0" class="g154s0" textLength="151.0" lengthAdjust="spacing">near the outline · hard squares</tspan></text>
+<text y="314.0" xml:space="preserve" class="g154s5"><tspan x="1323.0" class="g154s0" textLength="86.0" lengthAdjust="spacing">near the outline · </tspan><tspan x="1409.0" class="g154s7" textLength="23.8" lengthAdjust="spacing">v1.5</tspan></text>
+<text y="314.0" xml:space="preserve" class="g154s5"><tspan x="1583.0" class="g154s0" textLength="36.5" lengthAdjust="spacing">change</tspan></text>
+<text y="340.1" xml:space="preserve" class="g154s10"><tspan x="43.0" class="g154s0" textLength="133.6" lengthAdjust="spacing">(c) the photos it learned</tspan></text>
+<text x="403.0" y="340.1" class="g154s4">96.8%</text>
+<text x="653.0" y="340.1" class="g154s4">97.4%</text>
+<text x="853.0" y="340.1" class="g154s4">+0.5</text>
+<text x="1023.0" y="340.1" class="g154s4">86.3%</text>
+<text x="1323.0" y="340.1" class="g154s4">88.4%</text>
+<text x="1583.0" y="340.1" class="g154s4">+2.1</text>
+<line x1="34.0" y1="350.0" x2="1846.0" y2="350.0" class="g154s2"/>
+<rect x="34.0" y="350.0" width="1812.0" height="28.0" rx="0" class="g154s14"/>
+<text y="368.1" xml:space="preserve" class="g154s10"><tspan x="43.0" class="g154s0" textLength="132.9" lengthAdjust="spacing">(a) a photo it never saw</tspan></text>
+<text x="403.0" y="368.1" class="g154s4">52.6%</text>
+<text x="653.0" y="368.1" class="g154s4">59.8%</text>
+<text x="853.0" y="368.1" class="g154s4">+7.2</text>
+<text x="1023.0" y="368.1" class="g154s4">53.3%</text>
+<text x="1323.0" y="368.1" class="g154s4">57.7%</text>
+<text x="1583.0" y="368.1" class="g154s4">+4.4</text>
+<line x1="34.0" y1="378.0" x2="1846.0" y2="378.0" class="g154s2"/>
+<text y="396.1" xml:space="preserve" class="g154s10"><tspan x="43.0" class="g154s0" textLength="128.7" lengthAdjust="spacing">(b) people it never saw</tspan></text>
+<text x="403.0" y="396.1" class="g154s4">81.1%</text>
+<text x="653.0" y="396.1" class="g154s4">82.5%</text>
+<text x="853.0" y="396.1" class="g154s4">+1.5</text>
+<text x="1023.0" y="396.1" class="g154s4">66.3%</text>
+<text x="1323.0" y="396.1" class="g154s4">66.6%</text>
+<text x="1583.0" y="396.1" class="g154s4">+0.3</text>
+<line x1="34.0" y1="406.0" x2="1846.0" y2="406.0" class="g154s2"/>
+<rect x="34.0" y="322.0" width="1812.0" height="84.0" rx="0" class="g154s12"/>
+<line x1="394.0" y1="322.0" x2="394.0" y2="406.0" class="g154s2"/>
+<line x1="644.0" y1="322.0" x2="644.0" y2="406.0" class="g154s2"/>
+<line x1="844.0" y1="322.0" x2="844.0" y2="406.0" class="g154s2"/>
+<line x1="1014.0" y1="322.0" x2="1014.0" y2="406.0" class="g154s2"/>
+<line x1="1314.0" y1="322.0" x2="1314.0" y2="406.0" class="g154s2"/>
+<line x1="1574.0" y1="322.0" x2="1574.0" y2="406.0" class="g154s2"/>
+<text y="426.4" xml:space="preserve" class="g154s13"><tspan x="34.0" textLength="141.3" lengthAdjust="spacing">It helps on all three tests: </tspan><tspan x="175.3" class="g154s8" textLength="56.1" lengthAdjust="spacing">(c) +0.5</tspan><tspan x="231.4" textLength="43.4" lengthAdjust="spacing"> points, </tspan><tspan x="274.9" class="g154s8" textLength="56.1" lengthAdjust="spacing">(a) +7.2</tspan><tspan x="331.0" textLength="43.4" lengthAdjust="spacing"> points, </tspan><tspan x="374.4" class="g154s8" textLength="56.1" lengthAdjust="spacing">(b) +1.5</tspan><tspan x="430.6" textLength="350.8" lengthAdjust="spacing"> points. With hard squares a patch sees nothing outside its own </tspan><tspan x="781.4" class="g154s1" textLength="29.8" lengthAdjust="spacing">8 × 8</tspan><tspan x="811.2" textLength="177.8" lengthAdjust="spacing"> pixels; through the stem it sees </tspan><tspan x="989.0" class="g154s1" textLength="44.4" lengthAdjust="spacing">15 × 15</tspan><tspan x="1033.4">.</tspan></text>
+<rect x="34.0" y="454.0" width="1812.0" height="30.0" rx="6" class="g154s9"/>
+<path d="M38.50 454.69 A5.50 5.50 0 0 0 34.50 459.98 V477.98 A5.50 5.50 0 0 0 38.50 483.27 Z" class="g154s16"/>
+<text y="474.0" xml:space="preserve" class="g154s17"><tspan x="50.0" class="g154s0" textLength="99.6" lengthAdjust="spacing">B · What it costs</tspan></text>
+<text y="474.0" xml:space="preserve" class="g154s18"><tspan x="167.6" textLength="269.1" lengthAdjust="spacing">learned numbers, training time and one forward pass</tspan></text>
+<rect x="34.0" y="510.0" width="1812.0" height="24.0" rx="4" class="g154s9"/>
+<text y="526.0" xml:space="preserve" class="g154s5"><tspan x="743.0" class="g154s0" textLength="65.0" lengthAdjust="spacing">hard squares</tspan></text>
+<text y="526.0" xml:space="preserve" class="g154s5"><tspan x="1193.0" class="g154s7" textLength="23.8" lengthAdjust="spacing">v1.5</tspan></text>
+<text y="552.1" xml:space="preserve" class="g154s10"><tspan x="43.0" class="g154s0" textLength="95.4" lengthAdjust="spacing">learned numbers</tspan></text>
+<text x="743.0" y="552.1" class="g154s4">1,226,562</text>
+<text x="1193.0" y="552.1" class="g154s4">1,308,706</text>
+<line x1="34.0" y1="562.0" x2="1846.0" y2="562.0" class="g154s2"/>
+<rect x="34.0" y="562.0" width="1812.0" height="28.0" rx="0" class="g154s14"/>
+<text y="580.1" xml:space="preserve" class="g154s10"><tspan x="43.0" class="g154s0" textLength="48.8" lengthAdjust="spacing">training, </tspan><tspan x="91.8" class="g154s1" textLength="58.7" lengthAdjust="spacing">60 epochs</tspan><tspan x="150.5" class="g154s0" textLength="113.7" lengthAdjust="spacing"> on this Mac’s GPU</tspan></text>
+<text x="743.0" y="580.1" class="g154s4">1637 s</text>
+<text x="1193.0" y="580.1" class="g154s4">1664 s</text>
+<line x1="34.0" y1="590.0" x2="1846.0" y2="590.0" class="g154s2"/>
+<text y="608.1" xml:space="preserve" class="g154s10"><tspan x="43.0" class="g154s0" textLength="241.8" lengthAdjust="spacing">one picture through the model, on the CPU</tspan></text>
+<text x="743.0" y="608.1" class="g154s4">38 ms</text>
+<text x="1193.0" y="608.1" class="g154s4">41 ms</text>
+<line x1="34.0" y1="618.0" x2="1846.0" y2="618.0" class="g154s2"/>
+<rect x="34.0" y="534.0" width="1812.0" height="84.0" rx="0" class="g154s12"/>
+<line x1="734.0" y1="534.0" x2="734.0" y2="618.0" class="g154s2"/>
+<line x1="1184.0" y1="534.0" x2="1184.0" y2="618.0" class="g154s2"/>
+<rect x="34.0" y="630.0" width="1812.0" height="30.0" rx="6" class="g154s9"/>
+<path d="M38.50 630.69 A5.50 5.50 0 0 0 34.50 635.98 V653.98 A5.50 5.50 0 0 0 38.50 659.27 Z" class="g154s16"/>
+<text y="650.0" xml:space="preserve" class="g154s17"><tspan x="50.0" class="g154s0" textLength="304.1" lengthAdjust="spacing">C · The people test (b) hides, at the right of photo </tspan><tspan x="354.1" class="g154s1">1</tspan></text>
+<text y="650.0" xml:space="preserve" class="g154s18"><tspan x="379.8" textLength="230.5" lengthAdjust="spacing">each model’s answer at the photo’s full size</tspan></text>
+<rect x="34.0" y="690.0" width="12.0" height="12.0" rx="3" style="fill:#8a4bd3;stroke:none;stroke-width:1"/>
+<text x="52.0" y="700.5" class="g154s21">person, found</text>
+<rect x="144.0" y="690.0" width="12.0" height="12.0" rx="3" style="fill:#e67800;stroke:none;stroke-width:1"/>
+<text x="162.0" y="700.5" class="g154s21">person, missed</text>
+<rect x="261.5" y="690.0" width="12.0" height="12.0" rx="3" style="fill:#dc1e3c;stroke:none;stroke-width:1"/>
+<text x="279.5" y="700.5" class="g154s21">background painted as person</text>
+<text x="565.0" y="728.0" class="g154s26">hard squares · photo 1 · IoU 91.9%</text>
+<image href="figs/vis15_q8_without.png?v=f1f4112ac7" x="565.0" y="738.0" width="360.0" height="600.0" preserveAspectRatio="none"/>
+<rect x="565.0" y="738.0" width="360.0" height="600.0" rx="0" class="g154s12"/>
+<text x="955.0" y="728.0" class="g154s26">v1.5 · photo 1 · IoU 87.0%</text>
+<image href="figs/vis15_q8_with.png?v=d765e001d3" x="955.0" y="738.0" width="360.0" height="600.0" preserveAspectRatio="none"/>
+<rect x="955.0" y="738.0" width="360.0" height="600.0" rx="0" class="g154s12"/>
+<rect x="34.0" y="1364.0" width="1812.0" height="30.0" rx="6" class="g154s9"/>
+<path d="M38.50 1364.69 A5.50 5.50 0 0 0 34.50 1369.98 V1387.98 A5.50 5.50 0 0 0 38.50 1393.27 Z" class="g154s16"/>
+<text y="1384.0" xml:space="preserve" class="g154s17"><tspan x="50.0" class="g154s0" textLength="121.0" lengthAdjust="spacing">D · Why a pyramid: </tspan><tspan x="171.0" class="g154s1">3</tspan><tspan x="178.7" class="g154s0"> → </tspan><tspan x="200.1" class="g154s1" textLength="15.3" lengthAdjust="spacing">32</tspan><tspan x="215.4" class="g154s0"> → </tspan><tspan x="236.9" class="g154s1" textLength="15.3" lengthAdjust="spacing">64</tspan><tspan x="252.2" class="g154s0"> → </tspan><tspan x="273.6" class="g154s1" textLength="23.0" lengthAdjust="spacing">128</tspan></text>
+<text y="1384.0" xml:space="preserve" class="g154s18"><tspan x="314.6" textLength="539.3" lengthAdjust="spacing">one linear step from the pixels, or a small CNN — and which of the stem’s two ideas the gain comes from</tspan></text>
+<text y="1438.4" xml:space="preserve" class="g154s13"><tspan x="34.0" class="g154s8" textLength="14.0" lengthAdjust="spacing">v1</tspan><tspan x="48.0" textLength="64.8" lengthAdjust="spacing"> turns each </tspan><tspan x="112.8" class="g154s1" textLength="29.8" lengthAdjust="spacing">8 × 8</tspan><tspan x="142.6" textLength="53.1" lengthAdjust="spacing"> patch — </tspan><tspan x="195.7" class="g154s1" textLength="76.7" lengthAdjust="spacing">192 numbers</tspan><tspan x="272.4" textLength="179.7" lengthAdjust="spacing">, its pixels’ three colours — into </tspan><tspan x="452.1" class="g154s1" textLength="21.9" lengthAdjust="spacing">128</tspan><tspan x="474.1" textLength="685.7" lengthAdjust="spacing"> with one linear map, and nothing is bent before attention: every feature it can find is a weighted sum of one square’s pixels. </tspan><tspan x="1159.7" class="g154s8" textLength="28.1" lengthAdjust="spacing">v1.5</tspan><tspan x="1187.8" textLength="621.5" lengthAdjust="spacing">’s stem is built like the first layers of a convolutional network (a CNN): three small steps, each halving the places,</tspan></text>
+<text y="1456.4" xml:space="preserve" class="g154s13"><tspan x="34.0" textLength="308.8" lengthAdjust="spacing">widening what each place holds and bending the result (</tspan><tspan x="342.8" class="g154s8" textLength="28.1" lengthAdjust="spacing">GELU</tspan><tspan x="370.9" textLength="1457.0" lengthAdjust="spacing">), so later steps combine what earlier ones found — colours and edges, then combinations of them, then patch vectors. The stem has two ideas at once, though: the pyramid of channels and windows that overlap. A third model separates them: the same pyramid with</tspan></text>
+<text y="1474.3" xml:space="preserve" class="g154s13"><tspan x="34.0" class="g154s1" textLength="29.8" lengthAdjust="spacing">2 × 2</tspan><tspan x="63.8" textLength="313.6" lengthAdjust="spacing"> windows that tile, so each patch again sees only its own </tspan><tspan x="377.4" class="g154s1" textLength="29.8" lengthAdjust="spacing">8 × 8</tspan><tspan x="407.2" textLength="38.6" lengthAdjust="spacing"> pixels.</tspan></text>
+<rect x="34.0" y="1493.9" width="1812.0" height="24.0" rx="4" class="g154s9"/>
+<text y="1509.9" xml:space="preserve" class="g154s5"><tspan x="563.0" class="g154s7" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="574.9" class="g154s0" textLength="52.0" lengthAdjust="spacing"> · one step</tspan></text>
+<text y="1509.9" xml:space="preserve" class="g154s5"><tspan x="863.0" class="g154s7" textLength="23.8" lengthAdjust="spacing">v1.5</tspan><tspan x="886.8" class="g154s0" textLength="56.3" lengthAdjust="spacing"> · the pixels</tspan></text>
+<text y="1509.9" xml:space="preserve" class="g154s5"><tspan x="1103.0" class="g154s7" textLength="29.7" lengthAdjust="spacing">conv1</tspan></text>
+<text y="1509.9" xml:space="preserve" class="g154s5"><tspan x="1343.0" class="g154s7" textLength="29.7" lengthAdjust="spacing">conv2</tspan></text>
+<text y="1509.9" xml:space="preserve" class="g154s5"><tspan x="1583.0" class="g154s7" textLength="29.7" lengthAdjust="spacing">conv3</tspan></text>
+<text y="1536.6" xml:space="preserve" class="g154s15"><tspan x="43.0" class="g154s0" textLength="73.2" lengthAdjust="spacing">places in an </tspan><tspan x="116.2" class="g154s1" textLength="63.6" lengthAdjust="spacing">8 × 8 block</tspan></text>
+<text x="563.0" y="1536.6" class="g154s3">64 → 1</text>
+<text x="863.0" y="1536.6" class="g154s3">64</text>
+<text x="1103.0" y="1536.6" class="g154s3">16</text>
+<text x="1343.0" y="1536.6" class="g154s3">4</text>
+<text x="1583.0" y="1536.6" class="g154s3">1</text>
+<line x1="34.0" y1="1546.9" x2="1846.0" y2="1546.9" class="g154s2"/>
+<rect x="34.0" y="1546.9" width="1812.0" height="29.0" rx="0" class="g154s14"/>
+<text y="1565.6" xml:space="preserve" class="g154s15"><tspan x="43.0" class="g154s0" textLength="108.0" lengthAdjust="spacing">numbers per place</tspan></text>
+<text x="563.0" y="1565.6" class="g154s3">3 → 128</text>
+<text x="863.0" y="1565.6" class="g154s3">3</text>
+<text x="1103.0" y="1565.6" class="g154s3">32</text>
+<text x="1343.0" y="1565.6" class="g154s3">64</text>
+<text x="1583.0" y="1565.6" class="g154s3">128</text>
+<line x1="34.0" y1="1575.9" x2="1846.0" y2="1575.9" class="g154s2"/>
+<text y="1594.6" xml:space="preserve" class="g154s15"><tspan x="43.0" class="g154s0" textLength="107.2" lengthAdjust="spacing">numbers per block</tspan></text>
+<text x="563.0" y="1594.6" class="g154s3">192 → 128</text>
+<text x="863.0" y="1594.6" class="g154s3">192</text>
+<text x="1103.0" y="1594.6" class="g154s3">512</text>
+<text x="1343.0" y="1594.6" class="g154s3">256</text>
+<text x="1583.0" y="1594.6" class="g154s3">128</text>
+<line x1="34.0" y1="1604.9" x2="1846.0" y2="1604.9" class="g154s2"/>
+<rect x="34.0" y="1604.9" width="1812.0" height="29.0" rx="0" class="g154s14"/>
+<text y="1623.6" xml:space="preserve" class="g154s15"><tspan x="43.0" class="g154s0" textLength="203.6" lengthAdjust="spacing">pixels each place is computed from</tspan></text>
+<text x="563.0" y="1623.6" class="g154s3">8 × 8</text>
+<text x="863.0" y="1623.6" class="g154s3">1 × 1</text>
+<text x="1103.0" y="1623.6" class="g154s3">3 × 3</text>
+<text x="1343.0" y="1623.6" class="g154s3">7 × 7</text>
+<text x="1583.0" y="1623.6" class="g154s3">15 × 15</text>
+<line x1="34.0" y1="1633.9" x2="1846.0" y2="1633.9" class="g154s2"/>
+<text y="1652.6" xml:space="preserve" class="g154s15"><tspan x="43.0" class="g154s0" textLength="43.5" lengthAdjust="spacing">bends (</tspan><tspan x="86.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.6px;font-weight:600;fill:var(--ink)" textLength="27.8" lengthAdjust="spacing">GELU</tspan><tspan x="114.3" class="g154s0" textLength="40.6" lengthAdjust="spacing">) so far</tspan></text>
+<text x="563.0" y="1652.6" class="g154s3">0</text>
+<text x="863.0" y="1652.6" class="g154s3">0</text>
+<text x="1103.0" y="1652.6" class="g154s3">1</text>
+<text x="1343.0" y="1652.6" class="g154s3">2</text>
+<text x="1583.0" y="1652.6" class="g154s3">3</text>
+<line x1="34.0" y1="1662.9" x2="1846.0" y2="1662.9" class="g154s2"/>
+<rect x="34.0" y="1517.9" width="1812.0" height="145.0" rx="0" class="g154s12"/>
+<line x1="554.0" y1="1517.9" x2="554.0" y2="1662.9" class="g154s2"/>
+<line x1="854.0" y1="1517.9" x2="854.0" y2="1662.9" class="g154s2"/>
+<line x1="1094.0" y1="1517.9" x2="1094.0" y2="1662.9" class="g154s2"/>
+<line x1="1334.0" y1="1517.9" x2="1334.0" y2="1662.9" class="g154s2"/>
+<line x1="1574.0" y1="1517.9" x2="1574.0" y2="1662.9" class="g154s2"/>
+<rect x="34.0" y="1680.9" width="1812.0" height="24.0" rx="4" class="g154s9"/>
+<text y="1696.9" xml:space="preserve" class="g154s5"><tspan x="43.0" class="g154s0" textLength="60.6" lengthAdjust="spacing">the first step</tspan></text>
+<text y="1696.9" xml:space="preserve" class="g154s5"><tspan x="563.0" class="g154s7" textLength="17.8" lengthAdjust="spacing">IoU</tspan><tspan x="580.8" class="g154s0" textLength="22.3" lengthAdjust="spacing"> · (c)</tspan></text>
+<text y="1696.9" xml:space="preserve" class="g154s5"><tspan x="793.0" class="g154s7" textLength="17.8" lengthAdjust="spacing">IoU</tspan><tspan x="810.8" class="g154s0" textLength="22.9" lengthAdjust="spacing"> · (a)</tspan></text>
+<text y="1696.9" xml:space="preserve" class="g154s5"><tspan x="1023.0" class="g154s7" textLength="17.8" lengthAdjust="spacing">IoU</tspan><tspan x="1040.8" class="g154s0" textLength="22.9" lengthAdjust="spacing"> · (b)</tspan></text>
+<text y="1696.9" xml:space="preserve" class="g154s5"><tspan x="1253.0" class="g154s0" textLength="80.4" lengthAdjust="spacing">near outline · (c)</tspan></text>
+<text y="1696.9" xml:space="preserve" class="g154s5"><tspan x="1513.0" class="g154s0" textLength="83.5" lengthAdjust="spacing">learned numbers</tspan></text>
+<text y="1724.2" xml:space="preserve" class="g154s22"><tspan x="43.0" class="g154s27" textLength="14.1" lengthAdjust="spacing">v1</tspan><tspan x="57.1" class="g154s0" textLength="66.1" lengthAdjust="spacing">’s hard cut</tspan></text>
+<text x="563.0" y="1724.2" class="g154s6">96.8%</text>
+<text x="793.0" y="1724.2" class="g154s6">52.6%</text>
+<text x="1023.0" y="1724.2" class="g154s6">81.1%</text>
+<text x="1253.0" y="1724.2" class="g154s6">86.3%</text>
+<text x="1513.0" y="1724.2" class="g154s6">1,226,562</text>
+<line x1="34.0" y1="1734.9" x2="1846.0" y2="1734.9" class="g154s2"/>
+<rect x="34.0" y="1734.9" width="1812.0" height="30.0" rx="0" class="g154s14"/>
+<text y="1754.2" xml:space="preserve" class="g154s22"><tspan x="43.0" class="g154s0" textLength="151.7" lengthAdjust="spacing">pyramid, windows that tile</tspan></text>
+<text x="563.0" y="1754.2" class="g154s6">97.0%</text>
+<text x="793.0" y="1754.2" class="g154s6">51.0%</text>
+<text x="1023.0" y="1754.2" class="g154s6">78.0%</text>
+<text x="1253.0" y="1754.2" class="g154s6">86.6%</text>
+<text x="1513.0" y="1754.2" class="g154s6">1,257,026</text>
+<line x1="34.0" y1="1764.9" x2="1846.0" y2="1764.9" class="g154s2"/>
+<text y="1784.2" xml:space="preserve" class="g154s22"><tspan x="43.0" class="g154s0" textLength="113.8" lengthAdjust="spacing">pyramid + overlap (</tspan><tspan x="156.8" class="g154s27" textLength="28.3" lengthAdjust="spacing">v1.5</tspan><tspan x="185.1" class="g154s0">)</tspan></text>
+<text x="563.0" y="1784.2" class="g154s6">97.4%</text>
+<text x="793.0" y="1784.2" class="g154s6">59.8%</text>
+<text x="1023.0" y="1784.2" class="g154s6">82.5%</text>
+<text x="1253.0" y="1784.2" class="g154s6">88.4%</text>
+<text x="1513.0" y="1784.2" class="g154s6">1,308,706</text>
+<line x1="34.0" y1="1794.9" x2="1846.0" y2="1794.9" class="g154s2"/>
+<rect x="34.0" y="1704.9" width="1812.0" height="90.0" rx="0" class="g154s12"/>
+<line x1="554.0" y1="1704.9" x2="554.0" y2="1794.9" class="g154s2"/>
+<line x1="784.0" y1="1704.9" x2="784.0" y2="1794.9" class="g154s2"/>
+<line x1="1014.0" y1="1704.9" x2="1014.0" y2="1794.9" class="g154s2"/>
+<line x1="1244.0" y1="1704.9" x2="1244.0" y2="1794.9" class="g154s2"/>
+<line x1="1504.0" y1="1704.9" x2="1504.0" y2="1794.9" class="g154s2"/>
+<text y="1821.3" xml:space="preserve" class="g154s13"><tspan x="34.0" textLength="122.0" lengthAdjust="spacing">The pyramid alone — </tspan><tspan x="156.0" class="g154s8" textLength="14.0" lengthAdjust="spacing">v1</tspan><tspan x="170.0" textLength="401.6" lengthAdjust="spacing">’s hard cut against the pyramid with tiling windows — helps on none: (a) </tspan><tspan x="571.7" class="g154s1" textLength="26.2" lengthAdjust="spacing">−1.5</tspan><tspan x="597.8" textLength="25.5" lengthAdjust="spacing">, (b) </tspan><tspan x="623.3" class="g154s1" textLength="26.2" lengthAdjust="spacing">−3.0</tspan><tspan x="649.5" textLength="383.2" lengthAdjust="spacing"> points. The overlap on top — the pyramid with tiling windows against </tspan><tspan x="1032.7" class="g154s8" textLength="28.1" lengthAdjust="spacing">v1.5</tspan><tspan x="1060.7" textLength="174.2" lengthAdjust="spacing">’s stem — helps on every test: </tspan><tspan x="1234.9" class="g154s8" textLength="56.1" lengthAdjust="spacing">(c) +0.4</tspan><tspan x="1291.1">, </tspan><tspan x="1298.0" class="g154s8" textLength="56.1" lengthAdjust="spacing">(a) +8.7</tspan><tspan x="1354.1">, </tspan><tspan x="1361.0" class="g154s8" textLength="56.1" lengthAdjust="spacing">(b) +4.5</tspan><tspan x="1417.1" textLength="408.7" lengthAdjust="spacing"> points. So on these photos the gain comes from the overlapping windows,</tspan></text>
+<text y="1839.3" xml:space="preserve" class="g154s13"><tspan x="34.0" textLength="931.0" lengthAdjust="spacing">not from the pyramid of channels on its own. Each number is one training run from the notebook’s seed; how much a different seed would move them was not measured.</tspan></text>
+<rect x="34.0" y="1858.9" width="1812.0" height="72.6" rx="6" class="g154s23"/>
+<path d="M38.50 1859.59 A5.50 5.50 0 0 0 34.50 1864.88 V1925.44 A5.50 5.50 0 0 0 38.50 1930.73 Z" class="g154s24"/>
+<text y="1884.9" xml:space="preserve" class="g154s10"><tspan x="50.0" class="g154s0" textLength="188.0" lengthAdjust="spacing">A small CNN, then a Transformer</tspan></text>
+<text y="1902.4" xml:space="preserve" class="g154s28"><tspan x="50.0" textLength="353.8" lengthAdjust="spacing">The stem is a small CNN in front of the Transformer — a “hybrid” </tspan><tspan x="403.8" class="g154s29" textLength="20.4" lengthAdjust="spacing">ViT</tspan><tspan x="424.2" textLength="103.4" lengthAdjust="spacing">. A CNN widens its </tspan><tspan x="527.6" class="g154s29" textLength="27.2" lengthAdjust="spacing">view</tspan><tspan x="554.7" textLength="119.4" lengthAdjust="spacing"> a few pixels per step: </tspan><tspan x="674.1" class="g154s1">3</tspan><tspan x="681.2">, </tspan><tspan x="687.9" class="g154s1">7</tspan><tspan x="694.9">, </tspan><tspan x="701.6" class="g154s1" textLength="14.1" lengthAdjust="spacing">15</tspan><tspan x="715.7" textLength="200.1" lengthAdjust="spacing"> pixels here; seeing across the whole </tspan><tspan x="915.8" class="g154s1" textLength="51.6" lengthAdjust="spacing">288-pixel</tspan><tspan x="967.4" textLength="90.0" lengthAdjust="spacing"> width with more </tspan><tspan x="1057.5" class="g154s1" textLength="28.8" lengthAdjust="spacing">3 × 3</tspan><tspan x="1086.3">, </tspan><tspan x="1093.0" class="g154s1" textLength="42.4" lengthAdjust="spacing">stride-2</tspan><tspan x="1135.4" textLength="96.0" lengthAdjust="spacing"> steps would take </tspan><tspan x="1231.4" class="g154s1">8</tspan><tspan x="1238.5" textLength="579.6" lengthAdjust="spacing"> of them. Attention gives every patch the whole picture in one layer. So each does what it is good at: the stem</tspan></text>
+<text y="1919.9" xml:space="preserve" class="g154s28"><tspan x="50.0" textLength="706.9" lengthAdjust="spacing">builds local features step by step, the encoder relates every patch to every other. The walkthrough above shows the trained model’s </tspan><tspan x="756.9" class="g154s1" textLength="14.1" lengthAdjust="spacing">32</tspan><tspan x="771.0">, </tspan><tspan x="777.7" class="g154s1" textLength="14.1" lengthAdjust="spacing">64</tspan><tspan x="791.8" textLength="26.7" lengthAdjust="spacing"> and </tspan><tspan x="818.5" class="g154s1" textLength="21.2" lengthAdjust="spacing">128</tspan><tspan x="839.7" textLength="104.7" lengthAdjust="spacing"> channels on photo </tspan><tspan x="944.5" class="g154s1">1</tspan><tspan x="951.5">.</tspan></text>
+<line x1="28.0" y1="1957.4" x2="1852.0" y2="1957.4" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1974.4" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px"><tspan x="28.0" textLength="361.3" lengthAdjust="spacing">Numbers, always labelled. Everything on this page comes from the Vision </tspan><tspan x="389.3" class="g154s19" textLength="24.9" lengthAdjust="spacing">v1.5</tspan><tspan x="414.2" textLength="105.2" lengthAdjust="spacing"> notebook (written by </tspan><tspan x="519.4" class="g154s19" textLength="62.2" lengthAdjust="spacing">nbvis15.py</tspan><tspan x="581.6" textLength="265.9" lengthAdjust="spacing">; your notebooks are only read) run here with PyTorch </tspan><tspan x="847.6" class="g154s1" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="863.8" textLength="288.4" lengthAdjust="spacing">.0 on this Mac’s GPU — trained again with lines replaced (</tspan><tspan x="1152.2" class="g154s19" textLength="68.5" lengthAdjust="spacing">expvis15.py</tspan><tspan x="1220.7" textLength="108.8" lengthAdjust="spacing">) — and measured by </tspan><tspan x="1329.5" class="g154s19" textLength="74.7" lengthAdjust="spacing">deepvis15.py</tspan><tspan x="1404.2" textLength="225.0" lengthAdjust="spacing"> on the CPU. Each number is one training run.</tspan></text>
+</svg>

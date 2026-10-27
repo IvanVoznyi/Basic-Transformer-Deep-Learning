@@ -1,0 +1,105 @@
+<svg data-src="v25_c10_attention_heatmap.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="884" viewBox="0 0 1880 884">
+<style>.txfig .g88s0{fill:var(--op)}.txfig .g88s1{fill:var(--code)}.txfig .g88s2{fill:var(--cellbg);stroke:var(--hair);stroke-width:0.6}.txfig .g88s3{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:middle}.txfig .g88s4{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g88s5{font-weight:600;fill:var(--ink)}.txfig .g88s6{font-weight:600}.txfig .g88s7{fill:var(--fn)}.txfig .g88s8{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g88s9{fill:var(--num)}.txfig .g88s10{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:end}.txfig .g88s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g88s12{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g88s13{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g88s14{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g88s15{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g88s16{fill:var(--keep);stroke:none}.txfig .g88s17{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g88s18{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g88s19{fill:var(--accent);stroke:none}.txfig .g88s20{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g88s21{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g88s22{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch88" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash88" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="884" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v2.5 · CELL 10 / 10</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="165.3" class="g88s6" textLength="537.0" lengthAdjust="spacing">Attention heatmap — what the trained model looked at</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g88s13" textLength="191.3" lengthAdjust="spacing">generate(return_attn=True)</tspan><tspan x="225.3" textLength="317.1" lengthAdjust="spacing"> · the last layer’s cross-attention, averaged over heads</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="380.6" lengthAdjust="spacing">The trained run’s real attention for “the dog sat on the floor”. The code is </tspan><tspan x="414.6" class="g88s14" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="427.6" textLength="147.5" lengthAdjust="spacing">’s, unchanged; the model is </tspan><tspan x="575.1" class="g88s14" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="601.2" textLength="57.4" lengthAdjust="spacing">’s, trained.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g88s15"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g88s16"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g88s6" textLength="386.0" lengthAdjust="spacing">A picture of attention, from a model that learned something</tspan></text>
+<text y="169.0" xml:space="preserve" class="g88s17"><tspan x="54.0" textLength="310.0" lengthAdjust="spacing">While writing each output token, the decoder spreads </tspan><tspan x="364.0" class="g88s5" textLength="35.2" lengthAdjust="spacing">100%</tspan><tspan x="399.2" textLength="747.1" lengthAdjust="spacing"> of its attention over the input words. This cell draws those shares as a grid: rows are the tokens written, columns the input words. </tspan><tspan x="1146.3" class="g88s13" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="1161.0" textLength="663.2" lengthAdjust="spacing">’s page could only show an untrained model, whose attention is nearly flat. This one is trained — and honest about</tspan></text>
+<text y="188.0" xml:space="preserve" class="g88s17"><tspan x="54.0" textLength="177.8" lengthAdjust="spacing">what two sentences can teach.</tspan></text>
+<text y="241.2" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px"><tspan x="34.0" textLength="176.1" lengthAdjust="spacing">The last lines of the notebook:</tspan></text>
+<rect x="946.0" y="228.0" width="900.0" height="114.0" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="956.0" class="g88s18" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="979.8" class="g88s6" textLength="96.5" lengthAdjust="spacing"> · unchanged since </tspan><tspan x="1076.3" class="g88s18" textLength="11.9" lengthAdjust="spacing">v2</tspan></text>
+<text x="956.0" y="269.0" xml:space="preserve" class="g88s8"><tspan class="g88s1">test_src</tspan><tspan class="g88s1"> </tspan><tspan class="g88s0">=</tspan><tspan class="g88s1"> </tspan><tspan class="g88s7">to_src</tspan><tspan class="g88s0">(</tspan><tspan class="g88s1">val_pairs</tspan><tspan class="g88s0">[</tspan><tspan class="g88s9">0</tspan><tspan class="g88s0">]</tspan><tspan class="g88s0">[</tspan><tspan class="g88s9">0</tspan><tspan class="g88s0">]</tspan><tspan class="g88s0">)</tspan></text>
+<text x="956.0" y="288.5" xml:space="preserve" class="g88s8"><tspan class="g88s1">generated</tspan><tspan class="g88s0">,</tspan><tspan class="g88s1"> </tspan><tspan class="g88s1">attention</tspan><tspan class="g88s1"> </tspan><tspan class="g88s0">=</tspan><tspan class="g88s1"> </tspan><tspan class="g88s1">model</tspan><tspan class="g88s0">.</tspan><tspan class="g88s7">generate</tspan><tspan class="g88s0">(</tspan><tspan class="g88s1">test_src</tspan><tspan class="g88s0">,</tspan><tspan class="g88s1"> </tspan><tspan class="g88s1">SOS</tspan><tspan class="g88s0">,</tspan><tspan class="g88s1"> </tspan><tspan class="g88s1">EOS</tspan><tspan class="g88s0">,</tspan><tspan class="g88s1"> </tspan><tspan class="g88s1">max_len</tspan><tspan class="g88s0">=</tspan><tspan class="g88s1">MAX_SEQ_LEN</tspan><tspan class="g88s0">,</tspan></text>
+<text x="956.0" y="308.0" xml:space="preserve" class="g88s8"><tspan class="g88s1">                                      </tspan><tspan class="g88s1">return_attn</tspan><tspan class="g88s0">=</tspan><tspan style="fill:var(--kw)">True</tspan><tspan class="g88s0">)</tspan></text>
+<text x="956.0" y="327.5" xml:space="preserve" class="g88s8"><tspan class="g88s7">plot_attention_heatmap</tspan><tspan class="g88s0">(</tspan><tspan class="g88s1">test_src</tspan><tspan class="g88s0">[</tspan><tspan class="g88s9">0</tspan><tspan class="g88s0">]</tspan><tspan class="g88s0">.</tspan><tspan class="g88s7">tolist</tspan><tspan class="g88s0">(</tspan><tspan class="g88s0">)</tspan><tspan class="g88s0">,</tspan><tspan class="g88s1"> </tspan><tspan class="g88s1">generated</tspan><tspan class="g88s0">[</tspan><tspan class="g88s9">0</tspan><tspan class="g88s0">]</tspan><tspan class="g88s0">.</tspan><tspan class="g88s7">tolist</tspan><tspan class="g88s0">(</tspan><tspan class="g88s0">)</tspan><tspan class="g88s0">,</tspan><tspan class="g88s1"> </tspan><tspan class="g88s1">attention</tspan><tspan class="g88s0">,</tspan><tspan class="g88s1"> </tspan><tspan class="g88s1">tokenizer</tspan><tspan class="g88s0">)</tspan></text>
+<rect x="34.0" y="364.0" width="1812.0" height="30.0" rx="6" style="fill:var(--thead);stroke:var(--panelbd);stroke-width:1"/>
+<path d="M38.50 364.71 A5.50 5.50 0 0 0 34.50 370.00 V388.00 A5.50 5.50 0 0 0 38.50 393.29 Z" class="g88s19"/>
+<text y="384.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600"><tspan x="50.0" class="g88s6" textLength="256.6" lengthAdjust="spacing">A · The map, as the trained model made it</tspan></text>
+<text y="384.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="324.6" textLength="220.0" lengthAdjust="spacing">“the dog sat on the floor” → “dog resting”</tspan></text>
+<text x="229.0" y="424.0" class="g88s4">the_</text>
+<text x="339.0" y="424.0" class="g88s4">dog_</text>
+<text x="449.0" y="424.0" class="g88s4">sat_</text>
+<text x="559.0" y="424.0" class="g88s4">on_</text>
+<text x="669.0" y="424.0" class="g88s4">the_</text>
+<text x="779.0" y="424.0" class="g88s4">floor_</text>
+<text x="504.0" y="440.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:middle">the input it looks at →</text>
+<text x="162.0" y="476.0" class="g88s10">dog_</text>
+<rect x="174.0" y="450.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="174.0" y="450.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.24689759999999997"/>
+<text x="229.0" y="476.0" class="g88s3">10%</text>
+<rect x="284.0" y="450.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="284.0" y="450.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.048261599999999995"/>
+<text x="339.0" y="476.0" class="g88s3">2%</text>
+<rect x="394.0" y="450.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="394.0" y="450.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.3486384"/>
+<text x="449.0" y="476.0" class="g88s3">15%</text>
+<rect x="504.0" y="450.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="504.0" y="450.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.7426944"/>
+<text x="559.0" y="476.0" class="g88s4">31%</text>
+<rect x="614.0" y="450.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="614.0" y="450.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.24067439999999998"/>
+<text x="669.0" y="476.0" class="g88s3">10%</text>
+<rect x="724.0" y="450.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="724.0" y="450.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.7728311999999999"/>
+<text x="779.0" y="476.0" class="g88s4">32%</text>
+<text x="162.0" y="520.0" class="g88s10">resting_</text>
+<rect x="174.0" y="494.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="174.0" y="494.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.1808064"/>
+<text x="229.0" y="520.0" class="g88s3">8%</text>
+<rect x="284.0" y="494.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="284.0" y="494.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.6048504"/>
+<text x="339.0" y="520.0" class="g88s4">25%</text>
+<rect x="394.0" y="494.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="394.0" y="494.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.4976808"/>
+<text x="449.0" y="520.0" class="g88s3">21%</text>
+<rect x="504.0" y="494.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="504.0" y="494.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.6568248"/>
+<text x="559.0" y="520.0" class="g88s4">27%</text>
+<rect x="614.0" y="494.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="614.0" y="494.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.1977048"/>
+<text x="669.0" y="520.0" class="g88s3">8%</text>
+<rect x="724.0" y="494.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="724.0" y="494.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.2621328"/>
+<text x="779.0" y="520.0" class="g88s3">11%</text>
+<text x="162.0" y="564.0" class="g88s10">&lt;EOS&gt;</text>
+<rect x="174.0" y="538.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="174.0" y="538.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.31762319999999994"/>
+<text x="229.0" y="564.0" class="g88s3">13%</text>
+<rect x="284.0" y="538.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="284.0" y="538.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.9"/>
+<text x="339.0" y="564.0" class="g88s4">47%</text>
+<rect x="394.0" y="538.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="394.0" y="538.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.20376959999999997"/>
+<text x="449.0" y="564.0" class="g88s3">8%</text>
+<rect x="504.0" y="538.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="504.0" y="538.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.21286319999999997"/>
+<text x="559.0" y="564.0" class="g88s3">9%</text>
+<rect x="614.0" y="538.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="614.0" y="538.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.3002472"/>
+<text x="669.0" y="564.0" class="g88s3">13%</text>
+<rect x="724.0" y="538.0" width="110.0" height="44.0" rx="0" class="g88s2"/>
+<rect x="724.0" y="538.0" width="110.0" height="44.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.23322959999999998"/>
+<text x="779.0" y="564.0" class="g88s3">10%</text>
+<text x="34.0" y="602.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start">each row: the token being written — its shares add up to 100%</text>
+<rect x="34.0" y="628.0" width="1812.0" height="72.6" rx="6" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:1"/>
+<path d="M38.50 628.71 A5.50 5.50 0 0 0 34.50 634.00 V694.56 A5.50 5.50 0 0 0 38.50 699.85 Z" class="g88s19"/>
+<text y="654.0" xml:space="preserve" class="g88s20"><tspan x="50.0" class="g88s6" textLength="248.2" lengthAdjust="spacing">How to read it — and what not to read into it</tspan></text>
+<text y="671.5" xml:space="preserve" class="g88s11"><tspan x="50.0" textLength="310.3" lengthAdjust="spacing">Writing “dog”, the model spreads its attention over “on” (</tspan><tspan x="360.3" class="g88s5" textLength="25.5" lengthAdjust="spacing">31%</tspan><tspan x="385.7" textLength="75.8" lengthAdjust="spacing">) and “floor” (</tspan><tspan x="461.5" class="g88s5" textLength="25.5" lengthAdjust="spacing">32%</tspan><tspan x="486.9" textLength="203.8" lengthAdjust="spacing">) and gives the input word “dog” only </tspan><tspan x="690.8" class="g88s5" textLength="18.4" lengthAdjust="spacing">2%</tspan><tspan x="709.1" textLength="1071.9" lengthAdjust="spacing">. That looks wrong — but with only two training sentences, any pattern that tells the two inputs apart is enough to write the right answer, and this one does. Attention maps of models trained on millions of</tspan></text>
+<text y="689.0" xml:space="preserve" class="g88s11"><tspan x="50.0" textLength="663.0" lengthAdjust="spacing">sentences are sharper and often line up with meaning; this map is a faithful picture of a model that memorised two examples.</tspan></text>
+<rect x="34.0" y="730.6" width="1812.0" height="55.0" rx="6" class="g88s15"/>
+<path d="M38.50 731.27 A5.50 5.50 0 0 0 34.50 736.56 V779.60 A5.50 5.50 0 0 0 38.50 784.89 Z" class="g88s16"/>
+<text y="756.6" xml:space="preserve" class="g88s20"><tspan x="50.0" class="g88s6" textLength="33.2" lengthAdjust="spacing">What </tspan><tspan x="83.2" class="g88s21" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="110.4" class="g88s6" textLength="62.9" lengthAdjust="spacing"> gains here</tspan></text>
+<text y="774.1" xml:space="preserve" class="g88s11"><tspan x="50.0" textLength="624.7" lengthAdjust="spacing">The same plotting code, now showing a trained model’s real attention instead of an untrained model’s near-flat one. </tspan><tspan x="674.7" class="g88s5" textLength="39.6" lengthAdjust="spacing">Cell 10</tspan><tspan x="714.3" textLength="147.4" lengthAdjust="spacing"> is the one cell whose code </tspan><tspan x="861.7" class="g88s21" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="888.9" textLength="114.1" lengthAdjust="spacing"> did not change at all.</tspan></text>
+<line x1="28.0" y1="811.6" x2="1852.0" y2="811.6" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="828.6" xml:space="preserve" class="g88s22"><tspan x="28.0" textLength="404.7" lengthAdjust="spacing">Two kinds of numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="432.7" class="g88s12" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="457.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="600.7" class="g88s5" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="616.9" textLength="234.8" lengthAdjust="spacing">.0 on its own two sentence pairs (CPU, seeded, </tspan><tspan x="851.6" class="g88s5" textLength="22.7" lengthAdjust="spacing">15.6</tspan><tspan x="874.3" textLength="181.0" lengthAdjust="spacing"> s): its printed lines, the loss of every </tspan><tspan x="1055.3" class="g88s12" textLength="31.1" lengthAdjust="spacing">epoch</tspan><tspan x="1086.4" textLength="450.0" lengthAdjust="spacing">, the checkpoint it kept. UNTRAINED numbers are a pure-Python trace of the same code on </tspan><tspan x="1536.4" class="g88s12" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1548.8" textLength="294.6" lengthAdjust="spacing">’s seeded starting weights, and every one of them has been</tspan></text>
+<text y="843.6" xml:space="preserve" class="g88s22"><tspan x="28.0" textLength="352.6" lengthAdjust="spacing">checked against the notebook’s own PyTorch model (largest difference </tspan><tspan x="380.6" class="g88s5" textLength="39.5" lengthAdjust="spacing">1.3e-06</tspan><tspan x="420.2" textLength="156.5" lengthAdjust="spacing">). The notebook file is only read.</tspan></text>
+</svg>

@@ -1,0 +1,313 @@
+<svg data-src="02_padding.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1328" viewBox="0 0 1880 1328">
+<style>.txfig .g5s0{fill:var(--code)}.txfig .g5s1{font-weight:600;fill:var(--ink)}.txfig .g5s2{fill:var(--op)}.txfig .g5s3{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g5s4{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px}.txfig .g5s5{fill:var(--seqBbg);stroke:none;stroke-width:1}.txfig .g5s6{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:middle}.txfig .g5s7{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px;text-anchor:middle}.txfig .g5s8{font-weight:600}.txfig .g5s9{fill:var(--seqAbg);stroke:none;stroke-width:1}.txfig .g5s10{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g5s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g5s12{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g5s13{fill:var(--padbg);stroke:var(--pad);stroke-width:0.8}.txfig .g5s14{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g5s15{fill:var(--fn)}.txfig .g5s16{fill:var(--kw)}.txfig .g5s17{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px}.txfig .g5s18{fill:url(#hatch5);stroke:none;stroke-width:1}.txfig .g5s19{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g5s20{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g5s21{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g5s22{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g5s23{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g5s24{fill:var(--cmt)}.txfig .g5s25{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g5s26{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:end}.txfig .g5s27{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g5s28{fill:var(--pad);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:middle}.txfig .g5s29{fill:none;stroke:var(--grid);stroke-width:1.2}.txfig .g5s30{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink)}.txfig .g5s31{fill:var(--pad);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px;font-weight:600;text-anchor:middle}.txfig .g5s32{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g5s33{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g5s34{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g5s35{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--pad)}.txfig .g5s36{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)}.txfig .g5s37{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--pad)}.txfig .g5s38{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g5s39{fill:var(--keep);stroke:none}.txfig .g5s40{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g5s41{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--pad)}.txfig .g5s42{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g5s43{fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1}.txfig .g5s44{fill:var(--drop);stroke:none}.txfig .g5s45{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g5s46{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g5s47{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch5" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash5" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1328" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">STEP 2 / 18</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="150.0" class="g5s8" textLength="227.7" lengthAdjust="spacing">Batching &amp; padding → </tspan><tspan x="377.7" class="g5s36" textLength="71.3" lengthAdjust="spacing">(2, 7)</tspan><tspan x="449.0" class="g5s8" textLength="49.5" lengthAdjust="spacing"> and </tspan><tspan x="498.5" class="g5s36" textLength="71.3" lengthAdjust="spacing">(2, 7)</tspan><tspan x="569.8" class="g5s8" textLength="79.2" lengthAdjust="spacing"> tensors</tspan></text>
+<rect x="278.6" y="54.3" width="27.1" height="15.9" rx="3" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8"/>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g5s22" textLength="183.9" lengthAdjust="spacing">max_src_len / max_tgt_len</tspan><tspan x="217.9"> → </tspan><tspan x="238.1" class="g5s22" textLength="22.1" lengthAdjust="spacing">seq</tspan><tspan x="260.2" textLength="18.4" lengthAdjust="spacing"> + [</tspan><tspan x="281.1" class="g5s37" textLength="22.1" lengthAdjust="spacing">PAD</tspan><tspan x="305.7" textLength="20.2" lengthAdjust="spacing">] * (</tspan><tspan x="325.9" class="g5s22" textLength="51.5" lengthAdjust="spacing">max_len</tspan><tspan x="377.4"> - </tspan><tspan x="389.0" class="g5s22" textLength="58.9" lengthAdjust="spacing">len(seq)</tspan><tspan x="447.8" textLength="24.6" lengthAdjust="spacing">) → </tspan><tspan x="472.4" class="g5s22" textLength="88.3" lengthAdjust="spacing">torch.tensor</tspan></text>
+<rect x="684.7" y="74.7" width="37.5" height="14.0" rx="3" class="g5s13"/>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="650.7" lengthAdjust="spacing">Sentences come in different lengths, but a tensor has to be a rectangle. This step makes them fit — and in doing so creates the </tspan><tspan x="687.2" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--pad)" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="722.3" textLength="209.0" lengthAdjust="spacing"> tokens every later page has to deal with.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g5s38"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g5s39"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g5s8" textLength="404.2" lengthAdjust="spacing">Why sentences of different lengths are made the same length</tspan></text>
+<text y="169.0" xml:space="preserve" class="g5s40"><tspan x="54.0" textLength="63.6" lengthAdjust="spacing">Computers</tspan><tspan x="117.6"> </tspan><tspan x="121.3">—</tspan><tspan x="134.3"> </tspan><tspan x="138.1" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="159.8"> </tspan><tspan x="163.6" textLength="34.7" lengthAdjust="spacing">GPUs</tspan><tspan x="198.2"> </tspan><tspan x="202.0" textLength="57.1" lengthAdjust="spacing">especially</tspan><tspan x="259.1"> </tspan><tspan x="262.9">—</tspan><tspan x="275.9"> </tspan><tspan x="279.6" textLength="18.8" lengthAdjust="spacing">are</tspan><tspan x="298.4"> </tspan><tspan x="302.2" textLength="38.3" lengthAdjust="spacing">fastest</tspan><tspan x="340.5"> </tspan><tspan x="344.3" textLength="31.1" lengthAdjust="spacing">when</tspan><tspan x="375.3"> </tspan><tspan x="379.1" textLength="24.6" lengthAdjust="spacing">they</tspan><tspan x="403.7"> </tspan><tspan x="407.5" textLength="44.1" lengthAdjust="spacing">multiply</tspan><tspan x="451.5"> </tspan><tspan x="455.3" textLength="34.0" lengthAdjust="spacing">whole</tspan><tspan x="489.2"> </tspan><tspan x="493.0" textLength="60.0" lengthAdjust="spacing">rectangles</tspan><tspan x="553.0"> </tspan><tspan x="556.8" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="567.6"> </tspan><tspan x="571.4" textLength="50.6" lengthAdjust="spacing">numbers</tspan><tspan x="621.9"> </tspan><tspan x="625.7" textLength="10.8" lengthAdjust="spacing">at</tspan><tspan x="636.6"> </tspan><tspan x="640.3" textLength="31.8" lengthAdjust="spacing">once.</tspan><tspan x="672.1"> </tspan><tspan x="675.9" textLength="19.5" lengthAdjust="spacing">But</tspan><tspan x="695.4"> </tspan><tspan x="699.2" textLength="59.3" lengthAdjust="spacing">sentences</tspan><tspan x="758.4"> </tspan><tspan x="762.2" textLength="28.2" lengthAdjust="spacing">have</tspan><tspan x="790.4"> </tspan><tspan x="794.2" textLength="47.0" lengthAdjust="spacing">different</tspan><tspan x="841.1"> </tspan><tspan x="844.9" textLength="45.5" lengthAdjust="spacing">lengths,</tspan><tspan x="890.4"> </tspan><tspan x="894.2" textLength="13.7" lengthAdjust="spacing">so</tspan><tspan x="907.9"> </tspan><tspan x="911.7">a</tspan><tspan x="918.9"> </tspan><tspan x="922.7" textLength="31.8" lengthAdjust="spacing">batch</tspan><tspan x="954.5"> </tspan><tspan x="958.3" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="969.1"> </tspan><tspan x="972.9" textLength="28.9" lengthAdjust="spacing">them</tspan><tspan x="1001.8"> </tspan><tspan x="1005.6" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1015.0"> </tspan><tspan x="1018.7">a</tspan><tspan x="1026.0"> </tspan><tspan x="1029.7" textLength="40.5" lengthAdjust="spacing">ragged</tspan><tspan x="1070.2"> </tspan><tspan x="1074.0" textLength="19.5" lengthAdjust="spacing">list,</tspan><tspan x="1093.5"> </tspan><tspan x="1097.3" textLength="18.1" lengthAdjust="spacing">not</tspan><tspan x="1115.3"> </tspan><tspan x="1119.1">a</tspan><tspan x="1126.3"> </tspan><tspan x="1130.1" textLength="57.1" lengthAdjust="spacing">rectangle.</tspan><tspan x="1187.2"> </tspan><tspan x="1191.0" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="1213.4"> </tspan><tspan x="1217.1" textLength="13.0" lengthAdjust="spacing">fix</tspan><tspan x="1230.1"> </tspan><tspan x="1233.9" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="1243.3"> </tspan><tspan x="1247.1" textLength="41.2" lengthAdjust="spacing">simple:</tspan><tspan x="1288.2"> </tspan><tspan x="1292.0" textLength="21.7" lengthAdjust="spacing">add</tspan><tspan x="1313.7"> </tspan><tspan x="1317.5" textLength="23.8" lengthAdjust="spacing">filler</tspan><tspan x="1341.3"> </tspan><tspan x="1345.1" textLength="38.3" lengthAdjust="spacing">tokens</tspan><tspan x="1383.4"> </tspan><tspan x="1387.1" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1398.0"> </tspan><tspan x="1401.8" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1419.8"> </tspan><tspan x="1423.6" textLength="21.7" lengthAdjust="spacing">end</tspan><tspan x="1445.3"> </tspan><tspan x="1449.1" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="1459.9"> </tspan><tspan x="1463.7" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="1495.5"> </tspan><tspan x="1499.2" textLength="40.5" lengthAdjust="spacing">shorter</tspan><tspan x="1539.7"> </tspan><tspan x="1543.5" textLength="52.8" lengthAdjust="spacing">sentence</tspan><tspan x="1596.2"> </tspan><tspan x="1600.0" textLength="23.8" lengthAdjust="spacing">until</tspan><tspan x="1623.8"> </tspan><tspan x="1627.6" textLength="24.6" lengthAdjust="spacing">they</tspan><tspan x="1652.2"> </tspan><tspan x="1656.0" textLength="18.8" lengthAdjust="spacing">are</tspan><tspan x="1674.7"> </tspan><tspan x="1678.5" textLength="13.0" lengthAdjust="spacing">all</tspan><tspan x="1691.5"> </tspan><tspan x="1695.3" textLength="13.7" lengthAdjust="spacing">as</tspan><tspan x="1709.0"> </tspan><tspan x="1712.8" textLength="24.6" lengthAdjust="spacing">long</tspan><tspan x="1737.4"> </tspan><tspan x="1741.1" textLength="13.7" lengthAdjust="spacing">as</tspan><tspan x="1754.9"> </tspan><tspan x="1758.6" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1776.7"> </tspan><tspan x="1780.5" textLength="45.5" lengthAdjust="spacing">longest.</tspan></text>
+<rect x="124.1" y="176.3" width="41.8" height="15.9" rx="3" class="g5s13"/>
+<text y="188.0" xml:space="preserve" class="g5s40"><tspan x="54.0" textLength="70.1" lengthAdjust="spacing">That filler is </tspan><tspan x="126.6" class="g5s37" textLength="36.8" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="165.9">, </tspan><tspan x="173.1" class="g5s1" textLength="22.2" lengthAdjust="spacing">id 0</tspan><tspan x="195.3" textLength="1441.3" lengthAdjust="spacing">. It has a price. From the next step onward the model cannot tell a filler token from a real word just by looking at the numbers, so every mask and every &quot;is this position real?&quot; check in the rest of this walkthrough exists to clean up after this one decision.</tspan></text>
+<text y="241.2" xml:space="preserve" class="g5s34"><tspan x="34.0">A</tspan><tspan x="42.8"> </tspan><tspan x="46.7" textLength="36.7" lengthAdjust="spacing">tensor</tspan><tspan x="83.4"> </tspan><tspan x="87.4" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="96.9"> </tspan><tspan x="100.8">a</tspan><tspan x="108.2"> </tspan><tspan x="112.1" textLength="58.0" lengthAdjust="spacing">rectangle,</tspan><tspan x="170.1"> </tspan><tspan x="174.0" textLength="13.9" lengthAdjust="spacing">so</tspan><tspan x="187.9"> </tspan><tspan x="191.9" textLength="32.3" lengthAdjust="spacing">every</tspan><tspan x="224.1"> </tspan><tspan x="228.1" textLength="21.3" lengthAdjust="spacing">row</tspan><tspan x="249.3"> </tspan><tspan x="253.3" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="264.3"> </tspan><tspan x="268.2">a</tspan><tspan x="275.6"> </tspan><tspan x="279.5" textLength="32.3" lengthAdjust="spacing">batch</tspan><tspan x="311.8"> </tspan><tspan x="315.7" textLength="28.6" lengthAdjust="spacing">must</tspan><tspan x="344.3"> </tspan><tspan x="348.3" textLength="28.6" lengthAdjust="spacing">have</tspan><tspan x="376.9"> </tspan><tspan x="380.8" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="399.2"> </tspan><tspan x="403.1" textLength="32.3" lengthAdjust="spacing">same</tspan><tspan x="435.4"> </tspan><tspan x="439.3" textLength="34.5" lengthAdjust="spacing">width.</tspan><tspan x="473.8"> </tspan><tspan x="477.7" textLength="22.7" lengthAdjust="spacing">The</tspan><tspan x="500.5"> </tspan><tspan x="504.4" textLength="28.6" lengthAdjust="spacing">code</tspan><tspan x="533.0"> </tspan><tspan x="537.0" textLength="27.9" lengthAdjust="spacing">finds</tspan><tspan x="564.8"> </tspan><tspan x="568.8" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="587.1"> </tspan><tspan x="591.0" textLength="42.6" lengthAdjust="spacing">longest</tspan><tspan x="633.6"> </tspan><tspan x="637.5" textLength="39.6" lengthAdjust="spacing">source</tspan><tspan x="677.2"> </tspan><tspan x="681.1" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="703.1"> </tspan><tspan x="707.0" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="725.4"> </tspan><tspan x="729.3" textLength="42.6" lengthAdjust="spacing">longest</tspan><tspan x="771.9"> </tspan><tspan x="775.8" textLength="37.4" lengthAdjust="spacing">target,</tspan><tspan x="813.2"> </tspan><tspan x="817.2" textLength="25.7" lengthAdjust="spacing">then</tspan><tspan x="842.9"> </tspan><tspan x="846.8" textLength="28.6" lengthAdjust="spacing">adds</tspan><tspan x="875.4"> </tspan><tspan x="879.4" class="g5s1" textLength="22.6" lengthAdjust="spacing">id 0</tspan><tspan x="901.9"> </tspan><tspan x="905.8" textLength="11.0" lengthAdjust="spacing">to</tspan><tspan x="916.9"> </tspan><tspan x="920.8" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="939.1"> </tspan><tspan x="943.1" textLength="22.0" lengthAdjust="spacing">end</tspan><tspan x="965.1"> </tspan><tspan x="969.0" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="980.0"> </tspan><tspan x="984.0" textLength="32.3" lengthAdjust="spacing">every</tspan><tspan x="1016.2"> </tspan><tspan x="1020.2" textLength="41.1" lengthAdjust="spacing">shorter</tspan><tspan x="1061.3"> </tspan><tspan x="1065.2" textLength="16.1" lengthAdjust="spacing">list</tspan><tspan x="1081.3"> </tspan><tspan x="1085.3" textLength="24.2" lengthAdjust="spacing">until</tspan><tspan x="1109.5"> </tspan><tspan x="1113.4" textLength="6.6" lengthAdjust="spacing">it</tspan></text>
+<text y="261.0" xml:space="preserve" class="g5s34"><tspan x="34.0" textLength="47.0" lengthAdjust="spacing">reaches</tspan><tspan x="81.0"> </tspan><tspan x="85.2" textLength="22.0" lengthAdjust="spacing">that</tspan><tspan x="107.2"> </tspan><tspan x="111.4" textLength="34.5" lengthAdjust="spacing">width.</tspan><tspan x="145.9"> </tspan><tspan x="150.1" textLength="48.4" lengthAdjust="spacing">Sources</tspan><tspan x="198.5"> </tspan><tspan x="202.7" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="224.7"> </tspan><tspan x="229.0" textLength="40.4" lengthAdjust="spacing">targets</tspan><tspan x="269.3"> </tspan><tspan x="273.5" textLength="19.1" lengthAdjust="spacing">are</tspan><tspan x="292.6"> </tspan><tspan x="296.8" textLength="58.7" lengthAdjust="spacing">measured</tspan><tspan x="355.5"> </tspan><tspan x="359.7" textLength="60.9" lengthAdjust="spacing">separately</tspan><tspan x="420.6"> </tspan><tspan x="424.8">—</tspan><tspan x="438.0"> </tspan><tspan x="442.2" textLength="43.3" lengthAdjust="spacing">nothing</tspan><tspan x="485.5"> </tspan><tspan x="489.7" textLength="35.9" lengthAdjust="spacing">forces</tspan><tspan x="525.7"> </tspan><tspan x="529.9" textLength="29.3" lengthAdjust="spacing">them</tspan><tspan x="559.2"> </tspan><tspan x="563.4" textLength="11.0" lengthAdjust="spacing">to</tspan><tspan x="574.5"> </tspan><tspan x="578.7" textLength="37.4" lengthAdjust="spacing">agree.</tspan><tspan x="616.1"> </tspan><tspan x="620.3" textLength="28.6" lengthAdjust="spacing">Here</tspan><tspan x="648.9"> </tspan><tspan x="653.1" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="671.5"> </tspan><tspan x="675.7" textLength="46.2" lengthAdjust="spacing">sources</tspan><tspan x="721.9"> </tspan><tspan x="726.1" textLength="19.1" lengthAdjust="spacing">are</tspan><tspan x="745.2"> </tspan><tspan x="749.4" class="g5s1">7</tspan><tspan x="757.2"> </tspan><tspan x="761.4" textLength="27.1" lengthAdjust="spacing">wide</tspan><tspan x="788.5"> </tspan><tspan x="792.7" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="814.8"> </tspan><tspan x="819.0" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="837.3"> </tspan><tspan x="841.5" textLength="40.4" lengthAdjust="spacing">targets</tspan><tspan x="881.9"> </tspan><tspan x="886.1" class="g5s1">7</tspan><tspan x="893.9"> </tspan><tspan x="898.1" textLength="30.8" lengthAdjust="spacing">wide.</tspan><tspan x="928.9"> </tspan><tspan x="933.1" textLength="17.6" lengthAdjust="spacing">On</tspan><tspan x="950.7"> </tspan><tspan x="954.9" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="973.3"> </tspan><tspan x="977.5" textLength="39.6" lengthAdjust="spacing">source</tspan><tspan x="1017.1"> </tspan><tspan x="1021.3" textLength="24.2" lengthAdjust="spacing">side</tspan><tspan x="1045.5"> </tspan><tspan x="1049.7" textLength="57.2" lengthAdjust="spacing">sequence</tspan><tspan x="1107.0"> </tspan><tspan x="1111.2">A</tspan></text>
+<rect x="74.1" y="268.9" width="42.3" height="16.1" rx="3" class="g5s13"/>
+<rect x="342.9" y="268.9" width="42.3" height="16.1" rx="3" class="g5s13"/>
+<text y="280.8" xml:space="preserve" class="g5s34"><tspan x="34.0" textLength="28.6" lengthAdjust="spacing">gets </tspan><tspan x="62.6" class="g5s1">1</tspan><tspan x="70.4"> </tspan><tspan x="76.6" class="g5s41" textLength="37.3" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="116.4" textLength="215.0" lengthAdjust="spacing">; on the target side sequence A gets </tspan><tspan x="331.4" class="g5s1">3</tspan><tspan x="339.2"> </tspan><tspan x="345.4" class="g5s41" textLength="37.3" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="385.2">.</tspan></text>
+<rect x="1146.0" y="228.0" width="700.0" height="192.0" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="1156.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v1</tspan><tspan x="1167.9" class="g5s8" textLength="51.4" lengthAdjust="spacing"> · batching</tspan></text>
+<text x="1156.0" y="269.0" xml:space="preserve" class="g5s14"><tspan class="g5s0">max_src_len</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">=</tspan><tspan class="g5s0"> </tspan><tspan class="g5s15">max</tspan><tspan class="g5s2">(</tspan><tspan class="g5s15">len</tspan><tspan class="g5s2">(</tspan><tspan class="g5s0">seq</tspan><tspan class="g5s2">)</tspan><tspan class="g5s0"> </tspan><tspan class="g5s16">for</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">seq</tspan><tspan class="g5s0"> </tspan><tspan class="g5s16">in</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">src_encoded</tspan><tspan class="g5s2">)</tspan><tspan class="g5s0">   </tspan><tspan class="g5s24"># = 7</tspan></text>
+<text x="1156.0" y="288.5" xml:space="preserve" class="g5s14"><tspan class="g5s0">max_tgt_len</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">=</tspan><tspan class="g5s0"> </tspan><tspan class="g5s15">max</tspan><tspan class="g5s2">(</tspan><tspan class="g5s15">len</tspan><tspan class="g5s2">(</tspan><tspan class="g5s0">seq</tspan><tspan class="g5s2">)</tspan><tspan class="g5s0"> </tspan><tspan class="g5s16">for</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">seq</tspan><tspan class="g5s0"> </tspan><tspan class="g5s16">in</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">tgt_encoded</tspan><tspan class="g5s2">)</tspan><tspan class="g5s0">   </tspan><tspan class="g5s24"># = 7</tspan></text>
+<text x="1156.0" y="308.0" xml:space="preserve" class="g5s14"></text>
+<text x="1156.0" y="327.5" xml:space="preserve" class="g5s14"><tspan class="g5s0">src_padded</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">=</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">[</tspan><tspan class="g5s0">seq</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">+</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">[</tspan><tspan class="g5s0">PAD</tspan><tspan class="g5s2">]</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">*</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">(</tspan><tspan class="g5s0">max_src_len</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">-</tspan><tspan class="g5s0"> </tspan><tspan class="g5s15">len</tspan><tspan class="g5s2">(</tspan><tspan class="g5s0">seq</tspan><tspan class="g5s2">)</tspan><tspan class="g5s2">)</tspan><tspan class="g5s0"> </tspan><tspan class="g5s16">for</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">seq</tspan><tspan class="g5s0"> </tspan><tspan class="g5s16">in</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">src_encoded</tspan><tspan class="g5s2">]</tspan></text>
+<text x="1156.0" y="347.0" xml:space="preserve" class="g5s14"><tspan class="g5s0">tgt_padded</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">=</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">[</tspan><tspan class="g5s0">seq</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">+</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">[</tspan><tspan class="g5s0">PAD</tspan><tspan class="g5s2">]</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">*</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">(</tspan><tspan class="g5s0">max_tgt_len</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">-</tspan><tspan class="g5s0"> </tspan><tspan class="g5s15">len</tspan><tspan class="g5s2">(</tspan><tspan class="g5s0">seq</tspan><tspan class="g5s2">)</tspan><tspan class="g5s2">)</tspan><tspan class="g5s0"> </tspan><tspan class="g5s16">for</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">seq</tspan><tspan class="g5s0"> </tspan><tspan class="g5s16">in</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">tgt_encoded</tspan><tspan class="g5s2">]</tspan></text>
+<text x="1156.0" y="366.5" xml:space="preserve" class="g5s14"></text>
+<text x="1156.0" y="386.0" xml:space="preserve" class="g5s14"><tspan class="g5s0">src</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">=</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">torch</tspan><tspan class="g5s2">.</tspan><tspan class="g5s15">tensor</tspan><tspan class="g5s2">(</tspan><tspan class="g5s0">src_padded</tspan><tspan class="g5s2">)</tspan><tspan class="g5s0">   </tspan><tspan class="g5s24"># (2, 7)</tspan></text>
+<text x="1156.0" y="405.5" xml:space="preserve" class="g5s14"><tspan class="g5s0">tgt</tspan><tspan class="g5s0"> </tspan><tspan class="g5s2">=</tspan><tspan class="g5s0"> </tspan><tspan class="g5s0">torch</tspan><tspan class="g5s2">.</tspan><tspan class="g5s15">tensor</tspan><tspan class="g5s2">(</tspan><tspan class="g5s0">tgt_padded</tspan><tspan class="g5s2">)</tspan><tspan class="g5s0">   </tspan><tspan class="g5s24"># (2, 7)</tspan></text>
+<text y="453.0" xml:space="preserve" class="g5s23"><tspan x="34.0" class="g5s25" textLength="19.5" lengthAdjust="spacing">src</tspan><tspan x="53.5" class="g5s8" textLength="200.6" lengthAdjust="spacing"> — the padded source batch (tokens)</tspan></text>
+<text x="763.0" y="453.0" class="g5s26">(2, 7)</text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="127.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="145.2" class="g5s1">0</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="223.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="241.2" class="g5s1">1</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="319.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="337.2" class="g5s1">2</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="415.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="433.2" class="g5s1">3</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="511.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="529.2" class="g5s1">4</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="607.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="625.2" class="g5s1">5</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="703.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="721.2" class="g5s1">6</tspan></text>
+<rect x="91.0" y="482.0" width="672.0" height="56.0" rx="3" class="g5s27"/>
+<text y="501.0" xml:space="preserve" class="g5s17"><tspan x="44.1" class="g5s1" textLength="25.9" lengthAdjust="spacing">row 0</tspan><tspan x="70.0" textLength="15.0" lengthAdjust="spacing"> · A</tspan></text>
+<rect x="91.6" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="139.0" y="501.0" class="g5s6">the</text>
+<rect x="187.6" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="235.0" y="501.0" class="g5s6">dog</text>
+<rect x="283.6" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="331.0" y="501.0" class="g5s6">sat</text>
+<rect x="379.6" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="427.0" y="501.0" class="g5s6">on</text>
+<rect x="475.6" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="523.0" y="501.0" class="g5s6">the</text>
+<rect x="571.6" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="619.0" y="501.0" class="g5s6">floor</text>
+<rect x="667.6" y="482.6" width="94.8" height="26.8" rx="0" class="g5s18"/>
+<text x="715.0" y="501.0" class="g5s28">&lt;PAD&gt;</text>
+<text y="529.0" xml:space="preserve" class="g5s17"><tspan x="44.1" class="g5s1" textLength="25.9" lengthAdjust="spacing">row 1</tspan><tspan x="70.0" textLength="15.0" lengthAdjust="spacing"> · B</tspan></text>
+<rect x="91.6" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="139.0" y="529.0" class="g5s6">the</text>
+<rect x="187.6" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="235.0" y="529.0" class="g5s6">cat</text>
+<rect x="283.6" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="331.0" y="529.0" class="g5s6">is</text>
+<rect x="379.6" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="427.0" y="529.0" class="g5s6">sleeping</text>
+<rect x="475.6" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="523.0" y="529.0" class="g5s6">on</text>
+<rect x="571.6" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="619.0" y="529.0" class="g5s6">the</text>
+<rect x="667.6" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="715.0" y="529.0" class="g5s6">sofa</text>
+<line x1="187.0" y1="482.0" x2="187.0" y2="538.0" class="g5s3"/>
+<line x1="283.0" y1="482.0" x2="283.0" y2="538.0" class="g5s3"/>
+<line x1="379.0" y1="482.0" x2="379.0" y2="538.0" class="g5s3"/>
+<line x1="475.0" y1="482.0" x2="475.0" y2="538.0" class="g5s3"/>
+<line x1="571.0" y1="482.0" x2="571.0" y2="538.0" class="g5s3"/>
+<line x1="667.0" y1="482.0" x2="667.0" y2="538.0" class="g5s3"/>
+<line x1="91.0" y1="510.0" x2="763.0" y2="510.0" class="g5s3"/>
+<rect x="91.0" y="482.0" width="672.0" height="56.0" rx="3" class="g5s29"/>
+<text y="556.5" xml:space="preserve" class="g5s42"><tspan x="34.0" textLength="132.5" lengthAdjust="spacing">row lengths before padding: </tspan><tspan x="166.5" class="g5s30" textLength="29.7" lengthAdjust="spacing">A = 6</tspan><tspan x="196.2">, </tspan><tspan x="202.0" class="g5s30" textLength="29.7" lengthAdjust="spacing">B = 7</tspan></text>
+<text y="453.0" xml:space="preserve" class="g5s23"><tspan x="807.0" class="g5s25" textLength="19.5" lengthAdjust="spacing">tgt</tspan><tspan x="826.6" class="g5s8" textLength="195.1" lengthAdjust="spacing"> — the padded target batch (tokens)</tspan></text>
+<text x="1536.1" y="453.0" class="g5s26">(2, 7)</text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="900.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="918.3" class="g5s1">0</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="996.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="1014.3" class="g5s1">1</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="1092.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="1110.3" class="g5s1">2</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="1188.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="1206.3" class="g5s1">3</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="1284.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="1302.3" class="g5s1">4</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="1380.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="1398.3" class="g5s1">5</tspan></text>
+<text y="476.0" xml:space="preserve" class="g5s4"><tspan x="1476.3" textLength="18.0" lengthAdjust="spacing">pos </tspan><tspan x="1494.3" class="g5s1">6</tspan></text>
+<rect x="864.1" y="482.0" width="672.0" height="56.0" rx="3" class="g5s27"/>
+<text y="501.0" xml:space="preserve" class="g5s17"><tspan x="817.1" class="g5s1" textLength="25.9" lengthAdjust="spacing">row 0</tspan><tspan x="843.1" textLength="15.0" lengthAdjust="spacing"> · A</tspan></text>
+<rect x="864.7" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="912.1" y="501.0" class="g5s6">&lt;SOS&gt;</text>
+<rect x="960.7" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="1008.1" y="501.0" class="g5s6">dog</text>
+<rect x="1056.7" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="1104.1" y="501.0" class="g5s6">resting</text>
+<rect x="1152.7" y="482.6" width="94.8" height="26.8" rx="0" class="g5s9"/>
+<text x="1200.1" y="501.0" class="g5s6">&lt;EOS&gt;</text>
+<rect x="1248.7" y="482.6" width="94.8" height="26.8" rx="0" class="g5s18"/>
+<text x="1296.1" y="501.0" class="g5s28">&lt;PAD&gt;</text>
+<rect x="1344.7" y="482.6" width="94.8" height="26.8" rx="0" class="g5s18"/>
+<text x="1392.1" y="501.0" class="g5s28">&lt;PAD&gt;</text>
+<rect x="1440.7" y="482.6" width="94.8" height="26.8" rx="0" class="g5s18"/>
+<text x="1488.1" y="501.0" class="g5s28">&lt;PAD&gt;</text>
+<text y="529.0" xml:space="preserve" class="g5s17"><tspan x="817.1" class="g5s1" textLength="25.9" lengthAdjust="spacing">row 1</tspan><tspan x="843.1" textLength="15.0" lengthAdjust="spacing"> · B</tspan></text>
+<rect x="864.7" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="912.1" y="529.0" class="g5s6">&lt;SOS&gt;</text>
+<rect x="960.7" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="1008.1" y="529.0" class="g5s6">the</text>
+<rect x="1056.7" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="1104.1" y="529.0" class="g5s6">cat</text>
+<rect x="1152.7" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="1200.1" y="529.0" class="g5s6">is</text>
+<rect x="1248.7" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="1296.1" y="529.0" class="g5s6">sleeping</text>
+<rect x="1344.7" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="1392.1" y="529.0" class="g5s6">peacefully</text>
+<rect x="1440.7" y="510.6" width="94.8" height="26.8" rx="0" class="g5s5"/>
+<text x="1488.1" y="529.0" class="g5s6">&lt;EOS&gt;</text>
+<line x1="960.1" y1="482.0" x2="960.1" y2="538.0" class="g5s3"/>
+<line x1="1056.1" y1="482.0" x2="1056.1" y2="538.0" class="g5s3"/>
+<line x1="1152.1" y1="482.0" x2="1152.1" y2="538.0" class="g5s3"/>
+<line x1="1248.1" y1="482.0" x2="1248.1" y2="538.0" class="g5s3"/>
+<line x1="1344.1" y1="482.0" x2="1344.1" y2="538.0" class="g5s3"/>
+<line x1="1440.1" y1="482.0" x2="1440.1" y2="538.0" class="g5s3"/>
+<line x1="864.1" y1="510.0" x2="1536.1" y2="510.0" class="g5s3"/>
+<rect x="864.1" y="482.0" width="672.0" height="56.0" rx="3" class="g5s29"/>
+<text y="556.5" xml:space="preserve" class="g5s42"><tspan x="807.0" textLength="132.5" lengthAdjust="spacing">row lengths before padding: </tspan><tspan x="939.5" class="g5s30" textLength="29.7" lengthAdjust="spacing">A = 4</tspan><tspan x="969.2">, </tspan><tspan x="975.1" class="g5s30" textLength="29.7" lengthAdjust="spacing">B = 7</tspan></text>
+<text y="602.2" xml:space="preserve" class="g5s23"><tspan x="34.0" class="g5s25" textLength="19.5" lengthAdjust="spacing">src</tspan><tspan x="53.5" class="g5s8" textLength="219.5" lengthAdjust="spacing"> — the integer tensor the model receives</tspan></text>
+<text x="763.0" y="602.2" class="g5s26">torch.int64  (2, 7)</text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="136.2" class="g5s1">0</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="232.2" class="g5s1">1</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="328.2" class="g5s1">2</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="424.2" class="g5s1">3</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="520.2" class="g5s1">4</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="616.2" class="g5s1">5</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="712.2" class="g5s1">6</tspan></text>
+<rect x="91.0" y="631.2" width="672.0" height="52.0" rx="3" class="g5s27"/>
+<text y="648.9" xml:space="preserve" class="g5s17"><tspan x="44.1" class="g5s1" textLength="25.9" lengthAdjust="spacing">row 0</tspan><tspan x="70.0" textLength="15.0" lengthAdjust="spacing"> · A</tspan></text>
+<rect x="91.6" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="139.0" y="648.9" class="g5s7">11425</text>
+<rect x="187.6" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="235.0" y="648.9" class="g5s7">3380</text>
+<rect x="283.6" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="331.0" y="648.9" class="g5s7">10283</text>
+<rect x="379.6" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="427.0" y="648.9" class="g5s7">8277</text>
+<rect x="475.6" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="523.0" y="648.9" class="g5s7">11425</text>
+<rect x="571.6" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="619.0" y="648.9" class="g5s7">4535</text>
+<rect x="667.6" y="631.8" width="94.8" height="24.8" rx="0" class="g5s18"/>
+<text x="715.0" y="648.9" class="g5s31">0</text>
+<text y="674.9" xml:space="preserve" class="g5s17"><tspan x="44.1" class="g5s1" textLength="25.9" lengthAdjust="spacing">row 1</tspan><tspan x="70.0" textLength="15.0" lengthAdjust="spacing"> · B</tspan></text>
+<rect x="91.6" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="139.0" y="674.9" class="g5s7">11425</text>
+<rect x="187.6" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="235.0" y="674.9" class="g5s7">1928</text>
+<rect x="283.6" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="331.0" y="674.9" class="g5s7">6274</text>
+<rect x="379.6" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="427.0" y="674.9" class="g5s7">10697</text>
+<rect x="475.6" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="523.0" y="674.9" class="g5s7">8277</text>
+<rect x="571.6" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="619.0" y="674.9" class="g5s7">11425</text>
+<rect x="667.6" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="715.0" y="674.9" class="g5s7">10752</text>
+<line x1="187.0" y1="631.2" x2="187.0" y2="683.2" class="g5s3"/>
+<line x1="283.0" y1="631.2" x2="283.0" y2="683.2" class="g5s3"/>
+<line x1="379.0" y1="631.2" x2="379.0" y2="683.2" class="g5s3"/>
+<line x1="475.0" y1="631.2" x2="475.0" y2="683.2" class="g5s3"/>
+<line x1="571.0" y1="631.2" x2="571.0" y2="683.2" class="g5s3"/>
+<line x1="667.0" y1="631.2" x2="667.0" y2="683.2" class="g5s3"/>
+<line x1="91.0" y1="657.2" x2="763.0" y2="657.2" class="g5s3"/>
+<rect x="91.0" y="631.2" width="672.0" height="52.0" rx="3" class="g5s29"/>
+<text y="602.2" xml:space="preserve" class="g5s23"><tspan x="807.0" class="g5s25" textLength="19.5" lengthAdjust="spacing">tgt</tspan><tspan x="826.6" class="g5s8" textLength="219.5" lengthAdjust="spacing"> — the integer tensor the model receives</tspan></text>
+<text x="1536.1" y="602.2" class="g5s26">torch.int64  (2, 7)</text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="909.3" class="g5s1">0</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="1005.3" class="g5s1">1</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="1101.3" class="g5s1">2</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="1197.3" class="g5s1">3</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="1293.3" class="g5s1">4</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="1389.3" class="g5s1">5</tspan></text>
+<text y="625.2" xml:space="preserve" class="g5s4"><tspan x="1485.3" class="g5s1">6</tspan></text>
+<rect x="864.1" y="631.2" width="672.0" height="52.0" rx="3" class="g5s27"/>
+<text y="648.9" xml:space="preserve" class="g5s17"><tspan x="817.1" class="g5s1" textLength="25.9" lengthAdjust="spacing">row 0</tspan><tspan x="843.1" textLength="15.0" lengthAdjust="spacing"> · A</tspan></text>
+<rect x="864.7" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="912.1" y="648.9" class="g5s7">1</text>
+<rect x="960.7" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="1008.1" y="648.9" class="g5s7">3380</text>
+<rect x="1056.7" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="1104.1" y="648.9" class="g5s7">9953</text>
+<rect x="1152.7" y="631.8" width="94.8" height="24.8" rx="0" class="g5s9"/>
+<text x="1200.1" y="648.9" class="g5s7">2</text>
+<rect x="1248.7" y="631.8" width="94.8" height="24.8" rx="0" class="g5s18"/>
+<text x="1296.1" y="648.9" class="g5s31">0</text>
+<rect x="1344.7" y="631.8" width="94.8" height="24.8" rx="0" class="g5s18"/>
+<text x="1392.1" y="648.9" class="g5s31">0</text>
+<rect x="1440.7" y="631.8" width="94.8" height="24.8" rx="0" class="g5s18"/>
+<text x="1488.1" y="648.9" class="g5s31">0</text>
+<text y="674.9" xml:space="preserve" class="g5s17"><tspan x="817.1" class="g5s1" textLength="25.9" lengthAdjust="spacing">row 1</tspan><tspan x="843.1" textLength="15.0" lengthAdjust="spacing"> · B</tspan></text>
+<rect x="864.7" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="912.1" y="674.9" class="g5s7">1</text>
+<rect x="960.7" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="1008.1" y="674.9" class="g5s7">11425</text>
+<rect x="1056.7" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="1104.1" y="674.9" class="g5s7">1928</text>
+<rect x="1152.7" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="1200.1" y="674.9" class="g5s7">6274</text>
+<rect x="1248.7" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="1296.1" y="674.9" class="g5s7">10697</text>
+<rect x="1344.7" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="1392.1" y="674.9" class="g5s7">8722</text>
+<rect x="1440.7" y="657.8" width="94.8" height="24.8" rx="0" class="g5s5"/>
+<text x="1488.1" y="674.9" class="g5s7">2</text>
+<line x1="960.1" y1="631.2" x2="960.1" y2="683.2" class="g5s3"/>
+<line x1="1056.1" y1="631.2" x2="1056.1" y2="683.2" class="g5s3"/>
+<line x1="1152.1" y1="631.2" x2="1152.1" y2="683.2" class="g5s3"/>
+<line x1="1248.1" y1="631.2" x2="1248.1" y2="683.2" class="g5s3"/>
+<line x1="1344.1" y1="631.2" x2="1344.1" y2="683.2" class="g5s3"/>
+<line x1="1440.1" y1="631.2" x2="1440.1" y2="683.2" class="g5s3"/>
+<line x1="864.1" y1="657.2" x2="1536.1" y2="657.2" class="g5s3"/>
+<rect x="864.1" y="631.2" width="672.0" height="52.0" rx="3" class="g5s29"/>
+<rect x="34.0" y="709.2" width="1812.0" height="72.6" rx="6" class="g5s43"/>
+<path d="M38.50 709.93 A5.50 5.50 0 0 0 34.50 715.23 V775.79 A5.50 5.50 0 0 0 38.50 781.08 Z" class="g5s44"/>
+<text y="735.2" xml:space="preserve" class="g5s32"><tspan x="50.0" class="g5s8" textLength="145.6" lengthAdjust="spacing">What padding really costs</tspan></text>
+<rect x="168.1" y="741.9" width="39.0" height="14.6" rx="3" class="g5s13"/>
+<text y="752.7" xml:space="preserve" class="g5s11"><tspan x="50.0" textLength="118.1" lengthAdjust="spacing">Padding is not free. A </tspan><tspan x="170.6" class="g5s35" textLength="34.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="207.0" textLength="16.7" lengthAdjust="spacing"> at </tspan><tspan x="223.7" class="g5s1" textLength="54.4" lengthAdjust="spacing">position 6</tspan><tspan x="278.1" textLength="1549.4" lengthAdjust="spacing"> of sequence A is a real row of the tensor: it gets an embedding, it gets a positional encoding, it produces a query, a key and a value, and it takes part in every multiplication that follows. Nothing in the arithmetic knows it is filler. Only two things stop it from changing the result: the masks built in</tspan></text>
+<text y="770.3" xml:space="preserve" class="g5s11"><tspan x="50.0" class="g5s1" textLength="65.8" lengthAdjust="spacing">steps 3 to 5</tspan><tspan x="115.8" textLength="30.0" lengthAdjust="spacing">, and </tspan><tspan x="145.8" class="g5s19" textLength="108.6" lengthAdjust="spacing">ignore_index=PAD</tspan><tspan x="254.4" textLength="64.7" lengthAdjust="spacing"> in the loss (</tspan><tspan x="319.1" class="g5s1" textLength="41.7" lengthAdjust="spacing">step 17</tspan><tspan x="360.8" textLength="7.3" lengthAdjust="spacing">).</tspan></text>
+<rect x="34.0" y="805.8" width="1812.0" height="30.0" rx="6" class="g5s45"/>
+<path d="M38.50 806.49 A5.50 5.50 0 0 0 34.50 811.79 V829.79 A5.50 5.50 0 0 0 38.50 835.08 Z" style="fill:var(--accent);stroke:none"/>
+<text y="825.8" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600"><tspan x="50.0" class="g5s8" textLength="229.0" lengthAdjust="spacing">A · What the rectangle costs, counted</tspan></text>
+<text y="825.8" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="297.0" textLength="315.1" lengthAdjust="spacing">every number below is a real count over these two sequences</tspan></text>
+<text y="853.8" xml:space="preserve" class="g5s32"><tspan x="38.0" class="g5s8" textLength="306.8" lengthAdjust="spacing">Padding is work spent on nothing — here is how much</tspan></text>
+<rect x="319.5" y="861.0" width="39.0" height="14.6" rx="3" class="g5s13"/>
+<text y="871.8" xml:space="preserve" class="g5s11"><tspan x="38.0" textLength="281.5" lengthAdjust="spacing">Padding is often called harmless. It is not free: every </tspan><tspan x="322.0" class="g5s35" textLength="34.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="358.4" textLength="1167.2" lengthAdjust="spacing"> is computed just like a real word, and attention makes it worse, because a table that compares every position with every other position grows with the SQUARE of the length. Seeing the real fractions makes the masks of </tspan><tspan x="1525.6" class="g5s1" textLength="65.8" lengthAdjust="spacing">steps 3 to 5</tspan><tspan x="1591.4" textLength="235.4" lengthAdjust="spacing"> feel less like bookkeeping and more like the</tspan></text>
+<text y="889.2" xml:space="preserve" class="g5s11"><tspan x="38.0" textLength="29.4" lengthAdjust="spacing">point.</tspan></text>
+<text y="921.6" xml:space="preserve" class="g5s23"><tspan x="34.0" class="g5s8" textLength="180.9" lengthAdjust="spacing">Padding, as a fraction of the work</tspan></text>
+<rect x="34.0" y="930.6" width="1812.0" height="24.0" rx="4" class="g5s45"/>
+<text y="946.6" xml:space="preserve" class="g5s21"><tspan x="43.0" class="g5s8" textLength="30.9" lengthAdjust="spacing">tensor</tspan></text>
+<text y="946.6" xml:space="preserve" class="g5s21"><tspan x="323.0" class="g5s8" textLength="30.3" lengthAdjust="spacing">shape</tspan></text>
+<text y="946.6" xml:space="preserve" class="g5s21"><tspan x="473.0" class="g5s8" textLength="22.3" lengthAdjust="spacing">cells</tspan></text>
+<text y="946.6" xml:space="preserve" class="g5s21"><tspan x="563.0" class="g5s8" textLength="43.9" lengthAdjust="spacing">of which </tspan><tspan x="609.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--pad)" textLength="17.8" lengthAdjust="spacing">PAD</tspan></text>
+<text y="946.6" xml:space="preserve" class="g5s21"><tspan x="693.0" class="g5s8" textLength="35.3" lengthAdjust="spacing">wasted</tspan></text>
+<text y="946.6" xml:space="preserve" class="g5s21"><tspan x="793.0" class="g5s8" textLength="107.0" lengthAdjust="spacing">what that means here</tspan></text>
+<text y="970.0" xml:space="preserve" class="g5s33"><tspan x="43.0" class="g5s12" textLength="18.7" lengthAdjust="spacing">src</tspan></text>
+<text x="323.0" y="970.0" class="g5s10">(2, 7)</text>
+<text x="473.0" y="970.0" class="g5s10">14</text>
+<text x="563.0" y="970.0" class="g5s10">1</text>
+<text x="693.0" y="970.0" class="g5s10">7.1%</text>
+<text y="970.0" xml:space="preserve" class="g5s20"><tspan x="793.0" textLength="254.4" lengthAdjust="spacing">only A is padded — the other sentence set the width</tspan></text>
+<line x1="34.0" y1="978.0" x2="1846.0" y2="978.0" class="g5s3"/>
+<rect x="34.0" y="978.0" width="1812.0" height="23.4" rx="0" class="g5s46"/>
+<text y="993.4" xml:space="preserve" class="g5s33"><tspan x="43.0" class="g5s12" textLength="18.7" lengthAdjust="spacing">tgt</tspan></text>
+<text x="323.0" y="993.4" class="g5s10">(2, 7)</text>
+<text x="473.0" y="993.4" class="g5s10">14</text>
+<text x="563.0" y="993.4" class="g5s10">3</text>
+<text x="693.0" y="993.4" class="g5s10">21.4%</text>
+<text y="993.4" xml:space="preserve" class="g5s20"><tspan x="793.0" textLength="60.2" lengthAdjust="spacing">A&#x27;s target is </tspan><tspan x="853.2" class="g5s1" textLength="44.1" lengthAdjust="spacing">4 tokens</tspan><tspan x="897.3" textLength="41.6" lengthAdjust="spacing"> against </tspan><tspan x="938.8" class="g5s1">7</tspan><tspan x="945.3" textLength="122.9" lengthAdjust="spacing">, so the gap is wider here</tspan></text>
+<line x1="34.0" y1="1001.4" x2="1846.0" y2="1001.4" class="g5s3"/>
+<text y="1016.8" xml:space="preserve" class="g5s33"><tspan x="43.0" class="g5s12" textLength="168.1" lengthAdjust="spacing">decoder_input = tgt[:, :-1]</tspan></text>
+<text x="323.0" y="1016.8" class="g5s10">(2, 6)</text>
+<text x="473.0" y="1016.8" class="g5s10">12</text>
+<text x="563.0" y="1016.8" class="g5s10">2</text>
+<text x="693.0" y="1016.8" class="g5s10">16.7%</text>
+<text y="1016.8" xml:space="preserve" class="g5s20"><tspan x="793.0" class="g5s1" textLength="38.2" lengthAdjust="spacing">step 15</tspan><tspan x="831.2" textLength="241.8" lengthAdjust="spacing"> drops the last column, which removes one of A&#x27;s </tspan><tspan x="1073.0" class="g5s1">3</tspan><tspan x="1079.5" textLength="31.2" lengthAdjust="spacing"> PADs</tspan></text>
+<line x1="34.0" y1="1024.8" x2="1846.0" y2="1024.8" class="g5s3"/>
+<rect x="34.0" y="1024.8" width="1812.0" height="23.4" rx="0" class="g5s46"/>
+<text y="1040.2" xml:space="preserve" class="g5s33"><tspan x="43.0" class="g5s8" textLength="45.4" lengthAdjust="spacing">encoder </tspan><tspan x="88.4" class="g5s12" textLength="37.3" lengthAdjust="spacing">scores</tspan><tspan x="125.7" class="g5s8" textLength="52.5" lengthAdjust="spacing">, per head</tspan></text>
+<text x="323.0" y="1040.2" class="g5s10">(2, 7, 7)</text>
+<text x="473.0" y="1040.2" class="g5s10">98</text>
+<text x="563.0" y="1040.2" class="g5s10">13</text>
+<text x="693.0" y="1040.2" class="g5s10">13.3%</text>
+<text y="1040.2" xml:space="preserve" class="g5s20"><tspan x="793.0" textLength="165.7" lengthAdjust="spacing">attention compares every pair, so </tspan><tspan x="958.7" class="g5s1" textLength="89.4" lengthAdjust="spacing">1 padded column</tspan><tspan x="1048.1" textLength="31.8" lengthAdjust="spacing"> costs </tspan><tspan x="1079.9" class="g5s1" textLength="71.3" lengthAdjust="spacing">13 score cells</tspan><tspan x="1151.2" textLength="24.5" lengthAdjust="spacing">, not </tspan><tspan x="1175.7" class="g5s1">1</tspan></text>
+<line x1="34.0" y1="1048.2" x2="1846.0" y2="1048.2" class="g5s3"/>
+<rect x="34.0" y="954.6" width="1812.0" height="93.6" rx="0" style="fill:none;stroke:var(--panelbd);stroke-width:1"/>
+<line x1="314.0" y1="954.6" x2="314.0" y2="1048.2" class="g5s3"/>
+<line x1="464.0" y1="954.6" x2="464.0" y2="1048.2" class="g5s3"/>
+<line x1="554.0" y1="954.6" x2="554.0" y2="1048.2" class="g5s3"/>
+<line x1="684.0" y1="954.6" x2="684.0" y2="1048.2" class="g5s3"/>
+<line x1="784.0" y1="954.6" x2="784.0" y2="1048.2" class="g5s3"/>
+<rect x="34.0" y="1066.2" width="896.0" height="107.6" rx="6" class="g5s38"/>
+<path d="M38.50 1066.89 A5.50 5.50 0 0 0 34.50 1072.19 V1167.79 A5.50 5.50 0 0 0 38.50 1173.08 Z" class="g5s39"/>
+<text y="1092.2" xml:space="preserve" class="g5s32"><tspan x="50.0" class="g5s8" textLength="193.7" lengthAdjust="spacing">Why the padding goes on the right</tspan></text>
+<text y="1109.7" xml:space="preserve" class="g5s11"><tspan x="50.0" textLength="311.5" lengthAdjust="spacing">The padding goes on the RIGHT, and that choice matters. </tspan><tspan x="361.5" class="g5s1" textLength="55.9" lengthAdjust="spacing">Position 0</tspan><tspan x="417.3" textLength="203.4" lengthAdjust="spacing"> has to be the first real word, because </tspan><tspan x="620.8" class="g5s1" textLength="34.6" lengthAdjust="spacing">step 8</tspan><tspan x="655.4" textLength="252.1" lengthAdjust="spacing"> adds position information by column number. If</tspan></text>
+<text y="1127.2" xml:space="preserve" class="g5s11"><tspan x="50.0" textLength="865.1" lengthAdjust="spacing">the padding went on the left, every real word would shift to a later position, and the same sentence would look different depending on how long the other sentences</tspan></text>
+<text y="1144.7" xml:space="preserve" class="g5s11"><tspan x="50.0" textLength="852.4" lengthAdjust="spacing">in its batch were. Decoder-only models like GPT do the opposite and pad on the left, for the mirror-image reason: there the LAST position is the one that predicts</tspan></text>
+<text y="1162.3" xml:space="preserve" class="g5s11"><tspan x="50.0" textLength="290.8" lengthAdjust="spacing">the next word, so it is the right edge that has to line up.</tspan></text>
+<rect x="950.0" y="1066.2" width="896.0" height="107.6" rx="6" class="g5s43"/>
+<path d="M954.50 1066.89 A5.50 5.50 0 0 0 950.50 1072.19 V1167.79 A5.50 5.50 0 0 0 954.50 1173.08 Z" class="g5s44"/>
+<text y="1092.2" xml:space="preserve" class="g5s32"><tspan x="966.0" class="g5s8" textLength="219.0" lengthAdjust="spacing">Nothing in the tensor says &quot;this is filler&quot;</tspan></text>
+<rect x="1779.7" y="1098.9" width="39.0" height="14.6" rx="3" class="g5s13"/>
+<text y="1109.7" xml:space="preserve" class="g5s11"><tspan x="966.0" textLength="252.1" lengthAdjust="spacing">Nothing here marks these cells as special. The </tspan><tspan x="1218.1" class="g5s1" textLength="20.5" lengthAdjust="spacing">id 0</tspan><tspan x="1238.6" textLength="122.1" lengthAdjust="spacing"> is an ordinary integer, </tspan><tspan x="1360.7" class="g5s19" textLength="20.4" lengthAdjust="spacing">src</tspan><tspan x="1381.0" textLength="78.7" lengthAdjust="spacing"> is an ordinary </tspan><tspan x="1459.7" class="g5s19" textLength="40.7" lengthAdjust="spacing">(2, 7)</tspan><tspan x="1500.5" textLength="53.4" lengthAdjust="spacing"> tensor of </tspan><tspan x="1553.8" class="g5s1" textLength="31.8" lengthAdjust="spacing">64-bit</tspan><tspan x="1585.6" textLength="103.4" lengthAdjust="spacing"> integers, and from </tspan><tspan x="1689.0" class="g5s1" textLength="34.6" lengthAdjust="spacing">step 7</tspan><tspan x="1723.7" textLength="56.0" lengthAdjust="spacing"> onward a </tspan><tspan x="1782.2" class="g5s35" textLength="34.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<text y="1127.2" xml:space="preserve" class="g5s11"><tspan x="966.0" textLength="829.7" lengthAdjust="spacing">gets an embedding, a position, a query, a key and a value exactly like every other token. Three separate mechanisms — and only these three — stop it from</tspan></text>
+<text y="1144.7" xml:space="preserve" class="g5s11"><tspan x="966.0" textLength="117.4" lengthAdjust="spacing">changing the answer: </tspan><tspan x="1083.4" class="g5s19" textLength="54.3" lengthAdjust="spacing">src_mask</tspan><tspan x="1137.7" textLength="26.7" lengthAdjust="spacing"> and </tspan><tspan x="1164.4" class="g5s19" textLength="54.3" lengthAdjust="spacing">tgt_mask</tspan><tspan x="1218.7" textLength="152.1" lengthAdjust="spacing"> hide it as an attention KEY (</tspan><tspan x="1370.8" class="g5s1" textLength="65.8" lengthAdjust="spacing">steps 3 to 5</tspan><tspan x="1436.6" textLength="10.7" lengthAdjust="spacing">), </tspan><tspan x="1447.3" class="g5s19" textLength="74.7" lengthAdjust="spacing">padding_idx</tspan><tspan x="1521.9" textLength="217.4" lengthAdjust="spacing"> stops its embedding from being trained (</tspan><tspan x="1739.4" class="g5s1" textLength="34.6" lengthAdjust="spacing">step 7</tspan><tspan x="1774.0" textLength="30.7" lengthAdjust="spacing">), and</tspan></text>
+<text y="1162.3" xml:space="preserve" class="g5s11"><tspan x="966.0" class="g5s19" textLength="81.5" lengthAdjust="spacing">ignore_index</tspan><tspan x="1047.5" textLength="138.0" lengthAdjust="spacing"> removes it from the loss (</tspan><tspan x="1185.5" class="g5s1" textLength="41.7" lengthAdjust="spacing">step 17</tspan><tspan x="1227.2" textLength="454.8" lengthAdjust="spacing">). Notice what is NOT on that list: nothing stops it from asking questions as a QUERY.</tspan></text>
+<rect x="34.0" y="1195.8" width="1812.0" height="34.0" rx="6" style="fill:var(--soft);stroke:var(--hair);stroke-width:1"/>
+<rect x="48.0" y="1204.8" width="15.0" height="15.0" rx="3" style="fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1"/>
+<text y="1215.8" xml:space="preserve" class="g5s20"><tspan x="70.0" textLength="256.7" lengthAdjust="spacing">sequence A — &quot;the dog sat on the floor&quot; (padded by </tspan><tspan x="326.7" class="g5s1">1</tspan><tspan x="333.2">)</tspan></text>
+<rect x="373.1" y="1204.8" width="15.0" height="15.0" rx="3" style="fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1"/>
+<text y="1215.8" xml:space="preserve" class="g5s20"><tspan x="395.1" textLength="386.3" lengthAdjust="spacing">sequence B — &quot;the cat is sleeping on the sofa&quot; (no padding — it sets the width)</tspan></text>
+<rect x="822.9" y="1204.8" width="15.0" height="15.0" rx="3" style="fill:url(#hatch5);stroke:var(--pad);stroke-width:1"/>
+<rect x="844.9" y="1205.9" width="36.1" height="13.4" rx="3" class="g5s13"/>
+<text y="1215.8" xml:space="preserve" class="g5s20"><tspan x="847.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--pad)" textLength="31.1" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="881.0" textLength="63.6" lengthAdjust="spacing"> token or row</tspan></text>
+<line x1="28.0" y1="1255.8" x2="1852.0" y2="1255.8" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1272.8" xml:space="preserve" class="g5s47"><tspan x="28.0" textLength="407.8" lengthAdjust="spacing">Numbers are a real forward pass of a freshly initialised model of exactly this shape (</tspan><tspan x="435.8" class="g5s12" textLength="68.5" lengthAdjust="spacing">d_model=512</tspan><tspan x="504.2">, </tspan><tspan x="510.3" class="g5s12" textLength="43.6" lengthAdjust="spacing">heads=4</tspan><tspan x="553.9">, </tspan><tspan x="560.0" class="g5s12" textLength="49.8" lengthAdjust="spacing">layers=2</tspan><tspan x="609.8">, </tspan><tspan x="615.9" class="g5s12" textLength="49.8" lengthAdjust="spacing">d_ff=512</tspan><tspan x="665.7">, </tspan><tspan x="671.9" class="g5s12" textLength="68.5" lengthAdjust="spacing">dropout=0.1</tspan><tspan x="740.3" textLength="323.4" lengthAdjust="spacing">), computed in pure Python: shapes, masks, positional encodings, </tspan><tspan x="1063.8" class="g5s12" textLength="43.6" lengthAdjust="spacing">softmax</tspan><tspan x="1107.3" textLength="103.3" lengthAdjust="spacing"> rows, the activation, </tspan><tspan x="1210.7" class="g5s12" textLength="56.0" lengthAdjust="spacing">LayerNorm</tspan><tspan x="1266.7" textLength="69.7" lengthAdjust="spacing"> statistics and </tspan><tspan x="1336.4" class="g5s12" textLength="43.6" lengthAdjust="spacing">dropout</tspan><tspan x="1380.0" textLength="454.5" lengthAdjust="spacing"> scaling are exact; the learned weights are seeded draws from the notebook&#x27;s own initialisers,</tspan></text>
+<text y="1287.8" xml:space="preserve" class="g5s47"><tspan x="28.0" textLength="179.8" lengthAdjust="spacing">not values from a trained checkpoint.</tspan></text>
+</svg>

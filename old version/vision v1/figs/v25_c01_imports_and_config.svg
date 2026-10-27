@@ -1,0 +1,829 @@
+<svg data-src="v25_c01_imports_and_config.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1859" viewBox="0 0 1880 1859">
+<style>.txfig .g49s0{fill:var(--cellbg);stroke:var(--hair);stroke-width:0.6}.txfig .g49s1{fill:var(--code)}.txfig .g49s2{font-weight:600;fill:var(--ink)}.txfig .g49s3{fill:var(--op)}.txfig .g49s4{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g49s5{font-weight:600}.txfig .g49s6{fill:var(--num)}.txfig .g49s7{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8999999999999999}.txfig .g49s8{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g49s9{fill:var(--cmt)}.txfig .g49s10{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g49s11{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px}.txfig .g49s12{fill:var(--kw)}.txfig .g49s13{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g49s14{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g49s15{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g49s16{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g49s17{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g49s18{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g49s19{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g49s20{stroke:var(--ink3);stroke-width:1.3;stroke-linecap:round}.txfig .g49s21{fill:var(--ink3)}.txfig .g49s22{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g49s23{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g49s24{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8819999999999999}.txfig .g49s25{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g49s26{fill:var(--keep);stroke:none}.txfig .g49s27{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.618}.txfig .g49s28{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.318}.txfig .g49s29{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.897}.txfig .g49s30{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8250000000000001}.txfig .g49s31{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8999999999999999}.txfig .g49s32{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g49s33{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g49s34{fill:var(--fn)}.txfig .g49s35{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g49s36{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.855}.txfig .g49s37{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.474}.txfig .g49s38{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8819999999999999}.txfig .g49s39{fill:var(--cellbg);stroke:var(--grid);stroke-width:1.2}.txfig .g49s40{stroke:var(--keep);stroke-width:2.2;stroke-linecap:round}.txfig .g49s41{fill:var(--keep)}.txfig .g49s42{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g49s43{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g49s44{fill:var(--accent);stroke:none}.txfig .g49s45{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g49s46{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g49s47{fill:var(--keepbg);stroke:var(--keybd);stroke-width:1.1}.txfig .g49s48{fill:var(--keep);stroke:none;stroke-width:1;opacity:0.22}.txfig .g49s49{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:middle}.txfig .g49s50{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g49s51{fill:var(--keep);stroke:none;stroke-width:1}.txfig .g49s52{fill:var(--cellbg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9px;font-weight:600;text-anchor:middle}.txfig .g49s53{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600}.txfig .g49s54{fill:var(--soft);stroke:var(--hair);stroke-width:0.9}.txfig .g49s55{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g49s56{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8px;text-anchor:start;opacity:0.75}.txfig .g49s57{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g49s58{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8px;text-anchor:start;opacity:0.8}.txfig .g49s59{stroke:var(--panelbd);stroke-width:1;stroke-dasharray:3 4;stroke-linecap:round}.txfig .g49s60{fill:var(--keepbg);stroke:var(--keep);stroke-width:1.3}.txfig .g49s61{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9px;text-anchor:end}.txfig .g49s62{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.75}.txfig .g49s63{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.735}.txfig .g49s64{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.726}.txfig .g49s65{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8699999999999999}.txfig .g49s66{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.891}.txfig .g49s67{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.40800000000000003}.txfig .g49s68{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8250000000000001}.txfig .g49s69{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8939999999999999}.txfig .g49s70{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.735}.txfig .g49s71{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:start}.txfig .g49s72{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g49s73{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g49s74{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g49s75{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g49s76{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g49s77{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g49s78{fill:var(--soft);stroke:var(--hair);stroke-width:1}.txfig .g49s79{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px}.txfig .g49s80{fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1}.txfig .g49s81{fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1}.txfig .g49s82{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start}.txfig .g49s83{fill:var(--dropbg);stroke:var(--drop);stroke-width:1}.txfig .g49s84{fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g49s85{fill:var(--keepbg);stroke:var(--keep);stroke-width:1}.txfig .g49s86{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g49s87{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.669}.txfig .g49s88{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8310000000000001}.txfig .g49s89{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8519999999999999}.txfig .g49s90{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.22499999999999998}.txfig .g49s91{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8939999999999999}.txfig .g49s92{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.243}.txfig .g49s93{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8879999999999999}.txfig .g49s94{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.28200000000000003}.txfig .g49s95{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.318}.txfig .g49s96{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.255}.txfig .g49s97{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.891}.txfig .g49s98{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.333}.txfig .g49s99{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8759999999999999}.txfig .g49s100{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.666}.txfig .g49s101{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.768}.txfig .g49s102{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.801}.txfig .g49s103{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.5249999999999999}.txfig .g49s104{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.477}.txfig .g49s105{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.897}.txfig .g49s106{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8459999999999999}.txfig .g49s107{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.795}.txfig .g49s108{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.7020000000000001}.txfig .g49s109{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.36}.txfig .g49s110{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.507}.txfig .g49s111{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.81}.txfig .g49s112{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.633}.txfig .g49s113{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.723}.txfig .g49s114{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.642}.txfig .g49s115{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8190000000000001}.txfig .g49s116{fill:var(--neg);stroke:none;stroke-width:1;opacity:0.315}.txfig .g49s117{fill:var(--str)}.txfig .g49s118{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}</style>
+<defs><pattern id="hatch49" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash49" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1859" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v2.5 · CELL 1 / 10</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="157.9" class="g49s5" textLength="368.7" lengthAdjust="spacing">Imports and config — four new knobs</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="99.7" lengthAdjust="spacing">one new import · </tspan><tspan x="133.7" class="g49s13" textLength="66.2" lengthAdjust="spacing">ROPE_BASE</tspan><tspan x="199.9"> · </tspan><tspan x="210.8" class="g49s13" textLength="66.2" lengthAdjust="spacing">EMA_DECAY</tspan><tspan x="277.0"> · </tspan><tspan x="287.8" class="g49s13" textLength="36.8" lengthAdjust="spacing">TOP_P</tspan><tspan x="324.6"> · </tspan><tspan x="335.4" class="g49s13" textLength="132.4" lengthAdjust="spacing">REPETITION_PENALTY</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="396.3" lengthAdjust="spacing">Nothing is computed here. Every later cell reads a name defined on this page.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g49s72"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g49s26"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g49s5" textLength="277.2" lengthAdjust="spacing">Settings you can turn, named in one place</tspan></text>
+<text y="169.0" xml:space="preserve" class="g49s73"><tspan x="54.0">A</tspan><tspan x="62.7"> </tspan><tspan x="67.2" textLength="37.4" lengthAdjust="spacing">&quot;knob&quot;</tspan><tspan x="104.6"> </tspan><tspan x="109.1" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="118.5"> </tspan><tspan x="123.0">a</tspan><tspan x="130.3"> </tspan><tspan x="134.8" textLength="38.3" lengthAdjust="spacing">setting</tspan><tspan x="173.1"> </tspan><tspan x="177.6" textLength="21.0" lengthAdjust="spacing">you</tspan><tspan x="198.6"> </tspan><tspan x="203.1" textLength="41.9" lengthAdjust="spacing">choose</tspan><tspan x="245.0"> </tspan><tspan x="249.5" textLength="36.9" lengthAdjust="spacing">before</tspan><tspan x="286.4"> </tspan><tspan x="290.9" textLength="42.6" lengthAdjust="spacing">training</tspan><tspan x="333.6"> </tspan><tspan x="338.1">—</tspan><tspan x="351.1"> </tspan><tspan x="355.6" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="373.7"> </tspan><tspan x="378.2" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="413.6"> </tspan><tspan x="418.1" textLength="32.5" lengthAdjust="spacing">never</tspan><tspan x="450.6"> </tspan><tspan x="455.2" textLength="35.4" lengthAdjust="spacing">learns</tspan><tspan x="490.6"> </tspan><tspan x="495.1" textLength="10.1" lengthAdjust="spacing">it.</tspan><tspan x="505.2"> </tspan><tspan x="509.7" class="g49s13" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="524.4"> </tspan><tspan x="529.0" textLength="18.1" lengthAdjust="spacing">put</tspan><tspan x="547.0"> </tspan><tspan x="551.6" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="583.3"> </tspan><tspan x="587.9" textLength="23.1" lengthAdjust="spacing">size</tspan><tspan x="611.0"> </tspan><tspan x="615.5" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="637.2"> </tspan><tspan x="641.7" textLength="23.1" lengthAdjust="spacing">limit</tspan><tspan x="664.8"> </tspan><tspan x="669.3" textLength="29.6" lengthAdjust="spacing">here;</tspan><tspan x="699.0"> </tspan><tspan x="703.5" class="g49s13" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="732.9"> </tspan><tspan x="737.4" textLength="28.2" lengthAdjust="spacing">adds</tspan><tspan x="765.6"> </tspan><tspan x="770.2" textLength="22.4" lengthAdjust="spacing">four</tspan><tspan x="792.6"> </tspan><tspan x="797.1" textLength="34.7" lengthAdjust="spacing">knobs</tspan><tspan x="831.8"> </tspan><tspan x="836.3" textLength="15.2" lengthAdjust="spacing">for</tspan><tspan x="851.5"> </tspan><tspan x="856.0" textLength="27.5" lengthAdjust="spacing">what</tspan><tspan x="883.4"> </tspan><tspan x="888.0" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="894.5"> </tspan><tspan x="899.0" textLength="31.8" lengthAdjust="spacing">adds:</tspan><tspan x="930.8"> </tspan><tspan x="935.3" textLength="23.8" lengthAdjust="spacing">how</tspan><tspan x="959.2"> </tspan><tspan x="963.7" textLength="51.3" lengthAdjust="spacing">positions</tspan><tspan x="1015.0"> </tspan><tspan x="1019.5" textLength="22.4" lengthAdjust="spacing">turn</tspan><tspan x="1041.9"> </tspan><tspan x="1046.4">(</tspan><tspan x="1050.8" class="g49s13" textLength="29.4" lengthAdjust="spacing">RoPE</tspan><tspan x="1080.2" textLength="7.9" lengthAdjust="spacing">),</tspan><tspan x="1088.1"> </tspan><tspan x="1092.7" textLength="23.8" lengthAdjust="spacing">how</tspan><tspan x="1116.5"> </tspan><tspan x="1121.0" textLength="35.4" lengthAdjust="spacing">slowly</tspan><tspan x="1156.4"> </tspan><tspan x="1160.9" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1179.0"> </tspan><tspan x="1183.5" textLength="54.2" lengthAdjust="spacing">averaged</tspan><tspan x="1237.7"> </tspan><tspan x="1242.3" textLength="44.1" lengthAdjust="spacing">weights</tspan><tspan x="1286.3"> </tspan><tspan x="1290.8" textLength="33.2" lengthAdjust="spacing">follow</tspan><tspan x="1324.1"> </tspan><tspan x="1328.6" textLength="42.6" lengthAdjust="spacing">training</tspan><tspan x="1371.2"> </tspan><tspan x="1375.8" textLength="40.4" lengthAdjust="spacing">(EMA),</tspan><tspan x="1416.2"> </tspan><tspan x="1420.7" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1442.4"> </tspan><tspan x="1446.9" textLength="20.2" lengthAdjust="spacing">two</tspan><tspan x="1467.2"> </tspan><tspan x="1471.7" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="1493.4"> </tspan><tspan x="1497.9" textLength="35.4" lengthAdjust="spacing">shape</tspan><tspan x="1533.3"> </tspan><tspan x="1537.8" textLength="23.8" lengthAdjust="spacing">how</tspan><tspan x="1561.7"> </tspan><tspan x="1566.2" textLength="48.4" lengthAdjust="spacing">answers</tspan><tspan x="1614.6"> </tspan><tspan x="1619.1" textLength="18.8" lengthAdjust="spacing">are</tspan><tspan x="1637.9"> </tspan><tspan x="1642.4" textLength="38.3" lengthAdjust="spacing">written</tspan><tspan x="1680.7"> </tspan><tspan x="1685.2">(</tspan><tspan x="1689.6" textLength="29.6" lengthAdjust="spacing">top-p</tspan><tspan x="1719.2"> </tspan><tspan x="1723.7" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1745.4"> </tspan><tspan x="1749.9" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1768.0"> </tspan><tspan x="1772.5" textLength="53.5" lengthAdjust="spacing">repetition</tspan></text>
+<text y="188.0" xml:space="preserve" class="g49s73"><tspan x="54.0" textLength="159.0" lengthAdjust="spacing">penalty). Everything else is </tspan><tspan x="213.0" class="g49s13" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="227.7" textLength="89.5" lengthAdjust="spacing">’s, unchanged.</tspan></text>
+<text y="241.2" xml:space="preserve" class="g49s43"><tspan x="34.0" textLength="22.7" lengthAdjust="spacing">The</tspan><tspan x="56.7"> </tspan><tspan x="61.3" textLength="21.3" lengthAdjust="spacing">first</tspan><tspan x="82.5"> </tspan><tspan x="87.1" textLength="27.1" lengthAdjust="spacing">lines</tspan><tspan x="114.2"> </tspan><tspan x="118.8" textLength="36.7" lengthAdjust="spacing">import</tspan><tspan x="155.4"> </tspan><tspan x="160.0" textLength="27.9" lengthAdjust="spacing">what</tspan><tspan x="187.9"> </tspan><tspan x="192.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="210.7"> </tspan><tspan x="215.3" textLength="54.3" lengthAdjust="spacing">notebook</tspan><tspan x="269.6"> </tspan><tspan x="274.1" textLength="31.5" lengthAdjust="spacing">uses.</tspan><tspan x="305.7"> </tspan><tspan x="310.2" textLength="24.9" lengthAdjust="spacing">One</tspan><tspan x="335.2"> </tspan><tspan x="339.7" textLength="36.7" lengthAdjust="spacing">import</tspan><tspan x="376.4"> </tspan><tspan x="380.9" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="390.4"> </tspan><tspan x="395.0" textLength="27.9" lengthAdjust="spacing">new:</tspan><tspan x="422.8"> </tspan><tspan x="427.4" textLength="98.3" lengthAdjust="spacing">contextmanager,</tspan><tspan x="525.7"> </tspan><tspan x="530.2" textLength="33.7" lengthAdjust="spacing">which</tspan><tspan x="564.0"> </tspan><tspan x="568.5" textLength="20.5" lengthAdjust="spacing">lets</tspan><tspan x="589.1"> </tspan><tspan x="593.6" class="g49s2" textLength="32.7" lengthAdjust="spacing">cell 7</tspan><tspan x="626.3"> </tspan><tspan x="630.8" textLength="27.9" lengthAdjust="spacing">write</tspan><tspan x="658.7"> </tspan><tspan x="663.2" textLength="28.2" lengthAdjust="spacing">&quot;with</tspan><tspan x="691.4"> </tspan><tspan x="695.9" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)" textLength="97.1" lengthAdjust="spacing">ema.applied()</tspan><tspan x="793.0" textLength="8.4" lengthAdjust="spacing">:&quot;</tspan><tspan x="801.3"> </tspan><tspan x="805.9">—</tspan><tspan x="819.1"> </tspan><tspan x="823.6" textLength="18.3" lengthAdjust="spacing">put</tspan><tspan x="842.0"> </tspan><tspan x="846.5" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="864.9"> </tspan><tspan x="869.4" textLength="55.0" lengthAdjust="spacing">averaged</tspan><tspan x="924.4"> </tspan><tspan x="929.0" textLength="44.7" lengthAdjust="spacing">weights</tspan><tspan x="973.7"> </tspan><tspan x="978.3" textLength="10.3" lengthAdjust="spacing">in</tspan><tspan x="988.5"> </tspan><tspan x="993.1" textLength="15.4" lengthAdjust="spacing">for</tspan><tspan x="1008.5"> </tspan><tspan x="1013.0">a</tspan><tspan x="1020.3"> </tspan><tspan x="1024.9" textLength="33.7" lengthAdjust="spacing">while,</tspan></text>
+<text y="261.0" xml:space="preserve" class="g49s43"><tspan x="34.0" textLength="25.7" lengthAdjust="spacing">then</tspan><tspan x="59.7"> </tspan><tspan x="64.3" textLength="18.3" lengthAdjust="spacing">put</tspan><tspan x="82.6"> </tspan><tspan x="87.2" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="105.5"> </tspan><tspan x="110.1" textLength="40.4" lengthAdjust="spacing">trained</tspan><tspan x="150.4"> </tspan><tspan x="155.0" textLength="28.6" lengthAdjust="spacing">ones</tspan><tspan x="183.6"> </tspan><tspan x="188.2" textLength="31.5" lengthAdjust="spacing">back.</tspan><tspan x="219.7"> </tspan><tspan x="224.3" textLength="30.1" lengthAdjust="spacing">Then</tspan><tspan x="254.4"> </tspan><tspan x="259.0" textLength="32.3" lengthAdjust="spacing">come</tspan><tspan x="291.2"> </tspan><tspan x="295.8" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="314.2"> </tspan><tspan x="318.7" textLength="49.2" lengthAdjust="spacing">settings.</tspan><tspan x="367.9"> </tspan><tspan x="372.5" textLength="22.7" lengthAdjust="spacing">The</tspan><tspan x="395.2"> </tspan><tspan x="399.8" textLength="28.6" lengthAdjust="spacing">table</tspan><tspan x="428.4"> </tspan><tspan x="433.0" textLength="34.5" lengthAdjust="spacing">below</tspan><tspan x="467.4"> </tspan><tspan x="472.0" textLength="30.8" lengthAdjust="spacing">says,</tspan><tspan x="502.8"> </tspan><tspan x="507.4" textLength="15.4" lengthAdjust="spacing">for</tspan><tspan x="522.8"> </tspan><tspan x="527.4" textLength="28.6" lengthAdjust="spacing">each</tspan><tspan x="556.0"> </tspan><tspan x="560.5" textLength="24.2" lengthAdjust="spacing">new</tspan><tspan x="584.8"> </tspan><tspan x="589.3" textLength="25.7" lengthAdjust="spacing">one,</tspan><tspan x="615.0"> </tspan><tspan x="619.6" textLength="27.9" lengthAdjust="spacing">what</tspan><tspan x="647.5"> </tspan><tspan x="652.0" textLength="6.6" lengthAdjust="spacing">it</tspan><tspan x="658.6"> </tspan><tspan x="663.2" textLength="39.6" lengthAdjust="spacing">means</tspan><tspan x="702.8"> </tspan><tspan x="707.4" textLength="10.3" lengthAdjust="spacing">in</tspan><tspan x="717.7"> </tspan><tspan x="722.2" textLength="27.9" lengthAdjust="spacing">plain</tspan><tspan x="750.1"> </tspan><tspan x="754.7" textLength="38.9" lengthAdjust="spacing">words,</tspan><tspan x="793.5"> </tspan><tspan x="798.1" textLength="27.9" lengthAdjust="spacing">what</tspan><tspan x="826.0"> </tspan><tspan x="830.6" textLength="50.6" lengthAdjust="spacing">happens</tspan><tspan x="881.2"> </tspan><tspan x="885.8" textLength="6.6" lengthAdjust="spacing">if</tspan><tspan x="892.4"> </tspan><tspan x="896.9" textLength="21.3" lengthAdjust="spacing">you</tspan><tspan x="918.2"> </tspan><tspan x="922.8" textLength="22.7" lengthAdjust="spacing">turn</tspan><tspan x="945.5"> </tspan><tspan x="950.1" textLength="6.6" lengthAdjust="spacing">it</tspan><tspan x="956.7"> </tspan><tspan x="961.3" textLength="14.7" lengthAdjust="spacing">up</tspan><tspan x="975.9"> </tspan><tspan x="980.5" textLength="11.7" lengthAdjust="spacing">or</tspan><tspan x="992.3"> </tspan><tspan x="996.8" textLength="35.2" lengthAdjust="spacing">down,</tspan><tspan x="1032.0"> </tspan><tspan x="1036.6" textLength="22.0" lengthAdjust="spacing">and</tspan></text>
+<text y="280.8" xml:space="preserve" class="g49s43"><tspan x="34.0" textLength="107.8" lengthAdjust="spacing">which cell reads it.</tspan></text>
+<rect x="1084.6" y="228.0" width="761.4" height="153.0" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="1094.6" class="g49s74" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1118.4" class="g49s5" textLength="53.8" lengthAdjust="spacing"> · the lines </tspan><tspan x="1172.2" class="g49s74" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1196.0" class="g49s5" textLength="27.2" lengthAdjust="spacing"> adds</tspan></text>
+<text x="1094.6" y="269.0" xml:space="preserve" class="g49s22"><tspan class="g49s12">from</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">contextlib</tspan><tspan class="g49s1"> </tspan><tspan class="g49s12">import</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">contextmanager</tspan><tspan class="g49s1">                 </tspan><tspan class="g49s9"># [NEW v2.5] for EMA.applied()</tspan></text>
+<text x="1094.6" y="288.5" xml:space="preserve" class="g49s22"><tspan class="g49s1">ROPE_BASE</tspan><tspan class="g49s1">  </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">10000.0</tspan><tspan class="g49s1">               </tspan><tspan class="g49s9"># [NEW v2.5] rotary positions: the slowest turning speed</tspan></text>
+<text x="1094.6" y="308.0" xml:space="preserve" class="g49s22"><tspan class="g49s1">EMA_DECAY</tspan><tspan class="g49s1">  </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">0.999</tspan><tspan class="g49s1">                 </tspan><tspan class="g49s9"># [NEW v2.5] how slowly the averaged weights follow</tspan></text>
+<text x="1094.6" y="327.5" xml:space="preserve" class="g49s22"><tspan class="g49s9"># [NEW v2.5] decoding</tspan></text>
+<text x="1094.6" y="347.0" xml:space="preserve" class="g49s22"><tspan class="g49s1">TOP_P</tspan><tspan class="g49s1">              </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">0.9</tspan><tspan class="g49s1">           </tspan><tspan class="g49s9"># top-p (nucleus) sampling: keep 90% of the probability</tspan></text>
+<text x="1094.6" y="366.5" xml:space="preserve" class="g49s22"><tspan class="g49s1">REPETITION_PENALTY</tspan><tspan class="g49s1"> </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">1.2</tspan><tspan class="g49s1">           </tspan><tspan class="g49s9"># &gt; 1 makes tokens already written less likely</tspan></text>
+<rect x="34.0" y="403.0" width="1812.0" height="30.0" rx="6" class="g49s33"/>
+<path d="M38.50 403.71 A5.50 5.50 0 0 0 34.50 409.00 V427.00 A5.50 5.50 0 0 0 38.50 432.29 Z" class="g49s44"/>
+<text y="423.0" xml:space="preserve" class="g49s75"><tspan x="50.0" class="g49s5" textLength="233.6" lengthAdjust="spacing">A · The four new knobs, in plain words</tspan></text>
+<text y="423.0" xml:space="preserve" class="g49s76"><tspan x="301.6" textLength="315.1" lengthAdjust="spacing">value in this notebook · what it means · turn it up · turn it down</tspan></text>
+<rect x="34.0" y="449.0" width="1812.0" height="24.0" rx="4" class="g49s33"/>
+<text y="465.0" xml:space="preserve" class="g49s15"><tspan x="43.0" class="g49s5" textLength="24.1" lengthAdjust="spacing">knob</tspan></text>
+<text y="465.0" xml:space="preserve" class="g49s15"><tspan x="243.0" class="g49s5" textLength="26.6" lengthAdjust="spacing">value</tspan></text>
+<text y="465.0" xml:space="preserve" class="g49s15"><tspan x="333.0" class="g49s5" textLength="68.7" lengthAdjust="spacing">what it means</tspan></text>
+<text y="465.0" xml:space="preserve" class="g49s15"><tspan x="953.0" class="g49s5" textLength="57.5" lengthAdjust="spacing">turn it up →</tspan></text>
+<text y="465.0" xml:space="preserve" class="g49s15"><tspan x="1404.0" class="g49s5" textLength="71.8" lengthAdjust="spacing">← turn it down</tspan></text>
+<text x="43.0" y="489.7" class="g49s16">ROPE_BASE</text>
+<text x="243.0" y="489.7" class="g49s16">10000.0</text>
+<text y="489.7" xml:space="preserve" class="g49s4"><tspan x="333.0" textLength="175.3" lengthAdjust="spacing">how slowly the slowest of a head’s </tspan><tspan x="508.3" class="g49s2" textLength="13.0" lengthAdjust="spacing">64</tspan><tspan x="521.3" textLength="198.1" lengthAdjust="spacing"> pairs turns as a word moves one place (</tspan><tspan x="719.4" class="g49s2" textLength="27.2" lengthAdjust="spacing">cell 2</tspan><tspan x="746.6" textLength="63.0" lengthAdjust="spacing">b, deep dive </tspan><tspan x="809.6" class="g49s2">6</tspan><tspan x="816.1">)</tspan></text>
+<text y="489.7" xml:space="preserve" class="g49s4"><tspan x="953.0" textLength="374.2" lengthAdjust="spacing">far-apart positions stay easy to tell apart; used to stretch models to long texts</tspan></text>
+<text y="489.7" xml:space="preserve" class="g49s4"><tspan x="1404.0" textLength="267.2" lengthAdjust="spacing">nearby positions stand out more, far ones blur together</tspan></text>
+<line x1="34.0" y1="499.0" x2="1846.0" y2="499.0" class="g49s8"/>
+<rect x="34.0" y="499.0" width="1812.0" height="26.0" rx="0" class="g49s45"/>
+<text x="43.0" y="515.7" class="g49s16">EMA_DECAY</text>
+<text x="243.0" y="515.7" class="g49s16">0.999</text>
+<text y="515.7" xml:space="preserve" class="g49s4"><tspan x="333.0" textLength="270.2" lengthAdjust="spacing">how much of the old average each training step keeps (</tspan><tspan x="603.2" class="g49s2" textLength="46.0" lengthAdjust="spacing">cells 7, 8</tspan><tspan x="649.3" textLength="56.9" lengthAdjust="spacing">, deep dive </tspan><tspan x="706.1" class="g49s2" textLength="13.0" lengthAdjust="spacing">15</tspan><tspan x="719.1">)</tspan></text>
+<text y="515.7" xml:space="preserve" class="g49s4"><tspan x="953.0" textLength="256.1" lengthAdjust="spacing">a smoother average that follows training more slowly</tspan></text>
+<text y="515.7" xml:space="preserve" class="g49s4"><tspan x="1404.0" textLength="225.6" lengthAdjust="spacing">the average follows the latest weights closely; </tspan><tspan x="1629.6" class="g49s17" textLength="37.3" lengthAdjust="spacing">0 = no</tspan><tspan x="1666.9" textLength="77.6" lengthAdjust="spacing"> averaging at all</tspan></text>
+<line x1="34.0" y1="525.0" x2="1846.0" y2="525.0" class="g49s8"/>
+<text x="43.0" y="541.7" class="g49s16">TOP_P</text>
+<text x="243.0" y="541.7" class="g49s16">0.9</text>
+<text y="541.7" xml:space="preserve" class="g49s4"><tspan x="333.0" textLength="351.5" lengthAdjust="spacing">when sampling, draw only from the most likely tokens that together hold </tspan><tspan x="684.5" class="g49s2" textLength="23.3" lengthAdjust="spacing">90%</tspan><tspan x="707.9" textLength="90.5" lengthAdjust="spacing"> of the probability (</tspan><tspan x="798.4" class="g49s2" textLength="33.0" lengthAdjust="spacing">cells 2</tspan><tspan x="831.4" textLength="11.6" lengthAdjust="spacing">c, </tspan><tspan x="843.0" class="g49s2">9</tspan><tspan x="849.5" textLength="56.9" lengthAdjust="spacing">, deep dive </tspan><tspan x="906.4" class="g49s2" textLength="13.0" lengthAdjust="spacing">11</tspan><tspan x="919.3">)</tspan></text>
+<text y="541.7" xml:space="preserve" class="g49s4"><tspan x="953.0" textLength="193.8" lengthAdjust="spacing">more variety, more risk of an odd word; </tspan><tspan x="1146.8" class="g49s17" textLength="49.8" lengthAdjust="spacing">1.0 = no</tspan><tspan x="1196.6" textLength="17.7" lengthAdjust="spacing"> cut</tspan></text>
+<text y="541.7" xml:space="preserve" class="g49s4"><tspan x="1404.0" textLength="242.1" lengthAdjust="spacing">safer, closer to always taking the single best word</tspan></text>
+<line x1="34.0" y1="551.0" x2="1846.0" y2="551.0" class="g49s8"/>
+<rect x="34.0" y="551.0" width="1812.0" height="26.0" rx="0" class="g49s45"/>
+<text x="43.0" y="567.7" class="g49s16">REPETITION_PENALTY</text>
+<text x="243.0" y="567.7" class="g49s16">1.2</text>
+<text y="567.7" xml:space="preserve" class="g49s4"><tspan x="333.0" textLength="409.0" lengthAdjust="spacing">how strongly a token already written is pushed down before the next one is chosen (</tspan><tspan x="742.0" class="g49s2" textLength="33.0" lengthAdjust="spacing">cells 2</tspan><tspan x="775.1" textLength="11.6" lengthAdjust="spacing">c, </tspan><tspan x="786.7" class="g49s2">9</tspan><tspan x="793.2" textLength="56.9" lengthAdjust="spacing">, deep dive </tspan><tspan x="850.0" class="g49s2" textLength="13.0" lengthAdjust="spacing">12</tspan><tspan x="863.0">)</tspan></text>
+<text y="567.7" xml:space="preserve" class="g49s4"><tspan x="953.0" textLength="392.4" lengthAdjust="spacing">fewer repeats — but words that should repeat (&quot;the ... the&quot;) are pushed down too</tspan></text>
+<text y="567.7" xml:space="preserve" class="g49s4"><tspan x="1404.0" textLength="72.1" lengthAdjust="spacing">weaker brake; </tspan><tspan x="1476.1" class="g49s2" textLength="16.2" lengthAdjust="spacing">1.0</tspan><tspan x="1492.3" textLength="51.4" lengthAdjust="spacing"> turns it off</tspan></text>
+<line x1="34.0" y1="577.0" x2="1846.0" y2="577.0" class="g49s8"/>
+<rect x="34.0" y="473.0" width="1812.0" height="104.0" rx="0" class="g49s77"/>
+<line x1="234.0" y1="473.0" x2="234.0" y2="577.0" class="g49s8"/>
+<line x1="324.0" y1="473.0" x2="324.0" y2="577.0" class="g49s8"/>
+<line x1="944.0" y1="473.0" x2="944.0" y2="577.0" class="g49s8"/>
+<line x1="1395.0" y1="473.0" x2="1395.0" y2="577.0" class="g49s8"/>
+<rect x="34.0" y="601.0" width="1812.0" height="30.0" rx="6" class="g49s33"/>
+<path d="M38.50 601.71 A5.50 5.50 0 0 0 34.50 607.00 V625.00 A5.50 5.50 0 0 0 38.50 630.29 Z" class="g49s44"/>
+<text y="621.0" xml:space="preserve" class="g49s75"><tspan x="50.0" class="g49s5" textLength="144.8" lengthAdjust="spacing">B · What changed from </tspan><tspan x="194.8" class="g49s13" textLength="14.7" lengthAdjust="spacing">v2</tspan></text>
+<text y="621.0" xml:space="preserve" class="g49s76"><tspan x="227.5" textLength="167.5" lengthAdjust="spacing">three additions; nothing removed</tspan></text>
+<rect x="34.0" y="647.0" width="1812.0" height="118.0" rx="8" class="g49s78"/>
+<path d="M38.50 648.37 A7.50 7.50 0 0 0 34.50 655.00 V757.00 A7.50 7.50 0 0 0 38.50 763.63 Z" class="g49s44"/>
+<text x="52.0" y="667.0" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">How to read a frame</text>
+<text y="667.0" xml:space="preserve" class="g49s46"><tspan x="187.8" textLength="252.5" lengthAdjust="spacing">every frame below has these six parts — and a line </tspan><tspan x="440.3" class="g49s17" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="465.2" textLength="266.6" lengthAdjust="spacing"> rewrote is boxed together with the block that rewrote it</tspan></text>
+<rect x="52.0" y="676.5" width="22.0" height="17.0" rx="4" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.22"/>
+<text x="63.0" y="689.0" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle">7</text>
+<text x="52.0" y="722.5" class="g49s10">the order this line ran, counting from the top of the page</text>
+<text x="350.7" y="689.0" style="fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:start">cell 2 · EncoderLayer.forward</text>
+<text x="350.7" y="722.5" class="g49s10">the cell the line lives in and the function it sits inside — a stack</text>
+<text x="350.7" y="735.0" class="g49s10">moves from cell to cell. &lt;module&gt; means no function at all</text>
+<text x="649.3" y="681.0" style="fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.5px;font-weight:600;text-anchor:start">v2</text>
+<text x="673.3" y="681.0" xml:space="preserve" class="g49s79"><tspan class="g49s1">x</tspan><tspan class="g49s1"> </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s12">self</tspan><tspan class="g49s3">.</tspan><tspan class="g49s34">pos_encoder</tspan><tspan class="g49s3">(</tspan><tspan class="g49s1">emb</tspan><tspan class="g49s1"> </tspan><tspan class="g49s3">*</tspan><tspan class="g49s1"> </tspan><tspan class="g49s34">sqrt</tspan><tspan class="g49s3">(</tspan><tspan class="g49s1">d</tspan><tspan class="g49s3">)</tspan><tspan class="g49s3">)</tspan></text>
+<text x="649.3" y="695.0" style="fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.5px;font-weight:600;text-anchor:start">v2.5</text>
+<text x="673.3" y="695.0" xml:space="preserve" class="g49s79"><tspan class="g49s1">x</tspan><tspan class="g49s1"> </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s12">self</tspan><tspan class="g49s3">.</tspan><tspan class="g49s34">embed_dropout</tspan><tspan class="g49s3">(</tspan><tspan class="g49s1">emb</tspan><tspan class="g49s1"> </tspan><tspan class="g49s3">*</tspan><tspan class="g49s1"> </tspan><tspan class="g49s34">sqrt</tspan><tspan class="g49s3">(</tspan><tspan class="g49s1">d</tspan><tspan class="g49s3">)</tspan><tspan class="g49s3">)</tspan></text>
+<text x="649.3" y="722.5" class="g49s10">inside a green border: the line v2 ran, then the line that replaced</text>
+<text x="649.3" y="735.0" class="g49s10">it, each with its own tensors</text>
+<text x="948.0" y="689.0" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start">the similarity table</text>
+<text x="948.0" y="722.5" class="g49s10">the note on the right edge — a plain-language name for what</text>
+<text x="948.0" y="735.0" class="g49s10">this line achieves. Only the frames that matter most carry one</text>
+<rect x="1246.7" y="676.0" width="89.0" height="18.0" rx="4" class="g49s18"/>
+<text x="1291.2" y="688.8" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">(2, 4, 7, 7)</text>
+<rect x="1341.7" y="676.0" width="95.2" height="18.0" rx="4" style="fill:var(--codebg);stroke:none;stroke-width:1"/>
+<text x="1389.3" y="688.8" style="fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">torch.float32</text>
+<text x="1246.7" y="722.5" class="g49s10">the size of the tensor that line produced, and the kind of number</text>
+<text x="1246.7" y="735.0" class="g49s10">it holds</text>
+<rect x="1545.3" y="676.0" width="44.0" height="18.0" rx="4" class="g49s80"/>
+<text x="1567.3" y="689.0" style="fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ A</text>
+<rect x="1595.3" y="676.0" width="44.0" height="18.0" rx="4" class="g49s81"/>
+<text x="1617.3" y="689.0" style="fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ B</text>
+<text x="1545.3" y="722.5" class="g49s10">right of the dashed line: that tensor&#x27;s real values, both sentences</text>
+<text x="1545.3" y="735.0" class="g49s10">at once</text>
+<rect x="52.0" y="779.0" width="1794.0" height="287.2" rx="8" class="g49s47"/>
+<path d="M57.55 779.96 A7.45 7.45 0 0 0 52.55 787.00 V1058.20 A7.45 7.45 0 0 0 57.55 1065.24 Z" class="g49s26"/>
+<rect x="62.0" y="788.5" width="40.0" height="17.0" rx="4" class="g49s48"/>
+<text x="82.0" y="801.0" class="g49s49">v2.5</text>
+<text x="110.0" y="801.0" class="g49s50">cell 1 · &lt;module&gt;</text>
+<rect x="669.8" y="788.5" width="50.2" height="17.0" rx="8.5" class="g49s51"/>
+<text x="694.9" y="800.5" class="g49s52">REUSE</text>
+<text y="801.0" xml:space="preserve" class="g49s53"><tspan x="587.9" class="g49s5" textLength="71.9" lengthAdjust="spacing">four new knobs</tspan></text>
+<rect x="80.0" y="813.0" width="640.0" height="43.3" rx="6" class="g49s54"/>
+<text x="90.0" y="831.6" class="g49s55">v2</text>
+<text x="90.0" y="844.6" class="g49s56">was</text>
+<text x="130.0" y="831.6" xml:space="preserve" class="g49s11"><tspan class="g49s12">from</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">collections</tspan><tspan class="g49s1"> </tspan><tspan class="g49s12">import</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">Counter</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">defaultdict</tspan></text>
+<text x="90.0" y="879.1" class="g49s57">v2.5</text>
+<text x="90.0" y="892.1" class="g49s58">now</text>
+<text x="130.0" y="879.1" xml:space="preserve" class="g49s11"><tspan class="g49s12">from</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">collections</tspan><tspan class="g49s1"> </tspan><tspan class="g49s12">import</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">Counter</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">defaultdict</tspan></text>
+<text x="130.0" y="896.1" xml:space="preserve" class="g49s11"><tspan class="g49s12">from</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">contextlib</tspan><tspan class="g49s1"> </tspan><tspan class="g49s12">import</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">contextmanager</tspan><tspan class="g49s1">                 </tspan><tspan class="g49s9"># [NEW v2.5] for EMA.applied()</tspan></text>
+<rect x="120.0" y="918.6" width="530.0" height="84.3" rx="7" style="fill:var(--cellbg);stroke:var(--hair);stroke-width:0.9"/>
+<text x="134.0" y="941.6" style="fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:start">why this is weak</text>
+<text y="941.6" xml:space="preserve" class="g49s4"><tspan x="242.0" textLength="372.4" lengthAdjust="spacing">swapping weights in and out by hand is easy to get wrong: forget the second</tspan></text>
+<text y="956.6" xml:space="preserve" class="g49s4"><tspan x="242.0" textLength="291.0" lengthAdjust="spacing">half, and training silently continues on the averaged weights</tspan></text>
+<text x="134.0" y="985.6" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:start">why this is better</text>
+<text y="985.6" xml:space="preserve" class="g49s4"><tspan x="242.0" textLength="26.5" lengthAdjust="spacing">&quot;with </tspan><tspan x="268.5" class="g49s17" textLength="80.9" lengthAdjust="spacing">ema.applied()</tspan><tspan x="349.4" textLength="259.5" lengthAdjust="spacing">:&quot; restores the trained weights on the way out, always</tspan></text>
+<text y="1031.2" xml:space="preserve" class="g49s19"><tspan x="130.0" textLength="588.6" lengthAdjust="spacing">contextmanager turns a function with one &quot;yield&quot; into something a with-block can use: the code before the yield runs</tspan></text>
+<text y="1047.2" xml:space="preserve" class="g49s19"><tspan x="130.0" textLength="368.8" lengthAdjust="spacing">on entering, the code after it on leaving — even if the block fails halfway.</tspan></text>
+<line x1="736.0" y1="789.0" x2="736.0" y2="1056.2" class="g49s59"/>
+<text x="750.0" y="805.0" class="g49s82">THE RESULT — where the weights are while the model is checked</text>
+<rect x="750.0" y="817.0" width="28.2" height="19.0" rx="9.5" class="g49s83"/>
+<text x="764.1" y="830.5" class="g49s84">v2</text>
+<text y="829.5" xml:space="preserve" class="g49s35"><tspan x="788.2" textLength="357.3" lengthAdjust="spacing">validation and saving use the weights exactly as the last step left them</tspan></text>
+<rect x="756.0" y="843.7" width="251.0" height="40.0" rx="7" class="g49s18"/>
+<text x="881.5" y="867.7" class="g49s14">a training step</text>
+<line x1="1010.0" y1="863.7" x2="1021.0" y2="863.7" class="g49s20"/>
+<path d="M1026.0 863.7 L1019.2 866.7 L1019.2 860.6 Z" class="g49s21"/>
+<rect x="1029.0" y="843.7" width="251.0" height="40.0" rx="7" class="g49s18"/>
+<text x="1154.5" y="867.7" class="g49s14">validate the latest weights</text>
+<line x1="1283.0" y1="863.7" x2="1294.0" y2="863.7" class="g49s20"/>
+<path d="M1299.0 863.7 L1292.2 866.7 L1292.2 860.6 Z" class="g49s21"/>
+<rect x="1302.0" y="843.7" width="251.0" height="40.0" rx="7" class="g49s18"/>
+<text x="1427.5" y="867.7" class="g49s14">save them if best</text>
+<line x1="1556.0" y1="863.7" x2="1567.0" y2="863.7" class="g49s20"/>
+<path d="M1572.0 863.7 L1565.2 866.7 L1565.2 860.6 Z" class="g49s21"/>
+<rect x="1575.0" y="843.7" width="251.0" height="40.0" rx="7" class="g49s18"/>
+<text x="1700.5" y="867.7" class="g49s14">next step</text>
+<rect x="750.0" y="895.7" width="37.9" height="19.0" rx="9.5" class="g49s85"/>
+<text x="768.9" y="909.2" class="g49s86">v2.5</text>
+<text y="908.2" xml:space="preserve" class="g49s35"><tspan x="797.9" textLength="30.5" lengthAdjust="spacing">“with </tspan><tspan x="828.4" class="g49s23" textLength="84.6" lengthAdjust="spacing">ema.applied()</tspan><tspan x="913.0" textLength="277.3" lengthAdjust="spacing">:” swaps the average in, and always swaps it back out</tspan></text>
+<rect x="756.0" y="922.3" width="196.4" height="40.0" rx="7" class="g49s18"/>
+<text x="854.2" y="946.3" class="g49s14">a training step</text>
+<line x1="955.4" y1="942.3" x2="966.4" y2="942.3" class="g49s20"/>
+<path d="M971.4 942.3 L964.6 945.4 L964.6 939.3 Z" class="g49s21"/>
+<rect x="974.4" y="922.3" width="196.4" height="40.0" rx="7" class="g49s60"/>
+<text x="1072.6" y="946.3" class="g49s14">the average goes in</text>
+<line x1="1173.8" y1="942.3" x2="1184.8" y2="942.3" class="g49s20"/>
+<path d="M1189.8 942.3 L1183.0 945.4 L1183.0 939.3 Z" class="g49s21"/>
+<rect x="1192.8" y="922.3" width="196.4" height="40.0" rx="7" class="g49s60"/>
+<text x="1291.0" y="946.3" class="g49s14">validate · save it</text>
+<line x1="1392.2" y1="942.3" x2="1403.2" y2="942.3" class="g49s20"/>
+<path d="M1408.2 942.3 L1401.4 945.4 L1401.4 939.3 Z" class="g49s21"/>
+<rect x="1411.2" y="922.3" width="196.4" height="40.0" rx="7" class="g49s60"/>
+<text x="1509.4" y="946.3" class="g49s14">trained weights back</text>
+<line x1="1610.6" y1="942.3" x2="1621.6" y2="942.3" class="g49s20"/>
+<path d="M1626.6 942.3 L1619.8 945.4 L1619.8 939.3 Z" class="g49s21"/>
+<rect x="1629.6" y="922.3" width="196.4" height="40.0" rx="7" class="g49s18"/>
+<text x="1727.8" y="946.3" class="g49s14">next step</text>
+<text y="985.3" xml:space="preserve" class="g49s4"><tspan x="750.0" textLength="301.4" lengthAdjust="spacing">Checked on a toy model: inside the with-block a weight reads </tspan><tspan x="1051.4" class="g49s2" textLength="42.1" lengthAdjust="spacing">0.00232</tspan><tspan x="1093.6" textLength="111.3" lengthAdjust="spacing"> (the average); after it, </tspan><tspan x="1204.8" class="g49s2" textLength="16.2" lengthAdjust="spacing">0.0</tspan><tspan x="1221.0" textLength="210.8" lengthAdjust="spacing"> (training’s own) — the swap undoes itself.</tspan></text>
+<rect x="52.0" y="1076.2" width="1794.0" height="331.3" rx="8" class="g49s47"/>
+<path d="M57.55 1077.16 A7.45 7.45 0 0 0 52.55 1084.20 V1399.50 A7.45 7.45 0 0 0 57.55 1406.54 Z" class="g49s26"/>
+<rect x="62.0" y="1085.7" width="40.0" height="17.0" rx="4" class="g49s48"/>
+<text x="82.0" y="1098.2" class="g49s49">v2.5</text>
+<text x="110.0" y="1098.2" class="g49s50">cell 1 · &lt;module&gt;</text>
+<rect x="669.8" y="1085.7" width="50.2" height="17.0" rx="8.5" class="g49s51"/>
+<text x="694.9" y="1097.7" class="g49s52">REUSE</text>
+<text y="1098.2" xml:space="preserve" class="g49s53"><tspan x="587.9" class="g49s5" textLength="71.9" lengthAdjust="spacing">four new knobs</tspan></text>
+<rect x="80.0" y="1110.2" width="640.0" height="43.3" rx="6" class="g49s54"/>
+<text x="90.0" y="1128.8" class="g49s55">v2</text>
+<text x="90.0" y="1141.8" class="g49s56">was</text>
+<text x="130.0" y="1128.8" xml:space="preserve" class="g49s11"><tspan class="g49s1">D_MODEL</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">NUM_HEADS</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">NUM_LAYERS</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">D_FF</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">DROPOUT</tspan><tspan class="g49s1"> </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">512</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">4</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">2</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">2048</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">0.1</tspan></text>
+<text x="90.0" y="1176.3" class="g49s57">v2.5</text>
+<text x="90.0" y="1189.3" class="g49s58">now</text>
+<text x="130.0" y="1176.3" xml:space="preserve" class="g49s11"><tspan class="g49s1">D_MODEL</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">NUM_HEADS</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">NUM_LAYERS</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">D_FF</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s1">DROPOUT</tspan><tspan class="g49s1"> </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">512</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">4</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">2</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">2048</tspan><tspan class="g49s3">,</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">0.1</tspan></text>
+<text x="130.0" y="1193.3" xml:space="preserve" class="g49s11"><tspan class="g49s1">ROPE_BASE</tspan><tspan class="g49s1">  </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">10000.0</tspan><tspan class="g49s1">      </tspan><tspan class="g49s9"># [NEW v2.5] rotary positions: the slowest turning speed</tspan></text>
+<text y="1215.3" xml:space="preserve" class="g49s19"><tspan x="130.0" textLength="179.5" lengthAdjust="spacing">The model’s shape is unchanged: </tspan><tspan x="309.5" class="g49s2" textLength="71.1" lengthAdjust="spacing">512 numbers</tspan><tspan x="380.6" textLength="57.5" lengthAdjust="spacing"> per token, </tspan><tspan x="438.2" class="g49s2" textLength="43.4" lengthAdjust="spacing">4 heads</tspan><tspan x="481.5">, </tspan><tspan x="487.9" class="g49s2" textLength="42.7" lengthAdjust="spacing">2 layers</tspan><tspan x="530.6" textLength="58.8" lengthAdjust="spacing"> each side, </tspan><tspan x="589.4" class="g49s23" textLength="26.0" lengthAdjust="spacing">D_FF</tspan><tspan x="615.5"> </tspan><tspan x="618.6" class="g49s2" textLength="30.5" lengthAdjust="spacing">2,048</tspan><tspan x="649.1"> (</tspan><tspan x="656.2" class="g49s23" textLength="39.0" lengthAdjust="spacing">SwiGLU</tspan></text>
+<text y="1231.3" xml:space="preserve" class="g49s19"><tspan x="130.0" textLength="76.0" lengthAdjust="spacing">makes its own </tspan><tspan x="206.0" class="g49s2" textLength="30.5" lengthAdjust="spacing">1,368</tspan><tspan x="236.5" textLength="45.4" lengthAdjust="spacing"> from it). </tspan><tspan x="281.9" class="g49s23" textLength="58.6" lengthAdjust="spacing">ROPE_BASE</tspan><tspan x="340.5" textLength="62.0" lengthAdjust="spacing"> travels into </tspan><tspan x="402.5" class="g49s23" textLength="78.1" lengthAdjust="spacing">model_config</tspan><tspan x="480.6" textLength="15.3" lengthAdjust="spacing"> in </tspan><tspan x="495.9" class="g49s2" textLength="28.5" lengthAdjust="spacing">cell 7</tspan><tspan x="524.4" textLength="180.3" lengthAdjust="spacing">, so a checkpoint rebuilds the same</tspan></text>
+<text y="1247.3" xml:space="preserve" class="g49s19"><tspan x="130.0" textLength="41.5" lengthAdjust="spacing">rotation.</tspan></text>
+<line x1="736.0" y1="1086.2" x2="736.0" y2="1397.5" class="g49s59"/>
+<text x="750.0" y="1102.2" class="g49s82">THE RESULT — how position gets into the model</text>
+<rect x="750.0" y="1114.2" width="28.2" height="19.0" rx="9.5" class="g49s83"/>
+<text x="764.1" y="1127.7" class="g49s84">v2</text>
+<text y="1126.7" xml:space="preserve" class="g49s35"><tspan x="788.2" textLength="37.1" lengthAdjust="spacing">a fixed </tspan><tspan x="825.3" class="g49s2" textLength="77.8" lengthAdjust="spacing">66 × 512 table</tspan><tspan x="903.1" textLength="225.0" lengthAdjust="spacing"> of sines and cosines, added to every word (</tspan><tspan x="1128.1" class="g49s2" textLength="42.7" lengthAdjust="spacing">12 rows</tspan><tspan x="1170.8">, </tspan><tspan x="1177.2" class="g49s2" textLength="62.3" lengthAdjust="spacing">24 columns</tspan><tspan x="1239.5" textLength="40.3" lengthAdjust="spacing"> shown)</tspan></text>
+<rect x="808.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="860.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="912.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="964.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1016.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1068.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1120.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1172.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1224.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1276.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1328.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1380.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1140.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<text x="800.0" y="1148.9" class="g49s61">pos 0</text>
+<rect x="808.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.78"/>
+<rect x="834.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.5549999999999999"/>
+<rect x="860.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.765"/>
+<rect x="886.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.5760000000000001"/>
+<rect x="912.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s62"/>
+<rect x="938.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.597"/>
+<rect x="964.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s63"/>
+<rect x="990.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s27"/>
+<rect x="1016.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.72"/>
+<rect x="1042.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.636"/>
+<rect x="1068.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.705"/>
+<rect x="1094.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.654"/>
+<rect x="1120.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.6900000000000001"/>
+<rect x="1146.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s87"/>
+<rect x="1172.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.675"/>
+<rect x="1198.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.684"/>
+<rect x="1224.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.66"/>
+<rect x="1250.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.6990000000000001"/>
+<rect x="1276.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.645"/>
+<rect x="1302.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.711"/>
+<rect x="1328.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1149.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.633"/>
+<rect x="1354.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s64"/>
+<rect x="1380.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s27"/>
+<rect x="1406.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1149.9" width="26.0" height="9.0" rx="0" class="g49s63"/>
+<rect x="808.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s88"/>
+<rect x="834.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1158.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.46199999999999997"/>
+<rect x="860.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s89"/>
+<rect x="886.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1158.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.41400000000000003"/>
+<rect x="912.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s65"/>
+<rect x="938.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1158.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.366"/>
+<rect x="964.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s24"/>
+<rect x="990.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s28"/>
+<rect x="1016.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s66"/>
+<rect x="1042.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1158.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.27"/>
+<rect x="1068.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s29"/>
+<rect x="1094.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s90"/>
+<rect x="1120.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1146.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1198.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s29"/>
+<rect x="1250.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1158.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.20400000000000001"/>
+<rect x="1276.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s91"/>
+<rect x="1302.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s92"/>
+<rect x="1328.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s93"/>
+<rect x="1354.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s94"/>
+<rect x="1380.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s24"/>
+<rect x="1406.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1158.9" width="26.0" height="9.0" rx="0" class="g49s95"/>
+<rect x="808.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s96"/>
+<rect x="834.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s97"/>
+<rect x="860.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s98"/>
+<rect x="886.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s99"/>
+<rect x="912.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s67"/>
+<rect x="938.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s36"/>
+<rect x="964.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s37"/>
+<rect x="990.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s30"/>
+<rect x="1016.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.5369999999999999"/>
+<rect x="1042.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.792"/>
+<rect x="1068.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.5940000000000001"/>
+<rect x="1094.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.753"/>
+<rect x="1120.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.648"/>
+<rect x="1146.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.711"/>
+<rect x="1172.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.6930000000000001"/>
+<rect x="1198.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s100"/>
+<rect x="1224.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s63"/>
+<rect x="1250.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.621"/>
+<rect x="1276.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s101"/>
+<rect x="1302.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.573"/>
+<rect x="1328.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s102"/>
+<rect x="1354.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s103"/>
+<rect x="1380.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s68"/>
+<rect x="1406.0" y="1167.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1167.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.474"/>
+<rect x="808.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.717"/>
+<rect x="834.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.639"/>
+<rect x="860.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.642"/>
+<rect x="886.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.714"/>
+<rect x="912.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.5609999999999999"/>
+<rect x="938.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.777"/>
+<rect x="964.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s104"/>
+<rect x="990.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s30"/>
+<rect x="1016.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.387"/>
+<rect x="1042.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.861"/>
+<rect x="1068.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.30000000000000004"/>
+<rect x="1094.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.885"/>
+<rect x="1120.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1176.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.21000000000000002"/>
+<rect x="1146.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s105"/>
+<rect x="1172.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s31"/>
+<rect x="1224.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s96"/>
+<rect x="1250.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s97"/>
+<rect x="1276.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s98"/>
+<rect x="1302.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s99"/>
+<rect x="1328.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s67"/>
+<rect x="1354.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s36"/>
+<rect x="1380.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s37"/>
+<rect x="1406.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1176.9" width="26.0" height="9.0" rx="0" class="g49s30"/>
+<text x="800.0" y="1184.9" class="g49s61">pos 4</text>
+<rect x="808.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8699999999999999"/>
+<rect x="834.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.363"/>
+<rect x="860.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s69"/>
+<rect x="886.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.23399999999999999"/>
+<rect x="912.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s31"/>
+<rect x="938.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s38"/>
+<rect x="990.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s28"/>
+<rect x="1016.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s106"/>
+<rect x="1042.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.42899999999999994"/>
+<rect x="1068.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s107"/>
+<rect x="1094.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.534"/>
+<rect x="1120.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.732"/>
+<rect x="1146.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.624"/>
+<rect x="1172.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.66"/>
+<rect x="1198.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s108"/>
+<rect x="1224.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.579"/>
+<rect x="1250.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.765"/>
+<rect x="1276.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.492"/>
+<rect x="1302.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8160000000000001"/>
+<rect x="1328.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1185.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.405"/>
+<rect x="1354.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s36"/>
+<rect x="1380.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s28"/>
+<rect x="1406.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1185.9" width="26.0" height="9.0" rx="0" class="g49s38"/>
+<rect x="808.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s109"/>
+<rect x="834.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s65"/>
+<rect x="860.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s110"/>
+<rect x="886.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s111"/>
+<rect x="912.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s112"/>
+<rect x="938.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s113"/>
+<rect x="964.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s70"/>
+<rect x="990.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s27"/>
+<rect x="1016.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1194.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8130000000000001"/>
+<rect x="1042.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1194.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.498"/>
+<rect x="1068.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1194.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.867"/>
+<rect x="1094.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1194.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.372"/>
+<rect x="1120.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s69"/>
+<rect x="1146.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s92"/>
+<rect x="1172.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s31"/>
+<rect x="1198.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s38"/>
+<rect x="1250.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1194.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.309"/>
+<rect x="1276.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1194.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.849"/>
+<rect x="1302.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1194.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.42299999999999993"/>
+<rect x="1328.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1194.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.798"/>
+<rect x="1354.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s103"/>
+<rect x="1380.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s70"/>
+<rect x="1406.0" y="1194.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1194.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.618"/>
+<rect x="808.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s114"/>
+<rect x="834.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.714"/>
+<rect x="860.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.489"/>
+<rect x="886.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s115"/>
+<rect x="912.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.321"/>
+<rect x="938.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.879"/>
+<rect x="964.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1016.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s116"/>
+<rect x="1042.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s24"/>
+<rect x="1068.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.46499999999999997"/>
+<rect x="1094.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s88"/>
+<rect x="1120.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.6000000000000001"/>
+<rect x="1146.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s62"/>
+<rect x="1172.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.708"/>
+<rect x="1198.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.651"/>
+<rect x="1224.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s107"/>
+<rect x="1250.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.534"/>
+<rect x="1276.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s36"/>
+<rect x="1302.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s67"/>
+<rect x="1328.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8879999999999999"/>
+<rect x="1354.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1203.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.279"/>
+<rect x="1380.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s31"/>
+<rect x="1406.0" y="1203.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s66"/>
+<rect x="834.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.258"/>
+<rect x="860.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s91"/>
+<rect x="886.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.252"/>
+<rect x="912.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8370000000000001"/>
+<rect x="938.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.44999999999999996"/>
+<rect x="964.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.738"/>
+<rect x="990.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s27"/>
+<rect x="1016.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.6000000000000001"/>
+<rect x="1042.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s62"/>
+<rect x="1068.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.44099999999999995"/>
+<rect x="1094.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8400000000000001"/>
+<rect x="1120.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.273"/>
+<rect x="1146.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s66"/>
+<rect x="1172.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1212.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.198"/>
+<rect x="1198.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s29"/>
+<rect x="1224.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s109"/>
+<rect x="1250.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s65"/>
+<rect x="1276.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s110"/>
+<rect x="1302.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s111"/>
+<rect x="1328.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s112"/>
+<rect x="1354.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s113"/>
+<rect x="1380.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s70"/>
+<rect x="1406.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1212.9" width="26.0" height="9.0" rx="0" class="g49s27"/>
+<text x="800.0" y="1220.9" class="g49s61">pos 8</text>
+<rect x="808.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.45899999999999996"/>
+<rect x="834.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8340000000000001"/>
+<rect x="860.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.657"/>
+<rect x="886.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s108"/>
+<rect x="912.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s102"/>
+<rect x="938.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.522"/>
+<rect x="964.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s24"/>
+<rect x="990.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s28"/>
+<rect x="1016.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1042.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.195"/>
+<rect x="1068.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8579999999999999"/>
+<rect x="1094.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.396"/>
+<rect x="1120.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s101"/>
+<rect x="1146.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.573"/>
+<rect x="1172.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s114"/>
+<rect x="1198.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.717"/>
+<rect x="1224.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1221.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.486"/>
+<rect x="1250.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s115"/>
+<rect x="1276.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s95"/>
+<rect x="1302.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s24"/>
+<rect x="1328.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s7"/>
+<rect x="1380.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s28"/>
+<rect x="1406.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1221.9" width="26.0" height="9.0" rx="0" class="g49s24"/>
+<rect x="808.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.558"/>
+<rect x="834.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="834.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.78"/>
+<rect x="860.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s116"/>
+<rect x="886.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s38"/>
+<rect x="912.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.24"/>
+<rect x="938.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s69"/>
+<rect x="964.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s37"/>
+<rect x="990.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s30"/>
+<rect x="1016.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s87"/>
+<rect x="1042.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.6900000000000001"/>
+<rect x="1068.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.807"/>
+<rect x="1094.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.51"/>
+<rect x="1120.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.885"/>
+<rect x="1146.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.30300000000000005"/>
+<rect x="1172.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s29"/>
+<rect x="1198.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.21000000000000002"/>
+<rect x="1224.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s89"/>
+<rect x="1250.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.41100000000000003"/>
+<rect x="1276.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.759"/>
+<rect x="1302.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.585"/>
+<rect x="1328.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1230.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.63"/>
+<rect x="1354.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s64"/>
+<rect x="1380.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s37"/>
+<rect x="1406.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1230.9" width="26.0" height="9.0" rx="0" class="g49s68"/>
+<rect x="808.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="808.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s31"/>
+<rect x="834.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="860.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s106"/>
+<rect x="886.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="886.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.43199999999999994"/>
+<rect x="912.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="912.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.6930000000000001"/>
+<rect x="938.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="938.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s100"/>
+<rect x="964.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="964.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s104"/>
+<rect x="990.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="990.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s30"/>
+<rect x="1016.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1016.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s90"/>
+<rect x="1042.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1042.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s105"/>
+<rect x="1068.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1068.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.324"/>
+<rect x="1094.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1094.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.879"/>
+<rect x="1120.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1120.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.5489999999999999"/>
+<rect x="1146.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1146.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.786"/>
+<rect x="1172.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1172.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s64"/>
+<rect x="1198.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1198.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.63"/>
+<rect x="1224.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1224.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8430000000000001"/>
+<rect x="1250.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1250.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.43799999999999994"/>
+<rect x="1276.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1276.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s29"/>
+<rect x="1302.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1302.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.22799999999999998"/>
+<rect x="1328.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1328.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s93"/>
+<rect x="1354.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1354.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s94"/>
+<rect x="1380.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1380.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s68"/>
+<rect x="1406.0" y="1239.9" width="26.0" height="9.0" rx="0" class="g49s0"/>
+<rect x="1406.0" y="1239.9" width="26.0" height="9.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.477"/>
+<rect x="750.0" y="1260.9" width="37.9" height="19.0" rx="9.5" class="g49s85"/>
+<text x="768.9" y="1274.4" class="g49s86">v2.5</text>
+<text y="1273.4" xml:space="preserve" class="g49s35"><tspan x="797.9" class="g49s23" textLength="117.1" lengthAdjust="spacing">ROPE_BASE = 10,000</tspan><tspan x="915.0" textLength="27.5" lengthAdjust="spacing"> sets </tspan><tspan x="942.5" class="g49s2" textLength="13.6" lengthAdjust="spacing">64</tspan><tspan x="956.1" textLength="194.3" lengthAdjust="spacing"> turning speeds; here each hand after </tspan><tspan x="1150.4" class="g49s2" textLength="49.5" lengthAdjust="spacing">10 words</tspan></text>
+<circle cx="889.8" cy="1317.5" r="28.0" class="g49s39"/>
+<line x1="889.8" y1="1317.5" x2="899.5" y2="1332.6" class="g49s40"/>
+<path d="M902.2 1336.8 L895.9 1332.7 L901.1 1329.4 Z" class="g49s41"/>
+<text x="889.8" y="1360.5" class="g49s42">pair 0</text>
+<circle cx="1157.2" cy="1317.5" r="28.0" class="g49s39"/>
+<line x1="1157.2" y1="1317.5" x2="1142.1" y2="1307.8" class="g49s40"/>
+<path d="M1137.9 1305.1 L1145.3 1306.3 L1142.0 1311.4 Z" class="g49s41"/>
+<text x="1157.2" y="1360.5" class="g49s42">pair 16</text>
+<circle cx="1424.8" cy="1317.5" r="28.0" class="g49s39"/>
+<line x1="1424.8" y1="1317.5" x2="1423.0" y2="1299.7" class="g49s40"/>
+<path d="M1422.5 1294.7 L1426.2 1301.2 L1420.1 1301.8 Z" class="g49s41"/>
+<text x="1424.8" y="1360.5" class="g49s42">pair 32</text>
+<circle cx="1692.2" cy="1317.5" r="28.0" class="g49s39"/>
+<line x1="1692.2" y1="1317.5" x2="1692.2" y2="1299.6" class="g49s40"/>
+<path d="M1692.2 1294.6 L1695.3 1301.4 L1689.2 1301.4 Z" class="g49s41"/>
+<text x="1692.2" y="1360.5" class="g49s42">pair 63</text>
+<text y="1388.5" xml:space="preserve" class="g49s4"><tspan x="750.0" textLength="22.6" lengthAdjust="spacing">Pair </tspan><tspan x="772.6" class="g49s2">0</tspan><tspan x="779.1" textLength="30.6" lengthAdjust="spacing"> turns </tspan><tspan x="809.7" class="g49s2" textLength="22.7" lengthAdjust="spacing">57.3</tspan><tspan x="832.4" textLength="77.8" lengthAdjust="spacing">° per word, pair </tspan><tspan x="910.1" class="g49s2" textLength="13.0" lengthAdjust="spacing">63</tspan><tspan x="923.1" textLength="26.3" lengthAdjust="spacing"> only </tspan><tspan x="949.4" class="g49s2" textLength="35.7" lengthAdjust="spacing">0.0066</tspan><tspan x="985.0" textLength="88.8" lengthAdjust="spacing">°: a full turn every </tspan><tspan x="1073.8" class="g49s2" textLength="70.0" lengthAdjust="spacing">54,410 words</tspan><tspan x="1143.8" textLength="234.2" lengthAdjust="spacing"> — so near and far distances both leave a trace.</tspan></text>
+<rect x="52.0" y="1417.5" width="1794.0" height="208.1" rx="8" class="g49s47"/>
+<path d="M57.55 1418.46 A7.45 7.45 0 0 0 52.55 1425.50 V1617.60 A7.45 7.45 0 0 0 57.55 1624.64 Z" class="g49s26"/>
+<rect x="62.0" y="1427.0" width="40.0" height="17.0" rx="4" class="g49s48"/>
+<text x="82.0" y="1439.5" class="g49s49">v2.5</text>
+<text x="110.0" y="1439.5" class="g49s50">cell 1 · &lt;module&gt;</text>
+<rect x="669.8" y="1427.0" width="50.2" height="17.0" rx="8.5" class="g49s51"/>
+<text x="694.9" y="1439.0" class="g49s52">REUSE</text>
+<text y="1439.5" xml:space="preserve" class="g49s53"><tspan x="587.9" class="g49s5" textLength="71.9" lengthAdjust="spacing">four new knobs</tspan></text>
+<rect x="80.0" y="1451.5" width="640.0" height="43.3" rx="6" class="g49s54"/>
+<text x="90.0" y="1470.1" class="g49s55">v2</text>
+<text x="90.0" y="1483.1" class="g49s56">was</text>
+<text x="130.0" y="1470.1" xml:space="preserve" class="g49s11"><tspan class="g49s1">CKPT_PATH</tspan><tspan class="g49s1">  </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s117">&quot;best_model.pt&quot;</tspan></text>
+<text x="90.0" y="1517.6" class="g49s57">v2.5</text>
+<text x="90.0" y="1530.6" class="g49s58">now</text>
+<text x="130.0" y="1517.6" xml:space="preserve" class="g49s11"><tspan class="g49s1">CKPT_PATH</tspan><tspan class="g49s1">  </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s117">&quot;best_model.pt&quot;</tspan></text>
+<text x="130.0" y="1534.6" xml:space="preserve" class="g49s11"><tspan class="g49s1">EMA_DECAY</tspan><tspan class="g49s1">  </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">0.999</tspan><tspan class="g49s1">        </tspan><tspan class="g49s9"># [NEW v2.5] how slowly the averaged weights follow</tspan></text>
+<text x="130.0" y="1551.6" xml:space="preserve" class="g49s11"><tspan class="g49s1">TOP_P</tspan><tspan class="g49s1">              </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">0.9</tspan><tspan class="g49s1">  </tspan><tspan class="g49s9"># top-p (nucleus) sampling: keep 90% of the probability</tspan></text>
+<text x="130.0" y="1568.6" xml:space="preserve" class="g49s11"><tspan class="g49s1">REPETITION_PENALTY</tspan><tspan class="g49s1"> </tspan><tspan class="g49s3">=</tspan><tspan class="g49s1"> </tspan><tspan class="g49s6">1.2</tspan><tspan class="g49s1">  </tspan><tspan class="g49s9"># &gt; 1 makes tokens already written less likely</tspan></text>
+<text y="1590.6" xml:space="preserve" class="g49s19"><tspan x="130.0" textLength="581.7" lengthAdjust="spacing">Three knobs that do not change the model at all — only how it is averaged during training and how its answers are</tspan></text>
+<text y="1606.6" xml:space="preserve" class="g49s19"><tspan x="130.0" textLength="97.2" lengthAdjust="spacing">chosen afterwards.</tspan></text>
+<line x1="736.0" y1="1427.5" x2="736.0" y2="1615.6" class="g49s59"/>
+<text y="1442.5" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600"><tspan x="750.0" class="g49s5" textLength="285.9" lengthAdjust="spacing">THE RESULT — what the three knobs do, measured</tspan></text>
+<rect x="750.0" y="1451.5" width="1082.0" height="24.0" rx="4" class="g49s33"/>
+<text y="1467.5" xml:space="preserve" class="g49s15"><tspan x="759.0" class="g49s5" textLength="24.1" lengthAdjust="spacing">knob</tspan></text>
+<text y="1467.5" xml:space="preserve" class="g49s15"><tspan x="1083.6" class="g49s118" textLength="11.9" lengthAdjust="spacing">v2</tspan></text>
+<text y="1467.5" xml:space="preserve" class="g49s15"><tspan x="1300.0" class="g49s118" textLength="23.8" lengthAdjust="spacing">v2.5</tspan><tspan x="1323.8" class="g49s5" textLength="66.8" lengthAdjust="spacing"> — measured</tspan></text>
+<text x="759.0" y="1492.1" class="g49s71">EMA_DECAY 0.999</text>
+<text y="1492.1" xml:space="preserve" class="g49s25"><tspan x="1083.6" textLength="52.5" lengthAdjust="spacing">no average</tspan></text>
+<text y="1492.1" xml:space="preserve" class="g49s25"><tspan x="1300.0" textLength="139.4" lengthAdjust="spacing">the average follows ≈ the last </tspan><tspan x="1439.4" class="g49s2" textLength="57.5" lengthAdjust="spacing">1,000 steps</tspan><tspan x="1496.9" textLength="15.6" lengthAdjust="spacing"> (≈ </tspan><tspan x="1512.5" class="g49s2" textLength="12.4" lengthAdjust="spacing">11</tspan><tspan x="1524.9" textLength="104.5" lengthAdjust="spacing"> by the end of this run)</tspan></text>
+<line x1="750.0" y1="1501.5" x2="1832.0" y2="1501.5" class="g49s8"/>
+<rect x="750.0" y="1501.5" width="1082.0" height="26.0" rx="0" class="g49s45"/>
+<text x="759.0" y="1518.1" class="g49s71">TOP_P 0.9</text>
+<text y="1518.1" xml:space="preserve" class="g49s25"><tspan x="1083.6" textLength="26.3" lengthAdjust="spacing">top-k </tspan><tspan x="1109.9" class="g49s2">5</tspan><tspan x="1116.0" textLength="22.2" lengthAdjust="spacing"> only</tspan></text>
+<text y="1518.1" xml:space="preserve" class="g49s25"><tspan x="1300.0" textLength="30.9" lengthAdjust="spacing">keeps </tspan><tspan x="1330.9" class="g49s2" textLength="69.9" lengthAdjust="spacing">13,438 tokens</tspan><tspan x="1400.9" textLength="52.5" lengthAdjust="spacing"> untrained, </tspan><tspan x="1453.4" class="g49s2">1</tspan><tspan x="1459.6" textLength="35.0" lengthAdjust="spacing"> trained</tspan></text>
+<line x1="750.0" y1="1527.5" x2="1832.0" y2="1527.5" class="g49s8"/>
+<text x="759.0" y="1544.1" class="g49s71">REPETITION_PENALTY 1.2</text>
+<text y="1544.1" xml:space="preserve" class="g49s25"><tspan x="1083.6" textLength="86.6" lengthAdjust="spacing">none: “resort_” × </tspan><tspan x="1170.2" class="g49s2">8</tspan></text>
+<text y="1544.1" xml:space="preserve" class="g49s25"><tspan x="1300.0" textLength="123.5" lengthAdjust="spacing">“resort_” loses its lead at </tspan><tspan x="1423.5" class="g49s2" textLength="30.3" lengthAdjust="spacing">step 4</tspan></text>
+<line x1="750.0" y1="1553.5" x2="1832.0" y2="1553.5" class="g49s8"/>
+<rect x="750.0" y="1475.5" width="1082.0" height="78.0" rx="0" class="g49s77"/>
+<line x1="1074.6" y1="1475.5" x2="1074.6" y2="1553.5" class="g49s8"/>
+<line x1="1291.0" y1="1475.5" x2="1291.0" y2="1553.5" class="g49s8"/>
+<rect x="34.0" y="1649.6" width="1812.0" height="55.0" rx="6" class="g49s72"/>
+<path d="M38.50 1650.31 A5.50 5.50 0 0 0 34.50 1655.60 V1698.64 A5.50 5.50 0 0 0 38.50 1703.93 Z" class="g49s26"/>
+<text y="1675.6" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600"><tspan x="50.0" class="g49s5" textLength="33.2" lengthAdjust="spacing">What </tspan><tspan x="83.2" class="g49s32" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="110.4" class="g49s5" textLength="62.9" lengthAdjust="spacing"> gains here</tspan></text>
+<text y="1693.1" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px"><tspan x="50.0" textLength="128.1" lengthAdjust="spacing">Every new behaviour in </tspan><tspan x="178.1" class="g49s32" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="205.2" textLength="437.6" lengthAdjust="spacing"> that you might want to tune is one named number at the top of the notebook, with </tspan><tspan x="642.8" class="g49s32" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="656.4" textLength="344.6" lengthAdjust="spacing">’s settings untouched. The model’s shape does not change, so </tspan><tspan x="1001.0" class="g49s32" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="1028.1" textLength="66.7" lengthAdjust="spacing"> has exactly </tspan><tspan x="1094.8" class="g49s32" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="1108.4" textLength="16.5" lengthAdjust="spacing">’s </tspan><tspan x="1125.0" class="g49s2" textLength="131.5" lengthAdjust="spacing">22,979,823 parameters</tspan><tspan x="1256.5">.</tspan></text>
+<rect x="34.0" y="1726.6" width="1812.0" height="34.0" rx="6" class="g49s78"/>
+<rect x="48.0" y="1735.6" width="15.0" height="15.0" rx="3" class="g49s80"/>
+<text y="1746.6" xml:space="preserve" class="g49s4"><tspan x="70.0" textLength="256.7" lengthAdjust="spacing">sequence A — &quot;the dog sat on the floor&quot; (padded by </tspan><tspan x="326.7" class="g49s2">2</tspan><tspan x="333.2">)</tspan></text>
+<rect x="373.1" y="1735.6" width="15.0" height="15.0" rx="3" class="g49s81"/>
+<text y="1746.6" xml:space="preserve" class="g49s4"><tspan x="395.1" textLength="386.3" lengthAdjust="spacing">sequence B — &quot;the cat is sleeping on the sofa&quot; (no padding — it sets the width)</tspan></text>
+<rect x="822.9" y="1735.6" width="15.0" height="15.0" rx="3" style="fill:var(--pos);stroke:var(--pos);stroke-width:1;opacity:0.35"/>
+<text y="1746.6" xml:space="preserve" class="g49s4"><tspan x="844.9" textLength="66.6" lengthAdjust="spacing">positive value</tspan></text>
+<rect x="940.2" y="1735.6" width="15.0" height="15.0" rx="3" style="fill:var(--neg);stroke:var(--neg);stroke-width:1;opacity:0.35"/>
+<text y="1746.6" xml:space="preserve" class="g49s4"><tspan x="962.2" textLength="70.9" lengthAdjust="spacing">negative value</tspan></text>
+<line x1="28.0" y1="1786.6" x2="1852.0" y2="1786.6" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1803.6" xml:space="preserve" class="g49s46"><tspan x="28.0" textLength="404.7" lengthAdjust="spacing">Two kinds of numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="432.7" class="g49s17" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="457.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="600.7" class="g49s2" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="616.9" textLength="234.8" lengthAdjust="spacing">.0 on its own two sentence pairs (CPU, seeded, </tspan><tspan x="851.6" class="g49s2" textLength="22.7" lengthAdjust="spacing">15.6</tspan><tspan x="874.3" textLength="181.0" lengthAdjust="spacing"> s): its printed lines, the loss of every </tspan><tspan x="1055.3" class="g49s17" textLength="31.1" lengthAdjust="spacing">epoch</tspan><tspan x="1086.4" textLength="450.0" lengthAdjust="spacing">, the checkpoint it kept. UNTRAINED numbers are a pure-Python trace of the same code on </tspan><tspan x="1536.4" class="g49s17" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1548.8" textLength="294.6" lengthAdjust="spacing">’s seeded starting weights, and every one of them has been</tspan></text>
+<text y="1818.6" xml:space="preserve" class="g49s46"><tspan x="28.0" textLength="352.6" lengthAdjust="spacing">checked against the notebook’s own PyTorch model (largest difference </tspan><tspan x="380.6" class="g49s2" textLength="39.5" lengthAdjust="spacing">1.3e-06</tspan><tspan x="420.2" textLength="156.5" lengthAdjust="spacing">). The notebook file is only read.</tspan></text>
+</svg>

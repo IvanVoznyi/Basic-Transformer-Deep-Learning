@@ -1,0 +1,282 @@
+<svg data-src="v25_deep11_top_p.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1778" viewBox="0 0 1880 1778">
+<style>.txfig .g101s0{font-weight:600}.txfig .g101s1{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g101s2{fill:var(--soft);stroke:var(--hair);stroke-width:0.7}.txfig .g101s3{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9px;text-anchor:middle}.txfig .g101s4{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g101s5{font-weight:600;fill:var(--ink)}.txfig .g101s6{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g101s7{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g101s8{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600}.txfig .g101s9{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g101s10{fill:var(--accent);stroke:none;stroke-width:1}.txfig .g101s11{fill:var(--accent);stroke:none}.txfig .g101s12{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g101s13{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g101s14{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g101s15{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g101s16{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g101s17{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g101s18{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1.2}.txfig .g101s19{fill:var(--bg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600;text-anchor:middle}.txfig .g101s20{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;text-anchor:start}.txfig .g101s21{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g101s22{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:start}.txfig .g101s23{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start}.txfig .g101s24{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g101s25{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:end}.txfig .g101s26{font-weight:600;fill:var(--ink2)}.txfig .g101s27{stroke:var(--gridline);stroke-width:0.7;stroke-linecap:round}.txfig .g101s28{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g101s29{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g101s30{fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1}.txfig .g101s31{fill:var(--warnbd);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:middle}.txfig .g101s32{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g101s33{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch101" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash101" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1778" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" class="g101s10"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v2.5 · DEEP DIVE 11 / 17</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="202.7" class="g101s0" textLength="612.4" lengthAdjust="spacing">Top-p (nucleus) sampling — a shortlist that follows confidence</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="517.4" lengthAdjust="spacing">the order of the steps · the cut, line by line · top-p against top-k · temperature · two models</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="90.1" lengthAdjust="spacing">Hand-set rows of </tspan><tspan x="124.1" class="g101s17" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="163.2" textLength="315.6" lengthAdjust="spacing"> are marked; the untrained and trained models’ rows are real.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="69.0" rx="8" style="fill:var(--keybg);stroke:var(--keybd);stroke-width:1"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V181.00 A7.50 7.50 0 0 0 39.50 188.07 Z" style="fill:var(--keep);stroke:none"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g101s0" textLength="275.5" lengthAdjust="spacing">How many candidates deserve a chance?</tspan></text>
+<text y="169.0" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="54.0" textLength="355.5" lengthAdjust="spacing">When the model samples its next token, it can pick among all </tspan><tspan x="409.5" class="g101s5" textLength="42.1" lengthAdjust="spacing">16,111</tspan><tspan x="451.6" textLength="699.4" lengthAdjust="spacing"> — including thousands of nonsensical ones — or among a shortlist. Top-k keeps a fixed number. Top-p (Holtzman et al., </tspan><tspan x="1151.0" class="g101s5" textLength="30.6" lengthAdjust="spacing">2019</tspan><tspan x="1181.7" textLength="618.5" lengthAdjust="spacing">) keeps the fewest tokens whose probabilities add up to p: one when the model is sure, many when it is not.</tspan></text>
+<rect x="34.0" y="209.0" width="1812.0" height="30.0" rx="6" class="g101s7"/>
+<path d="M38.50 209.71 A5.50 5.50 0 0 0 34.50 215.00 V233.00 A5.50 5.50 0 0 0 38.50 238.29 Z" class="g101s11"/>
+<text y="229.0" xml:space="preserve" class="g101s12"><tspan x="50.0" class="g101s0" textLength="155.5" lengthAdjust="spacing">A · The order of the steps</tspan></text>
+<text y="229.0" xml:space="preserve" class="g101s13"><tspan x="223.5" class="g101s17" textLength="65.1" lengthAdjust="spacing">generate()</tspan><tspan x="288.6" textLength="263.9" lengthAdjust="spacing">, on the untrained model’s first step for sequence A</tspan></text>
+<rect x="34.0" y="255.0" width="1812.0" height="24.0" rx="4" class="g101s7"/>
+<text y="271.0" xml:space="preserve" class="g101s6"><tspan x="43.0" class="g101s0" textLength="21.0" lengthAdjust="spacing">step</tspan></text>
+<text y="271.0" xml:space="preserve" class="g101s6"><tspan x="133.0" class="g101s0" textLength="17.3" lengthAdjust="spacing">line</tspan></text>
+<text y="271.0" xml:space="preserve" class="g101s6"><tspan x="513.0" class="g101s0" textLength="59.4" lengthAdjust="spacing">what it does</tspan></text>
+<text y="271.0" xml:space="preserve" class="g101s6"><tspan x="1413.0" class="g101s0" textLength="95.9" lengthAdjust="spacing">tokens still possible</tspan></text>
+<text y="295.9" xml:space="preserve" class="g101s8"><tspan x="43.0" class="g101s5">1</tspan></text>
+<text x="133.0" y="295.9" class="g101s1">_block_special</text>
+<rect x="513.0" y="285.6" width="37.5" height="14.0" rx="3" style="fill:var(--padbg);stroke:var(--pad);stroke-width:0.8"/>
+<rect x="576.1" y="285.6" width="37.5" height="14.0" rx="3" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8"/>
+<text y="295.9" xml:space="preserve" class="g101s14"><tspan x="515.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--pad)" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="550.5" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="578.6" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--accent)" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="613.7" textLength="61.1" lengthAdjust="spacing"> become −∞</tspan></text>
+<text x="1413.0" y="295.9" class="g101s1">16,111 → 16,109</text>
+<line x1="34.0" y1="305.0" x2="1846.0" y2="305.0" class="g101s4"/>
+<rect x="34.0" y="305.0" width="1812.0" height="26.0" rx="0" class="g101s9"/>
+<text y="321.9" xml:space="preserve" class="g101s8"><tspan x="43.0" class="g101s5">2</tspan></text>
+<text x="133.0" y="321.9" class="g101s1">repetition penalty</text>
+<text y="321.9" xml:space="preserve" class="g101s14"><tspan x="513.0" textLength="183.4" lengthAdjust="spacing">tokens already written pushed down</tspan></text>
+<text x="1413.0" y="321.9" class="g101s1">the same</text>
+<line x1="34.0" y1="331.0" x2="1846.0" y2="331.0" class="g101s4"/>
+<text y="347.9" xml:space="preserve" class="g101s8"><tspan x="43.0" class="g101s5">3</tspan></text>
+<text x="133.0" y="347.9" class="g101s1">temperature 0.8</text>
+<text y="347.9" xml:space="preserve" class="g101s14"><tspan x="513.0" class="g101s17" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="552.0"> ÷ </tspan><tspan x="565.3" class="g101s5" textLength="16.9" lengthAdjust="spacing">0.8</tspan><tspan x="582.3" textLength="59.4" lengthAdjust="spacing">: gaps grow</tspan></text>
+<text x="1413.0" y="347.9" class="g101s1">the same, sharper</text>
+<line x1="34.0" y1="357.0" x2="1846.0" y2="357.0" class="g101s4"/>
+<rect x="34.0" y="357.0" width="1812.0" height="26.0" rx="0" class="g101s9"/>
+<text y="373.9" xml:space="preserve" class="g101s8"><tspan x="43.0" class="g101s5">4</tspan></text>
+<text x="133.0" y="373.9" class="g101s1">top-k (if given)</text>
+<text y="373.9" xml:space="preserve" class="g101s14"><tspan x="513.0" textLength="78.0" lengthAdjust="spacing">keep the k best</tspan></text>
+<text x="1413.0" y="373.9" class="g101s1">k</text>
+<line x1="34.0" y1="383.0" x2="1846.0" y2="383.0" class="g101s4"/>
+<text y="399.9" xml:space="preserve" class="g101s8"><tspan x="43.0" class="g101s5">5</tspan></text>
+<text x="133.0" y="399.9" class="g101s1">top-p 0.9</text>
+<text y="399.9" xml:space="preserve" class="g101s14"><tspan x="513.0" textLength="137.4" lengthAdjust="spacing">keep the fewest that cover </tspan><tspan x="650.4" class="g101s5" textLength="24.4" lengthAdjust="spacing">90%</tspan></text>
+<text x="1413.0" y="399.9" class="g101s1">13,438</text>
+<line x1="34.0" y1="409.0" x2="1846.0" y2="409.0" class="g101s4"/>
+<rect x="34.0" y="409.0" width="1812.0" height="26.0" rx="0" class="g101s9"/>
+<text y="425.9" xml:space="preserve" class="g101s8"><tspan x="43.0" class="g101s5">6</tspan></text>
+<text x="133.0" y="425.9" class="g101s1">multinomial</text>
+<text y="425.9" xml:space="preserve" class="g101s14"><tspan x="513.0" textLength="114.4" lengthAdjust="spacing">draw one in proportion</tspan></text>
+<text x="1413.0" y="425.9" class="g101s1">1</text>
+<line x1="34.0" y1="435.0" x2="1846.0" y2="435.0" class="g101s4"/>
+<rect x="34.0" y="279.0" width="1812.0" height="156.0" rx="0" class="g101s24"/>
+<line x1="124.0" y1="279.0" x2="124.0" y2="435.0" class="g101s4"/>
+<line x1="504.0" y1="279.0" x2="504.0" y2="435.0" class="g101s4"/>
+<line x1="1404.0" y1="279.0" x2="1404.0" y2="435.0" class="g101s4"/>
+<rect x="34.0" y="459.0" width="1812.0" height="30.0" rx="6" class="g101s7"/>
+<path d="M38.50 459.71 A5.50 5.50 0 0 0 34.50 465.00 V483.00 A5.50 5.50 0 0 0 38.50 488.29 Z" class="g101s11"/>
+<text y="479.0" xml:space="preserve" class="g101s12"><tspan x="50.0" class="g101s0" textLength="148.6" lengthAdjust="spacing">B · The cut, step by step</tspan></text>
+<text y="479.0" xml:space="preserve" class="g101s13"><tspan x="216.6" textLength="109.3" lengthAdjust="spacing">a hand-set row of six </tspan><tspan x="325.9" class="g101s17" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="364.9">, </tspan><tspan x="371.3" class="g101s17" textLength="71.6" lengthAdjust="spacing">top_p = 0.9</tspan></text>
+<rect x="34.0" y="505.0" width="123.9" height="18.0" rx="9" class="g101s30"/>
+<text x="96.0" y="517.5" class="g101s31">HAND-SET EXAMPLE</text>
+<rect x="34.0" y="531.0" width="351.2" height="180.0" rx="9" class="g101s18"/>
+<rect x="46.0" y="543.0" width="28.0" height="28.0" rx="14" class="g101s10"/>
+<text x="60.0" y="562.0" class="g101s19">1</text>
+<text x="82.0" y="562.0" class="g101s20">Sort</text>
+<text x="48.0" y="591.0" class="g101s21">next_logits.sort(descending=True)</text>
+<text x="48.0" y="642.0" class="g101s22">score</text>
+<rect x="130.0" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="150.3" y="642.4" class="g101s3">2.00</text>
+<rect x="170.5" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="190.8" y="642.4" class="g101s3">1.40</text>
+<rect x="211.1" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="231.3" y="642.4" class="g101s3">1.00</text>
+<rect x="251.6" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="271.9" y="642.4" class="g101s3">0.30</text>
+<rect x="292.1" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="312.4" y="642.4" class="g101s3">-0.50</text>
+<rect x="332.7" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="352.9" y="642.4" class="g101s3">-1.20</text>
+<text x="48.0" y="681.0" class="g101s23">best first</text>
+<rect x="399.2" y="531.0" width="351.2" height="180.0" rx="9" class="g101s18"/>
+<rect x="411.2" y="543.0" width="28.0" height="28.0" rx="14" class="g101s10"/>
+<text x="425.2" y="562.0" class="g101s19">2</text>
+<text x="447.2" y="562.0" class="g101s20">Probabilities</text>
+<text x="413.2" y="591.0" class="g101s21">torch.softmax(sorted_logits)</text>
+<text x="413.2" y="642.0" class="g101s22">p</text>
+<rect x="495.2" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="515.5" y="642.4" class="g101s3">0.45</text>
+<rect x="535.7" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="556.0" y="642.4" class="g101s3">0.25</text>
+<rect x="576.3" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="596.5" y="642.4" class="g101s3">0.17</text>
+<rect x="616.8" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="637.1" y="642.4" class="g101s3">0.08</text>
+<rect x="657.3" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="677.6" y="642.4" class="g101s3">0.04</text>
+<rect x="697.9" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="718.1" y="642.4" class="g101s3">0.02</text>
+<text x="413.2" y="681.0" class="g101s23">they add up to 1</text>
+<rect x="764.4" y="531.0" width="351.2" height="180.0" rx="9" class="g101s18"/>
+<rect x="776.4" y="543.0" width="28.0" height="28.0" rx="14" class="g101s10"/>
+<text x="790.4" y="562.0" class="g101s19">3</text>
+<text x="812.4" y="562.0" class="g101s20">Running total</text>
+<text x="778.4" y="591.0" class="g101s21">probs.cumsum(-1)</text>
+<text x="778.4" y="642.0" class="g101s22">total</text>
+<rect x="860.4" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="880.7" y="642.4" class="g101s3">0.45</text>
+<rect x="900.9" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="921.2" y="642.4" class="g101s3">0.70</text>
+<rect x="941.5" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="961.7" y="642.4" class="g101s3">0.86</text>
+<rect x="982.0" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1002.3" y="642.4" class="g101s3">0.94</text>
+<rect x="1022.5" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1042.8" y="642.4" class="g101s3">0.98</text>
+<rect x="1063.1" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1083.3" y="642.4" class="g101s3">1.00</text>
+<text x="778.4" y="681.0" class="g101s23">reaches 0.9 at the 4-th</text>
+<rect x="1129.6" y="531.0" width="351.2" height="180.0" rx="9" class="g101s18"/>
+<rect x="1141.6" y="543.0" width="28.0" height="28.0" rx="14" class="g101s10"/>
+<text x="1155.6" y="562.0" class="g101s19">4</text>
+<text x="1177.6" y="562.0" class="g101s20">Before each</text>
+<text x="1143.6" y="591.0" class="g101s21">cumsum − probs: the total BEFORE it</text>
+<text x="1143.6" y="642.0" class="g101s22">before</text>
+<rect x="1225.6" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1245.9" y="642.4" class="g101s3">0.00</text>
+<rect x="1266.1" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1286.4" y="642.4" class="g101s3">0.45</text>
+<rect x="1306.7" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1326.9" y="642.4" class="g101s3">0.70</text>
+<rect x="1347.2" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1367.5" y="642.4" class="g101s3">0.86</text>
+<rect x="1387.7" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1408.0" y="642.4" class="g101s3">0.94</text>
+<rect x="1428.3" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1448.5" y="642.4" class="g101s3">0.98</text>
+<text x="1143.6" y="681.0" class="g101s23">drop where before ≥ 0.9</text>
+<rect x="1494.8" y="531.0" width="351.2" height="180.0" rx="9" class="g101s18"/>
+<rect x="1506.8" y="543.0" width="28.0" height="28.0" rx="14" class="g101s10"/>
+<text x="1520.8" y="562.0" class="g101s19">5</text>
+<text x="1542.8" y="562.0" class="g101s20">Keep and draw</text>
+<text x="1508.8" y="591.0" class="g101s21">masked_fill(drop, −inf), then draw</text>
+<text x="1508.8" y="642.0" class="g101s22">kept p</text>
+<rect x="1590.8" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1611.1" y="642.4" class="g101s3">0.45</text>
+<rect x="1631.3" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1651.6" y="642.4" class="g101s3">0.25</text>
+<rect x="1671.9" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1692.1" y="642.4" class="g101s3">0.17</text>
+<rect x="1712.4" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1732.7" y="642.4" class="g101s3">0.08</text>
+<rect x="1752.9" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1773.2" y="642.4" class="g101s3">0.00</text>
+<rect x="1793.5" y="627.0" width="40.5" height="22.0" rx="0" class="g101s2"/>
+<text x="1813.7" y="642.4" class="g101s3">0.00</text>
+<text x="1508.8" y="681.0" class="g101s23">4 kept, the rest never drawn</text>
+<rect x="34.0" y="735.0" width="1812.0" height="30.0" rx="6" class="g101s7"/>
+<path d="M38.50 735.71 A5.50 5.50 0 0 0 34.50 741.00 V759.00 A5.50 5.50 0 0 0 38.50 764.29 Z" class="g101s11"/>
+<text y="755.0" xml:space="preserve" class="g101s12"><tspan x="50.0" class="g101s0" textLength="315.6" lengthAdjust="spacing">C · Top-p against top-k at three levels of confidence</tspan></text>
+<text y="755.0" xml:space="preserve" class="g101s13"><tspan x="383.6" textLength="88.2" lengthAdjust="spacing">hand-set rows of </tspan><tspan x="471.8" class="g101s5" textLength="52.8" lengthAdjust="spacing">50 scores</tspan></text>
+<rect x="34.0" y="781.0" width="123.9" height="18.0" rx="9" class="g101s30"/>
+<text x="96.0" y="793.5" class="g101s31">HAND-SET EXAMPLE</text>
+<rect x="34.0" y="807.0" width="1812.0" height="24.0" rx="4" class="g101s7"/>
+<text y="823.0" xml:space="preserve" class="g101s6"><tspan x="43.0" class="g101s0" textLength="74.2" lengthAdjust="spacing">the model is …</tspan></text>
+<text y="823.0" xml:space="preserve" class="g101s6"><tspan x="563.0" class="g101s0" textLength="108.8" lengthAdjust="spacing">its best token’s share</tspan></text>
+<text y="823.0" xml:space="preserve" class="g101s6"><tspan x="993.0" class="g101s0" textLength="27.8" lengthAdjust="spacing">top-k </tspan><tspan x="1020.8" class="g101s26">5</tspan><tspan x="1027.0" class="g101s0" textLength="32.8" lengthAdjust="spacing"> keeps</tspan></text>
+<text y="823.0" xml:space="preserve" class="g101s6"><tspan x="1423.0" class="g101s0" textLength="28.5" lengthAdjust="spacing">top-p </tspan><tspan x="1451.5" class="g101s26" textLength="15.5" lengthAdjust="spacing">0.9</tspan><tspan x="1466.9" class="g101s0" textLength="32.8" lengthAdjust="spacing"> keeps</tspan></text>
+<text y="847.9" xml:space="preserve" class="g101s8"><tspan x="43.0" class="g101s0" textLength="23.7" lengthAdjust="spacing">sure</tspan></text>
+<text x="563.0" y="847.9" class="g101s1">98.5%</text>
+<text x="993.0" y="847.9" class="g101s1">5</text>
+<text x="1423.0" y="847.9" class="g101s1">1</text>
+<line x1="34.0" y1="857.0" x2="1846.0" y2="857.0" class="g101s4"/>
+<rect x="34.0" y="857.0" width="1812.0" height="26.0" rx="0" class="g101s9"/>
+<text y="873.9" xml:space="preserve" class="g101s8"><tspan x="43.0" class="g101s0" textLength="106.4" lengthAdjust="spacing">torn between seven</tspan></text>
+<text x="563.0" y="873.9" class="g101s1">18.5%</text>
+<text x="993.0" y="873.9" class="g101s1">5</text>
+<text x="1423.0" y="873.9" class="g101s1">7</text>
+<line x1="34.0" y1="883.0" x2="1846.0" y2="883.0" class="g101s4"/>
+<text y="899.9" xml:space="preserve" class="g101s8"><tspan x="43.0" class="g101s0" textLength="37.3" lengthAdjust="spacing">unsure</tspan></text>
+<text x="563.0" y="899.9" class="g101s1">2.6%</text>
+<text x="993.0" y="899.9" class="g101s1">5</text>
+<text x="1423.0" y="899.9" class="g101s1">44</text>
+<line x1="34.0" y1="909.0" x2="1846.0" y2="909.0" class="g101s4"/>
+<rect x="34.0" y="831.0" width="1812.0" height="78.0" rx="0" class="g101s24"/>
+<line x1="554.0" y1="831.0" x2="554.0" y2="909.0" class="g101s4"/>
+<line x1="984.0" y1="831.0" x2="984.0" y2="909.0" class="g101s4"/>
+<line x1="1414.0" y1="831.0" x2="1414.0" y2="909.0" class="g101s4"/>
+<rect x="34.0" y="933.0" width="1812.0" height="30.0" rx="6" class="g101s7"/>
+<path d="M38.50 933.71 A5.50 5.50 0 0 0 34.50 939.00 V957.00 A5.50 5.50 0 0 0 38.50 962.29 Z" class="g101s11"/>
+<text y="953.0" xml:space="preserve" class="g101s12"><tspan x="50.0" class="g101s0" textLength="122.5" lengthAdjust="spacing">D · Two real models</tspan></text>
+<text y="953.0" xml:space="preserve" class="g101s13"><tspan x="190.5" textLength="321.6" lengthAdjust="spacing">the running total on the untrained model and on the trained one</tspan></text>
+<rect x="34.0" y="979.0" width="1812.0" height="330.0" rx="8" style="fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1"/>
+<text x="48.0" y="1001.0" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start">running total of the probabilities, best token first</text>
+<text x="48.0" y="1018.0" class="g101s32">top-p 0.9 keeps every token up to where the line reaches 0.9</text>
+<line x1="92.0" y1="1265.0" x2="1822.0" y2="1265.0" class="g101s27"/>
+<text x="86.0" y="1269.0" class="g101s25">0</text>
+<line x1="92.0" y1="1151.0" x2="1822.0" y2="1151.0" class="g101s27"/>
+<text x="86.0" y="1155.0" class="g101s25">0.5</text>
+<line x1="92.0" y1="1059.8" x2="1822.0" y2="1059.8" style="stroke:var(--drop);stroke-width:1.2;stroke-dasharray:5 3;stroke-linecap:round"/>
+<text x="86.0" y="1063.8" class="g101s25">0.9</text>
+<line x1="92.0" y1="1037.0" x2="1822.0" y2="1037.0" class="g101s27"/>
+<text x="86.0" y="1041.0" class="g101s25">1</text>
+<text x="92.0" y="1281.0" class="g101s15">1</text>
+<text x="373.1" y="1281.0" class="g101s15">5</text>
+<text x="494.2" y="1281.0" class="g101s15">10</text>
+<text x="896.5" y="1281.0" class="g101s15">100</text>
+<text x="1298.7" y="1281.0" class="g101s15">1,000</text>
+<text x="1700.9" y="1281.0" class="g101s15">10,000</text>
+<text x="957.0" y="1297.0" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:middle">tokens kept (a log scale: each step is ×10)</text>
+<line x1="373.1" y1="1037.0" x2="373.1" y2="1265.0" style="stroke:var(--grid);stroke-width:1;stroke-dasharray:3 3;stroke-linecap:round"/>
+<text x="379.1" y="1049.0" class="g101s32">top-k 5 keeps 5, always</text>
+<path d="M92.0 1265.0 L213.1 1264.9 L283.9 1264.9 L334.2 1264.8 L373.1 1264.8 L405.0 1264.8 L431.9 1264.7 L455.2 1264.7 L475.8 1264.6 L494.2 1264.6 L510.9 1264.6 L526.1 1264.5 L540.1 1264.5 L553.0 1264.5 L565.1 1264.4 L576.3 1264.4 L586.9 1264.4 L596.9 1264.3 L606.4 1264.3 L615.3 1264.3 L740.7 1263.6 L859.6 1262.3 L929.8 1261.2 L979.6 1260.0 L1018.4 1258.9 L1050.1 1257.9 L1076.9 1256.8 L1100.2 1255.8 L1120.7 1254.8 L1139.1 1253.8 L1155.7 1252.8 L1170.8 1251.8 L1184.8 1250.8 L1197.7 1249.9 L1209.7 1248.9 L1221.0 1248.0 L1231.6 1247.1 L1241.5 1246.2 L1251.0 1245.2 L1259.9 1244.3 L1268.4 1243.4 L1276.6 1242.6 L1284.3 1241.7 L1291.7 1240.8 L1298.9 1239.9 L1305.7 1239.1 L1312.3 1238.2 L1318.6 1237.3 L1324.8 1236.5 L1330.7 1235.6 L1336.4 1234.8 L1341.9 1233.9 L1347.3 1233.1 L1352.5 1232.3 L1357.6 1231.5 L1362.5 1230.6 L1367.3 1229.8 L1371.9 1229.0 L1376.5 1228.2 L1380.9 1227.4 L1385.2 1226.6 L1389.4 1225.8 L1393.5 1225.0 L1397.5 1224.2 L1401.5 1223.4 L1405.3 1222.6 L1409.1 1221.8 L1412.7 1221.0 L1416.3 1220.2 L1419.9 1219.5 L1423.3 1218.7 L1426.7 1217.9 L1430.0 1217.2 L1433.3 1216.4 L1436.5 1215.6 L1439.6 1214.9 L1442.7 1214.1 L1445.8 1213.4 L1448.8 1212.6 L1451.7 1211.9 L1454.6 1211.1 L1457.4 1210.4 L1460.2 1209.6 L1463.0 1208.9 L1465.7 1208.2 L1468.3 1207.4 L1471.0 1206.7 L1473.5 1206.0 L1476.1 1205.2 L1478.6 1204.5 L1481.1 1203.8 L1483.5 1203.1 L1485.9 1202.4 L1488.3 1201.6 L1490.7 1200.9 L1493.0 1200.2 L1495.3 1199.5 L1497.5 1198.8 L1499.7 1198.1 L1501.9 1197.4 L1504.1 1196.7 L1506.2 1196.0 L1508.4 1195.3 L1510.4 1194.6 L1512.5 1193.9 L1514.6 1193.2 L1516.6 1192.5 L1518.6 1191.8 L1520.5 1191.2 L1522.5 1190.5 L1524.4 1189.8 L1526.3 1189.1 L1528.2 1188.4 L1530.1 1187.8 L1531.9 1187.1 L1533.8 1186.4 L1535.6 1185.7 L1537.4 1185.1 L1539.1 1184.4 L1540.9 1183.7 L1542.6 1183.1 L1544.4 1182.4 L1546.1 1181.7 L1547.7 1181.1 L1549.4 1180.4 L1551.1 1179.8 L1552.7 1179.1 L1554.3 1178.5 L1555.9 1177.8 L1557.5 1177.2 L1559.1 1176.5 L1560.7 1175.9 L1562.2 1175.2 L1563.8 1174.6 L1565.3 1173.9 L1566.8 1173.3 L1568.3 1172.6 L1569.8 1172.0 L1571.3 1171.4 L1572.7 1170.7 L1574.2 1170.1 L1575.6 1169.5 L1577.1 1168.8 L1578.5 1168.2 L1579.9 1167.6 L1581.3 1166.9 L1582.6 1166.3 L1584.0 1165.7 L1585.4 1165.1 L1586.7 1164.4 L1588.1 1163.8 L1589.4 1163.2 L1590.7 1162.6 L1592.0 1162.0 L1593.3 1161.3 L1594.6 1160.7 L1595.9 1160.1 L1597.1 1159.5 L1598.4 1158.9 L1599.7 1158.3 L1600.9 1157.7 L1602.1 1157.1 L1603.4 1156.5 L1604.6 1155.9 L1605.8 1155.3 L1607.0 1154.7 L1608.2 1154.1 L1609.4 1153.5 L1610.5 1152.9 L1611.7 1152.3 L1612.9 1151.7 L1614.0 1151.1 L1615.2 1150.5 L1616.3 1149.9 L1617.4 1149.3 L1618.6 1148.7 L1619.7 1148.1 L1620.8 1147.5 L1621.9 1147.0 L1623.0 1146.4 L1624.1 1145.8 L1625.2 1145.2 L1626.2 1144.6 L1627.3 1144.0 L1628.4 1143.5 L1629.4 1142.9 L1630.5 1142.3 L1631.5 1141.7 L1632.5 1141.2 L1633.6 1140.6 L1634.6 1140.0 L1635.6 1139.4 L1636.6 1138.9 L1637.6 1138.3 L1638.6 1137.7 L1639.6 1137.2 L1640.6 1136.6 L1641.6 1136.0 L1642.6 1135.5 L1643.6 1134.9 L1644.5 1134.4 L1645.5 1133.8 L1646.4 1133.2 L1647.4 1132.7 L1648.3 1132.1 L1649.3 1131.6 L1650.2 1131.0 L1651.2 1130.5 L1652.1 1129.9 L1653.0 1129.3 L1653.9 1128.8 L1654.8 1128.2 L1655.7 1127.7 L1656.6 1127.1 L1657.5 1126.6 L1658.4 1126.1 L1659.3 1125.5 L1660.2 1125.0 L1661.1 1124.4 L1662.0 1123.9 L1662.8 1123.3 L1663.7 1122.8 L1664.6 1122.3 L1665.4 1121.7 L1666.3 1121.2 L1667.1 1120.7 L1668.0 1120.1 L1668.8 1119.6 L1669.6 1119.1 L1670.5 1118.5 L1671.3 1118.0 L1672.1 1117.5 L1673.0 1116.9 L1673.8 1116.4 L1674.6 1115.9 L1675.4 1115.4 L1676.2 1114.8 L1677.0 1114.3 L1677.8 1113.8 L1678.6 1113.3 L1679.4 1112.8 L1680.2 1112.2 L1681.0 1111.7 L1681.8 1111.2 L1682.5 1110.7 L1683.3 1110.2 L1684.1 1109.7 L1684.8 1109.1 L1685.6 1108.6 L1686.4 1108.1 L1687.1 1107.6 L1687.9 1107.1 L1688.6 1106.6 L1689.4 1106.1 L1690.1 1105.6 L1690.9 1105.1 L1691.6 1104.6 L1692.3 1104.1 L1693.1 1103.6 L1693.8 1103.1 L1694.5 1102.6 L1695.3 1102.1 L1696.0 1101.6 L1696.7 1101.1 L1697.4 1100.6 L1698.1 1100.1 L1698.8 1099.6 L1699.5 1099.1 L1700.2 1098.6 L1700.9 1098.1 L1701.6 1097.6 L1702.3 1097.1 L1703.0 1096.6 L1703.7 1096.2 L1704.4 1095.7 L1705.1 1095.2 L1705.8 1094.7 L1706.4 1094.2 L1707.1 1093.7 L1707.8 1093.3 L1708.5 1092.8 L1709.1 1092.3 L1709.8 1091.8 L1710.5 1091.3 L1711.1 1090.9 L1711.8 1090.4 L1712.4 1089.9 L1713.1 1089.4 L1713.7 1089.0 L1714.4 1088.5 L1715.0 1088.0 L1715.7 1087.6 L1716.3 1087.1 L1716.9 1086.6 L1717.6 1086.2 L1718.2 1085.7 L1718.8 1085.2 L1719.5 1084.8 L1720.1 1084.3 L1720.7 1083.9 L1721.4 1083.4 L1722.0 1082.9 L1722.6 1082.5 L1723.2 1082.0 L1723.8 1081.6 L1724.4 1081.1 L1725.0 1080.7 L1725.7 1080.2 L1726.3 1079.8 L1726.9 1079.3 L1727.5 1078.9 L1728.1 1078.4 L1728.7 1078.0 L1729.3 1077.5 L1729.8 1077.1 L1730.4 1076.6 L1731.0 1076.2 L1731.6 1075.8 L1732.2 1075.3 L1732.8 1074.9 L1733.4 1074.4 L1733.9 1074.0 L1734.5 1073.6 L1735.1 1073.1 L1735.7 1072.7 L1736.2 1072.3 L1736.8 1071.8 L1737.4 1071.4 L1737.9 1071.0 L1738.5 1070.5 L1739.1 1070.1 L1739.6 1069.7 L1740.2 1069.3 L1740.7 1068.8 L1741.3 1068.4 L1741.9 1068.0 L1742.4 1067.6 L1743.0 1067.1 L1743.5 1066.7 L1744.1 1066.3 L1744.6 1065.9 L1745.1 1065.5 L1745.7 1065.1 L1746.2 1064.6 L1746.8 1064.2 L1747.3 1063.8 L1747.8 1063.4 L1748.4 1063.0 L1748.9 1062.6 L1749.4 1062.2 L1750.0 1061.8 L1750.5 1061.4 L1751.0 1061.0 L1751.5 1060.6 L1752.1 1060.2 L1752.6 1059.8 L1753.1 1059.4 L1753.6 1059.0 L1754.1 1058.6 L1754.6 1058.2 L1755.2 1057.8 L1755.7 1057.4 L1756.2 1057.0 L1756.7 1056.6 L1757.2 1056.2 L1757.7 1055.8 L1758.2 1055.5 L1758.7 1055.1 L1759.2 1054.7 L1759.7 1054.3 L1760.2 1053.9 L1760.7 1053.6 L1761.2 1053.2 L1761.7 1052.8 L1762.2 1052.4 L1762.7 1052.1 L1763.2 1051.7 L1763.7 1051.3 L1764.1 1051.0 L1764.6 1050.6 L1765.1 1050.2 L1765.6 1049.9 L1766.1 1049.5 L1766.6 1049.1 L1767.0 1048.8 L1767.5 1048.4 L1768.0 1048.1 L1768.5 1047.7 L1768.9 1047.4 L1769.4 1047.0 L1769.9 1046.7 L1770.4 1046.3 L1770.8 1046.0 L1771.3 1045.6 L1771.8 1045.3 L1772.2 1045.0 L1772.7 1044.6 L1773.1 1044.3 L1773.6 1044.0 L1774.1 1043.6 L1774.5 1043.3 L1775.0 1043.0 L1775.4 1042.6 L1775.9 1042.3 L1776.4 1042.0 L1776.8 1041.7 L1777.3 1041.4 L1777.7 1041.1 L1778.2 1040.8 L1778.6 1040.5 L1779.1 1040.2 L1779.5 1039.9 L1779.9 1039.6 L1780.4 1039.3 L1780.8 1039.0 L1781.3 1038.7 L1781.7 1038.4 L1782.2 1038.1 L1782.6 1037.9 L1783.0 1037.6 L1783.5 1037.4 L1783.9 1037.1 L1784.2 1037.0" style="fill:none;stroke:var(--accent);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+<circle cx="1752.5" cy="1059.8" r="5.0" style="fill:var(--accent);stroke:var(--accent);stroke-width:1.2"/>
+<text x="1744.5" y="1047.8" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:end">unsure (untrained): 13,438 tokens</text>
+<circle cx="92.0" cy="1051.8" r="5.0" style="fill:var(--keep);stroke:var(--keep);stroke-width:1.2"/>
+<line x1="96.0" y1="1055.8" x2="118.0" y2="1096.8" style="stroke:var(--keep);stroke-width:1;stroke-linecap:round"/>
+<text x="122.0" y="1104.8" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">sure (trained): the first token alone holds 93.5% — 1 token kept</text>
+<rect x="34.0" y="1333.0" width="1812.0" height="30.0" rx="6" class="g101s7"/>
+<path d="M38.50 1333.71 A5.50 5.50 0 0 0 34.50 1339.00 V1357.00 A5.50 5.50 0 0 0 38.50 1362.29 Z" class="g101s11"/>
+<text y="1353.0" xml:space="preserve" class="g101s12"><tspan x="50.0" class="g101s0" textLength="205.3" lengthAdjust="spacing">E · Temperature first, then the cut</tspan></text>
+<text y="1353.0" xml:space="preserve" class="g101s13"><tspan x="273.3" textLength="183.3" lengthAdjust="spacing">the untrained model’s real first step</tspan></text>
+<rect x="34.0" y="1379.0" width="1812.0" height="24.0" rx="4" class="g101s7"/>
+<text y="1395.0" xml:space="preserve" class="g101s6"><tspan x="43.0" class="g101s0" textLength="60.0" lengthAdjust="spacing">temperature</tspan></text>
+<text y="1395.0" xml:space="preserve" class="g101s6"><tspan x="543.0" class="g101s0" textLength="94.5" lengthAdjust="spacing">best token’s share</tspan></text>
+<text y="1395.0" xml:space="preserve" class="g101s6"><tspan x="1199.0" class="g101s0" textLength="28.5" lengthAdjust="spacing">top-p </tspan><tspan x="1227.5" class="g101s26" textLength="15.5" lengthAdjust="spacing">0.9</tspan><tspan x="1242.9" class="g101s0" textLength="32.8" lengthAdjust="spacing"> keeps</tspan></text>
+<text x="43.0" y="1419.9" class="g101s1">0.5</text>
+<text x="543.0" y="1419.9" class="g101s1">0.036%</text>
+<text x="1199.0" y="1419.9" class="g101s1">12,622</text>
+<line x1="34.0" y1="1429.0" x2="1846.0" y2="1429.0" class="g101s4"/>
+<rect x="34.0" y="1429.0" width="1812.0" height="26.0" rx="0" class="g101s9"/>
+<text x="43.0" y="1445.9" class="g101s1">0.8</text>
+<text x="543.0" y="1445.9" class="g101s1">0.019%</text>
+<text x="1199.0" y="1445.9" class="g101s1">13,438</text>
+<line x1="34.0" y1="1455.0" x2="1846.0" y2="1455.0" class="g101s4"/>
+<text x="43.0" y="1471.9" class="g101s1">1.0</text>
+<text x="543.0" y="1471.9" class="g101s1">0.015%</text>
+<text x="1199.0" y="1471.9" class="g101s1">13,680</text>
+<line x1="34.0" y1="1481.0" x2="1846.0" y2="1481.0" class="g101s4"/>
+<rect x="34.0" y="1481.0" width="1812.0" height="26.0" rx="0" class="g101s9"/>
+<text x="43.0" y="1497.9" class="g101s1">1.5</text>
+<text x="543.0" y="1497.9" class="g101s1">0.011%</text>
+<text x="1199.0" y="1497.9" class="g101s1">13,980</text>
+<line x1="34.0" y1="1507.0" x2="1846.0" y2="1507.0" class="g101s4"/>
+<rect x="34.0" y="1403.0" width="1812.0" height="104.0" rx="0" class="g101s24"/>
+<line x1="534.0" y1="1403.0" x2="534.0" y2="1507.0" class="g101s4"/>
+<line x1="1190.0" y1="1403.0" x2="1190.0" y2="1507.0" class="g101s4"/>
+<rect x="34.0" y="1531.0" width="1812.0" height="30.0" rx="6" class="g101s7"/>
+<path d="M38.50 1531.71 A5.50 5.50 0 0 0 34.50 1537.00 V1555.00 A5.50 5.50 0 0 0 38.50 1560.29 Z" class="g101s11"/>
+<text y="1551.0" xml:space="preserve" class="g101s12"><tspan x="50.0" class="g101s0" textLength="211.3" lengthAdjust="spacing">Claims · Common claims, checked</tspan></text>
+<text y="1551.0" xml:space="preserve" class="g101s13"><tspan x="279.3" textLength="147.5" lengthAdjust="spacing">against this page’s numbers</tspan></text>
+<rect x="34.0" y="1577.0" width="1812.0" height="24.0" rx="4" class="g101s7"/>
+<text y="1593.0" xml:space="preserve" class="g101s6"><tspan x="43.0" class="g101s0" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="1593.0" xml:space="preserve" class="g101s6"><tspan x="603.0" class="g101s0" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="1593.0" xml:space="preserve" class="g101s6"><tspan x="713.0" class="g101s0" textLength="19.8" lengthAdjust="spacing">why</tspan></text>
+<text y="1617.7" xml:space="preserve" class="g101s28"><tspan x="43.0" class="g101s0" textLength="186.4" lengthAdjust="spacing">“Top-p is always better than top-k.”</tspan></text>
+<text y="1617.7" xml:space="preserve" class="g101s16"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="1617.7" xml:space="preserve" class="g101s16"><tspan x="713.0" textLength="237.8" lengthAdjust="spacing">on a flat row it keeps thousands of weak tokens (</tspan><tspan x="950.8" class="g101s5" textLength="35.7" lengthAdjust="spacing">13,438</tspan><tspan x="986.5" textLength="174.2" lengthAdjust="spacing"> here); many systems combine both</tspan></text>
+<line x1="34.0" y1="1627.0" x2="1846.0" y2="1627.0" class="g101s4"/>
+<rect x="34.0" y="1627.0" width="1812.0" height="26.0" rx="0" class="g101s9"/>
+<text y="1643.7" xml:space="preserve" class="g101s28"><tspan x="43.0" class="g101s0" textLength="40.7" lengthAdjust="spacing">“Top-p </tspan><tspan x="83.7" class="g101s5" textLength="16.2" lengthAdjust="spacing">0.9</tspan><tspan x="99.9" class="g101s0" textLength="64.1" lengthAdjust="spacing"> draws from </tspan><tspan x="164.0" class="g101s5" textLength="23.3" lengthAdjust="spacing">90%</tspan><tspan x="187.4" class="g101s0" textLength="80.2" lengthAdjust="spacing"> of the tokens.”</tspan></text>
+<text y="1643.7" xml:space="preserve" class="g101s16"><tspan x="603.0" textLength="12.2" lengthAdjust="spacing">no</tspan></text>
+<text y="1643.7" xml:space="preserve" class="g101s16"><tspan x="713.0" textLength="240.9" lengthAdjust="spacing">from the fewest tokens whose probabilities reach </tspan><tspan x="953.9" class="g101s5" textLength="23.3" lengthAdjust="spacing">90%</tspan><tspan x="977.2"> — </tspan><tspan x="994.3" class="g101s5">1</tspan><tspan x="1000.8" textLength="103.3" lengthAdjust="spacing"> on the trained model</tspan></text>
+<line x1="34.0" y1="1653.0" x2="1846.0" y2="1653.0" class="g101s4"/>
+<text y="1669.7" xml:space="preserve" class="g101s28"><tspan x="43.0" class="g101s0" textLength="151.4" lengthAdjust="spacing">“The best token can be cut.”</tspan></text>
+<text y="1669.7" xml:space="preserve" class="g101s16"><tspan x="603.0" textLength="27.5" lengthAdjust="spacing">never</tspan></text>
+<text y="1669.7" xml:space="preserve" class="g101s16"><tspan x="713.0" textLength="96.0" lengthAdjust="spacing">the total before it is </tspan><tspan x="809.0" class="g101s5">0</tspan><tspan x="815.5" textLength="64.8" lengthAdjust="spacing">, below any p</tspan></text>
+<line x1="34.0" y1="1679.0" x2="1846.0" y2="1679.0" class="g101s4"/>
+<rect x="34.0" y="1601.0" width="1812.0" height="78.0" rx="0" class="g101s24"/>
+<line x1="594.0" y1="1601.0" x2="594.0" y2="1679.0" class="g101s4"/>
+<line x1="704.0" y1="1601.0" x2="704.0" y2="1679.0" class="g101s4"/>
+<line x1="28.0" y1="1705.0" x2="1852.0" y2="1705.0" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1722.0" xml:space="preserve" class="g101s33"><tspan x="28.0" textLength="404.7" lengthAdjust="spacing">Two kinds of numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="432.7" class="g101s29" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="457.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="600.7" class="g101s5" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="616.9" textLength="234.8" lengthAdjust="spacing">.0 on its own two sentence pairs (CPU, seeded, </tspan><tspan x="851.6" class="g101s5" textLength="22.7" lengthAdjust="spacing">15.6</tspan><tspan x="874.3" textLength="181.0" lengthAdjust="spacing"> s): its printed lines, the loss of every </tspan><tspan x="1055.3" class="g101s29" textLength="31.1" lengthAdjust="spacing">epoch</tspan><tspan x="1086.4" textLength="450.0" lengthAdjust="spacing">, the checkpoint it kept. UNTRAINED numbers are a pure-Python trace of the same code on </tspan><tspan x="1536.4" class="g101s29" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1548.8" textLength="294.6" lengthAdjust="spacing">’s seeded starting weights, and every one of them has been</tspan></text>
+<text y="1737.0" xml:space="preserve" class="g101s33"><tspan x="28.0" textLength="352.6" lengthAdjust="spacing">checked against the notebook’s own PyTorch model (largest difference </tspan><tspan x="380.6" class="g101s5" textLength="39.5" lengthAdjust="spacing">1.3e-06</tspan><tspan x="420.2" textLength="156.5" lengthAdjust="spacing">). The notebook file is only read.</tspan></text>
+</svg>

@@ -1,0 +1,1091 @@
+<svg data-src="v2_deep03_kv_cache.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="5524" viewBox="0 0 1880 5524">
+<style>.txfig .g93s0{fill:var(--code)}.txfig .g93s1{fill:var(--op)}.txfig .g93s2{font-weight:600;fill:var(--ink)}.txfig .g93s3{fill:var(--kw)}.txfig .g93s4{fill:var(--soft);stroke:var(--grid);stroke-width:0.7}.txfig .g93s5{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.5px;text-anchor:middle}.txfig .g93s6{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g93s7{fill:var(--dropbg);stroke:var(--drop);stroke-width:0.7}.txfig .g93s8{font-weight:600}.txfig .g93s9{fill:var(--keepbg);stroke:var(--keep);stroke-width:0.7}.txfig .g93s10{fill:var(--fn)}.txfig .g93s11{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px}.txfig .g93s12{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.5px;text-anchor:middle}.txfig .g93s13{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g93s14{fill:var(--str)}.txfig .g93s15{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:8.5px;text-anchor:end}.txfig .g93s16{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g93s17{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g93s18{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g93s19{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g93s20{fill:var(--s1);stroke:none}.txfig .g93s21{fill:var(--s1);stroke:none;stroke-width:1;opacity:0.22}.txfig .g93s22{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g93s23{stroke:var(--panelbd);stroke-width:1;stroke-dasharray:3 4;stroke-linecap:round}.txfig .g93s24{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g93s25{fill:var(--cmt)}.txfig .g93s26{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g93s27{fill:var(--infobg);stroke:var(--accent);stroke-width:0.7}.txfig .g93s28{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g93s29{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g93s30{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g93s31{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:start}.txfig .g93s32{fill:var(--num)}.txfig .g93s33{fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600}.txfig .g93s34{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:start}.txfig .g93s35{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g93s36{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g93s37{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g93s38{fill:var(--accent);stroke:none}.txfig .g93s39{fill:var(--panel);stroke:var(--panelbd);stroke-width:1.1}.txfig .g93s40{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11}.txfig .g93s41{fill:var(--accent);stroke:none;stroke-width:1;opacity:0.8}.txfig .g93s42{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g93s43{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9px;text-anchor:start}.txfig .g93s44{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;text-anchor:start}.txfig .g93s45{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g93s46{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g93s47{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g93s48{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g93s49{fill:var(--infobg);stroke:var(--s1);stroke-width:1.5}.txfig .g93s50{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18}.txfig .g93s51{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g93s52{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start}.txfig .g93s53{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink)}.txfig .g93s54{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px}.txfig .g93s55{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:end}.txfig .g93s56{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g93s57{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g93s58{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g93s59{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g93s60{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g93s61{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;font-weight:600;text-anchor:start}.txfig .g93s62{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start}.txfig .g93s63{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:end}.txfig .g93s64{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)}.txfig .g93s65{fill:var(--attr)}.txfig .g93s66{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9px;font-weight:600;text-anchor:start}.txfig .g93s67{fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9px;font-weight:600;text-anchor:start}.txfig .g93s68{fill:var(--dropbg);stroke:var(--drop);stroke-width:0.8}.txfig .g93s69{stroke:var(--gridline);stroke-width:0.8;stroke-linecap:round}.txfig .g93s70{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g93s71{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:start}.txfig .g93s72{font-weight:600;fill:var(--accent)}.txfig .g93s73{fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8}.txfig .g93s74{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:end}.txfig .g93s75{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g93s76{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:end}.txfig .g93s77{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g93s78{fill:var(--soft);stroke:var(--grid);stroke-width:0.8}.txfig .g93s79{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g93s80{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g93s81{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g93s82{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)}.txfig .g93s83{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g93s84{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--accent)}.txfig .g93s85{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g93s86{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g93s87{fill:var(--keep);stroke:none}.txfig .g93s88{fill:var(--soft);stroke:var(--panelbd);stroke-width:1}.txfig .g93s89{fill:var(--cellbg);stroke:var(--keep);stroke-width:1}.txfig .g93s90{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:end}.txfig .g93s91{fill:var(--cellbg);stroke:var(--accent);stroke-width:1}.txfig .g93s92{fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:end}.txfig .g93s93{stroke:var(--panelbd);stroke-width:1.2;stroke-linecap:round}.txfig .g93s94{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g93s95{fill:var(--infobg);stroke:var(--infobd);stroke-width:1}</style>
+<defs><pattern id="hatch93" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash93" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="5524" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">DEEP DIVE 3 / 5</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="150.0" class="g93s8" textLength="680.5" lengthAdjust="spacing">The KV cache — what it stores, how attention reads it, why it is exact</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" class="g93s46" textLength="88.3" lengthAdjust="spacing">cache[layer]</tspan><tspan x="122.3" textLength="147.7" lengthAdjust="spacing">[&quot;self&quot; | &quot;cross&quot;][&quot;k&quot; | &quot;v&quot;] · </tspan><tspan x="270.0" class="g93s46" textLength="66.2" lengthAdjust="spacing">torch.cat</tspan><tspan x="336.2"> · </tspan><tspan x="347.0" class="g93s46" textLength="66.2" lengthAdjust="spacing">static_kv</tspan><tspan x="413.3"> · </tspan><tspan x="424.1" class="g93s46" textLength="66.2" lengthAdjust="spacing">start_pos</tspan><tspan x="490.3"> · </tspan><tspan x="501.1" class="g93s46" textLength="103.0" lengthAdjust="spacing">_reorder_cache</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="45.4" lengthAdjust="spacing">The real </tspan><tspan x="79.4" class="g93s29" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="92.4" textLength="300.4" lengthAdjust="spacing"> model, generating for sequence A: its actual keys, values, </tspan><tspan x="392.8" class="g93s29" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="431.9" textLength="136.2" lengthAdjust="spacing"> and weights, step by step.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="107.0" rx="8" class="g93s86"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V219.00 A7.50 7.50 0 0 0 39.50 226.07 Z" class="g93s87"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g93s8" textLength="388.5" lengthAdjust="spacing">Remember what cannot change, compute only what is new</tspan></text>
+<text y="169.0" xml:space="preserve" class="g93s80"><tspan x="54.0" textLength="15.2" lengthAdjust="spacing">To</tspan><tspan x="69.2"> </tspan><tspan x="72.9" textLength="27.4" lengthAdjust="spacing">write</tspan><tspan x="100.4"> </tspan><tspan x="104.1" textLength="31.8" lengthAdjust="spacing">token</tspan><tspan x="135.9"> </tspan><tspan x="139.7">t</tspan><tspan x="143.3"> </tspan><tspan x="147.1" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="165.2"> </tspan><tspan x="168.9" textLength="61.3" lengthAdjust="spacing">decoder’s</tspan><tspan x="230.2"> </tspan><tspan x="234.0" textLength="49.9" lengthAdjust="spacing">attention</tspan><tspan x="283.8"> </tspan><tspan x="287.6" textLength="35.4" lengthAdjust="spacing">needs</tspan><tspan x="323.0"> </tspan><tspan x="326.8">a</tspan><tspan x="334.0"> </tspan><tspan x="337.8" textLength="20.2" lengthAdjust="spacing">key</tspan><tspan x="358.0"> </tspan><tspan x="361.8" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="383.4"> </tspan><tspan x="387.2">a</tspan><tspan x="394.4"> </tspan><tspan x="398.2" textLength="31.1" lengthAdjust="spacing">value</tspan><tspan x="429.3"> </tspan><tspan x="433.0" textLength="15.2" lengthAdjust="spacing">for</tspan><tspan x="448.2"> </tspan><tspan x="452.0" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="483.8"> </tspan><tspan x="487.5" textLength="31.8" lengthAdjust="spacing">token</tspan><tspan x="519.3"> </tspan><tspan x="523.1" textLength="36.9" lengthAdjust="spacing">before</tspan><tspan x="559.9"> </tspan><tspan x="563.7" textLength="10.1" lengthAdjust="spacing">it.</tspan><tspan x="573.8"> </tspan><tspan x="577.6" class="g93s46" textLength="29.4" lengthAdjust="spacing">v1.5</tspan><tspan x="607.0"> </tspan><tspan x="610.8" textLength="68.6" lengthAdjust="spacing">recomputed</tspan><tspan x="679.4"> </tspan><tspan x="683.2" textLength="13.0" lengthAdjust="spacing">all</tspan><tspan x="696.2"> </tspan><tspan x="700.0" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="710.8"> </tspan><tspan x="714.6" textLength="28.9" lengthAdjust="spacing">them</tspan><tspan x="743.5"> </tspan><tspan x="747.2" textLength="10.8" lengthAdjust="spacing">at</tspan><tspan x="758.1"> </tspan><tspan x="761.8" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="793.6"> </tspan><tspan x="797.4" textLength="24.6" lengthAdjust="spacing">step</tspan><tspan x="822.0"> </tspan><tspan x="825.7">—</tspan><tspan x="838.7"> </tspan><tspan x="842.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="860.6"> </tspan><tspan x="864.3" textLength="34.0" lengthAdjust="spacing">whole</tspan><tspan x="898.3"> </tspan><tspan x="902.1" textLength="31.8" lengthAdjust="spacing">prefix</tspan><tspan x="933.8"> </tspan><tspan x="937.6" textLength="42.6" lengthAdjust="spacing">pushed</tspan><tspan x="980.2"> </tspan><tspan x="984.0" textLength="44.1" lengthAdjust="spacing">through</tspan><tspan x="1028.1"> </tspan><tspan x="1031.9" textLength="25.3" lengthAdjust="spacing">both</tspan><tspan x="1057.2"> </tspan><tspan x="1060.9" textLength="34.7" lengthAdjust="spacing">layers</tspan><tspan x="1095.6"> </tspan><tspan x="1099.4" textLength="35.4" lengthAdjust="spacing">again,</tspan><tspan x="1134.8"> </tspan><tspan x="1138.5" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1149.4"> </tspan><tspan x="1153.1" textLength="21.0" lengthAdjust="spacing">use</tspan><tspan x="1174.1"> </tspan><tspan x="1177.9" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="1199.6"> </tspan><tspan x="1203.3" textLength="23.8" lengthAdjust="spacing">new</tspan><tspan x="1227.2"> </tspan><tspan x="1230.9" textLength="20.9" lengthAdjust="spacing">row</tspan><tspan x="1251.9"> </tspan><tspan x="1255.6" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="1266.5"> </tspan><tspan x="1270.2" class="g93s46" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="1314.4">.</tspan><tspan x="1318.0"> </tspan><tspan x="1321.8" textLength="19.5" lengthAdjust="spacing">But</tspan><tspan x="1341.3"> </tspan><tspan x="1345.0" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="1355.2"> </tspan><tspan x="1358.9">a</tspan><tspan x="1366.1"> </tspan><tspan x="1369.9" textLength="47.0" lengthAdjust="spacing">decoder</tspan><tspan x="1416.9"> </tspan><tspan x="1420.6">a</tspan><tspan x="1427.9"> </tspan><tspan x="1431.6" textLength="31.8" lengthAdjust="spacing">token</tspan><tspan x="1463.4"> </tspan><tspan x="1467.2" textLength="23.8" lengthAdjust="spacing">only</tspan><tspan x="1491.1"> </tspan><tspan x="1494.8" textLength="25.3" lengthAdjust="spacing">ever</tspan><tspan x="1520.1"> </tspan><tspan x="1523.9" textLength="42.6" lengthAdjust="spacing">attends</tspan><tspan x="1566.5"> </tspan><tspan x="1570.3" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1581.1"> </tspan><tspan x="1584.9" textLength="26.7" lengthAdjust="spacing">itself</tspan><tspan x="1611.6"> </tspan><tspan x="1615.4" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1637.1"> </tspan><tspan x="1640.8" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1651.7"> </tspan><tspan x="1655.4" textLength="36.1" lengthAdjust="spacing">earlier</tspan><tspan x="1691.5"> </tspan><tspan x="1695.3" textLength="41.9" lengthAdjust="spacing">tokens,</tspan><tspan x="1737.2"> </tspan><tspan x="1741.0" textLength="13.7" lengthAdjust="spacing">so</tspan><tspan x="1754.7"> </tspan><tspan x="1758.5" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1776.6"> </tspan><tspan x="1780.3" textLength="20.2" lengthAdjust="spacing">key</tspan><tspan x="1800.5"> </tspan><tspan x="1804.3" textLength="21.7" lengthAdjust="spacing">and</tspan></text>
+<text y="188.0" xml:space="preserve" class="g93s80"><tspan x="54.0" textLength="31.1" lengthAdjust="spacing">value</tspan><tspan x="85.1"> </tspan><tspan x="89.5" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="100.4"> </tspan><tspan x="104.9" class="g93s2" textLength="45.2" lengthAdjust="spacing">token 3</tspan><tspan x="150.1"> </tspan><tspan x="154.5" textLength="43.4" lengthAdjust="spacing">depend</tspan><tspan x="197.9"> </tspan><tspan x="202.4" textLength="23.8" lengthAdjust="spacing">only</tspan><tspan x="226.2"> </tspan><tspan x="230.7" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="245.1"> </tspan><tspan x="249.6" class="g93s2" textLength="78.9" lengthAdjust="spacing">tokens 0 to 3</tspan><tspan x="328.5">:</tspan><tspan x="332.1"> </tspan><tspan x="336.6" textLength="37.6" lengthAdjust="spacing">writing</tspan><tspan x="374.2"> </tspan><tspan x="378.6" class="g93s2" textLength="45.2" lengthAdjust="spacing">token 4</tspan><tspan x="423.8"> </tspan><tspan x="428.3" textLength="39.0" lengthAdjust="spacing">cannot</tspan><tspan x="467.3"> </tspan><tspan x="471.8" textLength="42.6" lengthAdjust="spacing">change</tspan><tspan x="514.4"> </tspan><tspan x="518.9" textLength="32.5" lengthAdjust="spacing">them.</tspan><tspan x="551.4"> </tspan><tspan x="555.9" textLength="22.4" lengthAdjust="spacing">The</tspan><tspan x="578.3"> </tspan><tspan x="582.8" textLength="17.3" lengthAdjust="spacing">KV</tspan><tspan x="600.1"> </tspan><tspan x="604.6" textLength="34.7" lengthAdjust="spacing">cache</tspan><tspan x="639.3"> </tspan><tspan x="643.7" textLength="34.7" lengthAdjust="spacing">keeps</tspan><tspan x="678.4"> </tspan><tspan x="682.9" textLength="32.5" lengthAdjust="spacing">them.</tspan><tspan x="715.4"> </tspan><tspan x="719.9" textLength="29.6" lengthAdjust="spacing">Each</tspan><tspan x="749.5"> </tspan><tspan x="754.0" textLength="24.6" lengthAdjust="spacing">step</tspan><tspan x="778.5"> </tspan><tspan x="783.0" textLength="56.4" lengthAdjust="spacing">computes</tspan><tspan x="839.4"> </tspan><tspan x="843.8" textLength="21.7" lengthAdjust="spacing">one</tspan><tspan x="865.5"> </tspan><tspan x="870.0" textLength="23.8" lengthAdjust="spacing">new</tspan><tspan x="893.8"> </tspan><tspan x="898.3" textLength="20.2" lengthAdjust="spacing">key</tspan><tspan x="918.5"> </tspan><tspan x="923.0" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="944.7"> </tspan><tspan x="949.2" textLength="31.1" lengthAdjust="spacing">value</tspan><tspan x="980.2"> </tspan><tspan x="984.7" textLength="18.8" lengthAdjust="spacing">per</tspan><tspan x="1003.5"> </tspan><tspan x="1008.0" textLength="28.2" lengthAdjust="spacing">layer</tspan><tspan x="1036.1"> </tspan><tspan x="1040.6" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1062.3"> </tspan><tspan x="1066.7" textLength="49.9" lengthAdjust="spacing">appends</tspan><tspan x="1116.6"> </tspan><tspan x="1121.1" textLength="32.5" lengthAdjust="spacing">them;</tspan><tspan x="1153.6"> </tspan><tspan x="1158.1" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1176.1"> </tspan><tspan x="1180.6" textLength="61.3" lengthAdjust="spacing">encoder’s</tspan><tspan x="1241.9"> </tspan><tspan x="1246.4" textLength="26.7" lengthAdjust="spacing">keys</tspan><tspan x="1273.1"> </tspan><tspan x="1277.6" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1299.2"> </tspan><tspan x="1303.7" textLength="41.2" lengthAdjust="spacing">values,</tspan><tspan x="1344.9"> </tspan><tspan x="1349.4" textLength="33.2" lengthAdjust="spacing">which</tspan><tspan x="1382.6"> </tspan><tspan x="1387.1" textLength="14.5" lengthAdjust="spacing">do</tspan><tspan x="1401.5"> </tspan><tspan x="1406.0" textLength="18.1" lengthAdjust="spacing">not</tspan><tspan x="1424.1"> </tspan><tspan x="1428.5" textLength="43.4" lengthAdjust="spacing">depend</tspan><tspan x="1471.9"> </tspan><tspan x="1476.4" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="1490.8"> </tspan><tspan x="1495.3" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1513.4"> </tspan><tspan x="1517.8" textLength="41.9" lengthAdjust="spacing">answer</tspan><tspan x="1559.7"> </tspan><tspan x="1564.2" textLength="10.8" lengthAdjust="spacing">at</tspan><tspan x="1575.1"> </tspan><tspan x="1579.5" textLength="16.6" lengthAdjust="spacing">all,</tspan><tspan x="1596.1"> </tspan><tspan x="1600.6" textLength="18.8" lengthAdjust="spacing">are</tspan><tspan x="1619.4"> </tspan><tspan x="1623.9" textLength="57.1" lengthAdjust="spacing">computed</tspan><tspan x="1680.9"> </tspan><tspan x="1685.4" textLength="31.8" lengthAdjust="spacing">once.</tspan><tspan x="1717.2"> </tspan><tspan x="1721.7" textLength="34.0" lengthAdjust="spacing">Same</tspan><tspan x="1755.6"> </tspan><tspan x="1760.1" textLength="54.2" lengthAdjust="spacing">numbers,</tspan><tspan x="1814.3"> </tspan><tspan x="1818.8">a</tspan></text>
+<text y="207.0" xml:space="preserve" class="g93s80"><tspan x="54.0" textLength="113.4" lengthAdjust="spacing">fraction of the work.</tspan></text>
+<text y="260.2" xml:space="preserve" class="g93s81"><tspan x="34.0" textLength="44.0" lengthAdjust="spacing">Section</tspan><tspan x="78.0"> </tspan><tspan x="81.8">A</tspan><tspan x="90.6"> </tspan><tspan x="94.4" textLength="37.4" lengthAdjust="spacing">shows</tspan><tspan x="131.8"> </tspan><tspan x="135.6" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="153.9"> </tspan><tspan x="157.7" textLength="35.2" lengthAdjust="spacing">object</tspan><tspan x="192.9"> </tspan><tspan x="196.7" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="215.0"> </tspan><tspan x="218.8" textLength="35.2" lengthAdjust="spacing">cache</tspan><tspan x="254.0"> </tspan><tspan x="257.8" textLength="13.2" lengthAdjust="spacing">is.</tspan><tspan x="271.0"> </tspan><tspan x="274.8" textLength="44.0" lengthAdjust="spacing">Section</tspan><tspan x="318.8"> </tspan><tspan x="322.6">B</tspan><tspan x="331.4"> </tspan><tspan x="335.2" textLength="40.3" lengthAdjust="spacing">follows</tspan><tspan x="375.5"> </tspan><tspan x="379.3" textLength="6.6" lengthAdjust="spacing">it</tspan><tspan x="385.9"> </tspan><tspan x="389.7" textLength="44.8" lengthAdjust="spacing">through</tspan><tspan x="434.4"> </tspan><tspan x="438.2" textLength="22.7" lengthAdjust="spacing">four</tspan><tspan x="460.9"> </tspan><tspan x="464.7" textLength="62.4" lengthAdjust="spacing">generation</tspan><tspan x="527.1"> </tspan><tspan x="530.9" textLength="31.5" lengthAdjust="spacing">steps</tspan><tspan x="562.4"> </tspan><tspan x="566.2" textLength="34.5" lengthAdjust="spacing">inside</tspan><tspan x="600.7"> </tspan><tspan x="604.4" class="g93s2" textLength="42.0" lengthAdjust="spacing">layer 0</tspan><tspan x="646.4" textLength="14.5" lengthAdjust="spacing">’s</tspan><tspan x="661.0"> </tspan><tspan x="664.7" textLength="54.3" lengthAdjust="spacing">attention,</tspan><tspan x="719.0"> </tspan><tspan x="722.8" textLength="23.5" lengthAdjust="spacing">with</tspan><tspan x="746.3"> </tspan><tspan x="750.1" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="768.4"> </tspan><tspan x="772.2" textLength="22.0" lengthAdjust="spacing">real</tspan><tspan x="794.2"> </tspan><tspan x="798.0" textLength="36.7" lengthAdjust="spacing">query,</tspan><tspan x="834.7"> </tspan><tspan x="838.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="856.8"> </tspan><tspan x="860.6" textLength="22.0" lengthAdjust="spacing">real</tspan><tspan x="882.6"> </tspan><tspan x="886.3" textLength="42.6" lengthAdjust="spacing">cached</tspan><tspan x="928.9"> </tspan><tspan x="932.7" textLength="30.8" lengthAdjust="spacing">keys,</tspan><tspan x="963.5"> </tspan><tspan x="967.3" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="985.6"> </tspan><tspan x="989.4" class="g93s82" textLength="44.8" lengthAdjust="spacing">scores</tspan><tspan x="1034.2">,</tspan><tspan x="1037.9"> </tspan><tspan x="1041.7" textLength="18.3" lengthAdjust="spacing">the</tspan></text>
+<text y="280.0" xml:space="preserve" class="g93s81"><tspan x="34.0" class="g93s82" textLength="52.3" lengthAdjust="spacing">softmax</tspan><tspan x="86.3"> </tspan><tspan x="91.1" textLength="22.0" lengthAdjust="spacing">and</tspan><tspan x="113.1"> </tspan><tspan x="118.0" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="136.3"> </tspan><tspan x="141.1" textLength="49.9" lengthAdjust="spacing">resulting</tspan><tspan x="191.0"> </tspan><tspan x="195.9" textLength="42.6" lengthAdjust="spacing">context</tspan><tspan x="238.4"> </tspan><tspan x="243.2">—</tspan><tspan x="256.4"> </tspan><tspan x="261.3" textLength="49.2" lengthAdjust="spacing">checked</tspan><tspan x="310.4"> </tspan><tspan x="315.3" textLength="42.6" lengthAdjust="spacing">against</tspan><tspan x="357.8"> </tspan><tspan x="362.6" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="381.0"> </tspan><tspan x="385.8" textLength="50.5" lengthAdjust="spacing">model’s</tspan><tspan x="436.3"> </tspan><tspan x="441.1" textLength="24.2" lengthAdjust="spacing">own</tspan><tspan x="465.3"> </tspan><tspan x="470.2" textLength="40.4" lengthAdjust="spacing">output.</tspan><tspan x="510.5"> </tspan><tspan x="515.4" textLength="50.6" lengthAdjust="spacing">Sections</tspan><tspan x="566.0"> </tspan><tspan x="570.8">C</tspan><tspan x="580.3"> </tspan><tspan x="585.2" textLength="11.0" lengthAdjust="spacing">to</tspan><tspan x="596.2"> </tspan><tspan x="601.0">F</tspan><tspan x="609.1"> </tspan><tspan x="613.9" textLength="34.5" lengthAdjust="spacing">check</tspan><tspan x="648.4"> </tspan><tspan x="653.2" textLength="22.0" lengthAdjust="spacing">that</tspan><tspan x="675.2"> </tspan><tspan x="680.1" textLength="43.3" lengthAdjust="spacing">nothing</tspan><tspan x="723.3"> </tspan><tspan x="728.2" textLength="53.6" lengthAdjust="spacing">changes,</tspan><tspan x="781.7"> </tspan><tspan x="786.6" textLength="32.3" lengthAdjust="spacing">count</tspan><tspan x="818.9"> </tspan><tspan x="823.7" textLength="27.9" lengthAdjust="spacing">what</tspan><tspan x="851.6"> </tspan><tspan x="856.4" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="865.9"> </tspan><tspan x="870.8" textLength="38.9" lengthAdjust="spacing">saved,</tspan><tspan x="909.6"> </tspan><tspan x="914.5" textLength="30.8" lengthAdjust="spacing">show</tspan><tspan x="945.3"> </tspan><tspan x="950.1" textLength="23.5" lengthAdjust="spacing">why</tspan><tspan x="973.6"> </tspan><tspan x="978.4" class="g93s82" textLength="67.2" lengthAdjust="spacing">start_pos</tspan><tspan x="1045.6"> </tspan><tspan x="1050.5" textLength="9.5" lengthAdjust="spacing">is</tspan></text>
+<text y="299.8" xml:space="preserve" class="g93s81"><tspan x="34.0" textLength="295.7" lengthAdjust="spacing">required, and show the cache re-sorted for beams.</tspan></text>
+<rect x="1086.0" y="247.0" width="760.0" height="309.0" rx="6" style="fill:var(--codebg);stroke:var(--codebd);stroke-width:1"/>
+<text y="265.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="1096.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)" textLength="11.9" lengthAdjust="spacing">v2</tspan><tspan x="1107.9" class="g93s8" textLength="133.0" lengthAdjust="spacing"> · the cache, in two classes</tspan></text>
+<text x="1096.0" y="288.0" xml:space="preserve" class="g93s30"><tspan class="g93s25"># MultiHeadAttention.forward</tspan></text>
+<text x="1096.0" y="307.5" xml:space="preserve" class="g93s30"><tspan class="g93s0">Q</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_q</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">q</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan></text>
+<text x="1096.0" y="327.0" xml:space="preserve" class="g93s30"><tspan class="g93s3">if</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">is</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">not</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">None</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">and</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">static_kv</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">and</tspan><tspan class="g93s0"> </tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">in</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">:</tspan></text>
+<text x="1096.0" y="346.5" xml:space="preserve" class="g93s30"><tspan class="g93s0">    </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0">                    </tspan><tspan class="g93s25"># cross: reuse</tspan></text>
+<text x="1096.0" y="366.0" xml:space="preserve" class="g93s30"><tspan class="g93s3">else</tspan><tspan class="g93s1">:</tspan></text>
+<text x="1096.0" y="385.5" xml:space="preserve" class="g93s30"><tspan class="g93s0">    </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_k</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">k</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_v</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">v</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan></text>
+<text x="1096.0" y="405.0" xml:space="preserve" class="g93s30"><tspan class="g93s0">    </tspan><tspan class="g93s3">if</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">is</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">not</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">None</tspan><tspan class="g93s1">:</tspan></text>
+<text x="1096.0" y="424.5" xml:space="preserve" class="g93s30"><tspan class="g93s0">        </tspan><tspan class="g93s3">if</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">not</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">static_kv</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">and</tspan><tspan class="g93s0"> </tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">in</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">:</tspan><tspan class="g93s0">           </tspan><tspan class="g93s25"># self: append</tspan></text>
+<text x="1096.0" y="444.0" xml:space="preserve" class="g93s30"><tspan class="g93s0">            </tspan><tspan class="g93s0">K</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">torch</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">cat</tspan><tspan class="g93s1">(</tspan><tspan class="g93s1">[</tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">dim</tspan><tspan class="g93s1">=</tspan><tspan class="g93s32">2</tspan><tspan class="g93s1">)</tspan></text>
+<text x="1096.0" y="463.5" xml:space="preserve" class="g93s30"><tspan class="g93s0">            </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">torch</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">cat</tspan><tspan class="g93s1">(</tspan><tspan class="g93s1">[</tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">dim</tspan><tspan class="g93s1">=</tspan><tspan class="g93s32">2</tspan><tspan class="g93s1">)</tspan></text>
+<text x="1096.0" y="483.0" xml:space="preserve" class="g93s30"><tspan class="g93s0">        </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan></text>
+<text x="1096.0" y="502.5" xml:space="preserve" class="g93s30"><tspan class="g93s25"># DecoderLayer.forward</tspan></text>
+<text x="1096.0" y="522.0" xml:space="preserve" class="g93s30"><tspan class="g93s0">self_cache</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">setdefault</tspan><tspan class="g93s1">(</tspan><tspan class="g93s14">&quot;self&quot;</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">{</tspan><tspan class="g93s1">}</tspan><tspan class="g93s1">)</tspan></text>
+<text x="1096.0" y="541.5" xml:space="preserve" class="g93s30"><tspan class="g93s0">cross_cache</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">setdefault</tspan><tspan class="g93s1">(</tspan><tspan class="g93s14">&quot;cross&quot;</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">{</tspan><tspan class="g93s1">}</tspan><tspan class="g93s1">)</tspan></text>
+<rect x="34.0" y="578.0" width="1812.0" height="30.0" rx="6" class="g93s37"/>
+<path d="M38.50 578.71 A5.50 5.50 0 0 0 34.50 584.00 V602.00 A5.50 5.50 0 0 0 38.50 607.29 Z" class="g93s38"/>
+<text y="598.0" xml:space="preserve" class="g93s56"><tspan x="50.0" class="g93s8" textLength="130.2" lengthAdjust="spacing">A · What the cache is</tspan></text>
+<text y="598.0" xml:space="preserve" class="g93s57"><tspan x="198.2" textLength="161.1" lengthAdjust="spacing">a list of dicts of tensors — after </tspan><tspan x="359.3" class="g93s2" textLength="33.2" lengthAdjust="spacing">step 3</tspan></text>
+<text y="626.0" xml:space="preserve" class="g93s60"><tspan x="38.0" class="g93s8" textLength="175.3" lengthAdjust="spacing">Two drawers per decoder layer</tspan></text>
+<text y="644.0" xml:space="preserve" class="g93s47"><tspan x="38.0" class="g93s19" textLength="67.9" lengthAdjust="spacing">generate()</tspan><tspan x="105.9" textLength="142.4" lengthAdjust="spacing"> makes cache = [{} for _ in </tspan><tspan x="248.3" class="g93s19" textLength="129.0" lengthAdjust="spacing">self.decoder_layers</tspan><tspan x="377.3" textLength="108.7" lengthAdjust="spacing">]: one dict per layer. </tspan><tspan x="486.1" class="g93s19" textLength="81.5" lengthAdjust="spacing">DecoderLayer</tspan><tspan x="567.5" textLength="253.8" lengthAdjust="spacing"> opens two drawers in it, &quot;self&quot; and &quot;cross&quot;, and </tspan><tspan x="821.4" class="g93s19" textLength="122.2" lengthAdjust="spacing">MultiHeadAttention</tspan><tspan x="943.6" textLength="302.5" lengthAdjust="spacing"> stores &quot;k&quot; and &quot;v&quot; tensors of shape (B, heads, positions, </tspan><tspan x="1246.1" class="g93s19" textLength="20.4" lengthAdjust="spacing">d_k</tspan><tspan x="1266.5" textLength="492.8" lengthAdjust="spacing">) in each. The self drawer gains one position per step; the cross drawer holds the encoder’s </tspan><tspan x="1759.2" class="g93s2" textLength="60.8" lengthAdjust="spacing">6 positions</tspan></text>
+<text y="661.4" xml:space="preserve" class="g93s47"><tspan x="38.0" textLength="112.7" lengthAdjust="spacing">from the first step on.</tspan></text>
+<text x="34.0" y="694.8" class="g93s34">cache  =  [ layer 0 , layer 1 ]</text>
+<rect x="34.0" y="706.8" width="896.0" height="100.0" rx="6" class="g93s88"/>
+<text x="44.0" y="724.8" class="g93s61">cache[0]  (a dict)</text>
+<rect x="44.0" y="736.8" width="876.0" height="28.0" rx="4" class="g93s89"/>
+<text x="54.0" y="754.8" class="g93s71">&quot;self&quot;: k, v  (1, 4, 4, 128)</text>
+<text x="910.0" y="754.8" class="g93s90">grows by 1</text>
+<rect x="44.0" y="770.8" width="876.0" height="28.0" rx="4" class="g93s91"/>
+<text x="54.0" y="788.8" class="g93s71">&quot;cross&quot;: k, v  (1, 4, 6, 128)</text>
+<text x="910.0" y="788.8" class="g93s92">fixed at 6</text>
+<rect x="950.0" y="706.8" width="896.0" height="100.0" rx="6" class="g93s88"/>
+<text x="960.0" y="724.8" class="g93s61">cache[1]  (a dict)</text>
+<rect x="960.0" y="736.8" width="876.0" height="28.0" rx="4" class="g93s89"/>
+<text x="970.0" y="754.8" class="g93s71">&quot;self&quot;: k, v  (1, 4, 4, 128)</text>
+<text x="1826.0" y="754.8" class="g93s90">grows by 1</text>
+<rect x="960.0" y="770.8" width="876.0" height="28.0" rx="4" class="g93s91"/>
+<text x="970.0" y="788.8" class="g93s71">&quot;cross&quot;: k, v  (1, 4, 6, 128)</text>
+<text x="1826.0" y="788.8" class="g93s92">fixed at 6</text>
+<rect x="34.0" y="836.8" width="1812.0" height="30.0" rx="6" class="g93s37"/>
+<path d="M38.50 837.51 A5.50 5.50 0 0 0 34.50 842.80 V860.80 A5.50 5.50 0 0 0 38.50 866.09 Z" class="g93s38"/>
+<text y="856.8" xml:space="preserve" class="g93s56"><tspan x="50.0" class="g93s8" textLength="230.5" lengthAdjust="spacing">B · The call stack — four steps inside </tspan><tspan x="280.5" class="g93s2" textLength="41.4" lengthAdjust="spacing">layer 0</tspan><tspan x="321.9" class="g93s8" textLength="71.8" lengthAdjust="spacing">’s attention</tspan></text>
+<text y="856.8" xml:space="preserve" class="g93s57"><tspan x="411.7" textLength="101.6" lengthAdjust="spacing">sequence A alone · </tspan><tspan x="513.4" class="g93s2" textLength="37.3" lengthAdjust="spacing">head 0</tspan><tspan x="550.7" textLength="16.0" lengthAdjust="spacing"> of </tspan><tspan x="566.6" class="g93s2">4</tspan><tspan x="573.4" textLength="28.8" lengthAdjust="spacing"> · the </tspan><tspan x="602.2" class="g93s29" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="615.2" textLength="34.5" lengthAdjust="spacing"> model</tspan></text>
+<rect x="34.0" y="882.8" width="1812.0" height="118.0" rx="8" style="fill:var(--soft);stroke:var(--hair);stroke-width:1"/>
+<path d="M38.50 884.17 A7.50 7.50 0 0 0 34.50 890.80 V992.80 A7.50 7.50 0 0 0 38.50 999.43 Z" class="g93s38"/>
+<text x="52.0" y="902.8" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">How to read a frame</text>
+<text y="902.8" xml:space="preserve" class="g93s83"><tspan x="187.8" textLength="184.6" lengthAdjust="spacing">every frame below has these six parts</tspan></text>
+<rect x="52.0" y="912.3" width="22.0" height="17.0" rx="4" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.22"/>
+<text x="63.0" y="924.8" class="g93s18">7</text>
+<text x="52.0" y="958.3" class="g93s26">the order this line ran, counting from the top of the page</text>
+<text x="350.7" y="924.8" style="fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:start">cell 2 · EncoderLayer.forward</text>
+<text x="350.7" y="958.3" class="g93s26">the cell the line lives in and the function it sits inside — a stack</text>
+<text x="350.7" y="970.8" class="g93s26">moves from cell to cell. &lt;module&gt; means no function at all</text>
+<text x="649.3" y="924.8" xml:space="preserve" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px"><tspan class="g93s0">x</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">norm1</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">x</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">+</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">.</tspan><tspan class="g93s1">.</tspan><tspan class="g93s1">.</tspan><tspan class="g93s1">)</tspan></text>
+<text x="649.3" y="958.3" class="g93s26">the line of Python that actually ran, in the order it ran</text>
+<text x="948.0" y="924.8" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start">the similarity table</text>
+<text x="948.0" y="958.3" class="g93s26">the note on the right edge — a plain-language name for what</text>
+<text x="948.0" y="970.8" class="g93s26">this line achieves. Only the frames that matter most carry one</text>
+<rect x="1246.7" y="911.8" width="89.0" height="18.0" rx="4" class="g93s48"/>
+<text x="1291.2" y="924.6" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">(2, 4, 7, 7)</text>
+<rect x="1341.7" y="911.8" width="95.2" height="18.0" rx="4" style="fill:var(--codebg);stroke:none;stroke-width:1"/>
+<text x="1389.3" y="924.6" class="g93s58">torch.float32</text>
+<text x="1246.7" y="958.3" class="g93s26">the size of the tensor that line produced, and the kind of number</text>
+<text x="1246.7" y="970.8" class="g93s26">it holds</text>
+<rect x="1545.3" y="911.8" width="44.0" height="18.0" rx="4" style="fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1"/>
+<text x="1567.3" y="924.8" style="fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ A</text>
+<rect x="1595.3" y="911.8" width="44.0" height="18.0" rx="4" style="fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1"/>
+<text x="1617.3" y="924.8" style="fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ B</text>
+<text x="1545.3" y="958.3" class="g93s26">right of the dashed line: that tensor&#x27;s real values, both sentences</text>
+<text x="1545.3" y="970.8" class="g93s26">at once</text>
+<rect x="34.0" y="1014.8" width="1812.0" height="81.0" rx="8" class="g93s39"/>
+<path d="M39.55 1015.76 A7.45 7.45 0 0 0 34.55 1022.80 V1087.80 A7.45 7.45 0 0 0 39.55 1094.84 Z" class="g93s20"/>
+<rect x="44.0" y="1024.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="55.0" y="1036.8" class="g93s18">1</text>
+<text x="72.0" y="1036.8" class="g93s22">cell 2 · Transformer.generate</text>
+<text x="720.0" y="1073.3" class="g93s40">01</text>
+<text x="72.0" y="1054.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">cache</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">[</tspan><tspan class="g93s1">{</tspan><tspan class="g93s1">}</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">for</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">_</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">in</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s65">decoder_layers</tspan><tspan class="g93s1">]</tspan></text>
+<text y="1076.8" xml:space="preserve" class="g93s13"><tspan x="72.0" textLength="204.5" lengthAdjust="spacing">Two empty dicts, one per decoder layer.</tspan></text>
+<line x1="736.0" y1="1024.8" x2="736.0" y2="1085.8" class="g93s23"/>
+<rect x="34.0" y="1105.8" width="1812.0" height="98.0" rx="8" class="g93s49"/>
+<path d="M39.75 1106.91 A7.25 7.25 0 0 0 34.75 1113.80 V1195.80 A7.25 7.25 0 0 0 39.75 1202.69 Z" class="g93s20"/>
+<rect x="44.0" y="1115.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="55.0" y="1127.8" class="g93s18">2</text>
+<text x="72.0" y="1127.8" class="g93s22">cell 2 · Transformer.generate</text>
+<text y="1127.8" xml:space="preserve" class="g93s33"><tspan x="691.1" class="g93s72" textLength="28.9" lengthAdjust="spacing">step 0</tspan></text>
+<text x="720.0" y="1172.8" class="g93s50">02</text>
+<text x="72.0" y="1145.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">out</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">decode</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">tgt</tspan><tspan class="g93s1">[</tspan><tspan class="g93s1">:</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">-</tspan><tspan class="g93s32">1</tspan><tspan class="g93s1">:</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">enc_out</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">src_mask</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">None</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">=</tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">,</tspan></text>
+<text x="72.0" y="1162.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">start_pos</tspan><tspan class="g93s1">=</tspan><tspan class="g93s32">0</tspan><tspan class="g93s1">)</tspan></text>
+<rect x="143.6" y="1174.5" width="37.5" height="14.0" rx="3" class="g93s73"/>
+<text y="1184.8" xml:space="preserve" class="g93s13"><tspan x="72.0" textLength="71.6" lengthAdjust="spacing">One token in: </tspan><tspan x="146.1" class="g93s84" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="181.1" textLength="19.2" lengthAdjust="spacing">, at </tspan><tspan x="200.3" class="g93s2" textLength="52.2" lengthAdjust="spacing">position 0</tspan><tspan x="252.5">.</tspan></text>
+<line x1="736.0" y1="1115.8" x2="736.0" y2="1193.8" class="g93s23"/>
+<rect x="60.0" y="1213.8" width="1786.0" height="114.0" rx="8" class="g93s39"/>
+<path d="M65.55 1214.76 A7.45 7.45 0 0 0 60.55 1221.80 V1319.80 A7.45 7.45 0 0 0 65.55 1326.84 Z" class="g93s20"/>
+<rect x="70.0" y="1223.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="81.0" y="1235.8" class="g93s18">3</text>
+<text x="98.0" y="1235.8" class="g93s22">cell 2 · Transformer.decode</text>
+<text x="720.0" y="1288.8" class="g93s40">03</text>
+<text x="98.0" y="1253.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">x</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">pos_encoder</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">tgt_embedding</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">tgt</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">*</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">math</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">sqrt</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s65">d_model</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan></text>
+<text x="98.0" y="1270.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">start_pos</tspan><tspan class="g93s1">)</tspan></text>
+<text y="1292.8" xml:space="preserve" class="g93s13"><tspan x="98.0" class="g93s29" textLength="84.6" lengthAdjust="spacing">start_pos = 0</tspan><tspan x="182.6" textLength="32.6" lengthAdjust="spacing"> picks </tspan><tspan x="215.2" class="g93s2" textLength="29.8" lengthAdjust="spacing">row 0</tspan><tspan x="245.0" textLength="118.3" lengthAdjust="spacing"> of the positional table: </tspan><tspan x="363.3" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.000</tspan><tspan x="393.8">, </tspan><tspan x="400.2" class="g93s2" textLength="30.5" lengthAdjust="spacing">1.000</tspan><tspan x="430.7">, </tspan><tspan x="437.0" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.000</tspan><tspan x="467.5" textLength="156.0" lengthAdjust="spacing"> … — the row this token would</tspan></text>
+<text y="1308.8" xml:space="preserve" class="g93s13"><tspan x="98.0" textLength="189.2" lengthAdjust="spacing">have had inside the whole sequence.</tspan></text>
+<line x1="736.0" y1="1223.8" x2="736.0" y2="1317.8" class="g93s23"/>
+<rect x="86.0" y="1337.8" width="1760.0" height="150.0" rx="8" class="g93s49"/>
+<path d="M91.75 1338.91 A7.25 7.25 0 0 0 86.75 1345.80 V1479.80 A7.25 7.25 0 0 0 91.75 1486.69 Z" class="g93s20"/>
+<rect x="96.0" y="1347.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="107.0" y="1359.8" class="g93s18">4</text>
+<text x="124.0" y="1359.8" class="g93s22">cell 2 · MultiHeadAttention.forward</text>
+<text y="1359.8" xml:space="preserve" class="g93s33"><tspan x="674.0" class="g93s8" textLength="46.0" lengthAdjust="spacing">self: store</tspan></text>
+<text x="720.0" y="1430.8" class="g93s50">04</text>
+<text x="124.0" y="1377.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_k</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">k</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_v</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">v</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan></text>
+<text x="124.0" y="1394.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0">            </tspan><tspan class="g93s25"># the drawer was empty</tspan></text>
+<text y="1416.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="488.3" lengthAdjust="spacing">The query of the new token is compared with every key in the drawer — here only its own, so its</tspan></text>
+<text y="1432.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="47.9" lengthAdjust="spacing">weight is </tspan><tspan x="171.9" class="g93s2">1</tspan><tspan x="178.7">.</tspan></text>
+<rect x="124.0" y="1440.8" width="105.9" height="18.0" rx="4" class="g93s48"/>
+<text x="176.9" y="1453.6" class="g93s51">(1, 4, 1, 128)</text>
+<line x1="736.0" y1="1347.8" x2="736.0" y2="1477.8" class="g93s23"/>
+<text x="750.0" y="1363.8" class="g93s62">the new token’s query q against every cached key (columns 0–3 of 128 shown; the scores use all 128)</text>
+<text x="784.0" y="1389.8" class="g93s74">q</text>
+<rect x="792.0" y="1375.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="823.0" y="1389.8" class="g93s6">0.682</text>
+<rect x="854.0" y="1375.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="885.0" y="1389.8" class="g93s6">1.624</text>
+<rect x="916.0" y="1375.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="947.0" y="1389.8" class="g93s6">1.418</text>
+<rect x="978.0" y="1375.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="1009.0" y="1389.8" class="g93s6">0.861</text>
+<text x="1048.0" y="1389.8" class="g93s75">…</text>
+<text x="1080.0" y="1415.8" class="g93s52">q · k / √128</text>
+<text x="1210.0" y="1415.8" class="g93s52">softmax → weight</text>
+<text x="784.0" y="1437.8" class="g93s76">k0</text>
+<rect x="792.0" y="1423.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="823.0" y="1437.8" class="g93s6">0.300</text>
+<rect x="854.0" y="1423.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="885.0" y="1437.8" class="g93s6">0.337</text>
+<rect x="916.0" y="1423.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="947.0" y="1437.8" class="g93s6">-0.376</text>
+<rect x="978.0" y="1423.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1009.0" y="1437.8" class="g93s6">-1.029</text>
+<text x="1080.0" y="1437.8" class="g93s31">-0.6015</text>
+<rect x="1210.0" y="1427.8" width="160.0" height="12.0" rx="2" class="g93s41"/>
+<text x="1378.0" y="1437.8" class="g93s34">1.0000</text>
+<text x="1448.0" y="1437.8" class="g93s77">new row</text>
+<text x="750.0" y="1467.8" class="g93s31">context = Σ weight · v  →  -0.011, -0.409, -0.625, -0.570 …   (the model’s own: -0.011, -0.409, -0.625, -0.570 …)</text>
+<rect x="86.0" y="1497.8" width="1760.0" height="139.0" rx="8" class="g93s39"/>
+<path d="M91.55 1498.76 A7.45 7.45 0 0 0 86.55 1505.80 V1628.80 A7.45 7.45 0 0 0 91.55 1635.84 Z" class="g93s20"/>
+<rect x="96.0" y="1507.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="107.0" y="1519.8" class="g93s18">5</text>
+<text x="124.0" y="1519.8" class="g93s22">cell 2 · MultiHeadAttention.forward</text>
+<text y="1519.8" xml:space="preserve" class="g93s33"><tspan x="622.2" class="g93s8" textLength="97.8" lengthAdjust="spacing">cross: compute once</tspan></text>
+<text x="720.0" y="1585.3" class="g93s40">05</text>
+<text x="124.0" y="1537.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_k</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">k</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_v</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">v</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0">   </tspan><tspan class="g93s25"># k =</tspan></text>
+<text x="124.0" y="1554.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">enc_output</tspan></text>
+<text x="124.0" y="1571.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan></text>
+<text y="1593.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="80.4" lengthAdjust="spacing">The encoder’s </tspan><tspan x="204.4" class="g93s2" textLength="58.3" lengthAdjust="spacing">6 positions</tspan><tspan x="262.7" textLength="159.2" lengthAdjust="spacing"> are projected once and stored.</tspan></text>
+<rect x="124.0" y="1601.8" width="105.9" height="18.0" rx="4" class="g93s48"/>
+<text x="176.9" y="1614.6" class="g93s51">(1, 4, 6, 128)</text>
+<line x1="736.0" y1="1507.8" x2="736.0" y2="1626.8" class="g93s23"/>
+<rect x="34.0" y="1646.8" width="1812.0" height="98.0" rx="8" class="g93s49"/>
+<path d="M39.75 1647.91 A7.25 7.25 0 0 0 34.75 1654.80 V1736.80 A7.25 7.25 0 0 0 39.75 1743.69 Z" class="g93s20"/>
+<rect x="44.0" y="1656.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="55.0" y="1668.8" class="g93s18">6</text>
+<text x="72.0" y="1668.8" class="g93s22">cell 2 · Transformer.generate</text>
+<text y="1668.8" xml:space="preserve" class="g93s33"><tspan x="691.1" class="g93s72" textLength="28.9" lengthAdjust="spacing">step 1</tspan></text>
+<text x="720.0" y="1713.8" class="g93s50">06</text>
+<text x="72.0" y="1686.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">out</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">decode</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">tgt</tspan><tspan class="g93s1">[</tspan><tspan class="g93s1">:</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">-</tspan><tspan class="g93s32">1</tspan><tspan class="g93s1">:</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">enc_out</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">src_mask</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">None</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">=</tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">,</tspan></text>
+<text x="72.0" y="1703.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">start_pos</tspan><tspan class="g93s1">=</tspan><tspan class="g93s32">1</tspan><tspan class="g93s1">)</tspan></text>
+<text y="1725.8" xml:space="preserve" class="g93s13"><tspan x="72.0" textLength="131.7" lengthAdjust="spacing">One token in: rences_, at </tspan><tspan x="203.7" class="g93s2" textLength="52.2" lengthAdjust="spacing">position 1</tspan><tspan x="255.9">.</tspan></text>
+<line x1="736.0" y1="1656.8" x2="736.0" y2="1734.8" class="g93s23"/>
+<rect x="60.0" y="1754.8" width="1786.0" height="114.0" rx="8" class="g93s39"/>
+<path d="M65.55 1755.76 A7.45 7.45 0 0 0 60.55 1762.80 V1860.80 A7.45 7.45 0 0 0 65.55 1867.84 Z" class="g93s20"/>
+<rect x="70.0" y="1764.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="81.0" y="1776.8" class="g93s18">7</text>
+<text x="98.0" y="1776.8" class="g93s22">cell 2 · Transformer.decode</text>
+<text x="720.0" y="1829.8" class="g93s40">07</text>
+<text x="98.0" y="1794.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">x</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">pos_encoder</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">tgt_embedding</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">tgt</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">*</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">math</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">sqrt</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s65">d_model</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan></text>
+<text x="98.0" y="1811.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">start_pos</tspan><tspan class="g93s1">)</tspan></text>
+<text y="1833.8" xml:space="preserve" class="g93s13"><tspan x="98.0" class="g93s29" textLength="84.6" lengthAdjust="spacing">start_pos = 1</tspan><tspan x="182.6" textLength="32.6" lengthAdjust="spacing"> picks </tspan><tspan x="215.2" class="g93s2" textLength="29.8" lengthAdjust="spacing">row 1</tspan><tspan x="245.0" textLength="118.3" lengthAdjust="spacing"> of the positional table: </tspan><tspan x="363.3" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.841</tspan><tspan x="393.8">, </tspan><tspan x="400.2" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.540</tspan><tspan x="430.7">, </tspan><tspan x="437.0" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.822</tspan><tspan x="467.5" textLength="156.0" lengthAdjust="spacing"> … — the row this token would</tspan></text>
+<text y="1849.8" xml:space="preserve" class="g93s13"><tspan x="98.0" textLength="189.2" lengthAdjust="spacing">have had inside the whole sequence.</tspan></text>
+<line x1="736.0" y1="1764.8" x2="736.0" y2="1858.8" class="g93s23"/>
+<rect x="86.0" y="1878.8" width="1760.0" height="188.0" rx="8" class="g93s49"/>
+<path d="M91.75 1879.91 A7.25 7.25 0 0 0 86.75 1886.80 V2058.80 A7.25 7.25 0 0 0 91.75 2065.69 Z" class="g93s20"/>
+<rect x="96.0" y="1888.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="107.0" y="1900.8" class="g93s18">8</text>
+<text x="124.0" y="1900.8" class="g93s22">cell 2 · MultiHeadAttention.forward</text>
+<text y="1900.8" xml:space="preserve" class="g93s33"><tspan x="662.3" class="g93s8" textLength="57.7" lengthAdjust="spacing">self: append</tspan></text>
+<text x="720.0" y="1990.8" class="g93s50">08</text>
+<text x="124.0" y="1918.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_k</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">k</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_v</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">v</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0">   </tspan><tspan class="g93s25"># 1 new</tspan></text>
+<text x="124.0" y="1935.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">row</tspan></text>
+<text x="124.0" y="1952.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">K</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">torch</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">cat</tspan><tspan class="g93s1">(</tspan><tspan class="g93s1">[</tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">dim</tspan><tspan class="g93s1">=</tspan><tspan class="g93s32">2</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0">     </tspan><tspan class="g93s25"># 1 cached + 1</tspan></text>
+<text x="124.0" y="1969.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan></text>
+<text y="1991.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="31.9" lengthAdjust="spacing">Rows </tspan><tspan x="155.9" class="g93s29" textLength="13.0" lengthAdjust="spacing">p0</tspan><tspan x="169.0"> … </tspan><tspan x="186.9" class="g93s29" textLength="13.0" lengthAdjust="spacing">p0</tspan><tspan x="199.9" textLength="423.8" lengthAdjust="spacing"> come back from the cache untouched; only the green row was computed. The new</tspan></text>
+<text y="2007.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="113.1" lengthAdjust="spacing">query attends over all </tspan><tspan x="237.1" class="g93s2">2</tspan><tspan x="243.9" textLength="377.1" lengthAdjust="spacing"> keys, and the weighted sum of the values is the context — identical to the</tspan></text>
+<text y="2023.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="106.6" lengthAdjust="spacing">model’s own output.</tspan></text>
+<rect x="124.0" y="2031.8" width="105.9" height="18.0" rx="4" class="g93s48"/>
+<text x="176.9" y="2044.6" class="g93s51">(1, 4, 2, 128)</text>
+<line x1="736.0" y1="1888.8" x2="736.0" y2="2056.8" class="g93s23"/>
+<text x="750.0" y="1904.8" class="g93s62">the new token’s query q against every cached key (columns 0–3 of 128 shown; the scores use all 128)</text>
+<text x="784.0" y="1930.8" class="g93s74">q</text>
+<rect x="792.0" y="1916.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="823.0" y="1930.8" class="g93s6">1.505</text>
+<rect x="854.0" y="1916.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="885.0" y="1930.8" class="g93s6">1.452</text>
+<rect x="916.0" y="1916.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="947.0" y="1930.8" class="g93s6">0.870</text>
+<rect x="978.0" y="1916.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="1009.0" y="1930.8" class="g93s6">1.186</text>
+<text x="1048.0" y="1930.8" class="g93s75">…</text>
+<text x="1080.0" y="1956.8" class="g93s52">q · k / √128</text>
+<text x="1210.0" y="1956.8" class="g93s52">softmax → weight</text>
+<text x="784.0" y="1978.8" class="g93s63">k0</text>
+<rect x="792.0" y="1964.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="823.0" y="1978.8" class="g93s16">0.300</text>
+<rect x="854.0" y="1964.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="885.0" y="1978.8" class="g93s16">0.337</text>
+<rect x="916.0" y="1964.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="947.0" y="1978.8" class="g93s16">-0.376</text>
+<rect x="978.0" y="1964.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1009.0" y="1978.8" class="g93s16">-1.029</text>
+<text x="1080.0" y="1978.8" class="g93s31">-0.8154</text>
+<rect x="1210.0" y="1968.8" width="64.5" height="12.0" rx="2" class="g93s41"/>
+<text x="1282.5" y="1978.8" class="g93s34">0.4034</text>
+<text x="1448.0" y="1978.8" class="g93s26">from the cache</text>
+<text x="784.0" y="2002.8" class="g93s76">k1</text>
+<rect x="792.0" y="1988.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="823.0" y="2002.8" class="g93s6">0.856</text>
+<rect x="854.0" y="1988.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="885.0" y="2002.8" class="g93s6">0.427</text>
+<rect x="916.0" y="1988.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="947.0" y="2002.8" class="g93s6">-0.733</text>
+<rect x="978.0" y="1988.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1009.0" y="2002.8" class="g93s6">-0.461</text>
+<text x="1080.0" y="2002.8" class="g93s31">-0.4239</text>
+<rect x="1210.0" y="1992.8" width="95.5" height="12.0" rx="2" class="g93s41"/>
+<text x="1313.5" y="2002.8" class="g93s34">0.5966</text>
+<text x="1448.0" y="2002.8" class="g93s77">new row</text>
+<text x="750.0" y="2032.8" class="g93s31">context = Σ weight · v  →  0.338, -0.268, -0.759, -0.802 …   (the model’s own: 0.338, -0.268, -0.759, -0.802 …)</text>
+<rect x="86.0" y="2076.8" width="1760.0" height="138.0" rx="8" class="g93s39"/>
+<path d="M91.55 2077.76 A7.45 7.45 0 0 0 86.55 2084.80 V2206.80 A7.45 7.45 0 0 0 91.55 2213.84 Z" class="g93s20"/>
+<rect x="96.0" y="2086.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="107.0" y="2098.8" class="g93s18">9</text>
+<text x="124.0" y="2098.8" class="g93s22">cell 2 · MultiHeadAttention.forward</text>
+<text y="2098.8" xml:space="preserve" class="g93s33"><tspan x="662.3" class="g93s8" textLength="57.7" lengthAdjust="spacing">cross: reuse</tspan></text>
+<text x="720.0" y="2163.8" class="g93s40">09</text>
+<text x="124.0" y="2116.8" xml:space="preserve" class="g93s11"><tspan class="g93s3">if</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">is</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">not</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">None</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">and</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">static_kv</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">and</tspan><tspan class="g93s0"> </tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">in</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">:</tspan></text>
+<text x="124.0" y="2133.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0">          </tspan><tspan class="g93s25"># nothing projected</tspan></text>
+<text y="2155.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="451.1" lengthAdjust="spacing">The encoder’s keys are read back; only the new query is computed. Its weights over the</tspan></text>
+<text y="2171.8" xml:space="preserve" class="g93s13"><tspan x="124.0" class="g93s2" textLength="86.0" lengthAdjust="spacing">6 source tokens</tspan><tspan x="210.0">: </tspan><tspan x="216.4" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.107</tspan><tspan x="246.9">, </tspan><tspan x="253.3" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.092</tspan><tspan x="283.8">, </tspan><tspan x="290.2" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.139</tspan><tspan x="320.7">, </tspan><tspan x="327.1" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.218</tspan><tspan x="357.6">, </tspan><tspan x="364.0" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.252</tspan><tspan x="394.5">, </tspan><tspan x="400.9" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.191</tspan><tspan x="431.4">.</tspan></text>
+<rect x="124.0" y="2179.8" width="105.9" height="18.0" rx="4" class="g93s48"/>
+<text x="176.9" y="2192.6" class="g93s51">(1, 4, 6, 128)</text>
+<line x1="736.0" y1="2086.8" x2="736.0" y2="2204.8" class="g93s23"/>
+<rect x="34.0" y="2224.8" width="1812.0" height="98.0" rx="8" class="g93s49"/>
+<path d="M39.75 2225.91 A7.25 7.25 0 0 0 34.75 2232.80 V2314.80 A7.25 7.25 0 0 0 39.75 2321.69 Z" class="g93s20"/>
+<rect x="44.0" y="2234.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="55.0" y="2246.8" class="g93s18">10</text>
+<text x="72.0" y="2246.8" class="g93s22">cell 2 · Transformer.generate</text>
+<text y="2246.8" xml:space="preserve" class="g93s33"><tspan x="691.1" class="g93s72" textLength="28.9" lengthAdjust="spacing">step 2</tspan></text>
+<text x="720.0" y="2291.8" class="g93s50">10</text>
+<text x="72.0" y="2264.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">out</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">decode</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">tgt</tspan><tspan class="g93s1">[</tspan><tspan class="g93s1">:</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">-</tspan><tspan class="g93s32">1</tspan><tspan class="g93s1">:</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">enc_out</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">src_mask</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">None</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">=</tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">,</tspan></text>
+<text x="72.0" y="2281.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">start_pos</tspan><tspan class="g93s1">=</tspan><tspan class="g93s32">2</tspan><tspan class="g93s1">)</tspan></text>
+<text y="2303.8" xml:space="preserve" class="g93s13"><tspan x="72.0" textLength="131.7" lengthAdjust="spacing">One token in: rences_, at </tspan><tspan x="203.7" class="g93s2" textLength="52.2" lengthAdjust="spacing">position 2</tspan><tspan x="255.9">.</tspan></text>
+<line x1="736.0" y1="2234.8" x2="736.0" y2="2312.8" class="g93s23"/>
+<rect x="60.0" y="2332.8" width="1786.0" height="114.0" rx="8" class="g93s39"/>
+<path d="M65.55 2333.76 A7.45 7.45 0 0 0 60.55 2340.80 V2438.80 A7.45 7.45 0 0 0 65.55 2445.84 Z" class="g93s20"/>
+<rect x="70.0" y="2342.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="81.0" y="2354.8" class="g93s18">11</text>
+<text x="98.0" y="2354.8" class="g93s22">cell 2 · Transformer.decode</text>
+<text x="720.0" y="2407.8" class="g93s40">11</text>
+<text x="98.0" y="2372.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">x</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">pos_encoder</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">tgt_embedding</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">tgt</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">*</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">math</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">sqrt</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s65">d_model</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan></text>
+<text x="98.0" y="2389.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">start_pos</tspan><tspan class="g93s1">)</tspan></text>
+<text y="2411.8" xml:space="preserve" class="g93s13"><tspan x="98.0" class="g93s29" textLength="84.6" lengthAdjust="spacing">start_pos = 2</tspan><tspan x="182.6" textLength="32.6" lengthAdjust="spacing"> picks </tspan><tspan x="215.2" class="g93s2" textLength="29.8" lengthAdjust="spacing">row 2</tspan><tspan x="245.0" textLength="118.3" lengthAdjust="spacing"> of the positional table: </tspan><tspan x="363.3" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.909</tspan><tspan x="393.8">, </tspan><tspan x="400.2" class="g93s2" textLength="34.6" lengthAdjust="spacing">-0.416</tspan><tspan x="434.7">, </tspan><tspan x="441.1" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.936</tspan><tspan x="471.6" textLength="156.0" lengthAdjust="spacing"> … — the row this token would</tspan></text>
+<text y="2427.8" xml:space="preserve" class="g93s13"><tspan x="98.0" textLength="189.2" lengthAdjust="spacing">have had inside the whole sequence.</tspan></text>
+<line x1="736.0" y1="2342.8" x2="736.0" y2="2436.8" class="g93s23"/>
+<rect x="86.0" y="2456.8" width="1760.0" height="198.0" rx="8" class="g93s49"/>
+<path d="M91.75 2457.91 A7.25 7.25 0 0 0 86.75 2464.80 V2646.80 A7.25 7.25 0 0 0 91.75 2653.69 Z" class="g93s20"/>
+<rect x="96.0" y="2466.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="107.0" y="2478.8" class="g93s18">12</text>
+<text x="124.0" y="2478.8" class="g93s22">cell 2 · MultiHeadAttention.forward</text>
+<text y="2478.8" xml:space="preserve" class="g93s33"><tspan x="662.3" class="g93s8" textLength="57.7" lengthAdjust="spacing">self: append</tspan></text>
+<text x="720.0" y="2573.8" class="g93s50">12</text>
+<text x="124.0" y="2496.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_k</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">k</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_v</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">v</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0">   </tspan><tspan class="g93s25"># 1 new</tspan></text>
+<text x="124.0" y="2513.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">row</tspan></text>
+<text x="124.0" y="2530.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">K</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">torch</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">cat</tspan><tspan class="g93s1">(</tspan><tspan class="g93s1">[</tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">dim</tspan><tspan class="g93s1">=</tspan><tspan class="g93s32">2</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0">     </tspan><tspan class="g93s25"># 2 cached + 1</tspan></text>
+<text x="124.0" y="2547.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan></text>
+<text y="2569.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="31.9" lengthAdjust="spacing">Rows </tspan><tspan x="155.9" class="g93s29" textLength="13.0" lengthAdjust="spacing">p0</tspan><tspan x="169.0"> … </tspan><tspan x="186.9" class="g93s29" textLength="13.0" lengthAdjust="spacing">p1</tspan><tspan x="199.9" textLength="423.8" lengthAdjust="spacing"> come back from the cache untouched; only the green row was computed. The new</tspan></text>
+<text y="2585.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="113.1" lengthAdjust="spacing">query attends over all </tspan><tspan x="237.1" class="g93s2">3</tspan><tspan x="243.9" textLength="377.1" lengthAdjust="spacing"> keys, and the weighted sum of the values is the context — identical to the</tspan></text>
+<text y="2601.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="106.6" lengthAdjust="spacing">model’s own output.</tspan></text>
+<rect x="124.0" y="2609.8" width="105.9" height="18.0" rx="4" class="g93s48"/>
+<text x="176.9" y="2622.6" class="g93s51">(1, 4, 3, 128)</text>
+<line x1="736.0" y1="2466.8" x2="736.0" y2="2644.8" class="g93s23"/>
+<text x="750.0" y="2482.8" class="g93s62">the new token’s query q against every cached key (columns 0–3 of 128 shown; the scores use all 128)</text>
+<text x="784.0" y="2508.8" class="g93s74">q</text>
+<rect x="792.0" y="2494.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="823.0" y="2508.8" class="g93s6">1.439</text>
+<rect x="854.0" y="2494.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="885.0" y="2508.8" class="g93s6">1.075</text>
+<rect x="916.0" y="2494.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="947.0" y="2508.8" class="g93s6">0.048</text>
+<rect x="978.0" y="2494.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="1009.0" y="2508.8" class="g93s6">1.491</text>
+<text x="1048.0" y="2508.8" class="g93s75">…</text>
+<text x="1080.0" y="2534.8" class="g93s52">q · k / √128</text>
+<text x="1210.0" y="2534.8" class="g93s52">softmax → weight</text>
+<text x="784.0" y="2556.8" class="g93s63">k0</text>
+<rect x="792.0" y="2542.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="823.0" y="2556.8" class="g93s16">0.300</text>
+<rect x="854.0" y="2542.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="885.0" y="2556.8" class="g93s16">0.337</text>
+<rect x="916.0" y="2542.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="947.0" y="2556.8" class="g93s16">-0.376</text>
+<rect x="978.0" y="2542.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1009.0" y="2556.8" class="g93s16">-1.029</text>
+<text x="1080.0" y="2556.8" class="g93s31">-0.5636</text>
+<rect x="1210.0" y="2546.8" width="46.4" height="12.0" rx="2" class="g93s41"/>
+<text x="1264.4" y="2556.8" class="g93s34">0.2900</text>
+<text x="1448.0" y="2556.8" class="g93s26">from the cache</text>
+<text x="784.0" y="2580.8" class="g93s63">k1</text>
+<rect x="792.0" y="2566.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="823.0" y="2580.8" class="g93s16">0.856</text>
+<rect x="854.0" y="2566.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="885.0" y="2580.8" class="g93s16">0.427</text>
+<rect x="916.0" y="2566.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="947.0" y="2580.8" class="g93s16">-0.733</text>
+<rect x="978.0" y="2566.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1009.0" y="2580.8" class="g93s16">-0.461</text>
+<text x="1080.0" y="2580.8" class="g93s31">-0.2194</text>
+<rect x="1210.0" y="2570.8" width="65.5" height="12.0" rx="2" class="g93s41"/>
+<text x="1283.5" y="2580.8" class="g93s34">0.4091</text>
+<text x="1448.0" y="2580.8" class="g93s26">from the cache</text>
+<text x="784.0" y="2604.8" class="g93s76">k2</text>
+<rect x="792.0" y="2590.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="823.0" y="2604.8" class="g93s6">0.992</text>
+<rect x="854.0" y="2590.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="885.0" y="2604.8" class="g93s6">-0.147</text>
+<rect x="916.0" y="2590.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="947.0" y="2604.8" class="g93s6">-0.749</text>
+<rect x="978.0" y="2590.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1009.0" y="2604.8" class="g93s6">-0.323</text>
+<text x="1080.0" y="2604.8" class="g93s31">-0.5263</text>
+<rect x="1210.0" y="2594.8" width="48.2" height="12.0" rx="2" class="g93s41"/>
+<text x="1266.2" y="2604.8" class="g93s34">0.3010</text>
+<text x="1448.0" y="2604.8" class="g93s77">new row</text>
+<text x="750.0" y="2634.8" class="g93s31">context = Σ weight · v  →  0.538, -0.199, -0.737, -0.819 …   (the model’s own: 0.538, -0.199, -0.737, -0.819 …)</text>
+<rect x="86.0" y="2664.8" width="1760.0" height="138.0" rx="8" class="g93s39"/>
+<path d="M91.55 2665.76 A7.45 7.45 0 0 0 86.55 2672.80 V2794.80 A7.45 7.45 0 0 0 91.55 2801.84 Z" class="g93s20"/>
+<rect x="96.0" y="2674.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="107.0" y="2686.8" class="g93s18">13</text>
+<text x="124.0" y="2686.8" class="g93s22">cell 2 · MultiHeadAttention.forward</text>
+<text y="2686.8" xml:space="preserve" class="g93s33"><tspan x="662.3" class="g93s8" textLength="57.7" lengthAdjust="spacing">cross: reuse</tspan></text>
+<text x="720.0" y="2751.8" class="g93s40">13</text>
+<text x="124.0" y="2704.8" xml:space="preserve" class="g93s11"><tspan class="g93s3">if</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">is</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">not</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">None</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">and</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">static_kv</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">and</tspan><tspan class="g93s0"> </tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">in</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">:</tspan></text>
+<text x="124.0" y="2721.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0">          </tspan><tspan class="g93s25"># nothing projected</tspan></text>
+<text y="2743.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="451.1" lengthAdjust="spacing">The encoder’s keys are read back; only the new query is computed. Its weights over the</tspan></text>
+<text y="2759.8" xml:space="preserve" class="g93s13"><tspan x="124.0" class="g93s2" textLength="86.0" lengthAdjust="spacing">6 source tokens</tspan><tspan x="210.0">: </tspan><tspan x="216.4" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.116</tspan><tspan x="246.9">, </tspan><tspan x="253.3" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.100</tspan><tspan x="283.8">, </tspan><tspan x="290.2" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.139</tspan><tspan x="320.7">, </tspan><tspan x="327.1" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.210</tspan><tspan x="357.6">, </tspan><tspan x="364.0" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.250</tspan><tspan x="394.5">, </tspan><tspan x="400.9" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.186</tspan><tspan x="431.4">.</tspan></text>
+<rect x="124.0" y="2767.8" width="105.9" height="18.0" rx="4" class="g93s48"/>
+<text x="176.9" y="2780.6" class="g93s51">(1, 4, 6, 128)</text>
+<line x1="736.0" y1="2674.8" x2="736.0" y2="2792.8" class="g93s23"/>
+<rect x="34.0" y="2812.8" width="1812.0" height="98.0" rx="8" class="g93s49"/>
+<path d="M39.75 2813.91 A7.25 7.25 0 0 0 34.75 2820.80 V2902.80 A7.25 7.25 0 0 0 39.75 2909.69 Z" class="g93s20"/>
+<rect x="44.0" y="2822.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="55.0" y="2834.8" class="g93s18">14</text>
+<text x="72.0" y="2834.8" class="g93s22">cell 2 · Transformer.generate</text>
+<text y="2834.8" xml:space="preserve" class="g93s33"><tspan x="691.1" class="g93s72" textLength="28.9" lengthAdjust="spacing">step 3</tspan></text>
+<text x="720.0" y="2879.8" class="g93s50">14</text>
+<text x="72.0" y="2852.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">out</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">decode</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">tgt</tspan><tspan class="g93s1">[</tspan><tspan class="g93s1">:</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">-</tspan><tspan class="g93s32">1</tspan><tspan class="g93s1">:</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">enc_out</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">src_mask</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">None</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">=</tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">,</tspan></text>
+<text x="72.0" y="2869.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">start_pos</tspan><tspan class="g93s1">=</tspan><tspan class="g93s32">3</tspan><tspan class="g93s1">)</tspan></text>
+<text y="2891.8" xml:space="preserve" class="g93s13"><tspan x="72.0" textLength="131.7" lengthAdjust="spacing">One token in: rences_, at </tspan><tspan x="203.7" class="g93s2" textLength="52.2" lengthAdjust="spacing">position 3</tspan><tspan x="255.9">.</tspan></text>
+<line x1="736.0" y1="2822.8" x2="736.0" y2="2900.8" class="g93s23"/>
+<rect x="60.0" y="2920.8" width="1786.0" height="114.0" rx="8" class="g93s39"/>
+<path d="M65.55 2921.76 A7.45 7.45 0 0 0 60.55 2928.80 V3026.80 A7.45 7.45 0 0 0 65.55 3033.84 Z" class="g93s20"/>
+<rect x="70.0" y="2930.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="81.0" y="2942.8" class="g93s18">15</text>
+<text x="98.0" y="2942.8" class="g93s22">cell 2 · Transformer.decode</text>
+<text x="720.0" y="2995.8" class="g93s40">15</text>
+<text x="98.0" y="2960.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">x</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">pos_encoder</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">tgt_embedding</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">tgt</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">*</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">math</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">sqrt</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s65">d_model</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan></text>
+<text x="98.0" y="2977.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">start_pos</tspan><tspan class="g93s1">)</tspan></text>
+<text y="2999.8" xml:space="preserve" class="g93s13"><tspan x="98.0" class="g93s29" textLength="84.6" lengthAdjust="spacing">start_pos = 3</tspan><tspan x="182.6" textLength="32.6" lengthAdjust="spacing"> picks </tspan><tspan x="215.2" class="g93s2" textLength="29.8" lengthAdjust="spacing">row 3</tspan><tspan x="245.0" textLength="118.3" lengthAdjust="spacing"> of the positional table: </tspan><tspan x="363.3" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.141</tspan><tspan x="393.8">, </tspan><tspan x="400.2" class="g93s2" textLength="34.6" lengthAdjust="spacing">-0.990</tspan><tspan x="434.7">, </tspan><tspan x="441.1" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.245</tspan><tspan x="471.6" textLength="156.0" lengthAdjust="spacing"> … — the row this token would</tspan></text>
+<text y="3015.8" xml:space="preserve" class="g93s13"><tspan x="98.0" textLength="189.2" lengthAdjust="spacing">have had inside the whole sequence.</tspan></text>
+<line x1="736.0" y1="2930.8" x2="736.0" y2="3024.8" class="g93s23"/>
+<rect x="86.0" y="3044.8" width="1760.0" height="222.0" rx="8" class="g93s49"/>
+<path d="M91.75 3045.91 A7.25 7.25 0 0 0 86.75 3052.80 V3258.80 A7.25 7.25 0 0 0 91.75 3265.69 Z" class="g93s20"/>
+<rect x="96.0" y="3054.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="107.0" y="3066.8" class="g93s18">16</text>
+<text x="124.0" y="3066.8" class="g93s22">cell 2 · MultiHeadAttention.forward</text>
+<text y="3066.8" xml:space="preserve" class="g93s33"><tspan x="662.3" class="g93s8" textLength="57.7" lengthAdjust="spacing">self: append</tspan></text>
+<text x="720.0" y="3173.8" class="g93s50">16</text>
+<text x="124.0" y="3084.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_k</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">k</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">_split</tspan><tspan class="g93s1">(</tspan><tspan class="g93s3">self</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">W_v</tspan><tspan class="g93s1">(</tspan><tspan class="g93s0">v</tspan><tspan class="g93s1">)</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0">   </tspan><tspan class="g93s25"># 1 new</tspan></text>
+<text x="124.0" y="3101.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">row</tspan></text>
+<text x="124.0" y="3118.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">K</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">torch</tspan><tspan class="g93s1">.</tspan><tspan class="g93s10">cat</tspan><tspan class="g93s1">(</tspan><tspan class="g93s1">[</tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">dim</tspan><tspan class="g93s1">=</tspan><tspan class="g93s32">2</tspan><tspan class="g93s1">)</tspan><tspan class="g93s0">     </tspan><tspan class="g93s25"># 3 cached + 1</tspan></text>
+<text x="124.0" y="3135.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan></text>
+<text y="3157.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="31.9" lengthAdjust="spacing">Rows </tspan><tspan x="155.9" class="g93s29" textLength="13.0" lengthAdjust="spacing">p0</tspan><tspan x="169.0"> … </tspan><tspan x="186.9" class="g93s29" textLength="13.0" lengthAdjust="spacing">p2</tspan><tspan x="199.9" textLength="423.8" lengthAdjust="spacing"> come back from the cache untouched; only the green row was computed. The new</tspan></text>
+<text y="3173.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="113.1" lengthAdjust="spacing">query attends over all </tspan><tspan x="237.1" class="g93s2">4</tspan><tspan x="243.9" textLength="377.1" lengthAdjust="spacing"> keys, and the weighted sum of the values is the context — identical to the</tspan></text>
+<text y="3189.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="106.6" lengthAdjust="spacing">model’s own output.</tspan></text>
+<rect x="124.0" y="3197.8" width="105.9" height="18.0" rx="4" class="g93s48"/>
+<text x="176.9" y="3210.6" class="g93s51">(1, 4, 4, 128)</text>
+<line x1="736.0" y1="3054.8" x2="736.0" y2="3256.8" class="g93s23"/>
+<text x="750.0" y="3070.8" class="g93s62">the new token’s query q against every cached key (columns 0–3 of 128 shown; the scores use all 128)</text>
+<text x="784.0" y="3096.8" class="g93s74">q</text>
+<rect x="792.0" y="3082.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="823.0" y="3096.8" class="g93s6">1.338</text>
+<rect x="854.0" y="3082.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="885.0" y="3096.8" class="g93s6">0.523</text>
+<rect x="916.0" y="3082.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="947.0" y="3096.8" class="g93s6">-0.508</text>
+<rect x="978.0" y="3082.8" width="62.0" height="20.0" rx="0" class="g93s27"/>
+<text x="1009.0" y="3096.8" class="g93s6">1.435</text>
+<text x="1048.0" y="3096.8" class="g93s75">…</text>
+<text x="1080.0" y="3122.8" class="g93s52">q · k / √128</text>
+<text x="1210.0" y="3122.8" class="g93s52">softmax → weight</text>
+<text x="784.0" y="3144.8" class="g93s63">k0</text>
+<rect x="792.0" y="3130.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="823.0" y="3144.8" class="g93s16">0.300</text>
+<rect x="854.0" y="3130.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="885.0" y="3144.8" class="g93s16">0.337</text>
+<rect x="916.0" y="3130.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="947.0" y="3144.8" class="g93s16">-0.376</text>
+<rect x="978.0" y="3130.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1009.0" y="3144.8" class="g93s16">-1.029</text>
+<text x="1080.0" y="3144.8" class="g93s31">-0.6391</text>
+<rect x="1210.0" y="3134.8" width="36.4" height="12.0" rx="2" class="g93s41"/>
+<text x="1254.4" y="3144.8" class="g93s34">0.2277</text>
+<text x="1448.0" y="3144.8" class="g93s26">from the cache</text>
+<text x="784.0" y="3168.8" class="g93s63">k1</text>
+<rect x="792.0" y="3154.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="823.0" y="3168.8" class="g93s16">0.856</text>
+<rect x="854.0" y="3154.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="885.0" y="3168.8" class="g93s16">0.427</text>
+<rect x="916.0" y="3154.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="947.0" y="3168.8" class="g93s16">-0.733</text>
+<rect x="978.0" y="3154.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1009.0" y="3168.8" class="g93s16">-0.461</text>
+<text x="1080.0" y="3168.8" class="g93s31">-0.2429</text>
+<rect x="1210.0" y="3158.8" width="54.1" height="12.0" rx="2" class="g93s41"/>
+<text x="1272.1" y="3168.8" class="g93s34">0.3384</text>
+<text x="1448.0" y="3168.8" class="g93s26">from the cache</text>
+<text x="784.0" y="3192.8" class="g93s63">k2</text>
+<rect x="792.0" y="3178.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="823.0" y="3192.8" class="g93s16">0.992</text>
+<rect x="854.0" y="3178.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="885.0" y="3192.8" class="g93s16">-0.147</text>
+<rect x="916.0" y="3178.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="947.0" y="3192.8" class="g93s16">-0.749</text>
+<rect x="978.0" y="3178.8" width="62.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1009.0" y="3192.8" class="g93s16">-0.323</text>
+<text x="1080.0" y="3192.8" class="g93s31">-0.5759</text>
+<rect x="1210.0" y="3182.8" width="38.8" height="12.0" rx="2" class="g93s41"/>
+<text x="1256.8" y="3192.8" class="g93s34">0.2426</text>
+<text x="1448.0" y="3192.8" class="g93s26">from the cache</text>
+<text x="784.0" y="3216.8" class="g93s76">k3</text>
+<rect x="792.0" y="3202.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="823.0" y="3216.8" class="g93s6">0.771</text>
+<rect x="854.0" y="3202.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="885.0" y="3216.8" class="g93s6">-0.372</text>
+<rect x="916.0" y="3202.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="947.0" y="3216.8" class="g93s6">-0.509</text>
+<rect x="978.0" y="3202.8" width="62.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1009.0" y="3216.8" class="g93s6">-0.065</text>
+<text x="1080.0" y="3216.8" class="g93s31">-0.8131</text>
+<rect x="1210.0" y="3206.8" width="30.6" height="12.0" rx="2" class="g93s41"/>
+<text x="1248.6" y="3216.8" class="g93s34">0.1913</text>
+<text x="1448.0" y="3216.8" class="g93s77">new row</text>
+<text x="750.0" y="3246.8" class="g93s31">context = Σ weight · v  →  0.695, -0.200, -0.714, -0.776 …   (the model’s own: 0.695, -0.200, -0.714, -0.776 …)</text>
+<rect x="86.0" y="3276.8" width="1760.0" height="138.0" rx="8" class="g93s39"/>
+<path d="M91.55 3277.76 A7.45 7.45 0 0 0 86.55 3284.80 V3406.80 A7.45 7.45 0 0 0 91.55 3413.84 Z" class="g93s20"/>
+<rect x="96.0" y="3286.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="107.0" y="3298.8" class="g93s18">17</text>
+<text x="124.0" y="3298.8" class="g93s22">cell 2 · MultiHeadAttention.forward</text>
+<text y="3298.8" xml:space="preserve" class="g93s33"><tspan x="662.3" class="g93s8" textLength="57.7" lengthAdjust="spacing">cross: reuse</tspan></text>
+<text x="720.0" y="3363.8" class="g93s40">17</text>
+<text x="124.0" y="3316.8" xml:space="preserve" class="g93s11"><tspan class="g93s3">if</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">is</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">not</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">None</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">and</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">static_kv</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">and</tspan><tspan class="g93s0"> </tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s0"> </tspan><tspan class="g93s3">in</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">:</tspan></text>
+<text x="124.0" y="3333.8" xml:space="preserve" class="g93s11"><tspan class="g93s0">    </tspan><tspan class="g93s0">K</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">V</tspan><tspan class="g93s0"> </tspan><tspan class="g93s1">=</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;k&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s1">,</tspan><tspan class="g93s0"> </tspan><tspan class="g93s0">cache</tspan><tspan class="g93s1">[</tspan><tspan class="g93s14">&quot;v&quot;</tspan><tspan class="g93s1">]</tspan><tspan class="g93s0">          </tspan><tspan class="g93s25"># nothing projected</tspan></text>
+<text y="3355.8" xml:space="preserve" class="g93s13"><tspan x="124.0" textLength="451.1" lengthAdjust="spacing">The encoder’s keys are read back; only the new query is computed. Its weights over the</tspan></text>
+<text y="3371.8" xml:space="preserve" class="g93s13"><tspan x="124.0" class="g93s2" textLength="86.0" lengthAdjust="spacing">6 source tokens</tspan><tspan x="210.0">: </tspan><tspan x="216.4" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.118</tspan><tspan x="246.9">, </tspan><tspan x="253.3" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.102</tspan><tspan x="283.8">, </tspan><tspan x="290.2" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.140</tspan><tspan x="320.7">, </tspan><tspan x="327.1" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.214</tspan><tspan x="357.6">, </tspan><tspan x="364.0" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.244</tspan><tspan x="394.5">, </tspan><tspan x="400.9" class="g93s2" textLength="30.5" lengthAdjust="spacing">0.182</tspan><tspan x="431.4">.</tspan></text>
+<rect x="124.0" y="3379.8" width="105.9" height="18.0" rx="4" class="g93s48"/>
+<text x="176.9" y="3392.6" class="g93s51">(1, 4, 6, 128)</text>
+<line x1="736.0" y1="3286.8" x2="736.0" y2="3404.8" class="g93s23"/>
+<rect x="60.0" y="3424.8" width="1786.0" height="97.0" rx="8" class="g93s39"/>
+<path d="M65.55 3425.76 A7.45 7.45 0 0 0 60.55 3432.80 V3513.80 A7.45 7.45 0 0 0 65.55 3520.84 Z" class="g93s20"/>
+<rect x="70.0" y="3434.3" width="22.0" height="17.0" rx="4" class="g93s21"/>
+<text x="81.0" y="3446.8" class="g93s18">18</text>
+<text x="98.0" y="3446.8" class="g93s22">cell 2 · DecoderLayer.forward</text>
+<text x="720.0" y="3491.3" class="g93s40">18</text>
+<text x="98.0" y="3464.8" xml:space="preserve" class="g93s11"><tspan class="g93s25"># layer 1: the same, with its own cache[1]</tspan></text>
+<text y="3486.8" xml:space="preserve" class="g93s13"><tspan x="98.0" class="g93s2" textLength="40.7" lengthAdjust="spacing">Layer 1</tspan><tspan x="138.7" textLength="327.2" lengthAdjust="spacing"> keeps its own two drawers, filled in exactly the same way. After </tspan><tspan x="465.9" class="g93s2" textLength="33.2" lengthAdjust="spacing">step 3</tspan><tspan x="499.1" textLength="117.0" lengthAdjust="spacing"> the whole cache is the</tspan></text>
+<text y="3502.8" xml:space="preserve" class="g93s13"><tspan x="98.0" textLength="96.5" lengthAdjust="spacing">object in section A.</tspan></text>
+<line x1="736.0" y1="3434.8" x2="736.0" y2="3511.8" class="g93s23"/>
+<rect x="34.0" y="3535.8" width="1812.0" height="30.0" rx="6" class="g93s37"/>
+<path d="M38.50 3536.51 A5.50 5.50 0 0 0 34.50 3541.80 V3559.80 A5.50 5.50 0 0 0 38.50 3565.09 Z" class="g93s38"/>
+<text y="3555.8" xml:space="preserve" class="g93s56"><tspan x="50.0" class="g93s8" textLength="308.7" lengthAdjust="spacing">C · Checked: the same numbers without the cache</tspan></text>
+<text y="3555.8" xml:space="preserve" class="g93s57"><tspan x="376.7" textLength="19.2" lengthAdjust="spacing">the </tspan><tspan x="395.8" class="g93s29" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="421.9" textLength="289.5" lengthAdjust="spacing"> way — the whole prefix, every step — against the cache</tspan></text>
+<rect x="34.0" y="3581.8" width="1812.0" height="72.6" rx="6" class="g93s86"/>
+<path d="M38.50 3582.51 A5.50 5.50 0 0 0 34.50 3587.80 V3648.36 A5.50 5.50 0 0 0 38.50 3653.65 Z" class="g93s87"/>
+<text y="3607.8" xml:space="preserve" class="g93s60"><tspan x="50.0" class="g93s8" textLength="31.8" lengthAdjust="spacing">Exact</tspan></text>
+<text y="3625.3" xml:space="preserve" class="g93s47"><tspan x="50.0" textLength="154.1" lengthAdjust="spacing">Recomputed from scratch at </tspan><tspan x="204.1" class="g93s2" textLength="34.6" lengthAdjust="spacing">step 3</tspan><tspan x="238.7">, </tspan><tspan x="245.4" class="g93s2" textLength="38.2" lengthAdjust="spacing">layer 0</tspan><tspan x="283.6" textLength="16.5" lengthAdjust="spacing">’s </tspan><tspan x="300.1" class="g93s2" textLength="60.8" lengthAdjust="spacing">4 key rows</tspan><tspan x="360.9" textLength="210.8" lengthAdjust="spacing"> differ from the cached ones by at most </tspan><tspan x="571.6" class="g93s2">0</tspan><tspan x="578.7" textLength="78.7" lengthAdjust="spacing"> in any of their </tspan><tspan x="657.4" class="g93s2" textLength="74.2" lengthAdjust="spacing">512 numbers</tspan><tspan x="731.7" textLength="442.9" lengthAdjust="spacing">. Over every traced step — greedy on both sentences, beam search on both — the </tspan><tspan x="1174.6" class="g93s19" textLength="40.7" lengthAdjust="spacing">logits</tspan><tspan x="1215.3" textLength="236.8" lengthAdjust="spacing"> with and without the cache differ by at most </tspan><tspan x="1452.1" class="g93s2">0</tspan><tspan x="1459.2" textLength="346.2" lengthAdjust="spacing">: the same numbers are added in the same order. (On a GPU the</tspan></text>
+<text y="3642.8" xml:space="preserve" class="g93s47"><tspan x="50.0" textLength="450.2" lengthAdjust="spacing">fused kernels work in different tile shapes and can differ in the last bits, which is why </tspan><tspan x="500.2" class="g93s2" textLength="29.7" lengthAdjust="spacing">cell 9</tspan><tspan x="529.9" textLength="632.9" lengthAdjust="spacing"> compares decoded strings.) The timeline below is the whole story: one green row a step against every row, every step.</tspan></text>
+<rect x="34.0" y="3666.4" width="1812.0" height="20.0" rx="4" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:0.9"/>
+<text x="43.0" y="3680.4" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">v2 · KV cache — one new row per step, the rest read back</text>
+<text x="64.0" y="3705.4" class="g93s42">step 0 · feeds &lt;SOS&gt;</text>
+<text x="58.0" y="3723.6" class="g93s15">p0</text>
+<rect x="64.0" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="103.4" y="3723.6" class="g93s5">0.300</text>
+<rect x="142.8" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="182.2" y="3723.6" class="g93s5">0.337</text>
+<rect x="221.6" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="261.0" y="3723.6" class="g93s5">-0.376</text>
+<rect x="300.4" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="339.8" y="3723.6" class="g93s5">-0.670</text>
+<text x="64.0" y="3808.4" class="g93s66">computed 1 row</text>
+<text x="64.0" y="3822.4" class="g93s43">rows so far: 1</text>
+<rect x="64.0" y="3832.4" width="315.2" height="17.0" rx="3" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:0.8"/>
+<text x="71.0" y="3844.4" class="g93s44">cross K, V: 8 rows computed</text>
+<text x="425.2" y="3705.4" class="g93s42">step 1 · feeds rences_</text>
+<text x="419.2" y="3723.6" class="g93s15">p0</text>
+<rect x="425.2" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="464.6" y="3723.6" class="g93s12">0.300</text>
+<rect x="504.0" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="543.4" y="3723.6" class="g93s12">0.337</text>
+<rect x="582.8" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="622.2" y="3723.6" class="g93s12">-0.376</text>
+<rect x="661.6" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="701.0" y="3723.6" class="g93s12">-0.670</text>
+<text x="419.2" y="3739.6" class="g93s15">p1</text>
+<rect x="425.2" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="464.6" y="3739.6" class="g93s5">0.856</text>
+<rect x="504.0" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="543.4" y="3739.6" class="g93s5">0.427</text>
+<rect x="582.8" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="622.2" y="3739.6" class="g93s5">-0.733</text>
+<rect x="661.6" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="701.0" y="3739.6" class="g93s5">0.391</text>
+<text x="425.2" y="3808.4" class="g93s66">computed 1 row · read 1</text>
+<text x="425.2" y="3822.4" class="g93s43">rows so far: 2</text>
+<rect x="425.2" y="3832.4" width="315.2" height="17.0" rx="3" class="g93s78"/>
+<text x="432.2" y="3844.4" class="g93s44">cross K, V: 8 rows reused</text>
+<text x="786.4" y="3705.4" class="g93s42">step 2 · feeds rences_</text>
+<text x="780.4" y="3723.6" class="g93s15">p0</text>
+<rect x="786.4" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="825.8" y="3723.6" class="g93s12">0.300</text>
+<rect x="865.2" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="904.6" y="3723.6" class="g93s12">0.337</text>
+<rect x="944.0" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="983.4" y="3723.6" class="g93s12">-0.376</text>
+<rect x="1022.8" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1062.2" y="3723.6" class="g93s12">-0.670</text>
+<text x="780.4" y="3739.6" class="g93s15">p1</text>
+<rect x="786.4" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="825.8" y="3739.6" class="g93s12">0.856</text>
+<rect x="865.2" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="904.6" y="3739.6" class="g93s12">0.427</text>
+<rect x="944.0" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="983.4" y="3739.6" class="g93s12">-0.733</text>
+<rect x="1022.8" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1062.2" y="3739.6" class="g93s12">0.391</text>
+<text x="780.4" y="3755.6" class="g93s15">p2</text>
+<rect x="786.4" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="825.8" y="3755.6" class="g93s5">0.992</text>
+<rect x="865.2" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="904.6" y="3755.6" class="g93s5">-0.147</text>
+<rect x="944.0" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="983.4" y="3755.6" class="g93s5">-0.749</text>
+<rect x="1022.8" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="1062.2" y="3755.6" class="g93s5">0.853</text>
+<text x="786.4" y="3808.4" class="g93s66">computed 1 row · read 2</text>
+<text x="786.4" y="3822.4" class="g93s43">rows so far: 3</text>
+<rect x="786.4" y="3832.4" width="315.2" height="17.0" rx="3" class="g93s78"/>
+<text x="793.4" y="3844.4" class="g93s44">cross K, V: 8 rows reused</text>
+<text x="1147.6" y="3705.4" class="g93s42">step 3 · feeds rences_</text>
+<text x="1141.6" y="3723.6" class="g93s15">p0</text>
+<rect x="1147.6" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1187.0" y="3723.6" class="g93s12">0.300</text>
+<rect x="1226.4" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1265.8" y="3723.6" class="g93s12">0.337</text>
+<rect x="1305.2" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1344.6" y="3723.6" class="g93s12">-0.376</text>
+<rect x="1384.0" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1423.4" y="3723.6" class="g93s12">-0.670</text>
+<text x="1141.6" y="3739.6" class="g93s15">p1</text>
+<rect x="1147.6" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1187.0" y="3739.6" class="g93s12">0.856</text>
+<rect x="1226.4" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1265.8" y="3739.6" class="g93s12">0.427</text>
+<rect x="1305.2" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1344.6" y="3739.6" class="g93s12">-0.733</text>
+<rect x="1384.0" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1423.4" y="3739.6" class="g93s12">0.391</text>
+<text x="1141.6" y="3755.6" class="g93s15">p2</text>
+<rect x="1147.6" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1187.0" y="3755.6" class="g93s12">0.992</text>
+<rect x="1226.4" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1265.8" y="3755.6" class="g93s12">-0.147</text>
+<rect x="1305.2" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1344.6" y="3755.6" class="g93s12">-0.749</text>
+<rect x="1384.0" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1423.4" y="3755.6" class="g93s12">0.853</text>
+<text x="1141.6" y="3771.6" class="g93s15">p3</text>
+<rect x="1147.6" y="3760.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="1187.0" y="3771.6" class="g93s5">0.771</text>
+<rect x="1226.4" y="3760.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="1265.8" y="3771.6" class="g93s5">-0.372</text>
+<rect x="1305.2" y="3760.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="1344.6" y="3771.6" class="g93s5">-0.509</text>
+<rect x="1384.0" y="3760.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="1423.4" y="3771.6" class="g93s5">1.257</text>
+<text x="1147.6" y="3808.4" class="g93s66">computed 1 row · read 3</text>
+<text x="1147.6" y="3822.4" class="g93s43">rows so far: 4</text>
+<rect x="1147.6" y="3832.4" width="315.2" height="17.0" rx="3" class="g93s78"/>
+<text x="1154.6" y="3844.4" class="g93s44">cross K, V: 8 rows reused</text>
+<text x="1508.8" y="3705.4" class="g93s42">step 4 · feeds rences_</text>
+<text x="1502.8" y="3723.6" class="g93s15">p0</text>
+<rect x="1508.8" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1548.2" y="3723.6" class="g93s12">0.300</text>
+<rect x="1587.6" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1627.0" y="3723.6" class="g93s12">0.337</text>
+<rect x="1666.4" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1705.8" y="3723.6" class="g93s12">-0.376</text>
+<rect x="1745.2" y="3712.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1784.6" y="3723.6" class="g93s12">-0.670</text>
+<text x="1502.8" y="3739.6" class="g93s15">p1</text>
+<rect x="1508.8" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1548.2" y="3739.6" class="g93s12">0.856</text>
+<rect x="1587.6" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1627.0" y="3739.6" class="g93s12">0.427</text>
+<rect x="1666.4" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1705.8" y="3739.6" class="g93s12">-0.733</text>
+<rect x="1745.2" y="3728.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1784.6" y="3739.6" class="g93s12">0.391</text>
+<text x="1502.8" y="3755.6" class="g93s15">p2</text>
+<rect x="1508.8" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1548.2" y="3755.6" class="g93s12">0.992</text>
+<rect x="1587.6" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1627.0" y="3755.6" class="g93s12">-0.147</text>
+<rect x="1666.4" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1705.8" y="3755.6" class="g93s12">-0.749</text>
+<rect x="1745.2" y="3744.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1784.6" y="3755.6" class="g93s12">0.853</text>
+<text x="1502.8" y="3771.6" class="g93s15">p3</text>
+<rect x="1508.8" y="3760.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1548.2" y="3771.6" class="g93s12">0.771</text>
+<rect x="1587.6" y="3760.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1627.0" y="3771.6" class="g93s12">-0.372</text>
+<rect x="1666.4" y="3760.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1705.8" y="3771.6" class="g93s12">-0.509</text>
+<rect x="1745.2" y="3760.4" width="78.8" height="16.0" rx="0" class="g93s4"/>
+<text x="1784.6" y="3771.6" class="g93s12">1.257</text>
+<text x="1502.8" y="3787.6" class="g93s15">p4</text>
+<rect x="1508.8" y="3776.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="1548.2" y="3787.6" class="g93s5">0.411</text>
+<rect x="1587.6" y="3776.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="1627.0" y="3787.6" class="g93s5">-0.234</text>
+<rect x="1666.4" y="3776.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="1705.8" y="3787.6" class="g93s5">-0.331</text>
+<rect x="1745.2" y="3776.4" width="78.8" height="16.0" rx="0" class="g93s9"/>
+<text x="1784.6" y="3787.6" class="g93s5">1.320</text>
+<text x="1508.8" y="3808.4" class="g93s66">computed 1 row · read 4</text>
+<text x="1508.8" y="3822.4" class="g93s43">rows so far: 5</text>
+<rect x="1508.8" y="3832.4" width="315.2" height="17.0" rx="3" class="g93s78"/>
+<text x="1515.8" y="3844.4" class="g93s44">cross K, V: 8 rows reused</text>
+<rect x="34.0" y="3867.4" width="1812.0" height="20.0" rx="4" style="fill:var(--dropbg);stroke:var(--drop);stroke-width:0.9"/>
+<text x="43.0" y="3881.4" style="fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">v1.5 · no cache — every row recomputed, every step</text>
+<text x="64.0" y="3906.4" class="g93s42">step 0 · feeds &lt;SOS&gt;</text>
+<text x="58.0" y="3924.6" class="g93s15">p0</text>
+<rect x="64.0" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="103.4" y="3924.6" class="g93s5">0.300</text>
+<rect x="142.8" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="182.2" y="3924.6" class="g93s5">0.337</text>
+<rect x="221.6" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="261.0" y="3924.6" class="g93s5">-0.376</text>
+<rect x="300.4" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="339.8" y="3924.6" class="g93s5">-0.670</text>
+<text x="64.0" y="4009.4" class="g93s67">computed 1 row</text>
+<text x="64.0" y="4023.4" class="g93s43">rows so far: 1</text>
+<rect x="64.0" y="4033.4" width="315.2" height="17.0" rx="3" class="g93s68"/>
+<text x="71.0" y="4045.4" class="g93s44">cross K, V: 8 rows computed</text>
+<text x="425.2" y="3906.4" class="g93s42">step 1 · feeds rences_</text>
+<text x="419.2" y="3924.6" class="g93s15">p0</text>
+<rect x="425.2" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="464.6" y="3924.6" class="g93s5">0.300</text>
+<rect x="504.0" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="543.4" y="3924.6" class="g93s5">0.337</text>
+<rect x="582.8" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="622.2" y="3924.6" class="g93s5">-0.376</text>
+<rect x="661.6" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="701.0" y="3924.6" class="g93s5">-0.670</text>
+<text x="419.2" y="3940.6" class="g93s15">p1</text>
+<rect x="425.2" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="464.6" y="3940.6" class="g93s5">0.856</text>
+<rect x="504.0" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="543.4" y="3940.6" class="g93s5">0.427</text>
+<rect x="582.8" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="622.2" y="3940.6" class="g93s5">-0.733</text>
+<rect x="661.6" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="701.0" y="3940.6" class="g93s5">0.391</text>
+<text x="425.2" y="4009.4" class="g93s67">computed 2 rows</text>
+<text x="425.2" y="4023.4" class="g93s43">rows so far: 3</text>
+<rect x="425.2" y="4033.4" width="315.2" height="17.0" rx="3" class="g93s68"/>
+<text x="432.2" y="4045.4" class="g93s44">cross K, V: 8 rows computed</text>
+<text x="786.4" y="3906.4" class="g93s42">step 2 · feeds rences_</text>
+<text x="780.4" y="3924.6" class="g93s15">p0</text>
+<rect x="786.4" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="825.8" y="3924.6" class="g93s5">0.300</text>
+<rect x="865.2" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="904.6" y="3924.6" class="g93s5">0.337</text>
+<rect x="944.0" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="983.4" y="3924.6" class="g93s5">-0.376</text>
+<rect x="1022.8" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1062.2" y="3924.6" class="g93s5">-0.670</text>
+<text x="780.4" y="3940.6" class="g93s15">p1</text>
+<rect x="786.4" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="825.8" y="3940.6" class="g93s5">0.856</text>
+<rect x="865.2" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="904.6" y="3940.6" class="g93s5">0.427</text>
+<rect x="944.0" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="983.4" y="3940.6" class="g93s5">-0.733</text>
+<rect x="1022.8" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1062.2" y="3940.6" class="g93s5">0.391</text>
+<text x="780.4" y="3956.6" class="g93s15">p2</text>
+<rect x="786.4" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="825.8" y="3956.6" class="g93s5">0.992</text>
+<rect x="865.2" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="904.6" y="3956.6" class="g93s5">-0.147</text>
+<rect x="944.0" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="983.4" y="3956.6" class="g93s5">-0.749</text>
+<rect x="1022.8" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1062.2" y="3956.6" class="g93s5">0.853</text>
+<text x="786.4" y="4009.4" class="g93s67">computed 3 rows</text>
+<text x="786.4" y="4023.4" class="g93s43">rows so far: 6</text>
+<rect x="786.4" y="4033.4" width="315.2" height="17.0" rx="3" class="g93s68"/>
+<text x="793.4" y="4045.4" class="g93s44">cross K, V: 8 rows computed</text>
+<text x="1147.6" y="3906.4" class="g93s42">step 3 · feeds rences_</text>
+<text x="1141.6" y="3924.6" class="g93s15">p0</text>
+<rect x="1147.6" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1187.0" y="3924.6" class="g93s5">0.300</text>
+<rect x="1226.4" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1265.8" y="3924.6" class="g93s5">0.337</text>
+<rect x="1305.2" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1344.6" y="3924.6" class="g93s5">-0.376</text>
+<rect x="1384.0" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1423.4" y="3924.6" class="g93s5">-0.670</text>
+<text x="1141.6" y="3940.6" class="g93s15">p1</text>
+<rect x="1147.6" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1187.0" y="3940.6" class="g93s5">0.856</text>
+<rect x="1226.4" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1265.8" y="3940.6" class="g93s5">0.427</text>
+<rect x="1305.2" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1344.6" y="3940.6" class="g93s5">-0.733</text>
+<rect x="1384.0" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1423.4" y="3940.6" class="g93s5">0.391</text>
+<text x="1141.6" y="3956.6" class="g93s15">p2</text>
+<rect x="1147.6" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1187.0" y="3956.6" class="g93s5">0.992</text>
+<rect x="1226.4" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1265.8" y="3956.6" class="g93s5">-0.147</text>
+<rect x="1305.2" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1344.6" y="3956.6" class="g93s5">-0.749</text>
+<rect x="1384.0" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1423.4" y="3956.6" class="g93s5">0.853</text>
+<text x="1141.6" y="3972.6" class="g93s15">p3</text>
+<rect x="1147.6" y="3961.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1187.0" y="3972.6" class="g93s5">0.771</text>
+<rect x="1226.4" y="3961.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1265.8" y="3972.6" class="g93s5">-0.372</text>
+<rect x="1305.2" y="3961.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1344.6" y="3972.6" class="g93s5">-0.509</text>
+<rect x="1384.0" y="3961.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1423.4" y="3972.6" class="g93s5">1.257</text>
+<text x="1147.6" y="4009.4" class="g93s67">computed 4 rows</text>
+<text x="1147.6" y="4023.4" class="g93s43">rows so far: 10</text>
+<rect x="1147.6" y="4033.4" width="315.2" height="17.0" rx="3" class="g93s68"/>
+<text x="1154.6" y="4045.4" class="g93s44">cross K, V: 8 rows computed</text>
+<text x="1508.8" y="3906.4" class="g93s42">step 4 · feeds rences_</text>
+<text x="1502.8" y="3924.6" class="g93s15">p0</text>
+<rect x="1508.8" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1548.2" y="3924.6" class="g93s5">0.300</text>
+<rect x="1587.6" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1627.0" y="3924.6" class="g93s5">0.337</text>
+<rect x="1666.4" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1705.8" y="3924.6" class="g93s5">-0.376</text>
+<rect x="1745.2" y="3913.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1784.6" y="3924.6" class="g93s5">-0.670</text>
+<text x="1502.8" y="3940.6" class="g93s15">p1</text>
+<rect x="1508.8" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1548.2" y="3940.6" class="g93s5">0.856</text>
+<rect x="1587.6" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1627.0" y="3940.6" class="g93s5">0.427</text>
+<rect x="1666.4" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1705.8" y="3940.6" class="g93s5">-0.733</text>
+<rect x="1745.2" y="3929.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1784.6" y="3940.6" class="g93s5">0.391</text>
+<text x="1502.8" y="3956.6" class="g93s15">p2</text>
+<rect x="1508.8" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1548.2" y="3956.6" class="g93s5">0.992</text>
+<rect x="1587.6" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1627.0" y="3956.6" class="g93s5">-0.147</text>
+<rect x="1666.4" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1705.8" y="3956.6" class="g93s5">-0.749</text>
+<rect x="1745.2" y="3945.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1784.6" y="3956.6" class="g93s5">0.853</text>
+<text x="1502.8" y="3972.6" class="g93s15">p3</text>
+<rect x="1508.8" y="3961.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1548.2" y="3972.6" class="g93s5">0.771</text>
+<rect x="1587.6" y="3961.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1627.0" y="3972.6" class="g93s5">-0.372</text>
+<rect x="1666.4" y="3961.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1705.8" y="3972.6" class="g93s5">-0.509</text>
+<rect x="1745.2" y="3961.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1784.6" y="3972.6" class="g93s5">1.257</text>
+<text x="1502.8" y="3988.6" class="g93s15">p4</text>
+<rect x="1508.8" y="3977.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1548.2" y="3988.6" class="g93s5">0.411</text>
+<rect x="1587.6" y="3977.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1627.0" y="3988.6" class="g93s5">-0.234</text>
+<rect x="1666.4" y="3977.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1705.8" y="3988.6" class="g93s5">-0.331</text>
+<rect x="1745.2" y="3977.4" width="78.8" height="16.0" rx="0" class="g93s7"/>
+<text x="1784.6" y="3988.6" class="g93s5">1.320</text>
+<text x="1508.8" y="4009.4" class="g93s67">computed 5 rows</text>
+<text x="1508.8" y="4023.4" class="g93s43">rows so far: 15</text>
+<rect x="1508.8" y="4033.4" width="315.2" height="17.0" rx="3" class="g93s68"/>
+<text x="1515.8" y="4045.4" class="g93s44">cross K, V: 8 rows computed</text>
+<text x="34.0" y="4072.4" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start">Head 0 of layer 0’s keys, columns 0, 1, 2 and 127. Row p0 is the same four numbers at every step — a past token’s K never changes, so v2 keeps it and v1.5 rebuilds it.</text>
+<rect x="34.0" y="4106.4" width="1812.0" height="30.0" rx="6" class="g93s37"/>
+<path d="M38.50 4107.07 A5.50 5.50 0 0 0 34.50 4112.36 V4130.36 A5.50 5.50 0 0 0 38.50 4135.65 Z" class="g93s38"/>
+<text y="4126.4" xml:space="preserve" class="g93s56"><tspan x="50.0" class="g93s8" textLength="214.4" lengthAdjust="spacing">D · What it saves, and what it costs</tspan></text>
+<text y="4126.4" xml:space="preserve" class="g93s57"><tspan x="282.4" textLength="146.4" lengthAdjust="spacing">position passes and memory</tspan></text>
+<rect x="34.0" y="4152.4" width="894.0" height="320.0" rx="8" style="fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1"/>
+<text y="4176.4" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600"><tspan x="50.0" class="g93s8" textLength="313.7" lengthAdjust="spacing">position passes through the decoder to write n tokens</tspan></text>
+<text y="4194.4" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px"><tspan x="50.0" textLength="20.4" lengthAdjust="spacing">one </tspan><tspan x="70.4" class="g93s53" textLength="59.4" lengthAdjust="spacing">pass = one</tspan><tspan x="129.9" textLength="209.5" lengthAdjust="spacing"> position through both layers, every sub-layer</tspan></text>
+<line x1="96.0" y1="4430.4" x2="906.0" y2="4430.4" class="g93s69"/>
+<text x="88.0" y="4434.4" class="g93s70">0</text>
+<line x1="96.0" y1="4379.9" x2="906.0" y2="4379.9" class="g93s69"/>
+<text x="88.0" y="4383.9" class="g93s70">500</text>
+<line x1="96.0" y1="4329.4" x2="906.0" y2="4329.4" class="g93s69"/>
+<text x="88.0" y="4333.4" class="g93s70">1000</text>
+<line x1="96.0" y1="4278.9" x2="906.0" y2="4278.9" class="g93s69"/>
+<text x="88.0" y="4282.9" class="g93s70">1500</text>
+<line x1="96.0" y1="4228.5" x2="906.0" y2="4228.5" class="g93s69"/>
+<text x="88.0" y="4232.5" class="g93s70">2000</text>
+<text x="108.9" y="4447.4" class="g93s58">1</text>
+<text x="198.9" y="4447.4" class="g93s58">8</text>
+<text x="301.7" y="4447.4" class="g93s58">16</text>
+<text x="507.4" y="4447.4" class="g93s58">32</text>
+<text x="713.1" y="4447.4" class="g93s58">48</text>
+<text x="906.0" y="4447.4" class="g93s58">63</text>
+<line x1="96.0" y1="4430.4" x2="906.0" y2="4430.4" class="g93s93"/>
+<line x1="96.0" y1="4218.4" x2="96.0" y2="4430.4" class="g93s93"/>
+<text x="501.0" y="4462.4" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle">tokens generated</text>
+<path d="M108.9 4430.3 L121.7 4430.2 L134.6 4430.1 L147.4 4430.0 L160.3 4429.9 L173.1 4429.8 L186.0 4429.7 L198.9 4429.6 L211.7 4429.5 L224.6 4429.4 L237.4 4429.2 L250.3 4429.1 L263.1 4429.0 L276.0 4428.9 L288.9 4428.8 L301.7 4428.7 L314.6 4428.6 L327.4 4428.5 L340.3 4428.4 L353.1 4428.3 L366.0 4428.2 L378.9 4428.1 L391.7 4428.0 L404.6 4427.9 L417.4 4427.8 L430.3 4427.7 L443.1 4427.6 L456.0 4427.5 L468.9 4427.4 L481.7 4427.3 L494.6 4427.2 L507.4 4427.1 L520.3 4427.0 L533.1 4426.9 L546.0 4426.8 L558.9 4426.7 L571.7 4426.6 L584.6 4426.5 L597.4 4426.4 L610.3 4426.3 L623.1 4426.2 L636.0 4426.1 L648.9 4426.0 L661.7 4425.9 L674.6 4425.8 L687.4 4425.7 L700.3 4425.6 L713.1 4425.5 L726.0 4425.4 L738.9 4425.3 L751.7 4425.2 L764.6 4425.1 L777.4 4425.0 L790.3 4424.9 L803.1 4424.8 L816.0 4424.7 L828.9 4424.6 L841.7 4424.5 L854.6 4424.4 L867.4 4424.3 L880.3 4424.2 L893.1 4424.1 L906.0 4424.0" style="fill:none;stroke:var(--keep);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+<line x1="772.8" y1="4174.4" x2="792.8" y2="4174.4" style="stroke:var(--keep);stroke-width:3;stroke-linecap:round"/>
+<text x="798.8" y="4178.4" class="g93s94">KV cache (v2): n</text>
+<path d="M108.9 4430.3 L121.7 4430.1 L134.6 4429.8 L147.4 4429.4 L160.3 4428.8 L173.1 4428.2 L186.0 4427.5 L198.9 4426.7 L211.7 4425.8 L224.6 4424.8 L237.4 4423.7 L250.3 4422.5 L263.1 4421.2 L276.0 4419.8 L288.9 4418.2 L301.7 4416.6 L314.6 4414.9 L327.4 4413.1 L340.3 4411.2 L353.1 4409.2 L366.0 4407.0 L378.9 4404.8 L391.7 4402.5 L404.6 4400.1 L417.4 4397.6 L430.3 4394.9 L443.1 4392.2 L456.0 4389.4 L468.9 4386.4 L481.7 4383.4 L494.6 4380.3 L507.4 4377.1 L520.3 4373.7 L533.1 4370.3 L546.0 4366.8 L558.9 4363.1 L571.7 4359.4 L584.6 4355.6 L597.4 4351.6 L610.3 4347.6 L623.1 4343.4 L636.0 4339.2 L648.9 4334.9 L661.7 4330.4 L674.6 4325.9 L687.4 4321.2 L700.3 4316.5 L713.1 4311.6 L726.0 4306.7 L738.9 4301.6 L751.7 4296.5 L764.6 4291.2 L777.4 4285.9 L790.3 4280.4 L803.1 4274.9 L816.0 4269.2 L828.9 4263.5 L841.7 4257.6 L854.6 4251.7 L867.4 4245.6 L880.3 4239.5 L893.1 4233.2 L906.0 4226.8" style="fill:none;stroke:var(--drop);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+<line x1="583.8" y1="4174.4" x2="603.8" y2="4174.4" style="stroke:var(--drop);stroke-width:3;stroke-linecap:round"/>
+<text x="609.8" y="4178.4" class="g93s94">no cache (v1.5): n(n+1)/2</text>
+<text y="4163.4" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600"><tspan x="952.0" class="g93s8" textLength="208.7" lengthAdjust="spacing">what the cache holds for one sentence</tspan></text>
+<rect x="952.0" y="4172.4" width="894.0" height="24.0" rx="4" class="g93s37"/>
+<text y="4188.4" xml:space="preserve" class="g93s35"><tspan x="961.0" class="g93s8" textLength="23.5" lengthAdjust="spacing">what</tspan></text>
+<text y="4188.4" xml:space="preserve" class="g93s35"><tspan x="1265.0" class="g93s8" textLength="19.8" lengthAdjust="spacing">size</tspan></text>
+<text y="4188.4" xml:space="preserve" class="g93s35"><tspan x="1640.4" class="g93s64" textLength="41.6" lengthAdjust="spacing">float32</tspan></text>
+<text y="4213.4" xml:space="preserve" class="g93s79"><tspan x="961.0" class="g93s8" textLength="20.4" lengthAdjust="spacing">self </tspan><tspan x="981.4" class="g93s53">K</tspan><tspan x="987.4" class="g93s8">, </tspan><tspan x="993.5" class="g93s53">V</tspan><tspan x="999.5" class="g93s8" textLength="52.6" lengthAdjust="spacing">, per token</tspan></text>
+<text y="4213.4" xml:space="preserve" class="g93s54"><tspan x="1265.0" class="g93s2" textLength="39.0" lengthAdjust="spacing">2 layers</tspan><tspan x="1303.9"> × </tspan><tspan x="1316.1" class="g93s53" textLength="77.2" lengthAdjust="spacing">(K + V) × 512</tspan></text>
+<text y="4213.4" xml:space="preserve" class="g93s54"><tspan x="1640.4" class="g93s2" textLength="27.8" lengthAdjust="spacing">8,192</tspan><tspan x="1668.3"> B</tspan></text>
+<line x1="952.0" y1="4223.4" x2="1846.0" y2="4223.4" class="g93s17"/>
+<rect x="952.0" y="4223.4" width="894.0" height="27.0" rx="0" class="g93s59"/>
+<text y="4240.4" xml:space="preserve" class="g93s79"><tspan x="961.0" class="g93s8" textLength="29.7" lengthAdjust="spacing">cross </tspan><tspan x="990.7" class="g93s53">K</tspan><tspan x="996.6" class="g93s8">, </tspan><tspan x="1002.8" class="g93s53">V</tspan><tspan x="1008.8" class="g93s8" textLength="30.3" lengthAdjust="spacing">, once</tspan></text>
+<text y="4240.4" xml:space="preserve" class="g93s54"><tspan x="1265.0" class="g93s2" textLength="39.0" lengthAdjust="spacing">2 layers</tspan><tspan x="1303.9"> × </tspan><tspan x="1316.1" class="g93s53" textLength="101.0" lengthAdjust="spacing">(K + V) × 512 × 6</tspan></text>
+<text y="4240.4" xml:space="preserve" class="g93s54"><tspan x="1640.4" class="g93s2" textLength="34.0" lengthAdjust="spacing">49,152</tspan><tspan x="1674.5"> B</tspan></text>
+<line x1="952.0" y1="4250.4" x2="1846.0" y2="4250.4" class="g93s17"/>
+<text y="4267.4" xml:space="preserve" class="g93s79"><tspan x="961.0" class="g93s8" textLength="25.4" lengthAdjust="spacing">after </tspan><tspan x="986.4" class="g93s2" textLength="48.3" lengthAdjust="spacing">63 tokens</tspan></text>
+<text y="4267.4" xml:space="preserve" class="g93s54"><tspan x="1265.0" class="g93s2" textLength="12.4" lengthAdjust="spacing">63</tspan><tspan x="1277.3" textLength="65.5" lengthAdjust="spacing"> × self + cross</tspan></text>
+<text y="4267.4" xml:space="preserve" class="g93s54"><tspan x="1640.4">≈ </tspan><tspan x="1649.7" class="g93s2" textLength="18.6" lengthAdjust="spacing">552</tspan><tspan x="1668.2" textLength="16.9" lengthAdjust="spacing"> KB</tspan></text>
+<line x1="952.0" y1="4277.4" x2="1846.0" y2="4277.4" class="g93s17"/>
+<rect x="952.0" y="4277.4" width="894.0" height="27.0" rx="0" class="g93s59"/>
+<text y="4294.4" xml:space="preserve" class="g93s79"><tspan x="961.0" class="g93s53" textLength="83.2" lengthAdjust="spacing">beam_search(4)</tspan></text>
+<text y="4294.4" xml:space="preserve" class="g93s54"><tspan x="1265.0">× </tspan><tspan x="1274.2" class="g93s2">4</tspan><tspan x="1280.4" textLength="34.4" lengthAdjust="spacing"> beams</tspan></text>
+<text y="4294.4" xml:space="preserve" class="g93s54"><tspan x="1640.4">≈ </tspan><tspan x="1649.7" class="g93s2" textLength="24.8" lengthAdjust="spacing">2208</tspan><tspan x="1674.4" textLength="16.9" lengthAdjust="spacing"> KB</tspan></text>
+<line x1="952.0" y1="4304.4" x2="1846.0" y2="4304.4" class="g93s17"/>
+<rect x="952.0" y="4196.4" width="894.0" height="108.0" rx="0" class="g93s85"/>
+<line x1="1256.0" y1="4196.4" x2="1256.0" y2="4304.4" class="g93s17"/>
+<line x1="1631.4" y1="4196.4" x2="1631.4" y2="4304.4" class="g93s17"/>
+<text y="4329.9" xml:space="preserve" class="g93s13"><tspan x="952.0" textLength="876.9" lengthAdjust="spacing">The work saved is pushing past positions back through every projection and feed-forward block. What stays is attention itself: the new query still meets every cached key, so</tspan></text>
+<text y="4346.5" xml:space="preserve" class="g93s13"><tspan x="952.0" textLength="779.7" lengthAdjust="spacing">over a whole answer attention grows with n², just with a much smaller constant. The price is memory that grows with every token — and with every beam.</tspan></text>
+<rect x="34.0" y="4498.4" width="1812.0" height="30.0" rx="6" class="g93s37"/>
+<path d="M38.50 4499.07 A5.50 5.50 0 0 0 34.50 4504.36 V4522.36 A5.50 5.50 0 0 0 38.50 4527.65 Z" class="g93s38"/>
+<text y="4518.4" xml:space="preserve" class="g93s56"><tspan x="50.0" class="g93s8" textLength="20.7" lengthAdjust="spacing">E · </tspan><tspan x="70.7" class="g93s46" textLength="66.2" lengthAdjust="spacing">start_pos</tspan><tspan x="136.9" class="g93s8" textLength="189.2" lengthAdjust="spacing"> — the cache only works with it</tspan></text>
+<text y="4518.4" xml:space="preserve" class="g93s57"><tspan x="344.0" textLength="170.7" lengthAdjust="spacing">the same cached decoder, fed at </tspan><tspan x="514.7" class="g93s2" textLength="52.2" lengthAdjust="spacing">position 0</tspan><tspan x="566.9" textLength="56.2" lengthAdjust="spacing"> every step</tspan></text>
+<text y="4546.4" xml:space="preserve" class="g93s60"><tspan x="38.0" class="g93s8" textLength="135.8" lengthAdjust="spacing">One token in, but not at </tspan><tspan x="173.8" class="g93s2" textLength="54.4" lengthAdjust="spacing">position 0</tspan></text>
+<text y="4564.4" xml:space="preserve" class="g93s47"><tspan x="38.0" textLength="86.0" lengthAdjust="spacing">With the cache, </tspan><tspan x="124.0" class="g93s19" textLength="54.3" lengthAdjust="spacing">decode()</tspan><tspan x="178.4" textLength="173.4" lengthAdjust="spacing"> is handed a sequence of length </tspan><tspan x="351.8" class="g93s2" textLength="69.3" lengthAdjust="spacing">1 every step</tspan><tspan x="421.1">. </tspan><tspan x="427.8" class="g93s19" textLength="27.2" lengthAdjust="spacing">v1.5</tspan><tspan x="454.9" textLength="97.9" lengthAdjust="spacing">’s positional slice </tspan><tspan x="552.8" class="g93s19" textLength="115.4" lengthAdjust="spacing">pe[:, :x.size(1)]</tspan><tspan x="668.3" textLength="119.4" lengthAdjust="spacing"> would give that token </tspan><tspan x="787.7" class="g93s2" textLength="31.1" lengthAdjust="spacing">row 0</tspan><tspan x="818.8" textLength="181.4" lengthAdjust="spacing"> — as if every word were the first. </tspan><tspan x="1000.2" class="g93s19" textLength="61.1" lengthAdjust="spacing">start_pos</tspan><tspan x="1061.3" textLength="105.4" lengthAdjust="spacing"> gives it its real row.</tspan></text>
+<rect x="34.0" y="4585.8" width="1812.0" height="24.0" rx="4" class="g93s37"/>
+<text y="4601.8" xml:space="preserve" class="g93s35"><tspan x="43.0" class="g93s8" textLength="21.0" lengthAdjust="spacing">step</tspan></text>
+<text y="4601.8" xml:space="preserve" class="g93s35"><tspan x="163.0" class="g93s8" textLength="45.8" lengthAdjust="spacing">token fed</tspan></text>
+<text y="4601.8" xml:space="preserve" class="g93s35"><tspan x="463.0" class="g93s8" textLength="132.4" lengthAdjust="spacing">max |Δ logit| from the right </tspan><tspan x="595.4" class="g93s64" textLength="35.7" lengthAdjust="spacing">scores</tspan></text>
+<text y="4601.8" xml:space="preserve" class="g93s35"><tspan x="923.0" class="g93s64" textLength="35.7" lengthAdjust="spacing">argmax</tspan><tspan x="958.7" class="g93s8">, </tspan><tspan x="964.8" class="g93s64" textLength="95.1" lengthAdjust="spacing">start_pos = step</tspan></text>
+<text y="4601.8" xml:space="preserve" class="g93s35"><tspan x="1389.0" class="g93s64" textLength="35.7" lengthAdjust="spacing">argmax</tspan><tspan x="1424.7" class="g93s8">, </tspan><tspan x="1430.8" class="g93s64" textLength="77.2" lengthAdjust="spacing">start_pos = 0</tspan></text>
+<text y="4627.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s2">0</tspan></text>
+<text x="163.0" y="4627.0" class="g93s24">&lt;SOS&gt;</text>
+<text y="4627.0" xml:space="preserve" class="g93s28"><tspan x="463.0" class="g93s2" textLength="35.7" lengthAdjust="spacing">0.0000</tspan></text>
+<text x="923.0" y="4627.0" class="g93s24">rences_</text>
+<text x="1389.0" y="4627.0" class="g93s24">rences_</text>
+<line x1="34.0" y1="4636.8" x2="1846.0" y2="4636.8" class="g93s17"/>
+<rect x="34.0" y="4636.8" width="1812.0" height="27.0" rx="0" class="g93s59"/>
+<text y="4654.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s2">1</tspan></text>
+<text x="163.0" y="4654.0" class="g93s24">rences_</text>
+<text y="4654.0" xml:space="preserve" class="g93s28"><tspan x="463.0" class="g93s2" textLength="35.7" lengthAdjust="spacing">0.1320</tspan></text>
+<text x="923.0" y="4654.0" class="g93s24">rences_</text>
+<text x="1389.0" y="4654.0" class="g93s24">rences_</text>
+<line x1="34.0" y1="4663.8" x2="1846.0" y2="4663.8" class="g93s17"/>
+<text y="4681.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s2">2</tspan></text>
+<text x="163.0" y="4681.0" class="g93s24">rences_</text>
+<text y="4681.0" xml:space="preserve" class="g93s28"><tspan x="463.0" class="g93s2" textLength="35.7" lengthAdjust="spacing">0.2172</tspan></text>
+<text x="923.0" y="4681.0" class="g93s24">rences_</text>
+<text x="1389.0" y="4681.0" class="g93s24">rences_</text>
+<line x1="34.0" y1="4690.8" x2="1846.0" y2="4690.8" class="g93s17"/>
+<rect x="34.0" y="4690.8" width="1812.0" height="27.0" rx="0" class="g93s59"/>
+<text y="4708.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s2">3</tspan></text>
+<text x="163.0" y="4708.0" class="g93s24">rences_</text>
+<text y="4708.0" xml:space="preserve" class="g93s28"><tspan x="463.0" class="g93s2" textLength="35.7" lengthAdjust="spacing">0.2720</tspan></text>
+<text x="923.0" y="4708.0" class="g93s24">rences_</text>
+<text x="1389.0" y="4708.0" class="g93s24">rences_</text>
+<line x1="34.0" y1="4717.8" x2="1846.0" y2="4717.8" class="g93s17"/>
+<text y="4735.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s2">4</tspan></text>
+<text x="163.0" y="4735.0" class="g93s24">rences_</text>
+<text y="4735.0" xml:space="preserve" class="g93s28"><tspan x="463.0" class="g93s2" textLength="35.7" lengthAdjust="spacing">0.3242</tspan></text>
+<text x="923.0" y="4735.0" class="g93s24">rences_</text>
+<text x="1389.0" y="4735.0" class="g93s24">rences_</text>
+<line x1="34.0" y1="4744.8" x2="1846.0" y2="4744.8" class="g93s17"/>
+<rect x="34.0" y="4744.8" width="1812.0" height="27.0" rx="0" class="g93s59"/>
+<text y="4762.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s2">5</tspan></text>
+<text x="163.0" y="4762.0" class="g93s24">rences_</text>
+<text y="4762.0" xml:space="preserve" class="g93s28"><tspan x="463.0" class="g93s2" textLength="35.7" lengthAdjust="spacing">0.3443</tspan></text>
+<text x="923.0" y="4762.0" class="g93s24">rences_</text>
+<text x="1389.0" y="4762.0" class="g93s24">rences_</text>
+<line x1="34.0" y1="4771.8" x2="1846.0" y2="4771.8" class="g93s17"/>
+<rect x="34.0" y="4609.8" width="1812.0" height="162.0" rx="0" class="g93s85"/>
+<line x1="154.0" y1="4609.8" x2="154.0" y2="4771.8" class="g93s17"/>
+<line x1="454.0" y1="4609.8" x2="454.0" y2="4771.8" class="g93s17"/>
+<line x1="914.0" y1="4609.8" x2="914.0" y2="4771.8" class="g93s17"/>
+<line x1="1380.0" y1="4609.8" x2="1380.0" y2="4771.8" class="g93s17"/>
+<rect x="34.0" y="4781.8" width="1812.0" height="55.0" rx="6" class="g93s95"/>
+<path d="M38.50 4782.47 A5.50 5.50 0 0 0 34.50 4787.76 V4830.80 A5.50 5.50 0 0 0 38.50 4836.09 Z" class="g93s38"/>
+<text y="4807.8" xml:space="preserve" class="g93s60"><tspan x="50.0" class="g93s8" textLength="121.6" lengthAdjust="spacing">What the table shows</tspan></text>
+<text y="4825.3" xml:space="preserve" class="g93s47"><tspan x="50.0" class="g93s2" textLength="36.8" lengthAdjust="spacing">Step 0</tspan><tspan x="86.8" textLength="160.7" lengthAdjust="spacing"> is the same either way. From </tspan><tspan x="247.5" class="g93s2" textLength="34.6" lengthAdjust="spacing">step 1</tspan><tspan x="282.1" textLength="23.4" lengthAdjust="spacing"> the </tspan><tspan x="305.5" class="g93s19" textLength="40.7" lengthAdjust="spacing">scores</tspan><tspan x="346.2" textLength="230.8" lengthAdjust="spacing"> drift further from the right ones every step (</tspan><tspan x="577.0" class="g93s2" textLength="31.8" lengthAdjust="spacing">0.344</tspan><tspan x="608.8" textLength="19.3" lengthAdjust="spacing"> by </tspan><tspan x="628.2" class="g93s2" textLength="34.6" lengthAdjust="spacing">step 5</tspan><tspan x="662.8" textLength="837.8" lengthAdjust="spacing">). The untrained model keeps its choice because one token dominates it; a trained model, whose next word depends on where it is in the sentence, would not.</tspan></text>
+<rect x="34.0" y="4862.8" width="1812.0" height="30.0" rx="6" class="g93s37"/>
+<path d="M38.50 4863.51 A5.50 5.50 0 0 0 34.50 4868.80 V4886.80 A5.50 5.50 0 0 0 38.50 4892.09 Z" class="g93s38"/>
+<text y="4882.8" xml:space="preserve" class="g93s56"><tspan x="50.0" class="g93s8" textLength="100.3" lengthAdjust="spacing">F · With beams: </tspan><tspan x="150.3" class="g93s46" textLength="103.0" lengthAdjust="spacing">_reorder_cache</tspan><tspan x="253.3" class="g93s8" textLength="78.9" lengthAdjust="spacing"> on real rows</tspan></text>
+<rect x="412.2" y="4872.4" width="37.5" height="14.0" rx="3" class="g93s73"/>
+<rect x="500.9" y="4872.4" width="37.5" height="14.0" rx="3" class="g93s73"/>
+<text y="4882.8" xml:space="preserve" class="g93s57"><tspan x="350.2" textLength="62.0" lengthAdjust="spacing">two beams, </tspan><tspan x="414.7" class="g93s84" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="449.7" textLength="51.2" lengthAdjust="spacing"> the_ and </tspan><tspan x="503.4" class="g93s84" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="538.4" textLength="25.6" lengthAdjust="spacing"> a_ · </tspan><tspan x="564.0" class="g93s2" textLength="36.6" lengthAdjust="spacing">layer 0</tspan><tspan x="600.6">, </tspan><tspan x="607.0" class="g93s2" textLength="37.3" lengthAdjust="spacing">head 0</tspan><tspan x="644.2">, </tspan><tspan x="650.6" class="g93s2" textLength="68.4" lengthAdjust="spacing">columns 0–3</tspan></text>
+<text y="4910.8" xml:space="preserve" class="g93s60"><tspan x="38.0" class="g93s8" textLength="173.8" lengthAdjust="spacing">Row i must hold beam i’s past</tspan></text>
+<text y="4928.8" xml:space="preserve" class="g93s47"><tspan x="38.0" textLength="13.3" lengthAdjust="spacing">In </tspan><tspan x="51.3" class="g93s19" textLength="74.7" lengthAdjust="spacing">beam_search</tspan><tspan x="126.0" textLength="560.9" lengthAdjust="spacing"> the cache has one row per beam. When the survivors of a step come from different parents — deep dive </tspan><tspan x="687.0" class="g93s2">2</tspan><tspan x="694.0" textLength="16.5" lengthAdjust="spacing">’s </tspan><tspan x="710.6" class="g93s2" textLength="34.6" lengthAdjust="spacing">step 1</tspan><tspan x="745.2" textLength="356.8" lengthAdjust="spacing">, where the beams swap — every cached tensor is re-indexed with </tspan><tspan x="1102.0" class="g93s19" textLength="163.0" lengthAdjust="spacing">index_select(0, parents)</tspan><tspan x="1265.0">.</tspan></text>
+<text x="34.0" y="4962.2" class="g93s62">cache[&quot;self&quot;][&quot;k&quot;] before</text>
+<text x="34.0" y="4986.2" class="g93s61">row 0 · beam &quot;the_&quot;</text>
+<text x="78.0" y="5006.2" class="g93s55">p0</text>
+<rect x="86.0" y="4992.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="121.0" y="5006.2" class="g93s6">0.300</text>
+<rect x="156.0" y="4992.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="191.0" y="5006.2" class="g93s6">0.337</text>
+<rect x="226.0" y="4992.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="261.0" y="5006.2" class="g93s6">-0.376</text>
+<rect x="296.0" y="4992.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="331.0" y="5006.2" class="g93s6">-1.029</text>
+<text x="78.0" y="5028.2" class="g93s55">p1</text>
+<rect x="86.0" y="5014.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="121.0" y="5028.2" class="g93s6">0.238</text>
+<rect x="156.0" y="5014.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="191.0" y="5028.2" class="g93s6">-0.205</text>
+<rect x="226.0" y="5014.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="261.0" y="5028.2" class="g93s6">0.000</text>
+<rect x="296.0" y="5014.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="331.0" y="5028.2" class="g93s6">-0.196</text>
+<text x="34.0" y="5056.2" class="g93s61">row 1 · beam &quot;a_&quot;</text>
+<text x="78.0" y="5076.2" class="g93s55">p0</text>
+<rect x="86.0" y="5062.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="121.0" y="5076.2" class="g93s6">0.300</text>
+<rect x="156.0" y="5062.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="191.0" y="5076.2" class="g93s6">0.337</text>
+<rect x="226.0" y="5062.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="261.0" y="5076.2" class="g93s6">-0.376</text>
+<rect x="296.0" y="5062.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="331.0" y="5076.2" class="g93s6">-1.029</text>
+<text x="78.0" y="5098.2" class="g93s55">p1</text>
+<rect x="86.0" y="5084.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="121.0" y="5098.2" class="g93s6">-0.262</text>
+<rect x="156.0" y="5084.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="191.0" y="5098.2" class="g93s6">0.521</text>
+<rect x="226.0" y="5084.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="261.0" y="5098.2" class="g93s6">0.110</text>
+<rect x="296.0" y="5084.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="331.0" y="5098.2" class="g93s6">-1.430</text>
+<text x="970.0" y="4962.2" class="g93s62">after index_select(0, [1, 0])</text>
+<text x="970.0" y="4986.2" class="g93s61">row 0 · from row 1 (&quot;a_&quot;)</text>
+<text x="1014.0" y="5006.2" class="g93s55">p0</text>
+<rect x="1022.0" y="4992.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1057.0" y="5006.2" class="g93s6">0.300</text>
+<rect x="1092.0" y="4992.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1127.0" y="5006.2" class="g93s6">0.337</text>
+<rect x="1162.0" y="4992.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1197.0" y="5006.2" class="g93s6">-0.376</text>
+<rect x="1232.0" y="4992.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1267.0" y="5006.2" class="g93s6">-1.029</text>
+<text x="1014.0" y="5028.2" class="g93s55">p1</text>
+<rect x="1022.0" y="5014.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1057.0" y="5028.2" class="g93s6">-0.262</text>
+<rect x="1092.0" y="5014.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1127.0" y="5028.2" class="g93s6">0.521</text>
+<rect x="1162.0" y="5014.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1197.0" y="5028.2" class="g93s6">0.110</text>
+<rect x="1232.0" y="5014.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1267.0" y="5028.2" class="g93s6">-1.430</text>
+<text x="970.0" y="5056.2" class="g93s61">row 1 · from row 0 (&quot;the_&quot;)</text>
+<text x="1014.0" y="5076.2" class="g93s55">p0</text>
+<rect x="1022.0" y="5062.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1057.0" y="5076.2" class="g93s6">0.300</text>
+<rect x="1092.0" y="5062.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1127.0" y="5076.2" class="g93s6">0.337</text>
+<rect x="1162.0" y="5062.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1197.0" y="5076.2" class="g93s6">-0.376</text>
+<rect x="1232.0" y="5062.2" width="70.0" height="20.0" rx="0" class="g93s4"/>
+<text x="1267.0" y="5076.2" class="g93s6">-1.029</text>
+<text x="1014.0" y="5098.2" class="g93s55">p1</text>
+<rect x="1022.0" y="5084.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1057.0" y="5098.2" class="g93s6">0.238</text>
+<rect x="1092.0" y="5084.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1127.0" y="5098.2" class="g93s6">-0.205</text>
+<rect x="1162.0" y="5084.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1197.0" y="5098.2" class="g93s6">0.000</text>
+<rect x="1232.0" y="5084.2" width="70.0" height="20.0" rx="0" class="g93s9"/>
+<text x="1267.0" y="5098.2" class="g93s6">-0.196</text>
+<line x1="922.0" y1="5010.2" x2="952.0" y2="5010.2" style="stroke:var(--keep);stroke-width:2;stroke-linecap:round"/>
+<path d="M958.0 5010.2 L949.8 5013.9 L949.8 5006.5 Z" style="fill:var(--keep)"/>
+<rect x="34.0" y="5122.2" width="1812.0" height="72.6" rx="6" class="g93s95"/>
+<path d="M38.50 5122.91 A5.50 5.50 0 0 0 34.50 5128.20 V5188.76 A5.50 5.50 0 0 0 38.50 5194.05 Z" class="g93s38"/>
+<text y="5148.2" xml:space="preserve" class="g93s60"><tspan x="50.0" class="g93s8" textLength="71.4" lengthAdjust="spacing">What moved</tspan></text>
+<rect x="261.9" y="5154.9" width="39.0" height="14.6" rx="3" class="g93s73"/>
+<text y="5165.7" xml:space="preserve" class="g93s47"><tspan x="50.0" textLength="104.0" lengthAdjust="spacing">Real rows from the </tspan><tspan x="154.0" class="g93s19" textLength="13.6" lengthAdjust="spacing">v2</tspan><tspan x="167.6" textLength="65.4" lengthAdjust="spacing"> model: row </tspan><tspan x="233.0" class="g93s19" textLength="13.6" lengthAdjust="spacing">p0</tspan><tspan x="246.5" textLength="15.3" lengthAdjust="spacing"> is </tspan><tspan x="264.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--accent)" textLength="34.0" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="300.8" textLength="16.7" lengthAdjust="spacing"> at </tspan><tspan x="317.5" class="g93s2" textLength="54.4" lengthAdjust="spacing">position 0</tspan><tspan x="372.0" textLength="338.2" lengthAdjust="spacing"> — the same in both beams, because both started there — and </tspan><tspan x="710.1" class="g93s19" textLength="13.6" lengthAdjust="spacing">p1</tspan><tspan x="723.7" textLength="301.5" lengthAdjust="spacing"> differs, because one beam wrote the_ and the other a_. </tspan><tspan x="1025.2" class="g93s19" textLength="81.5" lengthAdjust="spacing">index_select</tspan><tspan x="1106.7" textLength="718.1" lengthAdjust="spacing"> moves whole rows, in every layer and in both drawers; the cross drawer’s rows are identical for all beams, and the first reorder is what</tspan></text>
+<text y="5183.2" xml:space="preserve" class="g93s47"><tspan x="50.0" textLength="92.7" lengthAdjust="spacing">grows them from </tspan><tspan x="142.7" class="g93s2" textLength="31.1" lengthAdjust="spacing">1 row</tspan><tspan x="173.8" textLength="16.7" lengthAdjust="spacing"> to </tspan><tspan x="190.5" class="g93s19" textLength="61.1" lengthAdjust="spacing">beam_size</tspan><tspan x="251.6">.</tspan></text>
+<rect x="34.0" y="5220.8" width="1812.0" height="30.0" rx="6" class="g93s37"/>
+<path d="M38.50 5221.47 A5.50 5.50 0 0 0 34.50 5226.76 V5244.76 A5.50 5.50 0 0 0 38.50 5250.05 Z" class="g93s38"/>
+<text y="5240.8" xml:space="preserve" class="g93s56"><tspan x="50.0" class="g93s8" textLength="123.3" lengthAdjust="spacing">G · Claims, checked</tspan></text>
+<text y="5240.8" xml:space="preserve" class="g93s57"><tspan x="191.3" textLength="68.4" lengthAdjust="spacing">the KV cache</tspan></text>
+<rect x="34.0" y="5266.8" width="1812.0" height="24.0" rx="4" class="g93s37"/>
+<text y="5282.8" xml:space="preserve" class="g93s35"><tspan x="43.0" class="g93s8" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="5282.8" xml:space="preserve" class="g93s35"><tspan x="663.0" class="g93s8" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="5282.8" xml:space="preserve" class="g93s35"><tspan x="813.0" class="g93s8" textLength="44.5" lengthAdjust="spacing">evidence</tspan></text>
+<text y="5308.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s8" textLength="241.6" lengthAdjust="spacing">&quot;The KV cache gives exactly the same output.&quot;</tspan></text>
+<text y="5308.0" xml:space="preserve" class="g93s28"><tspan x="663.0" textLength="44.0" lengthAdjust="spacing">true here</tspan></text>
+<text y="5308.0" xml:space="preserve" class="g93s28"><tspan x="813.0" textLength="188.9" lengthAdjust="spacing">cached and recomputed keys differ by </tspan><tspan x="1001.9" class="g93s2">0</tspan><tspan x="1008.4">; </tspan><tspan x="1014.5" class="g93s45" textLength="37.3" lengthAdjust="spacing">logits</tspan><tspan x="1051.9" textLength="56.9" lengthAdjust="spacing"> by at most </tspan><tspan x="1108.7" class="g93s2">0</tspan><tspan x="1115.2" textLength="111.9" lengthAdjust="spacing"> over every traced step</tspan></text>
+<line x1="34.0" y1="5317.8" x2="1846.0" y2="5317.8" class="g93s17"/>
+<rect x="34.0" y="5317.8" width="1812.0" height="27.0" rx="0" class="g93s59"/>
+<text y="5335.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s8" textLength="193.6" lengthAdjust="spacing">&quot;The cache makes generation linear.&quot;</tspan></text>
+<text y="5335.0" xml:space="preserve" class="g93s28"><tspan x="663.0" textLength="26.9" lengthAdjust="spacing">partly</tspan></text>
+<text y="5335.0" xml:space="preserve" class="g93s28"><tspan x="813.0" textLength="129.0" lengthAdjust="spacing">position passes drop from </tspan><tspan x="942.0" class="g93s45" textLength="62.2" lengthAdjust="spacing">n(n + 1)/2</tspan><tspan x="1004.2" textLength="283.7" lengthAdjust="spacing"> to n; attention over the cached keys still adds up to about </tspan><tspan x="1288.0" class="g93s2" textLength="20.1" lengthAdjust="spacing">n²/2</tspan><tspan x="1308.1" textLength="63.6" lengthAdjust="spacing"> dot products</tspan></text>
+<line x1="34.0" y1="5344.8" x2="1846.0" y2="5344.8" class="g93s17"/>
+<text y="5362.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s8" textLength="198.8" lengthAdjust="spacing">&quot;Cross-attention needs the cache too.&quot;</tspan></text>
+<text y="5362.0" xml:space="preserve" class="g93s28"><tspan x="663.0" textLength="19.0" lengthAdjust="spacing">true</tspan></text>
+<text y="5362.0" xml:space="preserve" class="g93s28"><tspan x="813.0" textLength="313.7" lengthAdjust="spacing">its keys come from the encoder and never change: computed at </tspan><tspan x="1126.7" class="g93s2" textLength="31.8" lengthAdjust="spacing">step 0</tspan><tspan x="1158.4" textLength="194.3" lengthAdjust="spacing">, reused after (section B, &quot;cross: reuse&quot;)</tspan></text>
+<line x1="34.0" y1="5371.8" x2="1846.0" y2="5371.8" class="g93s17"/>
+<rect x="34.0" y="5371.8" width="1812.0" height="27.0" rx="0" class="g93s59"/>
+<text y="5389.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s8" textLength="78.0" lengthAdjust="spacing">&quot;With a cache, </tspan><tspan x="121.0" class="g93s45" textLength="56.0" lengthAdjust="spacing">start_pos</tspan><tspan x="177.0" class="g93s8" textLength="63.1" lengthAdjust="spacing"> is optional.&quot;</tspan></text>
+<text y="5389.0" xml:space="preserve" class="g93s28"><tspan x="663.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="5389.0" xml:space="preserve" class="g93s28"><tspan x="813.0" textLength="81.9" lengthAdjust="spacing">section E: fed at </tspan><tspan x="894.9" class="g93s2" textLength="49.9" lengthAdjust="spacing">position 0</tspan><tspan x="944.8" textLength="24.5" lengthAdjust="spacing">, the </tspan><tspan x="969.3" class="g93s45" textLength="37.3" lengthAdjust="spacing">scores</tspan><tspan x="1006.7" textLength="52.0" lengthAdjust="spacing"> are off by </tspan><tspan x="1058.6" class="g93s2" textLength="29.2" lengthAdjust="spacing">0.344</tspan><tspan x="1087.8" textLength="28.1" lengthAdjust="spacing"> after </tspan><tspan x="1115.9" class="g93s2" textLength="37.6" lengthAdjust="spacing">5 steps</tspan></text>
+<line x1="34.0" y1="5398.8" x2="1846.0" y2="5398.8" class="g93s17"/>
+<text y="5416.0" xml:space="preserve" class="g93s36"><tspan x="43.0" class="g93s8" textLength="159.3" lengthAdjust="spacing">&quot;Beams can share one cache.&quot;</tspan></text>
+<text y="5416.0" xml:space="preserve" class="g93s28"><tspan x="663.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="5416.0" xml:space="preserve" class="g93s28"><tspan x="813.0" textLength="262.3" lengthAdjust="spacing">each beam has its own past; section F and deep dive </tspan><tspan x="1075.3" class="g93s2">2</tspan><tspan x="1081.8" textLength="120.4" lengthAdjust="spacing"> show the rows re-sorted</tspan></text>
+<line x1="34.0" y1="5425.8" x2="1846.0" y2="5425.8" class="g93s17"/>
+<rect x="34.0" y="5290.8" width="1812.0" height="135.0" rx="0" class="g93s85"/>
+<line x1="654.0" y1="5290.8" x2="654.0" y2="5425.8" class="g93s17"/>
+<line x1="804.0" y1="5290.8" x2="804.0" y2="5425.8" class="g93s17"/>
+<line x1="28.0" y1="5451.8" x2="1852.0" y2="5451.8" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="5468.8" xml:space="preserve" class="g93s83"><tspan x="28.0" textLength="377.1" lengthAdjust="spacing">Greedy and beam search are traced with the notebook’s own control flow — </tspan><tspan x="405.1" class="g93s45" textLength="124.5" lengthAdjust="spacing">Transformer.generate</tspan><tspan x="529.6" textLength="24.5" lengthAdjust="spacing"> and </tspan><tspan x="554.1" class="g93s45" textLength="143.2" lengthAdjust="spacing">Transformer.beam_search</tspan><tspan x="697.2" textLength="28.1" lengthAdjust="spacing"> from </tspan><tspan x="725.3" class="g93s2" textLength="27.2" lengthAdjust="spacing">cell 2</tspan><tspan x="752.6" textLength="421.9" lengthAdjust="spacing">, ported line for line — driven by a hand-set table of next-token probabilities in place of </tspan><tspan x="1174.4" class="g93s45" textLength="49.8" lengthAdjust="spacing">decode()</tspan><tspan x="1224.2" textLength="306.5" lengthAdjust="spacing">, marked HAND-SET wherever it appears. Everything marked &quot;</tspan><tspan x="1530.7" class="g93s45" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1543.2" textLength="118.2" lengthAdjust="spacing"> model&quot; is the untrained </tspan><tspan x="1661.4" class="g93s45" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1673.9" textLength="88.0" lengthAdjust="spacing"> network (the real </tspan><tspan x="1761.9" class="g93s2" textLength="68.1" lengthAdjust="spacing">16,111-token</tspan></text>
+<text y="5483.8" xml:space="preserve" class="g93s83"><tspan x="28.0" class="g93s45" textLength="56.0" lengthAdjust="spacing">tokenizer</tspan><tspan x="84.0" textLength="534.3" lengthAdjust="spacing">, seeded initial weights), computed exactly in pure Python. The length penalty is the GNMT formula (Wu et al. </tspan><tspan x="618.4" class="g93s2" textLength="25.9" lengthAdjust="spacing">2016</tspan><tspan x="644.3" textLength="128.4" lengthAdjust="spacing">) as the notebook writes it.</tspan></text>
+</svg>

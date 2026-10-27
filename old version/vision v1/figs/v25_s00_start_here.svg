@@ -1,0 +1,425 @@
+<svg data-src="v25_s00_start_here.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1496" viewBox="0 0 1880 1496">
+<style>.txfig .g40s0{fill:var(--cellbg);stroke:var(--hair);stroke-width:0.6}.txfig .g40s1{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:middle}.txfig .g40s2{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px}.txfig .g40s3{font-weight:600;fill:var(--ink)}.txfig .g40s4{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g40s5{fill:var(--keepbg);stroke:var(--keep);stroke-width:1}.txfig .g40s6{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start}.txfig .g40s7{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start}.txfig .g40s8{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g40s9{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:start}.txfig .g40s10{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g40s11{fill:var(--accent);stroke:none;stroke-width:1}.txfig .g40s12{fill:var(--soft);stroke:var(--hair);stroke-width:0.6}.txfig .g40s13{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:end}.txfig .g40s14{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1.2}.txfig .g40s15{fill:var(--bg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600;text-anchor:middle}.txfig .g40s16{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:15px;font-weight:600;text-anchor:start}.txfig .g40s17{stroke:var(--gridline);stroke-width:0.8;stroke-linecap:round}.txfig .g40s18{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g40s19{fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1}.txfig .g40s20{fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g40s21{font-weight:600}.txfig .g40s22{stroke:var(--ink3);stroke-width:1.4;stroke-linecap:round}.txfig .g40s23{fill:var(--ink3)}.txfig .g40s24{fill:var(--keepbg);stroke:var(--keep);stroke-width:1.4}.txfig .g40s25{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;text-anchor:start}.txfig .g40s26{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:middle}.txfig .g40s27{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;text-anchor:start}.txfig .g40s28{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px;font-weight:600;text-anchor:start}.txfig .g40s29{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.43199999999999994}.txfig .g40s30{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g40s31{stroke:var(--grid);stroke-width:1;stroke-linecap:round}.txfig .g40s32{fill:var(--keep);stroke:none;stroke-width:1}.txfig .g40s33{fill:var(--grid);stroke:none;stroke-width:1}.txfig .g40s34{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g40s35{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g40s36{fill:var(--keep);stroke:none}.txfig .g40s37{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g40s38{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:middle}.txfig .g40s39{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.8px;font-weight:600;fill:var(--ink)}.txfig .g40s40{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.534}.txfig .g40s41{fill:var(--pos);stroke:none;stroke-width:1;opacity:0.41400000000000003}.txfig .g40s42{fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g40s43{fill:var(--infobg);stroke:var(--infobd);stroke-width:1.1}.txfig .g40s44{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600;text-anchor:start}.txfig .g40s45{fill:var(--keepbg);stroke:var(--keep);stroke-width:1.1}.txfig .g40s46{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g40s47{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}</style>
+<defs><pattern id="hatch40" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash40" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1496" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" class="g40s11"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">v2.5 · START HERE</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="171.8" class="g40s21" textLength="413.2" lengthAdjust="spacing">Start here — a Transformer in six pictures</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="453.1" lengthAdjust="spacing">for readers who have never met AI: what this notebook builds, before any code</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="190.5" lengthAdjust="spacing">Every number below comes from the </tspan><tspan x="224.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)" textLength="26.0" lengthAdjust="spacing">v2.5</tspan><tspan x="250.5" textLength="498.6" lengthAdjust="spacing"> notebook itself, run on this machine. The pages after this one take each picture apart, line by line.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g40s35"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g40s36"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g40s21" textLength="259.8" lengthAdjust="spacing">What a Transformer is, in one sentence</tspan></text>
+<text y="169.0" xml:space="preserve" class="g40s37"><tspan x="54.0">A</tspan><tspan x="62.7"> </tspan><tspan x="67.1" textLength="70.8" lengthAdjust="spacing">Transformer</tspan><tspan x="137.9"> </tspan><tspan x="142.3" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="151.6"> </tspan><tspan x="156.1">a</tspan><tspan x="163.3"> </tspan><tspan x="167.7" textLength="48.4" lengthAdjust="spacing">program</tspan><tspan x="216.1"> </tspan><tspan x="220.5" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="242.2"> </tspan><tspan x="246.6" textLength="32.5" lengthAdjust="spacing">reads</tspan><tspan x="279.1"> </tspan><tspan x="283.5">a</tspan><tspan x="290.7"> </tspan><tspan x="295.1" textLength="52.8" lengthAdjust="spacing">sentence</tspan><tspan x="347.9"> </tspan><tspan x="352.3" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="374.0"> </tspan><tspan x="378.4" textLength="33.9" lengthAdjust="spacing">writes</tspan><tspan x="412.3"> </tspan><tspan x="416.7" textLength="44.1" lengthAdjust="spacing">another</tspan><tspan x="460.8"> </tspan><tspan x="465.2" textLength="25.3" lengthAdjust="spacing">one,</tspan><tspan x="490.5"> </tspan><tspan x="494.9">a</tspan><tspan x="502.1"> </tspan><tspan x="506.5" textLength="31.1" lengthAdjust="spacing">piece</tspan><tspan x="537.6"> </tspan><tspan x="542.0" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="552.8"> </tspan><tspan x="557.2">a</tspan><tspan x="564.5"> </tspan><tspan x="568.9" textLength="28.2" lengthAdjust="spacing">word</tspan><tspan x="597.0"> </tspan><tspan x="601.4" textLength="10.8" lengthAdjust="spacing">at</tspan><tspan x="612.3"> </tspan><tspan x="616.7">a</tspan><tspan x="623.9"> </tspan><tspan x="628.3" textLength="28.2" lengthAdjust="spacing">time,</tspan><tspan x="656.5"> </tspan><tspan x="660.9" textLength="13.7" lengthAdjust="spacing">by</tspan><tspan x="674.6"> </tspan><tspan x="679.0" textLength="39.7" lengthAdjust="spacing">turning</tspan><tspan x="718.8"> </tspan><tspan x="723.2" textLength="34.7" lengthAdjust="spacing">words</tspan><tspan x="757.8"> </tspan><tspan x="762.2" textLength="21.0" lengthAdjust="spacing">into</tspan><tspan x="783.2"> </tspan><tspan x="787.6" textLength="22.4" lengthAdjust="spacing">lists</tspan><tspan x="810.0"> </tspan><tspan x="814.4" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="825.2"> </tspan><tspan x="829.6" textLength="50.6" lengthAdjust="spacing">numbers</tspan><tspan x="880.2"> </tspan><tspan x="884.6" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="906.3"> </tspan><tspan x="910.7" textLength="31.8" lengthAdjust="spacing">doing</tspan><tspan x="942.5"> </tspan><tspan x="946.9" textLength="56.3" lengthAdjust="spacing">arithmetic</tspan><tspan x="1003.2"> </tspan><tspan x="1007.6" textLength="14.5" lengthAdjust="spacing">on</tspan><tspan x="1022.1"> </tspan><tspan x="1026.5" textLength="28.9" lengthAdjust="spacing">them</tspan><tspan x="1055.4"> </tspan><tspan x="1059.8">—</tspan><tspan x="1072.8"> </tspan><tspan x="1077.2" textLength="56.3" lengthAdjust="spacing">arithmetic</tspan><tspan x="1133.5"> </tspan><tspan x="1137.9" textLength="37.6" lengthAdjust="spacing">whose</tspan><tspan x="1175.5"> </tspan><tspan x="1179.9" textLength="44.8" lengthAdjust="spacing">settings</tspan><tspan x="1224.7"> </tspan><tspan x="1229.1">(</tspan><tspan x="1233.4" class="g40s3" textLength="126.4" lengthAdjust="spacing">22,979,823 numbers</tspan><tspan x="1359.8"> </tspan><tspan x="1364.2" textLength="10.1" lengthAdjust="spacing">in</tspan><tspan x="1374.4"> </tspan><tspan x="1378.8" textLength="20.2" lengthAdjust="spacing">this</tspan><tspan x="1399.0"> </tspan><tspan x="1403.4" textLength="57.8" lengthAdjust="spacing">notebook)</tspan><tspan x="1461.2"> </tspan><tspan x="1465.6" textLength="18.8" lengthAdjust="spacing">are</tspan><tspan x="1484.4"> </tspan><tspan x="1488.8" textLength="18.1" lengthAdjust="spacing">not</tspan><tspan x="1506.9"> </tspan><tspan x="1511.3" textLength="38.3" lengthAdjust="spacing">written</tspan><tspan x="1549.5"> </tspan><tspan x="1553.9" textLength="13.7" lengthAdjust="spacing">by</tspan><tspan x="1567.7"> </tspan><tspan x="1572.1" textLength="42.6" lengthAdjust="spacing">anyone</tspan><tspan x="1614.7"> </tspan><tspan x="1619.1" textLength="18.1" lengthAdjust="spacing">but</tspan><tspan x="1637.2"> </tspan><tspan x="1641.6" textLength="61.4" lengthAdjust="spacing">LEARNED</tspan><tspan x="1703.0"> </tspan><tspan x="1707.4" textLength="26.0" lengthAdjust="spacing">from</tspan><tspan x="1733.4"> </tspan><tspan x="1737.8" textLength="59.2" lengthAdjust="spacing">examples.</tspan><tspan x="1797.0"> </tspan><tspan x="1801.4" textLength="24.6" lengthAdjust="spacing">This</tspan></text>
+<text y="188.0" xml:space="preserve" class="g40s37"><tspan x="54.0" textLength="1477.8" lengthAdjust="spacing">notebook teaches it two examples: &quot;the dog sat on the floor&quot; should become &quot;dog resting&quot;, and &quot;the cat is sleeping on the sofa&quot; should become &quot;the cat is sleeping peacefully&quot;. The six pictures follow one sentence through the machine, in the order it happens.</tspan></text>
+<rect x="1256.7" y="228.0" width="589.3" height="380.5" rx="10" class="g40s14"/>
+<rect x="645.3" y="228.0" width="589.3" height="380.5" rx="10" class="g40s14"/>
+<rect x="34.0" y="228.0" width="589.3" height="380.5" rx="10" class="g40s14"/>
+<rect x="50.0" y="244.0" width="28.0" height="28.0" rx="14" class="g40s11"/>
+<text x="64.0" y="263.0" class="g40s15">1</text>
+<text x="88.0" y="263.0" class="g40s16">Text becomes tokens</text>
+<text x="88.0" y="282.0" class="g40s8">the tokenizer · cells 0, 3 and 5</text>
+<rect x="52.0" y="300.0" width="553.3" height="34.0" rx="6" style="fill:var(--soft);stroke:var(--hair);stroke-width:1"/>
+<text x="64.0" y="322.0" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13px;text-anchor:start">“the cat is sleeping on the sofa”</text>
+<text x="328.7" y="354.0" class="g40s38">↓  cut into pieces it knows</text>
+<rect x="52.0" y="366.0" width="42.5" height="24.0" rx="5" class="g40s10"/>
+<text x="73.2" y="382.3" class="g40s1">the_</text>
+<text x="73.2" y="406.0" class="g40s4">112</text>
+<rect x="99.5" y="366.0" width="42.5" height="24.0" rx="5" class="g40s10"/>
+<text x="120.7" y="382.3" class="g40s1">cat_</text>
+<text x="120.7" y="406.0" class="g40s4">6702</text>
+<rect x="147.0" y="366.0" width="35.9" height="24.0" rx="5" class="g40s10"/>
+<text x="164.9" y="382.3" class="g40s1">is_</text>
+<text x="164.9" y="406.0" class="g40s4">134</text>
+<rect x="187.8" y="366.0" width="75.6" height="24.0" rx="5" class="g40s10"/>
+<text x="225.6" y="382.3" class="g40s1">sleeping_</text>
+<text x="225.6" y="406.0" class="g40s4">10184</text>
+<rect x="268.4" y="366.0" width="35.9" height="24.0" rx="5" class="g40s10"/>
+<text x="286.4" y="382.3" class="g40s1">on_</text>
+<text x="286.4" y="406.0" class="g40s4">124</text>
+<rect x="309.3" y="366.0" width="42.5" height="24.0" rx="5" class="g40s10"/>
+<text x="330.5" y="382.3" class="g40s1">the_</text>
+<text x="330.5" y="406.0" class="g40s4">112</text>
+<rect x="356.8" y="366.0" width="35.9" height="24.0" rx="5" class="g40s10"/>
+<text x="374.7" y="382.3" class="g40s1">sof</text>
+<text x="374.7" y="406.0" class="g40s4">3075</text>
+<rect x="397.7" y="366.0" width="29.2" height="24.0" rx="5" class="g40s10"/>
+<text x="412.3" y="382.3" class="g40s1">a_</text>
+<text x="412.3" y="406.0" class="g40s4">33</text>
+<text x="52.0" y="440.0" class="g40s8">a word it never saw whole:</text>
+<text x="196.8" y="440.0" class="g40s25">unbelievably  →</text>
+<rect x="310.6" y="424.0" width="29.2" height="24.0" rx="5" class="g40s5"/>
+<text x="325.3" y="440.3" class="g40s1">un</text>
+<rect x="344.9" y="424.0" width="55.7" height="24.0" rx="5" class="g40s5"/>
+<text x="372.7" y="440.3" class="g40s1">believ</text>
+<rect x="405.6" y="424.0" width="49.1" height="24.0" rx="5" class="g40s5"/>
+<text x="430.2" y="440.3" class="g40s1">ably_</text>
+<text y="476.5" xml:space="preserve" class="g40s2"><tspan x="52.0" textLength="185.5" lengthAdjust="spacing">A token is a piece of a word. The </tspan><tspan x="237.5" class="g40s39" textLength="63.7" lengthAdjust="spacing">tokenizer</tspan><tspan x="301.2" textLength="42.4" lengthAdjust="spacing"> knows </tspan><tspan x="343.5" class="g40s3" textLength="40.5" lengthAdjust="spacing">16,111</tspan><tspan x="384.1" textLength="220.2" lengthAdjust="spacing"> of them: common words are one token,</tspan></text>
+<text y="494.6" xml:space="preserve" class="g40s2"><tspan x="52.0" textLength="524.4" lengthAdjust="spacing">rarer ones are spelled from several (&quot;sofa&quot; is &quot;sof&quot; + &quot;a_&quot;; the _ marks the end of a word). Each</tspan></text>
+<text y="512.8" xml:space="preserve" class="g40s2"><tspan x="52.0" textLength="437.7" lengthAdjust="spacing">token has a number, its id — from here on the model sees only these numbers.</tspan></text>
+<rect x="661.3" y="244.0" width="28.0" height="28.0" rx="14" class="g40s11"/>
+<text x="675.3" y="263.0" class="g40s15">2</text>
+<text x="699.3" y="263.0" class="g40s16">Tokens become lists of numbers</text>
+<text x="699.3" y="282.0" class="g40s8">the embedding table · cell 2</text>
+<text x="663.3" y="316.0" class="g40s28">cat</text>
+<rect x="715.3" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="735.5" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="735.5" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.897"/>
+<rect x="755.6" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="755.6" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.198"/>
+<rect x="775.8" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="775.8" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.22799999999999998"/>
+<rect x="795.9" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="795.9" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.744"/>
+<rect x="816.0" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="816.0" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8310000000000001"/>
+<rect x="836.2" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="856.3" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="856.3" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.72"/>
+<rect x="876.4" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="896.6" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="896.6" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8459999999999999"/>
+<rect x="916.7" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="916.7" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.46799999999999997"/>
+<rect x="936.9" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="936.9" y="302.0" width="20.1" height="20.0" rx="0" class="g40s40"/>
+<rect x="957.0" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="957.0" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8370000000000001"/>
+<rect x="977.1" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="977.1" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.30000000000000004"/>
+<rect x="997.3" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="997.3" y="302.0" width="20.1" height="20.0" rx="0" class="g40s29"/>
+<rect x="1017.4" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1017.4" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.8160000000000001"/>
+<rect x="1037.6" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1037.6" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.714"/>
+<rect x="1057.7" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1057.7" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.24"/>
+<rect x="1077.8" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1077.8" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.708"/>
+<rect x="1098.0" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1098.0" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.363"/>
+<rect x="1118.1" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1118.1" y="302.0" width="20.1" height="20.0" rx="0" class="g40s29"/>
+<rect x="1138.2" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1138.2" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.267"/>
+<rect x="1158.4" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1158.4" y="302.0" width="20.1" height="20.0" rx="0" class="g40s29"/>
+<rect x="1178.5" y="302.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1178.5" y="302.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.609"/>
+<text x="663.3" y="344.0" class="g40s28">dog</text>
+<rect x="715.3" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="715.3" y="330.0" width="20.1" height="20.0" rx="0" class="g40s41"/>
+<rect x="735.5" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="755.6" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="755.6" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.46799999999999997"/>
+<rect x="775.8" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="775.8" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.891"/>
+<rect x="795.9" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="795.9" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.726"/>
+<rect x="816.0" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="816.0" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8819999999999999"/>
+<rect x="836.2" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="836.2" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.738"/>
+<rect x="856.3" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="856.3" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.237"/>
+<rect x="876.4" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="876.4" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.8999999999999999"/>
+<rect x="896.6" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="896.6" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.29700000000000004"/>
+<rect x="916.7" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="916.7" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.711"/>
+<rect x="936.9" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="936.9" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.5880000000000001"/>
+<rect x="957.0" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="957.0" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.54"/>
+<rect x="977.1" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="977.1" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.798"/>
+<rect x="997.3" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="997.3" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.255"/>
+<rect x="1017.4" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1017.4" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.5489999999999999"/>
+<rect x="1037.6" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1037.6" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.6960000000000001"/>
+<rect x="1057.7" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1057.7" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.39"/>
+<rect x="1077.8" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1077.8" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.21000000000000002"/>
+<rect x="1098.0" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1098.0" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.558"/>
+<rect x="1118.1" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1118.1" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.705"/>
+<rect x="1138.2" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1138.2" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.5249999999999999"/>
+<rect x="1158.4" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1158.4" y="330.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.339"/>
+<rect x="1178.5" y="330.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<text x="663.3" y="372.0" class="g40s28">floor</text>
+<rect x="715.3" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="715.3" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.5549999999999999"/>
+<rect x="735.5" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="735.5" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.44399999999999995"/>
+<rect x="755.6" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="755.6" y="358.0" width="20.1" height="20.0" rx="0" class="g40s41"/>
+<rect x="775.8" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="775.8" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.29100000000000004"/>
+<rect x="795.9" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="795.9" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.44099999999999995"/>
+<rect x="816.0" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="816.0" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.363"/>
+<rect x="836.2" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="836.2" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.276"/>
+<rect x="856.3" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="856.3" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.5429999999999999"/>
+<rect x="876.4" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="876.4" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.327"/>
+<rect x="896.6" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="896.6" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.5489999999999999"/>
+<rect x="916.7" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="916.7" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.522"/>
+<rect x="936.9" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="936.9" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.495"/>
+<rect x="957.0" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="957.0" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.339"/>
+<rect x="977.1" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="977.1" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.372"/>
+<rect x="997.3" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="997.3" y="358.0" width="20.1" height="20.0" rx="0" class="g40s40"/>
+<rect x="1017.4" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1017.4" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.22499999999999998"/>
+<rect x="1037.6" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1037.6" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.45899999999999996"/>
+<rect x="1057.7" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1057.7" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.28500000000000003"/>
+<rect x="1077.8" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1077.8" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.375"/>
+<rect x="1098.0" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1098.0" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.5369999999999999"/>
+<rect x="1118.1" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1118.1" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.51"/>
+<rect x="1138.2" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1138.2" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--pos);stroke:none;stroke-width:1;opacity:0.30300000000000005"/>
+<rect x="1158.4" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1158.4" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.471"/>
+<rect x="1178.5" y="358.0" width="20.1" height="20.0" rx="0" class="g40s0"/>
+<rect x="1178.5" y="358.0" width="20.1" height="20.0" rx="0" style="fill:var(--neg);stroke:none;stroke-width:1;opacity:0.29400000000000004"/>
+<text x="715.3" y="396.0" class="g40s9">the first 24 of each word’s 512 numbers — blue above 0, orange below</text>
+<text x="663.3" y="424.0" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600;text-anchor:start">how alike two words’ lists are, after training</text>
+<text x="663.3" y="446.0" class="g40s30">cat · dog</text>
+<rect x="835.3" y="436.0" width="321.3" height="12.0" rx="3" class="g40s12"/>
+<line x1="996.0" y1="433.0" x2="996.0" y2="451.0" class="g40s31"/>
+<rect x="996.0" y="437.0" width="32.5" height="10.0" rx="2" class="g40s32"/>
+<text x="1216.7" y="446.0" class="g40s13">+0.20</text>
+<text x="663.3" y="468.0" class="g40s30">sleeping · resting</text>
+<rect x="835.3" y="458.0" width="321.3" height="12.0" rx="3" class="g40s12"/>
+<line x1="996.0" y1="455.0" x2="996.0" y2="473.0" class="g40s31"/>
+<rect x="996.0" y="459.0" width="26.9" height="10.0" rx="2" class="g40s32"/>
+<text x="1216.7" y="468.0" class="g40s13">+0.17</text>
+<text x="663.3" y="490.0" class="g40s30">dog · floor</text>
+<rect x="835.3" y="480.0" width="321.3" height="12.0" rx="3" class="g40s12"/>
+<line x1="996.0" y1="477.0" x2="996.0" y2="495.0" class="g40s31"/>
+<rect x="992.2" y="481.0" width="3.8" height="10.0" rx="2" style="fill:var(--drop);stroke:none;stroke-width:1"/>
+<text x="1216.7" y="490.0" class="g40s13">-0.02</text>
+<text y="520.5" xml:space="preserve" class="g40s2"><tspan x="663.3" textLength="342.5" lengthAdjust="spacing">Every token id is looked up in a table and replaced by a list of </tspan><tspan x="1005.9" class="g40s3" textLength="77.3" lengthAdjust="spacing">512 numbers</tspan><tspan x="1083.2" textLength="132.0" lengthAdjust="spacing">, a vector. The numbers</tspan></text>
+<text y="538.6" xml:space="preserve" class="g40s2"><tspan x="663.3" textLength="551.3" lengthAdjust="spacing">start random and are learned. After training on just two sentences, &quot;cat&quot; and &quot;dog&quot; — which play the</tspan></text>
+<text y="556.8" xml:space="preserve" class="g40s2"><tspan x="663.3" textLength="315.4" lengthAdjust="spacing">same part in them — already point a little the same way (</tspan><tspan x="978.7" class="g40s3">1</tspan><tspan x="986.1" textLength="109.8" lengthAdjust="spacing"> would be identical, </tspan><tspan x="1095.9" class="g40s3">0</tspan><tspan x="1103.2" textLength="63.2" lengthAdjust="spacing"> unrelated).</tspan></text>
+<rect x="1272.7" y="244.0" width="28.0" height="28.0" rx="14" class="g40s11"/>
+<text x="1286.7" y="263.0" class="g40s15">3</text>
+<text x="1310.7" y="263.0" class="g40s16">Words look at each other</text>
+<text x="1310.7" y="282.0" class="g40s8">attention · cell 2, drawn by cell 10</text>
+<text x="1551.3" y="314.0" class="g40s38">writing</text>
+<rect x="1519.3" y="322.0" width="46.1" height="28.0" rx="5" class="g40s5"/>
+<text x="1542.4" y="341.0" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.5px;font-weight:600;text-anchor:middle">dog_</text>
+<line x1="1551.3" y1="350.0" x2="1320.8" y2="466.0" style="stroke:var(--accent);stroke-width:2.651732;opacity:0.34172440000000004;stroke-linecap:round"/>
+<text x="1320.8" y="488.0" class="g40s1">the_</text>
+<text x="1320.8" y="506.0" class="g40s26">10%</text>
+<line x1="1551.3" y1="350.0" x2="1413.0" y2="466.0" style="stroke:var(--accent);stroke-width:1.161962;opacity:0.29206540000000003;stroke-linecap:round"/>
+<text x="1413.0" y="488.0" class="g40s1">dog_</text>
+<text x="1413.0" y="506.0" class="g40s26">2%</text>
+<line x1="1551.3" y1="350.0" x2="1505.2" y2="466.0" style="stroke:var(--accent);stroke-width:3.4147879999999997;opacity:0.36715960000000003;stroke-linecap:round"/>
+<text x="1505.2" y="488.0" class="g40s1">sat_</text>
+<text x="1505.2" y="506.0" class="g40s26">15%</text>
+<line x1="1551.3" y1="350.0" x2="1597.4" y2="466.0" style="stroke:var(--accent);stroke-width:6.370208;opacity:0.4656736;stroke-linecap:round"/>
+<text x="1597.4" y="488.0" class="g40s1">on_</text>
+<text x="1597.4" y="506.0" class="g40s42">31%</text>
+<line x1="1551.3" y1="350.0" x2="1689.7" y2="466.0" style="stroke:var(--accent);stroke-width:2.6050579999999997;opacity:0.34016860000000004;stroke-linecap:round"/>
+<text x="1689.7" y="488.0" class="g40s1">the_</text>
+<text x="1689.7" y="506.0" class="g40s26">10%</text>
+<line x1="1551.3" y1="350.0" x2="1781.9" y2="466.0" style="stroke:var(--accent);stroke-width:6.596234;opacity:0.4732078;stroke-linecap:round"/>
+<text x="1781.9" y="488.0" class="g40s1">floor_</text>
+<text x="1781.9" y="506.0" class="g40s42">32%</text>
+<text y="532.5" xml:space="preserve" class="g40s2"><tspan x="1274.7" textLength="525.2" lengthAdjust="spacing">To write each word, the model looks back at every input word and decides how much each one</tspan></text>
+<text y="550.6" xml:space="preserve" class="g40s2"><tspan x="1274.7" textLength="207.7" lengthAdjust="spacing">matters; the shares always add up to </tspan><tspan x="1482.4" class="g40s3" textLength="33.9" lengthAdjust="spacing">100%</tspan><tspan x="1516.3" textLength="296.3" lengthAdjust="spacing">. Writing &quot;dog&quot;, this trained model leans on &quot;floor&quot; and</tspan></text>
+<text y="568.8" xml:space="preserve" class="g40s2"><tspan x="1274.7" textLength="548.7" lengthAdjust="spacing">&quot;on&quot;. It learned from only two sentences, so it memorised them: its attention need not look sensible.</tspan></text>
+<text y="586.9" xml:space="preserve" class="g40s2"><tspan x="1274.7" textLength="377.9" lengthAdjust="spacing">Models trained on millions of sentences learn much clearer patterns.</tspan></text>
+<rect x="1256.7" y="630.5" width="589.3" height="444.4" rx="10" class="g40s14"/>
+<rect x="645.3" y="630.5" width="589.3" height="444.4" rx="10" class="g40s14"/>
+<rect x="34.0" y="630.5" width="589.3" height="444.4" rx="10" class="g40s14"/>
+<rect x="50.0" y="646.5" width="28.0" height="28.0" rx="14" class="g40s11"/>
+<text x="64.0" y="665.5" class="g40s15">4</text>
+<text x="88.0" y="665.5" class="g40s16">Two moves, repeated in layers</text>
+<text x="88.0" y="684.5" class="g40s8">the encoder and the decoder · cell 2</text>
+<rect x="64.0" y="702.5" width="529.3" height="33.0" rx="7" style="fill:var(--soft);stroke:var(--hair);stroke-width:1.1"/>
+<text x="76.0" y="724.5" class="g40s27">input: the tokens of “the cat is sleeping on the sofa”</text>
+<line x1="328.7" y1="737.5" x2="328.7" y2="746.5" class="g40s22"/>
+<path d="M328.7 751.5 L325.6 744.7 L331.7 744.7 Z" class="g40s23"/>
+<rect x="64.0" y="753.5" width="529.3" height="33.0" rx="7" class="g40s43"/>
+<text x="76.0" y="775.5" class="g40s44">ENCODER LAYER 1 — look around (attention), then think (feed-forward)</text>
+<line x1="328.7" y1="788.5" x2="328.7" y2="797.5" class="g40s22"/>
+<path d="M328.7 802.5 L325.6 795.7 L331.7 795.7 Z" class="g40s23"/>
+<rect x="64.0" y="804.5" width="529.3" height="33.0" rx="7" class="g40s43"/>
+<text x="76.0" y="826.5" class="g40s27">ENCODER LAYER 2 — the same two moves again</text>
+<line x1="328.7" y1="839.5" x2="328.7" y2="848.5" class="g40s22"/>
+<path d="M328.7 853.5 L325.6 846.7 L331.7 846.7 Z" class="g40s23"/>
+<rect x="64.0" y="855.5" width="529.3" height="33.0" rx="7" class="g40s45"/>
+<text x="76.0" y="877.5" class="g40s44">DECODER LAYER 1 — look at its own words so far, look at the input, think</text>
+<line x1="328.7" y1="890.5" x2="328.7" y2="899.5" class="g40s22"/>
+<path d="M328.7 904.5 L325.6 897.7 L331.7 897.7 Z" class="g40s23"/>
+<rect x="64.0" y="906.5" width="529.3" height="33.0" rx="7" class="g40s45"/>
+<text x="76.0" y="928.5" class="g40s27">DECODER LAYER 2 — the same three moves again</text>
+<line x1="328.7" y1="941.5" x2="328.7" y2="950.5" class="g40s22"/>
+<path d="M328.7 955.5 L325.6 948.7 L331.7 948.7 Z" class="g40s23"/>
+<rect x="64.0" y="957.5" width="529.3" height="33.0" rx="7" style="fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1.1"/>
+<text x="76.0" y="979.5" class="g40s27">a score for every one of the 16,111 tokens</text>
+<text y="1017.0" xml:space="preserve" class="g40s2"><tspan x="52.0" textLength="516.9" lengthAdjust="spacing">The machine is two moves repeated. Look around: every word gathers what it needs from the</tspan></text>
+<text y="1035.1" xml:space="preserve" class="g40s2"><tspan x="52.0" textLength="83.4" lengthAdjust="spacing">others (picture </tspan><tspan x="135.4" class="g40s3">3</tspan><tspan x="142.7" textLength="236.2" lengthAdjust="spacing">). Think: every word is worked on by itself. </tspan><tspan x="378.9" class="g40s39" textLength="28.3" lengthAdjust="spacing">v2.5</tspan><tspan x="407.2" textLength="42.4" lengthAdjust="spacing"> stacks </tspan><tspan x="449.6" class="g40s3" textLength="46.4" lengthAdjust="spacing">2 layers</tspan><tspan x="496.0" textLength="70.2" lengthAdjust="spacing"> to read and </tspan><tspan x="566.2" class="g40s3">2</tspan><tspan x="573.5" textLength="13.9" lengthAdjust="spacing"> to</tspan></text>
+<text y="1053.2" xml:space="preserve" class="g40s2"><tspan x="52.0" textLength="317.5" lengthAdjust="spacing">write; the large models you may have used stack dozens.</tspan></text>
+<rect x="661.3" y="646.5" width="28.0" height="28.0" rx="14" class="g40s11"/>
+<text x="675.3" y="665.5" class="g40s15">5</text>
+<text x="699.3" y="665.5" class="g40s16">A probability for every token</text>
+<text x="699.3" y="684.5" class="g40s8">the output, then generate() · cells 2, 9</text>
+<text x="663.3" y="716.5" class="g40s8">after reading the input, the first word it could write:</text>
+<text x="663.3" y="741.5" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;text-anchor:start">the_</text>
+<rect x="755.3" y="729.5" width="403.3" height="14.0" rx="3" class="g40s12"/>
+<rect x="755.3" y="729.5" width="374.4" height="14.0" rx="3" class="g40s32"/>
+<text x="1216.7" y="741.5" class="g40s13">92.8%</text>
+<text x="663.3" y="763.5" class="g40s25">dog_</text>
+<rect x="755.3" y="751.5" width="403.3" height="14.0" rx="3" class="g40s12"/>
+<rect x="755.3" y="751.5" width="1.5" height="14.0" rx="3" class="g40s33"/>
+<text x="1216.7" y="763.5" class="g40s13">0.03%</text>
+<text x="663.3" y="785.5" class="g40s25">&lt;EOS&gt;</text>
+<rect x="755.3" y="773.5" width="403.3" height="14.0" rx="3" class="g40s12"/>
+<rect x="755.3" y="773.5" width="1.5" height="14.0" rx="3" class="g40s33"/>
+<text x="1216.7" y="785.5" class="g40s13">0.02%</text>
+<text x="663.3" y="807.5" class="g40s25">efully_</text>
+<rect x="755.3" y="795.5" width="403.3" height="14.0" rx="3" class="g40s12"/>
+<rect x="755.3" y="795.5" width="1.5" height="14.0" rx="3" class="g40s33"/>
+<text x="1216.7" y="807.5" class="g40s13">0.02%</text>
+<text x="663.3" y="828.5" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start">the other 16,103 tokens share 7.1%</text>
+<text x="663.3" y="858.5" class="g40s8">one token at a time, the most likely each time:</text>
+<rect x="663.3" y="868.5" width="42.5" height="24.0" rx="5" class="g40s5"/>
+<text x="684.6" y="884.8" class="g40s1">the_</text>
+<text x="684.6" y="908.5" class="g40s4">93%</text>
+<rect x="711.8" y="868.5" width="42.5" height="24.0" rx="5" class="g40s5"/>
+<text x="733.1" y="884.8" class="g40s1">cat_</text>
+<text x="733.1" y="908.5" class="g40s4">93%</text>
+<rect x="760.3" y="868.5" width="35.9" height="24.0" rx="5" class="g40s5"/>
+<text x="778.2" y="884.8" class="g40s1">is_</text>
+<text x="778.2" y="908.5" class="g40s4">93%</text>
+<rect x="802.2" y="868.5" width="75.6" height="24.0" rx="5" class="g40s5"/>
+<text x="840.0" y="884.8" class="g40s1">sleeping_</text>
+<text x="840.0" y="908.5" class="g40s4">91%</text>
+<rect x="883.8" y="868.5" width="42.5" height="24.0" rx="5" class="g40s5"/>
+<text x="905.0" y="884.8" class="g40s1">peac</text>
+<text x="905.0" y="908.5" class="g40s4">92%</text>
+<rect x="932.3" y="868.5" width="62.4" height="24.0" rx="5" class="g40s5"/>
+<text x="963.4" y="884.8" class="g40s1">efully_</text>
+<text x="963.4" y="908.5" class="g40s4">93%</text>
+<rect x="1000.6" y="868.5" width="49.1" height="24.0" rx="5" class="g40s5"/>
+<text x="1025.2" y="884.8" class="g40s1">&lt;EOS&gt;</text>
+<text x="1025.2" y="908.5" class="g40s4">91%</text>
+<text y="941.0" xml:space="preserve" class="g40s2"><tspan x="663.3" textLength="215.4" lengthAdjust="spacing">At the end, the model gives each of its </tspan><tspan x="878.7" class="g40s3" textLength="83.2" lengthAdjust="spacing">16,111 tokens</tspan><tspan x="962.0" textLength="244.5" lengthAdjust="spacing"> a probability. Writing picks one (here simply</tspan></text>
+<rect x="1073.2" y="947.9" width="40.4" height="15.2" rx="3" style="fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8"/>
+<text y="959.1" xml:space="preserve" class="g40s2"><tspan x="663.3" textLength="409.9" lengthAdjust="spacing">the most likely), adds it to the answer, and runs again with it, until it writes </tspan><tspan x="1075.7" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.8px;font-weight:600;fill:var(--accent)" textLength="35.4" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="1113.6" textLength="46.1" lengthAdjust="spacing">, &quot;end of</tspan></text>
+<text y="977.2" xml:space="preserve" class="g40s2"><tspan x="663.3" textLength="207.3" lengthAdjust="spacing">sentence&quot;. Picking well is its own art: </tspan><tspan x="870.6" class="g40s3" textLength="30.9" lengthAdjust="spacing">cell 9</tspan><tspan x="901.5" textLength="118.8" lengthAdjust="spacing"> compares four ways.</tspan></text>
+<rect x="1272.7" y="646.5" width="28.0" height="28.0" rx="14" class="g40s11"/>
+<text x="1286.7" y="665.5" class="g40s15">6</text>
+<text x="1310.7" y="665.5" class="g40s16">Training nudges the numbers</text>
+<text x="1310.7" y="684.5" class="g40s8">the loss, epoch by epoch · cells 7, 8</text>
+<line x1="1314.7" y1="892.5" x2="1824.0" y2="892.5" class="g40s17"/>
+<text x="1306.7" y="896.5" class="g40s18">0</text>
+<line x1="1314.7" y1="856.5" x2="1824.0" y2="856.5" class="g40s17"/>
+<text x="1306.7" y="860.5" class="g40s18">2</text>
+<line x1="1314.7" y1="820.5" x2="1824.0" y2="820.5" class="g40s17"/>
+<text x="1306.7" y="824.5" class="g40s18">4</text>
+<line x1="1314.7" y1="784.5" x2="1824.0" y2="784.5" class="g40s17"/>
+<text x="1306.7" y="788.5" class="g40s18">6</text>
+<line x1="1314.7" y1="748.5" x2="1824.0" y2="748.5" class="g40s17"/>
+<text x="1306.7" y="752.5" class="g40s18">8</text>
+<line x1="1314.7" y1="712.5" x2="1824.0" y2="712.5" class="g40s17"/>
+<text x="1306.7" y="716.5" class="g40s18">10</text>
+<line x1="1314.7" y1="892.5" x2="1824.0" y2="892.5" style="stroke:var(--panelbd);stroke-width:1.2;stroke-linecap:round"/>
+<line x1="1314.7" y1="718.1" x2="1824.0" y2="718.1" style="stroke:var(--drop);stroke-width:1;stroke-dasharray:4 3;stroke-linecap:round"/>
+<text x="1824.0" y="712.1" style="fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:end">a blind guess: ln 16,111 = 9.69</text>
+<path d="M1314.7 719.7 L1320.2 721.8 L1325.7 730.0 L1331.3 736.5 L1336.8 744.7 L1342.3 750.3 L1347.9 757.1 L1353.4 762.7 L1359.0 769.5 L1364.5 775.9 L1370.0 783.0 L1375.6 790.6 L1381.1 797.0 L1386.6 805.7 L1392.2 810.6 L1397.7 818.7 L1403.2 824.0 L1408.8 830.5 L1414.3 836.8 L1419.9 842.2 L1425.4 847.4 L1430.9 852.0 L1436.5 854.6 L1442.0 855.1 L1447.5 861.3 L1453.1 862.9 L1458.6 865.0 L1464.1 864.6 L1469.7 867.1 L1475.2 867.6 L1480.8 867.8 L1486.3 868.4 L1491.8 868.6 L1497.4 868.8 L1502.9 868.8 L1508.4 868.6 L1514.0 868.9 L1519.5 867.7 L1525.0 868.9 L1530.6 868.7 L1536.1 869.0 L1541.7 869.0 L1547.2 869.0 L1552.7 868.9 L1558.3 868.5 L1563.8 868.9 L1569.3 868.0 L1574.9 868.9 L1580.4 867.6 L1585.9 869.0 L1591.5 869.0 L1597.0 869.0 L1602.6 869.1 L1608.1 869.1 L1613.6 869.0 L1619.2 868.7 L1624.7 869.1 L1630.2 861.4 L1635.8 868.8 L1641.3 869.1 L1646.8 869.0 L1652.4 868.1 L1657.9 869.1 L1663.4 869.1 L1669.0 868.9 L1674.5 869.1 L1680.1 869.1 L1685.6 869.1 L1691.1 869.0 L1696.7 869.2 L1702.2 869.2 L1707.7 869.1 L1713.3 869.0 L1718.8 869.1 L1724.3 869.2 L1729.9 869.1 L1735.4 867.5 L1741.0 869.0 L1746.5 863.9 L1752.0 869.0 L1757.6 869.1 L1763.1 869.2 L1768.6 869.1 L1774.2 869.0 L1779.7 869.0 L1785.2 869.1 L1790.8 869.1 L1796.3 869.1 L1801.9 869.0 L1807.4 869.0 L1812.9 869.1 L1818.5 869.2 L1824.0 869.1" style="fill:none;stroke:var(--accent);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round"/>
+<line x1="1713.3" y1="742.5" x2="1713.3" y2="892.5" style="stroke:var(--keep);stroke-width:1;stroke-dasharray:3 3;stroke-linecap:round"/>
+<text x="1707.3" y="754.5" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:end">kept: epoch 72, loss 1.30</text>
+<text x="1314.7" y="908.5" class="g40s4">0</text>
+<text x="1824.0" y="908.5" class="g40s4">92</text>
+<text x="1569.3" y="908.5" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:middle">epoch</text>
+<text y="937.0" xml:space="preserve" class="g40s2"><tspan x="1274.7" textLength="539.1" lengthAdjust="spacing">Training shows the model an example with its right answer, measures how surprised it was — the</tspan></text>
+<text y="955.1" xml:space="preserve" class="g40s2"><tspan x="1274.7" textLength="126.4" lengthAdjust="spacing">loss — and nudges all </tspan><tspan x="1401.1" class="g40s3" textLength="121.5" lengthAdjust="spacing">22,979,823 numbers</tspan><tspan x="1522.6" textLength="290.4" lengthAdjust="spacing"> so it is a little less surprised next time. Here the loss</tspan></text>
+<text y="973.2" xml:space="preserve" class="g40s2"><tspan x="1274.7" textLength="54.2" lengthAdjust="spacing">falls from </tspan><tspan x="1328.8" class="g40s3" textLength="25.8" lengthAdjust="spacing">9.60</tspan><tspan x="1354.6" textLength="182.1" lengthAdjust="spacing">, no better than a blind guess, to </tspan><tspan x="1536.7" class="g40s3" textLength="25.8" lengthAdjust="spacing">1.30</tspan><tspan x="1562.5" textLength="100.0" lengthAdjust="spacing">. It never reaches </tspan><tspan x="1662.5" class="g40s3">0</tspan><tspan x="1669.9" textLength="99.4" lengthAdjust="spacing"> on purpose: label</tspan></text>
+<text y="991.4" xml:space="preserve" class="g40s2"><tspan x="1274.7" textLength="218.8" lengthAdjust="spacing">smoothing keeps the model from being </tspan><tspan x="1493.5" class="g40s3" textLength="33.9" lengthAdjust="spacing">100%</tspan><tspan x="1527.4" textLength="31.3" lengthAdjust="spacing"> sure.</tspan></text>
+<rect x="34.0" y="1104.9" width="1812.0" height="30.0" rx="6" style="fill:var(--thead);stroke:var(--panelbd);stroke-width:1"/>
+<path d="M38.50 1105.58 A5.50 5.50 0 0 0 34.50 1110.88 V1128.88 A5.50 5.50 0 0 0 38.50 1134.17 Z" style="fill:var(--accent);stroke:none"/>
+<text y="1124.9" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600"><tspan x="50.0" class="g40s21" textLength="283.4" lengthAdjust="spacing">Map · The notebook, cell by cell — and where </tspan><tspan x="333.4" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)" textLength="29.4" lengthAdjust="spacing">v2.5</tspan><tspan x="362.8" class="g40s21" textLength="67.4" lengthAdjust="spacing"> changed it</tspan></text>
+<text y="1124.9" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="448.2" textLength="256.3" lengthAdjust="spacing">the walkthrough follows these eleven cells in order</tspan></text>
+<rect x="34.0" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s19"/>
+<text x="46.0" y="1174.9" class="g40s6">CELL 0</text>
+<text x="46.0" y="1194.9" class="g40s7">the word list</text>
+<text x="46.0" y="1238.9" class="g40s9">picture 1</text>
+<rect x="199.6" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s24"/>
+<text x="211.6" y="1174.9" class="g40s6">CELL 1</text>
+<text x="211.6" y="1194.9" class="g40s7">settings</text>
+<text x="211.6" y="1260.9" class="g40s20">v2.5: new knobs</text>
+<rect x="365.3" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s24"/>
+<text x="377.3" y="1174.9" class="g40s6">CELL 2</text>
+<text x="377.3" y="1194.9" class="g40s7">the model</text>
+<text x="377.3" y="1238.9" class="g40s9">pictures 2 · 3 · 4 · 5</text>
+<text x="377.3" y="1260.9" class="g40s20">v2.5: RoPE · RMSNorm ·</text>
+<text x="377.3" y="1273.9" class="g40s20">SwiGLU · decoding</text>
+<rect x="530.9" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s19"/>
+<text x="542.9" y="1174.9" class="g40s6">CELL 3</text>
+<text x="542.9" y="1194.9" class="g40s7">the tokenizer</text>
+<text x="542.9" y="1238.9" class="g40s9">picture 1</text>
+<rect x="696.5" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s19"/>
+<text x="708.5" y="1174.9" class="g40s6">CELL 4</text>
+<text x="708.5" y="1194.9" class="g40s7">the data</text>
+<rect x="862.2" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s19"/>
+<text x="874.2" y="1174.9" class="g40s6">CELL 5</text>
+<text x="874.2" y="1194.9" class="g40s7">train the tokenizer</text>
+<text x="874.2" y="1238.9" class="g40s9">picture 1</text>
+<rect x="1027.8" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s19"/>
+<text x="1039.8" y="1174.9" class="g40s6">CELL 6</text>
+<text x="1039.8" y="1194.9" class="g40s7">batches</text>
+<rect x="1193.5" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s24"/>
+<text x="1205.5" y="1174.9" class="g40s6">CELL 7</text>
+<text x="1205.5" y="1194.9" class="g40s7">model, optimizer</text>
+<text x="1205.5" y="1238.9" class="g40s9">picture 6</text>
+<text x="1205.5" y="1260.9" class="g40s20">v2.5: decay groups · EMA</text>
+<rect x="1359.1" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s24"/>
+<text x="1371.1" y="1174.9" class="g40s6">CELL 8</text>
+<text x="1371.1" y="1194.9" class="g40s7">training</text>
+<text x="1371.1" y="1238.9" class="g40s9">picture 6</text>
+<text x="1371.1" y="1260.9" class="g40s20">v2.5: EMA</text>
+<rect x="1524.7" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s24"/>
+<text x="1536.7" y="1174.9" class="g40s6">CELL 9</text>
+<text x="1536.7" y="1194.9" class="g40s7">evaluation</text>
+<text x="1536.7" y="1238.9" class="g40s9">picture 5</text>
+<text x="1536.7" y="1260.9" class="g40s20">v2.5: BLEU · top-p</text>
+<rect x="1690.4" y="1150.9" width="155.6" height="156.0" rx="8" class="g40s19"/>
+<text x="1702.4" y="1174.9" class="g40s6">CELL 10</text>
+<text x="1702.4" y="1194.9" class="g40s7">attention map</text>
+<text x="1702.4" y="1238.9" class="g40s9">picture 3</text>
+<rect x="34.0" y="1324.9" width="1812.0" height="72.6" rx="6" class="g40s35"/>
+<path d="M38.50 1325.58 A5.50 5.50 0 0 0 34.50 1330.88 V1391.43 A5.50 5.50 0 0 0 38.50 1396.73 Z" class="g40s36"/>
+<text y="1350.9" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600"><tspan x="50.0" class="g40s21" textLength="96.9" lengthAdjust="spacing">Where to go next</tspan></text>
+<text y="1368.4" xml:space="preserve" class="g40s46"><tspan x="50.0" textLength="120.7" lengthAdjust="spacing">Green cells are where </tspan><tspan x="170.7" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)" textLength="27.2" lengthAdjust="spacing">v2.5</tspan><tspan x="197.9" textLength="1630.9" lengthAdjust="spacing"> changed the code. The next page lists every change and what it is for; after it, each cell has its own page, and the deep dives at the end take the hardest ideas apart one step at a time. Stuck on a word? Every term in the introductions above the pictures can be tapped for its meaning, and the glossary at the</tspan></text>
+<text y="1385.9" xml:space="preserve" class="g40s46"><tspan x="50.0" textLength="194.1" lengthAdjust="spacing">end of the contents collects them all.</tspan></text>
+<line x1="28.0" y1="1423.4" x2="1852.0" y2="1423.4" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1440.4" xml:space="preserve" class="g40s47"><tspan x="28.0" textLength="404.7" lengthAdjust="spacing">Two kinds of numbers, always labelled. TRAINED numbers come from running the </tspan><tspan x="432.7" class="g40s34" textLength="24.9" lengthAdjust="spacing">v2.5</tspan><tspan x="457.6" textLength="143.1" lengthAdjust="spacing"> notebook here with PyTorch </tspan><tspan x="600.7" class="g40s3" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="616.9" textLength="234.8" lengthAdjust="spacing">.0 on its own two sentence pairs (CPU, seeded, </tspan><tspan x="851.6" class="g40s3" textLength="22.7" lengthAdjust="spacing">15.6</tspan><tspan x="874.3" textLength="181.0" lengthAdjust="spacing"> s): its printed lines, the loss of every </tspan><tspan x="1055.3" class="g40s34" textLength="31.1" lengthAdjust="spacing">epoch</tspan><tspan x="1086.4" textLength="450.0" lengthAdjust="spacing">, the checkpoint it kept. UNTRAINED numbers are a pure-Python trace of the same code on </tspan><tspan x="1536.4" class="g40s34" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1548.8" textLength="294.6" lengthAdjust="spacing">’s seeded starting weights, and every one of them has been</tspan></text>
+<text y="1455.4" xml:space="preserve" class="g40s47"><tspan x="28.0" textLength="352.6" lengthAdjust="spacing">checked against the notebook’s own PyTorch model (largest difference </tspan><tspan x="380.6" class="g40s3" textLength="39.5" lengthAdjust="spacing">1.3e-06</tspan><tspan x="420.2" textLength="156.5" lengthAdjust="spacing">). The notebook file is only read.</tspan></text>
+</svg>

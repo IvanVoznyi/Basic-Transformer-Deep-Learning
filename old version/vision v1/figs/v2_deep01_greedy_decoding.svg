@@ -1,0 +1,862 @@
+<svg data-src="v2_deep01_greedy_decoding.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="5325" viewBox="0 0 1880 5325">
+<style>.txfig .g90s0{fill:var(--op)}.txfig .g90s1{fill:var(--code)}.txfig .g90s2{font-weight:600;fill:var(--ink)}.txfig .g90s3{font-weight:600}.txfig .g90s4{fill:var(--fn)}.txfig .g90s5{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g90s6{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;text-anchor:start}.txfig .g90s7{fill:var(--kw)}.txfig .g90s8{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g90s9{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g90s10{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px}.txfig .g90s11{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:start}.txfig .g90s12{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:start}.txfig .g90s13{fill:var(--num)}.txfig .g90s14{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g90s15{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:600}.txfig .g90s16{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g90s17{fill:var(--accent);stroke:none;stroke-width:1;opacity:0.8}.txfig .g90s18{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g90s19{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:middle}.txfig .g90s20{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g90s21{stroke:var(--panelbd);stroke-width:1;stroke-dasharray:3 4;stroke-linecap:round}.txfig .g90s22{fill:var(--infobg);stroke:var(--infobd);stroke-width:0.8}.txfig .g90s23{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g90s24{fill:var(--s2);stroke:none}.txfig .g90s25{fill:var(--s2);stroke:none;stroke-width:1;opacity:0.22}.txfig .g90s26{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:13.0px}.txfig .g90s27{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g90s28{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g90s29{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start}.txfig .g90s30{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g90s31{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)}.txfig .g90s32{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;text-anchor:start}.txfig .g90s33{fill:var(--panel);stroke:var(--panelbd);stroke-width:1.1}.txfig .g90s34{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--accent)}.txfig .g90s35{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g90s36{fill:var(--soft);stroke:var(--grid);stroke-width:0.9}.txfig .g90s37{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g90s38{fill:var(--accent);stroke:none}.txfig .g90s39{fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600}.txfig .g90s40{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g90s41{fill:var(--cellbg);stroke:var(--grid);stroke-width:0.9}.txfig .g90s42{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g90s43{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;font-weight:600;text-anchor:end}.txfig .g90s44{fill:var(--drop);stroke:none;stroke-width:1;opacity:0.8}.txfig .g90s45{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start}.txfig .g90s46{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)}.txfig .g90s47{fill:var(--infobg);stroke:var(--s2);stroke-width:1.5}.txfig .g90s48{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18}.txfig .g90s49{fill:var(--mask);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g90s50{fill:var(--mask);stroke:none;stroke-width:1;opacity:0.8}.txfig .g90s51{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:middle}.txfig .g90s52{fill:var(--h0);stroke:none;stroke-width:1;opacity:0.85}.txfig .g90s53{fill:var(--keep);stroke:none;stroke-width:1;opacity:0.85}.txfig .g90s54{fill:var(--ink3);stroke:none;stroke-width:1;opacity:0.85}.txfig .g90s55{fill:var(--h3);stroke:none;stroke-width:1;opacity:0.85}.txfig .g90s56{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g90s57{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g90s58{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g90s59{fill:var(--s1);stroke:none}.txfig .g90s60{fill:var(--s1);stroke:none;stroke-width:1;opacity:0.22}.txfig .g90s61{fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11}.txfig .g90s62{stroke:var(--gridline);stroke-width:0.8;stroke-linecap:round}.txfig .g90s63{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g90s64{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:middle}.txfig .g90s65{fill:var(--padbg);stroke:var(--pad);stroke-width:0.8}.txfig .g90s66{fill:var(--cmt)}.txfig .g90s67{fill:var(--attr)}.txfig .g90s68{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g90s69{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g90s70{font-weight:600;fill:var(--accent)}.txfig .g90s71{fill:var(--mask);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;text-anchor:start}.txfig .g90s72{fill:var(--cellbg);stroke:var(--accent);stroke-width:2}.txfig .g90s73{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g90s74{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;font-weight:600;text-anchor:start}.txfig .g90s75{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g90s76{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13.2px}.txfig .g90s77{fill:var(--warnbg);stroke:var(--warnbd);stroke-width:1}.txfig .g90s78{fill:var(--warnbd);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9.5px;font-weight:600;text-anchor:middle}.txfig .g90s79{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start}.txfig .g90s80{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px}.txfig .g90s81{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11}.txfig .g90s82{fill:var(--cellbg);stroke:var(--drop);stroke-width:2}.txfig .g90s83{font-weight:600;fill:var(--ink2)}.txfig .g90s84{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g90s85{fill:var(--keep);stroke:none}.txfig .g90s86{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px}.txfig .g90s87{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--accent)}.txfig .g90s88{fill:var(--codebg);stroke:var(--codebd);stroke-width:1}.txfig .g90s89{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink3)}.txfig .g90s90{stroke:var(--ink3);stroke-width:1.3;stroke-linecap:round}.txfig .g90s91{fill:var(--ink3)}.txfig .g90s92{fill:var(--s3);stroke:none}.txfig .g90s93{fill:var(--s3);stroke:none;stroke-width:1;opacity:0.22}.txfig .g90s94{fill:var(--cellbg);stroke:var(--grid);stroke-width:1}.txfig .g90s95{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--pad)}.txfig .g90s96{fill:var(--keepbg);stroke:var(--accent);stroke-width:2}.txfig .g90s97{fill:var(--keepbg);stroke:var(--keep);stroke-width:0.9}.txfig .g90s98{fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle}.txfig .g90s99{fill:url(#hatch90);stroke:var(--accent);stroke-width:2}.txfig .g90s100{fill:var(--pad);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:middle}.txfig .g90s101{fill:var(--code);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:start}.txfig .g90s102{fill:var(--cellbg);stroke:var(--keep);stroke-width:2}.txfig .g90s103{fill:var(--infobg);stroke:var(--s1);stroke-width:1.5}.txfig .g90s104{fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.18}.txfig .g90s105{fill:var(--infobg);stroke:var(--infobd);stroke-width:1}.txfig .g90s106{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--accent)}</style>
+<defs><pattern id="hatch90" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash90" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="5325" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">DEEP DIVE 1 / 5</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="150.0" class="g90s3" textLength="204.1" lengthAdjust="spacing">Greedy decoding — </tspan><tspan x="354.1" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:19.7px;font-weight:600;fill:var(--hdfg)" textLength="118.8" lengthAdjust="spacing">generate()</tspan><tspan x="473.0" class="g90s3" textLength="155.9" lengthAdjust="spacing"> under the hood</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="123.6" lengthAdjust="spacing">decode one token → </tspan><tspan x="157.6" class="g90s46" textLength="103.0" lengthAdjust="spacing">_block_special</tspan><tspan x="260.6"> → </tspan><tspan x="280.8" class="g90s46" textLength="44.1" lengthAdjust="spacing">argmax</tspan><tspan x="324.9"> → </tspan><tspan x="345.2" class="g90s46" textLength="154.5" lengthAdjust="spacing">masked_fill(finished)</tspan><tspan x="499.6" textLength="347.6" lengthAdjust="spacing"> → cat → repeat · and the sampling branch of the same loop</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="382.1" lengthAdjust="spacing">The notebook’s own control flow, line by line, on a batch of two sentences.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="88.0" rx="8" class="g90s84"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V200.00 A7.50 7.50 0 0 0 39.50 207.07 Z" class="g90s85"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g90s3" textLength="310.1" lengthAdjust="spacing">One token at a time, always the most likely one</tspan></text>
+<rect x="1664.2" y="157.3" width="41.8" height="15.9" rx="3" class="g90s22"/>
+<text y="169.0" xml:space="preserve" class="g90s86"><tspan x="54.0" textLength="27.5" lengthAdjust="spacing">After</tspan><tspan x="81.5"> </tspan><tspan x="85.3" textLength="42.6" lengthAdjust="spacing">training</tspan><tspan x="128.0"> </tspan><tspan x="131.8" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="149.9"> </tspan><tspan x="153.8" textLength="35.4" lengthAdjust="spacing">model</tspan><tspan x="189.2"> </tspan><tspan x="193.1" textLength="28.2" lengthAdjust="spacing">does</tspan><tspan x="221.3"> </tspan><tspan x="225.1" textLength="18.1" lengthAdjust="spacing">not</tspan><tspan x="243.2"> </tspan><tspan x="247.1" textLength="27.4" lengthAdjust="spacing">write</tspan><tspan x="274.5"> </tspan><tspan x="278.4">a</tspan><tspan x="285.6"> </tspan><tspan x="289.5" textLength="56.4" lengthAdjust="spacing">sentence.</tspan><tspan x="345.9"> </tspan><tspan x="349.8" textLength="12.3" lengthAdjust="spacing">At</tspan><tspan x="362.1"> </tspan><tspan x="365.9" textLength="31.8" lengthAdjust="spacing">every</tspan><tspan x="397.7"> </tspan><tspan x="401.6" textLength="24.6" lengthAdjust="spacing">step</tspan><tspan x="426.2"> </tspan><tspan x="430.1" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="436.6"> </tspan><tspan x="440.4" textLength="30.3" lengthAdjust="spacing">gives</tspan><tspan x="470.8"> </tspan><tspan x="474.7">a</tspan><tspan x="481.9"> </tspan><tspan x="485.8" textLength="59.2" lengthAdjust="spacing">probability</tspan><tspan x="545.0"> </tspan><tspan x="548.9" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="559.7"> </tspan><tspan x="563.6" textLength="28.2" lengthAdjust="spacing">each</tspan><tspan x="591.8"> </tspan><tspan x="595.7" textLength="10.8" lengthAdjust="spacing">of</tspan><tspan x="606.5"> </tspan><tspan x="610.4" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="628.5"> </tspan><tspan x="632.4" class="g90s2" textLength="86.6" lengthAdjust="spacing">16,111 tokens</tspan><tspan x="718.9"> </tspan><tspan x="722.8" textLength="15.2" lengthAdjust="spacing">for</tspan><tspan x="738.0"> </tspan><tspan x="741.9" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="759.9"> </tspan><tspan x="763.8" textLength="34.7" lengthAdjust="spacing">NEXT</tspan><tspan x="798.5"> </tspan><tspan x="802.4" textLength="31.8" lengthAdjust="spacing">token</tspan><tspan x="834.2"> </tspan><tspan x="838.0" textLength="27.5" lengthAdjust="spacing">only.</tspan><tspan x="865.5"> </tspan><tspan x="869.4" textLength="42.6" lengthAdjust="spacing">Greedy</tspan><tspan x="912.0"> </tspan><tspan x="915.9" textLength="52.8" lengthAdjust="spacing">decoding</tspan><tspan x="968.6"> </tspan><tspan x="972.5" textLength="9.4" lengthAdjust="spacing">is</tspan><tspan x="981.9"> </tspan><tspan x="985.8" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1003.9"> </tspan><tspan x="1007.7" textLength="47.7" lengthAdjust="spacing">simplest</tspan><tspan x="1055.4"> </tspan><tspan x="1059.3" textLength="23.1" lengthAdjust="spacing">way</tspan><tspan x="1082.4"> </tspan><tspan x="1086.3" textLength="10.8" lengthAdjust="spacing">to</tspan><tspan x="1097.1"> </tspan><tspan x="1101.0" textLength="22.4" lengthAdjust="spacing">turn</tspan><tspan x="1123.4"> </tspan><tspan x="1127.3" textLength="21.7" lengthAdjust="spacing">that</tspan><tspan x="1149.0"> </tspan><tspan x="1152.9" textLength="21.0" lengthAdjust="spacing">into</tspan><tspan x="1173.8"> </tspan><tspan x="1177.7" textLength="24.6" lengthAdjust="spacing">text:</tspan><tspan x="1202.3"> </tspan><tspan x="1206.1" textLength="24.6" lengthAdjust="spacing">take</tspan><tspan x="1230.7"> </tspan><tspan x="1234.6" textLength="18.1" lengthAdjust="spacing">the</tspan><tspan x="1252.7"> </tspan><tspan x="1256.5" textLength="34.0" lengthAdjust="spacing">single</tspan><tspan x="1290.5"> </tspan><tspan x="1294.4" textLength="28.2" lengthAdjust="spacing">most</tspan><tspan x="1322.6"> </tspan><tspan x="1326.4" textLength="28.9" lengthAdjust="spacing">likely</tspan><tspan x="1355.3"> </tspan><tspan x="1359.2" textLength="35.4" lengthAdjust="spacing">token,</tspan><tspan x="1394.6"> </tspan><tspan x="1398.5" textLength="43.4" lengthAdjust="spacing">append</tspan><tspan x="1441.9"> </tspan><tspan x="1445.7" textLength="10.1" lengthAdjust="spacing">it,</tspan><tspan x="1455.9"> </tspan><tspan x="1459.7" textLength="25.3" lengthAdjust="spacing">feed</tspan><tspan x="1485.0"> </tspan><tspan x="1488.9" textLength="6.5" lengthAdjust="spacing">it</tspan><tspan x="1495.4"> </tspan><tspan x="1499.3" textLength="31.1" lengthAdjust="spacing">back,</tspan><tspan x="1530.4"> </tspan><tspan x="1534.2" textLength="21.7" lengthAdjust="spacing">and</tspan><tspan x="1555.9"> </tspan><tspan x="1559.8" textLength="20.2" lengthAdjust="spacing">ask</tspan><tspan x="1580.0"> </tspan><tspan x="1583.9" textLength="31.8" lengthAdjust="spacing">again</tspan><tspan x="1615.7"> </tspan><tspan x="1619.6">—</tspan><tspan x="1632.6"> </tspan><tspan x="1636.5" textLength="23.8" lengthAdjust="spacing">until</tspan><tspan x="1660.3"> </tspan><tspan x="1666.7" class="g90s87" textLength="36.8" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="1706.0">.</tspan><tspan x="1709.6"> </tspan><tspan x="1713.5" textLength="61.4" lengthAdjust="spacing">Everything</tspan><tspan x="1774.9"> </tspan><tspan x="1778.8" textLength="34.0" lengthAdjust="spacing">below</tspan><tspan x="1812.7"> </tspan><tspan x="1816.6" textLength="9.4" lengthAdjust="spacing">is</tspan></text>
+<rect x="766.1" y="176.3" width="41.8" height="15.9" rx="3" class="g90s65"/>
+<rect x="836.8" y="176.3" width="41.8" height="15.9" rx="3" class="g90s22"/>
+<text y="188.0" xml:space="preserve" class="g90s86"><tspan x="54.0" class="g90s46" textLength="147.1" lengthAdjust="spacing">Transformer.generate</tspan><tspan x="201.1" textLength="33.2" lengthAdjust="spacing"> from </tspan><tspan x="234.4" class="g90s2" textLength="32.2" lengthAdjust="spacing">cell 2</tspan><tspan x="266.5" textLength="30.3" lengthAdjust="spacing"> with </tspan><tspan x="296.9" class="g90s46" textLength="95.6" lengthAdjust="spacing">temperature=0</tspan><tspan x="392.5" textLength="373.6" lengthAdjust="spacing">, one line at a time: how the batch grows a column per step, why </tspan><tspan x="768.6" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--pad)" textLength="36.8" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="807.8" textLength="28.9" lengthAdjust="spacing"> and </tspan><tspan x="839.3" class="g90s87" textLength="36.8" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="878.5" textLength="554.9" lengthAdjust="spacing"> are removed first, and how a sentence that has finished keeps its place without writing anything.</tspan></text>
+<text y="241.2" xml:space="preserve" class="g90s76"><tspan x="34.0" textLength="16.1" lengthAdjust="spacing">An</tspan><tspan x="50.1"> </tspan><tspan x="54.5" textLength="55.0" lengthAdjust="spacing">untrained</tspan><tspan x="109.5"> </tspan><tspan x="113.8" textLength="35.9" lengthAdjust="spacing">model</tspan><tspan x="149.8"> </tspan><tspan x="154.1" textLength="39.6" lengthAdjust="spacing">cannot</tspan><tspan x="193.7"> </tspan><tspan x="198.1" textLength="30.8" lengthAdjust="spacing">show</tspan><tspan x="228.9"> </tspan><tspan x="233.2" textLength="21.3" lengthAdjust="spacing">any</tspan><tspan x="254.5"> </tspan><tspan x="258.8" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="269.8"> </tspan><tspan x="274.1" textLength="20.5" lengthAdjust="spacing">this</tspan><tspan x="294.7"> </tspan><tspan x="299.0">—</tspan><tspan x="312.2"> </tspan><tspan x="316.5" textLength="13.2" lengthAdjust="spacing">its</tspan><tspan x="329.7"> </tspan><tspan x="334.1" textLength="49.1" lengthAdjust="spacing">answers</tspan><tspan x="383.2"> </tspan><tspan x="387.5" textLength="37.4" lengthAdjust="spacing">repeat</tspan><tspan x="425.0"> </tspan><tspan x="429.3" textLength="22.0" lengthAdjust="spacing">one</tspan><tspan x="451.3"> </tspan><tspan x="455.6" textLength="28.6" lengthAdjust="spacing">word</tspan><tspan x="484.2"> </tspan><tspan x="488.6">—</tspan><tspan x="501.8"> </tspan><tspan x="506.1" textLength="13.9" lengthAdjust="spacing">so</tspan><tspan x="520.0"> </tspan><tspan x="524.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="542.7"> </tspan><tspan x="547.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.4px;font-weight:600;fill:var(--ink)" textLength="59.8" lengthAdjust="spacing">decode()</tspan><tspan x="606.8"> </tspan><tspan x="611.1" textLength="19.8" lengthAdjust="spacing">call</tspan><tspan x="630.9"> </tspan><tspan x="635.2" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="644.8"> </tspan><tspan x="649.1" textLength="50.6" lengthAdjust="spacing">replaced</tspan><tspan x="699.7"> </tspan><tspan x="704.0" textLength="13.9" lengthAdjust="spacing">by</tspan><tspan x="718.0"> </tspan><tspan x="722.3">a</tspan><tspan x="729.7"> </tspan><tspan x="734.0" textLength="30.8" lengthAdjust="spacing">small</tspan><tspan x="764.8"> </tspan><tspan x="769.1" textLength="51.4" lengthAdjust="spacing">hand-set</tspan><tspan x="820.5"> </tspan><tspan x="824.8" textLength="28.6" lengthAdjust="spacing">table</tspan><tspan x="853.4"> </tspan><tspan x="857.7" textLength="11.0" lengthAdjust="spacing">of</tspan><tspan x="868.8"> </tspan><tspan x="873.1" textLength="61.6" lengthAdjust="spacing">next-token</tspan><tspan x="934.7"> </tspan><tspan x="939.0" textLength="70.4" lengthAdjust="spacing">probabilities</tspan><tspan x="1009.5"> </tspan><tspan x="1013.8" textLength="46.2" lengthAdjust="spacing">(section</tspan></text>
+<text y="261.0" xml:space="preserve" class="g90s76"><tspan x="34.0" textLength="16.9" lengthAdjust="spacing">A).</tspan><tspan x="50.9"> </tspan><tspan x="55.3" textLength="62.4" lengthAdjust="spacing">Everything</tspan><tspan x="117.7"> </tspan><tspan x="122.1" textLength="24.2" lengthAdjust="spacing">else</tspan><tspan x="146.4"> </tspan><tspan x="150.8" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="160.3"> </tspan><tspan x="164.8" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="183.1"> </tspan><tspan x="187.6" textLength="68.8" lengthAdjust="spacing">notebook’s</tspan><tspan x="256.4"> </tspan><tspan x="260.9" textLength="28.6" lengthAdjust="spacing">loop,</tspan><tspan x="289.5"> </tspan><tspan x="294.0" textLength="69.0" lengthAdjust="spacing">unchanged:</tspan><tspan x="363.0"> </tspan><tspan x="367.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="385.8"> </tspan><tspan x="390.2" textLength="32.3" lengthAdjust="spacing">same</tspan><tspan x="422.5"> </tspan><tspan x="427.0" textLength="47.0" lengthAdjust="spacing">tensors,</tspan><tspan x="473.9"> </tspan><tspan x="478.4" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="496.7"> </tspan><tspan x="501.2" textLength="32.3" lengthAdjust="spacing">same</tspan><tspan x="533.4"> </tspan><tspan x="537.9" textLength="34.5" lengthAdjust="spacing">order,</tspan><tspan x="572.4"> </tspan><tspan x="576.8" textLength="18.3" lengthAdjust="spacing">the</tspan><tspan x="595.2"> </tspan><tspan x="599.6" textLength="32.3" lengthAdjust="spacing">same</tspan><tspan x="631.9"> </tspan><tspan x="636.4" textLength="44.7" lengthAdjust="spacing">checks.</tspan><tspan x="681.1"> </tspan><tspan x="685.6" class="g90s2" textLength="39.7" lengthAdjust="spacing">Row 0</tspan><tspan x="725.2"> </tspan><tspan x="729.7" textLength="49.9" lengthAdjust="spacing">decodes</tspan><tspan x="779.6"> </tspan><tspan x="784.1">a</tspan><tspan x="791.4"> </tspan><tspan x="795.9" textLength="57.2" lengthAdjust="spacing">sentence;</tspan><tspan x="853.1"> </tspan><tspan x="857.5" class="g90s2" textLength="34.2" lengthAdjust="spacing">row 1</tspan><tspan x="891.8"> </tspan><tspan x="896.2" textLength="9.5" lengthAdjust="spacing">is</tspan><tspan x="905.7"> </tspan><tspan x="910.2">a</tspan><tspan x="917.5"> </tspan><tspan x="922.0" textLength="29.3" lengthAdjust="spacing">short</tspan><tspan x="951.3"> </tspan><tspan x="955.8" textLength="22.0" lengthAdjust="spacing">one</tspan><tspan x="977.8"> </tspan><tspan x="982.3" textLength="22.0" lengthAdjust="spacing">that</tspan><tspan x="1004.3"> </tspan><tspan x="1008.8" textLength="27.1" lengthAdjust="spacing">says</tspan><tspan x="1035.9"> </tspan><tspan x="1040.4" textLength="19.6" lengthAdjust="spacing">&quot;hi&quot;</tspan></text>
+<text y="280.8" xml:space="preserve" class="g90s76"><tspan x="34.0" textLength="339.0" lengthAdjust="spacing">and stops, so you can watch a finished row being padded.</tspan></text>
+<rect x="1086.0" y="228.0" width="760.0" height="289.5" rx="6" class="g90s88"/>
+<text y="246.0" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600"><tspan x="1096.0" class="g90s89" textLength="11.9" lengthAdjust="spacing">v2</tspan><tspan x="1107.9" class="g90s3"> · </tspan><tspan x="1117.2" class="g90s89" textLength="118.8" lengthAdjust="spacing">Transformer.generate</tspan><tspan x="1236.0" class="g90s3" textLength="45.8" lengthAdjust="spacing">, the loop</tspan></text>
+<text x="1096.0" y="269.0" xml:space="preserve" class="g90s26"><tspan class="g90s7">for</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">step</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">in</tspan><tspan class="g90s1"> </tspan><tspan class="g90s4">range</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">max_len</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">-</tspan><tspan class="g90s1"> </tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">:</tspan></text>
+<text x="1096.0" y="288.5" xml:space="preserve" class="g90s26"><tspan class="g90s1">    </tspan><tspan class="g90s1">out</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">decode</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">tgt</tspan><tspan class="g90s0">[</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">]</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">enc_out</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">src_mask</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">None</tspan><tspan class="g90s0">,</tspan></text>
+<text x="1096.0" y="308.0" xml:space="preserve" class="g90s26"><tspan class="g90s1">                      </tspan><tspan class="g90s1">return_attn</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1">return_attn</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">cache</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1">cache</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">start_pos</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1">step</tspan><tspan class="g90s0">)</tspan></text>
+<text x="1096.0" y="327.5" xml:space="preserve" class="g90s26"><tspan class="g90s1">    </tspan><tspan class="g90s1">logits</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">cross</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">out</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">if</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">return_attn</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">else</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">out</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">None</tspan><tspan class="g90s0">)</tspan></text>
+<text x="1096.0" y="347.0" xml:space="preserve" class="g90s26"><tspan class="g90s1">    </tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">_block_special</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">logits</tspan><tspan class="g90s0">[</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">]</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">float</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">sos_idx</tspan><tspan class="g90s0">)</tspan></text>
+<text x="1096.0" y="366.5" xml:space="preserve" class="g90s26"><tspan class="g90s1">    </tspan><tspan class="g90s7">if</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">temperature</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">&gt;</tspan><tspan class="g90s1"> </tspan><tspan class="g90s13">0</tspan><tspan class="g90s0">:</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">.</tspan><tspan class="g90s0">.</tspan><tspan class="g90s0">.</tspan><tspan class="g90s1">                   </tspan><tspan class="g90s66"># section D</tspan></text>
+<text x="1096.0" y="386.0" xml:space="preserve" class="g90s26"><tspan class="g90s1">    </tspan><tspan class="g90s7">else</tspan><tspan class="g90s0">:</tspan></text>
+<text x="1096.0" y="405.5" xml:space="preserve" class="g90s26"><tspan class="g90s1">        </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">argmax</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">keepdim</tspan><tspan class="g90s0">=</tspan><tspan class="g90s7">True</tspan><tspan class="g90s0">)</tspan></text>
+<text x="1096.0" y="425.0" xml:space="preserve" class="g90s26"><tspan class="g90s1">    </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">masked_fill</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">finished</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">unsqueeze</tspan><tspan class="g90s0">(</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s67">pad_idx</tspan><tspan class="g90s0">)</tspan></text>
+<text x="1096.0" y="444.5" xml:space="preserve" class="g90s26"><tspan class="g90s1">    </tspan><tspan class="g90s1">finished</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">|</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">squeeze</tspan><tspan class="g90s0">(</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">eos_idx</tspan></text>
+<text x="1096.0" y="464.0" xml:space="preserve" class="g90s26"><tspan class="g90s1">    </tspan><tspan class="g90s1">tgt</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">torch</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">cat</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">[</tspan><tspan class="g90s1">tgt</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">]</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">dim</tspan><tspan class="g90s0">=</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan></text>
+<text x="1096.0" y="483.5" xml:space="preserve" class="g90s26"><tspan class="g90s1">    </tspan><tspan class="g90s7">if</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">finished</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">all</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">:</tspan></text>
+<text x="1096.0" y="503.0" xml:space="preserve" class="g90s26"><tspan class="g90s1">        </tspan><tspan class="g90s7">break</tspan></text>
+<rect x="34.0" y="539.5" width="1812.0" height="30.0" rx="6" class="g90s30"/>
+<path d="M38.50 540.21 A5.50 5.50 0 0 0 34.50 545.50 V563.50 A5.50 5.50 0 0 0 38.50 568.79 Z" class="g90s38"/>
+<text y="559.5" xml:space="preserve" class="g90s56"><tspan x="50.0" class="g90s3" textLength="143.2" lengthAdjust="spacing">A · The hand-set model</tspan></text>
+<text y="559.5" xml:space="preserve" class="g90s57"><tspan x="211.2" textLength="27.5" lengthAdjust="spacing">what </tspan><tspan x="238.7" class="g90s20" textLength="52.1" lengthAdjust="spacing">decode()</tspan><tspan x="290.8" textLength="133.4" lengthAdjust="spacing"> &quot;says&quot; in this walkthrough</tspan></text>
+<text y="587.5" xml:space="preserve" class="g90s58"><tspan x="38.0" class="g90s3" textLength="170.4" lengthAdjust="spacing">A table in place of the network</tspan></text>
+<rect x="1194.4" y="594.7" width="39.0" height="14.6" rx="3" class="g90s22"/>
+<rect x="1260.0" y="594.7" width="39.0" height="14.6" rx="3" class="g90s65"/>
+<text y="605.5" xml:space="preserve" class="g90s42"><tspan x="38.0" textLength="888.4" lengthAdjust="spacing">Each row is a prefix — the tokens written so far — and the probability of every possible next token. The real model computes such a row with two decoder layers and a </tspan><tspan x="926.4" class="g90s2" textLength="65.7" lengthAdjust="spacing">16,111-way</tspan><tspan x="992.1"> </tspan><tspan x="995.5" class="g90s31" textLength="47.5" lengthAdjust="spacing">softmax</tspan><tspan x="1043.0" textLength="151.4" lengthAdjust="spacing">; here it is simply looked up. </tspan><tspan x="1196.9" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--accent)" textLength="34.0" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="1233.3" textLength="26.7" lengthAdjust="spacing"> and </tspan><tspan x="1262.5" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--pad)" textLength="34.0" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="1299.0" textLength="71.4" lengthAdjust="spacing"> also get raw </tspan><tspan x="1370.4" class="g90s31" textLength="40.7" lengthAdjust="spacing">scores</tspan><tspan x="1411.1" textLength="182.6" lengthAdjust="spacing">, as a real model’s would, so that </tspan><tspan x="1593.7" class="g90s31" textLength="95.1" lengthAdjust="spacing">_block_special</tspan><tspan x="1688.8" textLength="141.4" lengthAdjust="spacing"> has something to remove.</tspan></text>
+<rect x="34.0" y="626.9" width="123.9" height="18.0" rx="9" class="g90s77"/>
+<text x="96.0" y="639.4" class="g90s78">HAND-SET EXAMPLE</text>
+<rect x="34.0" y="652.9" width="1812.0" height="24.0" rx="4" class="g90s30"/>
+<text y="668.9" xml:space="preserve" class="g90s23"><tspan x="43.0" class="g90s3" textLength="33.4" lengthAdjust="spacing">source</tspan></text>
+<text y="668.9" xml:space="preserve" class="g90s23"><tspan x="163.0" class="g90s3" textLength="63.7" lengthAdjust="spacing">written so far</tspan></text>
+<text y="668.9" xml:space="preserve" class="g90s23"><tspan x="543.0" class="g90s3" textLength="141.1" lengthAdjust="spacing">next token and its probability</tspan></text>
+<text y="692.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="692.6" class="g90s6">(nothing yet)</text>
+<text x="543.0" y="692.6" class="g90s6">the 0.50   a 0.40   one 0.10</text>
+<line x1="34.0" y1="700.9" x2="1846.0" y2="700.9" class="g90s5"/>
+<rect x="34.0" y="700.9" width="1812.0" height="24.0" rx="0" class="g90s27"/>
+<text y="716.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="716.6" class="g90s6">the</text>
+<text x="543.0" y="716.6" class="g90s6">cat 0.36   dog 0.34   sat 0.30</text>
+<line x1="34.0" y1="724.9" x2="1846.0" y2="724.9" class="g90s5"/>
+<text y="740.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="740.6" class="g90s6">a</text>
+<text x="543.0" y="740.6" class="g90s6">dog 0.80   cat 0.15   sat 0.05</text>
+<line x1="34.0" y1="748.9" x2="1846.0" y2="748.9" class="g90s5"/>
+<rect x="34.0" y="748.9" width="1812.0" height="24.0" rx="0" class="g90s27"/>
+<text y="764.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="764.6" class="g90s6">one</text>
+<text x="543.0" y="764.6" class="g90s6">dog 0.60   cat 0.40</text>
+<line x1="34.0" y1="772.9" x2="1846.0" y2="772.9" class="g90s5"/>
+<text y="788.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="788.6" class="g90s6">the cat</text>
+<text x="543.0" y="788.6" class="g90s6">sat 0.50   slept 0.40   ran 0.10</text>
+<line x1="34.0" y1="796.9" x2="1846.0" y2="796.9" class="g90s5"/>
+<rect x="34.0" y="796.9" width="1812.0" height="24.0" rx="0" class="g90s27"/>
+<text y="812.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="812.6" class="g90s6">the dog</text>
+<text x="543.0" y="812.6" class="g90s6">sat 0.60   ran 0.40</text>
+<line x1="34.0" y1="820.9" x2="1846.0" y2="820.9" class="g90s5"/>
+<text y="836.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="836.6" class="g90s6">a dog</text>
+<text x="543.0" y="836.6" class="g90s6">sat 0.45   &lt;EOS&gt; 0.42   ran 0.13</text>
+<line x1="34.0" y1="844.9" x2="1846.0" y2="844.9" class="g90s5"/>
+<rect x="34.0" y="844.9" width="1812.0" height="24.0" rx="0" class="g90s27"/>
+<text y="860.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="860.6" class="g90s6">a cat</text>
+<text x="543.0" y="860.6" class="g90s6">sat 0.70   &lt;EOS&gt; 0.30</text>
+<line x1="34.0" y1="868.9" x2="1846.0" y2="868.9" class="g90s5"/>
+<text y="884.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="884.6" class="g90s6">the cat sat</text>
+<text x="543.0" y="884.6" class="g90s6">&lt;EOS&gt; 0.70   on 0.20   down 0.10</text>
+<line x1="34.0" y1="892.9" x2="1846.0" y2="892.9" class="g90s5"/>
+<rect x="34.0" y="892.9" width="1812.0" height="24.0" rx="0" class="g90s27"/>
+<text y="908.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="908.6" class="g90s6">the cat slept</text>
+<text x="543.0" y="908.6" class="g90s6">&lt;EOS&gt; 0.90   on 0.10</text>
+<line x1="34.0" y1="916.9" x2="1846.0" y2="916.9" class="g90s5"/>
+<text y="932.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S1</tspan></text>
+<text x="163.0" y="932.6" class="g90s6">a dog sat</text>
+<text x="543.0" y="932.6" class="g90s6">&lt;EOS&gt; 0.85   down 0.10   on 0.05</text>
+<line x1="34.0" y1="940.9" x2="1846.0" y2="940.9" class="g90s5"/>
+<rect x="34.0" y="940.9" width="1812.0" height="24.0" rx="0" class="g90s27"/>
+<text y="956.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S2</tspan></text>
+<text x="163.0" y="956.6" class="g90s6">(nothing yet)</text>
+<text x="543.0" y="956.6" class="g90s6">hi 0.90   the 0.10</text>
+<line x1="34.0" y1="964.9" x2="1846.0" y2="964.9" class="g90s5"/>
+<text y="980.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s14" textLength="12.4" lengthAdjust="spacing">S2</tspan></text>
+<text x="163.0" y="980.6" class="g90s6">hi</text>
+<text x="543.0" y="980.6" class="g90s6">&lt;EOS&gt; 0.80   hi 0.20</text>
+<line x1="34.0" y1="988.9" x2="1846.0" y2="988.9" class="g90s5"/>
+<rect x="34.0" y="988.9" width="1812.0" height="24.0" rx="0" class="g90s27"/>
+<text y="1004.6" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s3" textLength="22.7" lengthAdjust="spacing">both</tspan></text>
+<text x="163.0" y="1004.6" class="g90s6">anything else</text>
+<text x="543.0" y="1004.6" class="g90s6">&lt;EOS&gt; 0.60   on 0.20   down 0.20</text>
+<line x1="34.0" y1="1012.9" x2="1846.0" y2="1012.9" class="g90s5"/>
+<rect x="34.0" y="676.9" width="1812.0" height="336.0" rx="0" class="g90s69"/>
+<line x1="154.0" y1="676.9" x2="154.0" y2="1012.9" class="g90s5"/>
+<line x1="534.0" y1="676.9" x2="534.0" y2="1012.9" class="g90s5"/>
+<rect x="34.0" y="1036.9" width="1812.0" height="30.0" rx="6" class="g90s30"/>
+<path d="M38.50 1037.61 A5.50 5.50 0 0 0 34.50 1042.90 V1060.90 A5.50 5.50 0 0 0 38.50 1066.19 Z" class="g90s38"/>
+<text y="1056.9" xml:space="preserve" class="g90s56"><tspan x="50.0" class="g90s3" textLength="126.4" lengthAdjust="spacing">B · The call stack — </tspan><tspan x="176.4" class="g90s46" textLength="73.6" lengthAdjust="spacing">generate()</tspan><tspan x="249.9" class="g90s3" textLength="82.0" lengthAdjust="spacing">, step by step</tspan></text>
+<text y="1056.9" xml:space="preserve" class="g90s57"><tspan x="349.9" textLength="81.2" lengthAdjust="spacing">a batch of two · </tspan><tspan x="431.1" class="g90s20" textLength="71.6" lengthAdjust="spacing">max_len = 8</tspan><tspan x="502.7"> · </tspan><tspan x="512.3" class="g90s20" textLength="97.6" lengthAdjust="spacing">temperature = 0</tspan></text>
+<text y="1093.9" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;font-weight:600"><tspan x="34.0" class="g90s3" textLength="535.2" lengthAdjust="spacing">Order of execution — where the stack goes, cell by cell · each colour continues in the frames below</tspan></text>
+<rect x="34.0" y="1102.9" width="589.3" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s1);stroke-width:1.4"/>
+<path d="M35.13 1107.60 A6.30 6.30 0 0 1 41.00 1103.60 H616.33 A6.30 6.30 0 0 1 622.20 1107.60 Z" class="g90s59"/>
+<rect x="43.0" y="1114.9" width="19.0" height="16.0" rx="4" class="g90s60"/>
+<text x="52.5" y="1126.9" style="fill:var(--s1);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">1</text>
+<text x="68.0" y="1126.9" class="g90s79">cell 9 · exact_match</text>
+<text x="45.0" y="1156.9" style="fill:var(--s1);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 1</text>
+<line x1="626.3" y1="1133.9" x2="637.3" y2="1133.9" class="g90s90"/>
+<path d="M642.3 1133.9 L635.5 1137.0 L635.5 1130.8 Z" class="g90s91"/>
+<rect x="645.3" y="1102.9" width="589.3" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s2);stroke-width:1.4"/>
+<path d="M646.47 1107.60 A6.30 6.30 0 0 1 652.33 1103.60 H1227.67 A6.30 6.30 0 0 1 1233.53 1107.60 Z" class="g90s24"/>
+<rect x="654.3" y="1114.9" width="19.0" height="16.0" rx="4" class="g90s25"/>
+<text x="663.8" y="1126.9" style="fill:var(--s2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">2</text>
+<text x="679.3" y="1126.9" class="g90s79">cell 2 · generate</text>
+<text x="656.3" y="1156.9" style="fill:var(--s2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frames 2–14</text>
+<line x1="1237.7" y1="1133.9" x2="1248.7" y2="1133.9" class="g90s90"/>
+<path d="M1253.7 1133.9 L1246.8 1137.0 L1246.8 1130.8 Z" class="g90s91"/>
+<rect x="1256.7" y="1102.9" width="589.3" height="62.0" rx="7" style="fill:var(--panel);stroke:var(--s3);stroke-width:1.4"/>
+<path d="M1257.80 1107.60 A6.30 6.30 0 0 1 1263.67 1103.60 H1839.00 A6.30 6.30 0 0 1 1844.87 1107.60 Z" class="g90s92"/>
+<rect x="1265.7" y="1114.9" width="19.0" height="16.0" rx="4" class="g90s93"/>
+<text x="1275.2" y="1126.9" style="fill:var(--s3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:middle">3</text>
+<text x="1290.7" y="1126.9" class="g90s79">cell 9 · exact_match</text>
+<text x="1267.7" y="1156.9" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.5px;font-weight:600;text-anchor:start">frame 15</text>
+<rect x="34.0" y="1186.9" width="1812.0" height="118.0" rx="8" style="fill:var(--soft);stroke:var(--hair);stroke-width:1"/>
+<path d="M38.50 1188.27 A7.50 7.50 0 0 0 34.50 1194.90 V1296.90 A7.50 7.50 0 0 0 38.50 1303.53 Z" class="g90s38"/>
+<text x="52.0" y="1206.9" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">How to read a frame</text>
+<text y="1206.9" xml:space="preserve" class="g90s80"><tspan x="187.8" textLength="184.6" lengthAdjust="spacing">every frame below has these six parts</tspan></text>
+<rect x="52.0" y="1216.4" width="22.0" height="17.0" rx="4" style="fill:var(--accent);stroke:none;stroke-width:1;opacity:0.22"/>
+<text x="63.0" y="1228.9" class="g90s19">7</text>
+<text x="52.0" y="1262.4" class="g90s32">the order this line ran, counting from the top of the page</text>
+<text x="350.7" y="1228.9" style="fill:var(--accent);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;font-weight:600;text-anchor:start">cell 2 · EncoderLayer.forward</text>
+<text x="350.7" y="1262.4" class="g90s32">the cell the line lives in and the function it sits inside — a stack</text>
+<text x="350.7" y="1274.9" class="g90s32">moves from cell to cell. &lt;module&gt; means no function at all</text>
+<text x="649.3" y="1228.9" xml:space="preserve" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px"><tspan class="g90s1">x</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">norm1</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">x</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">+</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">.</tspan><tspan class="g90s0">.</tspan><tspan class="g90s0">.</tspan><tspan class="g90s0">)</tspan></text>
+<text x="649.3" y="1262.4" class="g90s32">the line of Python that actually ran, in the order it ran</text>
+<text x="948.0" y="1228.9" style="fill:var(--accent);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;font-weight:600;text-anchor:start">the similarity table</text>
+<text x="948.0" y="1262.4" class="g90s32">the note on the right edge — a plain-language name for what</text>
+<text x="948.0" y="1274.9" class="g90s32">this line achieves. Only the frames that matter most carry one</text>
+<rect x="1246.7" y="1215.9" width="89.0" height="18.0" rx="4" class="g90s94"/>
+<text x="1291.2" y="1228.7" style="fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">(2, 4, 7, 7)</text>
+<rect x="1341.7" y="1215.9" width="95.2" height="18.0" rx="4" style="fill:var(--codebg);stroke:none;stroke-width:1"/>
+<text x="1389.3" y="1228.7" style="fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle">torch.float32</text>
+<text x="1246.7" y="1262.4" class="g90s32">the size of the tensor that line produced, and the kind of number</text>
+<text x="1246.7" y="1274.9" class="g90s32">it holds</text>
+<rect x="1545.3" y="1215.9" width="44.0" height="18.0" rx="4" style="fill:var(--seqAbg);stroke:var(--seqA);stroke-width:1"/>
+<text x="1567.3" y="1228.9" style="fill:var(--seqA);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ A</text>
+<rect x="1595.3" y="1215.9" width="44.0" height="18.0" rx="4" style="fill:var(--seqBbg);stroke:var(--seqB);stroke-width:1"/>
+<text x="1617.3" y="1228.9" style="fill:var(--seqB);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:8.5px;font-weight:600;text-anchor:middle">SEQ B</text>
+<text x="1545.3" y="1262.4" class="g90s32">right of the dashed line: that tensor&#x27;s real values, both sentences</text>
+<text x="1545.3" y="1274.9" class="g90s32">at once</text>
+<rect x="34.0" y="1318.9" width="1812.0" height="81.0" rx="8" class="g90s33"/>
+<path d="M39.55 1319.86 A7.45 7.45 0 0 0 34.55 1326.90 V1391.90 A7.45 7.45 0 0 0 39.55 1398.94 Z" class="g90s59"/>
+<rect x="44.0" y="1328.4" width="22.0" height="17.0" rx="4" class="g90s60"/>
+<text x="55.0" y="1340.9" class="g90s19">1</text>
+<text x="72.0" y="1340.9" class="g90s68">cell 9 · exact_match</text>
+<text x="720.0" y="1377.4" class="g90s81">01</text>
+<text x="72.0" y="1358.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">out</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">_</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">model</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">generate</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">src</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">SOS</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">EOS</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">max_len</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1">MAX_SEQ_LEN</tspan><tspan class="g90s0">)</tspan></text>
+<text y="1380.9" xml:space="preserve" class="g90s9"><tspan x="72.0" textLength="233.3" lengthAdjust="spacing">Two sources in one padded batch, exactly as </tspan><tspan x="305.3" class="g90s20" textLength="71.6" lengthAdjust="spacing">exact_match</tspan><tspan x="376.9" textLength="45.4" lengthAdjust="spacing"> builds it.</tspan></text>
+<line x1="736.0" y1="1328.9" x2="736.0" y2="1389.9" class="g90s21"/>
+<rect x="60.0" y="1409.9" width="1786.0" height="114.0" rx="8" class="g90s33"/>
+<path d="M65.55 1410.86 A7.45 7.45 0 0 0 60.55 1417.90 V1515.90 A7.45 7.45 0 0 0 65.55 1522.94 Z" class="g90s24"/>
+<rect x="70.0" y="1419.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="1431.9" class="g90s19">2</text>
+<text x="98.0" y="1431.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text x="720.0" y="1484.9" class="g90s61">02</text>
+<text x="98.0" y="1449.9" xml:space="preserve" class="g90s10"><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">eval</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">)</tspan></text>
+<text x="98.0" y="1466.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">enc_out</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">encode</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">src</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">src_mask</tspan><tspan class="g90s0">)</tspan></text>
+<text y="1488.9" xml:space="preserve" class="g90s9"><tspan x="98.0" class="g90s20" textLength="45.6" lengthAdjust="spacing">Dropout</tspan><tspan x="143.6" textLength="486.4" lengthAdjust="spacing"> off; the encoder runs once and its output is reused by every step (on the real model — here the</tspan></text>
+<text y="1504.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="127.2" lengthAdjust="spacing">table needs no encoder).</tspan></text>
+<line x1="736.0" y1="1419.9" x2="736.0" y2="1513.9" class="g90s21"/>
+<rect x="60.0" y="1533.9" width="1786.0" height="122.0" rx="8" class="g90s33"/>
+<path d="M65.55 1534.86 A7.45 7.45 0 0 0 60.55 1541.90 V1647.90 A7.45 7.45 0 0 0 65.55 1654.94 Z" class="g90s24"/>
+<rect x="70.0" y="1543.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="1555.9" class="g90s19">3</text>
+<text x="98.0" y="1555.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text x="720.0" y="1612.9" class="g90s61">03</text>
+<text x="98.0" y="1573.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">tgt</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">torch</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">full</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">B</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">sos_idx</tspan><tspan class="g90s0">)</tspan></text>
+<text x="98.0" y="1590.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">finished</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">torch</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">zeros</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">B</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">dtype</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1">torch</tspan><tspan class="g90s0">.</tspan><tspan class="g90s67">bool</tspan><tspan class="g90s0">)</tspan></text>
+<rect x="217.5" y="1602.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="1612.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="119.5" lengthAdjust="spacing">Every answer starts as </tspan><tspan x="220.0" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="255.0" textLength="98.4" lengthAdjust="spacing">; no row is finished.</tspan></text>
+<rect x="98.0" y="1620.9" width="53.4" height="18.0" rx="4" class="g90s94"/>
+<text x="124.7" y="1633.7" class="g90s35">(2, 1)</text>
+<line x1="736.0" y1="1543.9" x2="736.0" y2="1645.9" class="g90s21"/>
+<text x="750.0" y="1559.9" class="g90s29">tgt  (2, 1)</text>
+<text x="750.0" y="1584.9" class="g90s11">row 0</text>
+<rect x="802.0" y="1569.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="1584.9" class="g90s37">&lt;SOS&gt;</text>
+<text x="868.6" y="1584.9" class="g90s11">finished = False</text>
+<text x="750.0" y="1614.9" class="g90s11">row 1</text>
+<rect x="802.0" y="1599.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="1614.9" class="g90s37">&lt;SOS&gt;</text>
+<text x="868.6" y="1614.9" class="g90s11">finished = False</text>
+<rect x="60.0" y="1665.9" width="1786.0" height="152.0" rx="8" class="g90s47"/>
+<path d="M65.75 1667.01 A7.25 7.25 0 0 0 60.75 1673.90 V1809.90 A7.25 7.25 0 0 0 65.75 1816.79 Z" class="g90s24"/>
+<rect x="70.0" y="1675.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="1687.9" class="g90s19">4</text>
+<text x="98.0" y="1687.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text y="1687.9" xml:space="preserve" class="g90s39"><tspan x="691.1" class="g90s70" textLength="28.9" lengthAdjust="spacing">step 0</tspan></text>
+<text x="720.0" y="1759.9" class="g90s48">04</text>
+<text x="98.0" y="1705.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">out</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">decode</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">tgt</tspan><tspan class="g90s0">[</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">]</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">enc_out</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">src_mask</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">None</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">cache</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1">cache</tspan><tspan class="g90s0">,</tspan></text>
+<text x="98.0" y="1722.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">    </tspan><tspan class="g90s1">start_pos</tspan><tspan class="g90s0">=</tspan><tspan class="g90s13">0</tspan><tspan class="g90s0">)</tspan></text>
+<rect x="248.8" y="1734.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="1744.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="150.8" lengthAdjust="spacing">Only the last column goes in: </tspan><tspan x="251.3" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="286.4" textLength="191.8" lengthAdjust="spacing"> for both rows. Out comes one row of </tspan><tspan x="478.1" class="g90s20" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="517.2" textLength="72.9" lengthAdjust="spacing"> per sentence.</tspan></text>
+<rect x="391.0" y="1750.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="1760.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="121.5" lengthAdjust="spacing">Softmaxed as they are, </tspan><tspan x="219.5" class="g90s2" textLength="29.8" lengthAdjust="spacing">row 0</tspan><tspan x="249.3" textLength="141.8" lengthAdjust="spacing">’s second choice would be </tspan><tspan x="393.5" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="428.6" textLength="192.4" lengthAdjust="spacing"> itself — a token that can only start an</tspan></text>
+<text y="1776.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="40.3" lengthAdjust="spacing">answer.</tspan></text>
+<line x1="736.0" y1="1675.9" x2="736.0" y2="1807.9" class="g90s21"/>
+<text x="750.0" y="1691.9" class="g90s29">raw scores as probabilities — before _block_special</text>
+<text x="750.0" y="1714.9" class="g90s11">row 0</text>
+<text x="820.0" y="1733.9" class="g90s16">the</text>
+<rect x="828.0" y="1723.9" width="127.0" height="13.0" rx="2" class="g90s17"/>
+<text x="961.0" y="1734.9" class="g90s12">0.333</text>
+<text x="820.0" y="1753.9" class="g90s49">&lt;SOS&gt;</text>
+<rect x="828.0" y="1743.9" width="114.3" height="13.0" rx="2" class="g90s50"/>
+<text x="948.3" y="1754.9" class="g90s12">0.300</text>
+<text x="820.0" y="1773.9" class="g90s16">a</text>
+<rect x="828.0" y="1763.9" width="101.6" height="13.0" rx="2" class="g90s17"/>
+<text x="935.6" y="1774.9" class="g90s12">0.267</text>
+<text x="820.0" y="1793.9" class="g90s16">one</text>
+<rect x="828.0" y="1783.9" width="25.4" height="13.0" rx="2" class="g90s17"/>
+<text x="859.4" y="1794.9" class="g90s12">0.067</text>
+<text x="1281.0" y="1714.9" class="g90s11">row 1</text>
+<text x="1351.0" y="1733.9" class="g90s16">hi</text>
+<rect x="1359.0" y="1723.9" width="228.6" height="13.0" rx="2" class="g90s17"/>
+<text x="1593.6" y="1734.9" class="g90s12">0.600</text>
+<text x="1351.0" y="1753.9" class="g90s49">&lt;SOS&gt;</text>
+<rect x="1359.0" y="1743.9" width="114.3" height="13.0" rx="2" class="g90s50"/>
+<text x="1479.3" y="1754.9" class="g90s12">0.300</text>
+<text x="1351.0" y="1773.9" class="g90s16">the</text>
+<rect x="1359.0" y="1763.9" width="25.4" height="13.0" rx="2" class="g90s17"/>
+<text x="1390.4" y="1774.9" class="g90s12">0.067</text>
+<text x="1351.0" y="1793.9" class="g90s49">&lt;PAD&gt;</text>
+<rect x="1359.0" y="1783.9" width="12.7" height="13.0" rx="2" class="g90s50"/>
+<text x="1377.7" y="1794.9" class="g90s12">0.033</text>
+<rect x="60.0" y="1827.9" width="1786.0" height="172.0" rx="8" class="g90s33"/>
+<path d="M65.55 1828.86 A7.45 7.45 0 0 0 60.55 1835.90 V1991.90 A7.45 7.45 0 0 0 65.55 1998.94 Z" class="g90s24"/>
+<rect x="70.0" y="1837.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="1849.9" class="g90s19">5</text>
+<text x="98.0" y="1849.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text x="720.0" y="1931.9" class="g90s61">05</text>
+<text x="98.0" y="1867.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_logits</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">_block_special</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">logits</tspan><tspan class="g90s0">[</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">]</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">float</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">sos_idx</tspan><tspan class="g90s0">)</tspan></text>
+<rect x="98.0" y="1879.6" width="37.5" height="14.0" rx="3" class="g90s65"/>
+<rect x="161.1" y="1879.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="1889.9" xml:space="preserve" class="g90s9"><tspan x="100.5" class="g90s95" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="135.5" textLength="25.6" lengthAdjust="spacing"> and </tspan><tspan x="163.6" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="198.7" textLength="189.6" lengthAdjust="spacing"> are set to −∞, so they get probability </tspan><tspan x="388.2" class="g90s2">0</tspan><tspan x="395.0" textLength="158.5" lengthAdjust="spacing"> and the rest share everything: </tspan><tspan x="553.5" class="g90s2" textLength="29.8" lengthAdjust="spacing">row 0</tspan><tspan x="583.4" textLength="51.8" lengthAdjust="spacing"> is back to</tspan></text>
+<text y="1905.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="60.0" lengthAdjust="spacing">the table’s </tspan><tspan x="158.0" class="g90s2" textLength="91.5" lengthAdjust="spacing">0.50 / 0.40 / 0.10</tspan><tspan x="249.5">.</tspan></text>
+<line x1="736.0" y1="1837.9" x2="736.0" y2="1989.9" class="g90s21"/>
+<text x="750.0" y="1853.9" class="g90s29">after _block_special</text>
+<text x="750.0" y="1876.9" class="g90s11">row 0</text>
+<text x="820.0" y="1895.9" class="g90s16">the</text>
+<rect x="828.0" y="1885.9" width="190.5" height="13.0" rx="2" class="g90s17"/>
+<text x="1024.5" y="1896.9" class="g90s12">0.500</text>
+<text x="820.0" y="1915.9" class="g90s16">a</text>
+<rect x="828.0" y="1905.9" width="152.4" height="13.0" rx="2" class="g90s17"/>
+<text x="986.4" y="1916.9" class="g90s12">0.400</text>
+<text x="820.0" y="1935.9" class="g90s16">one</text>
+<rect x="828.0" y="1925.9" width="38.1" height="13.0" rx="2" class="g90s17"/>
+<text x="872.1" y="1936.9" class="g90s12">0.100</text>
+<text x="820.0" y="1955.9" class="g90s49">&lt;SOS&gt;</text>
+<rect x="828.0" y="1945.9" width="2.0" height="13.0" rx="2" class="g90s50"/>
+<text x="836.0" y="1956.9" class="g90s71">0 · blocked</text>
+<text x="820.0" y="1975.9" class="g90s49">&lt;PAD&gt;</text>
+<rect x="828.0" y="1965.9" width="2.0" height="13.0" rx="2" class="g90s50"/>
+<text x="836.0" y="1976.9" class="g90s71">0 · blocked</text>
+<text x="1281.0" y="1876.9" class="g90s11">row 1</text>
+<text x="1351.0" y="1895.9" class="g90s16">hi</text>
+<rect x="1359.0" y="1885.9" width="342.9" height="13.0" rx="2" class="g90s17"/>
+<text x="1707.9" y="1896.9" class="g90s12">0.900</text>
+<text x="1351.0" y="1915.9" class="g90s16">the</text>
+<rect x="1359.0" y="1905.9" width="38.1" height="13.0" rx="2" class="g90s17"/>
+<text x="1403.1" y="1916.9" class="g90s12">0.100</text>
+<text x="1351.0" y="1935.9" class="g90s49">&lt;SOS&gt;</text>
+<rect x="1359.0" y="1925.9" width="2.0" height="13.0" rx="2" class="g90s50"/>
+<text x="1367.0" y="1936.9" class="g90s71">0 · blocked</text>
+<text x="1351.0" y="1955.9" class="g90s49">&lt;PAD&gt;</text>
+<rect x="1359.0" y="1945.9" width="2.0" height="13.0" rx="2" class="g90s50"/>
+<text x="1367.0" y="1956.9" class="g90s71">0 · blocked</text>
+<rect x="60.0" y="2009.9" width="1786.0" height="132.0" rx="8" class="g90s47"/>
+<path d="M65.75 2011.01 A7.25 7.25 0 0 0 60.75 2017.90 V2133.90 A7.25 7.25 0 0 0 65.75 2140.79 Z" class="g90s24"/>
+<rect x="70.0" y="2019.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="2031.9" class="g90s19">6</text>
+<text x="98.0" y="2031.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text y="2031.9" xml:space="preserve" class="g90s39"><tspan x="649.3" class="g90s3" textLength="70.7" lengthAdjust="spacing">the greedy rule</tspan></text>
+<text x="720.0" y="2093.9" class="g90s48">06</text>
+<text x="98.0" y="2049.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_token</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">argmax</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">keepdim</tspan><tspan class="g90s0">=</tspan><tspan class="g90s7">True</tspan><tspan class="g90s0">)</tspan></text>
+<text y="2071.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="364.3" lengthAdjust="spacing">The single largest score in each row wins — nothing else is considered.</tspan></text>
+<line x1="736.0" y1="2019.9" x2="736.0" y2="2131.9" class="g90s21"/>
+<text x="750.0" y="2035.9" class="g90s29">argmax</text>
+<text x="750.0" y="2058.9" class="g90s11">row 0</text>
+<text x="820.0" y="2077.9" class="g90s43">the</text>
+<rect x="828.0" y="2067.9" width="190.5" height="13.0" rx="2" class="g90s44"/>
+<text x="1024.5" y="2078.9" class="g90s45">0.500  ← argmax</text>
+<text x="820.0" y="2097.9" class="g90s16">a</text>
+<rect x="828.0" y="2087.9" width="152.4" height="13.0" rx="2" class="g90s17"/>
+<text x="986.4" y="2098.9" class="g90s12">0.400</text>
+<text x="820.0" y="2117.9" class="g90s16">one</text>
+<rect x="828.0" y="2107.9" width="38.1" height="13.0" rx="2" class="g90s17"/>
+<text x="872.1" y="2118.9" class="g90s12">0.100</text>
+<text x="1281.0" y="2058.9" class="g90s11">row 1</text>
+<text x="1351.0" y="2077.9" class="g90s43">hi</text>
+<rect x="1359.0" y="2067.9" width="342.9" height="13.0" rx="2" class="g90s44"/>
+<text x="1707.9" y="2078.9" class="g90s45">0.900  ← argmax</text>
+<text x="1351.0" y="2097.9" class="g90s16">the</text>
+<rect x="1359.0" y="2087.9" width="38.1" height="13.0" rx="2" class="g90s17"/>
+<text x="1403.1" y="2098.9" class="g90s12">0.100</text>
+<rect x="60.0" y="2151.9" width="1786.0" height="131.0" rx="8" class="g90s33"/>
+<path d="M65.55 2152.86 A7.45 7.45 0 0 0 60.55 2159.90 V2274.90 A7.45 7.45 0 0 0 65.55 2281.94 Z" class="g90s24"/>
+<rect x="70.0" y="2161.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="2173.9" class="g90s19">7</text>
+<text x="98.0" y="2173.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text x="720.0" y="2235.4" class="g90s61">07</text>
+<text x="98.0" y="2191.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_token</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">masked_fill</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">finished</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">unsqueeze</tspan><tspan class="g90s0">(</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s67">pad_idx</tspan><tspan class="g90s0">)</tspan></text>
+<text x="98.0" y="2208.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">finished</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">|</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">squeeze</tspan><tspan class="g90s0">(</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">eos_idx</tspan></text>
+<text x="98.0" y="2225.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">tgt</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">torch</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">cat</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">[</tspan><tspan class="g90s1">tgt</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">]</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">dim</tspan><tspan class="g90s0">=</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan></text>
+<rect x="418.9" y="2237.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="2247.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="320.8" lengthAdjust="spacing">No row was finished, so nothing is overwritten; neither token is </tspan><tspan x="421.4" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="456.4" textLength="177.7" lengthAdjust="spacing">; the chosen tokens become a new</tspan></text>
+<text y="2263.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="40.3" lengthAdjust="spacing">column.</tspan></text>
+<line x1="736.0" y1="2161.9" x2="736.0" y2="2272.9" class="g90s21"/>
+<text x="750.0" y="2177.9" class="g90s29">tgt  (2, 2)</text>
+<text x="750.0" y="2202.9" class="g90s11">row 0</text>
+<rect x="802.0" y="2187.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="2202.9" class="g90s37">&lt;SOS&gt;</text>
+<rect x="854.6" y="2187.9" width="35.0" height="22.0" rx="4" class="g90s72"/>
+<text x="872.1" y="2202.9" class="g90s40">the</text>
+<text x="908.6" y="2202.9" class="g90s11">finished = False</text>
+<text x="750.0" y="2232.9" class="g90s11">row 1</text>
+<rect x="802.0" y="2217.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="2232.9" class="g90s37">&lt;SOS&gt;</text>
+<rect x="854.6" y="2217.9" width="28.6" height="22.0" rx="4" class="g90s72"/>
+<text x="868.9" y="2232.9" class="g90s40">hi</text>
+<text x="902.2" y="2232.9" class="g90s11">finished = False</text>
+<rect x="60.0" y="2292.9" width="1786.0" height="81.0" rx="8" class="g90s33"/>
+<path d="M65.55 2293.86 A7.45 7.45 0 0 0 60.55 2300.90 V2365.90 A7.45 7.45 0 0 0 65.55 2372.94 Z" class="g90s24"/>
+<rect x="70.0" y="2302.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="2314.9" class="g90s19">8</text>
+<text x="98.0" y="2314.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text x="720.0" y="2351.4" class="g90s61">08</text>
+<text x="98.0" y="2332.9" xml:space="preserve" class="g90s10"><tspan class="g90s7">if</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">finished</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">all</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">:</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">break</tspan></text>
+<text y="2354.9" xml:space="preserve" class="g90s9"><tspan x="98.0" class="g90s20" textLength="32.5" lengthAdjust="spacing">False</tspan><tspan x="130.5" textLength="97.8" lengthAdjust="spacing"> — go round again.</tspan></text>
+<line x1="736.0" y1="2302.9" x2="736.0" y2="2363.9" class="g90s21"/>
+<rect x="60.0" y="2383.9" width="1786.0" height="132.0" rx="8" class="g90s47"/>
+<path d="M65.75 2385.01 A7.25 7.25 0 0 0 60.75 2391.90 V2507.90 A7.25 7.25 0 0 0 65.75 2514.79 Z" class="g90s24"/>
+<rect x="70.0" y="2393.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="2405.9" class="g90s19">9</text>
+<text x="98.0" y="2405.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text y="2405.9" xml:space="preserve" class="g90s39"><tspan x="691.1" class="g90s70" textLength="28.9" lengthAdjust="spacing">step 1</tspan></text>
+<text x="720.0" y="2467.9" class="g90s48">09</text>
+<text x="98.0" y="2423.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">out</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">decode</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">tgt</tspan><tspan class="g90s0">[</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">]</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">…</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">start_pos</tspan><tspan class="g90s0">=</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s1">          </tspan><tspan class="g90s66"># &quot;the&quot; and &quot;hi&quot;</tspan></text>
+<text x="98.0" y="2440.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_token</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">_block_special</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">…</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">argmax</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">keepdim</tspan><tspan class="g90s0">=</tspan><tspan class="g90s7">True</tspan><tspan class="g90s0">)</tspan></text>
+<text y="2462.9" xml:space="preserve" class="g90s9"><tspan x="98.0" class="g90s2" textLength="34.5" lengthAdjust="spacing">Row 0</tspan><tspan x="132.5" textLength="108.5" lengthAdjust="spacing"> now reads &quot;the&quot;: cat </tspan><tspan x="241.1" class="g90s2" textLength="23.7" lengthAdjust="spacing">0.36</tspan><tspan x="264.8" textLength="65.8" lengthAdjust="spacing"> against dog </tspan><tspan x="330.6" class="g90s2" textLength="23.7" lengthAdjust="spacing">0.34</tspan><tspan x="354.4" textLength="120.8" lengthAdjust="spacing"> — greedy takes cat by </tspan><tspan x="475.2" class="g90s2" textLength="23.7" lengthAdjust="spacing">0.02</tspan><tspan x="498.9" textLength="118.3" lengthAdjust="spacing">, and never looks back.</tspan></text>
+<rect x="191.2" y="2468.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="2478.9" xml:space="preserve" class="g90s9"><tspan x="98.0" class="g90s2" textLength="34.5" lengthAdjust="spacing">Row 1</tspan><tspan x="132.5" textLength="58.7" lengthAdjust="spacing"> reads &quot;hi&quot;: </tspan><tspan x="193.7" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="228.7" textLength="26.8" lengthAdjust="spacing"> with </tspan><tspan x="255.6" class="g90s2" textLength="23.7" lengthAdjust="spacing">0.80</tspan><tspan x="279.3">.</tspan></text>
+<line x1="736.0" y1="2393.9" x2="736.0" y2="2505.9" class="g90s21"/>
+<text x="750.0" y="2409.9" class="g90s29">after _block_special, argmax</text>
+<text x="750.0" y="2432.9" class="g90s11">row 0</text>
+<text x="820.0" y="2451.9" class="g90s43">cat</text>
+<rect x="828.0" y="2441.9" width="137.2" height="13.0" rx="2" class="g90s44"/>
+<text x="971.2" y="2452.9" class="g90s45">0.360  ← argmax</text>
+<text x="820.0" y="2471.9" class="g90s16">dog</text>
+<rect x="828.0" y="2461.9" width="129.5" height="13.0" rx="2" class="g90s17"/>
+<text x="963.5" y="2472.9" class="g90s12">0.340</text>
+<text x="820.0" y="2491.9" class="g90s16">sat</text>
+<rect x="828.0" y="2481.9" width="114.3" height="13.0" rx="2" class="g90s17"/>
+<text x="948.3" y="2492.9" class="g90s12">0.300</text>
+<text x="1281.0" y="2432.9" class="g90s11">row 1</text>
+<text x="1351.0" y="2451.9" class="g90s43">&lt;EOS&gt;</text>
+<rect x="1359.0" y="2441.9" width="304.8" height="13.0" rx="2" class="g90s44"/>
+<text x="1669.8" y="2452.9" class="g90s45">0.800  ← argmax</text>
+<text x="1351.0" y="2471.9" class="g90s16">hi</text>
+<rect x="1359.0" y="2461.9" width="76.2" height="13.0" rx="2" class="g90s17"/>
+<text x="1441.2" y="2472.9" class="g90s12">0.200</text>
+<rect x="60.0" y="2525.9" width="1786.0" height="114.0" rx="8" class="g90s47"/>
+<path d="M65.75 2527.01 A7.25 7.25 0 0 0 60.75 2533.90 V2631.90 A7.25 7.25 0 0 0 65.75 2638.79 Z" class="g90s24"/>
+<rect x="70.0" y="2535.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="2547.9" class="g90s19">10</text>
+<text x="98.0" y="2547.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text y="2547.9" xml:space="preserve" class="g90s39"><tspan x="655.2" class="g90s3" textLength="64.8" lengthAdjust="spacing">a row finishes</tspan></text>
+<text x="720.0" y="2600.9" class="g90s48">10</text>
+<text x="98.0" y="2565.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">finished</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">|</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">squeeze</tspan><tspan class="g90s0">(</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">eos_idx</tspan></text>
+<text x="98.0" y="2582.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">tgt</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">torch</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">cat</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">[</tspan><tspan class="g90s1">tgt</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">]</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">dim</tspan><tspan class="g90s0">=</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan></text>
+<rect x="167.1" y="2594.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="2604.9" xml:space="preserve" class="g90s9"><tspan x="98.0" class="g90s2" textLength="34.5" lengthAdjust="spacing">Row 1</tspan><tspan x="132.5" textLength="34.5" lengthAdjust="spacing"> wrote </tspan><tspan x="169.6" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="204.6" textLength="102.3" lengthAdjust="spacing">: finished becomes [</tspan><tspan x="306.9" class="g90s20" textLength="32.5" lengthAdjust="spacing">False</tspan><tspan x="339.4">, </tspan><tspan x="345.8" class="g90s20" textLength="26.0" lengthAdjust="spacing">True</tspan><tspan x="371.8" textLength="179.0" lengthAdjust="spacing">]. The batch keeps going, because </tspan><tspan x="550.8" class="g90s2" textLength="29.8" lengthAdjust="spacing">row 0</tspan><tspan x="580.6" textLength="40.9" lengthAdjust="spacing"> has not</tspan></text>
+<text y="2620.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="42.8" lengthAdjust="spacing">finished.</tspan></text>
+<line x1="736.0" y1="2535.9" x2="736.0" y2="2629.9" class="g90s21"/>
+<text x="750.0" y="2551.9" class="g90s29">tgt  (2, 3)</text>
+<text x="750.0" y="2576.9" class="g90s11">row 0</text>
+<rect x="802.0" y="2561.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="2576.9" class="g90s37">&lt;SOS&gt;</text>
+<rect x="854.6" y="2561.9" width="35.0" height="22.0" rx="4" class="g90s41"/>
+<text x="872.1" y="2576.9" class="g90s35">the</text>
+<rect x="894.6" y="2561.9" width="35.0" height="22.0" rx="4" class="g90s72"/>
+<text x="912.0" y="2576.9" class="g90s40">cat</text>
+<text x="948.5" y="2576.9" class="g90s11">finished = False</text>
+<text x="750.0" y="2606.9" class="g90s11">row 1</text>
+<rect x="802.0" y="2591.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="2606.9" class="g90s37">&lt;SOS&gt;</text>
+<rect x="854.6" y="2591.9" width="28.6" height="22.0" rx="4" class="g90s41"/>
+<text x="868.9" y="2606.9" class="g90s35">hi</text>
+<rect x="888.2" y="2591.9" width="47.6" height="22.0" rx="4" class="g90s96"/>
+<text x="912.0" y="2606.9" class="g90s73">&lt;EOS&gt;</text>
+<text x="954.9" y="2606.9" class="g90s74">finished = True</text>
+<rect x="60.0" y="2649.9" width="1786.0" height="132.0" rx="8" class="g90s47"/>
+<path d="M65.75 2651.01 A7.25 7.25 0 0 0 60.75 2657.90 V2773.90 A7.25 7.25 0 0 0 65.75 2780.79 Z" class="g90s24"/>
+<rect x="70.0" y="2659.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="2671.9" class="g90s19">11</text>
+<text x="98.0" y="2671.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text y="2671.9" xml:space="preserve" class="g90s39"><tspan x="691.1" class="g90s70" textLength="28.9" lengthAdjust="spacing">step 2</tspan></text>
+<text x="720.0" y="2733.9" class="g90s48">11</text>
+<text x="98.0" y="2689.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_token</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">argmax</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">keepdim</tspan><tspan class="g90s0">=</tspan><tspan class="g90s7">True</tspan><tspan class="g90s0">)</tspan></text>
+<rect x="496.2" y="2701.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="2711.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="294.0" lengthAdjust="spacing">Both rows are decoded again — a batch moves together. </tspan><tspan x="392.0" class="g90s2" textLength="34.5" lengthAdjust="spacing">Row 1</tspan><tspan x="426.6" textLength="15.8" lengthAdjust="spacing">’s </tspan><tspan x="442.4" class="g90s20" textLength="39.0" lengthAdjust="spacing">argmax</tspan><tspan x="481.5" textLength="14.7" lengthAdjust="spacing"> is </tspan><tspan x="498.7" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="533.7" textLength="25.6" lengthAdjust="spacing">, but </tspan><tspan x="559.3" class="g90s2" textLength="29.8" lengthAdjust="spacing">row 1</tspan><tspan x="589.1" textLength="11.5" lengthAdjust="spacing"> is</tspan></text>
+<text y="2727.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="83.7" lengthAdjust="spacing">already finished.</tspan></text>
+<line x1="736.0" y1="2659.9" x2="736.0" y2="2771.9" class="g90s21"/>
+<text x="750.0" y="2675.9" class="g90s29">argmax</text>
+<text x="750.0" y="2698.9" class="g90s11">row 0</text>
+<text x="820.0" y="2717.9" class="g90s43">sat</text>
+<rect x="828.0" y="2707.9" width="190.5" height="13.0" rx="2" class="g90s44"/>
+<text x="1024.5" y="2718.9" class="g90s45">0.500  ← argmax</text>
+<text x="820.0" y="2737.9" class="g90s16">slept</text>
+<rect x="828.0" y="2727.9" width="152.4" height="13.0" rx="2" class="g90s17"/>
+<text x="986.4" y="2738.9" class="g90s12">0.400</text>
+<text x="820.0" y="2757.9" class="g90s16">ran</text>
+<rect x="828.0" y="2747.9" width="38.1" height="13.0" rx="2" class="g90s17"/>
+<text x="872.1" y="2758.9" class="g90s12">0.100</text>
+<text x="1281.0" y="2698.9" class="g90s11">row 1</text>
+<text x="1351.0" y="2717.9" class="g90s43">&lt;EOS&gt;</text>
+<rect x="1359.0" y="2707.9" width="228.6" height="13.0" rx="2" class="g90s44"/>
+<text x="1593.6" y="2718.9" class="g90s45">0.600  ← argmax</text>
+<text x="1351.0" y="2737.9" class="g90s16">down</text>
+<rect x="1359.0" y="2727.9" width="76.2" height="13.0" rx="2" class="g90s17"/>
+<text x="1441.2" y="2738.9" class="g90s12">0.200</text>
+<text x="1351.0" y="2757.9" class="g90s16">on</text>
+<rect x="1359.0" y="2747.9" width="76.2" height="13.0" rx="2" class="g90s17"/>
+<text x="1441.2" y="2758.9" class="g90s12">0.200</text>
+<rect x="60.0" y="2791.9" width="1786.0" height="108.0" rx="8" class="g90s47"/>
+<path d="M65.75 2793.01 A7.25 7.25 0 0 0 60.75 2799.90 V2891.90 A7.25 7.25 0 0 0 65.75 2898.79 Z" class="g90s24"/>
+<rect x="70.0" y="2801.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="2813.9" class="g90s19">12</text>
+<text x="98.0" y="2813.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text y="2813.9" xml:space="preserve" class="g90s39"><tspan x="596.6" class="g90s3" textLength="90.1" lengthAdjust="spacing">finished rows write </tspan><tspan x="689.2" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.4px;font-weight:600;fill:var(--pad)" textLength="28.3" lengthAdjust="spacing">&lt;PAD&gt;</tspan></text>
+<text x="720.0" y="2863.9" class="g90s48">12</text>
+<text x="98.0" y="2831.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_token</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">masked_fill</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">finished</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">unsqueeze</tspan><tspan class="g90s0">(</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s7">self</tspan><tspan class="g90s0">.</tspan><tspan class="g90s67">pad_idx</tspan><tspan class="g90s0">)</tspan></text>
+<rect x="383.5" y="2843.6" width="37.5" height="14.0" rx="3" class="g90s65"/>
+<text y="2853.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="91.4" lengthAdjust="spacing">Where finished is </tspan><tspan x="189.4" class="g90s20" textLength="26.0" lengthAdjust="spacing">True</tspan><tspan x="215.4" textLength="168.1" lengthAdjust="spacing"> the chosen token is replaced by </tspan><tspan x="386.0" class="g90s95" textLength="32.5" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="421.1" textLength="216.7" lengthAdjust="spacing">, so a finished answer never grows past its</tspan></text>
+<rect x="98.0" y="2859.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="2869.9" xml:space="preserve" class="g90s9"><tspan x="100.5" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="135.5" textLength="10.2" lengthAdjust="spacing">. (</tspan><tspan x="145.8" class="g90s20" textLength="26.0" lengthAdjust="spacing">v1.5</tspan><tspan x="171.8" textLength="77.3" lengthAdjust="spacing"> added this fix; </tspan><tspan x="249.1" class="g90s20" textLength="13.0" lengthAdjust="spacing">v2</tspan><tspan x="262.2" textLength="49.9" lengthAdjust="spacing"> keeps it.)</tspan></text>
+<line x1="736.0" y1="2801.9" x2="736.0" y2="2889.9" class="g90s21"/>
+<text x="750.0" y="2817.9" class="g90s29">tgt  (2, 4)</text>
+<text x="750.0" y="2842.9" class="g90s11">row 0</text>
+<rect x="802.0" y="2827.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="2842.9" class="g90s37">&lt;SOS&gt;</text>
+<rect x="854.6" y="2827.9" width="35.0" height="22.0" rx="4" class="g90s41"/>
+<text x="872.1" y="2842.9" class="g90s35">the</text>
+<rect x="894.6" y="2827.9" width="35.0" height="22.0" rx="4" class="g90s41"/>
+<text x="912.0" y="2842.9" class="g90s35">cat</text>
+<rect x="934.5" y="2827.9" width="35.0" height="22.0" rx="4" class="g90s72"/>
+<text x="952.0" y="2842.9" class="g90s40">sat</text>
+<text x="988.5" y="2842.9" class="g90s11">finished = False</text>
+<text x="750.0" y="2872.9" class="g90s11">row 1</text>
+<rect x="802.0" y="2857.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="2872.9" class="g90s37">&lt;SOS&gt;</text>
+<rect x="854.6" y="2857.9" width="28.6" height="22.0" rx="4" class="g90s41"/>
+<text x="868.9" y="2872.9" class="g90s35">hi</text>
+<rect x="888.2" y="2857.9" width="47.6" height="22.0" rx="4" class="g90s97"/>
+<text x="912.0" y="2872.9" class="g90s98">&lt;EOS&gt;</text>
+<rect x="940.9" y="2857.9" width="47.6" height="22.0" rx="4" class="g90s99"/>
+<text x="964.7" y="2872.9" class="g90s100">&lt;PAD&gt;</text>
+<text x="1007.5" y="2872.9" class="g90s74">finished = True</text>
+<rect x="60.0" y="2909.9" width="1786.0" height="226.0" rx="8" class="g90s47"/>
+<path d="M65.75 2911.01 A7.25 7.25 0 0 0 60.75 2917.90 V3127.90 A7.25 7.25 0 0 0 65.75 3134.79 Z" class="g90s24"/>
+<rect x="70.0" y="2919.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="2931.9" class="g90s19">13</text>
+<text x="98.0" y="2931.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text y="2931.9" xml:space="preserve" class="g90s39"><tspan x="691.1" class="g90s70" textLength="28.9" lengthAdjust="spacing">step 3</tspan></text>
+<text x="720.0" y="3040.9" class="g90s48">13</text>
+<text x="98.0" y="2949.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_token</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">argmax</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">keepdim</tspan><tspan class="g90s0">=</tspan><tspan class="g90s7">True</tspan><tspan class="g90s0">)</tspan></text>
+<text x="98.0" y="2966.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">finished</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">|</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_token</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">squeeze</tspan><tspan class="g90s0">(</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">eos_idx</tspan></text>
+<rect x="235.3" y="2978.6" width="37.5" height="14.0" rx="3" class="g90s22"/>
+<text y="2988.9" xml:space="preserve" class="g90s9"><tspan x="98.0" class="g90s2" textLength="34.5" lengthAdjust="spacing">Row 0</tspan><tspan x="132.5" textLength="102.8" lengthAdjust="spacing"> reads &quot;the cat sat&quot;: </tspan><tspan x="237.8" class="g90s34" textLength="32.5" lengthAdjust="spacing">&lt;EOS&gt;</tspan><tspan x="272.9" textLength="26.8" lengthAdjust="spacing"> with </tspan><tspan x="299.7" class="g90s2" textLength="23.7" lengthAdjust="spacing">0.70</tspan><tspan x="323.4" textLength="140.0" lengthAdjust="spacing">. Now every row is finished.</tspan></text>
+<line x1="736.0" y1="2919.9" x2="736.0" y2="3125.9" class="g90s21"/>
+<text x="750.0" y="2935.9" class="g90s29">argmax</text>
+<text x="750.0" y="2958.9" class="g90s11">row 0</text>
+<text x="820.0" y="2977.9" class="g90s43">&lt;EOS&gt;</text>
+<rect x="828.0" y="2967.9" width="266.7" height="13.0" rx="2" class="g90s44"/>
+<text x="1100.7" y="2978.9" class="g90s45">0.700  ← argmax</text>
+<text x="820.0" y="2997.9" class="g90s16">on</text>
+<rect x="828.0" y="2987.9" width="76.2" height="13.0" rx="2" class="g90s17"/>
+<text x="910.2" y="2998.9" class="g90s12">0.200</text>
+<text x="820.0" y="3017.9" class="g90s16">down</text>
+<rect x="828.0" y="3007.9" width="38.1" height="13.0" rx="2" class="g90s17"/>
+<text x="872.1" y="3018.9" class="g90s12">0.100</text>
+<text x="1281.0" y="2958.9" class="g90s11">row 1</text>
+<text x="1351.0" y="2977.9" class="g90s43">&lt;EOS&gt;</text>
+<rect x="1359.0" y="2967.9" width="228.6" height="13.0" rx="2" class="g90s44"/>
+<text x="1593.6" y="2978.9" class="g90s45">0.600  ← argmax</text>
+<text x="1351.0" y="2997.9" class="g90s16">down</text>
+<rect x="1359.0" y="2987.9" width="76.2" height="13.0" rx="2" class="g90s17"/>
+<text x="1441.2" y="2998.9" class="g90s12">0.200</text>
+<text x="1351.0" y="3017.9" class="g90s16">on</text>
+<rect x="1359.0" y="3007.9" width="76.2" height="13.0" rx="2" class="g90s17"/>
+<text x="1441.2" y="3018.9" class="g90s12">0.200</text>
+<text x="750.0" y="3053.9" class="g90s29">tgt  (2, 5)</text>
+<text x="750.0" y="3078.9" class="g90s11">row 0</text>
+<rect x="802.0" y="3063.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="3078.9" class="g90s37">&lt;SOS&gt;</text>
+<rect x="854.6" y="3063.9" width="35.0" height="22.0" rx="4" class="g90s41"/>
+<text x="872.1" y="3078.9" class="g90s35">the</text>
+<rect x="894.6" y="3063.9" width="35.0" height="22.0" rx="4" class="g90s41"/>
+<text x="912.0" y="3078.9" class="g90s35">cat</text>
+<rect x="934.5" y="3063.9" width="35.0" height="22.0" rx="4" class="g90s41"/>
+<text x="952.0" y="3078.9" class="g90s35">sat</text>
+<rect x="974.5" y="3063.9" width="47.6" height="22.0" rx="4" class="g90s96"/>
+<text x="998.3" y="3078.9" class="g90s73">&lt;EOS&gt;</text>
+<text x="1041.1" y="3078.9" class="g90s74">finished = True</text>
+<text x="750.0" y="3108.9" class="g90s11">row 1</text>
+<rect x="802.0" y="3093.9" width="47.6" height="22.0" rx="4" class="g90s36"/>
+<text x="825.8" y="3108.9" class="g90s37">&lt;SOS&gt;</text>
+<rect x="854.6" y="3093.9" width="28.6" height="22.0" rx="4" class="g90s41"/>
+<text x="868.9" y="3108.9" class="g90s35">hi</text>
+<rect x="888.2" y="3093.9" width="47.6" height="22.0" rx="4" class="g90s97"/>
+<text x="912.0" y="3108.9" class="g90s98">&lt;EOS&gt;</text>
+<rect x="940.9" y="3093.9" width="47.6" height="22.0" rx="4" style="fill:url(#hatch90);stroke:var(--pad);stroke-width:0.9"/>
+<text x="964.7" y="3108.9" style="fill:var(--pad);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.5px;text-anchor:middle">&lt;PAD&gt;</text>
+<rect x="993.5" y="3093.9" width="47.6" height="22.0" rx="4" class="g90s99"/>
+<text x="1017.3" y="3108.9" class="g90s100">&lt;PAD&gt;</text>
+<text x="1060.1" y="3108.9" class="g90s74">finished = True</text>
+<rect x="60.0" y="3145.9" width="1786.0" height="115.0" rx="8" class="g90s33"/>
+<path d="M65.55 3146.86 A7.45 7.45 0 0 0 60.55 3153.90 V3252.90 A7.45 7.45 0 0 0 65.55 3259.94 Z" class="g90s24"/>
+<rect x="70.0" y="3155.4" width="22.0" height="17.0" rx="4" class="g90s25"/>
+<text x="81.0" y="3167.9" class="g90s19">14</text>
+<text x="98.0" y="3167.9" class="g90s28">cell 2 · Transformer.generate</text>
+<text x="720.0" y="3221.4" class="g90s61">14</text>
+<text x="98.0" y="3185.9" xml:space="preserve" class="g90s10"><tspan class="g90s7">if</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">finished</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">all</tspan><tspan class="g90s0">(</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">:</tspan></text>
+<text x="98.0" y="3202.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">    </tspan><tspan class="g90s7">break</tspan></text>
+<text x="98.0" y="3219.9" xml:space="preserve" class="g90s10"><tspan class="g90s7">return</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">tgt</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">attention</tspan></text>
+<text y="3241.9" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="102.3" lengthAdjust="spacing">The loop ends after </tspan><tspan x="200.3" class="g90s2" textLength="39.3" lengthAdjust="spacing">4 steps</tspan><tspan x="239.6" textLength="56.3" lengthAdjust="spacing"> instead of </tspan><tspan x="295.8" class="g90s2">7</tspan><tspan x="302.6">. </tspan><tspan x="309.0" class="g90s20" textLength="19.5" lengthAdjust="spacing">tgt</tspan><tspan x="328.5" textLength="14.7" lengthAdjust="spacing"> is </tspan><tspan x="343.2" class="g90s20" textLength="39.0" lengthAdjust="spacing">(2, 5)</tspan><tspan x="382.3">.</tspan></text>
+<line x1="736.0" y1="3155.9" x2="736.0" y2="3250.9" class="g90s21"/>
+<rect x="34.0" y="3270.9" width="1812.0" height="81.0" rx="8" class="g90s33"/>
+<path d="M39.55 3271.86 A7.45 7.45 0 0 0 34.55 3278.90 V3343.90 A7.45 7.45 0 0 0 39.55 3350.94 Z" class="g90s92"/>
+<rect x="44.0" y="3280.4" width="22.0" height="17.0" rx="4" class="g90s93"/>
+<text x="55.0" y="3292.9" class="g90s19">15</text>
+<text x="72.0" y="3292.9" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">cell 9 · exact_match</text>
+<text x="720.0" y="3329.4" style="fill:var(--s3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:50px;font-weight:600;text-anchor:end;opacity:0.11">15</text>
+<text x="72.0" y="3310.9" xml:space="preserve" class="g90s10"><tspan class="g90s1">tokenizer</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">decode</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">row</tspan><tspan class="g90s0">)</tspan><tspan class="g90s1">          </tspan><tspan class="g90s66"># skips &lt;SOS&gt;, &lt;EOS&gt;, &lt;PAD&gt;</tspan></text>
+<text y="3332.9" xml:space="preserve" class="g90s9"><tspan x="72.0" textLength="167.5" lengthAdjust="spacing">The special tokens are dropped: </tspan><tspan x="239.5" class="g90s2" textLength="29.8" lengthAdjust="spacing">row 0</tspan><tspan x="269.3" textLength="102.8" lengthAdjust="spacing"> reads &quot;the cat sat&quot;, </tspan><tspan x="372.1" class="g90s2" textLength="29.8" lengthAdjust="spacing">row 1</tspan><tspan x="401.9" textLength="23.5" lengthAdjust="spacing"> &quot;hi&quot;.</tspan></text>
+<line x1="736.0" y1="3280.9" x2="736.0" y2="3341.9" class="g90s21"/>
+<rect x="750.0" y="3290.9" width="1082.0" height="40.0" rx="5" class="g90s88"/>
+<text x="759.0" y="3306.9" class="g90s101">row 0: the cat sat</text>
+<text x="759.0" y="3320.9" class="g90s101">row 1: hi</text>
+<rect x="34.0" y="3365.9" width="1812.0" height="30.0" rx="6" class="g90s30"/>
+<path d="M38.50 3366.61 A5.50 5.50 0 0 0 34.50 3371.90 V3389.90 A5.50 5.50 0 0 0 38.50 3395.19 Z" class="g90s38"/>
+<text y="3385.9" xml:space="preserve" class="g90s56"><tspan x="50.0" class="g90s3" textLength="154.7" lengthAdjust="spacing">C · What greedy gives up</tspan></text>
+<text y="3385.9" xml:space="preserve" class="g90s57"><tspan x="222.7" textLength="228.8" lengthAdjust="spacing">the best step is not always the best sentence</tspan></text>
+<text y="3413.9" xml:space="preserve" class="g90s58"><tspan x="38.0" class="g90s3" textLength="208.4" lengthAdjust="spacing">A sentence’s probability is a product</tspan></text>
+<text y="3431.9" xml:space="preserve" class="g90s42"><tspan x="38.0" class="g90s31" textLength="74.7" lengthAdjust="spacing">P(sentence)</tspan><tspan x="112.7" textLength="1393.9" lengthAdjust="spacing"> is the probability of its first token, times the second given the first, times the third given both, and so on. Greedy maximises each factor on its own. That is not the same as maximising the product: a slightly worse first token can make every later one far more likely.</tspan></text>
+<rect x="34.0" y="3453.3" width="123.9" height="18.0" rx="9" class="g90s77"/>
+<text x="96.0" y="3465.8" class="g90s78">HAND-SET EXAMPLE</text>
+<text x="34.0" y="3494.3" style="fill:var(--drop);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">greedy writes</text>
+<rect x="224.0" y="3479.3" width="35.0" height="22.0" rx="4" class="g90s82"/>
+<text x="241.5" y="3494.3" class="g90s40">the</text>
+<text x="241.5" y="3517.3" class="g90s51">p 0.50</text>
+<rect x="285.0" y="3479.3" width="35.0" height="22.0" rx="4" class="g90s82"/>
+<text x="302.4" y="3494.3" class="g90s40">cat</text>
+<text x="302.4" y="3517.3" class="g90s51">p 0.36</text>
+<rect x="345.9" y="3479.3" width="35.0" height="22.0" rx="4" class="g90s82"/>
+<text x="363.4" y="3494.3" class="g90s40">sat</text>
+<text x="363.4" y="3517.3" class="g90s51">p 0.50</text>
+<rect x="406.9" y="3479.3" width="47.6" height="22.0" rx="4" style="fill:var(--keepbg);stroke:var(--drop);stroke-width:2"/>
+<text x="430.7" y="3494.3" class="g90s73">&lt;EOS&gt;</text>
+<text x="430.7" y="3517.3" class="g90s51">p 0.70</text>
+<text x="486.5" y="3494.3" style="fill:var(--drop);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">P = 0.0630   log-prob -2.765</text>
+<text x="34.0" y="3550.3" style="fill:var(--keep);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600;text-anchor:start">the most likely sentence</text>
+<rect x="224.0" y="3535.3" width="22.3" height="22.0" rx="4" class="g90s102"/>
+<text x="235.2" y="3550.3" class="g90s40">a</text>
+<text x="235.2" y="3573.3" class="g90s51">p 0.40</text>
+<rect x="272.3" y="3535.3" width="35.0" height="22.0" rx="4" class="g90s102"/>
+<text x="289.8" y="3550.3" class="g90s40">dog</text>
+<text x="289.8" y="3573.3" class="g90s51">p 0.80</text>
+<rect x="333.3" y="3535.3" width="47.6" height="22.0" rx="4" style="fill:var(--keepbg);stroke:var(--keep);stroke-width:2"/>
+<text x="357.1" y="3550.3" class="g90s73">&lt;EOS&gt;</text>
+<text x="357.1" y="3573.3" class="g90s51">p 0.42</text>
+<text x="412.9" y="3550.3" style="fill:var(--keep);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11px;font-weight:600;text-anchor:start">P = 0.1344   log-prob -2.007</text>
+<rect x="34.0" y="3597.3" width="1812.0" height="72.6" rx="6" class="g90s84"/>
+<path d="M38.50 3598.01 A5.50 5.50 0 0 0 34.50 3603.30 V3663.86 A5.50 5.50 0 0 0 38.50 3669.15 Z" class="g90s85"/>
+<text y="3623.3" xml:space="preserve" class="g90s58"><tspan x="50.0" class="g90s3" textLength="218.3" lengthAdjust="spacing">Greedy’s answer against the best one</tspan></text>
+<text y="3640.8" xml:space="preserve" class="g90s42"><tspan x="50.0" textLength="14.7" lengthAdjust="spacing">At </tspan><tspan x="64.7" class="g90s2" textLength="34.6" lengthAdjust="spacing">step 0</tspan><tspan x="99.3" textLength="107.9" lengthAdjust="spacing"> greedy takes &quot;the&quot; (</tspan><tspan x="207.2" class="g90s2" textLength="24.8" lengthAdjust="spacing">0.50</tspan><tspan x="232.0" textLength="56.5" lengthAdjust="spacing">) over &quot;a&quot; (</tspan><tspan x="288.5" class="g90s2" textLength="24.8" lengthAdjust="spacing">0.40</tspan><tspan x="313.3" textLength="365.9" lengthAdjust="spacing">) — the locally better choice. But after &quot;a&quot; the model is sure of &quot;dog&quot; (</tspan><tspan x="679.1" class="g90s2" textLength="24.8" lengthAdjust="spacing">0.80</tspan><tspan x="703.9" textLength="276.7" lengthAdjust="spacing">), while after &quot;the&quot; it hesitates between cat and dog (</tspan><tspan x="980.5" class="g90s2" textLength="60.1" lengthAdjust="spacing">0.36 / 0.34</tspan><tspan x="1040.7" textLength="189.3" lengthAdjust="spacing">). Greedy’s sentence ends up with </tspan><tspan x="1230.0" class="g90s31" textLength="67.9" lengthAdjust="spacing">P = 0.0630</tspan><tspan x="1297.9" textLength="295.3" lengthAdjust="spacing">; the most likely sentence the table allows, &quot;a dog&quot;, has </tspan><tspan x="1593.2" class="g90s31" textLength="67.9" lengthAdjust="spacing">P = 0.1344</tspan><tspan x="1661.1"> — </tspan><tspan x="1679.8" class="g90s2" textLength="51.6" lengthAdjust="spacing">2.1 times</tspan><tspan x="1731.4" textLength="72.7" lengthAdjust="spacing"> as likely, and</tspan></text>
+<text y="3658.3" xml:space="preserve" class="g90s42"><tspan x="50.0" textLength="394.7" lengthAdjust="spacing">greedy can never find it because it dropped &quot;a&quot; at the first step. Deep dive </tspan><tspan x="444.7" class="g90s2">2</tspan><tspan x="451.8" textLength="335.4" lengthAdjust="spacing"> shows how beam search keeps &quot;a&quot; alive long enough to find it.</tspan></text>
+<rect x="34.0" y="3695.9" width="1812.0" height="30.0" rx="6" class="g90s30"/>
+<path d="M38.50 3696.57 A5.50 5.50 0 0 0 34.50 3701.86 V3719.86 A5.50 5.50 0 0 0 38.50 3725.15 Z" class="g90s38"/>
+<text y="3715.9" xml:space="preserve" class="g90s56"><tspan x="50.0" class="g90s3" textLength="308.7" lengthAdjust="spacing">D · The other branch of the same loop — sampling</tspan></text>
+<text y="3715.9" xml:space="preserve" class="g90s57"><tspan x="376.7" class="g90s20" textLength="221.3" lengthAdjust="spacing">generate(temperature &gt; 0, top_k=…)</tspan><tspan x="597.9" textLength="49.9" lengthAdjust="spacing"> replaces </tspan><tspan x="647.8" class="g90s20" textLength="39.0" lengthAdjust="spacing">argmax</tspan><tspan x="686.8" textLength="61.4" lengthAdjust="spacing"> with a draw</tspan></text>
+<text y="3743.9" xml:space="preserve" class="g90s58"><tspan x="38.0" class="g90s3" textLength="317.4" lengthAdjust="spacing">When the single most likely answer is not what you want</tspan></text>
+<text y="3761.9" xml:space="preserve" class="g90s42"><tspan x="38.0" textLength="787.7" lengthAdjust="spacing">Greedy always gives the same, often repetitive, answer. Sampling draws the next token from the probabilities instead. The temperature T sharpens (</tspan><tspan x="825.7" class="g90s31" textLength="34.0" lengthAdjust="spacing">T &lt; 1</tspan><tspan x="859.6" textLength="67.4" lengthAdjust="spacing">) or flattens (</tspan><tspan x="927.0" class="g90s31" textLength="34.0" lengthAdjust="spacing">T &gt; 1</tspan><tspan x="960.9" textLength="675.7" lengthAdjust="spacing">) the distribution before the draw, and top-k removes every token outside the k best, so a rare wrong token can never be drawn.</tspan></text>
+<rect x="60.0" y="3783.3" width="1786.0" height="81.0" rx="8" class="g90s33"/>
+<path d="M65.55 3784.22 A7.45 7.45 0 0 0 60.55 3791.26 V3856.26 A7.45 7.45 0 0 0 65.55 3863.30 Z" class="g90s59"/>
+<rect x="70.0" y="3792.8" width="22.0" height="17.0" rx="4" class="g90s60"/>
+<text x="81.0" y="3805.3" class="g90s19">16</text>
+<text x="98.0" y="3805.3" class="g90s68">cell 2 · Transformer.generate</text>
+<text x="720.0" y="3841.8" class="g90s81">16</text>
+<text x="98.0" y="3823.3" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_logits</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">/</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">temperature</tspan><tspan class="g90s1">          </tspan><tspan class="g90s66"># T = 0.8</tspan></text>
+<text y="3845.3" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="59.4" lengthAdjust="spacing">Dividing by </tspan><tspan x="157.4" class="g90s2" textLength="16.9" lengthAdjust="spacing">0.8</tspan><tspan x="174.4" textLength="166.2" lengthAdjust="spacing"> stretches the gaps between the </tspan><tspan x="340.6" class="g90s20" textLength="39.0" lengthAdjust="spacing">scores</tspan><tspan x="379.6" textLength="67.8" lengthAdjust="spacing"> by a quarter.</tspan></text>
+<line x1="736.0" y1="3793.3" x2="736.0" y2="3854.3" class="g90s21"/>
+<rect x="60.0" y="3874.3" width="1786.0" height="81.0" rx="8" class="g90s33"/>
+<path d="M65.55 3875.22 A7.45 7.45 0 0 0 60.55 3882.26 V3947.26 A7.45 7.45 0 0 0 65.55 3954.30 Z" class="g90s59"/>
+<rect x="70.0" y="3883.8" width="22.0" height="17.0" rx="4" class="g90s60"/>
+<text x="81.0" y="3896.3" class="g90s19">17</text>
+<text x="98.0" y="3896.3" class="g90s68">cell 2 · Transformer.generate</text>
+<text x="720.0" y="3932.8" class="g90s81">17</text>
+<text x="98.0" y="3914.3" xml:space="preserve" class="g90s10"><tspan class="g90s1">kth</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">torch</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">topk</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">top_k</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">.</tspan><tspan class="g90s67">values</tspan><tspan class="g90s0">[</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">:</tspan><tspan class="g90s0">]</tspan><tspan class="g90s1">     </tspan><tspan class="g90s66"># top_k = 2 here</tspan></text>
+<text y="3936.3" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="225.0" lengthAdjust="spacing">The 2nd best score becomes the threshold (</tspan><tspan x="323.0" class="g90s2" textLength="34.6" lengthAdjust="spacing">-1.145</tspan><tspan x="357.6" textLength="7.0" lengthAdjust="spacing">).</tspan></text>
+<line x1="736.0" y1="3884.3" x2="736.0" y2="3945.3" class="g90s21"/>
+<rect x="60.0" y="3965.3" width="1786.0" height="81.0" rx="8" class="g90s103"/>
+<path d="M65.75 3966.37 A7.25 7.25 0 0 0 60.75 3973.26 V4038.26 A7.25 7.25 0 0 0 65.75 4045.15 Z" class="g90s59"/>
+<rect x="70.0" y="3974.8" width="22.0" height="17.0" rx="4" class="g90s60"/>
+<text x="81.0" y="3987.3" class="g90s19">18</text>
+<text x="98.0" y="3987.3" class="g90s68">cell 2 · Transformer.generate</text>
+<text y="3987.3" xml:space="preserve" class="g90s39"><tspan x="661.7" class="g90s3" textLength="58.3" lengthAdjust="spacing">the top-k cut</tspan></text>
+<text x="720.0" y="4023.8" class="g90s104">18</text>
+<text x="98.0" y="4005.3" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_logits</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">masked_fill</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">&lt;</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">kth</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s4">float</tspan><tspan class="g90s0">(</tspan><tspan style="fill:var(--str)">&quot;-inf&quot;</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">)</tspan></text>
+<text y="4027.3" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="224.0" lengthAdjust="spacing">&quot;one&quot; is below the threshold: −∞, probability </tspan><tspan x="322.0" class="g90s2">0</tspan><tspan x="328.7">.</tspan></text>
+<line x1="736.0" y1="3975.3" x2="736.0" y2="4036.3" class="g90s21"/>
+<rect x="60.0" y="4056.3" width="1786.0" height="113.0" rx="8" class="g90s103"/>
+<path d="M65.75 4057.37 A7.25 7.25 0 0 0 60.75 4064.26 V4161.26 A7.25 7.25 0 0 0 65.75 4168.15 Z" class="g90s59"/>
+<rect x="70.0" y="4065.8" width="22.0" height="17.0" rx="4" class="g90s60"/>
+<text x="81.0" y="4078.3" class="g90s19">19</text>
+<text x="98.0" y="4078.3" class="g90s68">cell 2 · Transformer.generate</text>
+<text y="4078.3" xml:space="preserve" class="g90s39"><tspan x="688.2" class="g90s3" textLength="31.8" lengthAdjust="spacing">a draw</tspan></text>
+<text x="720.0" y="4130.8" class="g90s104">19</text>
+<text x="98.0" y="4096.3" xml:space="preserve" class="g90s10"><tspan class="g90s1">next_token</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">=</tspan><tspan class="g90s1"> </tspan><tspan class="g90s1">torch</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">multinomial</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">torch</tspan><tspan class="g90s0">.</tspan><tspan class="g90s4">softmax</tspan><tspan class="g90s0">(</tspan><tspan class="g90s1">next_logits</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s0">-</tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan><tspan class="g90s0">,</tspan><tspan class="g90s1"> </tspan><tspan class="g90s13">1</tspan><tspan class="g90s0">)</tspan></text>
+<text y="4118.3" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="14.1" lengthAdjust="spacing">At </tspan><tspan x="112.1" class="g90s20" textLength="32.5" lengthAdjust="spacing">T = 1</tspan><tspan x="144.6" textLength="177.1" lengthAdjust="spacing"> without a cut the shares would be </tspan><tspan x="321.7" class="g90s2" textLength="91.5" lengthAdjust="spacing">0.50 / 0.40 / 0.10</tspan><tspan x="413.2" textLength="44.0" lengthAdjust="spacing">. After ÷ </tspan><tspan x="457.1" class="g90s2" textLength="16.9" lengthAdjust="spacing">0.8</tspan><tspan x="474.1" textLength="93.8" lengthAdjust="spacing"> and the cut: &quot;the&quot; </tspan><tspan x="567.9" class="g90s2" textLength="30.5" lengthAdjust="spacing">0.569</tspan><tspan x="598.4" textLength="21.0" lengthAdjust="spacing">, &quot;a&quot;</tspan></text>
+<text y="4134.3" xml:space="preserve" class="g90s9"><tspan x="98.0" class="g90s2" textLength="30.5" lengthAdjust="spacing">0.431</tspan><tspan x="128.5" textLength="104.7" lengthAdjust="spacing">. The draw picks &quot;a&quot; </tspan><tspan x="233.2" class="g90s2" textLength="24.4" lengthAdjust="spacing">43%</tspan><tspan x="257.6" textLength="374.6" lengthAdjust="spacing"> of the time — which is how sampling, unlike greedy, can wander onto the</tspan></text>
+<text y="4150.3" xml:space="preserve" class="g90s9"><tspan x="98.0" textLength="58.2" lengthAdjust="spacing">better path.</tspan></text>
+<line x1="736.0" y1="4066.3" x2="736.0" y2="4159.3" class="g90s21"/>
+<text x="750.0" y="4082.3" class="g90s29">row 0 at step 0 · T = 0.8, top_k = 2</text>
+<text x="750.0" y="4105.3" class="g90s11"></text>
+<text x="820.0" y="4124.3" class="g90s16">the</text>
+<rect x="828.0" y="4114.3" width="519.2" height="13.0" rx="2" class="g90s17"/>
+<text x="1353.2" y="4125.3" class="g90s12">0.569</text>
+<text x="820.0" y="4144.3" class="g90s16">a</text>
+<rect x="828.0" y="4134.3" width="392.8" height="13.0" rx="2" class="g90s17"/>
+<text x="1226.8" y="4145.3" class="g90s12">0.431</text>
+<rect x="34.0" y="4183.3" width="123.9" height="18.0" rx="9" class="g90s77"/>
+<text x="96.0" y="4195.8" class="g90s78">HAND-SET EXAMPLE</text>
+<rect x="34.0" y="4209.3" width="1812.0" height="300.0" rx="8" style="fill:var(--cellbg);stroke:var(--panelbd);stroke-width:1"/>
+<text y="4233.3" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600"><tspan x="50.0" class="g90s3" textLength="178.6" lengthAdjust="spacing">share of the draw (%), top-k = </tspan><tspan x="228.6" class="g90s3">5</tspan><tspan x="236.0" class="g90s3" textLength="126.7" lengthAdjust="spacing">, at four temperatures</tspan></text>
+<text y="4251.3" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px"><tspan x="50.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink)" textLength="35.7" lengthAdjust="spacing">logits</tspan><tspan x="85.7"> </tspan><tspan x="88.6" class="g90s2" textLength="15.5" lengthAdjust="spacing">4.0</tspan><tspan x="104.0">, </tspan><tspan x="109.9" class="g90s2" textLength="15.5" lengthAdjust="spacing">3.2</tspan><tspan x="125.3">, </tspan><tspan x="131.2" class="g90s2" textLength="15.5" lengthAdjust="spacing">2.5</tspan><tspan x="146.7">, </tspan><tspan x="152.5" class="g90s2" textLength="15.5" lengthAdjust="spacing">1.8</tspan><tspan x="168.0">, </tspan><tspan x="173.8" class="g90s2" textLength="15.5" lengthAdjust="spacing">0.6</tspan><tspan x="189.3">, </tspan><tspan x="195.1" class="g90s2" textLength="22.1" lengthAdjust="spacing">−0.5</tspan><tspan x="217.3" textLength="229.2" lengthAdjust="spacing"> · &quot;ran&quot; is the 6th token, so top-k cuts it to exactly </tspan><tspan x="446.5" class="g90s2">0</tspan><tspan x="452.7" textLength="99.8" lengthAdjust="spacing"> at every temperature</tspan></text>
+<line x1="96.0" y1="4463.3" x2="1824.0" y2="4463.3" class="g90s62"/>
+<text x="88.0" y="4467.3" class="g90s63">0</text>
+<line x1="96.0" y1="4425.7" x2="1824.0" y2="4425.7" class="g90s62"/>
+<text x="88.0" y="4429.7" class="g90s63">20</text>
+<line x1="96.0" y1="4388.1" x2="1824.0" y2="4388.1" class="g90s62"/>
+<text x="88.0" y="4392.1" class="g90s63">40</text>
+<line x1="96.0" y1="4350.5" x2="1824.0" y2="4350.5" class="g90s62"/>
+<text x="88.0" y="4354.5" class="g90s63">60</text>
+<line x1="96.0" y1="4312.9" x2="1824.0" y2="4312.9" class="g90s62"/>
+<text x="88.0" y="4316.9" class="g90s63">80</text>
+<line x1="96.0" y1="4275.3" x2="1824.0" y2="4275.3" class="g90s62"/>
+<text x="88.0" y="4279.3" class="g90s63">100</text>
+<rect x="150.0" y="4314.7" width="42.0" height="148.6" rx="3" class="g90s52"/>
+<text x="171.0" y="4308.7" class="g90s18">79.0</text>
+<rect x="196.0" y="4345.7" width="42.0" height="117.5" rx="3" class="g90s53"/>
+<text x="217.0" y="4339.7" class="g90s18">62.5</text>
+<rect x="242.0" y="4359.8" width="42.0" height="103.5" rx="3" class="g90s54"/>
+<text x="263.0" y="4353.8" class="g90s18">55.0</text>
+<rect x="288.0" y="4381.1" width="42.0" height="82.1" rx="3" class="g90s55"/>
+<text x="309.0" y="4375.1" class="g90s18">43.7</text>
+<text x="240.0" y="4481.3" class="g90s64">dog</text>
+<rect x="438.0" y="4433.3" width="42.0" height="30.0" rx="3" class="g90s52"/>
+<text x="459.0" y="4427.3" class="g90s18">16.0</text>
+<rect x="484.0" y="4420.0" width="42.0" height="43.2" rx="3" class="g90s53"/>
+<text x="505.0" y="4414.0" class="g90s18">23.0</text>
+<rect x="530.0" y="4416.8" width="42.0" height="46.5" rx="3" class="g90s54"/>
+<text x="551.0" y="4410.8" class="g90s18">24.7</text>
+<rect x="576.0" y="4415.1" width="42.0" height="48.2" rx="3" class="g90s55"/>
+<text x="597.0" y="4409.1" class="g90s18">25.6</text>
+<text x="528.0" y="4481.3" class="g90s64">cat</text>
+<rect x="726.0" y="4455.9" width="42.0" height="7.4" rx="3" class="g90s52"/>
+<text x="747.0" y="4449.9" class="g90s18">3.9</text>
+<rect x="772.0" y="4445.2" width="42.0" height="18.0" rx="3" class="g90s53"/>
+<text x="793.0" y="4439.2" class="g90s18">9.6</text>
+<rect x="818.0" y="4440.2" width="42.0" height="23.1" rx="3" class="g90s54"/>
+<text x="839.0" y="4434.2" class="g90s18">12.3</text>
+<rect x="864.0" y="4433.0" width="42.0" height="30.2" rx="3" class="g90s55"/>
+<text x="885.0" y="4427.0" class="g90s18">16.1</text>
+<text x="816.0" y="4481.3" class="g90s64">animal</text>
+<rect x="1014.0" y="4461.4" width="42.0" height="1.8" rx="3" class="g90s52"/>
+<text x="1035.0" y="4455.4" class="g90s18">1.0</text>
+<rect x="1060.0" y="4455.7" width="42.0" height="7.5" rx="3" class="g90s53"/>
+<text x="1081.0" y="4449.7" class="g90s18">4.0</text>
+<rect x="1106.0" y="4451.8" width="42.0" height="11.5" rx="3" class="g90s54"/>
+<text x="1127.0" y="4445.8" class="g90s18">6.1</text>
+<rect x="1152.0" y="4444.3" width="42.0" height="18.9" rx="3" class="g90s55"/>
+<text x="1173.0" y="4438.3" class="g90s18">10.1</text>
+<text x="1104.0" y="4481.3" class="g90s64">puppy</text>
+<rect x="1302.0" y="4463.1" width="42.0" height="0.2" rx="3" class="g90s52"/>
+<text x="1323.0" y="4457.1" class="g90s18">0.1</text>
+<rect x="1348.0" y="4461.6" width="42.0" height="1.7" rx="3" class="g90s53"/>
+<text x="1369.0" y="4455.6" class="g90s18">0.9</text>
+<rect x="1394.0" y="4459.8" width="42.0" height="3.5" rx="3" class="g90s54"/>
+<text x="1415.0" y="4453.8" class="g90s18">1.8</text>
+<rect x="1440.0" y="4454.7" width="42.0" height="8.5" rx="3" class="g90s55"/>
+<text x="1461.0" y="4448.7" class="g90s18">4.5</text>
+<text x="1392.0" y="4481.3" class="g90s64">sofa</text>
+<rect x="1590.0" y="4463.3" width="42.0" height="0.0" rx="3" class="g90s52"/>
+<text x="1611.0" y="4457.3" class="g90s18">0.0</text>
+<rect x="1636.0" y="4463.3" width="42.0" height="0.0" rx="3" class="g90s53"/>
+<text x="1657.0" y="4457.3" class="g90s18">0.0</text>
+<rect x="1682.0" y="4463.3" width="42.0" height="0.0" rx="3" class="g90s54"/>
+<text x="1703.0" y="4457.3" class="g90s18">0.0</text>
+<rect x="1728.0" y="4463.3" width="42.0" height="0.0" rx="3" class="g90s55"/>
+<text x="1749.0" y="4457.3" class="g90s18">0.0</text>
+<text x="1680.0" y="4481.3" class="g90s64">ran</text>
+<line x1="96.0" y1="4463.3" x2="1824.0" y2="4463.3" style="stroke:var(--panelbd);stroke-width:1.2;stroke-linecap:round"/>
+<rect x="1746.6" y="4225.3" width="16.0" height="12.0" rx="2" class="g90s55"/>
+<text x="1768.6" y="4235.3" class="g90s75">T = 1.5</text>
+<rect x="1681.6" y="4225.3" width="16.0" height="12.0" rx="2" class="g90s54"/>
+<text x="1703.6" y="4235.3" class="g90s75">T = 1</text>
+<rect x="1511.2" y="4225.3" width="16.0" height="12.0" rx="2" class="g90s53"/>
+<text x="1533.2" y="4235.3" class="g90s75">T = 0.8 (the notebook)</text>
+<rect x="1433.8" y="4225.3" width="16.0" height="12.0" rx="2" class="g90s52"/>
+<text x="1455.8" y="4235.3" class="g90s75">T = 0.5</text>
+<rect x="34.0" y="4529.3" width="1812.0" height="30.0" rx="6" class="g90s30"/>
+<path d="M38.50 4529.97 A5.50 5.50 0 0 0 34.50 4535.26 V4553.26 A5.50 5.50 0 0 0 38.50 4558.55 Z" class="g90s38"/>
+<text y="4549.3" xml:space="preserve" class="g90s56"><tspan x="50.0" class="g90s3" textLength="65.9" lengthAdjust="spacing">E · On the </tspan><tspan x="115.9" class="g90s46" textLength="14.7" lengthAdjust="spacing">v2</tspan><tspan x="130.6" class="g90s3" textLength="41.4" lengthAdjust="spacing"> model</tspan></text>
+<text y="4549.3" xml:space="preserve" class="g90s57"><tspan x="189.9" textLength="190.5" lengthAdjust="spacing">sequence A · the first step · untrained</tspan></text>
+<rect x="34.0" y="4575.3" width="1812.0" height="24.0" rx="4" class="g90s30"/>
+<text y="4591.3" xml:space="preserve" class="g90s23"><tspan x="43.0" class="g90s3" textLength="21.6" lengthAdjust="spacing">rank</tspan></text>
+<text y="4591.3" xml:space="preserve" class="g90s23"><tspan x="123.0" class="g90s3" textLength="27.2" lengthAdjust="spacing">token</tspan></text>
+<text y="4591.3" xml:space="preserve" class="g90s23"><tspan x="383.0" class="g90s3" textLength="20.4" lengthAdjust="spacing">logit</tspan></text>
+<text y="4591.3" xml:space="preserve" class="g90s23"><tspan x="563.0" class="g90s3" textLength="66.2" lengthAdjust="spacing">probability of </tspan><tspan x="629.2" class="g90s83" textLength="34.0" lengthAdjust="spacing">16,111</tspan></text>
+<text y="4591.3" xml:space="preserve" class="g90s23"><tspan x="963.0" class="g90s3" textLength="92.2" lengthAdjust="spacing">sampling share (T </tspan><tspan x="1055.2" class="g90s83" textLength="15.5" lengthAdjust="spacing">0.8</tspan><tspan x="1070.6" class="g90s3">, </tspan><tspan x="1076.8" class="g90s83" textLength="25.4" lengthAdjust="spacing">top-5</tspan><tspan x="1102.2" class="g90s3">)</tspan></text>
+<text y="4591.3" xml:space="preserve" class="g90s23"><tspan x="1443.0" class="g90s3" textLength="34.0" lengthAdjust="spacing">greedy</tspan></text>
+<text y="4616.5" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s2">1</tspan></text>
+<text x="123.0" y="4616.5" class="g90s6">rences_</text>
+<text y="4616.5" xml:space="preserve" class="g90s8"><tspan x="383.0" class="g90s2" textLength="35.7" lengthAdjust="spacing">0.9931</tspan></text>
+<text y="4616.5" xml:space="preserve" class="g90s8"><tspan x="563.0" class="g90s2" textLength="46.0" lengthAdjust="spacing">0.0162%</tspan></text>
+<text y="4616.5" xml:space="preserve" class="g90s8"><tspan x="963.0" class="g90s2" textLength="33.1" lengthAdjust="spacing">22.3%</tspan></text>
+<text y="4616.5" xml:space="preserve" class="g90s8"><tspan x="1443.0" class="g90s14" textLength="37.3" lengthAdjust="spacing">argmax</tspan></text>
+<line x1="34.0" y1="4626.3" x2="1846.0" y2="4626.3" class="g90s5"/>
+<rect x="34.0" y="4626.3" width="1812.0" height="27.0" rx="0" class="g90s27"/>
+<text y="4643.5" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s2">2</tspan></text>
+<text x="123.0" y="4643.5" class="g90s6">moreover_</text>
+<text y="4643.5" xml:space="preserve" class="g90s8"><tspan x="383.0" class="g90s2" textLength="35.7" lengthAdjust="spacing">0.9222</tspan></text>
+<text y="4643.5" xml:space="preserve" class="g90s8"><tspan x="563.0" class="g90s2" textLength="46.0" lengthAdjust="spacing">0.0151%</tspan></text>
+<text y="4643.5" xml:space="preserve" class="g90s8"><tspan x="963.0" class="g90s2" textLength="33.1" lengthAdjust="spacing">20.4%</tspan></text>
+<line x1="34.0" y1="4653.3" x2="1846.0" y2="4653.3" class="g90s5"/>
+<text y="4670.5" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s2">3</tspan></text>
+<text x="123.0" y="4670.5" class="g90s6">reform</text>
+<text y="4670.5" xml:space="preserve" class="g90s8"><tspan x="383.0" class="g90s2" textLength="35.7" lengthAdjust="spacing">0.8872</tspan></text>
+<text y="4670.5" xml:space="preserve" class="g90s8"><tspan x="563.0" class="g90s2" textLength="46.0" lengthAdjust="spacing">0.0146%</tspan></text>
+<text y="4670.5" xml:space="preserve" class="g90s8"><tspan x="963.0" class="g90s2" textLength="33.1" lengthAdjust="spacing">19.5%</tspan></text>
+<line x1="34.0" y1="4680.3" x2="1846.0" y2="4680.3" class="g90s5"/>
+<rect x="34.0" y="4680.3" width="1812.0" height="27.0" rx="0" class="g90s27"/>
+<text y="4697.5" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s2">4</tspan></text>
+<text x="123.0" y="4697.5" class="g90s6">rationale_</text>
+<text y="4697.5" xml:space="preserve" class="g90s8"><tspan x="383.0" class="g90s2" textLength="35.7" lengthAdjust="spacing">0.8655</tspan></text>
+<text y="4697.5" xml:space="preserve" class="g90s8"><tspan x="563.0" class="g90s2" textLength="46.0" lengthAdjust="spacing">0.0143%</tspan></text>
+<text y="4697.5" xml:space="preserve" class="g90s8"><tspan x="963.0" class="g90s2" textLength="33.1" lengthAdjust="spacing">19.0%</tspan></text>
+<line x1="34.0" y1="4707.3" x2="1846.0" y2="4707.3" class="g90s5"/>
+<text y="4724.5" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s2">5</tspan></text>
+<text x="123.0" y="4724.5" class="g90s6">nings_</text>
+<text y="4724.5" xml:space="preserve" class="g90s8"><tspan x="383.0" class="g90s2" textLength="35.7" lengthAdjust="spacing">0.8580</tspan></text>
+<text y="4724.5" xml:space="preserve" class="g90s8"><tspan x="563.0" class="g90s2" textLength="46.0" lengthAdjust="spacing">0.0142%</tspan></text>
+<text y="4724.5" xml:space="preserve" class="g90s8"><tspan x="963.0" class="g90s2" textLength="33.1" lengthAdjust="spacing">18.8%</tspan></text>
+<line x1="34.0" y1="4734.3" x2="1846.0" y2="4734.3" class="g90s5"/>
+<rect x="34.0" y="4734.3" width="1812.0" height="27.0" rx="0" class="g90s27"/>
+<text y="4751.5" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s2">6</tspan></text>
+<text x="123.0" y="4751.5" class="g90s6">phys</text>
+<text y="4751.5" xml:space="preserve" class="g90s8"><tspan x="383.0" class="g90s2" textLength="35.7" lengthAdjust="spacing">0.8555</tspan></text>
+<text y="4751.5" xml:space="preserve" class="g90s8"><tspan x="563.0" class="g90s2" textLength="46.0" lengthAdjust="spacing">0.0141%</tspan></text>
+<text y="4751.5" xml:space="preserve" class="g90s8"><tspan x="963.0" textLength="56.9" lengthAdjust="spacing">cut by top-k</tspan></text>
+<line x1="34.0" y1="4761.3" x2="1846.0" y2="4761.3" class="g90s5"/>
+<rect x="34.0" y="4599.3" width="1812.0" height="162.0" rx="0" class="g90s69"/>
+<line x1="114.0" y1="4599.3" x2="114.0" y2="4761.3" class="g90s5"/>
+<line x1="374.0" y1="4599.3" x2="374.0" y2="4761.3" class="g90s5"/>
+<line x1="554.0" y1="4599.3" x2="554.0" y2="4761.3" class="g90s5"/>
+<line x1="954.0" y1="4599.3" x2="954.0" y2="4761.3" class="g90s5"/>
+<line x1="1434.0" y1="4599.3" x2="1434.0" y2="4761.3" class="g90s5"/>
+<rect x="34.0" y="4773.3" width="1812.0" height="72.6" rx="6" class="g90s105"/>
+<path d="M38.50 4773.97 A5.50 5.50 0 0 0 34.50 4779.26 V4839.82 A5.50 5.50 0 0 0 38.50 4845.11 Z" class="g90s38"/>
+<text y="4799.3" xml:space="preserve" class="g90s58"><tspan x="50.0" class="g90s3" textLength="176.8" lengthAdjust="spacing">What the untrained model does</tspan></text>
+<text y="4816.8" xml:space="preserve" class="g90s42"><tspan x="50.0" textLength="361.5" lengthAdjust="spacing">The same loop on the real, untrained model. Its best token has only </tspan><tspan x="411.5" class="g90s2" textLength="50.2" lengthAdjust="spacing">0.0162%</tspan><tspan x="461.7" textLength="228.1" lengthAdjust="spacing"> of the probability — barely above an even </tspan><tspan x="689.8" class="g90s2" textLength="49.5" lengthAdjust="spacing">1/16,111</tspan><tspan x="739.4" textLength="1044.9" lengthAdjust="spacing"> — and the same token stays on top at every step, so greedy writes &quot;rences_&quot; over and over. Repetition like this is greedy’s typical failure even in trained models, when one continuation dominates;</tspan></text>
+<text y="4834.3" xml:space="preserve" class="g90s42"><tspan x="50.0" textLength="263.4" lengthAdjust="spacing">sampling breaks it by drawing among the top five.</tspan></text>
+<rect x="34.0" y="4871.8" width="1812.0" height="30.0" rx="6" class="g90s30"/>
+<path d="M38.50 4872.53 A5.50 5.50 0 0 0 34.50 4877.82 V4895.82 A5.50 5.50 0 0 0 38.50 4901.11 Z" class="g90s38"/>
+<text y="4891.8" xml:space="preserve" class="g90s56"><tspan x="50.0" class="g90s3" textLength="213.7" lengthAdjust="spacing">F · Pros, cons, and claims checked</tspan></text>
+<text y="4891.8" xml:space="preserve" class="g90s57"><tspan x="281.7" textLength="106.7" lengthAdjust="spacing">greedy and sampling</tspan></text>
+<rect x="34.0" y="4917.8" width="1812.0" height="24.0" rx="4" class="g90s30"/>
+<text y="4933.8" xml:space="preserve" class="g90s23"><tspan x="263.0" class="g90s3" textLength="18.6" lengthAdjust="spacing">rule</tspan></text>
+<text y="4933.8" xml:space="preserve" class="g90s23"><tspan x="563.0" class="g90s3" textLength="37.1" lengthAdjust="spacing">good at</tspan></text>
+<text y="4933.8" xml:space="preserve" class="g90s23"><tspan x="1203.0" class="g90s3" textLength="26.0" lengthAdjust="spacing">costs</tspan></text>
+<text y="4959.1" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s3" textLength="35.6" lengthAdjust="spacing">greedy</tspan></text>
+<text y="4959.1" xml:space="preserve" class="g90s8"><tspan x="263.0" class="g90s14" textLength="37.3" lengthAdjust="spacing">argmax</tspan><tspan x="300.3" textLength="66.0" lengthAdjust="spacing"> at every step</tspan></text>
+<text y="4959.1" xml:space="preserve" class="g90s8"><tspan x="563.0" textLength="383.3" lengthAdjust="spacing">fast, one pass per step, deterministic; exactly right when the model is confident</tspan></text>
+<text y="4959.1" xml:space="preserve" class="g90s8"><tspan x="1203.0" textLength="338.7" lengthAdjust="spacing">commits at once and never recovers (section C); tends to repeat itself</tspan></text>
+<line x1="34.0" y1="4968.8" x2="1846.0" y2="4968.8" class="g90s5"/>
+<rect x="34.0" y="4968.8" width="1812.0" height="27.0" rx="0" class="g90s27"/>
+<text y="4986.1" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s3" textLength="46.7" lengthAdjust="spacing">sampling</tspan></text>
+<text y="4986.1" xml:space="preserve" class="g90s8"><tspan x="263.0" textLength="147.8" lengthAdjust="spacing">a draw from the top k after ÷ T</tspan></text>
+<text y="4986.1" xml:space="preserve" class="g90s8"><tspan x="563.0" textLength="379.1" lengthAdjust="spacing">varied, natural-sounding text; can wander onto paths greedy would never take</tspan></text>
+<text y="4986.1" xml:space="preserve" class="g90s8"><tspan x="1203.0" textLength="484.8" lengthAdjust="spacing">not reproducible without a seed; lower-probability sentences on average; T too high gives nonsense</tspan></text>
+<line x1="34.0" y1="4995.8" x2="1846.0" y2="4995.8" class="g90s5"/>
+<rect x="34.0" y="4941.8" width="1812.0" height="54.0" rx="0" class="g90s69"/>
+<line x1="254.0" y1="4941.8" x2="254.0" y2="4995.8" class="g90s5"/>
+<line x1="554.0" y1="4941.8" x2="554.0" y2="4995.8" class="g90s5"/>
+<line x1="1194.0" y1="4941.8" x2="1194.0" y2="4995.8" class="g90s5"/>
+<rect x="34.0" y="5019.8" width="1812.0" height="24.0" rx="4" class="g90s30"/>
+<text y="5035.8" xml:space="preserve" class="g90s23"><tspan x="43.0" class="g90s3" textLength="26.0" lengthAdjust="spacing">claim</tspan></text>
+<text y="5035.8" xml:space="preserve" class="g90s23"><tspan x="663.0" class="g90s3" textLength="32.8" lengthAdjust="spacing">verdict</tspan></text>
+<text y="5035.8" xml:space="preserve" class="g90s23"><tspan x="813.0" class="g90s3" textLength="44.5" lengthAdjust="spacing">evidence</tspan></text>
+<text y="5061.1" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s3" textLength="205.3" lengthAdjust="spacing">&quot;Greedy finds the most likely sentence.&quot;</tspan></text>
+<text y="5061.1" xml:space="preserve" class="g90s8"><tspan x="663.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<text y="5061.1" xml:space="preserve" class="g90s8"><tspan x="813.0" textLength="88.6" lengthAdjust="spacing">section C: greedy </tspan><tspan x="901.6" class="g90s14" textLength="62.2" lengthAdjust="spacing">P = 0.0630</tspan><tspan x="963.9" textLength="96.0" lengthAdjust="spacing">, the best sentence </tspan><tspan x="1059.9" class="g90s14" textLength="62.2" lengthAdjust="spacing">P = 0.1344</tspan></text>
+<line x1="34.0" y1="5070.8" x2="1846.0" y2="5070.8" class="g90s5"/>
+<rect x="34.0" y="5070.8" width="1812.0" height="27.0" rx="0" class="g90s27"/>
+<rect x="47.1" y="5078.2" width="36.1" height="13.4" rx="3" class="g90s22"/>
+<text y="5088.1" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s3">&quot;</tspan><tspan x="49.6" class="g90s106" textLength="31.1" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="83.3" class="g90s3" textLength="170.7" lengthAdjust="spacing"> could never be chosen anyway.&quot;</tspan></text>
+<text y="5088.1" xml:space="preserve" class="g90s8"><tspan x="663.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<rect x="1008.9" y="5078.2" width="36.1" height="13.4" rx="3" class="g90s22"/>
+<text y="5088.1" xml:space="preserve" class="g90s8"><tspan x="813.0" class="g90s2" textLength="28.5" lengthAdjust="spacing">row 0</tspan><tspan x="841.5" textLength="121.5" lengthAdjust="spacing">’s raw second choice at </tspan><tspan x="963.0" class="g90s2" textLength="31.8" lengthAdjust="spacing">step 0</tspan><tspan x="994.8" textLength="14.1" lengthAdjust="spacing"> is </tspan><tspan x="1011.4" class="g90s106" textLength="31.1" lengthAdjust="spacing">&lt;SOS&gt;</tspan><tspan x="1045.0" textLength="95.4" lengthAdjust="spacing"> (section B); on the </tspan><tspan x="1140.4" class="g90s14" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1152.8" textLength="74.6" lengthAdjust="spacing"> model it ranks </tspan><tspan x="1227.4" class="g90s2" textLength="13.0" lengthAdjust="spacing">17</tspan><tspan x="1240.4" textLength="15.3" lengthAdjust="spacing"> of </tspan><tspan x="1255.7" class="g90s2" textLength="35.7" lengthAdjust="spacing">16,111</tspan></text>
+<line x1="34.0" y1="5097.8" x2="1846.0" y2="5097.8" class="g90s5"/>
+<text y="5115.1" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s3" textLength="230.6" lengthAdjust="spacing">&quot;A finished sentence stops being computed.&quot;</tspan></text>
+<text y="5115.1" xml:space="preserve" class="g90s8"><tspan x="663.0" textLength="23.2" lengthAdjust="spacing">false</tspan></text>
+<rect x="1208.6" y="5105.2" width="36.1" height="13.4" rx="3" class="g90s65"/>
+<text y="5115.1" xml:space="preserve" class="g90s8"><tspan x="813.0" textLength="177.3" lengthAdjust="spacing">the batch still decodes it every step; </tspan><tspan x="990.3" class="g90s14" textLength="68.5" lengthAdjust="spacing">masked_fill</tspan><tspan x="1058.8" textLength="149.8" lengthAdjust="spacing"> only overwrites its output with </tspan><tspan x="1211.1" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--pad)" textLength="31.1" lengthAdjust="spacing">&lt;PAD&gt;</tspan><tspan x="1244.7"> (</tspan><tspan x="1251.4" class="g90s2" textLength="70.0" lengthAdjust="spacing">steps 2 and 3</tspan><tspan x="1321.4">)</tspan></text>
+<line x1="34.0" y1="5124.8" x2="1846.0" y2="5124.8" class="g90s5"/>
+<rect x="34.0" y="5124.8" width="1812.0" height="27.0" rx="0" class="g90s27"/>
+<text y="5142.1" xml:space="preserve" class="g90s15"><tspan x="43.0" class="g90s3">&quot;</tspan><tspan x="47.1" class="g90s14" textLength="56.0" lengthAdjust="spacing">top_k = 5</tspan><tspan x="103.2" class="g90s3" textLength="154.5" lengthAdjust="spacing"> can never pick a sixth token.&quot;</tspan></text>
+<text y="5142.1" xml:space="preserve" class="g90s8"><tspan x="663.0" textLength="19.0" lengthAdjust="spacing">true</tspan></text>
+<text y="5142.1" xml:space="preserve" class="g90s8"><tspan x="813.0" textLength="271.8" lengthAdjust="spacing">everything below the k-th score becomes −∞ before the </tspan><tspan x="1084.8" class="g90s14" textLength="43.6" lengthAdjust="spacing">softmax</tspan></text>
+<line x1="34.0" y1="5151.8" x2="1846.0" y2="5151.8" class="g90s5"/>
+<rect x="34.0" y="5043.8" width="1812.0" height="108.0" rx="0" class="g90s69"/>
+<line x1="654.0" y1="5043.8" x2="654.0" y2="5151.8" class="g90s5"/>
+<line x1="804.0" y1="5043.8" x2="804.0" y2="5151.8" class="g90s5"/>
+<rect x="34.0" y="5171.8" width="1812.0" height="55.0" rx="6" class="g90s105"/>
+<path d="M38.50 5172.53 A5.50 5.50 0 0 0 34.50 5177.82 V5220.86 A5.50 5.50 0 0 0 38.50 5226.15 Z" class="g90s38"/>
+<text y="5197.8" xml:space="preserve" class="g90s58"><tspan x="50.0" class="g90s3" textLength="275.0" lengthAdjust="spacing">Next: beam search, the recap, and the arithmetic</tspan></text>
+<text y="5215.3" xml:space="preserve" class="g90s42"><tspan x="50.0" textLength="57.4" lengthAdjust="spacing">Deep dive </tspan><tspan x="107.4" class="g90s2">2</tspan><tspan x="114.4" textLength="857.7" lengthAdjust="spacing"> takes beam search apart the same way, on the same table, and ends with a side-by-side recap: greedy against beam search, and when to use which. Deep dive </tspan><tspan x="972.2" class="g90s2">5</tspan><tspan x="979.3" textLength="402.9" lengthAdjust="spacing"> puts all three — greedy, top-k sampling and beam search — on one row of </tspan><tspan x="1382.1" class="g90s31" textLength="40.7" lengthAdjust="spacing">scores</tspan><tspan x="1422.8" textLength="51.4" lengthAdjust="spacing">, with the </tspan><tspan x="1474.2" class="g90s31" textLength="47.5" lengthAdjust="spacing">softmax</tspan><tspan x="1521.7" textLength="219.4" lengthAdjust="spacing"> and the sequence arithmetic worked out.</tspan></text>
+<line x1="28.0" y1="5252.9" x2="1852.0" y2="5252.9" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="5269.9" xml:space="preserve" class="g90s80"><tspan x="28.0" textLength="377.1" lengthAdjust="spacing">Greedy and beam search are traced with the notebook’s own control flow — </tspan><tspan x="405.1" class="g90s14" textLength="124.5" lengthAdjust="spacing">Transformer.generate</tspan><tspan x="529.6" textLength="24.5" lengthAdjust="spacing"> and </tspan><tspan x="554.1" class="g90s14" textLength="143.2" lengthAdjust="spacing">Transformer.beam_search</tspan><tspan x="697.2" textLength="28.1" lengthAdjust="spacing"> from </tspan><tspan x="725.3" class="g90s2" textLength="27.2" lengthAdjust="spacing">cell 2</tspan><tspan x="752.6" textLength="421.9" lengthAdjust="spacing">, ported line for line — driven by a hand-set table of next-token probabilities in place of </tspan><tspan x="1174.4" class="g90s14" textLength="49.8" lengthAdjust="spacing">decode()</tspan><tspan x="1224.2" textLength="306.5" lengthAdjust="spacing">, marked HAND-SET wherever it appears. Everything marked &quot;</tspan><tspan x="1530.7" class="g90s14" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1543.2" textLength="118.2" lengthAdjust="spacing"> model&quot; is the untrained </tspan><tspan x="1661.4" class="g90s14" textLength="12.4" lengthAdjust="spacing">v2</tspan><tspan x="1673.9" textLength="88.0" lengthAdjust="spacing"> network (the real </tspan><tspan x="1761.9" class="g90s2" textLength="68.1" lengthAdjust="spacing">16,111-token</tspan></text>
+<text y="5284.9" xml:space="preserve" class="g90s80"><tspan x="28.0" class="g90s14" textLength="56.0" lengthAdjust="spacing">tokenizer</tspan><tspan x="84.0" textLength="534.3" lengthAdjust="spacing">, seeded initial weights), computed exactly in pure Python. The length penalty is the GNMT formula (Wu et al. </tspan><tspan x="618.4" class="g90s2" textLength="25.9" lengthAdjust="spacing">2016</tspan><tspan x="644.3" textLength="128.4" lengthAdjust="spacing">) as the notebook writes it.</tspan></text>
+</svg>

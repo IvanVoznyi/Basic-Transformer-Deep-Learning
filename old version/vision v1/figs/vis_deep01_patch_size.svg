@@ -1,0 +1,143 @@
+<svg data-src="vis_deep01_patch_size.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1832" viewBox="0 0 1880 1832">
+<style>.txfig .g137s0{font-weight:600;fill:var(--ink)}.txfig .g137s1{fill:var(--ink2);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12px;text-anchor:start}.txfig .g137s2{font-weight:600}.txfig .g137s3{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g137s4{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g137s5{stroke:var(--gridline);stroke-width:1;stroke-linecap:round}.txfig .g137s6{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:end}.txfig .g137s7{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g137s8{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g137s9{fill:var(--ink3);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10px;text-anchor:middle}.txfig .g137s10{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g137s11{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g137s12{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start}.txfig .g137s13{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;text-anchor:start}.txfig .g137s14{fill:var(--accent);stroke:none}.txfig .g137s15{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g137s16{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g137s17{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.2px}.txfig .g137s18{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g137s19{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g137s20{fill:var(--keep);stroke:none}.txfig .g137s21{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g137s22{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}</style>
+<defs><pattern id="hatch137" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash137" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1832" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">VISION v1 · DEEP DIVES · Q1</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="233.6" class="g137s2" textLength="408.3" lengthAdjust="spacing">Patch size: how small should a patch be?</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="436.4" lengthAdjust="spacing">finer patches draw finer outlines — and attention pays for every pair of them</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="301.1" lengthAdjust="spacing">Test (b), people it never saw, trained again with patches of </tspan><tspan x="335.1" class="g137s0" textLength="13.6" lengthAdjust="spacing">16</tspan><tspan x="348.6">, </tspan><tspan x="355.0" class="g137s0" textLength="13.6" lengthAdjust="spacing">12</tspan><tspan x="368.6">, </tspan><tspan x="375.0" class="g137s0">8</tspan><tspan x="381.7">, </tspan><tspan x="388.1" class="g137s0">6</tspan><tspan x="394.9" textLength="235.2" lengthAdjust="spacing"> pixels; everything else as the notebook has it.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="69.0" rx="8" class="g137s19"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V181.00 A7.50 7.50 0 0 0 39.50 188.07 Z" class="g137s20"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g137s2" textLength="232.6" lengthAdjust="spacing">The model sees patches, not pixels</tspan></text>
+<text y="169.0" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="54.0" textLength="124.3" lengthAdjust="spacing">Every patch gets two </tspan><tspan x="178.3" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)" textLength="44.1" lengthAdjust="spacing">scores</tspan><tspan x="222.4" textLength="1321.6" lengthAdjust="spacing">, and the outline between person and background can only be as fine as the patch grid and the stretch allow. Smaller patches give a finer grid — but attention compares every patch with every patch, so halving the patch side gives </tspan><tspan x="1544.0" class="g137s0" textLength="44.4" lengthAdjust="spacing">4 times</tspan><tspan x="1588.5" textLength="99.7" lengthAdjust="spacing"> the patches and </tspan><tspan x="1688.2" class="g137s0" textLength="52.1" lengthAdjust="spacing">16 times</tspan><tspan x="1740.3" textLength="57.1" lengthAdjust="spacing"> the pairs.</tspan></text>
+<rect x="34.0" y="223.0" width="1812.0" height="30.0" rx="6" class="g137s10"/>
+<path d="M38.50 223.71 A5.50 5.50 0 0 0 34.50 229.00 V247.00 A5.50 5.50 0 0 0 38.50 252.29 Z" class="g137s14"/>
+<text y="243.0" xml:space="preserve" class="g137s15"><tspan x="50.0" class="g137s2" textLength="190.7" lengthAdjust="spacing">A · Four patch sizes, measured</tspan></text>
+<text y="243.0" xml:space="preserve" class="g137s11"><tspan x="258.7" textLength="341.4" lengthAdjust="spacing">test (b): the two people at the right of each photo, hidden in training</tspan></text>
+<rect x="34.0" y="279.0" width="1812.0" height="24.0" rx="4" class="g137s10"/>
+<text y="295.0" xml:space="preserve" class="g137s4"><tspan x="43.0" class="g137s2" textLength="27.2" lengthAdjust="spacing">patch</tspan></text>
+<text y="295.0" xml:space="preserve" class="g137s4"><tspan x="293.0" class="g137s2" textLength="39.0" lengthAdjust="spacing">patches</tspan></text>
+<text y="295.0" xml:space="preserve" class="g137s4"><tspan x="503.0" class="g137s2" textLength="120.0" lengthAdjust="spacing">pairs per head and layer</tspan></text>
+<text y="295.0" xml:space="preserve" class="g137s4"><tspan x="763.0" class="g137s2" textLength="56.3" lengthAdjust="spacing">parameters</tspan></text>
+<text y="295.0" xml:space="preserve" class="g137s4"><tspan x="953.0" class="g137s2" textLength="55.1" lengthAdjust="spacing">one picture</tspan></text>
+<text y="295.0" xml:space="preserve" class="g137s4"><tspan x="1123.0" class="g137s2" textLength="36.5" lengthAdjust="spacing">training</tspan></text>
+<text y="295.0" xml:space="preserve" class="g137s4"><tspan x="1293.0" class="g137s2" textLength="37.1" lengthAdjust="spacing">person </tspan><tspan x="1330.1" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:9.9px;font-weight:600;fill:var(--ink2)" textLength="17.8" lengthAdjust="spacing">IoU</tspan></text>
+<text y="295.0" xml:space="preserve" class="g137s4"><tspan x="1493.0" class="g137s2" textLength="91.6" lengthAdjust="spacing">right on the outline</tspan></text>
+<text y="322.1" xml:space="preserve" class="g137s7"><tspan x="43.0" class="g137s0" textLength="43.0" lengthAdjust="spacing">16 × 16</tspan></text>
+<text x="293.0" y="322.1" class="g137s1">12 × 18 = 216</text>
+<text x="503.0" y="322.1" class="g137s1">46,656</text>
+<text x="763.0" y="322.1" class="g137s1">919,682</text>
+<text x="953.0" y="322.1" class="g137s1">2.7 ms</text>
+<text x="1123.0" y="322.1" class="g137s1">356 s</text>
+<text x="1293.0" y="322.1" class="g137s1">71.8%</text>
+<text x="1493.0" y="322.1" class="g137s1">54.2%</text>
+<line x1="34.0" y1="333.0" x2="1846.0" y2="333.0" class="g137s3"/>
+<rect x="34.0" y="333.0" width="1812.0" height="30.0" rx="0" class="g137s21"/>
+<text y="352.1" xml:space="preserve" class="g137s7"><tspan x="43.0" class="g137s0" textLength="43.0" lengthAdjust="spacing">12 × 12</tspan></text>
+<text x="293.0" y="352.1" class="g137s1">16 × 24 = 384</text>
+<text x="503.0" y="352.1" class="g137s1">147,456</text>
+<text x="763.0" y="352.1" class="g137s1">898,178</text>
+<text x="953.0" y="352.1" class="g137s1">2.6 ms</text>
+<text x="1123.0" y="352.1" class="g137s1">400 s</text>
+<text x="1293.0" y="352.1" class="g137s1">77.1%</text>
+<text x="1493.0" y="352.1" class="g137s1">56.2%</text>
+<line x1="34.0" y1="363.0" x2="1846.0" y2="363.0" class="g137s3"/>
+<text y="382.1" xml:space="preserve" class="g137s7"><tspan x="43.0" class="g137s0" textLength="28.8" lengthAdjust="spacing">8 × 8</tspan><tspan x="71.8" class="g137s2" textLength="85.6" lengthAdjust="spacing"> (the notebook)</tspan></text>
+<text x="293.0" y="382.1" class="g137s1">24 × 36 = 864</text>
+<text x="503.0" y="382.1" class="g137s1">746,496</text>
+<text x="763.0" y="382.1" class="g137s1">928,898</text>
+<text x="953.0" y="382.1" class="g137s1">3.5 ms</text>
+<text x="1123.0" y="382.1" class="g137s1">653 s</text>
+<text x="1293.0" y="382.1" class="g137s1">82.2%</text>
+<text x="1493.0" y="382.1" class="g137s1">64.1%</text>
+<line x1="34.0" y1="393.0" x2="1846.0" y2="393.0" class="g137s3"/>
+<rect x="34.0" y="393.0" width="1812.0" height="30.0" rx="0" class="g137s21"/>
+<text y="412.1" xml:space="preserve" class="g137s7"><tspan x="43.0" class="g137s0" textLength="28.8" lengthAdjust="spacing">6 × 6</tspan></text>
+<text x="293.0" y="412.1" class="g137s1">32 × 48 = 1,536</text>
+<text x="503.0" y="412.1" class="g137s1">2,359,296</text>
+<text x="763.0" y="412.1" class="g137s1">1,004,162</text>
+<text x="953.0" y="412.1" class="g137s1">5.7 ms</text>
+<text x="1123.0" y="412.1" class="g137s1">1421 s</text>
+<text x="1293.0" y="412.1" class="g137s1">81.9%</text>
+<text x="1493.0" y="412.1" class="g137s1">66.3%</text>
+<line x1="34.0" y1="423.0" x2="1846.0" y2="423.0" class="g137s3"/>
+<rect x="34.0" y="303.0" width="1812.0" height="120.0" rx="0" class="g137s8"/>
+<line x1="284.0" y1="303.0" x2="284.0" y2="423.0" class="g137s3"/>
+<line x1="494.0" y1="303.0" x2="494.0" y2="423.0" class="g137s3"/>
+<line x1="754.0" y1="303.0" x2="754.0" y2="423.0" class="g137s3"/>
+<line x1="944.0" y1="303.0" x2="944.0" y2="423.0" class="g137s3"/>
+<line x1="1114.0" y1="303.0" x2="1114.0" y2="423.0" class="g137s3"/>
+<line x1="1284.0" y1="303.0" x2="1284.0" y2="423.0" class="g137s3"/>
+<line x1="1484.0" y1="303.0" x2="1484.0" y2="423.0" class="g137s3"/>
+<text y="438.5" xml:space="preserve" class="g137s11"><tspan x="34.0" textLength="759.7" lengthAdjust="spacing">“One picture” is one forward pass on this Mac’s GPU, timed; “training” is the whole training cell. “Right on the outline” is the share of pixels within </tspan><tspan x="793.7" class="g137s0">4</tspan><tspan x="800.5" textLength="475.6" lengthAdjust="spacing"> photo pixels of a traced outline that get the right label — where patches matter most. Person </tspan><tspan x="1276.0" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)" textLength="19.5" lengthAdjust="spacing">IoU</tspan><tspan x="1295.5" textLength="323.5" lengthAdjust="spacing"> and the outline are averaged over the two hidden-people parts.</tspan></text>
+<rect x="34.0" y="465.7" width="1812.0" height="30.0" rx="6" class="g137s10"/>
+<path d="M38.50 466.38 A5.50 5.50 0 0 0 34.50 471.68 V489.68 A5.50 5.50 0 0 0 38.50 494.97 Z" class="g137s14"/>
+<text y="485.7" xml:space="preserve" class="g137s15"><tspan x="50.0" class="g137s2" textLength="259.6" lengthAdjust="spacing">B · The same two people, every patch size</tspan></text>
+<text y="485.7" xml:space="preserve" class="g137s11"><tspan x="327.6" textLength="89.5" lengthAdjust="spacing">the right of photo </tspan><tspan x="417.1" class="g137s0">1</tspan><tspan x="423.9" textLength="118.9" lengthAdjust="spacing">, scored by each model</tspan></text>
+<rect x="34.0" y="525.7" width="12.0" height="12.0" rx="3" style="fill:#8a4bd3;stroke:none;stroke-width:1"/>
+<text x="52.0" y="536.2" class="g137s16">person, found</text>
+<rect x="144.0" y="525.7" width="12.0" height="12.0" rx="3" style="fill:#e67800;stroke:none;stroke-width:1"/>
+<text x="162.0" y="536.2" class="g137s16">person, missed</text>
+<rect x="261.5" y="525.7" width="12.0" height="12.0" rx="3" style="fill:#dc1e3c;stroke:none;stroke-width:1"/>
+<text x="279.5" y="536.2" class="g137s16">background painted as person</text>
+<text x="34.0" y="563.7" class="g137s12">patch 16 · IoU here 74.6%</text>
+<image href="figs/vis_v1_p16.png?v=30c278107c" x="34.0" y="573.7" width="439.5" height="732.5" preserveAspectRatio="none"/>
+<rect x="34.0" y="573.7" width="439.5" height="732.5" rx="0" class="g137s8"/>
+<text x="491.5" y="563.7" class="g137s12">patch 12 · IoU here 79.3%</text>
+<image href="figs/vis_v1_p12.png?v=7671593784" x="491.5" y="573.7" width="439.5" height="732.5" preserveAspectRatio="none"/>
+<rect x="491.5" y="573.7" width="439.5" height="732.5" rx="0" class="g137s8"/>
+<text x="949.0" y="563.7" class="g137s12">patch 8 · IoU here 88.3%</text>
+<image href="figs/vis_v1_p8.png?v=17c3ada63e" x="949.0" y="573.7" width="439.5" height="732.5" preserveAspectRatio="none"/>
+<rect x="949.0" y="573.7" width="439.5" height="732.5" rx="0" class="g137s8"/>
+<text x="1406.5" y="563.7" class="g137s12">patch 6 · IoU here 90.7%</text>
+<image href="figs/vis_v1_p6.png?v=03315c98a1" x="1406.5" y="573.7" width="439.5" height="732.5" preserveAspectRatio="none"/>
+<rect x="1406.5" y="573.7" width="439.5" height="732.5" rx="0" class="g137s8"/>
+<rect x="34.0" y="1328.2" width="1812.0" height="30.0" rx="6" class="g137s10"/>
+<path d="M38.50 1328.88 A5.50 5.50 0 0 0 34.50 1334.17 V1352.17 A5.50 5.50 0 0 0 38.50 1357.47 Z" class="g137s14"/>
+<text y="1348.2" xml:space="preserve" class="g137s15"><tspan x="50.0" class="g137s2" textLength="316.3" lengthAdjust="spacing">C · How the right share grows away from the outline</tspan></text>
+<text y="1348.2" xml:space="preserve" class="g137s11"><tspan x="384.3" textLength="313.8" lengthAdjust="spacing">pixels by their distance from the nearest traced outline, photo </tspan><tspan x="698.1" class="g137s0">1</tspan><tspan x="704.9" textLength="88.1" lengthAdjust="spacing">’s hidden people</tspan></text>
+<line x1="88.0" y1="1622.2" x2="1113.2" y2="1622.2" class="g137s5"/>
+<text x="80.0" y="1626.2" class="g137s6">50%</text>
+<line x1="88.0" y1="1581.0" x2="1113.2" y2="1581.0" class="g137s5"/>
+<text x="80.0" y="1585.0" class="g137s6">60%</text>
+<line x1="88.0" y1="1539.8" x2="1113.2" y2="1539.8" class="g137s5"/>
+<text x="80.0" y="1543.8" class="g137s6">70%</text>
+<line x1="88.0" y1="1498.6" x2="1113.2" y2="1498.6" class="g137s5"/>
+<text x="80.0" y="1502.6" class="g137s6">80%</text>
+<line x1="88.0" y1="1457.4" x2="1113.2" y2="1457.4" class="g137s5"/>
+<text x="80.0" y="1461.4" class="g137s6">90%</text>
+<line x1="88.0" y1="1416.2" x2="1113.2" y2="1416.2" class="g137s5"/>
+<text x="80.0" y="1420.2" class="g137s6">100%</text>
+<text x="88.0" y="1642.2" class="g137s9">0–4 px</text>
+<text x="344.3" y="1642.2" class="g137s9">4–12 px</text>
+<text x="600.6" y="1642.2" class="g137s9">12–28 px</text>
+<text x="856.9" y="1642.2" class="g137s9">28–60 px</text>
+<text x="1113.2" y="1642.2" class="g137s9">60+ px</text>
+<line x1="88.0" y1="1622.2" x2="1113.2" y2="1622.2" style="stroke:var(--grid);stroke-width:1.2;stroke-linecap:round"/>
+<text x="1113.2" y="1660.2" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;text-anchor:end">distance from the nearest outline</text>
+<path d="M88.0 1598.9 L344.3 1559.3 L600.6 1519.1 L856.9 1429.3 L1113.2 1416.2" style="fill:none;stroke:var(--s7);stroke-width:2.2;stroke-linejoin:round"/>
+<path d="M88.0 1598.6 L344.3 1548.1 L600.6 1487.0 L856.9 1428.1 L1113.2 1416.3" style="fill:none;stroke:var(--s6);stroke-width:2.2;stroke-linejoin:round"/>
+<path d="M88.0 1553.2 L344.3 1472.1 L600.6 1440.8 L856.9 1420.7 L1113.2 1416.2" style="fill:none;stroke:var(--seqB);stroke-width:2.2;stroke-linejoin:round"/>
+<path d="M88.0 1533.8 L344.3 1453.8 L600.6 1433.2 L856.9 1419.6 L1113.2 1416.3" style="fill:none;stroke:var(--s2);stroke-width:2.2;stroke-linejoin:round"/>
+<rect x="94.0" y="1394.2" width="14.0" height="4.0" rx="2" style="fill:var(--s7);stroke:none;stroke-width:1"/>
+<text x="114.0" y="1399.2" class="g137s13">patch 16</text>
+<rect x="175.9" y="1394.2" width="14.0" height="4.0" rx="2" style="fill:var(--s6);stroke:none;stroke-width:1"/>
+<text x="195.9" y="1399.2" class="g137s13">patch 12</text>
+<rect x="257.8" y="1394.2" width="14.0" height="4.0" rx="2" style="fill:var(--seqB);stroke:none;stroke-width:1"/>
+<text x="277.8" y="1399.2" class="g137s13">patch 8</text>
+<rect x="333.6" y="1394.2" width="14.0" height="4.0" rx="2" style="fill:var(--s2);stroke:none;stroke-width:1"/>
+<text x="353.6" y="1399.2" class="g137s13">patch 6</text>
+<text y="1438.4" xml:space="preserve" class="g137s17"><tspan x="1151.2" textLength="386.5" lengthAdjust="spacing">Each point is the share of pixels labelled right, among the pixels that lie </tspan><tspan x="1537.7" class="g137s0">0</tspan><tspan x="1544.9">–</tspan><tspan x="1551.0" class="g137s0">4</tspan><tspan x="1558.2" textLength="23.1" lengthAdjust="spacing"> px, </tspan><tspan x="1581.3" class="g137s0">4</tspan><tspan x="1588.4">–</tspan><tspan x="1594.5" class="g137s0" textLength="14.4" lengthAdjust="spacing">12</tspan><tspan x="1608.9" textLength="23.1" lengthAdjust="spacing"> px, </tspan><tspan x="1632.0" class="g137s0" textLength="14.4" lengthAdjust="spacing">12</tspan><tspan x="1646.4">–</tspan><tspan x="1652.5" class="g137s0" textLength="14.4" lengthAdjust="spacing">28</tspan><tspan x="1666.8" textLength="23.1" lengthAdjust="spacing"> px, </tspan><tspan x="1689.9" class="g137s0" textLength="14.4" lengthAdjust="spacing">28</tspan><tspan x="1704.3">–</tspan><tspan x="1710.4" class="g137s0" textLength="14.4" lengthAdjust="spacing">60</tspan><tspan x="1724.8" textLength="23.1" lengthAdjust="spacing"> px, </tspan><tspan x="1747.8" class="g137s0" textLength="14.4" lengthAdjust="spacing">60</tspan><tspan x="1762.2" textLength="71.5" lengthAdjust="spacing">+ px from the</tspan></text>
+<text y="1456.1" xml:space="preserve" class="g137s17"><tspan x="1151.2" textLength="666.6" lengthAdjust="spacing">nearest traced outline. Far from an outline every patch size gets almost every pixel right; the differences are on the outlines,</tspan></text>
+<text y="1473.8" xml:space="preserve" class="g137s17"><tspan x="1151.2" textLength="271.3" lengthAdjust="spacing">where a patch holds both person and background.</tspan></text>
+<rect x="34.0" y="1676.2" width="1812.0" height="72.6" rx="6" class="g137s19"/>
+<path d="M38.50 1676.88 A5.50 5.50 0 0 0 34.50 1682.17 V1742.73 A5.50 5.50 0 0 0 38.50 1748.03 Z" class="g137s20"/>
+<text y="1702.2" xml:space="preserve" class="g137s7"><tspan x="50.0" class="g137s2" textLength="127.3" lengthAdjust="spacing">What the numbers say</tspan></text>
+<text y="1719.7" xml:space="preserve" class="g137s22"><tspan x="50.0" textLength="31.3" lengthAdjust="spacing">From </tspan><tspan x="81.3" class="g137s0" textLength="14.1" lengthAdjust="spacing">16</tspan><tspan x="95.5" textLength="48.7" lengthAdjust="spacing"> down to </tspan><tspan x="144.2" class="g137s0">6</tspan><tspan x="151.2" textLength="151.4" lengthAdjust="spacing"> pixels the four sizes scored </tspan><tspan x="302.6" class="g137s0" textLength="36.1" lengthAdjust="spacing">71.8%</tspan><tspan x="338.7">, </tspan><tspan x="345.4" class="g137s0" textLength="36.1" lengthAdjust="spacing">77.1%</tspan><tspan x="381.4">, </tspan><tspan x="388.1" class="g137s0" textLength="36.1" lengthAdjust="spacing">82.2%</tspan><tspan x="424.2">, </tspan><tspan x="430.8" class="g137s0" textLength="36.1" lengthAdjust="spacing">81.9%</tspan><tspan x="466.9" textLength="96.6" lengthAdjust="spacing">. The notebook’s </tspan><tspan x="563.5" class="g137s0" textLength="37.5" lengthAdjust="spacing">8-pixel</tspan><tspan x="600.9" textLength="279.5" lengthAdjust="spacing"> patches are the best of the four here; going finer, to </tspan><tspan x="880.5" class="g137s0">6</tspan><tspan x="887.5" textLength="80.0" lengthAdjust="spacing"> pixels, scored </tspan><tspan x="967.6" class="g137s0" textLength="36.1" lengthAdjust="spacing">81.9%</tspan><tspan x="1003.6" textLength="24.0" lengthAdjust="spacing">, for </tspan><tspan x="1027.6" class="g137s0" textLength="17.7" lengthAdjust="spacing">3.2</tspan><tspan x="1045.3" textLength="149.3" lengthAdjust="spacing"> × the pairs of attention and </tspan><tspan x="1194.6" class="g137s0" textLength="17.7" lengthAdjust="spacing">2.2</tspan><tspan x="1212.3" textLength="611.5" lengthAdjust="spacing"> × the training time. Each size is one training run, so a gap of a point or two can also be chance. The patch size is a</tspan></text>
+<text y="1737.2" xml:space="preserve" class="g137s22"><tspan x="50.0" textLength="400.9" lengthAdjust="spacing">trade between detail and cost, and only a measurement says where it pays.</tspan></text>
+<line x1="28.0" y1="1774.7" x2="1852.0" y2="1774.7" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1791.7" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px"><tspan x="28.0" textLength="461.6" lengthAdjust="spacing">Numbers, always labelled. Everything on this page comes from the vision notebook (written by </tspan><tspan x="489.6" class="g137s18" textLength="49.8" lengthAdjust="spacing">nbvis.py</tspan><tspan x="539.4" textLength="265.9" lengthAdjust="spacing">; your notebooks are only read) run here with PyTorch </tspan><tspan x="805.3" class="g137s0" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="821.5" textLength="304.3" lengthAdjust="spacing">.0 on this Mac’s GPU — trained again with one line changed (</tspan><tspan x="1125.9" class="g137s18" textLength="56.0" lengthAdjust="spacing">expvis.py</tspan><tspan x="1181.9" textLength="108.8" lengthAdjust="spacing">) — and measured by </tspan><tspan x="1290.7" class="g137s18" textLength="62.2" lengthAdjust="spacing">deepvis.py</tspan><tspan x="1353.0" textLength="165.1" lengthAdjust="spacing">. Each number is one training run.</tspan></text>
+</svg>

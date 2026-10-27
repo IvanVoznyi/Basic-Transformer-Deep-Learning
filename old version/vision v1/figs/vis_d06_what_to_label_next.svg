@@ -1,0 +1,94 @@
+<svg data-src="vis_d06_what_to_label_next.svg" xmlns="http://www.w3.org/2000/svg" class="txfig" data-w="1880" data-h="1558" viewBox="0 0 1880 1558">
+<style>.txfig .g135s0{font-weight:600}.txfig .g135s1{font-weight:600;fill:var(--ink)}.txfig .g135s2{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px}.txfig .g135s3{stroke:var(--gridline);stroke-width:0.9;stroke-linecap:round}.txfig .g135s4{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600}.txfig .g135s5{fill:var(--thead);stroke:var(--panelbd);stroke-width:1}.txfig .g135s6{fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px}.txfig .g135s7{fill:var(--accent);stroke:none}.txfig .g135s8{fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600}.txfig .g135s9{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.8px;font-weight:600;fill:var(--ink)}.txfig .g135s10{fill:none;stroke:var(--panelbd);stroke-width:1}.txfig .g135s11{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;text-anchor:start}.txfig .g135s12{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px;text-anchor:start}.txfig .g135s13{fill:var(--soft);stroke:var(--hair);stroke-width:0.6}.txfig .g135s14{fill:var(--ink);font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.5px;font-weight:600;text-anchor:end}.txfig .g135s15{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:600}.txfig .g135s16{fill:var(--zebra);stroke:none;stroke-width:1}.txfig .g135s17{font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:10.3px;font-weight:600;fill:var(--ink)}.txfig .g135s18{fill:var(--keybg);stroke:var(--keybd);stroke-width:1}.txfig .g135s19{fill:var(--keep);stroke:none}.txfig .g135s20{fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12.2px}.txfig .g135s21{fill:var(--s7);stroke:none;stroke-width:1}</style>
+<defs><pattern id="hatch135" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" style="fill:var(--hatchbg)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--hatchln);stroke-width:2.4"/></pattern><pattern id="slash135" width="7" height="7" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" style="fill:var(--slashbg)"/><line x1="0" y1="0" x2="0" y2="7" style="stroke:var(--slashln);stroke-width:2.2"/></pattern></defs>
+<rect width="1880" height="1558" style="fill:var(--bg)"/>
+<rect x="0.0" y="0.0" width="1880.0" height="96.0" rx="0" style="fill:var(--hdbg);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="93.0" width="1880.0" height="1.0" rx="0" style="fill:var(--hdedge);stroke:none;stroke-width:1"/>
+<rect x="0.0" y="94.0" width="1880.0" height="3.0" rx="0" style="fill:var(--accent);stroke:none;stroke-width:1"/>
+<text x="34.0" y="40.0" style="fill:var(--hdtag);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;font-weight:600;text-anchor:start">VISION v1 · BUILDING A BIGGER DATASET · D6</text>
+<text y="40.0" xml:space="preserve" style="fill:var(--hdfg);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;font-weight:600"><tspan x="348.3" class="g135s0" textLength="178.2" lengthAdjust="spacing">What to label next</tspan></text>
+<text y="66.0" xml:space="preserve" style="fill:var(--hdsub);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="34.0" textLength="480.5" lengthAdjust="spacing">where the model is unsure, where it is wrong, and which photos would teach it most</tspan></text>
+<text y="85.0" xml:space="preserve" style="fill:var(--hddim);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11.5px"><tspan x="34.0" textLength="504.2" lengthAdjust="spacing">A person’s time is the expensive part. Active learning: let the model point at what it does not know.</tspan></text>
+<rect x="34.0" y="120.0" width="1812.0" height="69.0" rx="8" class="g135s18"/>
+<path d="M39.50 120.93 A7.50 7.50 0 0 0 34.50 128.00 V181.00 A7.50 7.50 0 0 0 39.50 188.07 Z" class="g135s19"/>
+<text y="147.0" xml:space="preserve" style="fill:var(--ink);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:600"><tspan x="54.0" class="g135s0" textLength="456.2" lengthAdjust="spacing">Label the photos the model gets wrong, not the ones it already knows</tspan></text>
+<text y="169.0" xml:space="preserve" style="fill:var(--ink2);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px"><tspan x="54.0" textLength="1418.4" lengthAdjust="spacing">A third photo of seven people in a row against a white wall would teach this model little. The photos worth labelling are the ones it fails on. Two ways to find them without labels: where the model is unsure, and what kinds of scene it has never seen.</tspan></text>
+<rect x="34.0" y="223.0" width="1812.0" height="30.0" rx="6" class="g135s5"/>
+<path d="M38.50 223.71 A5.50 5.50 0 0 0 34.50 229.00 V247.00 A5.50 5.50 0 0 0 38.50 252.29 Z" class="g135s7"/>
+<text y="243.0" xml:space="preserve" class="g135s8"><tspan x="50.0" class="g135s0" textLength="88.1" lengthAdjust="spacing">A · Where the </tspan><tspan x="138.1" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:12.2px;font-weight:600;fill:var(--ink)" textLength="58.9" lengthAdjust="spacing">test-(a)</tspan><tspan x="196.9" class="g135s0" textLength="162.4" lengthAdjust="spacing"> model is unsure on photo </tspan><tspan x="359.3" class="g135s1">2</tspan></text>
+<text y="243.0" xml:space="preserve" class="g135s6"><tspan x="385.0" textLength="180.8" lengthAdjust="spacing">entropy of each pixel’s probability: </tspan><tspan x="565.7" class="g135s9" textLength="71.6" lengthAdjust="spacing">red = close</tspan><tspan x="637.3" textLength="16.0" lengthAdjust="spacing"> to </tspan><tspan x="653.3" class="g135s1" textLength="30.5" lengthAdjust="spacing">50/50</tspan><tspan x="683.8">, </tspan><tspan x="690.2" class="g135s9" textLength="78.1" lengthAdjust="spacing">faded = sure</tspan></text>
+<image href="figs/vis_m_unsure.png?v=c81423e429" x="34.0" y="283.0" width="894.0" height="596.0" preserveAspectRatio="none"/>
+<rect x="34.0" y="283.0" width="894.0" height="596.0" rx="0" class="g135s10"/>
+<image href="figs/vis_photo_2.jpg?v=0e0316af0c" x="952.0" y="283.0" width="894.0" height="596.0" preserveAspectRatio="none"/>
+<image href="figs/vis_m_err_a_2.png?v=92f35ba640" x="952.0" y="283.0" width="894.0" height="596.0" preserveAspectRatio="none"/>
+<rect x="952.0" y="283.0" width="894.0" height="596.0" rx="0" class="g135s10"/>
+<rect x="952.0" y="889.0" width="12.0" height="12.0" rx="3" style="fill:#8a4bd3;stroke:none;stroke-width:1"/>
+<text x="970.0" y="899.5" class="g135s11">person, found</text>
+<rect x="1062.0" y="889.0" width="12.0" height="12.0" rx="3" style="fill:#e67800;stroke:none;stroke-width:1"/>
+<text x="1080.0" y="899.5" class="g135s11">person, missed</text>
+<rect x="1179.5" y="889.0" width="12.0" height="12.0" rx="3" style="fill:#dc1e3c;stroke:none;stroke-width:1"/>
+<text x="1197.5" y="899.5" class="g135s11">background painted as person</text>
+<text y="931.2" xml:space="preserve" class="g135s20"><tspan x="34.0" textLength="684.9" lengthAdjust="spacing">Left: how unsure; right: what is actually wrong. The model is unsure along the outlines — wrong pixels have a mean entropy of </tspan><tspan x="718.9" class="g135s1" textLength="32.4" lengthAdjust="spacing">0.251</tspan><tspan x="751.2" textLength="68.5" lengthAdjust="spacing"> bits against </tspan><tspan x="819.7" class="g135s1" textLength="32.4" lengthAdjust="spacing">0.148</tspan><tspan x="852.1" textLength="425.1" lengthAdjust="spacing"> for right ones — but most of its mistakes are on the wall, where it is sure: only </tspan><tspan x="1277.2" class="g135s1" textLength="36.7" lengthAdjust="spacing">15.4%</tspan><tspan x="1313.9" textLength="190.6" lengthAdjust="spacing"> of the wrong pixels are among the </tspan><tspan x="1504.4" class="g135s1" textLength="25.9" lengthAdjust="spacing">10%</tspan><tspan x="1530.3" textLength="307.8" lengthAdjust="spacing"> it is least sure of. Uncertainty finds hard edges; it misses</tspan></text>
+<text y="948.9" xml:space="preserve" class="g135s20"><tspan x="34.0" textLength="260.4" lengthAdjust="spacing">whole kinds of scene the model has never seen.</tspan></text>
+<rect x="34.0" y="972.4" width="1812.0" height="30.0" rx="6" class="g135s5"/>
+<path d="M38.50 973.09 A5.50 5.50 0 0 0 34.50 978.38 V996.38 A5.50 5.50 0 0 0 38.50 1001.67 Z" class="g135s7"/>
+<text y="992.4" xml:space="preserve" class="g135s8"><tspan x="50.0" class="g135s0" textLength="211.4" lengthAdjust="spacing">B · What the mistakes are made of</tspan></text>
+<text y="992.4" xml:space="preserve" class="g135s6"><tspan x="279.4" textLength="74.2" lengthAdjust="spacing">test (a), photo </tspan><tspan x="353.5" class="g135s1">2</tspan><tspan x="360.3" textLength="134.2" lengthAdjust="spacing">: every wrong pixel, sorted</tspan></text>
+<text x="34.0" y="1046.4" class="g135s12">person pixels missed</text>
+<rect x="364.0" y="1032.4" width="1392.0" height="18.0" rx="3" class="g135s13"/>
+<rect x="364.0" y="1032.4" width="357.7" height="18.0" rx="3" style="fill:var(--s6);stroke:none;stroke-width:1"/>
+<text x="1846.0" y="1046.4" class="g135s14">131,175</text>
+<text x="34.0" y="1074.4" class="g135s12">wall painted as person</text>
+<rect x="364.0" y="1060.4" width="1392.0" height="18.0" rx="3" class="g135s13"/>
+<rect x="364.0" y="1060.4" width="1392.0" height="18.0" rx="3" class="g135s21"/>
+<text x="1846.0" y="1074.4" class="g135s14">510,538</text>
+<text x="34.0" y="1102.4" class="g135s12">floor painted as person</text>
+<rect x="364.0" y="1088.4" width="1392.0" height="18.0" rx="3" class="g135s13"/>
+<rect x="364.0" y="1088.4" width="387.4" height="18.0" rx="3" class="g135s21"/>
+<text x="1846.0" y="1102.4" class="g135s14">142,089</text>
+<text y="1133.9" xml:space="preserve" class="g135s6"><tspan x="34.0" textLength="129.7" lengthAdjust="spacing">Wall and floor are split at </tspan><tspan x="163.7" class="g135s9" textLength="52.1" lengthAdjust="spacing">y = 1213</tspan><tspan x="215.8" textLength="456.4" lengthAdjust="spacing">, where the floor starts (the biggest brightness step down a strip of wall nobody stands in).</tspan></text>
+<rect x="34.0" y="1157.1" width="1812.0" height="30.0" rx="6" class="g135s5"/>
+<path d="M38.50 1157.76 A5.50 5.50 0 0 0 34.50 1163.06 V1181.06 A5.50 5.50 0 0 0 38.50 1186.35 Z" class="g135s7"/>
+<text y="1177.1" xml:space="preserve" class="g135s8"><tspan x="50.0" class="g135s0" textLength="226.7" lengthAdjust="spacing">C · Which photos would teach it most</tspan></text>
+<text y="1177.1" xml:space="preserve" class="g135s6"><tspan x="294.7" textLength="164.3" lengthAdjust="spacing">what the two photos never show</tspan></text>
+<rect x="34.0" y="1213.1" width="1812.0" height="24.0" rx="4" class="g135s5"/>
+<text y="1229.1" xml:space="preserve" class="g135s15"><tspan x="43.0" class="g135s0" textLength="23.5" lengthAdjust="spacing">what</tspan></text>
+<text y="1229.1" xml:space="preserve" class="g135s15"><tspan x="343.0" class="g135s0" textLength="47.6" lengthAdjust="spacing">examples</tspan></text>
+<text y="1229.1" xml:space="preserve" class="g135s15"><tspan x="1163.0" class="g135s0" textLength="154.6" lengthAdjust="spacing">why — from the measurements</tspan></text>
+<text y="1256.1" xml:space="preserve" class="g135s4"><tspan x="43.0" class="g135s0" textLength="105.3" lengthAdjust="spacing">other backgrounds</tspan></text>
+<text y="1256.1" xml:space="preserve" class="g135s2"><tspan x="343.0" textLength="282.1" lengthAdjust="spacing">grey, coloured, patterned walls; rooms; streets; parks</tspan></text>
+<text y="1256.1" xml:space="preserve" class="g135s2"><tspan x="1163.0" textLength="277.4" lengthAdjust="spacing">test (a): wall painted as person is its biggest mistake</tspan></text>
+<line x1="34.0" y1="1267.1" x2="1846.0" y2="1267.1" class="g135s3"/>
+<rect x="34.0" y="1267.1" width="1812.0" height="30.0" rx="0" class="g135s16"/>
+<text y="1286.1" xml:space="preserve" class="g135s4"><tspan x="43.0" class="g135s0" textLength="72.8" lengthAdjust="spacing">other clothes</tspan></text>
+<text y="1286.1" xml:space="preserve" class="g135s2"><tspan x="343.0" textLength="220.8" lengthAdjust="spacing">clothes the colour of the wall behind them</tspan></text>
+<text y="1286.1" xml:space="preserve" class="g135s2"><tspan x="1163.0" textLength="190.7" lengthAdjust="spacing">the light grey sweaters were missed</tspan></text>
+<line x1="34.0" y1="1297.1" x2="1846.0" y2="1297.1" class="g135s3"/>
+<text y="1316.1" xml:space="preserve" class="g135s4"><tspan x="43.0" class="g135s0" textLength="66.5" lengthAdjust="spacing">other poses</tspan></text>
+<text y="1316.1" xml:space="preserve" class="g135s2"><tspan x="343.0" textLength="266.1" lengthAdjust="spacing">sitting, walking, from behind, arms raised, children</tspan></text>
+<text y="1316.1" xml:space="preserve" class="g135s2"><tspan x="1163.0" textLength="15.3" lengthAdjust="spacing">all </tspan><tspan x="1178.3" class="g135s1" textLength="14.1" lengthAdjust="spacing">14</tspan><tspan x="1192.5" textLength="117.4" lengthAdjust="spacing"> people stand in a row</tspan></text>
+<line x1="34.0" y1="1327.1" x2="1846.0" y2="1327.1" class="g135s3"/>
+<rect x="34.0" y="1327.1" width="1812.0" height="30.0" rx="0" class="g135s16"/>
+<text y="1346.1" xml:space="preserve" class="g135s4"><tspan x="43.0" class="g135s0" textLength="61.5" lengthAdjust="spacing">other sizes</tspan></text>
+<text y="1346.1" xml:space="preserve" class="g135s2"><tspan x="343.0" textLength="260.1" lengthAdjust="spacing">far away and small, close and cut off by the edge</tspan></text>
+<text y="1346.1" xml:space="preserve" class="g135s2"><tspan x="1163.0" textLength="96.7" lengthAdjust="spacing">zoom covers only </tspan><tspan x="1259.7" class="g135s1" textLength="17.7" lengthAdjust="spacing">0.5</tspan><tspan x="1277.4">–</tspan><tspan x="1283.4" class="g135s1" textLength="17.7" lengthAdjust="spacing">1.5</tspan><tspan x="1301.1"> ×</tspan></text>
+<line x1="34.0" y1="1357.1" x2="1846.0" y2="1357.1" class="g135s3"/>
+<text y="1376.1" xml:space="preserve" class="g135s4"><tspan x="43.0" class="g135s0" textLength="96.2" lengthAdjust="spacing">crowds and gaps</tspan></text>
+<text y="1376.1" xml:space="preserve" class="g135s2"><tspan x="343.0" textLength="257.5" lengthAdjust="spacing">people overlapping, people alone, empty scenes</tspan></text>
+<text y="1376.1" xml:space="preserve" class="g135s2"><tspan x="1163.0" textLength="221.2" lengthAdjust="spacing">an empty scene teaches “no person” too</tspan></text>
+<line x1="34.0" y1="1387.1" x2="1846.0" y2="1387.1" class="g135s3"/>
+<rect x="34.0" y="1387.1" width="1812.0" height="30.0" rx="0" class="g135s16"/>
+<text y="1406.1" xml:space="preserve" class="g135s4"><tspan x="43.0" class="g135s0" textLength="55.9" lengthAdjust="spacing">other light</tspan></text>
+<text y="1406.1" xml:space="preserve" class="g135s2"><tspan x="343.0" textLength="278.1" lengthAdjust="spacing">daylight, dark rooms, strong shadows, phone photos</tspan></text>
+<text y="1406.1" xml:space="preserve" class="g135s2"><tspan x="1163.0" textLength="163.4" lengthAdjust="spacing">colour jitter imitates only a little</tspan></text>
+<line x1="34.0" y1="1417.1" x2="1846.0" y2="1417.1" class="g135s3"/>
+<rect x="34.0" y="1237.1" width="1812.0" height="180.0" rx="0" class="g135s10"/>
+<line x1="334.0" y1="1237.1" x2="334.0" y2="1417.1" class="g135s3"/>
+<line x1="1154.0" y1="1237.1" x2="1154.0" y2="1417.1" class="g135s3"/>
+<rect x="34.0" y="1419.1" width="1812.0" height="55.0" rx="6" class="g135s18"/>
+<path d="M38.50 1419.76 A5.50 5.50 0 0 0 34.50 1425.06 V1468.10 A5.50 5.50 0 0 0 38.50 1473.39 Z" class="g135s19"/>
+<text y="1445.1" xml:space="preserve" class="g135s4"><tspan x="50.0" class="g135s0" textLength="113.8" lengthAdjust="spacing">Where to label them</tspan></text>
+<text y="1462.6" xml:space="preserve" class="g135s2"><tspan x="50.0" textLength="340.2" lengthAdjust="spacing">Photos like these go into the notebook through its labelling tool (</tspan><tspan x="390.2" class="g135s1" textLength="29.7" lengthAdjust="spacing">cell 3</tspan><tspan x="419.9" textLength="459.8" lengthAdjust="spacing">): Add photos…, trace the people, and mark a few photos test so that SPLIT = &quot;labels&quot; </tspan><tspan x="879.6" style="font-family:'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;font-size:11.3px;font-weight:600;fill:var(--ink)" textLength="40.7" lengthAdjust="spacing">scores</tspan><tspan x="920.4" textLength="360.2" lengthAdjust="spacing"> the model on photos it never learned from — a test (a) of your own.</tspan></text>
+<line x1="28.0" y1="1500.1" x2="1852.0" y2="1500.1" style="stroke:var(--hair);stroke-width:1;stroke-linecap:round"/>
+<text y="1517.1" xml:space="preserve" style="fill:var(--ink3);font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px"><tspan x="28.0" textLength="542.3" lengthAdjust="spacing">Numbers, always labelled. Everything on this page is computed here from the two photos, their traced outlines (</tspan><tspan x="570.3" class="g135s17" textLength="68.5" lengthAdjust="spacing">labelvis.py</tspan><tspan x="638.8" textLength="211.5" lengthAdjust="spacing">) and the vision notebook run with PyTorch </tspan><tspan x="850.3" class="g135s1" textLength="16.2" lengthAdjust="spacing">2.8</tspan><tspan x="866.5" textLength="33.6" lengthAdjust="spacing">.0, the </tspan><tspan x="900.1" class="g135s17" textLength="49.8" lengthAdjust="spacing">test-(a)</tspan><tspan x="949.9" textLength="118.0" lengthAdjust="spacing"> model scored on photo </tspan><tspan x="1068.0" class="g135s1">2</tspan><tspan x="1074.4" textLength="17.7" lengthAdjust="spacing"> by </tspan><tspan x="1092.2" class="g135s17" textLength="80.9" lengthAdjust="spacing">measurevis.py</tspan><tspan x="1173.1">.</tspan></text>
+</svg>
